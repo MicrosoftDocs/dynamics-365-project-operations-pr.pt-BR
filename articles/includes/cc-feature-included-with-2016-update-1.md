@@ -1,0 +1,1 @@
+Este recurso é compatível com o Dynamics CRM Online 2016 Update 1. Tem interesse em obter este recurso? [Localize seu administrador ou contato de suporte do Dynamics 365](../basics/find-administrator-support.md)
