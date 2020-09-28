@@ -73,7 +73,7 @@
 ## [Reconciliar reservas e atribuições](reconcile-booking-assignment.md)
 ## [Home page de gerenciamento de recursos](resource-management-home-page.md)
 ### [Gerenciar recursos](manage-resources.md)
-### [Principais conceitos](reports-key-concepts.md)
+### [Conceitos principais](reports-key-concepts.md)
 ### [Atendendo a solicitações de recursos](resource-management-fulfill-requests.md)
 ### [Propondo recursos](resource-management-propose-resources.md)
 ### [Reservando recursos](resource-management-book-resources-scheduleboard.md)
