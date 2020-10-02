@@ -1,0 +1,55 @@
+---
+title: Configurar criação de fatura automatizada
+description: Este tópico fornece informações sobre como configurar o sistema para gerar faturas automaticamente.
+author: rumant
+manager: AnnBe
+ms.date: 09/18/2020
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-365-customerservice
+ms.technology: ''
+audience: Application User
+ms.reviewer: kfend
+ms.search.scope: ''
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: suvaidya
+ms.dyn365.ops.version: ''
+ms.search.validFrom: 2020-10-01
+ms.openlocfilehash: 764fd4568619e4f5676ee3cbf7fce14ffb069548
+ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "3898112"
+---
+# <a name="configure-automated-invoice-creation"></a><span data-ttu-id="95967-103">Configurar criação de fatura automatizada</span><span class="sxs-lookup"><span data-stu-id="95967-103">Configure automated invoice creation</span></span>
+
+<span data-ttu-id="95967-104">_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_</span><span class="sxs-lookup"><span data-stu-id="95967-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="95967-105">Conclua as etapas a seguir para configurar uma fatura automatizada executada no Project Operations.</span><span class="sxs-lookup"><span data-stu-id="95967-105">Complete the following steps to configure an automated invoice run in Project operations.</span></span>
+
+1. <span data-ttu-id="95967-106">Vá para **Configurações** \> **Trabalhos em lote**.</span><span class="sxs-lookup"><span data-stu-id="95967-106">Go to **Settings** \> **Batch jobs**.</span></span>
+2. <span data-ttu-id="95967-107">Crie um trabalho em lote e denomine-o **Faturas de criação do Project Operations**.</span><span class="sxs-lookup"><span data-stu-id="95967-107">Create a batch job, and name it **Project operations create invoices**.</span></span> <span data-ttu-id="95967-108">O nome do trabalho em lote deve incluir o termo "criar faturas".</span><span class="sxs-lookup"><span data-stu-id="95967-108">The name of the batch job must include the term "create invoices."</span></span>
+3. <span data-ttu-id="95967-109">No campo **Tipo de trabalho**, selecione **Nenhum**.</span><span class="sxs-lookup"><span data-stu-id="95967-109">In the **Job type** field, select **None**.</span></span> <span data-ttu-id="95967-110">Por padrão, as opções **Frequência Diária** e **Está Ativo** são definidas como **Sim**.</span><span class="sxs-lookup"><span data-stu-id="95967-110">By default, the **Frequency Daily** and **Is Active** options are set to **Yes**.</span></span>
+4. <span data-ttu-id="95967-111">Selecione **Executar Fluxo de Trabalho**.</span><span class="sxs-lookup"><span data-stu-id="95967-111">Select **Run Workflow**.</span></span> <span data-ttu-id="95967-112">Na caixa de diálogo **Pesquisar Registro**, você verá três fluxos de trabalho:</span><span class="sxs-lookup"><span data-stu-id="95967-112">In the **Look Up Record** dialog box, you will see three workflows:</span></span>
+
+    - <span data-ttu-id="95967-113">ProcessRunCaller</span><span class="sxs-lookup"><span data-stu-id="95967-113">ProcessRunCaller</span></span>
+    - <span data-ttu-id="95967-114">ProcessRunner</span><span class="sxs-lookup"><span data-stu-id="95967-114">ProcessRunner</span></span>
+    - <span data-ttu-id="95967-115">UpdateRoleUtilization</span><span class="sxs-lookup"><span data-stu-id="95967-115">UpdateRoleUtilization</span></span>
+
+5. <span data-ttu-id="95967-116">Selecione **ProcessRunCaller** e selecione **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="95967-116">Select **ProcessRunCaller**, and then select **Add**.</span></span>
+6. <span data-ttu-id="95967-117">Na próxima caixa de diálogo, selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="95967-117">In the next dialog box, select **OK**.</span></span> <span data-ttu-id="95967-118">Um fluxo de trabalho **Suspender** é seguido por um fluxo de trabalho **Processar**.</span><span class="sxs-lookup"><span data-stu-id="95967-118">A **Sleep** workflow is followed by a **Process** workflow.</span></span>
+
+    <span data-ttu-id="95967-119">Também é possível selecionar **ProcessRunner** na etapa 5.</span><span class="sxs-lookup"><span data-stu-id="95967-119">You can also select **ProcessRunner** in step 5.</span></span> <span data-ttu-id="95967-120">Em seguida, quando você selecionar **OK**, um fluxo de trabalho **Processar** é seguido por um fluxo de trabalho **Suspender**.</span><span class="sxs-lookup"><span data-stu-id="95967-120">Then, when you select **OK**, a **Process** workflow is followed by a **Sleep** workflow.</span></span>
+
+<span data-ttu-id="95967-121">Os fluxos de trabalho **ProcessRunCaller** e **ProcessRunner** criam faturas.</span><span class="sxs-lookup"><span data-stu-id="95967-121">The **ProcessRunCaller** and **ProcessRunner** workflows create invoices.</span></span> <span data-ttu-id="95967-122">**ProcessRunCaller** chama **ProcessRunner**.</span><span class="sxs-lookup"><span data-stu-id="95967-122">**ProcessRunCaller** calls **ProcessRunner**.</span></span> <span data-ttu-id="95967-123">**ProcessRunner** é o fluxo de trabalho que de fato cria as faturas.</span><span class="sxs-lookup"><span data-stu-id="95967-123">**ProcessRunner** is the workflow that actually creates the invoices.</span></span> <span data-ttu-id="95967-124">Ele passa por todas as linhas de contrato para as quais as faturas devem ser criadas e cria faturas para essas linhas.</span><span class="sxs-lookup"><span data-stu-id="95967-124">It goes through all the contract lines that invoices must be created for, and it creates invoices for those lines.</span></span> <span data-ttu-id="95967-125">A fim de determinar as linhas de contrato para as quais as faturas devem ser criadas, o trabalho examina as datas de execução de fatura das linhas de contrato.</span><span class="sxs-lookup"><span data-stu-id="95967-125">To determine the contract lines that invoices must be created for, the job looks at invoice run dates for the contract lines.</span></span> <span data-ttu-id="95967-126">Se as linhas de contrato que pertencem a um contrato tiverem a mesma data de execução de fatura, as transações serão combinadas em uma fatura que tenha duas linhas de fatura.</span><span class="sxs-lookup"><span data-stu-id="95967-126">If contract lines that belong to one contract have the same invoice run date, the transactions are combined into one invoice that has two invoice lines.</span></span> <span data-ttu-id="95967-127">Se não houver transações para as quais criar faturas, o trabalho pulará a etapa de criação de fatura.</span><span class="sxs-lookup"><span data-stu-id="95967-127">If there are no transactions to create invoices for, the job skips invoice creation.</span></span>
+
+<span data-ttu-id="95967-128">Quando **ProcessRunner** termina de ser executado, ele chama **ProcessRunCaller**, fornece a hora de término e é fechado.</span><span class="sxs-lookup"><span data-stu-id="95967-128">After **ProcessRunner** has finished running, it calls **ProcessRunCaller**, provides the end time, and is closed.</span></span> <span data-ttu-id="95967-129">**ProcessRunCaller** então inicia um timer que é executado por 24 horas a partir da hora de término especificada.</span><span class="sxs-lookup"><span data-stu-id="95967-129">**ProcessRunCaller** then starts a timer that runs for 24 hours from the specified end time.</span></span> <span data-ttu-id="95967-130">Ao fim do timer, **ProcessRunCaller** é fechado.</span><span class="sxs-lookup"><span data-stu-id="95967-130">At the end of the timer, **ProcessRunCaller** is closed.</span></span>
+
+<span data-ttu-id="95967-131">O trabalho do processo em lote para criação de faturas é um trabalho recorrente.</span><span class="sxs-lookup"><span data-stu-id="95967-131">The batch process job for creating invoices is a recurrent job.</span></span> <span data-ttu-id="95967-132">Se esse processo em lote for executado muitas vezes, várias instâncias do trabalho serão criadas e causarão erros.</span><span class="sxs-lookup"><span data-stu-id="95967-132">If this batch process is run many times, multiple instances of the job are created and cause errors.</span></span> <span data-ttu-id="95967-133">Portanto, você deve iniciar o processo em lote apenas uma vez, assim como deve reiniciá-lo apenas se a execução for interrompida.</span><span class="sxs-lookup"><span data-stu-id="95967-133">Therefore, you should start the batch process only one time, and you should restart it only if it stops running.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="95967-134">O faturamento em lote só é executado para linhas de contrato de projeto configuradas por agendas de faturas.</span><span class="sxs-lookup"><span data-stu-id="95967-134">Batch invoicing only runs for project contract lines that are configured by invoice schedules.</span></span> <span data-ttu-id="95967-135">Uma linha de contrato com um método de cobrança de preço fixo deve ter marcos configurados.</span><span class="sxs-lookup"><span data-stu-id="95967-135">A contract line with a fixed price billing method must have milestones configured.</span></span> <span data-ttu-id="95967-136">Uma linha de contrato do projeto com um método de cobrança de horas e de material precisará de uma configuração de agenda de faturas baseada em data.</span><span class="sxs-lookup"><span data-stu-id="95967-136">A project contract line with a time and material billing method will need a date-based invoice schedule set up.</span></span> <span data-ttu-id="95967-137">O mesmo se aplica a um projeto baseado em linha de contrato.</span><span class="sxs-lookup"><span data-stu-id="95967-137">The same applies to a project-based contract line.</span></span>     
