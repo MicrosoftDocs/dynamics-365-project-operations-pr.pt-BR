@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961812"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071276"
 ---
 # <a name="define-resource-calendars"></a>Definir calendários de recurso
 
@@ -26,9 +26,9 @@ Todos os recursos reserváveis que estiverem trabalhando em um projeto devem ter
 
 ## <a name="define-a-resources-working-hours"></a>Definir as horas de trabalho de um recurso
 
-1. No menu **Recursos**, selecione **Recursos**.
+1. No menu **Recursos** , selecione **Recursos**.
 2. Na visualização de grade, selecione o **Recurso Reservável** aplicável.
-3. Na página **Detalhes do Recurso**, selecione a guia **Horas de Trabalho**. Por padrão, o calendário de recursos reserváveis é padronizado com as horas de trabalho do modelo padrão de horas de trabalho definido pela organização.
+3. Na página **Detalhes do Recurso** , selecione a guia **Horas de Trabalho**. Por padrão, o calendário de recursos reserváveis é padronizado com as horas de trabalho do modelo padrão de horas de trabalho definido pela organização.
 4. Para atualizar as horas de trabalho, clique com o botão direito na data de início da regra de calendário proposta que será definida. Use o menu de regra de calendário para definir a regra de calendário para um dia específico, o restante da série ou todo o calendário.
 5. Depois de selecionar a opção, é possível definir:
 
@@ -39,7 +39,7 @@ Todos os recursos reserváveis que estiverem trabalhando em um projeto devem ter
 
 ## <a name="applying-a-calendar-template-to-a-resource"></a>Aplicando um modelo de calendário a um recurso
 
-1. No menu **Recursos**, selecione **Recursos**.
+1. No menu **Recursos** , selecione **Recursos**.
 2. Na visualização de grade, selecione até 25 **Recursos Reserváveis** para atualizar.
 3. Selecione **Definir Calendário** e uma caixa de diálogo exibirá uma lista de modelos de horas de trabalho disponíveis.
 4. Selecione o modelo que deseja usar e depois selecione **Aplicar**.

@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e841ab7c37e0b348a4d1570123a5aea00ede0047
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898473"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071456"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Criar estimativas em uma linha de cotação
 
@@ -41,7 +40,7 @@ Se você usou uma cotação do Project Operations quando criou um contrato basea
 
 As estimativas podem ser feitas diretamente em um contrato de projeto, como em uma cotação de projeto. Para uma cotação de projeto, a estimativa é feita usando linhas de contrato e detalhes da linha de contrato. Os detalhes da linha de contrato também podem ser gerados de um plano de projeto que foi criado usando a abordagem de estimativa crescente.
 
-Os detalhes da linha de contrato podem ser usados para estimar tempo, despesas ou tarifas. Os valores estimados de imposto também podem ser inseridos em um detalhe da linha de contrato.
+Os detalhes da linha de contrato podem ser usados para estimar horas, despesas ou tarifas. Os valores estimados de imposto também podem ser inseridos em um detalhe da linha de contrato.
 
 As estimativas de material não são permitidas em detalhes da linha de contrato.
 
@@ -57,7 +56,7 @@ Não há suporte à mudança de ordens em contratos ou projetos.
 
 Você pode estimar o tempo e as despesas dos projetos, mas não os materiais ou taxas.
 
-As estimativas de tempo são geradas quando você cria uma tarefa e identifica os atributos de um recurso genérico que é exigido para executar a tarefa. As estimativas de tempo são geradas nas tarefas de agendamento. As estimativas de tempo não serão criadas se você criar membros da equipe genéricos fora do contexto da agenda.
+As estimativas de tempo são geradas quando você cria uma tarefa e identifica os atributos de um recurso genérico que é exigido para executar a tarefa. As estimativas de tempo são geradas nas tarefas de agendamento. As estimativas de horas não serão criadas se você criar membros da equipe genéricos fora do contexto da agenda.
 
 As estimativas de despesa são inseridas na grade da página **Estimativas**.
 
@@ -84,8 +83,8 @@ Se você adicionou um campo personalizado nos detalhes da linha de cotação e q
 2. Selecione **Pesquisar** e procure o plug-in a ser atualizado.
 3. Selecione o plug-in e, em seguida, na página principal, escolha **Selecionar**.
 4. Selecione a etapa do plug-in a ser atualizado, clique com o botão direito do mouse e selecione **Atualizar**.
-5. Na caixa de diálogo **Atualizar Etapa Existente**, no campo **Filtrando Atributos**, selecione o botão de reticências (**...**):
-6. Na caixa de diálogo **Selecionar Atributos**, marque as caixas de seleção de atributos personalizados.
+5. Na caixa de diálogo **Atualizar Etapa Existente** , no campo **Filtrando Atributos** , selecione o botão de reticências ( **...** ):
+6. Na caixa de diálogo **Selecionar Atributos** , marque as caixas de seleção de atributos personalizados.
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, **Atualizar Etapa**.
 8. Repita as etapas de 1 a 7 para o segundo plug-in.
 9. Feche a ferramenta PluginRegistrationTool.

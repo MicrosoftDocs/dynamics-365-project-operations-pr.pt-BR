@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fe2ab3a1b12c00e346e27709d66b5a0cb81a3b56
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6b1ebdc97ec4704ba256acb521c0f2e7c474940b
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898202"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071535"
 ---
 # <a name="pricing-dimensions-overview"></a>Visão geral das dimensões de preço
 
@@ -36,19 +35,19 @@ As dimensões que são usadas em recursos humanos para configurar preço e custo
 
 Por isso, há dois tipos de valor de dimensão de preço disponíveis:
 
-- **Conjuntos de opções**: dimensões que são enumerações fixas para um conjunto de valores.
-- **Valores baseados em entidade**: dimensões que podem ser um conjunto variado de valores.
+- **Conjuntos de opções** : dimensões que são enumerações fixas para um conjunto de valores.
+- **Valores baseados em entidade** : dimensões que podem ser um conjunto variado de valores.
 
 ## <a name="pricing-dimensions"></a>Dimensões de preço
 
-O Dynamics 365 Project Operations é fornecido com um conjunto padrão de dimensões de preços. É possível exibir essas dimensões de preços acessando **Project Operations** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de preço baseadas em valor**, verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Com esses campos habilitados, você pode configurar o preço e o custo para cada combinação de função e unidade organizacional.
+O Dynamics 365 Project Operations é fornecido com um conjunto padrão de dimensões de preços. É possível exibir essas dimensões de preços acessando **Project Operations** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de preço baseadas em valor** , verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Com esses campos habilitados, você pode configurar o preço e o custo para cada combinação de função e unidade organizacional.
 
 Se precisar precificar ou colocar custo para seus recursos usando atributos adicionais, você poderá criar campos, entidades e dimensões personalizados.
 
 ## <a name="pricing-human-resource-time"></a>Precificação do tempo do recurso humano
 Como uma organização precifica o tempo do recurso humano, às vezes, é uma consideração estratégica importante que afeta diretamente a lucratividade da organização. Trabalhe com as equipes e líderes financeiros quando sua organização estiver pronta para identificar como ela quer configurar tarifas de cobrança e custo para tempo do recurso humano.
 
-Outras considerações para preço incluem considerar a reutilização de campos ou entidades que atualmente não são dimensões de preço, mas são aplicados como uma dimensão de preço para sua organização. Campos como **Categoria de Transação** (**msdyn_transactioncategory**) e **Recurso Reservável** (**bookableresource**) são exemplos de dimensões candidatas. 
+Outras considerações para preço incluem considerar a reutilização de campos ou entidades que atualmente não são dimensões de preço, mas são aplicados como uma dimensão de preço para sua organização. Campos como **Categoria de Transação** ( **msdyn_transactioncategory** ) e **Recurso Reservável** ( **bookableresource** ) são exemplos de dimensões candidatas. 
 
 Considere se sua dimensão de preço deve ser uma tabela ou um conjunto de opções. Se houver previsão de alterações nos valores de uma dimensão que excedam 10 ou 12, e forem necessários atributos adicionais nesses valores, você poderá criar uma entidade em vez de um conjunto de opções. Manter um conjunto de opções, como adição ou remoção de valores, exige um administrador ou desenvolvedor, enquanto a adição de novas linhas a uma tabela pode ser feita por qualquer usuário.
 

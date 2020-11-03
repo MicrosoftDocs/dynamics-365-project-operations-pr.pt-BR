@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 65aee7238781ac90f603e57c6d9b0b92cabd6644
-ms.sourcegitcommit: f6509f7d50de4d4ebb92c1bf2cfcdf09f17458eb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3966731"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071332"
 ---
 # <a name="estimating-a-project-based-quote-line"></a>Estimando uma linha de cotação baseada no projeto
 
@@ -30,7 +30,7 @@ Para estimar uma linha de cotação baseada no projeto, na linha de cotação ba
 
 Para criar uma estimativa em uma linha de cotação baseada no projeto, selecione a guia **Detalhe da Linha de Cotação**. O item de linha que você criar nesta guia resumirá o valor cotado para esta linha de cotação. 
 
-Para criar detalhes da linha de cotação, selecione **+Novo detalhe da linha de cotação** na subgrade **Detalhes da Linha de Cotação**. Um controle deslizante de criação rápida será exibido. Os seguintes campos no formulário **Linha de Cotação**:
+Para criar detalhes da linha de cotação, selecione **+Novo detalhe da linha de cotação** na subgrade **Detalhes da Linha de Cotação**. Um controle deslizante de criação rápida será exibido. Os seguintes campos no formulário **Linha de Cotação** :
 
 | **Campo** | **Local** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
 | --- | --- | --- | --- |
@@ -50,11 +50,11 @@ Para criar detalhes da linha de cotação, selecione **+Novo detalhe da linha de
 
 ## <a name="update-prices-on-quote-line-details"></a>Atualizar preços nos detalhes da linha de cotação
 
-Se você alterou preços na lista de preços do projeto que está anexado à cotação, ou na lista de preços de custo da unidade de contratação, será possível selecionar **Recalcular** na página **Cotação**, para atualizar os preços nos detalhes da linha de cotação individual para refletir essa alteração. Ao selecionar **Recalcular**, um aviso é gerado informando que os preços nos detalhes da linha de cotação de todas as linhas de cotação nessa cotação serão redefinidos. Selecione **Sim** para atualizar os preços dos detalhes da linha de cotação de vendas e de custo.
+Se você alterou preços na lista de preços do projeto que está anexado à cotação, ou na lista de preços de custo da unidade de contratação, será possível selecionar **Recalcular** na página **Cotação** , para atualizar os preços nos detalhes da linha de cotação individual para refletir essa alteração. Ao selecionar **Recalcular** , um aviso é gerado informando que os preços nos detalhes da linha de cotação de todas as linhas de cotação nessa cotação serão redefinidos. Selecione **Sim** para atualizar os preços dos detalhes da linha de cotação de vendas e de custo.
 
 ## <a name="access-quote-line-details-for-cost"></a>Acessar os detalhes da linha de cotação para custo
 
-Na guia **Detalhes da Linha de Cotação**, selecione uma linha na grade para habilitar algumas ações na barra de ferramentas da subgrade. A primeira ação na barra de ferramentas da subgrade quando um detalhe da linha de cotação selecionado for **Abrir Detalhes de Custo**. Selecione **Abrir Detalhes de Custo** para ver a taxa de custo relacionada e o valor dessa linha de cotação.
+Na guia **Detalhes da Linha de Cotação** , selecione uma linha na grade para habilitar algumas ações na barra de ferramentas da subgrade. A primeira ação na barra de ferramentas da subgrade quando um detalhe da linha de cotação selecionado for **Abrir Detalhes de Custo**. Selecione **Abrir Detalhes de Custo** para ver a taxa de custo relacionada e o valor dessa linha de cotação.
 
 > [!NOTE]
 > Alterar os valores da unidade de recursos, da quantidade, das datas, da função ou da categoria no detalhe da linha de cotação para custos mudará os valores correspondentes nos detalhes da linha de cotação de vendas.

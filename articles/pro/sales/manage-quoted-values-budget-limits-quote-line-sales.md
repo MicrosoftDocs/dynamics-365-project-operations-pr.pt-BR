@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907859"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071358"
 ---
 # <a name="project-based-quote-lines-pro"></a>Linhas de cotação baseadas em projeto (Pro)
 
@@ -49,15 +49,15 @@ A tabela a seguir fornece informações sobre os campos na guia **Geral** da lin
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regras de validação para os campos na guia Geral de linhas de cotação baseadas em projeto
 
-**Regra 1**: se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Todas as tarefas do projeto**, um projeto será incluído na linha de cotação.
+**Regra 1** : se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Todas as tarefas do projeto** , um projeto será incluído na linha de cotação.
 
-**Regra 2**: se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Todas as tarefas do projeto**, um projeto e uma determinada classe de transação só poderão ser incluídos em uma única linha de cotação baseada em projeto de uma cotação.
+**Regra 2** : se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Todas as tarefas do projeto** , um projeto e uma determinada classe de transação só poderão ser incluídos em uma única linha de cotação baseada em projeto de uma cotação.
 
-**Regra 3**: se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Somente determinadas tarefas do projeto**, um projeto e uma determinada classe de transação só poderão ser incluídos em várias linhas de cotação baseada em projeto de uma cotação.
+**Regra 3** : se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Somente determinadas tarefas do projeto** , um projeto e uma determinada classe de transação só poderão ser incluídos em várias linhas de cotação baseada em projeto de uma cotação.
 
 **Regra 4** : se uma oportunidade tiver várias cotações, pode haver linhas de cotação de cotações diferentes que façam referência ao mesmo projeto e incluam a mesma classe de transação.
 
-**Regra 5**: se as cotações não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transação.
+**Regra 5** : se as cotações não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transação.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>

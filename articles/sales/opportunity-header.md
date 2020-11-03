@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907851"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071303"
 ---
 # <a name="opportunity-headersummary"></a>Cabeçalho/resumo da oportunidade
 
@@ -28,7 +28,7 @@ A tabela a seguir inclui os campos de uma oportunidade baseada em projeto que s�
 
 | **Campo** | **Local** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
 | --- | --- | --- | --- |
-| Digitar | Guia geral (oculta) | O campo de conjunto de opções tem as seguintes opções:</br>- Baseado no trabalho (disponível apenas com o Project Operations)</br>- Baseado no item (disponível apenas quando o Project Operations e Sales estão instalados)</br>- Baseado em serviço de manutenção (disponível quando o Field Service está instalado) | Quando você usa o Project Operations, o valor deste campo é automaticamente definido como **Baseado em trabalho**, o que classifica a oportunidade como baseada em projeto. Uma oportunidade deve ser baseada em projeto para habilitar todas as extensões e funcionalidades específicas do projeto no processo de vendas posterior para este negócio. |
+| Digitar | Guia geral (oculta) | O campo de conjunto de opções tem as seguintes opções:</br>- Baseado no trabalho (disponível apenas com o Project Operations)</br>- Baseado no item (disponível apenas quando o Project Operations e Sales estão instalados)</br>- Baseado em serviço de manutenção (disponível quando o Field Service está instalado) | Quando você usa o Project Operations, o valor deste campo é automaticamente definido como **Baseado em trabalho** , o que classifica a oportunidade como baseada em projeto. Uma oportunidade deve ser baseada em projeto para habilitar todas as extensões e funcionalidades específicas do projeto no processo de vendas posterior para este negócio. |
 | Empresa Proprietária | Guia Geral | É a empresa ou pessoa jurídica que entregará o projeto para o cliente. | As informações deste campo serão copiadas para o campo correspondente na cotação do projeto que é criada a partir desta oportunidade. |
 | Contato | Guia Geral | Referência ao contato principal do cliente para este negócio. | |
 | Conta | Guia Geral | Referência à empresa do cliente ou registro de conta. | |

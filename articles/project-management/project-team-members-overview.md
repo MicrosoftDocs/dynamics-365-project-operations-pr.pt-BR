@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907855"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071319"
 ---
 # <a name="project-team-members"></a>Membros da equipe de projeto
 
@@ -47,16 +47,16 @@ A tabela a seguir lista os principais atributos de um membro da equipe do projet
 
 Na grade de membros da equipe, as seguintes ações podem ser realizadas:
 
-- **Reservar**: para organizações que executam o aproveitamento da metodologia de reservas híbridas, a ação de reserva permitirá que os usuários reservem um recurso nomeado baseado nos requisitos necessários gerados pelo membro da equipe genérica
-- **Gerar Requisito**: esta ação gera o requisito.
-- **Especificar Padrão**: permite que os gerentes de projeto ajustem os contornos dos requisitos de recursos em um nível granular. Os gerentes de projeto podem ajustar as necessidades específicas do projeto em casos em que a distribuição padrão não é adequada.
-- **Enviar Solicitação**: para organizações que usam a metodologia de reservas centrais.
-- **Editar**: os atributos dos membros da equipe podem ser editados, incluindo unidade organizacional, função e nome do cargo.
-- **Manter Reservas**: quando as reservas de recursos precisam ser atualizadas, esta opção permite que o gerente de projeto ajuste:
+- **Reservar** : para organizações que executam o aproveitamento da metodologia de reservas híbridas, a ação de reserva permitirá que os usuários reservem um recurso nomeado baseado nos requisitos necessários gerados pelo membro da equipe genérica
+- **Gerar Requisito** : esta ação gera o requisito.
+- **Especificar Padrão** : permite que os gerentes de projeto ajustem os contornos dos requisitos de recursos em um nível granular. Os gerentes de projeto podem ajustar as necessidades específicas do projeto em casos em que a distribuição padrão não é adequada.
+- **Enviar Solicitação** : para organizações que usam a metodologia de reservas centrais.
+- **Editar** : os atributos dos membros da equipe podem ser editados, incluindo unidade organizacional, função e nome do cargo.
+- **Manter Reservas** : quando as reservas de recursos precisam ser atualizadas, esta opção permite que o gerente de projeto ajuste:
 
     - Iniciada
     - End
     - Alocação de esforço total
 
-- **Novo**: além de adicionar recursos diretamente da agenda, os gerentes de projeto podem adicionar novos membros da equipe nomeados ou genéricos na grade de membros da equipe.
-- **Excluir**: ao selecionar um ou mais membros da equipe, o gerente de projeto pode excluir recursos que não participarão mais do projeto. Excluir um membro da equipe também excluirá todas as atribuições de recursos associadas e cancelará todas as reservas existentes.
+- **Novo** : além de adicionar recursos diretamente da agenda, os gerentes de projeto podem adicionar novos membros da equipe nomeados ou genéricos na grade de membros da equipe.
+- **Excluir** : ao selecionar um ou mais membros da equipe, o gerente de projeto pode excluir recursos que não participarão mais do projeto. Excluir um membro da equipe também excluirá todas as atribuições de recursos associadas e cancelará todas as reservas existentes.

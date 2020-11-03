@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948740"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071301"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>Configurar e aplicar dados de configuração no Common Data Service para o Project Operations
 
@@ -27,7 +27,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 ![Migração de Configuração](./media/1ConfigurationMigration.png)
 
-4. Na página 2 do assistente CMT, selecione **Office 365** como **Tipo de implantação**.
+4. Na página 2 do Assistente CMT, selecione **Microsoft 365** como o **Tipo de Implantação**.
 5. Marque as caixas de seleção **Exibir uma lista de organizações disponíveis** e **Mostrar avançado**.
 6. Selecione a região do seu locatário, insira suas credenciais e selecione **Logon**.
 
@@ -79,11 +79,11 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 ![Recursos Reserváveis](./media/8BookableResources.png)
 
-3. Na guia **Geral**, selecione seu usuário administrador. Verifique se o fuso horário corresponde ao que você está. 
+3. Na guia **Geral** , selecione seu usuário administrador. Verifique se o fuso horário corresponde ao que você está. 
 
 ![Novo Recurso Reservável](./media/9NewBookableResource.png)
 
-4. Na guia **Agendamento**, no campo **Empresa**, escolha a empresa **USPM** e selecione **Salvar**. 
+4. Na guia **Agendamento** , no campo **Empresa** , escolha a empresa **USPM** e selecione **Salvar**. 
 
 ![Guia Agendamento](./media/10SchedulingTab.png)
 
@@ -114,10 +114,10 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
  
 12. Atualize os seguintes campos:
 
- - **Empresa Padrão**: USPM
- - **Unidade Organizacional Padrão**: Contoso Robotics Global
- - **Frequência da Fatura**: sétimo e último dia
- - **Modelo de horas de trabalho**: altere para o modelo que você criou.
+ - **Empresa Padrão** : USPM
+ - **Unidade Organizacional Padrão** : Contoso Robotics Global
+ - **Frequência da Fatura** : sétimo e último dia
+ - **Modelo de horas de trabalho** : altere para o modelo que você criou.
 
 13. Selecione **Salvar**. 
 

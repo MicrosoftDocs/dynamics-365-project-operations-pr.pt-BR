@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a27bfe881fdb6431941fa860d279e3e7b526f623
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898292"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071468"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Adicionar campos personalizados necessários a entidades transacionais e de configuração de preço
 
@@ -34,7 +33,7 @@ Este tópico pressupõe que você concluiu os procedimentos do tópico [Criar ca
 Neste tópico, os procedimentos mostrarão como adicionar as referências de campo personalizadas necessárias às entidades e aos elementos da interface do usuário, como formulários e exibições.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Adicionar campos personalizados de dimensão de preço 
-Depois que campos e entidades personalizados tiverem sido criados, a próxima etapa será conscientizar entidades transacionais e de configuração de preço sobre todos os conjuntos de opções e entidades personalizadas criando campos de referência. De acordo com o que a lista de dimensões de preço incluir, dimensões de conjunto de opções ou dimensões de entidade, ou ambas, siga somente as etapas em **Dimensões de preço personalizadas baseadas em conjunto de opções** ou **Dimensões de preço personalizadas baseadas em entidade**, ou em ambas, respectivamente.
+Depois que campos e entidades personalizados tiverem sido criados, a próxima etapa será conscientizar entidades transacionais e de configuração de preço sobre todos os conjuntos de opções e entidades personalizadas criando campos de referência. De acordo com o que a lista de dimensões de preço incluir, dimensões de conjunto de opções ou dimensões de entidade, ou ambas, siga somente as etapas em **Dimensões de preço personalizadas baseadas em conjunto de opções** ou **Dimensões de preço personalizadas baseadas em entidade** , ou em ambas, respectivamente.
 
 ### <a name="option-set-based-custom-pricing-dimensions"></a>Dimensões de preço personalizadas baseadas em conjunto de opções
 Quando uma dimensão personalizada de preço for baseada no conjunto de opções, adicione-a como um campo às principais entidades. No procedimento a seguir, **Local de Trabalho do Recurso** e **Horas de Trabalho do Recurso** são usadas como as dimensões de preço baseadas em conjunto de opções. Primeiro elas devem ser adicionadas como campos às entidade de preço, **Preço da Função** e **Markup de Preço da Função**.
@@ -43,31 +42,31 @@ Quando uma dimensão personalizada de preço for baseada no conjunto de opções
 2. No Gerenciador de Soluções, no painel de navegação à esquerda, selecione **Entidades > Preço da Função**.
 3. Expanda a entidade **Preço da Função** e selecione **Campos**.
 4. Selecione **Novo** para criar um novo campo chamado **Local de Trabalho do Recurso** e selecione **Conjunto de opções** como o tipo de campo. 
-5. Selecione **Usar um Conjunto de opções existente**, o conjunto de opções **Local de Trabalho do Recurso** e **Salvar**.
+5. Selecione **Usar um Conjunto de opções existente** , o conjunto de opções **Local de Trabalho do Recurso** e **Salvar**.
 6. Repita as etapas de 1 a 5 para adicionar esse campo à entidade **Markup de Preço da Função**. 
 7. Repita as etapas de 1 a 5 para o conjunto de opções **Horas de Trabalho do Recurso**.
 
 > [!IMPORTANT]
 > Quando você adiciona um campo a mais de uma entidade, use o mesmo nome de campo em todas as entidades. 
 
-Nas fases de vendas e estimativa de um projeto, as estimativas do esforço de trabalho que é exigido para concluir o trabalho **Local** e **No local**, em **Horas regulares** e **Horas extras** são usadas para estimar o valor da Cotação/do Projeto. Os campos **Local de Trabalho do Recurso** e **Horas de Trabalho do Recurso** serão adicionados às entidades de estimativa **Detalhes da Linha de Cotação**, **Detalhes da Linha de Contrato**, **Membro da Equipe de Projeto**, e **Linha de Estimativa**.
+Nas fases de vendas e estimativa de um projeto, as estimativas do esforço de trabalho que é exigido para concluir o trabalho **Local** e **No local** , em **Horas regulares** e **Horas extras** são usadas para estimar o valor da Cotação/do Projeto. Os campos **Local de Trabalho do Recurso** e **Horas de Trabalho do Recurso** serão adicionados às entidades de estimativa **Detalhes da Linha de Cotação** , **Detalhes da Linha de Contrato** , **Membro da Equipe de Projeto** , e **Linha de Estimativa**.
 
 1. Em Operações do projeto, selecione **Configurações** > **Soluções** e clique duas vezes em **\<your organization name> dimensões de preço**. 
 2. No Gerenciador de Soluções, no painel de navegação à esquerda, selecione **Entidades > Detalhes da Linha de Cotação**.
 3. Expanda a entidade **Detalhes da Linha de Cotação** e selecione **Campos**.
 4. Selecione **Novo** para criar um novo campo chamado **Local de Trabalho do Recurso** e selecione o tipo de campo **Conjunto de opções**. 
 5. Selecione **Usar um Conjunto de opções existente** e **Local de Trabalho do Recurso** e, depois, **Salvar**.
-6. Repita as etapas de 1 a 5 para adicionar esse campo às entidades **Detalhes da Linha de Contrato do Projeto**, **Membro da Equipe do Projeto** e **Linha de Estimativa**.
+6. Repita as etapas de 1 a 5 para adicionar esse campo às entidades **Detalhes da Linha de Contrato do Projeto** , **Membro da Equipe do Projeto** e **Linha de Estimativa**.
 7. Repita as etapas de 1 a 6 para o conjunto de opções **Horas de Trabalho do Recurso**. 
 
-Para entrega e faturamento, o trabalho concluído precisa ser precificado precisamente para seleção de **Local** ou **No Local** e se foi concluído durante **Horas regulares** ou **Horas extras** nos Dados Reais do Projeto. Os campos **Local de Trabalho do Recurso** e **Horas de Trabalho do Recurso** devem ser adicionados às entidades **Entrada de Tempo**, **Dados Reais**, **Detalhes da Linha de Fatura** e **Linha do Diário**.
+Para entrega e faturamento, o trabalho concluído precisa ser precificado precisamente para seleção de **Local** ou **No Local** e se foi concluído durante **Horas regulares** ou **Horas extras** nos Dados Reais do Projeto. Os campos **Local de Trabalho do Recurso** e **Horas de Trabalho do Recurso** devem ser adicionados às entidades **Entrada de Tempo** , **Dados Reais** , **Detalhes da Linha de Fatura** e **Linha do Diário**.
 
 1. Selecione **Configurações** > **Soluções** e clique duas vezes em **\<your organization name> dimensões de preço**.
 2. No Gerenciador de Soluções, no painel de navegação à esquerda, selecione **Entidades > Entrada de Temo**.
 3. Expanda a entidade **Detalhes da Linha de Cotação** e selecione **Campos**.
 4. Selecione **Novo** para criar um novo campo chamado **Local de Trabalho do Recurso** e selecione **Conjunto de opções** como o tipo de campo. 
-5. Selecione **Usar um Conjunto de opções existente**, o conjunto de opções **Local de Trabalho do Recurso** e **Salvar**.
-6. Repita as etapas de 1 a 5 para adicionar esse campo às entidades **Dados Reais**, **Detalhes da Linha de Fatura** e **Linha do Diário**.
+5. Selecione **Usar um Conjunto de opções existente** , o conjunto de opções **Local de Trabalho do Recurso** e **Salvar**.
+6. Repita as etapas de 1 a 5 para adicionar esse campo às entidades **Dados Reais** , **Detalhes da Linha de Fatura** e **Linha do Diário**.
 7. Repita as etapas de 1 a 6 para o conjunto de opções **Horas de Trabalho do Recurso**. 
 
 Isso conclui as alterações no esquema exigidas para dimensões personalizadas baseadas em conjunto de opções.
@@ -95,18 +94,18 @@ Nas fases de vendas e estimativa do projeto, para chegar ao preço da Cotação/
 - **Membro da Equipe do Projeto**
 - **Linha de Estimativa**
 
-5. Repita as etapas de 1 a 5 para criar relacionamentos 1:N de **Cargo Padrão** para **Detalhes da Linha de Cotação**, **Detalhes da Linha de Contrato do Projeto**, **Membro da Equipe do Projeto** e **Linha de Estimativa**.
+5. Repita as etapas de 1 a 5 para criar relacionamentos 1:N de **Cargo Padrão** para **Detalhes da Linha de Cotação** , **Detalhes da Linha de Contrato do Projeto** , **Membro da Equipe do Projeto** e **Linha de Estimativa**.
 
-  Nas fases Entrega e Faturamento, o trabalho concluído por cada cargo padrão deve ser precisamente precificado nos Dados Reais do Projeto. Isso significa que há necessidades de relacionamentos 1:N de **Cargo Padrão** para as entidades **Entrada de Tempo**, **Dados Reais**, **Detalhes da Linha de Fatura** e **Linha do Diário**.
+  Nas fases Entrega e Faturamento, o trabalho concluído por cada cargo padrão deve ser precisamente precificado nos Dados Reais do Projeto. Isso significa que há necessidades de relacionamentos 1:N de **Cargo Padrão** para as entidades **Entrada de Tempo** , **Dados Reais** , **Detalhes da Linha de Fatura** e **Linha do Diário**.
 
-6. Repita as etapas de 1 a 6 para criar relacionamentos 1:N de **Cargo Padrão** para as entidades **Entrada de Tempo**, **Dados Reais**, **Detalhes da Linha de Fatura** e **Linha do Diário**.
+6. Repita as etapas de 1 a 6 para criar relacionamentos 1:N de **Cargo Padrão** para as entidades **Entrada de Tempo** , **Dados Reais** , **Detalhes da Linha de Fatura** e **Linha do Diário**.
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configurar padronização do valor de Dimensão usando os recursos de mapeamento da plataforma
 Para Entrada de Tempo, seria útil que o sistema padronizasse o cargo padrão na Entrada de Tempo do Recurso Reservável que está registrando a entrada de tempo. Use as etapas a seguir para adicionar mapeamentos de campo no relacionamento 1:N de **Recurso Reservável** para **Entrada de Tempo**.
 
 1. No Gerenciador de Soluções, no painel de navegação à esquerda, selecione **Entidades > Cargo Padrão**.
 2. Expanda a entidade **Cargo Padrão** e selecione **Relacionamentos 1: N**.
-3. Clique duas vezes em **Recurso Reservável para Entrada de Tempo**. Na página **Relacionamento**, selecione **Usar Mapeamentos de Campo**. 
+3. Clique duas vezes em **Recurso Reservável para Entrada de Tempo**. Na página **Relacionamento** , selecione **Usar Mapeamentos de Campo**. 
 4. Selecione **Novo** para criar um novo mapeamento de campo entre o campo **Cargo Padrão** na entidade **Recurso Reservável** para o campo de referência **Cargo Padrão** na entidade **Entrada de Tempo**. 
 
 Isso conclui as alterações no esquema exigidas para dimensões personalizadas baseadas em entidade.
@@ -116,7 +115,7 @@ Isso conclui as alterações no esquema exigidas para dimensões personalizadas 
 Depois de ter feito todas as alterações de esquema necessárias, a próxima etapa é tornar os campos visíveis na interface do usuário adicionando os campos aos formulários e exibições.
 
 1. Abra o formulário ou a exibição. No painel de navegação à direita, selecione o campo e arraste-o para a tela de formulário. 
-2. Se estiver editando uma exibição, use o painel de navegação à direita, selecione **Adicionar campos** e, na caixa de diálogo **Listagem de campo**, selecione os campos necessários e selecione **OK**.
+2. Se estiver editando uma exibição, use o painel de navegação à direita, selecione **Adicionar campos** e, na caixa de diálogo **Listagem de campo** , selecione os campos necessários e selecione **OK**.
 
 A tabela a seguir fornece uma lista abrangente de formulários e exibições prontos para uso, por entidade, que precisarão ser atualizados com os novos campos. Se você tiver exibições ou formulários adicionais em suas personalizações nessas entidades, adicione os novos campos a eles também.
 

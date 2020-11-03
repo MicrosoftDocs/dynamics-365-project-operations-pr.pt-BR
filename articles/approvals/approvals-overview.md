@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 2cf93d8bf0be5b61a739195a41334c34d910e9ba
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961152"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071288"
 ---
 # <a name="approvals-overview"></a>Visão geral de aprovações
 
@@ -27,7 +27,7 @@ Ao criar e enviar uma entrada de hora ou de despesa, é criada uma entrada de ap
 ## <a name="approve-an-entry"></a>Aprovar uma entrada
 O formulário **Aprovações** permite alternar entre diferentes exibições para que você possa exibir os diferentes tipos de aprovações.
   
-1. Vá para o formulário **Aprovações** e selecione **Despesas**, **Hora** ou **Recuperações**.
+1. Vá para o formulário **Aprovações** e selecione **Despesas** , **Hora** ou **Recuperações**.
 2. Revise cada aprovação e selecione aquelas que deseja aprovar.
 3. Selecione **Aprovar** para aprovar as entradas selecionadas.
 O sistema processará essas entradas e criará dados reais ou uma reserva.
@@ -47,7 +47,7 @@ Em algum momento, talvez seja necessário recuperar uma entrada enviada. Se a en
 Cada projeto tem vários membros da equipe do projeto. Você pode especificar quais membros da equipe também são Aprovadores de projeto.
 
 1. Vá para o formulário **Projetos** e abra o projeto da lista.
-2. Na guia **Equipe**, selecione o membro da equipe que será um Aprovador do projeto e selecione **Editar**.
+2. Na guia **Equipe** , selecione o membro da equipe que será um Aprovador do projeto e selecione **Editar**.
 3. Defina o campo **Aprovador do projeto** como **Sim**.
 4. Selecione **Salvar**.
 5. Repita as etapas 2 e 4 para adicionar Aprovadores de projeto.
@@ -55,7 +55,7 @@ Cada projeto tem vários membros da equipe do projeto. Você pode especificar qu
 ## <a name="configure-the-users-manager"></a>Configurar o gerente do usuário
 
 1. Vá para **Configurações** > **Segurança** > **Usuários**.
-2. Selecione o usuário ao qual você está atribuindo um gerente e, na área **Informações da Organização**, selecione o gerente na lista. 
+2. Selecione o usuário ao qual você está atribuindo um gerente e, na área **Informações da Organização** , selecione o gerente na lista. 
 3. Selecione **Salvar**.
 
 

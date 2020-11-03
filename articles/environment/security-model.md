@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: ffcfa8a9c8e31c5665acd3c3919fa90d36a3f3ca
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: e875d1765b5038e60830d626abb5bcd61749ece1
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896717"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071313"
 ---
 # <a name="security-model"></a>Modelo de Segurança
 
@@ -36,10 +36,11 @@ Os recursos de front-end do Project Operations incluem as seguintes funções:
 
 
 O Microsoft Project para a Web inclui as seguintes funções:
-| Função                          | Descrição                                                                                                          | Scope |                                                       
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----|
-| Usuário do projeto | Usuário colaborativo do projeto que é capaz de criar seus próprios projetos e exibir todos os projetos compartilhados com eles.| Usuário|
-| Sistema do projeto | Função usada para o contexto do aplicativo. Os clientes não devem usar essa função do sistema. | Global|
+
+| Função           | Descrição                                                                                                        | Scope  |
+|----------------|--------------------------------------------------------------------------------------------------------------------|--------|
+| Usuário do projeto   | Usuário colaborativo do projeto que é capaz de criar seus próprios projetos e exibir todos os projetos compartilhados com eles. | Usuário   |
+| Sistema do projeto | Função usada para o contexto do aplicativo. Os clientes não devem usar essa função do sistema.                                    | Global |
 
 ## <a name="security-enforcement"></a>Aplicação de segurança
 As ações executadas no nível do projeto são realizadas no contexto do usuário conectado. Isso significa que para criar, abrir ou excluir um projeto, o usuário deverá ter acesso disponível no CDS. O acesso no CDS pode ser concedido por meio de um dos possíveis mecanismos incluídos na plataforma. Por exemplo, um usuário com um escopo maior pode acessar o projeto ou se uma ação explícita de compartilhamento do projeto que concede acesso ao usuário tiver sido executada.
@@ -56,6 +57,8 @@ Nos grupos, é possível que as permissões do projeto e os artefatos de colabor
 O Project Operations não cria um grupo por meio de ação implícita, mas apenas por meio da ação explícita de pressionar grupos.
 
 A pesquisa de membro do grupo na caixa de diálogo **Gerenciamento de grupo** é limitada àqueles que são definidos como parte do grupo de segurança do ambiente. Para obter mais informações, consulte [Controlar o acesso do usuário a ambientes: grupos de segurança e licenças](https://docs.microsoft.com/power-platform/admin/control-user-access).
+
+![Modo de grupo](./media/groupsmode.png)
 
 1. O projeto é criado e é de propriedade do usuário criador.
 2. O proprietário do projeto é atualizado para a equipe.

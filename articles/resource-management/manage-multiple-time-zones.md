@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 396e0fea2f1598a5313cb0128eca4fe0bb5aade9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/05/2020
-ms.locfileid: "3961814"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071366"
 ---
 # <a name="manage-time-zones"></a>Gerenciar fusos horários
 
@@ -22,7 +22,7 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 
 ## <a name="projects"></a>Projetos
 
-Quando um projeto é criado, o fuso horário é baseado no fuso horário definido no modelo de hora de trabalho aplicado. No **Projeto**, as datas são sempre relativas ao fuso horário do usuário que está conectado em cada guia, exceto a guia **Tarefa**. Quando você visualiza a estrutura de detalhamento de trabalho, as datas sempre serão exibidas no fuso horário do projeto.
+Quando um projeto é criado, o fuso horário é baseado no fuso horário definido no modelo de hora de trabalho aplicado. No **Projeto** , as datas são sempre relativas ao fuso horário do usuário que está conectado em cada guia, exceto a guia **Tarefa**. Quando você visualiza a estrutura de detalhamento de trabalho, as datas sempre serão exibidas no fuso horário do projeto.
 
 ## <a name="tasks"></a>Tarefas
 
@@ -30,7 +30,7 @@ Quando uma tarefa é criada, a hora de início, hora de término e horas/dia sã
 
 ## <a name="manage-resources-with-time-zones"></a>Gerenciar recursos com fusos horários
 
-Para obter resultados precisos e previsíveis ao usar **Estender reserva**, há dois pré-requisitos principais que devem ser atendidos:  
+Para obter resultados precisos e previsíveis ao usar **Estender reserva** , há dois pré-requisitos principais que devem ser atendidos:  
 
 - O usuário deve configurar o fuso horário de seu dispositivo para corresponder ao fuso horário definido nas **Configurações de personalização** do sistema.
  
@@ -57,7 +57,7 @@ As listas de tabela a seguir mostra:
 |Recurso C  |  ![Calendário do Recurso C](media/reconcile-assignments-08.png) |
 |Recurso D  | ![Calendário do Recurso D](media/reconcile-assignments-09.png)  |
  
-Quando você navegar até a exibição **Reconciliação**, as atribuições de recursos e as faltas de reserva associadas são exibidas.
+Quando você navegar até a exibição **Reconciliação** , as atribuições de recursos e as faltas de reserva associadas são exibidas.
 
 ![Exibição de reconciliação antes da extensão](media/reconcile-assignments-10.png)
 

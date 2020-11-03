@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896267"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071352"
 ---
 # <a name="project-quote-key-concepts"></a>Principais conceitos de cotação de projeto
 
@@ -78,7 +78,7 @@ Os negócios com vários clientes ocorrem quando há mais de um cliente para fat
 
 ## <a name="invoice-schedules"></a>Agendamento de faturas
 
-Os agendamentos de faturas são específicos para cada linha de cotação e também são opcionais. Os agendamentos de faturas são criados com base em determinadas datas de início e de término e frequência de fatura. Os agendamentos de faturas são utilizados na fase do contrato, quando o processo de criação automática de faturas é configurado. Na fase de cotação, os agendamentos são opcionais. Quando os agendamentos de faturas são criados no estágio **Cotação**, eles são copiados para o contrato do projeto que é criado quando a cotação de um projeto vence.
+Os agendamentos de faturas são específicos para cada linha de cotação e também são opcionais. Os agendamentos de faturas são criados com base em determinadas datas de início e de término e frequência de fatura. Os agendamentos de faturas são utilizados na fase do contrato, quando o processo de criação automática de faturas é configurado. Na fase de cotação, os agendamentos são opcionais. Quando os agendamentos de faturas são criados no estágio **Cotação** , eles são copiados para o contrato do projeto que é criado quando a cotação de um projeto vence.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Mudanças na cotação do Changes from Dynamics 365 Sales:
 

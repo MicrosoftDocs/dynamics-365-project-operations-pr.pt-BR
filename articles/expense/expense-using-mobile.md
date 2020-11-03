@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3185c80c792dfe537f4974fa276eafbd16813131
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 0c1955198e98a3d8499f51c669478cd422b957e6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897032"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071430"
 ---
 # <a name="expense-using-mobile"></a>Criação de despesa com dispositivo móvel
 
@@ -106,13 +105,13 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
 3. Selecione **Tirar foto** ou **Escolher imagem**.
 4. Siga uma destas etapas:
 
-   - Se você selecionou **Tirar foto**, Siga estas etapas:
+   - Se você selecionou **Tirar foto** , Siga estas etapas:
 
       1. Você é levado para a câmera do dispositivo móvel para poder tirar uma foto do recibo. 
       2. Quando terminar de tirar uma foto, selecione **OK** para aceitar a foto.
       3. Opcional: insira um nome para a foto e anotações.
 
-    - Se você selecionou **Escolher imagem**, siga estas etapas:
+    - Se você selecionou **Escolher imagem** , siga estas etapas:
 
         1. Selecione uma imagem na lista.
         2. Opcional: insira um nome para a imagem e anotações.
@@ -131,8 +130,8 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
 8. Selecione **Tirar foto** ou **Escolher imagem**.
 9. Siga uma destas etapas:
 
-    - Se você selecionar **Tirar foto**, será levado para a câmera do dispositivo móvel para poder tirar uma foto do recibo. Quando terminar de tirar uma foto, selecione **OK** para aceitar a foto.
-    - Se você selecionou **Escolher imagem**, selecione uma imagem na lista.
+    - Se você selecionar **Tirar foto** , será levado para a câmera do dispositivo móvel para poder tirar uma foto do recibo. Quando terminar de tirar uma foto, selecione **OK** para aceitar a foto.
+    - Se você selecionou **Escolher imagem** , selecione uma imagem na lista.
 
 10. Escolha **Concluído**.
 
@@ -145,7 +144,7 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
     
 3. Selecione um relatório de despesas para exibir os detalhes das despesas.
 4. Selecione uma despesa para exibir os detalhes dela. As informações que são mostradas para uma despesa incluem detalhes de recibo, convidado e discriminação.
-5. Na página **Relatório de despesas**, selecione para aprovar ou rejeitar o relatório de despesas.
+5. Na página **Relatório de despesas** , selecione para aprovar ou rejeitar o relatório de despesas.
 6. Insira comentários para a ação de aprovação.
 7. Escolha **Concluído**.
 
@@ -172,24 +171,24 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
     1. Selecione **Capturar recibo** ou **Anexar recibo**.
     2. Siga uma destas etapas:
 
-        - Se você selecionou **Capturar recibo**, siga estas etapas:
+        - Se você selecionou **Capturar recibo** , siga estas etapas:
 
             1. Selecione **Tirar foto** ou **Escolher imagem**.
             2. Siga uma destas etapas:
 
-                - Se você selecionou **Tirar foto**, Siga estas etapas:
+                - Se você selecionou **Tirar foto** , Siga estas etapas:
 
                     1. Você é levado para a câmera do dispositivo móvel para poder tirar uma foto do recibo. Quando terminar de tirar uma foto, selecione **OK** para aceitar a foto.
                     2. Opcional: insira um nome para a foto e anotações.
 
-                - Se você selecionou **Escolher imagem**, siga estas etapas:
+                - Se você selecionou **Escolher imagem** , siga estas etapas:
 
                     1. Selecione uma imagem na lista.
                     2. Opcional: insira um nome para a imagem e anotações.
 
             3.  Escolha **Concluído**.
 
-        - Se você selecionou **Anexar recibo**, siga estas etapas:
+        - Se você selecionou **Anexar recibo** , siga estas etapas:
 
             1.  Selecione uma ou mais imagens na lista.
             2.  Escolha **Concluído**.
@@ -198,22 +197,22 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
 
 18. Se a política da empresa exigir convidados da despesa, selecione **Convidados** e siga estas etapas:
 
-    1. Selecione **Convidado**, **Convidados anteriores** ou **Colegas**.
+    1. Selecione **Convidado** , **Convidados anteriores** ou **Colegas**.
     2. Siga uma destas etapas:
 
-        - Se você selecionou **Convidado**, siga estas etapas:
+        - Se você selecionou **Convidado** , siga estas etapas:
 
             1. Insira o nome do convidado.
             2. Opcional: insira a organização e/o ou país do convidado.
             3. Opcional: insira o cargo do convidado.
             4. Escolha **Concluído**.
 
-        - Se você selecionou **Convidados anteriores**, siga estas etapas:
+        - Se você selecionou **Convidados anteriores** , siga estas etapas:
 
             1. Selecione um ou mais convidados anteriores na lista. Você vê uma lista de convidados anteriores que adicionou a relatórios de despesas anteriores que são carregados em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se o convidado anterior não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome ou alterne para pesquisar por organização, país ou cargo.
             2. Escolha **Concluído**.
 
-        - Se você selecionou **Colega**, siga estas etapas:
+        - Se você selecionou **Colega** , siga estas etapas:
 
             1. Selecione um ou mais colegas na lista. Você vê uma lista de colegas que são carregados no aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem consultar [Plataforma móvel](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/platform/mobile-platform-getting-started). Se seu colega não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome ou alterne para pesquisar por empresa ou cargo.
             2. Escolha **Concluído**.

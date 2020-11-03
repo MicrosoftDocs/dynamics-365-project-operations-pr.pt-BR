@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
 ms.openlocfilehash: 005e36811643b0b1e98a686792cf39125ae97949
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896312"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071357"
 ---
 # <a name="manage-leads-pro"></a>Gerenciar clientes potenciais (Pro)
 
@@ -23,7 +23,7 @@ Os clientes potenciais baseados em projeto podem ser gerenciados e qualificados 
 
 ## <a name="list-of-project-sales-leads"></a>Lista de clientes potenciais de vendas do projeto
 
-No seção **Vendas**, no painel de navegação esquerdo, abra a página **Lista de clientes potenciais** para ver uma lista de todos os registros de cliente potencial no sistema. A lista de clientes potenciais exibida é baseada no trabalho e outros tipos de clientes potenciais que podem ser criados se você também tiver os aplicativos Dynamics 365 Sales ou Dynamics 365 Field Service.
+No seção **Vendas** , no painel de navegação esquerdo, abra a página **Lista de clientes potenciais** para ver uma lista de todos os registros de cliente potencial no sistema. A lista de clientes potenciais exibida é baseada no trabalho e outros tipos de clientes potenciais que podem ser criados se você também tiver os aplicativos Dynamics 365 Sales ou Dynamics 365 Field Service.
 
 Para criar uma exibição filtrada para ver apenas clientes potenciais baseados em projeto, você pode criar um filtro no valor **Tipo**. Por exemplo, você pode selecionar para mostrar apenas clientes potenciais baseados em trabalho.
 

@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 212b80a7fde8368eedd7572dd5f9278cc53fae98
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: ad5cbdeb5fe05e6115eb024833a8d58b626ea4c9
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897347"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071395"
 ---
 # <a name="review-proposed-resources"></a>Revisar recursos propostos
 
@@ -32,11 +31,11 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 Os gerentes de recursos podem propor um recurso ao gerente de projetos usando uma solicitação de recurso.
 
 1. Na grade de solicitações ou na própria solicitação, selecione **Localizar Recursos**.
-2. Na página **Assistente de Agendamento**, selecione o recurso e, em seguida, no painel **Criar Reserva de Recursos**, no campo **Status da Reserva**, selecione **Reservar**.
+2. Na página **Assistente de Agendamento** , selecione o recurso e, em seguida, no painel **Criar Reserva de Recursos** , no campo **Status da Reserva** , selecione **Reservar**.
 
 As seguintes atualizações de status ocorrem:
 
-- Na página **Assistente de Agendamento**, os indicadores de status são atualizados para indicar que a reserva é proposta, não fixa.
+- Na página **Assistente de Agendamento** , os indicadores de status são atualizados para indicar que a reserva é proposta, não fixa.
 - Na solicitação de recurso, o status é alterado para **Precisa de Revisão**.
 - Na guia **Equipe** do projeto, o valor **Status de Solicitação** do membro genérico da equipe é alterado para **Precisa de Revisão**.
 
@@ -72,9 +71,9 @@ Como a exibição **Horas Trabalhadas do Recurso** é baseada no Painel de Agend
 
 A grade exige que você defina as horas trabalhadas de destino na função ou no recurso individual. Para definir essa configuração, vá para **Recursos** \> **Funções de recursos**.
 
-Além disso, uma função padrão deve ser atribuída a cada recurso reservável. Vá para **Recursos** \> **Recursos**. Na guia **Project Service**, verifique se a função de um recurso está definida e se o campo **É Padrão** dela está definido como **Sim**. É possível adicionar outras funções onde **É Padrão = Não**. A função em que **É Padrão = Sim** é usada para avaliar as horas trabalhadas do recurso em relação ao destino dessa função.
+Além disso, uma função padrão deve ser atribuída a cada recurso reservável. Vá para **Recursos** \> **Recursos**. Na guia **Project Service** , verifique se a função de um recurso está definida e se o campo **É Padrão** dela está definido como **Sim**. É possível adicionar outras funções onde **É Padrão = Não**. A função em que **É Padrão = Sim** é usada para avaliar as horas trabalhadas do recurso em relação ao destino dessa função.
 
-Na guia **Project Service**, você também pode definir horas trabalhadas de destino individuais para o recurso. O cálculo de horas trabalhadas então usa essas horas trabalhadas de destino para avaliar o destino do recurso em vez do destino da função padrão do recurso.
+Na guia **Project Service** , você também pode definir horas trabalhadas de destino individuais para o recurso. O cálculo de horas trabalhadas então usa essas horas trabalhadas de destino para avaliar o destino do recurso em vez do destino da função padrão do recurso.
 
 As horas trabalhadas são mostradas para um recurso somente se ele tiver tempo passível de cobrança e aprovado durante o período exibido na grade.
 

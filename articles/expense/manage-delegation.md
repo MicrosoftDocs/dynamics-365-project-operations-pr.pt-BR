@@ -7,7 +7,6 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c6a721849bfe556fb637f21898c0fa00083760dd
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: bfc141c6f1072314bdfaef835d730c6ca82bae1a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896852"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071429"
 ---
 # <a name="manage-delegation"></a>Gerenciar delegação
 Um delegado de despesas pode criar e gerenciar relatórios de despesas para outro funcionário.
@@ -30,7 +29,7 @@ Um delegado de despesas pode criar e gerenciar relatórios de despesas para outr
 
 Para configurar um usuário como delegado de despesas, conclua as etapas a seguir. 
 1. Vá para **Gerenciamento de despesas** > **Configuração** > **Geral** > **Delegados**. 
-2. Na página **Delegados**, selecione **Novo** e então selecione o funcionário que terá um delegado definido. 
+2. Na página **Delegados** , selecione **Novo** e então selecione o funcionário que terá um delegado definido. 
 3. Insira o alias do usuário delegado e as datas de início e término do período de delegação.
 
 ## <a name="manage-expenses-on-behalf-of-another-employee"></a>Gerenciar despesas em nome de outro funcionário

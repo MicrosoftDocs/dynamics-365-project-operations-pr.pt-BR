@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 6eb26bab511ec09201ab70c3e2808dece3f74c4c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/07/2020
-ms.locfileid: "3968029"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071317"
 ---
 # <a name="estimate-projects-overview"></a>Visão geral das estimativas de projeto
 
@@ -74,8 +74,8 @@ Se você adicionou um campo personalizado nos detalhes da linha de cotação e d
 2. Selecione **Pesquisar** e procure o plug-in a ser atualizado.
 3. Selecione o plug-in e, em seguida, na página principal, clique em **Selecionar**.
 4. Selecione a etapa do plug-in a ser atualizado, clique com o botão direito do mouse e selecione **Atualizar**.
-5. Na caixa de diálogo **Atualizar Etapa Existente**, no campo **Filtrando Atributos**, selecione o botão de reticências (**...**):
-6. Na caixa de diálogo **Selecionar Atributos**, marque as caixas de seleção de atributos personalizados.
+5. Na caixa de diálogo **Atualizar Etapa Existente** , no campo **Filtrando Atributos** , selecione o botão de reticências ( **...** ):
+6. Na caixa de diálogo **Selecionar Atributos** , marque as caixas de seleção de atributos personalizados.
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, **Atualizar Etapa**.
 8. Repita as etapas de 1 a 7 para o segundo plug-in.
 9. Feche a **PluginRegistrationTool**.

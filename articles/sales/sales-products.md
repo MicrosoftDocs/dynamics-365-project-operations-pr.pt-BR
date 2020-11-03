@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 28397fd49ad4cdb2c820ef4b6f198f410995ba0f
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 7116659c646b323667e3c92cb3f6de99184f5ae6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898697"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071525"
 ---
 # <a name="products"></a>Produtos
 
@@ -34,27 +33,27 @@ Produtos são a espinha dorsal da sua empresa. O catálogo de produtos no Dynami
 ## <a name="add-a-product"></a>Adicionar um produto
 
 1.  Verifique se você tem a função de gerente do Sales Professional ou administrador do sistema para poder adicionar produtos no Dynamics 365 Sales Professional.
-2.  No mapa do site, em **Configuração**, selecione **Produtos**.
+2.  No mapa do site, em **Configuração** , selecione **Produtos**.
 3.  Selecione **Adicionar Produto** e preencha as seguintes informações:
 
     -  **Nome**
     -  **ID do Produto (Product ID)**
-    -  **Pai**: selecione uma família de produtos principal para o produto. Se estiver criando um produto secundário em uma família de produtos, o nome da família do produto principal é preenchido. Isso pode ser alterado depois que o registro for salvo.
-    -  **Válido de**/**Válido até**: defina o período para o qual o produto é válido, selecionando uma data **Válido de** e **Válido até**.
-    -  **Grupo de unidades**: Selecione um grupo de unidades. Um grupo de unidade é uma coleção de várias unidades na qual um produto é vendido e define como itens individuais são agrupados em quantidades maiores. Por exemplo, se você estiver adicionando sementes como um produto, você pode ter criado um grupo de unidades chamado “Sementes” e definido sua unidade principal como "pacote".
-    -  **Unidade Padrão**: selecione a unidade mais comum na qual o produto será vendido. As unidades são as quantidades ou as medidas em que você vende seus produtos. Por exemplo, se adicionou sementes como um produto, você poderá vendê-las em pacotes, caixas ou paletes. Cada uma delas se torna uma unidade de produtos. Se as sementes forem vendidas na maior parte em pacotes, selecione isso como a unidade.
-    -  **Lista de Preços Padrão**: se este for um produto novo, o campo será somente leitura. Antes de selecionar uma lista de preços padrão, preencha todos os campos obrigatórios e salve o registro. Embora a lista de preços padrão não seja necessária, é interessante definir uma lista de preços padrão para cada produto quando o registro do produto é salvo. Assim, se um registro de cliente não contiver uma lista de preços, o Sales poderá usar a lista de preços padrão para gerar cotações, pedidos e faturas.
-    -  **Decimais Compatíveis**: insira um número inteiro entre 0 e 5. Se não for possível dividir o produto em quantidades fracionais, digite 0. A precisão do campo **Quantidade** no registro de cotação, pedido ou fatura do produto é validada em relação ao valor desse campo, caso o produto não tenha uma lista de preços associada.
-    -  **Assunto**: associe este produto a um assunto. Você pode usar assuntos para categorizar seus produtos e filtrar relatórios.
+    -  **Pai** : selecione uma família de produtos principal para o produto. Se estiver criando um produto secundário em uma família de produtos, o nome da família do produto principal é preenchido. Isso pode ser alterado depois que o registro for salvo.
+    -  **Válido de**/**Válido até** : defina o período para o qual o produto é válido, selecionando uma data **Válido de** e **Válido até**.
+    -  **Grupo de unidades** : Selecione um grupo de unidades. Um grupo de unidade é uma coleção de várias unidades na qual um produto é vendido e define como itens individuais são agrupados em quantidades maiores. Por exemplo, se você estiver adicionando sementes como um produto, você pode ter criado um grupo de unidades chamado “Sementes” e definido sua unidade principal como "pacote".
+    -  **Unidade Padrão** : selecione a unidade mais comum na qual o produto será vendido. As unidades são as quantidades ou as medidas em que você vende seus produtos. Por exemplo, se adicionou sementes como um produto, você poderá vendê-las em pacotes, caixas ou paletes. Cada uma delas se torna uma unidade de produtos. Se as sementes forem vendidas na maior parte em pacotes, selecione isso como a unidade.
+    -  **Lista de Preços Padrão** : se este for um produto novo, o campo será somente leitura. Antes de selecionar uma lista de preços padrão, preencha todos os campos obrigatórios e salve o registro. Embora a lista de preços padrão não seja necessária, é interessante definir uma lista de preços padrão para cada produto quando o registro do produto é salvo. Assim, se um registro de cliente não contiver uma lista de preços, o Sales poderá usar a lista de preços padrão para gerar cotações, pedidos e faturas.
+    -  **Decimais Compatíveis** : insira um número inteiro entre 0 e 5. Se não for possível dividir o produto em quantidades fracionais, digite 0. A precisão do campo **Quantidade** no registro de cotação, pedido ou fatura do produto é validada em relação ao valor desse campo, caso o produto não tenha uma lista de preços associada.
+    -  **Assunto** : associe este produto a um assunto. Você pode usar assuntos para categorizar seus produtos e filtrar relatórios.
 
 4.  Selecione **Salvar**.
-5.  Na guia **Detalhes Adicionais**, na seção **Itens da Lista de Preços**, selecione **Mais comandos** e, em seguida, selecione **Adicionar Novo Item da Lista de Preços**.
-7.  Na guia **Detalhes Adicionais**, na seção **Relacionamento de Produto**, selecione o ícone **Mais comandos** e, em seguida, selecione **Adicionar Novo Relacionamento de Produto**.
-8.  No formulário **Novo Relacionamento de Produto**, insira os seguintes detalhes e, na barra de comandos, selecione **Salvar e Fechar**:
+5.  Na guia **Detalhes Adicionais** , na seção **Itens da Lista de Preços** , selecione **Mais comandos** e, em seguida, selecione **Adicionar Novo Item da Lista de Preços**.
+7.  Na guia **Detalhes Adicionais** , na seção **Relacionamento de Produto** , selecione o ícone **Mais comandos** e, em seguida, selecione **Adicionar Novo Relacionamento de Produto**.
+8.  No formulário **Novo Relacionamento de Produto** , insira os seguintes detalhes e, na barra de comandos, selecione **Salvar e Fechar** :
 
-    -   **Produto Relacionado**: selecione um produto que você deseja adicionar como um produto relacionado ao registro de produto existente no qual está trabalhando.
-    -   **Tipo de Relacionamento de Vendas**: selecione se você deseja adicionar o produto como venda suplementar, venda cruzada, acessório ou produto substituto.
-    -   **Direção**: selecione se o relacionamento entre os produtos será bidirecional ou unidirecional. Quando você seleciona Unidirecional, o produto selecionado em **Produtos Relacionados** será mostrado como uma recomendação para o produto existente, mas não vice-versa.
+    -   **Produto Relacionado** : selecione um produto que você deseja adicionar como um produto relacionado ao registro de produto existente no qual está trabalhando.
+    -   **Tipo de Relacionamento de Vendas** : selecione se você deseja adicionar o produto como venda suplementar, venda cruzada, acessório ou produto substituto.
+    -   **Direção** : selecione se o relacionamento entre os produtos será bidirecional ou unidirecional. Quando você seleciona Unidirecional, o produto selecionado em **Produtos Relacionados** será mostrado como uma recomendação para o produto existente, mas não vice-versa.
 
 9.  No formulário Produto, selecione **Salvar**.
 
@@ -69,7 +68,7 @@ Mantenha o inventário do produto atualizado revisando rapidamente as propriedad
 1.  Certifique-se de ter um dos seguintes direitos de acesso ou permissões equivalentes: Administrador do Sistema, Personalizador de Sistema, Gerente de Vendas, Vice-presidente de Vendas, Vice-presidente de Marketing ou Diretor Executivo – Gerente Comercial.
 2.  No mapa do site, selecione **Produtos**.
 3.  Abra um produto ativo que deseja alterar e, na barra de comandos, selecione **Revisar**.
-4.  Na caixa de diálogo **Confirmar Revisão**, selecione **Confirmar**. Isso altera o status do produto para **Sob Revisão**.
+4.  Na caixa de diálogo **Confirmar Revisão** , selecione **Confirmar**. Isso altera o status do produto para **Sob Revisão**.
 5.  Depois que você terminar de fazer alterações, na barra de comandos, selecione **Publicar**.
 
     > [!TIP]
@@ -93,7 +92,7 @@ Se a sua organização não vende mais um produto, aposente-o de forma que o pro
 1.  Certifique-se de que você tenha a função de administrador do sistema ou gerente do Sales Professional ou permissões equivalentes.
 2.  No mapa do site, selecione **Produtos**.
 3.  Abra um produto ativo que deseja desativar e, na barra de comandos, selecione **Desativar**.
-4.  Na caixa de diálogo **Confirmar Desativação**, selecione **Confirmar**.
+4.  Na caixa de diálogo **Confirmar Desativação** , selecione **Confirmar**.
 
 
 ## <a name="delete-a-product"></a>Excluir um produto
@@ -106,7 +105,7 @@ Para parar de vender um produto, exclua-o.
 1.  Certifique-se de que você tenha a função de administrador do sistema ou gerente do Sales Professional ou permissões equivalentes.
 2.  No mapa do site, selecione **Produtos**.
 3.  Selecione um registro do produto que você deseja excluir e, na barra de comandos, clique em **Excluir**.
-4.  Na caixa de diálogo **Confirmar Exclusão**, selecione **Continuar**.
+4.  Na caixa de diálogo **Confirmar Exclusão** , selecione **Continuar**.
  
  ## <a name="quantity-factors-for-products"></a>Fatores de quantidade para produtos
 
@@ -120,8 +119,8 @@ O sistema valida que apenas propriedades numéricas ou propriedades de produto q
 
 Por exemplo, se houver as seguintes propriedades: 
 
-- **Número de Usuários**: o número de usuários 
-- **Número de Meses**: o número de meses de assinatura
+- **Número de Usuários** : o número de usuários 
+- **Número de Meses** : o número de meses de assinatura
 - **SKU do Produto** 
 
 As propriedades **Número de Usuários** e **Número de Meses** podem ser sinalizadas como fatores de quantidade editando as propriedades da linha de produtos. 

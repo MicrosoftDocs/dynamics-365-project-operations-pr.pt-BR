@@ -1,5 +1,5 @@
 ---
-title: agendamento de fatura em linhas de cotação baseada em projeto
+title: Agendamentos de fatura em linhas de cotação baseada em projeto
 description: Este tópico fornece informações sobre a criação de programações de faturas e marcos para linhas de cotação.
 author: rumant
 manager: Annbe
@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ecaf4d872873473b0e7fe3b08d62c6fe5af9c3d
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907863"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071361"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Agendamentos de fatura em linhas de cotação baseada em projeto
 
@@ -28,11 +28,11 @@ No geral, o objetivo das programações de faturas é permitir a criação autom
 Quando o método de faturamento para uma linha de cotação baseada em projeto é Tempo e material, o sistema gera uma programação de fatura baseada em data. Para gerar automaticamente uma programação de fatura com base em data, conclua as etapas a seguir.
 
 1. Vamos para **Configurações** > **Frequências de fatura** e configure uma frequência de fatura.
-2. Na página **Citações**, abra a cotação do projeto e na guia **Resumo**, defina uma data de entrega solicitada.
+2. Na página **Citações** , abra a cotação do projeto e na guia **Resumo** , defina uma data de entrega solicitada.
 3. Abra a linha de cotação de tempo e material para a qual você precisa criar uma programação de faturamento com base em data. 
-4. Na guia **Agendamento de fatura**, selecione valores nos campos **Início de faturamento** e **Frequência de fatura**. 
+4. Na guia **Agendamento de fatura** , selecione valores nos campos **Início de faturamento** e **Frequência de fatura**. 
 5. Na sub-grade, selecione **Gerar programação de fatura**.
-6. O aplicativo gera o agendamento de faturamento com os campo **Data de execução da fatura**, **Data de corte da transação**, e **Status de execução** definidos da seguinte maneira:
+6. O aplicativo gera o agendamento de faturamento com os campo **Data de execução da fatura** , **Data de corte da transação** , e **Status de execução** definidos da seguinte maneira:
 
     - **Data de execução da fatura** é definido com a data ditada com base na frequência da fatura.
     - **Data limite da transação** é definido para o dia anterior à **Data de execução da fatura**.
@@ -40,12 +40,12 @@ Quando o método de faturamento para uma linha de cotação baseada em projeto �
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Crie uma programação de fatura de preço fixo para uma linha de cotação baseada em projeto
 
-Quando a linha de cotação baseada em projeto tem um método de faturamento **Fixo**, o sistema cria uma programação de faturamento baseada em marcos. Conclua as etapas a seguir para gerar automaticamente essa programação para um conjunto fixo de marcos que são igualmente distribuídos para o período do calendário.
+Quando a linha de cotação baseada em projeto tem um método de faturamento **Fixo** , o sistema cria uma programação de faturamento baseada em marcos. Conclua as etapas a seguir para gerar automaticamente essa programação para um conjunto fixo de marcos que são igualmente distribuídos para o período do calendário.
 
 1. Vamos para **Configurações** > **Frequências de fatura** e configure uma frequência de fatura.
-2. Na página **Citações**, abra a cotação do projeto e na guia **Resumo**, defina uma data de entrega solicitada.
+2. Na página **Citações** , abra a cotação do projeto e na guia **Resumo** , defina uma data de entrega solicitada.
 3. Abra a linha de cotação de preço fixo para a qual você precisa criar um cronograma de marcos. 
-4. Na guia **Agendamento de fatura**, selecione valores nos campos **Início de faturamento** e **Frequência de fatura**. 
+4. Na guia **Agendamento de fatura** , selecione valores nos campos **Início de faturamento** e **Frequência de fatura**. 
 5. Na sub-grade, selecione **Gerar etapas periódicas**.
 6. O aplicativo gera a programação de faturamento com um nome de marco, data e valor.
 
@@ -58,7 +58,7 @@ Quando a linha de cotação baseada em projeto tem um método de faturamento **F
 
 Os marcos de preço fixo também podem ser gerados manualmente quando não são divididos periodicamente. Para criar uma etapa manualmente:
 
-Abra a linha de cotação de preço fixo para a qual você precisa criar um marco. Na guia **Programação de fatura**, na sub-grade, selecione **+ Criar novo marco de linha de cotação** e insira as informações necessárias com base na tabela a seguir.
+Abra a linha de cotação de preço fixo para a qual você precisa criar um marco. Na guia **Programação de fatura** , na sub-grade, selecione **+ Criar novo marco de linha de cotação** e insira as informações necessárias com base na tabela a seguir.
 
 | **Campo** | **Local** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
 | --- | --- | --- | --- |

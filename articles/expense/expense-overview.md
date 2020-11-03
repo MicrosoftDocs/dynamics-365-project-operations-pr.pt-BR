@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 0874b3d89e1dc0e65a51cedb82bf8f80831ca0bb
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3967352"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071308"
 ---
 # <a name="expense-home-page"></a>Home page de despesas
 
@@ -24,8 +24,8 @@ O Dynamics 365 Project Operations oferece suporte à capacidade de processar des
 
 Em Project Operations, há dois modelos de implantação compatíveis com Despesa: 
 
-- **Completa**: a implantação completa está disponível para **cenários baseados em recursos/sem estoque do Project Operations** ou **cenários baseados em ordem de produção do Project Operations**.
-- **Básico**: a implantação básica está disponível para **cenários baseados em recursos/sem estoque do Project Operations** e **Implantação lite - gerenciar faturamento pro forma**.
+- **Completa** : a implantação completa está disponível para **cenários baseados em recursos/sem estoque do Project Operations** ou **cenários baseados em ordem de produção do Project Operations**.
+- **Básico** : a implantação básica está disponível para **cenários baseados em recursos/sem estoque do Project Operations** e **Implantação lite - gerenciar faturamento pro forma**.
 
 ## <a name="full"></a>Completo 
 A implantação completa de Despesa fornece uma aplicação de política completa que inclui a capacidade de criar políticas, como:

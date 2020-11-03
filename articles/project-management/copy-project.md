@@ -3,23 +3,23 @@ title: Copiar um projeto
 description: Este tópico fornece informações sobre como copiar projetos no Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e35dc725e7938e9f59f7151dd1b37500fabf77a4
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: cf80f2a1cd27aae33d123e45dee70d94ea4d01a9
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907857"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071369"
 ---
 # <a name="copy-a-project"></a>Copiar um projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
 
-Com o Dynamics 365 Project Operations é possível criar projetos rapidamente usando a ação **Copiar Projeto** no formulário **Projetos**. Para copiar um projeto, selecione um projeto e depois **Copiar**. A ação copiará:
+Com o Dynamics 365 Project Operations, é possível criar projetos rapidamente selecionando **Copiar Projeto** no formulário **Projetos**. Para copiar um projeto, abra o projeto que deseja copiar e selecione **Copiar projeto**. A ação copiará:
 
 - Propriedades do projeto
 - A Estrutura de detalhamento de trabalho
@@ -58,4 +58,6 @@ Quando uma equipe de projeto for copiada do projeto de origem, os recursos gené
 
 ## <a name="estimates"></a>Estimativas
 
-Quando o projeto é copiado, as linhas de estimativa de recursos e de despesas são copiadas do projeto de origem.
+Quando o projeto é copiado, as linhas de estimativa de recursos e de despesas são copiadas do projeto de origem. 
+
+Para obter informações sobre como acessar programaticamente Copiar Projeto, consulte [Desenvolver modelos de projeto com Copiar Projeto](dev-copy-project.md).

@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: c998addbbdbbea8fe69c95f65e58a24146f394c8
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907349"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071279"
 ---
 # <a name="project-tracking-overview"></a>Visão geral do acompanhamento de projeto
 
@@ -25,10 +25,10 @@ A necessidade de acompanhar o progresso em relação a uma agenda varia por seto
 
 A exibição de **Acompanhamento de Esforço** acompanha o progresso das tarefas na agenda comparando as horas de esforço reais gastas em uma tarefa com as horas de esforço planejadas para a tarefa. O Dynamics 365 Project Operations usa as fórmulas a seguir para calcular as métricas de acompanhamento:
 
-- **Porcentagem de progresso**: Esforço real até o momento ÷ Estimativa na conclusão (EAC) 
-- **Estimativa até a conclusão (ETC)**: Esforço planejado – Esforço real empenhado até o momento 
-- **EAC**: Esforço restante + Esforço real empenhado até o momento 
-- **Variação de esforço projetada**: Esforço planejado – EAC
+- **Porcentagem de progresso** : Esforço real até o momento ÷ Estimativa na conclusão (EAC) 
+- **Estimativa até a conclusão (ETC)** : Esforço planejado – Esforço real empenhado até o momento 
+- **EAC** : Esforço restante + Esforço real empenhado até o momento 
+- **Variação de esforço projetada** : Esforço planejado – EAC
 
 O Project Operations mostra uma projeção da variação de esforço na tarefa. Se a EAC for maior do que o esforço planejado, a projeção é de que a tarefa levará mais tempo do que foi planejado e está atrasada. Se a EAC for menor do que o esforço planejado, a projeção é de que a tarefa levará menos tempo do que foi planejado e está adiantada.
 
@@ -60,10 +60,10 @@ A exibição **Acompanhamento de custo** compara o custo real empenhado em uma t
 > [!NOTE]
 > Essa exibição mostra apenas os custos de mão de obra e não inclui os custos das estimativas de despesas. O Project Operations usa as fórmulas a seguir para calcular as métricas de acompanhamento:
 
-- **Porcentagem de custo consumido**: Custo real empenhado até o momento ÷ Custo estimado na conclusão
-- **Custo até a conclusão (CTC)**: Custo planejado – Custo real empenhado até o momento
-- **EAC**: Custo restante + Soma do custo real gasto até a data
-- **Variação de custo projetada**: Custo planejado – EAC
+- **Porcentagem de custo consumido** : Custo real empenhado até o momento ÷ Custo estimado na conclusão
+- **Custo até a conclusão (CTC)** : Custo planejado – Custo real empenhado até o momento
+- **EAC** : Custo restante + Soma do custo real gasto até a data
+- **Variação de custo projetada** : Custo planejado – EAC
 
 Uma projeção da variação de custo é exibida na tarefa. Se a EAT for maior do que o custo planejado, a projeção é de que a tarefa custe mais do que foi planejado originalmente. Portanto, está acima do orçamento. Se a EAT for menor do que o custo planejado, a projeção é de que a tarefa custe menos do que foi planejado originalmente. Portanto, está abaixo do orçamento.
 

@@ -5,25 +5,15 @@ author: ruhercul
 manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
 ms.author: ruhercul
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 76dd47fa2451b5cb61298ff332d77bae646a288a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 6bb7c185656ff87bb3ca24209594c07d25862d70
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3897572"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071373"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Atendimento a requisitos de recursos genéricos
 
@@ -31,9 +21,9 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 
 É possível reservar um recurso nomeado para substituir recurso genérico que tenha um requisito de recurso.
 
-1. Na página **Projetos**, selecione a guia **Equipe**.
+1. Na página **Projetos** , selecione a guia **Equipe**.
 2. Selecione o recurso genérico com um requisito de recurso na lista e selecione **Reservar**. Ou abra o requisito de recurso e selecione **Reservar**.
-3. Na página **Assistente de Agendamento**, selecione um recurso nomeado para reservar na equipe do projeto e selecione **Reservar**.
+3. Na página **Assistente de Agendamento** , selecione um recurso nomeado para reservar na equipe do projeto e selecione **Reservar**.
 
 Quando a reserva é concluída e preenchida por um recurso nomeado, o recurso genérico é substituído pelo recurso nomeado.
 

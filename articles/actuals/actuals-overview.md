@@ -1,5 +1,5 @@
 ---
-title: Home page de dados reais
+title: Dados reais
 description: Este tópico fornece informações sobre como trabalhar com dados reais no Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
@@ -7,7 +7,6 @@ ms.date: 09/16/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 75ad336a995aba3505325466433a5c5e2bb3e776
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.openlocfilehash: 93a945ffbe9c6dd998456b506b95e717ab8fbab7
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3907304"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071418"
 ---
-# <a name="actuals"></a>Dados reais
+# <a name="actuals"></a>Dados reais 
 
 _**Aplicável a: Project Operations para cenários baseados em recursos/sem estoque**_
 
@@ -46,7 +45,7 @@ Quando uma entrada enviada está vinculada a um projeto que está mapeado para u
 
 A lógica para criar preços padrão reside na linha do diário. Os valores de campo da entrada de hora são copiados para a linha do diário. Esses valores incluem a data da transação, a linha de contrato para a qual o projeto está mapeado e o resultado da moeda na lista de preços apropriada.
 
-Os campos que afetam preços padrão, como **Função** e **Unidades Organizacional**, são usados para determinar o preço apropriado na linha do diário. Você pode adicionar um campo personalizado à entrada de hora. Se você quiser que o valor do campo seja propagado para os dados reais, crie o campo na entidade Dados Reais e use mapeamentos de campo para copiar o campo da entrada de hora para os dados reais.
+Os campos que afetam preços padrão, como **Função** e **Unidades Organizacional** , são usados para determinar o preço apropriado na linha do diário. Você pode adicionar um campo personalizado à entrada de hora. Se você quiser que o valor do campo seja propagado para os dados reais, crie o campo na entidade Dados Reais e use mapeamentos de campo para copiar o campo da entrada de hora para os dados reais.
 
 ## <a name="journal-lines-and-basic-expense-submission"></a>Linhas de diário e envio de despesas básicas
 

@@ -7,7 +7,6 @@ ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +15,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dfc5945f32bb8d4073fc31499979ba279fef66a4
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: db1bda71e18369550cd2d38fee1d0ac40e07555d
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896537"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071455"
 ---
 # <a name="set-up-workflows-for-expense-management"></a>Configurar fluxos de trabalho para gerenciamento de despesas
 
@@ -31,9 +30,9 @@ Você pode configurar um processo de fluxo de trabalho para analisar e aprovar d
 
 Um fluxo de trabalho representa um processo empresarial e define como um documento flui pelo sistema. O fluxo de trabalho também indica quem deve concluir uma tarefa ou aprovar um documento. Há vários benefícios em usar o sistema de fluxo de trabalho na sua organização:
 
-- **Processos consistentes**: você pode definir o processo de aprovação para documentos específicos, como requisições de compra e relatórios de despesas. O uso do sistema de fluxo de trabalho ajuda a garantir que os documentos sejam processados e aprovados de maneira consistente e eficiente.
-- **Visibilidade de processos**: você pode rastrear o status, o histórico e as métricas de desempenho de uma instância de fluxo de trabalho específica. Isso ajuda a determinar se é necessário fazer alterações no fluxo de trabalho para melhorar a eficiência.
-- **Lista de trabalho centralizada**: os usuários podem exibir uma lista de trabalho centralizada para visualizar as tarefas e aprovações do fluxo de trabalho atribuídas a eles. 
+- **Processos consistentes** : você pode definir o processo de aprovação para documentos específicos, como requisições de compra e relatórios de despesas. O uso do sistema de fluxo de trabalho ajuda a garantir que os documentos sejam processados e aprovados de maneira consistente e eficiente.
+- **Visibilidade de processos** : você pode rastrear o status, o histórico e as métricas de desempenho de uma instância de fluxo de trabalho específica. Isso ajuda a determinar se é necessário fazer alterações no fluxo de trabalho para melhorar a eficiência.
+- **Lista de trabalho centralizada** : os usuários podem exibir uma lista de trabalho centralizada para visualizar as tarefas e aprovações do fluxo de trabalho atribuídas a eles. 
 
 ## <a name="workflow-types"></a>Tipos de fluxo de trabalho
 

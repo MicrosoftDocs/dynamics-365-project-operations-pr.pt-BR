@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
 ms.openlocfilehash: e938876d459b3f6dfedd90e57e3042cda96bffb7
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3948736"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071292"
 ---
 # <a name="deploy-project-operations-lite-deployment--deal-to-proforma-invoicing"></a>Fazer implantação do Project Operations Lite – gerenciar faturamento pro forma
 
@@ -39,6 +39,6 @@ O Project Operations oferece suporte a vários modelos de implantação. Para de
 ## <a name="install-project-operations-to-an-existing-cds-environment"></a><a name="existing"></a>Instalar Project Operations em um ambiente CDS existente
 
 1. Como o [Global ou administrador do Power Platform](https://docs.microsoft.com/power-platform/admin/global-service-administrators-can-administer-without-license) com uma licença do Project Operations, localize o ambiente na [Central de administração do PowerPlatform](https://admin.powerplatform.com) onde você deseja instalar Project Operations.
-2. Instale **Microsoft Dynamics 365 Project Operations** da lista de implantação de aplicativos Dynamics 365. Para obter mais informações, consulte [Gerenciar aplicativos do Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
+2. Instale **Microsoft Dynamics 365 Project Operations** da lista de implantação de aplicativos Dynamics 365. Para obter mais informações, consulte [Gerenciar aplicativos Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps).
 
 

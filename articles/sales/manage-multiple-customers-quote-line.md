@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965720"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071304"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>Gerenciar vários clientes em linhas de cotação baseadas em projeto
+
+_**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
 As linhas de cotação baseadas em projeto suportam cenários em que cada linha de cotação tem uma lista de clientes que estão pagando por ela. Esta lista de clientes na linha de cotação baseada em projeto pode ser igual à lista de clientes na cotação. Você também pode alterar a lista de clientes para ser diferente. Quando uma cotação de projeto é ganha, a lista de clientes na linha de cotação baseada em projeto é copiada para a linha de contrato baseada em projeto correspondente para criar o contrato de projeto eventual. Os clientes na cotação baseada em projeto são copiados para o contrato do projeto.
 
@@ -31,11 +33,11 @@ A tabela a seguir mostra os campos no registro do cliente da linha de cotação 
 
 | Campo | Localização | Descrição e orientação | Impacto a jusante |
 | --- | --- | --- | --- |
-| **Conta** | Uma grade editável na guia **Clientes da linha de cotação**, o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | Lista todas as contas ativas. Este campo será bloqueado após a criação do registro. Se você precisar atualizar o campo, exclua e recrie o registro. Se você gravou algum real, não pode deletar o registro. | Quando você escolhe uma conta da lista mestre de contas para adicionar, o cliente da linha de cotação também é adicionado como um cliente de cotação. Quando uma cotação é ganha, os clientes da linha de cotação são copiados para os clientes da linha de contrato do projeto. |
-| **Percentual de cobrança dividida** | Uma grade editável na guia **Clientes da linha de cotação**, o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | Representa a porcentagem de cada transação de vendas não faturada que será atribuída a este cliente de linha de cotação. | Copiado para clientes de linha de contrato de projeto. |
-| **Limite máximo** | Uma grade editável na guia **Clientes da linha de cotação**, o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | Indica se há um limite negociado para o valor total que será faturado a este cliente para esta linha de cotação. | Copiado para os clientes da linha de contrato do projeto quando uma cotação é ganha. |
-| **Empresa proprietária** | Uma grade editável na guia **Clientes da linha de cotação**, o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | A pessoa jurídica para a qual este cliente está configurado no módulo **Gestão e contabilidade de projetos**. Este campo é somente leitura e é definido para a empresa proprietária da própria cotação. A lista de clientes para adicionar no campo **Conta** já está filtrada para a lista da empresa proprietária no módulo **Gestão e contabilidade de projetos** de Project Operations. | A empresa proprietária equivale ao conceito de pessoa jurídica. Todos os custos e receitas provenientes deste projeto são contabilizados na contabilidade da empresa proprietária. |
-| **É arredondado** | Uma grade editável na guia **Clientes da linha de cotação**, o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | Indica se este cliente é um cliente de arredondamento padrão para esta linha de cotação baseada em projeto. | Copiado para os clientes do contrato do projeto quando uma cotação é ganha. |
+| **Conta** | Uma grade editável na guia **Clientes da linha de cotação** , o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | Lista todas as contas ativas. Este campo será bloqueado após a criação do registro. Se você precisar atualizar o campo, exclua e recrie o registro. Se você gravou algum real, não pode deletar o registro. | Quando você escolhe uma conta da lista mestre de contas para adicionar, o cliente da linha de cotação também é adicionado como um cliente de cotação. Quando uma cotação é ganha, os clientes da linha de cotação são copiados para os clientes da linha de contrato do projeto. |
+| **Percentual de cobrança dividida** | Uma grade editável na guia **Clientes da linha de cotação** , o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | Representa a porcentagem de cada transação de vendas não faturada que será atribuída a este cliente de linha de cotação. | Copiado para clientes de linha de contrato de projeto. |
+| **Limite máximo** | Uma grade editável na guia **Clientes da linha de cotação** , o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | Indica se há um limite negociado para o valor total que será faturado a este cliente para esta linha de cotação. | Copiado para os clientes da linha de contrato do projeto quando uma cotação é ganha. |
+| **Empresa proprietária** | Uma grade editável na guia **Clientes da linha de cotação** , o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | A pessoa jurídica para a qual este cliente está configurado no módulo **Gestão e contabilidade de projetos**. Este campo é somente leitura e é definido para a empresa proprietária da própria cotação. A lista de clientes para adicionar no campo **Conta** já está filtrada para a lista da empresa proprietária no módulo **Gestão e contabilidade de projetos** de Project Operations. | A empresa proprietária equivale ao conceito de pessoa jurídica. Todos os custos e receitas provenientes deste projeto são contabilizados na contabilidade da empresa proprietária. |
+| **É arredondado** | Uma grade editável na guia **Clientes da linha de cotação** , o formulário principal e o formulário de criação rápida para um cliente com linha de cotação. | Indica se este cliente é um cliente de arredondamento padrão para esta linha de cotação baseada em projeto. | Copiado para os clientes do contrato do projeto quando uma cotação é ganha. |
 
 ## <a name="edit-billing-split-percentages"></a>Editar porcentagens de divisão de cobrança
 

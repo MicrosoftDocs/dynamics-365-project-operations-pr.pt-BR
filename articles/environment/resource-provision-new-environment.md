@@ -3,17 +3,17 @@ title: Provisionar um novo ambiente
 description: Este tópico fornece informações sobre como provisionar um novo ambiente do Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/02/2020
+ms.date: 10/07/2020
 ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 45700371c50e3b5a840df45fc24fa8a5b4584b61
-ms.sourcegitcommit: 87b7a8d793c19c50f3765b8d788cde24a6a0ca24
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949348"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071315"
 ---
 # <a name="provision-a-new-environment"></a>Provisionar um novo ambiente
 
@@ -26,20 +26,20 @@ Este tópico fornece informações sobre como provisionar um novo ambiente do Dy
 Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do Project Operations para seu projeto do LCS.
 
 1. Acesse [LCS](https://lcs.dynamics.com/v2) e selecione o bloco **Gerenciamento versão prévia do recurso**.
-2. Na lista **Versão prévia do recurso**, selecione **Project Operations** e **Versão prévia do recurso habilitada** para habilitar o Project Operations.
+2. Na lista **Versão prévia do recurso** , selecione o **Recurso Project Operations** e **Versão prévia do recurso habilitada** para habilitar o Project Operations.
 
 > [!NOTE]
 > Esta etapa é realizada apenas uma vez por projeto do LCS.
 
 ## <a name="provision-a-project-operations-environment"></a>Provisionar um ambiente do Project Operations
 
-1. Abra uma nova implantação de [ambiente de demonstração](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ou [área restrita/ambiente de produção](https://docs.microsoft.com/edynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) do Dynamics 365 Finance. 
+1. Abra uma nova implantação de [ambiente de demonstração](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ou [área restrita/ambiente de produção](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) do Dynamics 365 Finance. 
 2. Siga o assistente de **Provisionamento de ambiente**. 
 
 > [!IMPORTANT]
 > Certifique-se de que a versão do aplicativo selecionado seja 10.0.13 ou superior.
 
-3. Para provisionar o Project Operations, em **Configurações avançadas**, selecione **Common Data Service**. 
+3. Para provisionar o Project Operations, em **Configurações avançadas** , selecione **Common Data Service**. 
 4. Habilite a **Configuração do Common Data Service** selecionando **Sim** e insira as informações nos campos obrigatórios:
 
   - Nome
@@ -47,7 +47,7 @@ Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do
   - Linguagem
   - Moeda
  
-5. No campo **Modelo do Common Data Service**, selecione **Project Operations** 
+5. No campo **Modelo do Common Data Service** , selecione **Project Operations** 
 
 6. Selecione o tipo de ambiente para sua implantação. Uma avaliação baseada em subscrição permitirá que você implante um ambiente CDS por 30 dias. 
 
@@ -76,11 +76,11 @@ O Project Operations requer um ambiente do Finance com aplicativo versão **10.0
 
 Poderá ser necessário aplicar atualizações de qualidade ao seu ambiente do Finance para receber esta versão.
 
-1. No LCS, na página **Detalhes do ambiente**, na seção **Atualizações Disponíveis**, selecione **Exibir Atualização**.
+1. No LCS, na página **Detalhes do ambiente** , na seção **Atualizações Disponíveis** , selecione **Exibir Atualização**.
 
 ![Exibir Atualizações](./media/5ViewUpdates.png)
 
-2. Na página **Atualizações de binário**, selecione **Salvar pacote**.
+2. Na página **Atualizações de binário** , selecione **Salvar pacote**.
 
 ![Salvar pacote](./media/6SavePackage.png)
 
@@ -111,7 +111,7 @@ A manutenção do ambiente levará algum tempo. Após a conclusão, o ambiente r
 ## <a name="establish-a-dual-write-connection"></a>Estabelecer uma conexão de Gravação Dupla 
 
 1. Em seu projeto do LCS, acesse a página **Detalhes do ambiente**.
-2. Em **Informações do ambiente do Common Data Service**, selecione **Link para o CDS para aplicativos**.
+2. Em **Informações do ambiente do Common Data Service** , selecione **Link para o CDS para aplicativos**.
 3. Depois que o link for concluído, selecione novamente **Link para o CDS para aplicativos**. Você será redirecionado para Gravação Dupla no Finance.
 
 ![Link para o CDS](./media/12LinktoCDS.png)
@@ -142,7 +142,7 @@ Depois que as entidades forem aplicadas, todos os mapeamentos disponíveis serã
 
 ![Parâmetros da Estrutura](./media/17FrameworkParameters.png)
 
-3. Na página **Configurações de entidade**, selecione **Atualizar lista de entidades**.
+3. Na página **Configurações de entidade** , selecione **Atualizar lista de entidades**.
 
 ![Atualizar Lista de Entidades](./media/18RefreshEntityList.png)
 
@@ -153,30 +153,31 @@ A atualização levará aproximadamente 20 minutos. Você receberá um alerta qu
 ## <a name="run-project-operations-dual-write-maps"></a>Executar Mapas de Gravação Dupla do Project Operations
 
 1. Em seu projeto do LCS, acesse a página **Detalhes do ambiente**.
-2. Em **Informações do ambiente do Common Data Service**, selecione **Link para o CDS para aplicativos**. Depois de selecionar o link, você será redirecionado para a lista de entidades nos mapeamentos.
+2. Em **Informações do ambiente do Common Data Service** , selecione **Link para o CDS para aplicativos**. Depois de selecionar o link, você será redirecionado para a lista de entidades nos mapeamentos.
 3. Inicie os mapas conforme descrito na tabela a seguir. Certifique-se de seguir a sequência listada.
 
 | **Mapa de Entidade** | **Atualizar entidade** | **Sincronização inicial** | **Mestre para sincronização inicial** | **Executar pré-requisitos** | **Sincronização inicial dos pré-requisitos** |
 | --- | --- | --- | --- | --- | --- |
 | **Funções de Recursos do Projeto para Todas as Empresas (bookableresourcecategories)** | No | Sim | Common Data Service | No | N/A |
-| **Entidades legais (cdm\_companies)** | No | Sim | Aplicativos do Finance and Operations | No | N/A |
+| **Entidades legais (cdm\_companies)** | No | Sim | Aplicativos Finance and Operations | No | N/A |
 | **Valores reais da integração do Project Operations (msdyn\_actuals)** | No | No | N/A | Sim | No |
 | **Linhas de contrato do projeto (salesorderdetails)** | No | No | N/A | No | No |
 | **Entidade de integração para relacionamentos de transações do projeto (msdyn\_transactionconnections)** | No | No | N/A | No | N/A |
 | **Marcos da linha do contrato de integração do Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | N/A | No | N/A |
 | **Entidade de integração do Project Operations para estimativas de despesas (msdyn\_estimateslines)** | No | No | N/A | No | N/A |
-| **Entidade de integração do Project Operations para estimativas de horas (msdyn\_resourceassignments)** | No | No | N/A | No | N/A |
+| **Entidade de exportação de categorias de despesas do projeto de integração do Project Operations (msdyn\_expensecategories)** | No | No | N/A | No | N/A |
 | **Entidade de exportação de despesas do projeto de integração do Project Operations (msdyn\_expenses)** | Sim | No | N/A | No | N/A |
 | **Entidade de integração do Project Operations para estimativas de horas (msdyn\_resourceassignments)** | Sim | No | N/A | No | N/A |
 
+
 4. Para atualizar a entidade, selecione o nome do mapa e, em seguida, **Atualizar entidades**. 
-5. Continue executando o mapa depois que a atualização for concluída.
+
 
 ![Atualizar Mapa](./media/20RefreshMapping.png)
 
-Antes de habilitar o próximo mapa, verifique se o mapa na tabela está em um estado **Em Execução**. Executar mapas com um número maior de pré-requisitos pode levar algum tempo.
+5. Depois que a atualização for concluída, execute o mapa. Antes de habilitar o próximo mapa, verifique se o mapa na tabela está em um estado **Em Execução**. Executar mapas com um número maior de pré-requisitos pode levar algum tempo.
 
-Para executar um mapa com pré-requisitos, habilite o botão de alternância **Exibir mapas de entidades relacionadas**. Se a tabela indicar que **Sincronização inicial do pré-requisito** é **Não**, verifique se o indicador **Sincronização inicial** é **Desativado** em todos os mapas de pré-requisitos antes de executá-lo.
+Para executar um mapa com pré-requisitos, habilite o botão de alternância **Exibir mapas de entidades relacionadas**. Se a tabela indicar que **Sincronização inicial do pré-requisito** é **Não** , verifique se o indicador **Sincronização inicial** é **Desativado** em todos os mapas de pré-requisitos antes de executá-lo.
 
 ![Executar Mapa](./media/21RunMap.png)
 
