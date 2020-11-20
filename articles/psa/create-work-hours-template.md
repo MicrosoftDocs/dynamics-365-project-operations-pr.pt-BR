@@ -3,7 +3,7 @@ title: Criar um modelo de horas de trabalho.
 description: Como criar um modelo de horário de trabalho no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c34634817fc8e4c993261024a8b19d45052bf5e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a0fce327587940e557e0214c8c0897116ac91901
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071438"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133039"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Criar um modelo de horário de trabalho (Project Service)
 
@@ -45,7 +45,7 @@ Para poder criar agendas de projetos, você precisa configurar um calendário de
   
 2.  Selecione o recurso no qual você deseja basear seu horário de trabalho.  
   
-3.  Clique em **Salvar Calendário Como** , insira um nome para o modelo de horário de trabalho e clique em **Salvar**.  
+3.  Clique em **Salvar Calendário Como**, insira um nome para o modelo de horário de trabalho e clique em **Salvar**.  
   
 4.  Ao concluir a alteração das opções, clique em **Salvar e Fechar**.  
   

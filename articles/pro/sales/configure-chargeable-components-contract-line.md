@@ -1,23 +1,23 @@
 ---
-title: Configurando componentes passíveis de cobrança de uma linha de contrato com base em projeto
+title: Configurar componentes passíveis de cobrança de uma linha de contrato baseada em projeto - lite
 description: Este tópico fornece informações sobre como adicionar componentes passíveis de cobrança às linhas de contrato no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d665a6351d2315d185e64e4eb6b0b8859f7bbc4
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 46429c94ca9aa1ebbbe9fc689a9a5bd6c52dc59e
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071335"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177137"
 ---
-# <a name="configuring-chargeable-components-of-a-project-based-contract-line"></a>Configurando componentes passíveis de cobrança de uma linha de contrato com base em projeto
+# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Configurar componentes passíveis de cobrança de uma linha de contrato baseada em projeto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 Uma linha de contrato com base em projeto tem componentes *incluídos* e componentes *passíveis de cobrança*.
 
@@ -34,19 +34,19 @@ Um subconjunto dos componentes incluídos pode ser marcado como cobrável usando
 
 Os componentes passíveis de cobrança podem ser definidos em tarefas, funções e categorias de transação.
 
-Os encargos são definidos nas tarefas para uma linha de contrato do projeto e se aplicam a todas as classes de transação incluídas na linha. Se o campo **Incluir Tarefas** em uma linha de contrato estiver em branco ou definido como * *Projeto inteiro* *, a guia **Tarefas passíveis de cobrança** não estará disponível.
+Os encargos são definidos nas tarefas para uma linha de contrato do projeto e se aplicam a todas as classes de transação incluídas na linha. Se o campo **Incluir Tarefas** em uma linha de contrato estiver em branco ou definido como **Projeto inteiro**, a guia **Tarefas passíveis de cobrança** não estará disponível.
 
-Os encargos definidos em funções para uma linha de contrato do projeto só se aplicam à classe de transação **Tempo**. Se o campo **Incluir Tempo** em uma linha de contrato estiver definido como **Não** , a guia **Funções passíveis de cobrança** não estará disponível.
+Os encargos definidos em funções para uma linha de contrato do projeto só se aplicam à classe de transação **Tempo**. Se o campo **Incluir Tempo** em uma linha de contrato estiver definido como **Não**, a guia **Funções passíveis de cobrança** não estará disponível.
 
-Os encargos são definidos em categorias de transação para uma linha de contrato do projeto e só se aplicam à classe de transação **Despesa**. Se o campo **Incluir Despesas** estiver definido como **Não** , a guia **Categorias Passíveis de Cobrança** não estará disponível.
+Os encargos são definidos em categorias de transação para uma linha de contrato do projeto e só se aplicam à classe de transação **Despesa**. Se o campo **Incluir Despesas** estiver definido como **Não**, a guia **Categorias Passíveis de Cobrança** não estará disponível.
 
 ### <a name="update-a-project-task-as-chargeable-or-non-chargeable"></a>Atualizar uma tarefa de projeto como passível de cobrança ou não passível de cobrança
 
 Uma tarefa de projeto pode ser passível de cobrança ou não passível de cobrança em uma linha de contrato específica, o que torna possível a seguinte configuração:
 
-Se uma linha de contrato com base em projeto incluir **Tempo** e uma determinada tarefa, **T1** estará associado a ela como passível de cobrança. Se houver uma segunda linha de contrato que inclua **Despesa** , você poderá associar a tarefa T1 na linha de contrato como não passível de cobrança. O resultado é que todo o tempo registrado na tarefa é passível de cobrança e todas as despesas não são passíveis de cobrança.
+Se uma linha de contrato com base em projeto incluir **Tempo** e uma determinada tarefa, **T1** estará associado a ela como passível de cobrança. Se houver uma segunda linha de contrato que inclua **Despesa**, você poderá associar a tarefa T1 na linha de contrato como não passível de cobrança. O resultado é que todo o tempo registrado na tarefa é passível de cobrança e todas as despesas não são passíveis de cobrança.
 
-O tipo de cobrança de uma tarefa pode ser configurado na guia **Tarefas Passíveis de Cobrança** da linha de contrato atualizando o campo **Tipo de Cobrança** na subgrade de tarefas de linha de contrato. Como alternativa, você pode atualizar o campo **Tipo de Cobrança** na subgrade da configuração de Cobrança da tarefa de um projeto que mostra as linhas de contrato associadas a uma tarefa.
+O tipo de faturamento de uma tarefa pode ser configurado na guia **Tarefas Passíveis de Cobrança** da linha do contrato atualizando o campo **Tipo de Cobrança** na subgrade de tarefas da linha do contrato. Como alternativa, você pode atualizar o campo **Tipo de Cobrança** na subgrade da tarefa Configuração de Faturamento de um projeto que mostra as linhas de contrato associadas a uma tarefa.
 
 ### <a name="update-a-role-as-chargeable-or-non-chargeable"></a>Atualizar uma função como passível de cobrança ou não passível de cobrança
 

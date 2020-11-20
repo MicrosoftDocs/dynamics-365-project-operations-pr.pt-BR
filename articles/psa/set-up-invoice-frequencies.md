@@ -3,7 +3,7 @@ title: Configurar frequências de fatura
 description: Como configurar frequências de fatura no Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 18fb4e6968612adb1c946650c829174286c5f3cd
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2739db966b332db35e383589e06e023ff156ed45
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071644"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132005"
 ---
 # <a name="set-up-invoice-frequencies-project-service"></a>Configurar frequências de fatura (Project Service)
 
@@ -35,15 +35,15 @@ As frequências de fatura de [!INCLUDE[pn_project_service_auto](../includes/pn-p
   
 2.  Clique em **Novo**.  
   
-3.  Na área **Geral** , insira um nome para a frequência de fatura em **Nome**.  
+3.  Na área **Geral**, insira um nome para a frequência de fatura em **Nome**.  
   
-4.  Em **Período** , selecione **Mensal** , **Quinzenal** ou **Semanal**.  
+4.  Em **Período**, selecione **Mensal**, **Quinzenal** ou **Semanal**.  
   
-5.  Se você especificou um período mensal ou quinzenal, em **Dias de execução** , selecione **Dia do período** para faturar no dia do período especificado (dia da semana ou fim de semana) ou selecione **Dia da semana** para faturar no dia da semana do período especificado.  
+5.  Se você especificou um período mensal ou quinzenal, em **Dias de execução**, selecione **Dia do período** para faturar no dia do período especificado (dia da semana ou fim de semana) ou selecione **Dia da semana** para faturar no dia da semana do período especificado.  
   
-6.  Se você especificou um período mensal, em **Executa por mês** , selecione o número de vezes por mês que deseja executar a fatura.  
+6.  Se você especificou um período mensal, em **Executa por mês**, selecione o número de vezes por mês que deseja executar a fatura.  
   
-7.  Na área **Detalhes da Frequência de Fatura** , altere os detalhes do dia ou do dia da semana, conforme necessário, para garantir que a fatura seja executada no dia correto ou no dia da semana do período especificado.  
+7.  Na área **Detalhes da Frequência de Fatura**, altere os detalhes do dia ou do dia da semana, conforme necessário, para garantir que a fatura seja executada no dia correto ou no dia da semana do período especificado.  
   
 8.  Ao terminar, clique em **Salvar** no canto inferior direito da tela.  
   

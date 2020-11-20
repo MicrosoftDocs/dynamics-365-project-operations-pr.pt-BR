@@ -1,23 +1,23 @@
 ---
-title: Inscreva-se para receber uma assinatura de versão preliminar
-description: Este tópico fornece informações sobre como assinar e implantar a implantação simplificada do Project Operations - transação para faturamento pró-forma.
+title: Inscrever-se em uma assinatura de versão preliminar - lite
+description: Este tópico fornece informações sobre como assinar e implantar a implantação simplificada do Project Operations - transação para faturamento pro forma.
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071291"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175877"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>Inscreva-se para obter uma assinatura de visualização para implantação simplificada - negócio para faturamento pró-forma
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Inscrever-se em uma assinatura de versão preliminar - lite 
 
-Este tópico explica como assinar a oferta de parceiro de visualização e implantar Dynamics 365 Project Operations - oferta para faturamento pró-forma.
+Este tópico explica como assinar a oferta de parceiro de visualização e implantar Dynamics 365 Project Operations - oferta para faturamento pro forma.
 
 > [!NOTE]
 > Este processo mudará nas próximas versões de Project Operations.
@@ -67,7 +67,7 @@ Repita as mesmas etapas do primeiro código de oferta. Certifique-se de incluir 
 
 ![Página de aterrissagem do Centro de Administração](./media/14AdminPortal.png)
 
-2. Na página **Usuários ativos** , selecione os usuários aos quais deseja atribuir uma licença.
+2. Na página **Usuários ativos**, selecione os usuários aos quais deseja atribuir uma licença.
 
 ![Atribuir Licenças](./media/15AssignLicenses.png)
 

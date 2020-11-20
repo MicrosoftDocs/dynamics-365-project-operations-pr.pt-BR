@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3ead79371c5ebf5801123e47dc0d24e35ae51e58
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071361"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180808"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Agendamentos de fatura em linhas de cotação baseada em projeto
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Uma linha de cotação baseada em projeto oferece a capacidade de expressar uma programação de fatura. Isso é opcional durante a fase de cotação porque o aplicativo não suporta o faturamento de um projeto quando ele está vinculado a uma linha de cotação. O faturamento só é permitido após a cotação ser ganha. O único impacto posterior da criação de uma programação de fatura durante a fase de cotação é que essa programação de fatura é copiada para a linha do contrato com base no projeto. Se você não criar uma programação de fatura durante a fase de cotação, poderá fazê-lo na linha do contrato baseado em projeto.
 
@@ -28,11 +28,11 @@ No geral, o objetivo das programações de faturas é permitir a criação autom
 Quando o método de faturamento para uma linha de cotação baseada em projeto é Tempo e material, o sistema gera uma programação de fatura baseada em data. Para gerar automaticamente uma programação de fatura com base em data, conclua as etapas a seguir.
 
 1. Vamos para **Configurações** > **Frequências de fatura** e configure uma frequência de fatura.
-2. Na página **Citações** , abra a cotação do projeto e na guia **Resumo** , defina uma data de entrega solicitada.
+2. Na página **Citações**, abra a cotação do projeto e na guia **Resumo**, defina uma data de entrega solicitada.
 3. Abra a linha de cotação de tempo e material para a qual você precisa criar uma programação de faturamento com base em data. 
-4. Na guia **Agendamento de fatura** , selecione valores nos campos **Início de faturamento** e **Frequência de fatura**. 
-5. Na sub-grade, selecione **Gerar programação de fatura**.
-6. O aplicativo gera o agendamento de faturamento com os campo **Data de execução da fatura** , **Data de corte da transação** , e **Status de execução** definidos da seguinte maneira:
+4. Na guia **Agendamento de fatura**, selecione valores nos campos **Início de faturamento** e **Frequência de fatura**. 
+5. Na subgrade, selecione **Gerar Agenda de Faturas**.
+6. O aplicativo gera o agendamento de faturamento com os campo **Data de execução da fatura**, **Data de corte da transação**, e **Status de execução** definidos da seguinte maneira:
 
     - **Data de execução da fatura** é definido com a data ditada com base na frequência da fatura.
     - **Data limite da transação** é definido para o dia anterior à **Data de execução da fatura**.
@@ -40,13 +40,13 @@ Quando o método de faturamento para uma linha de cotação baseada em projeto �
 
 ## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-quote-line"></a>Crie uma programação de fatura de preço fixo para uma linha de cotação baseada em projeto
 
-Quando a linha de cotação baseada em projeto tem um método de faturamento **Fixo** , o sistema cria uma programação de faturamento baseada em marcos. Conclua as etapas a seguir para gerar automaticamente essa programação para um conjunto fixo de marcos que são igualmente distribuídos para o período do calendário.
+Quando a linha de cotação baseada em projeto tem um método de faturamento **Fixo**, o sistema cria uma programação de faturamento baseada em marcos. Conclua as etapas a seguir para gerar automaticamente essa programação para um conjunto fixo de marcos que são igualmente distribuídos para o período do calendário.
 
 1. Vamos para **Configurações** > **Frequências de fatura** e configure uma frequência de fatura.
-2. Na página **Citações** , abra a cotação do projeto e na guia **Resumo** , defina uma data de entrega solicitada.
+2. Na página **Citações**, abra a cotação do projeto e na guia **Resumo**, defina uma data de entrega solicitada.
 3. Abra a linha de cotação de preço fixo para a qual você precisa criar um cronograma de marcos. 
-4. Na guia **Agendamento de fatura** , selecione valores nos campos **Início de faturamento** e **Frequência de fatura**. 
-5. Na sub-grade, selecione **Gerar etapas periódicas**.
+4. Na guia **Agendamento de fatura**, selecione valores nos campos **Início de faturamento** e **Frequência de fatura**. 
+5. Na subgrade, selecione **Gerar Etapas Periódicas**.
 6. O aplicativo gera a programação de faturamento com um nome de marco, data e valor.
 
     - O nome da etapa é definido com a data ditada com base na frequência da fatura.
@@ -58,9 +58,9 @@ Quando a linha de cotação baseada em projeto tem um método de faturamento **F
 
 Os marcos de preço fixo também podem ser gerados manualmente quando não são divididos periodicamente. Para criar uma etapa manualmente:
 
-Abra a linha de cotação de preço fixo para a qual você precisa criar um marco. Na guia **Programação de fatura** , na sub-grade, selecione **+ Criar novo marco de linha de cotação** e insira as informações necessárias com base na tabela a seguir.
+Abra a linha de cotação de preço fixo para a qual você precisa criar um marco. Na guia **Programação de Faturas**, na subgrade, selecione **+ Criar novo marco de linha de cotação** e insira as informações necessárias com base na tabela a seguir.
 
-| **Campo** | **Local** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Local** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Nome da etapa | Criação rápida | O nome da etapa. | Isso é propagado para o marco da linha do contrato do projeto e para a fatura |
 | Tarefa do Projeto | Criação rápida | Se o marco estiver vinculado à tarefa do projeto, você pode usar esta referência para adicionar lógica customizada e definir o status do marco com base no status da tarefa. | O aplicativo não tem nenhum impacto downstream dessa referência a uma tarefa. |

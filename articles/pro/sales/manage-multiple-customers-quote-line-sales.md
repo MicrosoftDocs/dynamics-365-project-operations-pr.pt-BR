@@ -1,23 +1,23 @@
 ---
-title: Gerenciando vários clientes em linhas de orçamento baseadas em projeto
+title: Gerenciar vários clientes em linhas de cotação baseadas em projeto - lite
 description: Este tópico descreve como gerenciar vários clientes em linhas de cotação baseadas em projeto.
 author: rumant
 manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6a509fcf8d1fa11b4ce1ba1493d9c3cc64b4f22f
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071329"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176462"
 ---
-# <a name="managing-multiple-customers-on-project-based-quote-lines"></a>Gerenciando vários clientes em linhas de orçamento baseadas em projeto
+# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gerenciar vários clientes em linhas de cotação baseadas em projeto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 As linhas de cotação baseadas em projeto suportam cenários em que cada linha de cotação tem uma lista de clientes que estão pagando por ela. Esta lista de clientes na linha de cotação baseada em projeto pode ser igual à lista de clientes na cotação. Você também pode alterar a lista de clientes para ser diferente. Quando uma cotação de projeto é ganha, a lista de clientes na linha de cotação baseada em projeto é copiada para a linha de contrato baseada em projeto correspondente para criar o contrato de projeto eventual. Os clientes na cotação baseada em projeto são copiados para o contrato do projeto.
 
@@ -33,10 +33,10 @@ A tabela a seguir mostra os campos no registro do cliente da linha de cotação 
 
 | Campo | Localização | Descrição e orientação | Impacto a jusante |
 | --- | --- | --- | --- |
-| **Conta** | Uma grade editável na guia **Clientes da linha de cotação** , o formulário principal e os formulários de criação rápida para um cliente com linha de cotação. | Lista todas as contas ativas. Este campo será bloqueado após a criação do registro. Se você precisar atualizar o campo, exclua e recrie o registro. Se você gravou algum real, não pode deletar o registro. | Quando você escolhe uma conta da lista mestre de contas para adicionar, o cliente da linha de cotação também é adicionado como um cliente de cotação quando você o salva. Quando uma cotação é ganha, os clientes da linha de cotação são copiados para os clientes da linha de contrato do projeto. |
-| **Percentual de cobrança dividida** | Uma grade editável na guia **Clientes da linha de cotação** , o formulário principal e os formulários de criação rápida para um cliente com linha de cotação. | Representa a porcentagem de cada transação de vendas não faturada que será atribuída a este cliente de linha de cotação. | Copiado para clientes de linha de contrato de projeto. |
-| **Limite máximo** | Uma grade editável na guia **Clientes da linha de cotação** , o formulário principal e os formulários de criação rápida para um cliente com linha de cotação. | Indica se há um limite negociado para o valor total que será faturado a este cliente para esta linha de cotação. | Copiado para os clientes da linha de contrato do projeto quando uma cotação é ganha. |
-| **É arredondado** | Uma grade editável na guia **Clientes da linha de cotação** , o formulário principal e os formulários de criação rápida para um cliente com linha de cotação. | Indica se este cliente é um cliente de arredondamento padrão para esta linha de cotação baseada em projeto. | Copiado para os clientes do contrato do projeto quando uma cotação é ganha. |
+| **Conta** | Uma grade editável na guia **Clientes da linha de cotação**, o formulário principal e os formulários de criação rápida para um cliente com linha de cotação. | Lista todas as contas ativas. Este campo será bloqueado após a criação do registro. Se você precisar atualizar o campo, exclua e recrie o registro. Se você gravou algum real, não pode deletar o registro. | Quando você escolhe uma conta da lista mestre de contas para adicionar, o cliente da linha de cotação também é adicionado como um cliente de cotação quando você o salva. Quando uma cotação é ganha, os clientes da linha de cotação são copiados para os clientes da linha de contrato do projeto. |
+| **Percentual de cobrança dividida** | Uma grade editável na guia **Clientes da linha de cotação**, o formulário principal e os formulários de criação rápida para um cliente com linha de cotação. | Representa a porcentagem de cada transação de vendas não faturada que será atribuída a este cliente de linha de cotação. | Copiado para clientes de linha de contrato de projeto. |
+| **Limite máximo** | Uma grade editável na guia **Clientes da linha de cotação**, o formulário principal e os formulários de criação rápida para um cliente com linha de cotação. | Indica se há um limite negociado para o valor total que será faturado a este cliente para esta linha de cotação. | Copiado para os clientes da linha de contrato do projeto quando uma cotação é ganha. |
+| **É arredondado** | Uma grade editável na guia **Clientes da linha de cotação**, o formulário principal e os formulários de criação rápida para um cliente com linha de cotação. | Indica se este cliente é um cliente de arredondamento padrão para esta linha de cotação baseada em projeto. | Copiado para os clientes do contrato do projeto quando uma cotação é ganha. |
 
 ## <a name="edit-billing-split-percentages"></a>Editar porcentagens de divisão de cobrança
 

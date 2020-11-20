@@ -5,27 +5,27 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d7234958d542dec4cba55cb0516f1222937389e1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071305"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181798"
 ---
 # <a name="copy-project-based-quotes"></a>Copiar cotações baseadas em projeto
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Você pode criar facilmente uma nova cotação de projeto copiando uma existente. 
 
-- Para copiar uma cotação de projeto, na página de lista **Cotações de projetos** ou a página de detalhes **Cotação de Projeto** , selecione a cotação do projeto que deseja copiar e, em seguida, selecione **Copiar**.
+- Para copiar uma cotação de projeto, na página de lista **Cotações de projetos** ou a página de detalhes **Cotação de Projeto**, selecione a cotação do projeto que deseja copiar e, em seguida, selecione **Copiar**.
 
 Isso abrirá uma página de diálogo onde você pode inserir os parâmetros da cópia. A tabela a seguir lista os campos que são incluídos na página de diálogo. Dependendo dos valores selecionados, o processo de cópia pode mudar.
 
-| **Campo** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- |
 | Tópico | Insira o tópico relevante, ou nome, da cotação alvo. Quando a caixa de diálogo for aberta, o sistema irá configurá-lo para o tópico da cotação de origem com **copiar** anexado a ela. | |
 | Cliente em Potencial | Referência à empresa do cliente ou registro de conta. Quando a caixa de diálogo for aberta, o sistema irá configurá-lo para a conta na cotação de origem. | Este campo é o cliente principal da cotação. |

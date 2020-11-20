@@ -5,17 +5,17 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c4e91c1a869347ac1182db2de1ab9244309eb856
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071303"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181213"
 ---
-# <a name="opportunity-headersummary"></a>Cabeçalho/resumo da oportunidade
+# <a name="opportunity-settings"></a>Configurações de oportunidade
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
@@ -26,9 +26,9 @@ Oportunidades baseadas em projeto no Dynamics 365 Project Operations são extens
 
 A tabela a seguir inclui os campos de uma oportunidade baseada em projeto que são exclusivos do Project Operations ou têm algumas mudanças importantes no comportamento de Oportunidades em comparação ao Sales.
 
-| **Campo** | **Local** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Local** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
-| Digitar | Guia geral (oculta) | O campo de conjunto de opções tem as seguintes opções:</br>- Baseado no trabalho (disponível apenas com o Project Operations)</br>- Baseado no item (disponível apenas quando o Project Operations e Sales estão instalados)</br>- Baseado em serviço de manutenção (disponível quando o Field Service está instalado) | Quando você usa o Project Operations, o valor deste campo é automaticamente definido como **Baseado em trabalho** , o que classifica a oportunidade como baseada em projeto. Uma oportunidade deve ser baseada em projeto para habilitar todas as extensões e funcionalidades específicas do projeto no processo de vendas posterior para este negócio. |
+| Digitar | Guia geral (oculta) | O campo de conjunto de opções tem as seguintes opções:</br>- Baseado no trabalho (disponível apenas com o Project Operations)</br>- Baseado no item (disponível apenas quando o Project Operations e Sales estão instalados)</br>- Baseado em serviço de manutenção (disponível quando o Field Service está instalado) | Quando você usa o Project Operations, o valor deste campo é automaticamente definido como **Baseado em trabalho**, o que classifica a oportunidade como baseada em projeto. Uma oportunidade deve ser baseada em projeto para habilitar todas as extensões e funcionalidades específicas do projeto no processo de vendas posterior para este negócio. |
 | Empresa Proprietária | Guia Geral | É a empresa ou pessoa jurídica que entregará o projeto para o cliente. | As informações deste campo serão copiadas para o campo correspondente na cotação do projeto que é criada a partir desta oportunidade. |
 | Contato | Guia Geral | Referência ao contato principal do cliente para este negócio. | |
 | Conta | Guia Geral | Referência à empresa do cliente ou registro de conta. | |

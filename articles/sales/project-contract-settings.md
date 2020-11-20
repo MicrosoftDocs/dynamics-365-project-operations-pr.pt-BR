@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c11d6e76b551e0d2cde8ff514d1a0ddd989d07b9
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 2f29e396f8d30a5c5648b5c9937f1f20fbf72e89
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087806"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181123"
 ---
 # <a name="project-contract-settings"></a>Configurações de contrato de projeto
 
@@ -23,7 +23,7 @@ Este tópico fornece informações sobre os campos que se aplicam a todo o contr
 
 A tabela a seguir lista os campos em um contrato de projeto que são exclusivos para o Dynamics 365 Project Operations ou têm algumas mudanças importantes no comportamento dos pedidos de vendas no Dynamics 365 Sales.
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
 | Digitar | Guia **Resumo** (oculta) | Este é um campo de conjunto de opções com as seguintes opções:</br>- **Baseado no trabalho** (disponível apenas quando o Project Operations está instalado)</br>- **Baseado no item** (disponível apenas quando o Project Operations e Sales estão instalados)</br>- **Baseado em serviço de manutenção** (disponível quando o Dynamics 365 Field Service está instalado) | No Project Operations, o valor desse campo é padronizado como **Baseado em trabalho** e classifica o contrato como um contrato baseado em projeto. Um contrato deve ser baseado em projeto para habilitar todas as extensões e funcionalidades específicas do projeto. |
 | Empresa Proprietária | Guia **Resumo** | A entidade legal que será responsável pelos custos e receitas acumulados dos projetos associados a esse contrato de projeto. Quando um contrato é criado a partir de uma cotação, este campo é copiado do campo correspondente no registro de cotação. | A empresa proprietária equipara-se ao conceito de entidade legal no módulo **Gerenciamento e contabilidade de projeto** do Project Operations. Todos os custos e receitas acumulados neste projeto serão contabilizados na contabilidade da empresa proprietária. |
@@ -37,7 +37,7 @@ A tabela a seguir lista os campos em um contrato de projeto que são exclusivos 
 
 Os seguintes KPIs estão disponíveis na guia **Desempenho do Contrato** de um contrato de projeto.
 
-| Campo | Localização | Relevância, finalidade e orientação |
+| Campo | Localização | Descrição |
 | --- | --- | --- |
 | Valor do Contrato | Contrato geral | O valor total do contrato do projeto. |
 | Valor Cobrado | Contrato geral | A soma dos valores em todas as faturas deste contrato. |

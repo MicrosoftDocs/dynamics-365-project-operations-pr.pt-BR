@@ -5,29 +5,29 @@ author: rumant
 manager: Annbe
 ms.date: 10/16/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2c7d63d0cfd5c9b6dbfb65fa8c8227c7f6eeac48
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 501458510efca6434a51577aacd1f09d1a4faa25
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071452"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180673"
 ---
-# <a name="set-up-bill-rates-for-labor-rate-billing"></a>Configurar taxas de cobrança para cobrança de taxa de mão de obra 
+# <a name="set-up-labor-bill-rates"></a>Configurar taxas de cobrança de mão de obra
 
 _ **Aplicável a:** Project Operations para cenários baseados em recursos/sem estoque
 
 Cada lista de preços tem um conjunto de preços de função, ou taxas de mão de obra, que são efetivos para o contexto e data efetiva incluídos no cabeçalho da lista de preços. Taxas de cobrança por hora no Dynamics 365 Project Operations podem ser configuradas em apenas uma moeda, que é a moeda no cabeçalho da lista de preços.
 
 1. Para configurar taxas de cobrança de mão de obra para uma lista de preços de venda, crie uma lista de preços com base no cabeçalho da lista de preços. 
-2. Na guia **Preços da Função** , na sub-grade, selecione **+ Preço da nova função**. 
-3. No painel **Criação Rápida** , insira a combinação de função e unidade organizacional para a qual você precisa configurar a taxa de cobrança.
+2. Na guia **Preços da Função**, na sub-grade, selecione **+ Preço da nova função**. 
+3. No painel **Criação Rápida**, insira a combinação de função e unidade organizacional para a qual você precisa configurar a taxa de cobrança.
 
    A tabela a seguir inclui os campos da guia **Geral** e o painel **Criação Rápida** de uma linha de preço de função que você precisa ter em mente ao criar preços de função em uma lista de preços de venda:
 
-    | Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+    | Campo | Localização | Descrição | Impacto a jusante |
     | --- | --- | --- | --- |
     | Função | Guia **Geral** e painel **Criação Rápida** | Selecione a função para a qual você está definindo a taxa de cobrança. | A função na estimativa de entrada ou real será comparada com esta linha para a taxa de cobrança padrão da função. |
     | Empresa de Recursos | Guia **Geral** e painel **Criação Rápida** | Selecione a empresa ou entidade legal da qual pertence a função. Por exemplo, um desenvolvedor da Fabrikam India ou um desenvolvedor da Fabrikam USA. | A empresa de recursos na estimativa de entrada ou real será comparada com esta linha para definir a taxa de cobrança da função. |

@@ -1,33 +1,33 @@
 ---
-title: Configurando taxas de custo de mão de obra
+title: Configurar taxas de custo de mão de obra - lite
 description: Este tópico fornece informações sobre como configurar as taxas de custo da mão de obra no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/12/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 66a254ce4e7c7f25ac3ea303b73a01625988b0d9
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2e79dde867833fb952349c073ce8975381029dcf
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071339"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180686"
 ---
-# <a name="setting-up-labor-cost-rates"></a>Configurando taxas de custo de mão de obra 
+# <a name="set-up-labor-cost-rates---lite"></a>Configurar taxas de custo de mão de obra - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 Cada lista de preços tem um conjunto de taxas de mão de obra (preços de funções) que se alinham com o conteúdo e a validade da data da lista de preços.
 
-1. Crie uma lista de preços e, na guia **Preço da Função** , na sub-grade, selecione **Nova Função**.
-2. Na página **Criação Rápida** , selecione a função e a unidade organizacional.
+1. Crie uma lista de preços e na guia **Preço da Função**, na subgrade, selecione **Nova Função**.
+2. Na página **Criação Rápida**, selecione a função e a unidade organizacional.
 3. Insira qualquer outra informação de campo obrigatória.
 
 A tabela a seguir inclui alguns dos campos que são importantes ao criar taxas de mão de obra em uma lista de preços de custo.
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
 | Função | Guia **Geral** e páginas de **Criação Rápida** | Selecione a função à qual a taxa de custo se aplica. | A função na estimativa de entrada ou real será comparada com esta linha para padronizar o custo da função. |
 | Unidade de Recursos | Guia **Geral** e páginas de **Criação Rápida** | Selecione a unidade organizacional ou divisão da empresa de onde essa função será usada. Por exemplo, um desenvolvedor da divisão de robótica da Fabrikam India ou um desenvolvedor da divisão de software da Fabrikam USA. | A unidade de recursos na estimativa de entrada ou real será comparada com esta linha para definir o custo da função. |

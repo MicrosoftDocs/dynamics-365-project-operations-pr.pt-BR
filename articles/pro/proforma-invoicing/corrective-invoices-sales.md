@@ -1,23 +1,23 @@
 ---
-title: Créditos e faturas corrigidas
+title: Faturas corrigidas - lite
 description: Este tópico fornece informações sobre faturas corrigidas no Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071539"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176417"
 ---
-# <a name="credits-and-corrected-invoices"></a>Créditos e faturas corrigidas
+# <a name="corrected-invoices---lite"></a>Faturas corrigidas - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 Uma fatura de projeto confirmada pode ser corrigida para processar alterações ou créditos negociados com o cliente e o gerente de projeto.
 
@@ -35,7 +35,7 @@ Um novo esboço de fatura é criado da fatura confirmada. Todos os detalhes da l
 - As reconciliações de retenções e adiantamentos podem ser corrigidas se um valor incorreto tiver sido usado para reconciliar com os encargos em uma fatura previamente confirmada.
 
 > [!IMPORTANT]
-> Os detalhes da linha da fatura que são correções para outras despesas já faturadas têm o campo **Correção** definido como **Sim**. As faturas com os detalhes da linha da fatura corrigidos têm um campo chamado **Tem correções** , que também está definido como **Sim**.
+> Os detalhes da linha da fatura que são correções para outras despesas já faturadas têm o campo **Correção** definido como **Sim**. As faturas com os detalhes da linha da fatura corrigidos têm um campo chamado **Tem correções**, que também está definido como **Sim**.
 
 ## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Reais criados na Confirmação de uma fatura corretiva:
 

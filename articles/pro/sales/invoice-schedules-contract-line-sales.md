@@ -1,74 +1,76 @@
 ---
-title: Criar agendas de faturas em uma linha de contrato baseada em projeto
-description: Este tópico fornece informações sobre a criação de agendas de faturas e etapas em linhas de contrato.
+title: Criar agendas de faturas em uma linha de contrato baseada em projeto - lite
+description: Este tópico fornece informações sobre como criar agendas de faturas e etapas.
 author: rumant
 manager: Annbe
-ms.date: 10/17/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2183b915dd2f67e03964246cb0689003e48363f7
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 728a35b2b69fb63a2b20f218c250365c5068370f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4071662"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180313"
 ---
-# <a name="creating-invoice-schedules-on-a-project-based-contract-line"></a>Criar agendas de faturas em uma linha de contrato baseada em projeto
+# <a name="create-invoice-schedules-on-a-project-based-contract-line---lite"></a>Criar agendas de faturas em uma linha de contrato baseada em projeto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
+Você pode anexar uma agenda de faturas em uma linha de contrato baseada em projeto. O faturamento só é permitido depois que o contrato é ganho para criar um contrato de projeto. As agendas de faturas permitem que faturas de rascunho para uma linha de contrato baseada em projeto sejam criadas automaticamente. Se você pretende sempre criar faturas manualmente, pode ignorar a criação de agendas de faturas em uma linha de contrato com base em projeto ou em uma linha de contrato.
 
-Você pode criar uma agenda de faturas para uma linha de contrato baseada em projeto. O faturamento só será permitido depois que o contrato for ganho e você estiver criando um contrato de projeto. Uma agenda de faturas permite que faturas de rascunho para uma linha de contrato baseada em projeto sejam criadas automaticamente. No entanto, se você só criar faturas manualmente, poderá ignorar a criação de agendas de faturas em linhas do contrato.
-
-## <a name="create-a-time-and-material-invoice-schedule-for-a-contract-line"></a>Criar uma agenda de fatura de hora e material para uma linha de contrato
+## <a name="create-a-time-and-material-invoice-schedule-for-a-project-based-contract-line"></a>Criar uma hora e uma agenda de faturas de material para uma linha de contrato baseada em projeto
 
 Quando uma linha de contrato baseada em projeto tem um método de cobrança de hora e material, você pode criar uma agenda de faturas baseada em data. Para gerar automaticamente uma programação de fatura com base em data, conclua as etapas a seguir.
 
-1. Vá para **Configurações** > **Frequências de fatura** e configure uma frequência de fatura.
-2. Vá para o registro do contrato do projeto e na guia **Resumo** , no campo **Data de Entrega Solicitada** , selecione uma data.
-3. Abra a linha de contrato **Hora e Material** para a qual você está criando a agenda de faturas baseada em data. 
-4. Na guia **Agenda de Faturas** , selecione a data inicial de cobrança e a frequência de fatura.
-5. Na subgrade, selecione **Gerar Agenda de Faturas**. A agenda de faturas é gerada com os campos **Data de Execução da Fatura** , **Data de Corte da Transação** e **Status de Execução** definidos da seguinte maneira:
+1. Acesse **Configurações** > **Frequências de Fatura** para configurar a frequência da fatura.
+2. Abra o contrato do projeto e, na guia **Resumo**, defina a data de entrega solicitada.
+3. Abra a linha de contrato de horas e materiais para a qual você deseja criar uma agenda de faturas com base em data. 
+4. Na guia **Agenda de Faturas**, selecione uma data de início da cobrança e a frequência da fatura. 
+5. Na subgrade, selecione **Gerar Agenda de Faturas**.
 
-    - **Data de Execução da Fatura** : esta data é ditada pela frequência da fatura.
-    - **Data de Corte da Transação** : o dia anterior à data de execução da fatura.
-    - **Status de Execução** : automaticamente definido como **Não Executado**. Quando o trabalho de criação de fatura automática for executado para determinada data de execução da fatura, este campo será atualizado para **Execução Bem-sucedida** ou **Falha na Execução**.
+    O sistema gera a agenda de faturas com as seguintes informações de campo:
 
+    - **Data de Execução da Fatura** é definida com a data com base na frequência da fatura.
+    - **Data Limite da Transação** é definida para o dia anterior à **Data de Execução da Fatura**.
+    - **Status de execução** é automaticamente definido para **Não executar**. Quando o trabalho de criação de fatura automática for executado para determinada **Data de Execução da Fatura**, este campo será atualizado para **Execução Bem-sucedida** ou **Falha na Execução**.
 
-## <a name="create-a-fixed-price-invoice-schedule-for-a-contract-line"></a>Crie uma agenda de faturas de preço fixo para uma linha de contrato
+## <a name="create-a-fixed-price-invoice-schedule-for-a-project-based-contract-line"></a>Criar uma agenda de faturas de preço fixo para uma linha de contrato baseada em projeto
 
-Quando a linha de contrato tem um método de cobrança fixa, você pode criar uma agenda de faturas baseada em etapas. Conclua as etapas a seguir para gerar uma agenda de faturas baseada em etapas para um conjunto fixo de etapas igualmente distribuídas para o período do calendário.
+Quando uma linha de contrato baseada em projeto tem um método de cobrança de preço fixo, você pode criar uma agenda de faturas com base em etapas. Conclua as etapas a seguir para gerar automaticamente uma agenda de faturas com base em etapas para um conjunto fixo de etapas que são distribuídas igualmente para o período do calendário.
 
-1. Vá para **Configurações** > **Frequências de fatura** e configure uma frequência de fatura.
-2. Vá para o registro do contrato do projeto e na guia **Resumo** , no campo **Data de Entrega Solicitada** , selecione uma data.
-3. Abra a linha de contrato **Preço Fixo** para a qual você está criando a agenda de etapas. Na guia **Etapas de Cobrança** , selecione a data inicial de cobrança e a frequência de fatura. 
-4. Na subgrade, selecione **Gerar Etapas Periódicas**. A agenda de faturas é gerada com os campos **Nome da Etapa** , **Data da Etapa** e **Valor da Etapa** definidos da seguinte forma:
+1. Acesse **Configurações** > **Frequências de Fatura** para configurar a frequência da fatura.
+2. Abra o contrato do projeto e, na guia **Resumo**, defina a data de entrega solicitada.
+3. Abra a linha de contrato de preço fixo na qual você precisa criar uma agenda de etapas. 
+4. Na guia **Agenda de Faturas (Etapas de Cobrança)**, selecione a data de início da cobrança e a frequência da fatura. 
+5. Na subgrade, selecione **Gerar Etapas Periódicas**.
 
-    - **Nome da Etapa** : esta data é ditada pela frequência da fatura.
-    - **Data da Etapa** : esta data é ditada pela frequência da fatura.
-    - **Valor da Etapa** : este valor é calculado dividindo o valor do contrato na linha do contrato pelo número de etapas, conforme determinado pela frequência, início da cobrança e datas de entrega solicitadas.
+    O sistema gera a agenda de faturas com as informações de etapas a seguir.
 
-    Se a linha do contrato tiver um valor no campo **Valor estimado do imposto** , esse campo também será distribuído para cada etapa igualmente ao gerar etapas periódicas.
+    - **Nome da Etapa** é definido com a data ditada com base na frequência da fatura.
+    - **Data da Etapa** é definida com a data ditada com base na frequência da fatura.
+    - **Valor da Etapa** é calculado dividindo o valor do contrato na linha do contrato baseada no projeto pelo número de etapas, conforme determinado por frequência, início da cobrança e datas de entrega solicitadas.
+    - Se a linha do contrato tiver um valor no campo **Valor Estimado do Imposto**, este campo também será rateado para cada etapa igualmente ao gerar etapas periódicas.
 
-As etapas de cobrança devem ser iguais ao valor contratado da linha do contrato. Caso contrário, você receberá um erro na página **Linha do Contrato**. Você pode corrigir o erro verificando se as etapas de cobrança totalizam o valor contratado da linha, criando, editando ou excluindo etapas. Depois que as alterações forem feitas, atualize a página para remover o erro.
+As etapas de cobrança devem ser iguais ao valor contratado da linha de contrato baseada em projeto. Se elas não forem iguais, ocorrerá um erro. Você pode corrigir esse erro verificando se as etapas de cobrança totalizam o valor contratado da linha, criando, editando ou excluindo etapas. Após a conclusão das alterações, atualize a página.
 
 ### <a name="manually-create-milestones"></a>Criar etapas manualmente
 
-Você pode gerar manualmente etapas de preço fixo quando elas não são divididas periodicamente. Conclua as etapas a seguir para criar manualmente uma etapa.
+Etapas de preço fixo podem ser geradas manualmente quando não são divididas periodicamente. Para criar uma etapa manualmente, conclua as etapas a seguir.
 
-1. Abra a linha de contrato de preço fixo para a qual você está criando uma etapa. Na guia **Agenda de Faturas** , na subgrade, selecione **+ Criar nova etapa da linha de contrato**. 
-2. Na página **Criação de Etapa** , insira as informações necessárias com base na tabela a seguir.
+1. Abra a linha de contrato de preço fixo na qual você deseja criar uma etapa. 
+2. Na guia **Agenda de Faturas**, na subgrade, selecione **+ Criar nova etapa de linha de contrato**.
+3. No formulário **Criação de Etapa**, insira as informações necessárias com base na tabela a seguir. 
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
-| Nome da Etapa | Criação Rápida | Campo de texto para o nome da etapa. | Isso é transferido para a etapa de linha do contrato do projeto e a fatura. |
-| Tarefa do Projeto | Criação Rápida | Se a etapa estiver vinculada à tarefa do projeto, use esta referência para adicionar lógica personalizada para definir o status da etapa com base no status da tarefa. | O aplicativo não tem impacto downstream dessa referência a uma tarefa. |
-| Data da Etapa | Criação Rápida | Defina a data em que o processo de criação automática de nota fiscal deve procurar o status deste marco para considerá-lo para o faturamento. | Isso é transferido para a etapa de linha do contrato do projeto e a fatura. |
-| Status da Fatura | Criação Rápida | Quando uma etapa é criada, este status é sempre definido como **Não Pronto para Faturamento** ou **Não Iniciado**. | Isso é transferido para a etapa de linha do contrato do projeto e a fatura. |
-| Valor da Linha | Criação Rápida | Quantidade ou valor da etapa que será faturada ao cliente. | Isso é transferido para a etapa de linha do contrato do projeto e a fatura. |
-| Imposto | Criação Rápida | O valor do imposto aplicado na etapa. | Isso é transferido para a etapa de linha do contrato do projeto e a fatura. |
+| Nome da Etapa | Criação Rápida | Campo de texto para o nome da etapa. | Este campo está incluído na etapa da linha do contrato do projeto e na fatura. |
+| Tarefa do Projeto | Criação Rápida | Se a etapa estiver associada a uma tarefa do projeto, use esta referência para adicionar lógica personalizada e definir o status da etapa com base no status da tarefa. | Não há impacto derivado dessa referência em uma tarefa. |
+| Data da Etapa | Criação Rápida | A data em que o processo de criação automática de fatura deve buscar o status desta etapa para considerá-la para o faturamento. | Isso é incluído na etapa da linha do contrato do projeto e na fatura. |
+| Status da Fatura | Criação Rápida | Quando a etapa é criada, este status é sempre definido como **Não está pronto para faturamento** ou **Não iniciado**. | Isso é incluído na etapa da linha do contrato do projeto e na fatura. |
+| Valor da Linha | Criação Rápida | A quantidade ou valor da etapa que será faturada para o cliente. | Este campo é incluído na etapa da linha do contrato do projeto e na fatura. |
+| Imposto | Criação Rápida | O valor do imposto aplicado na etapa. | Isso é incluído na etapa da linha do contrato do projeto e na fatura. |
 
-3. Selecione **Salvar e Fechar**.
-| Quantidade da linha | Criação rápida | Quantia ou valor da etapa que será faturada ao cliente | Isso é propagado para a linha de contrato do projeto Etapa e para a Fatura | | Imposto | Criação rápida | Valor do imposto que será aplicado na Etapa | Isso é propagado para a linha de contrato do projeto Etapa e para a Fatura |
+4. Selecione **Salvar e Fechar**.

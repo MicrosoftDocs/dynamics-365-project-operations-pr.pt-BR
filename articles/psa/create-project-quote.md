@@ -3,7 +3,7 @@ title: Criar uma cotação de projeto
 description: Como criar uma consulta de projeto no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: efa18faffc6b5e97e8fbc21352688874d07e906f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5a28bafed6fa76e21e3edb890da04f105b2b2a3c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071536"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133129"
 ---
 # <a name="create-a-project-quote-project-service"></a>Criar uma cotação de projeto (Project Service)
 
@@ -35,7 +35,7 @@ A criação de uma cotação é semelhante a criar uma oportunidade. Enquanto um
   
 2. Clique em **Próximo Estágio** no lado direito da barra de processos e selecione uma cotação existente ou clique em **Criar** para criar uma nova cotação.  
   
-3. Na área **Resumo** , altere todas as informações conforme necessário.  
+3. Na área **Resumo**, altere todas as informações conforme necessário.  
   
 4. Clique em **Salvar** para criar a cotação para poder continuar a editá-la.  
   
@@ -49,7 +49,7 @@ A criação de uma cotação é semelhante a criar uma oportunidade. Enquanto um
   
 9. Se o cliente aceitar sua cotação, clique em **Fechar como Ganha** na parte superior da tela **Cotação**. Se seu cliente quiser alterar alguns itens, siga todo esse processo novamente para criar uma nova cotação. Se seu cliente decidir não usar seus serviços desta vez, clique em **Fechar como Perdida** na parte superior da tela **Cotação**.  
   
-   Ao fechar uma cotação como ganha, seu projeto passa para o estágio de **Contrato** , e a tela **Contrato de Projeto** solicita que você crie um contrato para esse projeto.  
+   Ao fechar uma cotação como ganha, seu projeto passa para o estágio de **Contrato**, e a tela **Contrato de Projeto** solicita que você crie um contrato para esse projeto.  
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de conta](../psa/account-manager-guide.md)

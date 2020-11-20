@@ -1,23 +1,23 @@
 ---
-title: Configurar os componentes passíveis de cobrança de uma linha de cotação
+title: Configurar os componentes passíveis de cobrança de uma linha de cotação - lite
 description: Este tópico fornece informações sobre a configuração de componentes passíveis de cobrança e não passíveis de cobrança em uma linha de cotação com base em projeto.
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e0b64d7edb21df127bf7544f044de7f3c496dfe3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b5d751ecd66975135c4afd5f18e896251ff34990
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071549"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177092"
 ---
-# <a name="configure-the-chargeable-components-of-a-quote-line"></a>Configurar os componentes passíveis de cobrança de uma linha de cotação
+# <a name="configure-the-chargeable-components-of-a-quote-line---lite"></a>Configurar os componentes passíveis de cobrança de uma linha de cotação - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 Uma linha de cotação com base em projeto tem o conceito de componentes *incluídos* e componentes *passíveis de cobrança*.
 
@@ -44,21 +44,21 @@ Os encargos são definidos em categorias de transação para uma linha de cotaç
 
 Uma tarefa de projeto pode ser passível de cobrança ou não passível de cobrança no contexto de uma linha de cotação com base em projeto, o que torna possível a seguinte configuração:
 
-Se uma linha de cotação com base em projeto incluir **Tempo** e a tarefa **T1** , a tarefa será associada à linha de cotação como passível de cobrança. Se houver uma segunda linha de cotação que inclua **Despesas** , você poderá associar a tarefa **T1** na linha de cotação como não passível de cobrança. O resultado é que todo o tempo registrado na tarefa é passível de cobrança e todas as despesas registradas na tarefa não são passíveis de cobrança.
+Se uma linha de cotação com base em projeto incluir **Tempo** e a tarefa **T1**, a tarefa será associada à linha de cotação como passível de cobrança. Se houver uma segunda linha de cotação que inclua **Despesas**, você poderá associar a tarefa **T1** na linha de cotação como não passível de cobrança. O resultado é que todo o tempo registrado na tarefa é passível de cobrança e todas as despesas registradas na tarefa não são passíveis de cobrança.
 
-O tipo de cobrança de uma tarefa pode ser configurado na guia **Tarefas Passíveis de Cobrança** de uma linha de cotação com base em projeto atualizando o campo **Tipo de Cobrança** na subgrade **Tarefas de Linha de Cotação**. Como alternativa, você pode atualizar o tipo de cobrança para uma tarefa do projeto no campo **Tipo de Cobrança** na subgrade na configuração de cobrança da tarefa de um projeto que mostra as linhas de cotação associadas a uma tarefa.
+O tipo de faturamento de uma tarefa pode ser configurado na guia **Tarefas Passíveis de Cobrança** de uma linha de cotação baseada no projeto atualizando o campo **Tipo de Cobrança** na subgrade **Tarefas da Linha de Cotação**. Como alternativa, você pode atualizar o tipo de faturamento de uma tarefa do projeto no campo **Tipo de Cobrança** na subgrade na configuração de faturamento da tarefa de um projeto que mostra as linhas da cotação associadas a uma tarefa.
 
 ### <a name="update-a-role-to-be-chargeable-or-non-chargeable"></a>Atualizar uma função para passível de cobrança ou não passível de cobrança
 
 Uma função pode ser passível de cobrança ou não passível de cobrança no contexto de uma linha de cotação com base em projeto específica.
 
-O tipo de cobrança de uma função pode ser configurado na guia **Funções Passíveis de Cobrança** de uma linha de cotação com base em projeto atualizando o campo **Tipo de Cobrança** na subgrade **Funções Passíveis de Cobrança**.
+O tipo de faturamento de uma função pode ser configurado na guia **Funções Passíveis de Cobrança** de uma linha da cotação atualizando o campo **Tipo de Faturamento** na subgrade **Funções Passíveis de Cobrança**.
 
 ### <a name="update-a-transaction-category-to-be-chargeable-or-non-chargeable"></a>Atualizar uma categoria de transação para passível de cobrança ou não passível de cobrança
 
 Uma categoria de transação pode ser passível de cobrança ou não passível de cobrança em uma linha de cotação específica.
 
-O tipo de cobrança da transação pode ser configurado na guia **Categorias Passíveis de Cobrança** de uma linha de cotação com base em projeto atualizando o campo **Tipo de Cobrança** na subgrade **Categorias Passíveis de Cobrança**.
+O tipo de faturamento de uma transação pode ser configurado na guia **Categorias Passíveis de Cobrança** de uma linha da cotação atualizando o campo **Tipo de Faturamento** na subgrade **Categorias Passíveis de Cobrança**.
 
 ### <a name="resolve-chargeability"></a>Resolver os encargos
 Uma estimativa ou real criado para o tempo só será considerado passível de cobrança se **Tempo** estiver incluído na linha de cotação e se **Tarefa** e **Função** forem configuradas como passíveis de cobrança na linha de cotação.

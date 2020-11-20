@@ -1,23 +1,23 @@
 ---
-title: Linhas de oportunidade baseadas em projeto (Pro)
+title: Linhas de oportunidade baseadas no projeto - lite
 description: Este tópico fornece informações sobre linhas de oportunidade baseadas em projeto. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1a688b9bed5a38e7b5947cbcee1e3cb8ab211e98
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071353"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180988"
 ---
-# <a name="project-based-opportunity-lines-pro"></a>Linhas de oportunidade baseadas em projeto (Pro)
+# <a name="project-based-opportunity-lines---lite"></a>Linhas de oportunidade baseadas no projeto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 As linhas de oportunidade baseadas em projeto estão disponíveis apenas em oportunidades baseadas em projeto. Os registros de oportunidade baseados em projeto têm o valor do campo **Tipo** definido como **Baseado em trabalho**.
 
@@ -25,7 +25,7 @@ Linhas de oportunidade baseadas em projeto são os itens de linha que serão ent
 
 Veja abaixo os campos em uma linha de oportunidade baseada em projeto:
 
-| **Campo** | **Local** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Local** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Tipo de Produto | Guia geral (oculta) | É possível selecionar uma das seguintes opções:</br>- Serviço baseado em projeto (disponível apenas quando o Dynamics 365 Project Operations está instalado)</br>- Produto (disponível apenas quando o Project Operations e o Dynamics 365 Sales estão instalados) | O valor deste campo é definido como **Serviço baseado em projeto** ao criar uma linha de oportunidade baseada em projeto a partir da grade de linhas baseadas em projeto na Oportunidade. <br> Se você alterar ou substituir este valor, a funcionalidade do projeto não será habilitada nos itens de linha baseados em projeto. |
 | Oportunidade | Guia Geral | Este campo é somente leitura e faz referência ao Registro de oportunidade pai ao qual este item de linha pertence. | Não há impacto a jusante deste campo. |

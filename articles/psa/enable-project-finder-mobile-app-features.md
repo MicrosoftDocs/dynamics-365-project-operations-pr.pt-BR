@@ -3,7 +3,7 @@ title: Habilitar recursos do aplicativo Project Finder Mobile
 description: Como habilitar funcionalidades de aplicativo Project Finder Mobile do Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 749c5682dc2e639843a0a8a085fe8af65502d433
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071435"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132949"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>Habilitar funcionalidades de aplicativo Project Finder Mobile (Project Service)
 
@@ -42,7 +42,7 @@ Seus recursos podem usar o aplicativo Project Finder Mobile em seu telefone com 
   
 2. Clique nos parâmetros que deseja usar para permitir os recursos do aplicativo Project Finder Mobile.  
   
-3. Na área **Geral** , defina **Requisitos de recurso visíveis aos recursos** para **Sim**.  
+3. Na área **Geral**, defina **Requisitos de recurso visíveis aos recursos** para **Sim**.  
   
 4. Defina **Permitir atualização de habilidade por recurso** para **Sim**.  
   

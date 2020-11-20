@@ -1,23 +1,23 @@
 ---
-title: Principais conceitos de cotação de projeto
+title: Cotações - Conceitos-chave - lite
 description: Este tópico fornece informações sobre como usar cotações de projeto no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 64d2fd9bab9452d71e8cd194fbab70edadf00b93
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e86f1a5a7b2859df5bf9569ee9ca306c6dcc6293
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071352"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177992"
 ---
-# <a name="project-quote-key-concepts"></a>Principais conceitos de cotação de projeto
+# <a name="quotes---key-concepts---lite"></a>Cotações - Conceitos-chave - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 
 Esteja ciente destes conceitos-chave antes de começar a usar cotações de projeto no Dynamics 365 Project Operations:
@@ -78,7 +78,7 @@ Os negócios com vários clientes ocorrem quando há mais de um cliente para fat
 
 ## <a name="invoice-schedules"></a>Agendamento de faturas
 
-Os agendamentos de faturas são específicos para cada linha de cotação e também são opcionais. Os agendamentos de faturas são criados com base em determinadas datas de início e de término e frequência de fatura. Os agendamentos de faturas são utilizados na fase do contrato, quando o processo de criação automática de faturas é configurado. Na fase de cotação, os agendamentos são opcionais. Quando os agendamentos de faturas são criados no estágio **Cotação** , eles são copiados para o contrato do projeto que é criado quando a cotação de um projeto vence.
+Os agendamentos de faturas são específicos para cada linha de cotação e também são opcionais. Os agendamentos de faturas são criados com base em determinadas datas de início e de término e frequência de fatura. Os agendamentos de faturas são utilizados na fase do contrato, quando o processo de criação automática de faturas é configurado. Na fase de cotação, os agendamentos são opcionais. Quando os agendamentos de faturas são criados no estágio **Cotação**, eles são copiados para o contrato do projeto que é criado quando a cotação de um projeto vence.
 
 ## <a name="changes-from-dynamics-365-sales-quote"></a>Mudanças na cotação do Changes from Dynamics 365 Sales:
 

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b255d607ac8180c249a9b9831db6f8d0cd3937b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071289"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181933"
 ---
 # <a name="project-based-opportunity-lines"></a>Linhas de oportunidade baseadas em projeto
 
@@ -26,7 +26,7 @@ Linhas de oportunidade baseadas em projeto são os itens de linha que serão ent
 
 Veja abaixo os campos em uma linha de oportunidade baseada em projeto:
 
-| **Campo** | **Local** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Local** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Tipo de Produto | Guia geral (oculta) | Este é um campo de conjunto de opções. Se o Dynamics 365 Operations estiver instalado, uma das opções disponíveis é **Serviço baseado em projeto**.  | O valor deste campo é definido como **Serviço baseado em projeto** ao criar a linha de oportunidade baseada em projeto a partir da grade de linhas baseadas em projeto na Oportunidade. <br> Se você alterar ou substituir este valor, a funcionalidade do projeto não será habilitada nos itens de linha baseados em projeto. |
 | Oportunidade | Guia Geral | Este campo é somente leitura e faz referência ao Registro de oportunidade pai ao qual este item de linha pertence. | Não há impacto a jusante deste campo. |

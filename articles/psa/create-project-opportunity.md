@@ -3,7 +3,7 @@ title: Criar uma oportunidade de projeto
 description: Como criar uma oportunidade de projeto no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d822f37b5bb13f9f55355e65be591e7861a64a1f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c51ff895780085ed9f2723da8f505e666af90c42
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071620"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4133219"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>Criar uma oportunidade de projeto (Project Service)
 
@@ -35,15 +35,15 @@ Oportunidades são clientes potenciais interessados em contratar seus serviços.
   
 2.  Clique em **Novo**.  
   
-3.  Na área **Resumo** , digite a empresa de sua oportunidade e outras informações.  
+3.  Na área **Resumo**, digite a empresa de sua oportunidade e outras informações.  
   
 4.  Adicionar anotações e atividades (por exemplo, telefonema ou e-mail) relacionadas a esse cliente potencial. Para saber mais sobre como adicionar observações e atividades, consulte [Acompanhar observações, tarefas, chamadas ou email com atividades](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities).  
   
-5.  Para adicionar participantes, na área **Participantes** , clique em **+**.  
+5.  Para adicionar participantes, na área **Participantes**, clique em **+**.  
   
-6.  Para adicionar membros da equipe de vendas, na área **Equipe de Vendas** , clique em **+**.  
+6.  Para adicionar membros da equipe de vendas, na área **Equipe de Vendas**, clique em **+**.  
   
-7.  Para adicionar concorrentes, na área **Concorrentes** , clique em **+**.  
+7.  Para adicionar concorrentes, na área **Concorrentes**, clique em **+**.  
   
 8.  Para adicionar um produto à oportunidade, clique em **Nova** em **Linhas Baseadas em Produto** na área **Linhas de Oportunidade**. Selecione um item em **Nome do Produto** e especifique a quantidade, o preço de venda e o orçamento do cliente.  
   

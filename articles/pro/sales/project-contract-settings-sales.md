@@ -1,29 +1,29 @@
 ---
-title: Campos e informações do contrato de projeto
+title: Configurações de contrato do projeto - lite
 description: Este tópico fornece informações sobre os campos que afetam as linhas de contrato e as informações sobre o contrato resumidas em todos os itens de linha.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 082292c54682022933a4b46b856f9241078a9067
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 28dfb256eb75ca9484161f053969c205fcd60965
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087801"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180898"
 ---
-# <a name="project-contract-fields-and-information"></a>Campos e informações do contrato de projeto 
+# <a name="project-contract-settings---lite"></a>Configurações de contrato do projeto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 Este tópico fornece informações sobre os campos que se aplicam a todo o contrato do projeto, incluindo configurações que afetam todas as linhas de contrato. As informações sobre o contrato resumidas em todos os itens de linha para direcionar os KPIs do contrato do projeto também estão incluídas.
 
 A tabela a seguir lista os campos em um contrato de projeto que são exclusivos para o Dynamics 365 Project Operations ou têm algumas mudanças importantes no comportamento dos pedidos de vendas no Dynamics 365 Sales.
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
 | Digitar | Guia **Resumo** (oculta) | Este é um campo de conjunto de opções com as seguintes opções:</br>- **Baseado no trabalho** (disponível apenas quando o Project Operations está instalado)</br>- **Baseado no item** (disponível apenas quando o Project Operations e Sales estão instalados)</br>- **Baseado em serviço de manutenção** (disponível quando o Dynamics 365 Field Service está instalado) | No Project Operations, o valor desse campo é padronizado como **Baseado em trabalho** e classifica o contrato como um contrato baseado em projeto. Um contrato deve ser baseado em projeto para habilitar todas as extensões e funcionalidades específicas do projeto. |
 | Cliente em Potencial | Guia **Resumo** | A referência à empresa do cliente ou ao registro da conta. Quando um contrato é criado a partir de uma cotação, este campo é copiado do campo correspondente no registro de cotação. | A moeda no contrato do projeto é padronizada com base na moeda do cliente. Isso pode ser alterado antes de salvar o contrato. |
@@ -36,7 +36,7 @@ A tabela a seguir lista os campos em um contrato de projeto que são exclusivos 
 
 Os seguintes KPIs estão disponíveis na guia **Desempenho do Contrato** de um contrato de projeto.
 
-| Campo | Localização | Relevância, finalidade e orientação |
+| Campo | Localização | Descrição |
 | --- | --- | --- |
 | Valor do Contrato | Contrato geral | O valor total do contrato do projeto. |
 | Valor Cobrado | Contrato geral | A soma dos valores em todas as faturas deste contrato. |

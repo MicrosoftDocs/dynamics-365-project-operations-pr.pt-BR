@@ -1,21 +1,21 @@
 ---
-title: Resumo informativo de uma cotação de projeto
+title: Configurações de cotação do projeto
 description: Este tópico fornece informações sobre as informações e configurações que se aplicam e afetam as cotações do projeto.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6dde5305f179e9a4454bf97c44f1ebdf9986dd43
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8d5a49febf02310f1e6c26798fc0ba1aa3b8d1f1
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071274"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180223"
 ---
-# <a name="summary-information-on-a-project-quote"></a>Resumo informativo de uma cotação de projeto
+# <a name="project-quote-settings"></a>Configurações de cotação do projeto
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
@@ -24,7 +24,7 @@ Este artigo explica as informações que se aplicam a uma cotação de projeto. 
 
 A tabela a seguir lista os campos de informações de resumo em uma cotação de projeto que são exclusivos para o Dynamics 365 Project Operations ou têm algumas mudanças importantes no comportamento das cotações do Dynamics 365 Sales.
 
-| **Campo** | **Local** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Local** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Digitar | Guia Resumo (oculta) | O hash deste campo de conjunto de opções tem as seguintes opções:</br>- Baseado no trabalho (disponível apenas quando o Project Operations está instalado)</br>- Baseado no item (disponível apenas quando o Project Operations e Sales estão instalados)</br>- Baseado em serviço de manutenção (disponível quando o Dynamics 365 Field Service está instalado) | Quando você usa o aplicativo Project Operations, o valor deste campo é automaticamente definido como **Baseado em trabalho**. Isso classifica a cotação como uma cotação baseada em projeto. Uma cotação deve ser baseada em projeto para habilitar todas as extensões e funcionalidades específicas do projeto. |
 | Empresa Proprietária | Resumo | A entidade legal que será responsável pelos custos e receitas acumulados deste projeto ou projetos associados a esta cotação. Quando uma cotação é criada a partir de uma Oportunidade, este campo é copiado do campo correspondente na Oportunidade. | A empresa proprietária equipara-se ao conceito de entidade legal no módulo **Gerenciamento e contabilidade de projeto** do Project Operations. Todos os custos e receitas acumulados neste projeto serão contabilizados na contabilidade da empresa proprietária. |
@@ -38,7 +38,7 @@ A tabela a seguir lista os campos de informações de resumo em uma cotação de
 
 Veja abaixo as guias e KPIs disponíveis em uma cotação de projeto que são exclusivas para o Project Operations ou têm algumas mudanças importantes no comportamento de cotações do Sales:
 
-| **Campo** | **Local** | **Relevância, finalidade e orientação** |
+| **Campo** | **Local** | **Descrição** |
 | --- | --- | --- |
 | Análise de lucratividade | Guia na Cotação | A guia mostra as seguintes métricas:</br>- Custo total passível de cobrança</br></br>- Custo total não passível de cobrança</br>- Receita total</br>- Receita total (base)</br>- Margem bruta</br>- Margem bruta ajustada|
 | Comparação com Expectativas do Cliente | Guia na Cotação | Esta guia mostra as seguintes métricas:</br>- Conclusão estimada</br>- Conclusão da solicitação</br>- Orçamento do cliente</br>- Valor da cotação |

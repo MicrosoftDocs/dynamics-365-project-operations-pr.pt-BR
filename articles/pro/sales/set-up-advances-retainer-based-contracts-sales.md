@@ -1,24 +1,24 @@
 ---
-title: Contratos baseados em adiantamentos e honorários
+title: Contratos baseados em adiantamentos e honorários - lite
 description: Este tópico fornece informações sobre modelos de contratação com base em honorários e adiantamentos no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5ccf8ff4fa52fa6ff9fe534dfbe6736afc24ffba
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087799"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180853"
 ---
-# <a name="advances-and-retainer-based-contracts"></a>Contratos baseados em adiantamentos e honorários 
+# <a name="advances-and-retainer-based-contracts---lite"></a>Contratos baseados em adiantamentos e honorários - lite
 
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 O Dynamics 365 Project Operations dá suporte a contratos baseados em honorários. Um contrato com base em honorários é um conjunto negociado de pagamentos igualmente distribuídos pelo qual o cliente será faturado durante a duração de um projeto. Esse tipo de contrato é geralmente usado para modelos de cobrança com base em tempo e material ou consumo, em que é necessário fornecer ao cliente uma fatura e um agendamento de pagamento previsíveis. As receitas reais acumuladas em cada período são reconciliadas com o pagamento recebido do cliente no início do período. De acordo com o conceito do modelo de cobrança por tempo e material, os valores das receitas acumuladas em cada período podem variar com os custos incorridos. Se a receita acumulada for superior ao valor recebido no início do período, a empresa de entrega do projeto pode:
 
@@ -33,7 +33,7 @@ Além de um agendamento baseado em honorários periódicos, o Project Operations
 
 O honorário no Project Operations não está disponível para uso até que seja faturado ao cliente. Isso é indicado pelos seguintes campos na subgrade para adiantamentos e honorários.
 
-| Campo | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Descrição | Impacto a jusante |
 | --- | --- | --- |
 | Valor Disponível | O valor que está disponível para ser usado no registro de honorário ou adiantamento. | Até que o adiantamento ou honorário seja faturado, ele não estará disponível para uso, o que significa que o valor disponível será zero. |
 | Valor Usado | O valor que já é utilizado no honorário ou adiantamento. | Um adiantamento ou honorário pode ser parcialmente reconciliado em uma fatura com os custos reais que terão alguma parte marcada como já usada ou consumida. O restante do valor do adiantamento ou honorário está disponível para reconciliação em uma fatura futura com os custos reais. |

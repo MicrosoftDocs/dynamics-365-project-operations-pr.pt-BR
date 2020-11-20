@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 89f5a63581f36b30634bdd302a6d360d6b5e75bd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 26ae5cc267bb06f958bbf9cdce2d80ccde9d3d24
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071367"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181603"
 ---
 # <a name="copy-project-based-opportunities"></a>Copiar oportunidades baseadas em projeto
 
-_**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 
 As oportunidades de projeto podem ser facilmente copiadas para criar novas oportunidades de projeto. 
@@ -25,7 +25,7 @@ As oportunidades de projeto podem ser facilmente copiadas para criar novas oport
 1. Vá para a página de listagem **Oportunidades de Projeto** e selecione uma oportunidade na lista. Ou abra a página de detalhes de uma oportunidade específica. 
 2. Em qualquer uma das páginas, selecione **Copiar**. Uma página de diálogo será aberta contendo as seguintes informações de campo. Dependendo dos valores selecionados nesse diálogo, o processo de cópia poderá mudar.
 
-    | **Campo** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+    | **Campo** | **Descrição** | **Impacto a jusante** |
     | --- | --- | --- |
     | Tópico | Insira o tópico relevante da oportunidade de destino. Quando o diálogo for aberto, o sistema irá configurá-lo para o tópico da oportunidade de origem com **copy** acrescentado. | Não há impacto posterior para esse campo. |
     | Conta | Referências à empresa do cliente ou registro da conta. Quando o diálogo for aberto, o sistema irá configurá-lo para a conta na oportunidade de origem. | Esse campo é o cliente principal da oportunidade. |

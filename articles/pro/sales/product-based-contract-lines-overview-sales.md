@@ -1,23 +1,23 @@
 ---
-title: Visão geral de linhas de contrato baseadas em produto
+title: Visão geral de linhas de contrato baseadas em produto - lite
 description: Este tópico fornece informações sobre linhas de contrato baseadas em produto.
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071355"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177857"
 ---
-# <a name="product-based-contract-lines-overview"></a>Visão geral de linhas de contrato baseadas em produto
+# <a name="product-based-contract-lines-overview---lite"></a>Visão geral de linhas de contrato baseadas em produto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 Você pode criar linhas de contrato baseadas em produto no Dynamics 365 Project Operations. As linhas de contrato baseadas em produto podem ser linhas criadas manualmente ou podem ser itens do catálogo de produtos.
 
@@ -43,6 +43,6 @@ Se uma linha de contrato for baseada em um catálogo de produtos, você poderá 
 - **Substituir preço**
 - **Usar padrão**
 
-Se você definir o campo **Preço** como **Substituir preço** , o preço padrão não será definido. Insira um preço para o produto na linha de contrato. Se você definir o campo como **Usar padrão** , o preço de venda padrão será usado e o campo não poderá ser editado.
+Se você definir o campo **Preço** como **Substituir preço**, o preço padrão não será definido. Insira um preço para o produto na linha de contrato. Se você definir o campo como **Usar padrão**, o preço de venda padrão será usado e o campo não poderá ser editado.
 
 Após a instalação do Project Operations, os preços de vendas padrão são inseridos nas linhas baseadas em produto em um contrato. O campo **Preço** é definido como **Substituir preço** para que seja possível editar o preço padrão nas linhas de contrato. Esta é uma substituição específica do Project Operations para o comportamento das linhas baseadas no produto no Dynamics 365 Sales.

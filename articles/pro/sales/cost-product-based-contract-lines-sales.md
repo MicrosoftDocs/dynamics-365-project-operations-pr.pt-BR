@@ -1,26 +1,26 @@
 ---
-title: Linhas de contrato de cotação baseadas em produto
+title: Linhas de contrato de custos baseadas em produto - lite
 description: Este tópico fornece informações sobre criação
 author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7dfb9425174dddee52f9ee64f7a963e48a6bca70
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.openlocfilehash: 0e961bcf32a5dd662b7cd27a23eb5f664c45c292
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4071659"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177227"
 ---
-# <a name="costing-product-based-contract-lines"></a>Linhas de contrato de cotação baseadas em produto
+# <a name="cost-product-based-contract-lines---lite"></a>Linhas de contrato de custos baseadas em produto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 
-As linhas de contrato com base em produto no Dynamics 365 Project Operations incluem o campo **Preço de Custo** , que armazena o preço de custo do produto para cálculos de lucratividade posteriores.
+As linhas de contrato com base em produto no Dynamics 365 Project Operations incluem o campo **Preço de Custo**, que armazena o preço de custo do produto para cálculos de lucratividade posteriores.
 
 Quando uma linha de contrato baseada em produto é criada para um produto de catálogo, o custo da linha de contrato baseada em produto assume o padrão do campo **Custo Padrão** no catálogo de produtos. O campo **Custo Padrão** no catálogo de produtos é configurado na moeda base da Organização. Quando o custo unitário é padronizado na linha do contrato, ele é convertido para a moeda de venda no contrato.
 

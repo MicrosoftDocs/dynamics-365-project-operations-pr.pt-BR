@@ -1,21 +1,21 @@
 ---
-title: Linhas de cotação baseadas em projeto
+title: Visão geral de linhas de cotação baseadas em projeto
 description: Este tópico fornece informações sobre como usar linhas de cotação baseadas no projeto para o trabalho do projeto.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 06a47c45dc3b3b174658e2fba14d3d2050aabf85
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071295"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181843"
 ---
-# <a name="project-based-quote-lines"></a>Linhas de cotação baseadas em projeto
+# <a name="project-based-quote-lines-overview"></a>Visão geral de linhas de cotação baseadas em projeto
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
@@ -31,7 +31,7 @@ As linhas de cotação baseadas em projeto são projetadas para ajudar a estimar
 
 A tabela a seguir fornece informações sobre os campos na guia **Geral** da linha de cotação baseada em projeto. Esses campos ajudam a estabelecer uma base para uma estimativa detalhada do trabalho do projeto.
 
-| **Campo** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- |
 | Nome | O nome da linha de cotação que deve ajudar você a identificar o componente discreto da cotação que está sendo estimada. | Copiado para a linha do contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |
 | Método de Cobrança | Em uma cotação é criada a partir de uma oportunidade, este valor é copiado do campo correspondente na oportunidade. Este campo inclui os dois modelos de contratação principais compatíveis com o Dynamics 365 Project Operations:</br>- Preço fixo</br>- Hora e material.| O valor deste campo é copiado para a linha de contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |
