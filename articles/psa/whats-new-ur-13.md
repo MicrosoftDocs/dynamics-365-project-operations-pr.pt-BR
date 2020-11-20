@@ -3,7 +3,7 @@ title: Novidades ou alterações na Versão de Atualização 13 do Project Servi
 description: Este tópico inclui informações sobre o que há de novo e o que foi alterado na Versão da Atualização 13 do Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 435b70255dd0053a496362c9ced9e742cfcca843
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bcb05b640966e760a7a74a306a3f0a39594baed8
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071388"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121609"
 ---
 # <a name="project-service-automation-update-release-13-v3"></a>Versão de Atualização 13, do Project Service Automation V3
 Temos o orgulho de anunciar a versão mais recente do aplicativo Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e vá para a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
@@ -53,6 +53,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o Projec
 - Sales
 
      - Corrigido: Os registros do tipo de transação duplicados retornam um erro quando os registros de preço da função são criados.
-     - Corrigido: Os botões extras para **Nova Oportunidade** , **Cotação** , **Linha de Compra** e **Adicionar Produto** estão visíveis nos comandos de Oportunidades, Cotações, Produtos da Ordem e na subgrade das Linhas baseadas no projeto.
+     - Corrigido: os botões extras para **Nova Oportunidade**, **Cotação**, **Linha da Ordem** e **Adicionar Produto** estão visíveis nos comandos de Oportunidades, Cotações, Produtos da Ordem e na subgrade de Linhas baseadas em projeto.
 
 

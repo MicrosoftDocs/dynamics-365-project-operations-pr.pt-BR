@@ -5,19 +5,19 @@ author: stsporen
 manager: Annbe
 ms.date: 10/08/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 190ad9e1f9ced690aee953ed992bf7aa2844c3b3
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071327"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124624"
 ---
 # <a name="extending-time-entries"></a>Estendendo entradas de hora
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 O Dynamics 365 Project Operations inclui um controle personalizado de entrada de hora extensível. Esse controle inclui os seguintes recursos:
 
@@ -33,7 +33,7 @@ A extensão das entradas de hora é possível em duas áreas:
 
 ## <a name="add-custom-time-entries-for-your-own-use"></a><a name="add"></a>Adicionar entradas de hora personalizadas para seu próprio uso
 
-As entradas de hora são uma entidade principal usada em vários cenários. No ciclo 1 de abril de 2020, a solução central TESA foi apresentada. TESA fornece uma entidade **Configurações** e um novo direito de acesso **Usuário da Entrada de Hora**. Os novos campos, **msdyn_start** e **msdyn_end** , que têm uma relação direta com **msdyn_duration** , também foram incluídos. A nova entidade, o direito de acesso e os campos permitem uma abordagem mais unificada do tempo em vários produtos.
+As entradas de hora são uma entidade principal usada em vários cenários. No ciclo 1 de abril de 2020, a solução central TESA foi apresentada. TESA fornece uma entidade **Configurações** e um novo direito de acesso **Usuário da Entrada de Hora**. Os novos campos, **msdyn_start** e **msdyn_end**, que têm uma relação direta com **msdyn_duration**, também foram incluídos. A nova entidade, o direito de acesso e os campos permitem uma abordagem mais unificada do tempo em vários produtos.
 
 
 ### <a name="time-source-entity"></a>Entidade de fonte de hora
@@ -103,13 +103,13 @@ Personalize a exibição **Minhas Entradas de Hora Semanais** e adicione o campo
 
 #### <a name="create-a-new-default-custom-time-entry"></a>Criar uma entrada de hora personalizada padrão
 
-Essa exibição deve conter os campos **Descrição** e **Comentários Externos** , além das colunas que você deseja ter na grade. 
+Essa exibição deve conter os campos **Descrição** e **Comentários Externos**, além das colunas que você deseja ter na grade. 
 
 1. Escolha a posição, o tamanho e a ordem de classificação padrão da grade editando essas propriedades na exibição. 
 2. Configure o controle personalizado dessa exibição para que seja um controle **Grade de Entrada de Hora**. 
 3. Adicione esse controle à exibição e selecione-o para Web, telefone e tablet. 
 4. Configure os parâmetros para a grade de entrada de hora semanal. 
-5. Defina o campo **Data de Início** como **msdyn_date** , defina o campo **Duração** como **msdyn_duration** e defina o campo **Status** como **msdyn_entrystatus**. 
+5. Defina o campo **Data de Início** como **msdyn_date**, defina o campo **Duração** como **msdyn_duration** e defina o campo **Status** como **msdyn_entrystatus**. 
 6. Para a exibição padrão, o campo **Lista de status somente leitura** está definido como **192350002,192350003,192350004**. O campo **Fluxo de Tarefas de Edição de Linha** está definido como **msdyn_timeentryrowedit**. O campo **Fluxo de Tarefas de Edição de Célula** está definido como **msdyn_timeentryedit**. 
 7. Você pode personalizar esses campos para adicionar ou remover o status somente leitura ou usar uma experiência baseada em tarefas (TBX) diferente para edição de linhas ou células. Esses campos agora estão limitados a um valor estático.
 
@@ -117,14 +117,14 @@ Essa exibição deve conter os campos **Descrição** e **Comentários Externos*
 > [!NOTE] 
 > Ambas as opções removerão alguma filtragem predefinida nas entidades **Projeto** e **Tarefa do Projeto** para que todas as exibições de pesquisa das entidades fiquem visíveis. Com a predefinição, apenas as exibições de pesquisa relevantes são visíveis.
 
-Determine o fluxo de tarefas apropriado para o campo personalizado. Se você adicionou o campo na grade, ele deve estar no fluxo de tarefas de edição de linha que é usado para campos que se aplicam a toda a linha de entradas de hora. Se o campo personalizado tiver um valor exclusivo todos os dias, como um campo personalizado para **Hora de término** , ele deverá estar no fluxo de tarefas de edição de célula.
+Determine o fluxo de tarefas apropriado para o campo personalizado. Se você adicionou o campo na grade, ele deve estar no fluxo de tarefas de edição de linha que é usado para campos que se aplicam a toda a linha de entradas de hora. Se o campo personalizado tiver um valor exclusivo todos os dias, como um campo personalizado para **Hora de término**, ele deverá estar no fluxo de tarefas de edição de célula.
 
 Para adicionar o campo personalizado a um fluxo de tarefas, arraste um elemento **Campo** para a posição apropriada na página e defina as propriedades do campo. Defina a propriedade **Fonte** como **Entrada de Hora** e defina a propriedade **Campo de Dados** como o campo personalizado. A propriedade **Campo** especifica o nome para exibição na página de TBX. Selecione **Aplicar** para salvar as alterações no campo e depois selecione **Atualizar** para salvar as alterações na página.
 
-Para usar uma nova página de TBX personalizada, crie um processo. Defina a categoria como **Fluxo do Processo Empresarial** , defina a entidade como **Entrada de Hora** e defina o tipo de processo de negócios como **Executar processo como fluxo de tarefas**. Em **Propriedades** , a propriedade **Nome da página** deve ser definida como o nome para exibição da página. Adicione todos os campos relevantes à página de TBX. Salve e ative o processo. Atualize a propriedade de controle personalizado para o fluxo de tarefas relevante para o valor de **Nome** no processo.
+Para usar uma nova página de TBX personalizada, crie um processo. Defina a categoria como **Fluxo do Processo Empresarial**, defina a entidade como **Entrada de Hora** e defina o tipo de processo de negócios como **Executar processo como fluxo de tarefas**. Em **Propriedades**, a propriedade **Nome da página** deve ser definida como o nome para exibição da página. Adicione todos os campos relevantes à página de TBX. Salve e ative o processo. Atualize a propriedade de controle personalizado para o fluxo de tarefas relevante para o valor de **Nome** no processo.
 
 ### <a name="add-new-option-set-values"></a>Adicionar novos valores do conjunto de opções
-Para adicionar valores do conjunto de opções a um campo predefinido, abra a página de edição do campo e, em **Tipo** , selecione **Editar** ao lado do conjunto de opções. Adicione uma nova opção que tenha um rótulo e cor personalizados. Se você deseja adicionar um novo status de entrada de hora, o campo predefinido é denominado **Status da Entrada** , não **Status**.
+Para adicionar valores do conjunto de opções a um campo predefinido, abra a página de edição do campo e, em **Tipo**, selecione **Editar** ao lado do conjunto de opções. Adicione uma nova opção que tenha um rótulo e cor personalizados. Se você deseja adicionar um novo status de entrada de hora, o campo predefinido é denominado **Status da Entrada**, não **Status**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designar um novo status de entrada de hora como somente leitura
 Para designar um novo status de entrada de hora como somente leitura, adicione o novo valor de entrada de hora à propriedade **Lista de Status somente Leitura**. A parte editável da grade de entrada de hora será bloqueada para as linhas que têm o novo status.

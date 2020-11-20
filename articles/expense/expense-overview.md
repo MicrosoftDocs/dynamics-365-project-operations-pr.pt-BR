@@ -5,27 +5,27 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6da831fef5dba060b8019d7689645405c7ebdbed
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071308"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122807"
 ---
 # <a name="expense-home-page"></a>Home page de despesas
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 
 O Dynamics 365 Project Operations oferece suporte à capacidade de processar despesas. O processamento de despesas com ou sem projetos usando um fluxo de trabalho personalizável de políticas, categorias de transação e aprovações.
 
 Em Project Operations, há dois modelos de implantação compatíveis com Despesa: 
 
-- **Completa** : a implantação completa está disponível para **cenários baseados em recursos/sem estoque do Project Operations** ou **cenários baseados em ordem de produção do Project Operations**.
-- **Básico** : a implantação básica está disponível para **cenários baseados em recursos/sem estoque do Project Operations** e **Implantação lite - gerenciar faturamento pro forma**.
+- **Completa**: a implantação completa está disponível para **cenários baseados em recursos/sem estoque do Project Operations** ou **cenários baseados em ordem de produção do Project Operations**.
+- **Básico**: a implantação básica está disponível para **cenários baseados em recursos/sem estoque do Project Operations** e **Implantação lite - gerenciar faturamento pro forma**.
 
 ## <a name="full"></a>Completo 
 A implantação completa de Despesa fornece uma aplicação de política completa que inclui a capacidade de criar políticas, como:

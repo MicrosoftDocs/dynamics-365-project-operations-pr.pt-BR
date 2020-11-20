@@ -3,7 +3,7 @@ title: Crie uma lista de preços
 description: Como criar uma lista de preços no Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071464"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122014"
 ---
 # <a name="create-a-price-list-project-service"></a>Criar uma lista de preços (Project Service)
 
@@ -39,33 +39,33 @@ As listas de preços se baseiam em funções e em categorias de despesas, portan
   
 2.  Clique em **Novo**.  
   
-3.  Em **Contexto** , selecione se a lista de preços é de **Custo** , de **Compra** ou de **Venda**.  
+3.  Em **Contexto**, selecione se a lista de preços é de **Custo**, de **Compra** ou de **Venda**.  
   
-4.  Em **Nome** , insira um nome para a lista de preços.  
+4.  Em **Nome**, insira um nome para a lista de preços.  
   
-5.  Em **Moeda** , selecione a moeda que você usará para cobrança ou avaliação de custo.  
+5.  Em **Moeda**, selecione a moeda que você usará para cobrança ou avaliação de custo.  
   
-6.  Em **Unidade de Tempo** , especifique o período ao qual o preço se aplica, como dia ou hora.  
+6.  Em **Unidade de Tempo**, especifique o período ao qual o preço se aplica, como dia ou hora.  
   
-7.  Preencha a **Data de Início** , a **Data de término** e a **Descrição** conforme necessário.  
+7.  Preencha a **Data de Início**, a **Data de término** e a **Descrição** conforme necessário.  
   
 8.  Clique em **Salvar** para criar o registro para poder continuar a editá-lo.  
   
 9. Para adicionar um preço da função à lista de preços, clique em **+** em **Preços da função**.  
   
-10. No painel **Preço de Função** , preencha os detalhes e clique em **Salvar**. Continue a adicionar preços de função conforme necessário. Ao terminar, clique em **Salvar** no canto inferior direito da tela.  
+10. No painel **Preço de Função**, preencha os detalhes e clique em **Salvar**. Continue a adicionar preços de função conforme necessário. Ao terminar, clique em **Salvar** no canto inferior direito da tela.  
   
 11. Para adicionar um preço de categoria de despesas à lista de preços, clique em **+** em **Preços de categoria**.  
   
-12. No painel **Preço de Categoria de Transação** , preencha os detalhes e clique em **Salvar**. Continue a adicionar preços de categorias conforme necessário. Ao terminar, clique em **Salvar** no canto inferior direito da tela.  
+12. No painel **Preço de Categoria de Transação**, preencha os detalhes e clique em **Salvar**. Continue a adicionar preços de categorias conforme necessário. Ao terminar, clique em **Salvar** no canto inferior direito da tela.  
   
 13. Para adicionar itens da lista de preços à lista de preços, clique em **+** em **Itens da Lista de Preços**.  
   
-14. No painel **Item da Lista de Preços** , preencha os detalhes e clique em **Salvar**. Continue a adicionar itens da lista de preços conforme necessário. Ao terminar, clique em **Salvar** no canto inferior direito da tela.  
+14. No painel **Item da Lista de Preços**, preencha os detalhes e clique em **Salvar**. Continue a adicionar itens da lista de preços conforme necessário. Ao terminar, clique em **Salvar** no canto inferior direito da tela.  
   
 15. Para adicionar relacionamentos de regiões à lista de preços, clique em **+** **Relacionamentos de Regiões**.  
   
-16. Na janela **Nova Conexão** , preencha os detalhes e clique em **Salvar**. Continue a adicionar relacionamentos de regiões conforme necessário. Ao terminar, clique em **Salvar** no canto inferior direito da tela.  
+16. Na janela **Nova Conexão**, preencha os detalhes e clique em **Salvar**. Continue a adicionar relacionamentos de regiões conforme necessário. Ao terminar, clique em **Salvar** no canto inferior direito da tela.  
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar Project Service Automation](../psa/configure.md)

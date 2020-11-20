@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,24 +15,24 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 12c7971204b485ee7cb222cd9cffdfdfde93dcf4
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e0004f9096ea8a03745dbfce35fe0d32d3d707f6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071391"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120844"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurar integração de cartão de crédito
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 As transações de cartão de crédito relacionadas a despesas podem ser configuradas para serem importadas automaticamente em um cronograma recorrente. Como alternativa, elas podem ser importadas manualmente conforme necessário. As transações de cartão de crédito são importadas por meio da entidade de dados Transações de cartão de crédito.
 
 ## <a name="import-credit-card-transactions"></a>Importar transações de cartão de crédito
 
-1. Na página **Transações de cartão de crédito** , selecione **Importar transações**. Se você estiver abrindo o gerenciamento de dados pela primeira vez, o sistema deverá atualizar a lista de entidades de dados para que seja possível continuar.
-2. No campo **Nome** , insira uma descrição exclusiva do trabalho de importação.
-3. No campo **Formato de dados de origem** , selecione o formato do arquivo que contém as transações de cartão de crédito a serem importadas.
+1. Na página **Transações de cartão de crédito**, selecione **Importar transações**. Se você estiver abrindo o gerenciamento de dados pela primeira vez, o sistema deverá atualizar a lista de entidades de dados para que seja possível continuar.
+2. No campo **Nome**, insira uma descrição exclusiva do trabalho de importação.
+3. No campo **Formato de dados de origem**, selecione o formato do arquivo que contém as transações de cartão de crédito a serem importadas.
 4. Selecione **Carregar** e, em seguida, localize e selecione o arquivo a ser importado.
 5. Depois que o arquivo for carregado, valide o mapeamento do arquivo de transações de cartão de crédito e as colunas da entidade de dados Transações de cartão de crédito selecionando o link **Exibir mapa** no bloco. Se houver erros de mapeamento ou se você precisar alterá-lo, faça as alterações na guia **Visualização de mapeamento** ou na guia **Detalhes de mapeamento**.
 6. Para automatizar as transações de cartão de crédito, selecione **Criar trabalho de dados recorrente**. Você pode configurar a recorrência que define a frequência com que as transações de cartão de crédito devem ser importadas. Ao concluir, selecione **OK**.
@@ -44,6 +44,6 @@ As transações de cartão de crédito relacionadas a despesas podem ser configu
 
 ## <a name="reassign-the-credit-card-transactions-for-terminated-employees"></a>Reatribuir as transações de cartão de crédito de funcionários despedidos
 
-Quando um registro de funcionário é encerrado, a conta do Active Directory Domain Services (AD DS) desse funcionário é desabilitada. No entanto, pode haver transações de cartão de crédito ativas que ainda devem ser contabilizadas como despesas e reembolsadas. Na página **Transações de cartão de crédito** , você pode reatribuir um funcionário em qualquer transação de cartão de crédito na qual o funcionário associado tenha sido despedido.
+Quando um registro de funcionário é encerrado, a conta do Active Directory Domain Services (AD DS) desse funcionário é desabilitada. No entanto, pode haver transações de cartão de crédito ativas que ainda devem ser contabilizadas como despesas e reembolsadas. Na página **Transações de cartão de crédito**, você pode reatribuir um funcionário em qualquer transação de cartão de crédito na qual o funcionário associado tenha sido despedido.
 
 Selecione uma ou mais transações de cartão de crédito e, em seguida, selecione **Reatribuir transações**. Você pode selecionar outro funcionário ao qual atribuir as transações de cartão de crédito. Depois que as transações de cartão de crédito forem reatribuídas, elas poderão ser selecionadas para um relatório de despesas e pagas por meio do processo normal de reembolso de relatórios de despesas.

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071378"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121474"
 ---
 # <a name="booking-allocation-methods"></a>Métodos de alocação de reserva
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Independentemente de adicionar um membro da equipe diretamente a um projeto na guia **Equipe** , ou de reservar um recurso para um projeto ou requisito no Quadro de Agendamento, há alguns métodos diferentes para reservar a alocação que você pode usar. Este tópico explica como cada método funciona e quais métodos podem levar à reserva em excesso de recursos.
+Independentemente de adicionar um membro da equipe diretamente a um projeto na guia **Equipe**, ou de reservar um recurso para um projeto ou requisito no Quadro de Agendamento, há alguns métodos diferentes para reservar a alocação que você pode usar. Este tópico explica como cada método funciona e quais métodos podem levar à reserva em excesso de recursos.
 
 ## <a name="booking-allocation-methods"></a>Métodos de alocação de reserva
 

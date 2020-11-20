@@ -5,15 +5,15 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071312"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121069"
 ---
 # <a name="expense-entry-lite"></a>Entrada de despesa (lite)
 
@@ -28,7 +28,7 @@ Para obter mais informações sobre os recursos de despesas no Dynamics 365 Proj
 Você pode capturar as despesas para que você possa enviá-las para o aprovador.
 
 1. Vá para **Despesas** e selecione **Novo**.
-2. Na página **Nova Despesa** , insira as informações de despesas obrigatórias e selecione **Salvar**.
+2. Na página **Nova Despesa**, insira as informações de despesas obrigatórias e selecione **Salvar**.
 
 ## <a name="submit-a-basic-expense"></a>Enviar uma despesa básica
 

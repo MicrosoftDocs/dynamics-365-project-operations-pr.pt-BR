@@ -3,7 +3,7 @@ title: Tipos de estágio do projeto
 description: Este tópico fornece informações sobre os estágios do projeto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 06/19/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 521bf4b3090473a603626a99fded53906b644a7a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: aa423979a794b07a8bd27440f47a29480b74b518
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071479"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123026"
 ---
 # <a name="project-stage-types"></a>Tipos de estágio do projeto 
 
@@ -46,11 +46,11 @@ Ao criar um projeto, o estágio dele é definido como **Novo**. Se o projeto foi
 
 ## <a name="quote"></a>Cotação
 
-Ao associar um projeto a uma cotação ou criar um projeto com base em uma cotação, o estágio do projeto é definido como **Cotação** e as datas estimadas de início e de término são atualizadas. Enquanto o projeto está no estágio **Cotação** , a guia **Vendas** na página **Entidade de Projeto** exibe detalhes da cotação.
+Ao associar um projeto a uma cotação ou criar um projeto com base em uma cotação, o estágio do projeto é definido como **Cotação** e as datas estimadas de início e de término são atualizadas. Enquanto o projeto está no estágio **Cotação**, a guia **Vendas** na página **Entidade de Projeto** exibe detalhes da cotação.
 
 ## <a name="plan"></a>Planejar
 
-Quando você vence uma cotação associada a um projeto e este é movido para a fase **Contrato** , o estágio do projeto é atualizado para **Planejar**. Enquanto o projeto está no estágio **Planejar** , a página **Entidade de Projeto** exibe detalhes do contrato.
+Quando você vence uma cotação associada a um projeto e este é movido para a fase **Contrato**, o estágio do projeto é atualizado para **Planejar**. Enquanto o projeto está no estágio **Planejar**, a página **Entidade de Projeto** exibe detalhes do contrato.
 
 ## <a name="deliver"></a>Entregar
 
@@ -58,7 +58,7 @@ Quando o plano do projeto estiver concluído e você estiver pronto para iniciar
 
 ## <a name="complete"></a>Concluído 
 
-Quando o trabalho no projeto estiver concluído, o gerente do projeto poderá atualizar o estágio para **Concluído**. Ao atualizar o estágio do projeto para **Concluído** , o gerente indica que o trabalho está 100% concluído, mas que o projeto está sendo mantido aberto para que quaisquer entradas pendentes de hora ou despesa possam ser registradas.
+Quando o trabalho no projeto estiver concluído, o gerente do projeto poderá atualizar o estágio para **Concluído**. Ao atualizar o estágio do projeto para **Concluído**, o gerente indica que o trabalho está 100% concluído, mas que o projeto está sendo mantido aberto para que quaisquer entradas pendentes de hora ou despesa possam ser registradas.
 
 ## <a name="close"></a>Fechar
 

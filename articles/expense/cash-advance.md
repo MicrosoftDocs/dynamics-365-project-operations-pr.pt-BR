@@ -5,17 +5,17 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 209fe0b8a79b2c0689c458c423664cb292da249b
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c5839fbdab58903555936324139b76f4c94b6c35
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071311"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122735"
 ---
 # <a name="cash-advance"></a>Adiantamento em dinheiro
 
@@ -25,16 +25,16 @@ Um adiantamento de dinheiro permite que os funcionários peçam dinheiro emprest
 
 ## <a name="create-and-submit-a-cash-advance-request"></a>Criar e enviar uma solicitação de adiantamento de dinheiro
 
-1. Em **Minhas Despesas** , selecione **Adiantamentos de dinheiro** > **Novo** para criar um adiantamento de dinheiro. 
-2. Na página **Nova solicitação de adiantamento de dinheiro** , insira a finalidade da despesa e selecione o local onde a despesa será incorrida.
+1. Em **Minhas Despesas**, selecione **Adiantamentos de dinheiro** > **Novo** para criar um adiantamento de dinheiro. 
+2. Na página **Nova solicitação de adiantamento de dinheiro**, insira a finalidade da despesa e selecione o local onde a despesa será incorrida.
 3. Insira o valor e a moeda solicitados e selecione **Salvar**. 
-4. Quando estiver pronto para enviar a solicitação de adiantamento de dinheiro na página **Solicitação de adiantamento de dinheiro** , selecione **Fluxo de trabalho** > **Enviar**.
+4. Quando estiver pronto para enviar a solicitação de adiantamento de dinheiro na página **Solicitação de adiantamento de dinheiro**, selecione **Fluxo de trabalho** > **Enviar**.
 
 ## <a name="modify-a-cash-advance-request"></a>Modificar uma solicitação de adiantamento de dinheiro
 
 Você pode modificar uma solicitação de adiantamento de dinheiro se ela não tiver sido enviada para aprovação.
 
-1. Em **Minhas Despesas: Adiantamentos de Dinheiro** , localize e selecione o adiantamento de dinheiro que deseja editar.
+1. Em **Minhas Despesas: Adiantamentos de Dinheiro**, localize e selecione o adiantamento de dinheiro que deseja editar.
 2. Selecione **Editar** e faça as alterações necessárias na solicitação de adiantamento de dinheiro. 
 3. Selecione **Salvar e fechar**.
 
@@ -46,7 +46,7 @@ Você pode revisar a lista de todos os adiantamentos de dinheiro em rascunho, en
 
 Os gerentes ou usuários configurados como aprovadores no fluxo de trabalho poderão aprovar os adiantamentos de dinheiro enviados a eles para revisão. 
 
-1. Para aprovar um adiantamento de dinheiro, em **Processar adiantamentos de dinheiro** , selecione **Adiantamentos de dinheiro para minha revisão**.
+1. Para aprovar um adiantamento de dinheiro, em **Processar adiantamentos de dinheiro**, selecione **Adiantamentos de dinheiro para minha revisão**.
 2. Selecione o adiantamento de dinheiro que precisa revisar e selecione **Aprovar**.  
 
 ## <a name="pay-cash-advances"></a>Pagar adiantamentos de dinheiro 

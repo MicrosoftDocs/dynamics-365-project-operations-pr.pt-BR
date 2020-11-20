@@ -3,7 +3,7 @@ title: Configurações do projeto
 description: Este tópico fornece informações sobre configurações de gerenciamento do projeto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9b8659f3b7ee81d2e21ef52743debd521fa9bb9
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b2cda6bfd7f152ee948cf49fab91aed475968a09
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071591"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123094"
 ---
 # <a name="project-settings"></a>Configurações do projeto
 
@@ -36,12 +36,12 @@ Use as configurações a seguir para acessar os recursos de planejamento do proj
 Para criar uma agenda de projeto, crie um modelo de calendário de projeto que defina o número de horas de trabalho por dia e todos os feriados comerciais. Para criar um modelo de calendário de projeto, associe um modelo de trabalho ao campo **Modelo de calendário** do projeto. Siga estas etapas para criar um modelo de trabalho.
 
 1. No PSA, no painel de navegação à esquerda, clique em **Recursos**. 
-2. Na página de lista **Recursos** , abra um registro de usuário e selecione **Mostrar Horas de Trabalho**.
+2. Na página de lista **Recursos**, abra um registro de usuário e selecione **Mostrar Horas de Trabalho**.
 
   > [!NOTE]
   > Certifique-se de permitir pop-ups na página do navegador. Isso permite ver as horas de trabalho definidas para o recurso.
   
-3. Na guia **Exibição Mensal** , clique em **Configurar**. Uma lista de três opções é exibida: 
+3. Na guia **Exibição Mensal**, clique em **Configurar**. Uma lista de três opções é exibida: 
 
   - Nova Agenda Semanal
   - Agenda de Trabalho para Um Dia
@@ -53,7 +53,7 @@ Para criar uma agenda de projeto, crie um modelo de calendário de projeto que d
 5. Defina um intervalo de datas, selecione **Salvar** e clique em **Fechar**. 
 6. Volte para a página de lista **Recursos** e selecione o recurso para o qual você definiu as horas de trabalho. 
 7. Selecione **Definir Calendário como** para definir o modelo de trabalho. 
-8. Na caixa de diálogo **Modelo de Trabalho** , insira um nome para o modelo de trabalho e selecione **Aplicar**. 
+8. Na caixa de diálogo **Modelo de Trabalho**, insira um nome para o modelo de trabalho e selecione **Aplicar**. 
 
 Agora é possível associar o modelo de trabalho a um modelo de calendário de projeto.
 
@@ -65,4 +65,4 @@ Cada organização deve configurar essas funções na página **Categorias de Re
 
 ## <a name="price-lists"></a>Listas de preços
 
-As listas de preços permitem definir preços de custo e vendas para funções do recurso, categorias de despesa, produtos e outros elementos em uma organização. Antes de definir estimativas financeiras para o trabalho que deve ser entregue para um projeto, você deve criar uma listas de preços de custo e vendas de apoio. Na seção de parâmetros, você também deve configurar uma lista de preços de custo e vendas padrão que se aplica a todos os projetos que são criados na organização. Na página **Parâmetros do Projeto Ativos** , certifique-se de configurar uma lista de preços de custo e vendas padrão.
+As listas de preços permitem definir preços de custo e vendas para funções do recurso, categorias de despesa, produtos e outros elementos em uma organização. Antes de definir estimativas financeiras para o trabalho que deve ser entregue para um projeto, você deve criar uma listas de preços de custo e vendas de apoio. Na seção de parâmetros, você também deve configurar uma lista de preços de custo e vendas padrão que se aplica a todos os projetos que são criados na organização. Na página **Parâmetros do Projeto Ativos**, certifique-se de configurar uma lista de preços de custo e vendas padrão.

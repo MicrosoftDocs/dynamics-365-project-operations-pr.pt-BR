@@ -2,7 +2,7 @@
 title: Novidades ou alterações no Project Service Automation versão 3
 description: Este tópico inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0c198a0fd293008b73422f3f60ea023f918e0ddc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 46cbbc3ff3b0efcecd3cba30b265a782f6cdcf60
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071390"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119989"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novidades ou alterações no Project Service Automation versão 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -94,7 +94,7 @@ As estimativas foram divididas em duas guias, **Atribuição de recurso** e **Es
 
 ![Guia de atribuições de recursos mostrando estimativas de esforço e atribuições do recurso para as tarefas](media/resource-assignments-tab-02.png)
 
-A guia **Estimativas** mostra os valores de custo e vendas das atribuições do recurso. Os valores são somente leitura. Agora, a definição de custo e preço de vendas é derivada das atribuições do membro da equipe na agenda. Isso significa que, se houver uma tarefa sem nenhuma atribuição, ela será exibida sob o bucket não atribuído. Isso também significa que, sem **função** , que é uma dimensão de precificação padrão, não haverá nenhuma estimativa de custo ou vendas se houver um cliente ou um contrato/uma cotação associado ao projeto. 
+A guia **Estimativas** mostra os valores de custo e vendas das atribuições do recurso. Os valores são somente leitura. Agora, a definição de custo e preço de vendas é derivada das atribuições do membro da equipe na agenda. Isso significa que, se houver uma tarefa sem nenhuma atribuição, ela será exibida sob o bucket não atribuído. Isso também significa que, sem **função**, que é uma dimensão de precificação padrão, não haverá nenhuma estimativa de custo ou vendas se houver um cliente ou um contrato/uma cotação associado ao projeto. 
 
 ![Guia Estimativas exibindo valores de custo e vendas](media/estimates-tab-03.png)
   
@@ -105,12 +105,12 @@ As estimativas de despesa podem ser inseridas na grade da guia **Estimativas de 
 ![Guia Estimativas de despesas exibindo a grade de estimativas de despesas](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Gerenciamento de recursos
-No Project Service Automation versão 3, com a nova interface do usuário Cliente Unificado e as alterações nos relacionamentos entre reservas e atribuições, a definição da equipe de um projeto com recursos genéricos ou reais foi alterada significativamente em comparação às versões 2 e 1. Entretanto, os conceitos de recursos reserváveis, **real** e **genérico** , permanecem iguais, assim como os membros da equipe, os requisitos, as atribuições e as reservas.   
+No Project Service Automation versão 3, com a nova interface do usuário Cliente Unificado e as alterações nos relacionamentos entre reservas e atribuições, a definição da equipe de um projeto com recursos genéricos ou reais foi alterada significativamente em comparação às versões 2 e 1. Entretanto, os conceitos de recursos reserváveis, **real** e **genérico**, permanecem iguais, assim como os membros da equipe, os requisitos, as atribuições e as reservas.   
 
 ![Usando o seletor de recursos](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Atribuir um recurso reservável real 
-No Project Service Automation versão 3, as reservas e as atribuições de tarefas não estão tão interligadas quanto nas versões anteriores do Project Service Automation. Você pode usar a grade de equipe para reservar um membro da equipe **real** , de modo semelhante ao mercado.
+No Project Service Automation versão 3, as reservas e as atribuições de tarefas não estão tão interligadas quanto nas versões anteriores do Project Service Automation. Você pode usar a grade de equipe para reservar um membro da equipe **real**, de modo semelhante ao mercado.
 
 Usando o seletor de recursos na agenda, você pode selecionar o membro da equipe criado na exibição de equipe e, em seguida, atribuir tarefas a ele. É possível continuar a atribuir tarefas aos recursos, mesmo depois de suas reservas. Use a guia **Reconciliação** para reconciliar membros da equipe que possuem diferenças nas reservas e atribuições.
 
@@ -158,7 +158,7 @@ Clique em **Novo** na faixa de opções para abrir uma página de criação ráp
 Os campos de pesquisa são apoiados por exibições do sistema. Por exemplo, depois de inserir informações sobre o projeto, o campo **Tarefa do projeto** é definido, por padrão, com a exibição de **Minhas tarefas de projeto abertas**. Para criar entradas de hora para as tarefas que não foram atribuídas ao usuário, clique em **Alterar exibição** na pesquisa e selecione **Todas as tarefas de projeto ativas**. Depois de a entrada de hora ser criada e exibida na grade, você pode editar todos os valores de linha diretamente na grade.  
 
 ### <a name="bulk-createcopy"></a>Criar/copiar em massa 
-Após criar algumas entradas de hora, é possível usar a funcionalidade de cópia para criar entradas de hora adicionais em massa. Clique em **Copiar** para abrir a caixa de diálogo **Copiar**. Em **Do período: Data de Início** , defina o intervalo de datas do qual os períodos de tempo devem ser copiados. Em **Até o período: Data de Início** , especifique a data em que as entradas devem ser criadas. Clique em **Copiar** para copiar as entradas de hora no dia da semana correspondente indicado em **Até o período**. Por exemplo, a entrada de hora de segunda-feira da semana passada será copiada na segunda-feira da semana indicada em **Até o período**. 
+Após criar algumas entradas de hora, é possível usar a funcionalidade de cópia para criar entradas de hora adicionais em massa. Clique em **Copiar** para abrir a caixa de diálogo **Copiar**. Em **Do período: Data de Início**, defina o intervalo de datas do qual os períodos de tempo devem ser copiados. Em **Até o período: Data de Início**, especifique a data em que as entradas devem ser criadas. Clique em **Copiar** para copiar as entradas de hora no dia da semana correspondente indicado em **Até o período**. Por exemplo, a entrada de hora de segunda-feira da semana passada será copiada na segunda-feira da semana indicada em **Até o período**. 
 
 ![Copiar entradas de hora em massa](media/bulk-copy-time-entry-09.png)
  
@@ -192,11 +192,11 @@ A plataforma Common Data Service não oferece suporte à representação de um u
 A personalização permite que você adicione um **Recurso reserva** para criar e editar experiências, o que possibilita que um usuário atue como delegado, alterando o campo **Reserva de recursos** para outro usuário para o qual as entradas de hora e despesa precisam ser registradas. As etapas a seguir abordam a delegação da entrada de hora. Essas mesmas informações se aplicam à delegação da entrada de despesa. 
  
 1.  Certifique-se de que o usuário delegado possua acesso de segurança global para os projetos e as tarefas dos projetos. 
-1.  Como **Recurso reservável** , que é um campo na entidade **Entrada de hora** , não é exibido na página **Criação rápida** , é necessário adicioná-lo.
+1.  Como **Recurso reservável**, que é um campo na entidade **Entrada de hora**, não é exibido na página **Criação rápida**, é necessário adicioná-lo.
 
     -ou-
 
-    Crie uma exibição personalizada, que inclua a coluna **Recurso reservável** , para exibir somente as entradas de hora criadas para o recurso. Publique as personalizações no designer de módulo de aplicativo para que essa exibição apareça sob **Exibir seletor** na página **Entradas de hora**. Existem dois plug-ins que tratam da configuração do gerenciador para entradas de hora que não são do projeto:
+    Crie uma exibição personalizada, que inclua a coluna **Recurso reservável**, para exibir somente as entradas de hora criadas para o recurso. Publique as personalizações no designer de módulo de aplicativo para que essa exibição apareça sob **Exibir seletor** na página **Entradas de hora**. Existem dois plug-ins que tratam da configuração do gerenciador para entradas de hora que não são do projeto:
 
     - PreValidateTimeEntryCreate
     - PreValidateTimeEntryUpdate
@@ -207,7 +207,7 @@ A personalização permite que você adicione um **Recurso reserva** para criar 
 1.  Ao criar uma entrada de hora na página de criação rápida, insira os detalhes do Projeto e da Tarefa do projeto e, em seguida, selecione o usuário no campo **Recurso reservável** para o qual as entradas de hora devem ser registradas. 
 2.  Por padrão, esse campo usa como padrão o usuário conectado; entretanto, considerando que o usuário substituiu esse campo, a entrada de hora agora será criada para o **Recurso reservável** escolhido.
 3.  Quando você envia as entradas de hora que criou para esses registros, elas são colocadas em fila para o aprovador do projeto, conforme esperado. 
-4.  Quando você recupera as entradas de hora do outro usuário, elas são retornadas em um estado de **Rascunho** , com o campo **Recurso reservável** definido para outro usuário. 
+4.  Quando você recupera as entradas de hora do outro usuário, elas são retornadas em um estado de **Rascunho**, com o campo **Recurso reservável** definido para outro usuário. 
 5.  Opcionalmente, você pode alternar para exibição personalizada para filtrar as entradas de tempo hora do outro usuário. 
  
 ### <a name="limitations"></a>Limitações
@@ -229,7 +229,7 @@ Para os clientes do Project Service Automation que desejam continuar usando esse
 No Project Service Automation versão 3, os aspectos de configuração e gerenciamento de cotações e contratos foram alterados. As seções a seguir incluem informações mais detalhadas.
 
 ### <a name="set-up-chargeability-options"></a>Configurar opções de encargos
-Nas versões 1 e 2, a configuração de encargos para funções e categorias de cotações e contratos específicos era feita usando a exibição **Encargos** , que estava na navegação superior de uma linha de cotação ou uma linha de contrato. Esse também era o local em que você podia configurar os preços para essas funções e categorias de encargos.
+Nas versões 1 e 2, a configuração de encargos para funções e categorias de cotações e contratos específicos era feita usando a exibição **Encargos**, que estava na navegação superior de uma linha de cotação ou uma linha de contrato. Esse também era o local em que você podia configurar os preços para essas funções e categorias de encargos.
 
 A partir da versão 3, a configuração de opções de encargos por função e categoria de despesa será feita no nível da linha de cotação ou contrato. A configuração de preços é separada da configuração de encargos. É possível encontrar **Funções passíveis de cobrança** e **Categorias passíveis de cobrança** como guias das páginas **Linha de cotação** e **Linha de contrato** sem ter de usar a navegação superior.
 

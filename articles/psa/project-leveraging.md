@@ -3,7 +3,7 @@ title: Estimativas e projetos de vendas
 description: Este tópico fornece informações sobre como aproveitar a agenda e as estimativas no processo de vendas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: eafe60362003198a223026526f56261de414bb4a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8bb380519759659dc1b4151b62228a626ee7a26
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071446"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120664"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimativas e projetos de vendas
 
@@ -51,4 +51,4 @@ Você pode definir as estimativas de agenda e esforço de trabalho usando os cam
 
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importando estimativas de um projeto em uma cotação
 
-Após definição de estimativas do projeto, você pode importá-las na linha de cotação. Na página **Detalhes da Linha de Cotação** , selecione na faixa de opções **Importar de estimativas** para resumir as estimativas do projeto por tipo de transação, função ou nível da tarefa.
+Após definição de estimativas do projeto, você pode importá-las na linha de cotação. Na página **Detalhes da Linha de Cotação**, selecione na faixa de opções **Importar de estimativas** para resumir as estimativas do projeto por tipo de transação, função ou nível da tarefa.

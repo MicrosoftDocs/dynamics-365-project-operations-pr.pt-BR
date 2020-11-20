@@ -2,7 +2,7 @@
 title: Considerações de upgrade - Microsoft Dynamics 365 Project Service Automation versão 2.x ou 1.x para a versão 3
 description: Este tópico fornece informações sobre as considerações que você deve fazer ao fazer upgrade da versão 2.x ou 1.x para a versão 3 do Project Service Automation.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/13/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19d6d312c7cedd2d7b9b5649452b85dd24fae761
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071508"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121699"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerações de atualização - PSA versão 2.x ou 1.x para a versão 3
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
@@ -77,7 +77,7 @@ Na versão 2 e na versão 1, os projetos com recursos genéricos podem estar em 
 
 Antes de iniciar a atualização, é recomendável gerar novamente a equipe para cada projeto que possui tarefas atribuídas a recursos genéricos ou que ainda tem de executar o processo nelas.
 
-Para as tarefas atribuídas a membros da equipe genéricos que foram gerados usando **Gerar equipe** , a atualização irá manter o recurso genérico na equipe e, também, a atribuição a esse membro da equipe genérico. Recomendamos que você gere o requisito de recurso para o membro da equipe genérico após a atualização, mas antes de reservar ou enviar uma solicitação de recurso. Isso preservará todas as atribuições de unidade organizacional dos membros da equipe genéricos que forem diferentes da unidade organizacional de contratação do projeto.
+Para as tarefas atribuídas a membros da equipe genéricos que foram gerados usando **Gerar equipe**, a atualização irá manter o recurso genérico na equipe e, também, a atribuição a esse membro da equipe genérico. Recomendamos que você gere o requisito de recurso para o membro da equipe genérico após a atualização, mas antes de reservar ou enviar uma solicitação de recurso. Isso preservará todas as atribuições de unidade organizacional dos membros da equipe genéricos que forem diferentes da unidade organizacional de contratação do projeto.
 
 Por exemplo, no projeto Projeto Z, a unidade organizacional de contratação é a unidade Cabral US. No plano de projeto, a função Consultor Técnico foi atribuída às tarefas de teste da fase de implementação, e a unidade organizacional atribuída é a unidade Cabral India.
 

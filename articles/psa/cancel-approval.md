@@ -3,7 +3,7 @@ title: Cancelar entradas de tempo e despesa aprovadas anteriormente
 description: Este tópico fornece informações sobre como cancelar uma transação aprovada de tempo e despesa do projeto.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ea816040570cc8f6ddf3c5ec8a74ac092fc68b2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 84fc057599dd98162320d6104ed4a7612e894ecb
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071603"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123319"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Cancelar entradas de tempo ou despesa aprovadas anteriormente
 
@@ -36,7 +36,7 @@ Na versão mais recente do Dynamics 365 Project Service Automation, os aprovador
 Siga estas etapas para cancelar uma entrada de tempo ou despesa que foi aprovada anteriormente.
 
 1. Vá para **Projetos** \> **Meu Trabalho** \> **Aprovações**.
-2. Na página de lista **Aprovações** , altere a exibição para **Minhas aprovações anteriores**. Uma lista das entradas de tempo e despesa que você aprovou anteriormente é mostrada.
+2. Na página de lista **Aprovações**, altere a exibição para **Minhas aprovações anteriores**. Uma lista das entradas de tempo e despesa que você aprovou anteriormente é mostrada.
 3. Selecione uma ou mais entradas e selecione **Cancelar aprovação**. Você recebe uma mensagem de aviso.
 4. Selecione **OK** para cancelar a aprovação.
 
@@ -46,7 +46,7 @@ Quando uma aprovação é cancelada, há impactos operacionais e financeiros.
 
 ### <a name="operational-impact"></a>Impacto operacional
 
-No lado das operações, quando uma aprovação é cancelada, o status do registro é redefinido para **Rascunho** e a aprovação não aparece mais na exibição **Minhas aprovações anteriores**. Em vez disso, a aprovação cancelada aparece na exibição **Entradas de tempo para aprovação** ou **Entradas de despesa para aprovação** se era uma entrada de tempo ou uma entrada de despesa, respectivamente. Além disso, o status da entrada de tempo ou despesa relacionada é alterado para **Enviado** , de modo que a entrada relacionada é consistente com as aprovações que tem um status de **Rascunho**.
+No lado das operações, quando uma aprovação é cancelada, o status do registro é redefinido para **Rascunho** e a aprovação não aparece mais na exibição **Minhas aprovações anteriores**. Em vez disso, a aprovação cancelada aparece na exibição **Entradas de tempo para aprovação** ou **Entradas de despesa para aprovação** se era uma entrada de tempo ou uma entrada de despesa, respectivamente. Além disso, o status da entrada de tempo ou despesa relacionada é alterado para **Enviado**, de modo que a entrada relacionada é consistente com as aprovações que tem um status de **Rascunho**.
 
 Como aprovador, você pode editar alguns dos campos de uma provação que tem um status de **Rascunho**. Esses campos incluem **Tipo de Cobrança** e **Horas Faturáveis para Entradas de Tempo**. Depois de fazer as alterações, é possível aprovar o registro novamente. Se desejar, você pode rejeitar a entrada. Se você rejeitar a aprovação de uma entrada de tempo, o status da entrada será alterado para **Devolvida**. Se você rejeitar a aprovação de uma entrada de despesa, o status será alterado para **Rejeitada**. De modo prático, as entradas devolvidas e rejeitadas se comportam igualmente a uma entrada com o status de **Rascunho**. Um membro da equipe do projeto pode fazer qualquer mudança necessária na entrada e reenviá-la para aprovação, ou excluir completamente a entrada.
 

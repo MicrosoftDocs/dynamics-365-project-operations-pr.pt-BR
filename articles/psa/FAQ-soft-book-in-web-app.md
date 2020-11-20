@@ -3,7 +3,7 @@ title: Como posso fazer uma reserva flexível de recursos na versão 2.x do apli
 description: Este artigo descreve como fazer uma reserva flexível de membros da equipe de projeto com o Project Service.
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9e5d1c91f8ea98117583996552c2f2834be9c537
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a35799b422fa338c2666e1b2aa11bc2a54f5cce3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071451"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122239"
 ---
 # <a name="how-do-i-soft-book-resources-in-the-web-app-project-service-app-v2x"></a>Como posso fazer uma reserva flexível de recursos no aplicativo Web (aplicativo Project Service v2.x)?
 

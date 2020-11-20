@@ -5,15 +5,15 @@ author: sigitac
 manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c0e02ef2d17bf49209369f7adad681d9a5981e2a
-ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/22/2020
-ms.locfileid: "4096738"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122869"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurar a integração do Project Operations por entidade legal 
 
@@ -26,7 +26,7 @@ Este tópico mostra as etapas necessárias para configurar o Dynamics 365 Projec
 Conclua as etapas a seguir para habilitar os recursos necessários.
 
 1. No Dynamics 365 Finance, acesse o espaço de trabalho **Gerenciamento de Recursos**.
-2. Na **Lista de recursos** , encontre e ative os seguintes recursos:
+2. Na **Lista de recursos**, encontre e ative os seguintes recursos:
   
     - **Habilitar várias linhas de contrato para um projeto**
     - **Habilitar o Project Operations no Dynamics 365 Customer Engagement**
@@ -48,6 +48,6 @@ Você pode habilitar o Project Operations no Dynamics 365 Customer Engagement em
 
 Cada entidade legal que usa o Project Operations no Dynamics 365 Customer Engagement precisa de um conjunto de parâmetros padrão. Esses parâmetros são configurados na guia **Project Operations** da página **Parâmetros de gerenciamento e contabilidade de projeto**. Os parâmetros são:
 
-  - **Padrões de tipo de cobrança** : o Project Operations usa um conjunto fixo de padrões de tipo de cobrança que deve ser mapeado para as propriedades de linha Finance. Crie um registro para cada tipo de cobrança: **Não especificado** , **Passível de Cobrança** , **Não Passível de Cobrança** , **Complementar** e **Não disponível**.
-  - **Padrões de categoria de projeto** : selecione as categorias de projeto padrão a serem usadas para cada tipo de transação. Esses padrões serão usados no **Diário de integração de operações do projeto** e em estimativas onde nenhuma categoria de transação é especificada para o projeto real.
-  - **Previsões** : selecione o modelo de previsão a ser usado para estimativas de tempo e despesas.
+  - **Padrões de tipo de cobrança**: o Project Operations usa um conjunto fixo de padrões de tipo de cobrança que deve ser mapeado para as propriedades de linha Finance. Crie um registro para cada tipo de cobrança: **Não especificado**, **Passível de Cobrança**, **Não Passível de Cobrança**, **Complementar** e **Não disponível**.
+  - **Padrões de categoria de projeto**: selecione as categorias de projeto padrão a serem usadas para cada tipo de transação. Esses padrões serão usados no **Diário de integração de operações do projeto** e em estimativas onde nenhuma categoria de transação é especificada para o projeto real.
+  - **Previsões**: selecione o modelo de previsão a ser usado para estimativas de tempo e despesas.

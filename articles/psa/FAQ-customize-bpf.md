@@ -2,7 +2,7 @@
 title: Como posso personalizar o fluxo do processo empresarial Estágios do projeto?
 description: Uma visão geral de como personalizar o fluxo do processo empresarial Estágios do Projeto.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071614"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125011"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Como posso personalizar o fluxo do processo empresarial Estágios do projeto?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-Há uma limitação conhecida em versões anteriores do aplicativo Project Service, em que os nomes dos estágios do fluxo do processo empresarial Estágios do projeto devem corresponder exatamente aos nomes esperados em inglês ( **Quote** , **Plan** , **Close** ). Caso contrário, a lógica de negócios, que depende dos nomes dos estágios em inglês, não funciona conforme esperado. Por isso, você não vê ações conhecidas como **Alternar Processo** ou **Editar Processo** disponíveis no formulário do projeto. Além disso, não é recomendável personalizar o fluxo do processo empresarial. 
+Há uma limitação conhecida em versões anteriores do aplicativo Project Service, em que os nomes dos estágios do fluxo do processo empresarial Estágios do projeto devem corresponder exatamente aos nomes esperados em inglês (**Quote**, **Plan**, **Close**). Caso contrário, a lógica de negócios, que depende dos nomes dos estágios em inglês, não funciona conforme esperado. Por isso, você não vê ações conhecidas como **Alternar Processo** ou **Editar Processo** disponíveis no formulário do projeto. Além disso, não é recomendável personalizar o fluxo do processo empresarial. 
 
 Essa restrição foi solucionada na versão 2.4.5.48 e posterior. Este artigo fornece soluções alternativas sugeridas para versões anteriores, caso seja necessário personalizar o fluxo do processo empresarial padrão.  
 
@@ -38,7 +38,7 @@ Essa restrição foi solucionada na versão 2.4.5.48 e posterior. Este artigo fo
 O fluxo do processo empresarial Estágios do projeto inclui uma lógica de negócios que leva aos seguintes comportamentos no aplicativo:
 - Quando o projeto é associado a uma cotação, o código define o fluxo do processo empresarial para o estágio **Quote**.
 - Quando o projeto é associado a um contrato, o código define o fluxo do processo empresarial para o estágio **Plan**.
-- Quando o fluxo de processo empresarial avança para o estágio **Close** , o registro do projeto é desativado. Quando o projeto é desativado, o formulário do projeto e a estrutura de detalhamento de trabalho (WBS) são definidos como somente leitura, as reservas de recursos nomeados são liberadas, e todas as listas de preços associadas são desativadas.
+- Quando o fluxo de processo empresarial avança para o estágio **Close**, o registro do projeto é desativado. Quando o projeto é desativado, o formulário do projeto e a estrutura de detalhamento de trabalho (WBS) são definidos como somente leitura, as reservas de recursos nomeados são liberadas, e todas as listas de preços associadas são desativadas.
 
 Essa lógica de negócios depende dos nomes em inglês para os estágios do projeto. Essa dependência dos nomes dos estágios em inglês é o motivo principal pelo qual a personalização do fluxo do processo empresarial Estágios do projeto não é recomendável. Essa também é a razão pela qual você não vê ações do fluxo do processo empresarial como **Alternar Processo** ou **Editar Processo** na entidade de projeto.
 
@@ -48,7 +48,7 @@ Na versão 1.x do aplicativo Project Service na plataforma 8.2, quando os nomes 
 
 Na versão 2.4.4.30 ou anterior do aplicativo Project Service na plataforma 9.0, houve uma alteração significativa na arquitetura para fluxos do processo empresarial, que exigiu a regravação da lógica de negócios do fluxo do processo empresarial. Consequentemente, se os nomes dos estágios do processo não corresponderem aos nomes esperados em inglês, você receberá uma mensagem de erro. 
 
-Portanto, se você quiser personalizar o fluxo do processo empresarial Estágios do projeto para a entidade de projeto, você só pode adicionar novos estágios ao fluxo do processo empresarial padrão para a entidade de projeto, mantendo os estágios **Quote** , **Plan** e **Close** da maneira em que se encontram. Essa restrição garante que você não receba erros da lógica de negócios que espera os nomes dos estágios em inglês no fluxo do processo empresarial.
+Portanto, se você quiser personalizar o fluxo do processo empresarial Estágios do projeto para a entidade de projeto, você só pode adicionar novos estágios ao fluxo do processo empresarial padrão para a entidade de projeto, mantendo os estágios **Quote**, **Plan** e **Close** da maneira em que se encontram. Essa restrição garante que você não receba erros da lógica de negócios que espera os nomes dos estágios em inglês no fluxo do processo empresarial.
 
 Em uma versão 2.4.5.48 ou futura, a lógica de negócios descrita neste artigo é removida do fluxo do processo empresarial padrão para a entidade de projeto. A atualização para a versão ou posterior permitirá que você personalize ou substitua o fluxo do processo empresarial padrão por um que seja seu. 
 
@@ -56,12 +56,12 @@ Em uma versão 2.4.5.48 ou futura, a lógica de negócios descrita neste artigo 
 
 Se a atualização não for uma opção, será possível personalizar o fluxo do processo empresarial Estágios do projeto para a entidade de projeto de uma destas duas maneiras:
 
-1. Adicione mais estágios à configuração padrão, mantendo os nomes dos estágios em inglês para **Quote** , **Plan** e **Close**.
+1. Adicione mais estágios à configuração padrão, mantendo os nomes dos estágios em inglês para **Quote**, **Plan** e **Close**.
 
 
 ![Captura de tela da adição de estágios à configuração padrão](media/FAQ-Customize-BPF-1.png)
  
-2. Crie seu próprio fluxo do processo empresarial e o torne o fluxo do processo empresarial principal para a entidade de projeto, permitindo que você tenha qualquer nome de estágio que quiser. Entretanto, se você quiser usar os mesmos estágios do projeto padrão, **Quote** , **Plan** e **Plan** , será necessário fazer algumas personalizações baseadas em seus nomes de estágios personalizados. A lógica mais complexa está no fechamento do projeto, que você ainda pode acionar por meio da desativação do registro do projeto.
+2. Crie seu próprio fluxo do processo empresarial e o torne o fluxo do processo empresarial principal para a entidade de projeto, permitindo que você tenha qualquer nome de estágio que quiser. Entretanto, se você quiser usar os mesmos estágios do projeto padrão, **Quote**, **Plan** e **Plan**, será necessário fazer algumas personalizações baseadas em seus nomes de estágios personalizados. A lógica mais complexa está no fechamento do projeto, que você ainda pode acionar por meio da desativação do registro do projeto.
 
 ![Personalização de BPF](media/FAQ-Customize-BPF-2.png)
 
@@ -81,7 +81,7 @@ Para criar seu próprio fluxo do processo empresarial para a entidade de projeto
 
   ![Criar processo](media/FAQ-Customize-BPF-3.png)
 
-2. Use o designer de processo para criar os nomes de estágios que quiser. Caso queira a mesma funcionalidade dos estágios padrão para **Quote** , **Plan** e **Close** , é necessário criá-la com base nos nomes dos estágios do fluxo do processo empresarial personalizado.
+2. Use o designer de processo para criar os nomes de estágios que quiser. Caso queira a mesma funcionalidade dos estágios padrão para **Quote**, **Plan** e **Close**, é necessário criá-la com base nos nomes dos estágios do fluxo do processo empresarial personalizado.
 
    ![Captura de tela do designer de processo usado para personalizar o fluxo do processo empresarial](media/FAQ-Customize-BPF-4.png) 
 

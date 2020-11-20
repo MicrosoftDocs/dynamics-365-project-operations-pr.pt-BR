@@ -5,27 +5,27 @@ author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ec77f3911a460b96414a61bc44ea254f1b7da660
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087804"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122329"
 ---
 # <a name="manage-the-billing-backlog"></a>Gerenciar a lista de pendências de cobrança
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 O Dynamics 365 Project Operations tem duas exibições dedicadas para ajudá-lo a trabalhar e gerenciar a lista de pendências de cobrança. Elas são **Etapas de preço fixo** e **Lista de pendências de cobrança de hora e materiais**. Para selecionar uma exibição, na área **Vendas** do Project Operations, na página de navegação à esquerda, selecione **Cobrança**. Os links da lista de pendências de cobrança são armazenados ali.
 
 ## <a name="fixed-price-milestones"></a>Etapas de Preço Fixo
 
-Esta exibição lista todas as etapas de preço fixo em todas as linhas de contrato do projeto no sistema. Uma ou várias etapas podem ser marcados como **Pronto para Faturamento** ou **Não Pronto para Faturamento** desta exibição. Quando você marca uma etapa como **Pronto para Faturamento** , a etapa fica disponível para uma fatura de rascunho.
+Esta exibição lista todas as etapas de preço fixo em todas as linhas de contrato do projeto no sistema. Uma ou várias etapas podem ser marcados como **Pronto para Faturamento** ou **Não Pronto para Faturamento** desta exibição. Quando você marca uma etapa como **Pronto para Faturamento**, a etapa fica disponível para uma fatura de rascunho.
 
-Quando as linhas de contrato de vários clientes têm um método de faturamento de preço fixo, uma etapa é criada para cada cliente na linha de contrato. O usuário cria uma etapa e essa etapa é dividida em clientes = registros de etapa específicos internamente, de acordo com a divisão percentual de faturamento definida para cada cliente na linha do contrato. Na exibição **Etapas de preço fixo** , você verá registros de etapas individuais específicas do cliente. Cada um desses registros de etapa pode ser marcado como **Pronto para Faturamento** separadamente desta exibição. Quando uma ou mais das divisões de etapa relacionadas são marcadas como **Pronto para Faturamento** , o cabeçalho muda para um status **Em Andamento** a partir de **Não Iniciado**. Quando todas as divisões de etapa tiverem sido faturadas, o status de etapa do cabeçalho se tornará **Concluído**.
+Quando as linhas de contrato de vários clientes têm um método de faturamento de preço fixo, uma etapa é criada para cada cliente na linha de contrato. O usuário cria uma etapa e essa etapa é dividida em clientes = registros de etapa específicos internamente, de acordo com a divisão percentual de faturamento definida para cada cliente na linha do contrato. Na exibição **Etapas de preço fixo**, você verá registros de etapas individuais específicas do cliente. Cada um desses registros de etapa pode ser marcado como **Pronto para Faturamento** separadamente desta exibição. Quando uma ou mais das divisões de etapa relacionadas são marcadas como **Pronto para Faturamento**, o cabeçalho muda para um status **Em Andamento** a partir de **Não Iniciado**. Quando todas as divisões de etapa tiverem sido faturadas, o status de etapa do cabeçalho se tornará **Concluído**.
 
 Uma etapa em uma fatura de rascunho é mostrada nesta exibição com um status de cobrança **Fatura do Cliente Criada**. Quando a fatura de rascunho é confirmada, o status de cobrança neste registro é atualizado para **Fatura Postada**. Não é recomendável atualizar este valor de status usando código personalizado. O Project Operations não funcionará corretamente se esses valores de status forem atualizados com código personalizado.
 
@@ -35,6 +35,6 @@ Esta exibição lista todos os dados efetivos de vendas não faturados que não 
 
 Dados efetivos de vendas não cobradas com **Limite Máximo** com o status **Com Falha** não podem ser marcados como **Pronto para Faturamento**. Se esses dados efetivos precisarem ser marcados como tal, redefina o status em outros dados efetivos na linha do contrato que estejam comprometidos e, em seguida, avalie o status **Limite Máximo**.
 
-No caso de linhas de contrato de vários clientes que têm um método de faturamento de tempo e material, quando o tempo e as despesas são aprovados, um dado efetivo de vendas não cobradas é criado para cada cliente na linha de contrato de acordo com a divisão percentual de faturamento definida para cada cliente no linha de contrato. Na exibição **Lista de pendências de cobrança de hora e materiais** , você verá esses dados efetivos individuais de vendas não cobradas específicas do cliente. Cada um desses registros de dados efetivos de vendas não cobradas pode ser marcado como **Pronto para Faturamento** separadamente desta exibição.
+No caso de linhas de contrato de vários clientes que têm um método de faturamento de tempo e material, quando o tempo e as despesas são aprovados, um dado efetivo de vendas não cobradas é criado para cada cliente na linha de contrato de acordo com a divisão percentual de faturamento definida para cada cliente no linha de contrato. Na exibição **Lista de pendências de cobrança de hora e materiais**, você verá esses dados efetivos individuais de vendas não cobradas específicas do cliente. Cada um desses registros de dados efetivos de vendas não cobradas pode ser marcado como **Pronto para Faturamento** separadamente desta exibição.
 
 Um dado efetivo de vendas não cobradas em uma fatura de rascunho é mostrado nesta exibição com um **Status de Cobrança** de **Fatura do Cliente Criada**. Quando a fatura de rascunho é confirmada, o status de cobrança neste registro é atualizado para **Fatura do Cliente**. Não é recomendável atualizar este valor de status, quando ele está neste estado, usando código personalizado. O Project Operations não funcionará corretamente quando esses valores de status forem atualizados com código personalizado.

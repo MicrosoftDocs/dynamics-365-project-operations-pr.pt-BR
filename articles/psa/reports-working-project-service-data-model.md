@@ -3,7 +3,7 @@ title: Trabalhar com o modelo de dados do Project Service Automation
 description: Este tópico fornece informações sobre como trabalhar com o modelo de dados.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071613"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120259"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Trabalhar com o modelo de dados do Project Service Automation
 
@@ -33,15 +33,15 @@ O Dynamics 365 Project Service Automation estende outras entidades de aplicativo
 
 ## <a name="reporting-on-opportunities"></a>Relatar oportunidades
 
-O Project Service Automation estende a entidade **Oportunidade** do Dynamics 365 Sales adicionando campos que possibilitam cenários baseados em projetos. Esses campos são identificados por um nome de esquema prefixado com **msdyn\_**. Um novo campo que é importante para relatar oportunidades do PSA é **Tipo de Ordem**. Um valor de **Baseado em Trabalho** neste campo indica que a oportunidade é do PSA. Outros campos que foram adicionados à entidade incluem **Organização Contratante** , que captura a organização que está mantendo a oportunidade, e **Gerente de Contas** , que captura o nome do gerente de contas responsável pela oportunidade.
+O Project Service Automation estende a entidade **Oportunidade** do Dynamics 365 Sales adicionando campos que possibilitam cenários baseados em projetos. Esses campos são identificados por um nome de esquema prefixado com **msdyn\_**. Um novo campo que é importante para relatar oportunidades do PSA é **Tipo de Ordem**. Um valor de **Baseado em Trabalho** neste campo indica que a oportunidade é do PSA. Outros campos que foram adicionados à entidade incluem **Organização Contratante**, que captura a organização que está mantendo a oportunidade, e **Gerente de Contas**, que captura o nome do gerente de contas responsável pela oportunidade.
 
 A entidade **Linha de Oportunidade** também inclui campos relacionados ao Project Service. **Método de Cobrança** indica se a linha de oportunidade deve ser cobrada com base em tempo e material ou preço fixo, e **Projeto** captura o nome do projeto que está sustentando a oportunidade. Outros campos que podem ser relatados capturam custos e valores de orçamentos de clientes para o item de linha.
 
 ## <a name="reporting-on-quotes"></a>Relatar cotações
 
-O PSA estende a entidade **Cotação** do Sales adicionando campos relacionados a projetos. **Tipo de Ordem** distingue cotações do PSA de cotações de outra procedência. Um valor de **Baseado em Trabalho** neste campo indica que a cotação é do PSA. Outros campos que podem ser relevantes para relatar cotações do PSA incluem campos de valor, como **Custos Passíveis de Cobrança** , **Custos Não Passíveis de Cobrança** , **Margem Bruta** , **Estimativas** e **Orçamento**. Outros campos úteis indicam se a cotação é rentável, se será concluída no prazo e se atende às expectativas de orçamento do cliente.
+O PSA estende a entidade **Cotação** do Sales adicionando campos relacionados a projetos. **Tipo de Ordem** distingue cotações do PSA de cotações de outra procedência. Um valor de **Baseado em Trabalho** neste campo indica que a cotação é do PSA. Outros campos que podem ser relevantes para relatar cotações do PSA incluem campos de valor, como **Custos Passíveis de Cobrança**, **Custos Não Passíveis de Cobrança**, **Margem Bruta**, **Estimativas** e **Orçamento**. Outros campos úteis indicam se a cotação é rentável, se será concluída no prazo e se atende às expectativas de orçamento do cliente.
 
-O PSA também estende a entidade **Linha de Cotação** do Sales. Um campo que o PSA adiciona é **Método de Cobrança** , que indica como a linha de cotação será cobrada (tempo e material ou preço fixo). Outros campos que foram adicionados à entidade capturam o projeto relacionado que está sustentando a linha de cotação, o faturamento, o custo e o orçamento.
+O PSA também estende a entidade **Linha de Cotação** do Sales. Um campo que o PSA adiciona é **Método de Cobrança**, que indica como a linha de cotação será cobrada (tempo e material ou preço fixo). Outros campos que foram adicionados à entidade capturam o projeto relacionado que está sustentando a linha de cotação, o faturamento, o custo e o orçamento.
 
 Além disso, o PSA adiciona novas entidades relacionadas à cotação ao modelo de dados do Dynamics 365. Veja alguns exemplos:
 
@@ -50,13 +50,13 @@ Além disso, o PSA adiciona novas entidades relacionadas à cotação ao modelo 
 - **Etapa da Linha de Cotação** – Esta entidade contém as etapas de cobrança para linhas de cotação com preço fixo.
 - **Detalhamento de Análise da Linha de Cotação** – Esta entidade contém detalhes financeiros da linha de cotação. Esses detalhes podem ser úteis para relatar vendas cotadas e valores de custo estimados por várias dimensões.
 
-Outras entidades que o PSA adiciona a cotações são **Lista de Preços do Projeto da Linha de Cotação** , **Categoria de Recurso da Linha de Cotação** e **Categoria de Transação da Linha de Cotação**.
+Outras entidades que o PSA adiciona a cotações são **Lista de Preços do Projeto da Linha de Cotação**, **Categoria de Recurso da Linha de Cotação** e **Categoria de Transação da Linha de Cotação**.
 
 ![Diagrama mostrando cotação, linha de cotação e relacionamentos do projeto](media/PS-Reporting-image2.png "Diagrama mostrando cotação, linha de cotação e relacionamentos do projeto")
 
 ## <a name="reporting-on-project-contracts"></a>Relatar contratos de projetos
 
-O PSA estende a entidade **Ordem** do Sales que é usada quando contratos de projetos são registrados. Ele adiciona um novo campo importante, **Tipo de Ordem** , que identifica o contrato como um contrato de projeto do PSA em vez de uma ordem de venda. Um valor de **Baseado em Trabalho** neste campo indica que a ordem é um contrato de projeto do PSA. Outros novos campos adicionados à entidade **Ordem** capturam detalhes sobre custos, status do contrato do PSA e a organização proprietária do contrato.
+O PSA estende a entidade **Ordem** do Sales que é usada quando contratos de projetos são registrados. Ele adiciona um novo campo importante, **Tipo de Ordem**, que identifica o contrato como um contrato de projeto do PSA em vez de uma ordem de venda. Um valor de **Baseado em Trabalho** neste campo indica que a ordem é um contrato de projeto do PSA. Outros novos campos adicionados à entidade **Ordem** capturam detalhes sobre custos, status do contrato do PSA e a organização proprietária do contrato.
 
 O PSA também estende a entidade **Linha de Ordem de Venda**. Entre os campos que ele adiciona estão campos que capturam o método de cobrança (tempo e material ou preço fixo), valores de orçamentos de clientes e o projeto subjacente.
 
@@ -66,7 +66,7 @@ Além disso, o PSA adiciona novas entidades que foram criadas para contratos de 
 - **Agenda de Faturas da Linha de Contrato** – Esta entidade contém a agenda de cobrança que é gerada com base na frequência de faturas atribuída à linha de contrato.
 - **Etapas do Contrato** – Esta entidade contém as etapas de cobrança para linhas de contrato que possuem um prazo de cobrança com preço fixo.
 
-Outras entidades que o PSA adiciona a contratos são **Lista de Preços de Projeto da Linha de Contrato do Projeto** , **Categoria de Recurso da Linha de Contrato do Projeto** e **Categoria de Transação da Linha de Contrato do Projeto**.
+Outras entidades que o PSA adiciona a contratos são **Lista de Preços de Projeto da Linha de Contrato do Projeto**, **Categoria de Recurso da Linha de Contrato do Projeto** e **Categoria de Transação da Linha de Contrato do Projeto**.
 
 ![Diagrama mostrando ordem, linha da ordem e relacionamentos do projeto](media/PS-Reporting-image3.png "Diagrama mostrando ordem, linha da ordem e relacionamentos do projeto")
 
@@ -97,7 +97,7 @@ Os recursos de projeto usam as entidades de **Recurso Reservável** do Universal
 
 Quando você aprova uma folha de ponto ou despesa, ou fatura um contrato no PSA, a transação comercial é capturada na entidade **Real**. Essa entidade pode servir de base para quase todos os relatórios relacionados a finanças no PSA. A entidade **Real** captura o custo e as transações de vendas do evento comercial. Ela também captura muitos atributos relevantes.
 
-Ao trabalhar com a entidade **Real** , é importante compreender quais transações são registradas na entidade e quando elas são registradas. Este é o fluxo típico de trabalho com entradas de hora (o fluxo para entradas de despesa é semelhante):
+Ao trabalhar com a entidade **Real**, é importante compreender quais transações são registradas na entidade e quando elas são registradas. Este é o fluxo típico de trabalho com entradas de hora (o fluxo para entradas de despesa é semelhante):
 
 1. Quando a entrada de hora é salva, nenhum registro é criado na entidade **Real**.
 2. Quando a entrada de hora é enviada, nenhum registro é criado na entidade **Real**.
@@ -117,6 +117,6 @@ Ao trabalhar com a entidade **Real** , é importante compreender quais transaç�
     | 4/2/18        | Vendas não cobradas   | Time              | Alpine Ski House | CRM da Alpine | Vitória Cavalcante | Gerente de projetos   | Passível de cobrança   | - 8.0    | 100.00     | - 800.00 |
     | 4/2/18        | Vendas cobradas     | Time              | Alpine Ski House | CRM da Alpine | Vitória Cavalcante | Gerente de projetos   | Passível de cobrança   | 8.0      | 100.00     | 800.00   |
 
-A entidade **Origem da Transação** registra a origem do registro **Real** , e a entidade **Conexão da Transação** registra os registros relacionados do registro **Real**. Além disso, o registro **Real** contém referências a projeto, contrato de projeto (ordem), recurso reservável e cliente.
+A entidade **Origem da Transação** registra a origem do registro **Real**, e a entidade **Conexão da Transação** registra os registros relacionados do registro **Real**. Além disso, o registro **Real** contém referências a projeto, contrato de projeto (ordem), recurso reservável e cliente.
 
 ![Diagrama mostrando a conexão da transação, a origem e os relacionamentos reais](media/PS-Reporting-image6.png "Diagrama mostrando a conexão da transação, a origem e os relacionamentos reais")

@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4ae5b3c4a4378330caed97011f55ca11175e644
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 8c18dd734312b2dd147381169f5c3dc38a68a601
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087807"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119539"
 ---
 # <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolver preços de venda para estimativas e dados reais
 
@@ -27,12 +27,12 @@ No Project Operations, as linhas de estimativa de tempo são usadas para denotar
 
 Depois que uma lista de preços para vendas é resolvida, o sistema conclui as seguintes etapas para padronizar a taxa de cobrança.
 
-1. O sistema usa os campos **Função** , **Empresa de Recursos** e **Unidade de Recursos** na linha de estimativa para tempo para corresponder às linhas de preço da função na lista de preços resolvidos. Essa correspondência pressupõe que as dimensões de precificação prontas para uso para taxas de cobrança estão sendo usadas. Se você configurou o preço com base em qualquer outro campo em vez de, ou além de **Função** , **Empresa de Recursos** e **Unidade de Recursos** , essa é a combinação que será usada para recuperar uma linha de preço de função correspondente.
-2. Se o sistema encontrar uma linha de preço de função que tenha uma taxa de cobrança para a combinação dos campos **Função** , **Empresa de Recursos** e **Unidade de Recursos** , essa taxa de cobrança assumirá o padrão.
-3. Se o sistema não corresponder aos valores de campo **Função** , **Empresa de Recursos** e **Unidade de Recursos** , ele recuperará as linhas de preço da função com uma função correspondente, mas os valores nulos da **Unidade de Recursos**. Depois que o sistema encontrar um registro de preço de função correspondente, ele assumirá como padrão a taxa de cobrança desse registro. Essa correspondência pressupõe uma configuração pronta para uso para a prioridade relativa de **Função** em comparação a **Unidade de Recursos** como uma dimensão de preço de venda.
+1. O sistema usa os campos **Função**, **Empresa de Recursos** e **Unidade de Recursos** na linha de estimativa para tempo para corresponder às linhas de preço da função na lista de preços resolvidos. Essa correspondência pressupõe que as dimensões de precificação prontas para uso para taxas de cobrança estão sendo usadas. Se você configurou o preço com base em qualquer outro campo em vez de, ou além de **Função**, **Empresa de Recursos** e **Unidade de Recursos**, essa é a combinação que será usada para recuperar uma linha de preço de função correspondente.
+2. Se o sistema encontrar uma linha de preço de função que tenha uma taxa de cobrança para a combinação dos campos **Função**, **Empresa de Recursos** e **Unidade de Recursos**, essa taxa de cobrança assumirá o padrão.
+3. Se o sistema não corresponder aos valores de campo **Função**, **Empresa de Recursos** e **Unidade de Recursos**, ele recuperará as linhas de preço da função com uma função correspondente, mas os valores nulos da **Unidade de Recursos**. Depois que o sistema encontrar um registro de preço de função correspondente, ele assumirá como padrão a taxa de cobrança desse registro. Essa correspondência pressupõe uma configuração pronta para uso para a prioridade relativa de **Função** em comparação a **Unidade de Recursos** como uma dimensão de preço de venda.
 
 > [!NOTE]
-> Se você configurou uma priorização diferente de **Função** , **Empresa de Recursos** e **Unidade de Recursos** , ou se tiver outras dimensões com prioridade mais alta, esse comportamento será devidamente alterado. O sistema recupera registros de preço de função com valores que correspondem a cada um dos valores de dimensão de precificação em ordem de prioridade com linhas que possuem valores nulos para as dimensões que vêm por último.
+> Se você configurou uma priorização diferente de **Função**, **Empresa de Recursos** e **Unidade de Recursos**, ou se tiver outras dimensões com prioridade mais alta, esse comportamento será devidamente alterado. O sistema recupera registros de preço de função com valores que correspondem a cada um dos valores de dimensão de precificação em ordem de prioridade com linhas que possuem valores nulos para as dimensões que vêm por último.
 
 ## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Resolver as taxas de venda em linhas reais e estimadas para despesa
 
@@ -41,7 +41,7 @@ No Project Operations, as linhas de estimativa de despesa são usadas para denot
 Depois que uma lista de preços para vendas é resolvida, o sistema conclui as seguintes etapas para padronizar o preço de venda unitário.
 
 1. O sistema usa a combinação de campos **Categoria** e **Unidade** na linha de estimativa de despesas para corresponder às linhas de preço da categoria na lista de preços que foi resolvida.
-2. Se o sistema encontrar uma linha de preço de categoria que tenha uma taxa de venda para a combinação dos campos **Categoria** e **Unidade** , essa taxa de venda assumirá o padrão.
+2. Se o sistema encontrar uma linha de preço de categoria que tenha uma taxa de venda para a combinação dos campos **Categoria** e **Unidade**, essa taxa de venda assumirá o padrão.
 3. Se o sistema encontrar uma linha de preço de categoria correspondente, o método de precificação pode ser usado para definir o preço de venda padrão. A tabela a seguir mostra o comportamento padrão do preço de despesa no Project Operations.
 
     | Contexto | Método de precificação | Preço padrão |
@@ -53,4 +53,4 @@ Depois que uma lista de preços para vendas é resolvida, o sistema conclui as s
     | &nbsp; | A preço de custo | Com base no custo real relacionado |
     | &nbsp; | Markup sobre custo | Aplicar uma marcação conforme definido pela linha de preço da categoria na taxa de custo unitário do custo real relacionado |
 
-4. Se o sistema não corresponder aos valores de campo **Categoria** e **Unidade** , a taxa de venda será zero (0) como padrão.
+4. Se o sistema não corresponder aos valores de campo **Categoria** e **Unidade**, a taxa de venda será zero (0) como padrão.

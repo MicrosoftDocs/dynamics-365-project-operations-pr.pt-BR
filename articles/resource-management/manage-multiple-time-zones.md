@@ -5,24 +5,24 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 27f58f0dacc3404119a719547ad374629c740740
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071366"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119809"
 ---
 # <a name="manage-time-zones"></a>Gerenciar fusos horários
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 
 ## <a name="projects"></a>Projetos
 
-Quando um projeto é criado, o fuso horário é baseado no fuso horário definido no modelo de hora de trabalho aplicado. No **Projeto** , as datas são sempre relativas ao fuso horário do usuário que está conectado em cada guia, exceto a guia **Tarefa**. Quando você visualiza a estrutura de detalhamento de trabalho, as datas sempre serão exibidas no fuso horário do projeto.
+Quando um projeto é criado, o fuso horário é baseado no fuso horário definido no modelo de hora de trabalho aplicado. No **Projeto**, as datas são sempre relativas ao fuso horário do usuário que está conectado em cada guia, exceto a guia **Tarefa**. Quando você visualiza a estrutura de detalhamento de trabalho, as datas sempre serão exibidas no fuso horário do projeto.
 
 ## <a name="tasks"></a>Tarefas
 
@@ -30,7 +30,7 @@ Quando uma tarefa é criada, a hora de início, hora de término e horas/dia sã
 
 ## <a name="manage-resources-with-time-zones"></a>Gerenciar recursos com fusos horários
 
-Para obter resultados precisos e previsíveis ao usar **Estender reserva** , há dois pré-requisitos principais que devem ser atendidos:  
+Para obter resultados precisos e previsíveis ao usar **Estender reserva**, há dois pré-requisitos principais que devem ser atendidos:  
 
 - O usuário deve configurar o fuso horário de seu dispositivo para corresponder ao fuso horário definido nas **Configurações de personalização** do sistema.
  
@@ -57,7 +57,7 @@ As listas de tabela a seguir mostra:
 |Recurso C  |  ![Calendário do Recurso C](media/reconcile-assignments-08.png) |
 |Recurso D  | ![Calendário do Recurso D](media/reconcile-assignments-09.png)  |
  
-Quando você navegar até a exibição **Reconciliação** , as atribuições de recursos e as faltas de reserva associadas são exibidas.
+Quando você navegar até a exibição **Reconciliação**, as atribuições de recursos e as faltas de reserva associadas são exibidas.
 
 ![Exibição de reconciliação antes da extensão](media/reconcile-assignments-10.png)
 

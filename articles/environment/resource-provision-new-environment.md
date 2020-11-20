@@ -3,17 +3,17 @@ title: Provisionar um novo ambiente
 description: Este tópico fornece informações sobre como provisionar um novo ambiente do Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/07/2020
+ms.date: 10/26/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071315"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121159"
 ---
 # <a name="provision-a-new-environment"></a>Provisionar um novo ambiente
 
@@ -26,7 +26,7 @@ Este tópico fornece informações sobre como provisionar um novo ambiente do Dy
 Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do Project Operations para seu projeto do LCS.
 
 1. Acesse [LCS](https://lcs.dynamics.com/v2) e selecione o bloco **Gerenciamento versão prévia do recurso**.
-2. Na lista **Versão prévia do recurso** , selecione o **Recurso Project Operations** e **Versão prévia do recurso habilitada** para habilitar o Project Operations.
+2. Na lista **Versão prévia do recurso**, selecione o **Recurso Project Operations** e **Versão prévia do recurso habilitada** para habilitar o Project Operations.
 
 > [!NOTE]
 > Esta etapa é realizada apenas uma vez por projeto do LCS.
@@ -39,7 +39,7 @@ Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do
 > [!IMPORTANT]
 > Certifique-se de que a versão do aplicativo selecionado seja 10.0.13 ou superior.
 
-3. Para provisionar o Project Operations, em **Configurações avançadas** , selecione **Common Data Service**. 
+3. Para provisionar o Project Operations, em **Configurações avançadas**, selecione **Common Data Service**. 
 4. Habilite a **Configuração do Common Data Service** selecionando **Sim** e insira as informações nos campos obrigatórios:
 
   - Nome
@@ -47,7 +47,7 @@ Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do
   - Linguagem
   - Moeda
  
-5. No campo **Modelo do Common Data Service** , selecione **Project Operations** 
+5. No campo **Modelo do Common Data Service**, selecione **Project Operations** 
 
 6. Selecione o tipo de ambiente para sua implantação. Uma avaliação baseada em subscrição permitirá que você implante um ambiente CDS por 30 dias. 
 
@@ -76,11 +76,11 @@ O Project Operations requer um ambiente do Finance com aplicativo versão **10.0
 
 Poderá ser necessário aplicar atualizações de qualidade ao seu ambiente do Finance para receber esta versão.
 
-1. No LCS, na página **Detalhes do ambiente** , na seção **Atualizações Disponíveis** , selecione **Exibir Atualização**.
+1. No LCS, na página **Detalhes do ambiente**, na seção **Atualizações Disponíveis**, selecione **Exibir Atualização**.
 
 ![Exibir Atualizações](./media/5ViewUpdates.png)
 
-2. Na página **Atualizações de binário** , selecione **Salvar pacote**.
+2. Na página **Atualizações de binário**, selecione **Salvar pacote**.
 
 ![Salvar pacote](./media/6SavePackage.png)
 
@@ -111,7 +111,7 @@ A manutenção do ambiente levará algum tempo. Após a conclusão, o ambiente r
 ## <a name="establish-a-dual-write-connection"></a>Estabelecer uma conexão de Gravação Dupla 
 
 1. Em seu projeto do LCS, acesse a página **Detalhes do ambiente**.
-2. Em **Informações do ambiente do Common Data Service** , selecione **Link para o CDS para aplicativos**.
+2. Em **Informações do ambiente do Common Data Service**, selecione **Link para o CDS para aplicativos**.
 3. Depois que o link for concluído, selecione novamente **Link para o CDS para aplicativos**. Você será redirecionado para Gravação Dupla no Finance.
 
 ![Link para o CDS](./media/12LinktoCDS.png)
@@ -142,7 +142,7 @@ Depois que as entidades forem aplicadas, todos os mapeamentos disponíveis serã
 
 ![Parâmetros da Estrutura](./media/17FrameworkParameters.png)
 
-3. Na página **Configurações de entidade** , selecione **Atualizar lista de entidades**.
+3. Na página **Configurações de entidade**, selecione **Atualizar lista de entidades**.
 
 ![Atualizar Lista de Entidades](./media/18RefreshEntityList.png)
 
@@ -153,7 +153,7 @@ A atualização levará aproximadamente 20 minutos. Você receberá um alerta qu
 ## <a name="run-project-operations-dual-write-maps"></a>Executar Mapas de Gravação Dupla do Project Operations
 
 1. Em seu projeto do LCS, acesse a página **Detalhes do ambiente**.
-2. Em **Informações do ambiente do Common Data Service** , selecione **Link para o CDS para aplicativos**. Depois de selecionar o link, você será redirecionado para a lista de entidades nos mapeamentos.
+2. Em **Informações do ambiente do Common Data Service**, selecione **Link para o CDS para aplicativos**. Depois de selecionar o link, você será redirecionado para a lista de entidades nos mapeamentos.
 3. Inicie os mapas conforme descrito na tabela a seguir. Certifique-se de seguir a sequência listada.
 
 | **Mapa de Entidade** | **Atualizar entidade** | **Sincronização inicial** | **Mestre para sincronização inicial** | **Executar pré-requisitos** | **Sincronização inicial dos pré-requisitos** |
@@ -177,7 +177,7 @@ A atualização levará aproximadamente 20 minutos. Você receberá um alerta qu
 
 5. Depois que a atualização for concluída, execute o mapa. Antes de habilitar o próximo mapa, verifique se o mapa na tabela está em um estado **Em Execução**. Executar mapas com um número maior de pré-requisitos pode levar algum tempo.
 
-Para executar um mapa com pré-requisitos, habilite o botão de alternância **Exibir mapas de entidades relacionadas**. Se a tabela indicar que **Sincronização inicial do pré-requisito** é **Não** , verifique se o indicador **Sincronização inicial** é **Desativado** em todos os mapas de pré-requisitos antes de executá-lo.
+Para executar um mapa com pré-requisitos, habilite o botão de alternância **Exibir mapas de entidades relacionadas**. Se a tabela indicar que **Sincronização inicial do pré-requisito** é **Não**, verifique se o indicador **Sincronização inicial** é **Desativado** em todos os mapas de pré-requisitos antes de executá-lo.
 
 ![Executar Mapa](./media/21RunMap.png)
 
@@ -185,4 +185,10 @@ Para executar um mapa com pré-requisitos, habilite o botão de alternância **E
 
 ![Todos os Mapas em Execução](./media/22AllMapsRunning.png)
 
-Seu ambiente do Project Operations agora está provisionado e configurado.
+
+## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Aplicar dados de configuração no CDS para o Project Operations (opcional)
+
+Se você aplicou dados de demonstração ao ambiente do Finance, consulte [Configurar e aplicar dados de configuração no Common Data Service para Project Operations](resource-apply-pro-setup-config-data.md) para aplicar dados de demonstração ao ambiente CDS.
+
+
+Seu ambiente do Project Operations agora está provisionado e configurado. 

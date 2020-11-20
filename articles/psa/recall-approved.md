@@ -3,7 +3,7 @@ title: Recuperar entradas de hora ou despesa aprovadas
 description: Este tópico fornece informações sobre como recuperar uma transação de hora ou despesa aprovada anteriormente.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071475"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120529"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>Recuperar entradas de hora ou despesa aprovadas
 
@@ -60,13 +60,13 @@ Siga estas etapas para solicitar a recuperação de uma entrada de hora ou despe
 Siga estas etapas para aprovar ou rejeitar uma solicitação de recuperação.
 
 1. Vá para **Projetos** \> **Meu Trabalho** \> **Aprovações**.
-2. Na página da lista **Aprovações** , altere a exibição para **Solicitações de recuperação para aprovação**. Uma lista das solicitações de recuperação enviadas é exibida.
+2. Na página da lista **Aprovações**, altere a exibição para **Solicitações de recuperação para aprovação**. Uma lista das solicitações de recuperação enviadas é exibida.
 3. Selecione uma ou mais entradas e, em seguida, selecione **Aprovar** ou **Rejeitar**.
-4. Se você selecionou **Aprovar** , receberá uma mensagem de aviso que explica o impacto da aprovação. Selecione **OK** para confirmar a operação. A solicitação de recuperação foi aprovada.
+4. Se você selecionou **Aprovar**, receberá uma mensagem de aviso que explica o impacto da aprovação. Selecione **OK** para confirmar a operação. A solicitação de recuperação foi aprovada.
 
     –ou–
 
-    Se você selecionou **Rejeitar** , a solicitação de recuperação foi rejeitada.
+    Se você selecionou **Rejeitar**, a solicitação de recuperação foi rejeitada.
 
 > [!NOTE]
 > Assim como ocorre na solicitação de recuperação, quando uma recuperação é aprovada, o sistema verifica se há atividade de faturamento nas entradas de hora ou despesa. Se uma entrada já tiver sido faturada ou se estiver em uma fatura de rascunho, o aprovador receberá uma mensagem de erro informando que a hora ou despesa não pode ser aprovada para recuperação, pois já foi faturada.
@@ -77,7 +77,7 @@ Quando uma aprovação é recuperada, há impactos operacionais e financeiros.
 
 ### <a name="operational-impact"></a>Impacto operacional
 
-Se uma solicitação de recuperação for aprovada, o registro de aprovação será marcado como **Rejeitado**. O status da entrada será alterado para **Devolvido** ou **Rejeitado** , dependendo da entrada ser de hora ou despesa.
+Se uma solicitação de recuperação for aprovada, o registro de aprovação será marcado como **Rejeitado**. O status da entrada será alterado para **Devolvido** ou **Rejeitado**, dependendo da entrada ser de hora ou despesa.
 
 O membro da equipe do projeto pode visualizar entradas, editá-las e reenviá-las ou excluí-las totalmente.
 
@@ -90,7 +90,7 @@ Se uma solicitação de recuperação for aprovada, os dados efetivos correspond
 - O campo **Status do Ajuste** será atualizado para **Ajustado**.
 - O campo **Status de Cobrança** será atualizado para **Cancelado**.
 
-Em seguida, as entradas reversas são criadas na tabela Dados reais. Para criar entradas de reversão, o sistema dados reais originais nos valores de campo. Os únicos valores que não são copiados são os valores de quantidade. Esses valores são revertidos. Os dados reais revertidos são criados para dados reais de **Custo** e **Vendas Não Cobradas**. O campo **Status do Ajuste** nos dados efetivos revertidos será definido como **Não Ajustável** , e o campo **Status de Cobrança** será definido como **Cancelado**. Devido a essas alterações, o gasto registrado e a lista de pendências de receita no projeto não vão mais considerar os valores que esses dados efetivos representam.
+Em seguida, as entradas reversas são criadas na tabela Dados reais. Para criar entradas de reversão, o sistema dados reais originais nos valores de campo. Os únicos valores que não são copiados são os valores de quantidade. Esses valores são revertidos. Os dados reais revertidos são criados para dados reais de **Custo** e **Vendas Não Cobradas**. O campo **Status do Ajuste** nos dados efetivos revertidos será definido como **Não Ajustável**, e o campo **Status de Cobrança** será definido como **Cancelado**. Devido a essas alterações, o gasto registrado e a lista de pendências de receita no projeto não vão mais considerar os valores que esses dados efetivos representam.
 
 Se uma solicitação de recuperação for rejeitada, não haverá impacto financeiro no projeto.
 

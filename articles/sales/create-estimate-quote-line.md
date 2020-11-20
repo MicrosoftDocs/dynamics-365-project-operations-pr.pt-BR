@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071456"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122914"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Criar estimativas em uma linha de cotação
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Em uma cotação baseada em projeto, você pode usar a entidade Detalhes da linha de cotação para estimar o trabalho que é necessário para entregar um projeto. Essa estimativa pode ser compartilhada com o cliente.
 
@@ -83,8 +83,8 @@ Se você adicionou um campo personalizado nos detalhes da linha de cotação e q
 2. Selecione **Pesquisar** e procure o plug-in a ser atualizado.
 3. Selecione o plug-in e, em seguida, na página principal, escolha **Selecionar**.
 4. Selecione a etapa do plug-in a ser atualizado, clique com o botão direito do mouse e selecione **Atualizar**.
-5. Na caixa de diálogo **Atualizar Etapa Existente** , no campo **Filtrando Atributos** , selecione o botão de reticências ( **...** ):
-6. Na caixa de diálogo **Selecionar Atributos** , marque as caixas de seleção de atributos personalizados.
+5. Na caixa de diálogo **Atualizar Etapa Existente**, no campo **Filtrando Atributos**, selecione o botão de reticências (**...**):
+6. Na caixa de diálogo **Selecionar Atributos**, marque as caixas de seleção de atributos personalizados.
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, **Atualizar Etapa**.
 8. Repita as etapas de 1 a 7 para o segundo plug-in.
 9. Feche a ferramenta PluginRegistrationTool.

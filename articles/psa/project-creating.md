@@ -3,7 +3,7 @@ title: Agendas de projeto
 description: Esse tópico fornece informações sobre como criar uma agenda.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071463"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123207"
 ---
 # <a name="project-schedules"></a>Agendas de projeto 
 
@@ -83,12 +83,12 @@ Os botões **Mover para cima** e **Mover para baixo** mudam a posição de uma t
 
 A grade **Agendar** é totalmente acessível e pode ser usada com leitores de tela como o Narrator, JAWS ou NVDA. Você pode se mover pela área da grade usando as teclas de seta (como no Microsoft Excel), pode usar a tecla Tab para avançar pelos elementos da interface de usuário interativa, bem como pode usar a tecla de Seta para baixo, a tecla Enter ou a barra de espaços para selecionar e invocar os menus suspensos. Os cabeçalhos de coluna também são interativos. É possível ocultar e mostrar colunas, usar a tecla Tab e teclas de direção para se mover pelos cabeçalhos de coluna e usar os botões de ação na barra de ferramentas. Além disso, você pode usar os seguintes atalhos de teclado:
 
-- **Atualizar** : ALT+SHIFT+F5
-- **Adicionar** : ALT+SHIFT+Insert
-- **Excluir** : ALT+SHIFT+Delete
-- **Mover para cima/baixo** : ALT+SHIFT+Setas para Cima/Baixo
-- **Recuar/Recuar para a esquerda** : ALT_SHIFT+Setas para a Esquerda/Direita
-- **Expandir/Recolher Hierarquias** : ALT+SHIFT+Teclas de Mais/Menos
+- **Atualizar**: ALT+SHIFT+F5
+- **Adicionar**: ALT+SHIFT+Insert
+- **Excluir**: ALT+SHIFT+Delete
+- **Mover para cima/baixo**: ALT+SHIFT+Setas para Cima/Baixo
+- **Recuar/Recuar para a esquerda**: ALT_SHIFT+Setas para a Esquerda/Direita
+- **Expandir/Recolher Hierarquias**: ALT+SHIFT+Teclas de Mais/Menos
 
 ## <a name="task-attributes"></a>Atributos da tarefa
 
@@ -98,19 +98,19 @@ O nome de uma tarefa descreve o trabalho que deve ser concluído. No PSA, os atr
  
 ### <a name="schedule-attributes"></a>Atributos da agenda
 
-Os atributos **Esforço** , **Data de início** , **Data de término** e **Duração** definem a agenda para a tarefa.
+Os atributos **Esforço**, **Data de início**, **Data de término** e **Duração** definem a agenda para a tarefa.
 
 Os atributos de agenda adicionais incluem:
 
-- **Horas de esforço** : insira uma estimativa das hora que são necessárias para concluir a tarefa. 
-- **Duração** : especifique o número de dias de trabalho que são necessários para concluir a tarefa.
-- **ID da Agenda** : essa ID gerada automaticamente é usada para ordenar tarefas na hierarquia. As dependências entre as tarefas gerenciam a ordem real na qual as tarefas são trabalhadas.
+- **Horas de esforço**: insira uma estimativa das hora que são necessárias para concluir a tarefa. 
+- **Duração**: especifique o número de dias de trabalho que são necessários para concluir a tarefa.
+- **ID da Agenda**: essa ID gerada automaticamente é usada para ordenar tarefas na hierarquia. As dependências entre as tarefas gerenciam a ordem real na qual as tarefas são trabalhadas.
  
 ### <a name="staffing-attributes"></a>Atributos de pessoal
 
-Os atributos de equipe são acessados pelo campo **Recursos** na agenda. Você pode procurar um recurso existente ou clicar em **Criar** e, no painel **Criação Rápida** , adicionar um membro da equipe do projeto como um novo recurso.
+Os atributos de equipe são acessados pelo campo **Recursos** na agenda. Você pode procurar um recurso existente ou clicar em **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipe do projeto como um novo recurso.
 
-Os campos **Função** , **Unidade de Recursos** e **Nome da Posição** são usados para descrever os requisitos de equipe para a tarefa. Esses atributos de equipe em conjunto com a agenda da tarefa são usados para encontrar recursos disponíveis para realização da tarefa.
+Os campos **Função**, **Unidade de Recursos** e **Nome da Posição** são usados para descrever os requisitos de equipe para a tarefa. Esses atributos de equipe em conjunto com a agenda da tarefa são usados para encontrar recursos disponíveis para realização da tarefa.
 
 **Função** – especifique o tipo de recurso que é exigido para realização da tarefa.
 
