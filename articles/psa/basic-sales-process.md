@@ -3,7 +3,7 @@ title: Processos de vendas
 description: Este tópico fornece informações sobre os processos de vendas básicos.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f09b30fe6d842faaf896cb97f44b060ec4049213
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 38e02018e46943f53680babd12c7bede0a5d19de
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071542"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129304"
 ---
 # <a name="sales-processes"></a>Processos de vendas
 
@@ -70,12 +70,12 @@ Esses seis estágios são representados por setas (\>) que você seleciona para 
  
 Sua organização pode usar entidades diferentes para representar a mesma negociação conforme evolui. No início do processo de vendas, uma negociação é representada pela entidade Oportunidade. Conforme o tempo passa e mais detalhes surgem, é possível usar estimativas de alto nível para criar uma ou mais cotações. Se uma dessas cotações for revisada pelos participantes internos ou do cliente, a entidade Cotação representará a negociação. Depois que o cliente aceita a cotação, um contrato de projeto ou SOW representa a negociação. Para dar suporte a esse comportamento, os BPFs são estruturados para que cada estágio no processo seja vinculado a uma tabela de banco de dados diferente.
 
-O estágio **Qualificar** no processo de vendas pode ser rastreado por uma entidade Oportunidade. Os estágios **Estimativa** e **Revisão Interna** podem ser apoiados por uma entidade Cotação. Os estágios **Contrato** , **Entrega** e **Fechamento** podem ser apoiados por uma entidade Contrato de Projeto.
+O estágio **Qualificar** no processo de vendas pode ser rastreado por uma entidade Oportunidade. Os estágios **Estimativa** e **Revisão Interna** podem ser apoiados por uma entidade Cotação. Os estágios **Contrato**, **Entrega** e **Fechamento** podem ser apoiados por uma entidade Contrato de Projeto.
 
 À medida que as negociações avançam pelos estágios, é solicitada a criação do registro da entidade apropriado para ajudar e guiar você pelo processo. Os estágios podem ser condicionais. Por exemplo, se você exigir uma revisão interna de uma cotação apenas se a cotação usar uma lista de preços personalizada, será possível configurar essa condição no estágio apropriado do processo empresarial. O estágio **Revisão Interna** será mostrada somente para cotações que usam uma lista de preços personalizada. Para todas as outras negociações e cotações, o estágio **Estimativa** é seguido pelo estágio **Contrato**.
 
 > [!NOTE]
-> O PSA tem páginas específicas para as entidades Oportunidade, Cotação, Ordem e Fatura. Você deve criar oportunidades, cotações, ordens e faturas de serviço de projeto usando as páginas de informações do projeto para essas entidades. Se você usar outra página para criar um registro, não será possível abrir o registro pela página **Informações do Projeto**. Se desejar abrir um registro na página **Informações do Projeto** , você deverá excluir o registro e recriá-lo usando a página **Informações do Projeto**. Na página **Informações do Projeto** , uma lógica de negócios para cada um desses tipos de entidade garante que o campo **Tipo** do registro seja definido corretamente e todos os conceitos obrigatórios sejam corretamente inicializados.
+> O PSA tem páginas específicas para as entidades Oportunidade, Cotação, Ordem e Fatura. Você deve criar oportunidades, cotações, ordens e faturas de serviço de projeto usando as páginas de informações do projeto para essas entidades. Se você usar outra página para criar um registro, não será possível abrir o registro pela página **Informações do Projeto**. Se desejar abrir um registro na página **Informações do Projeto**, você deverá excluir o registro e recriá-lo usando a página **Informações do Projeto**. Na página **Informações do Projeto**, uma lógica de negócios para cada um desses tipos de entidade garante que o campo **Tipo** do registro seja definido corretamente e todos os conceitos obrigatórios sejam corretamente inicializados.
 
 > ![Informações do projeto para uma nova ordem](media/basic-guide-4.png)
  

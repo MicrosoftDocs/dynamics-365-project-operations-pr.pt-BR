@@ -3,7 +3,7 @@ title: Novidades ou alterações na Versão de Atualização 20 do Project Servi
 description: Este tópico lista os recursos e as correções disponíveis na Versão de Atualização 20 do Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/12/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 12edae76dbc6de63d3e2d36058c4092f80ede77d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ef24c20f3fa520b25a14773a15363a0f04f98d36
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071377"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126739"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Versão de Atualização 20, do Project Service Automation V3
 
@@ -48,7 +48,7 @@ Os seguintes problemas foram corrigidos:
 
 Os seguintes problemas foram corrigidos:
 
-- No formulário **Contrato** , clicar duas vezes em **Criar recibo** cria duas faturas para um único registro de dados reais.
+- No formulário **Contrato**, clicar duas vezes em **Criar recibo** cria duas faturas para um único registro de dados reais.
 - No Internet Explorer 11, os usuários não conseguem criar entradas de despesas.
 - A Reversão de Custo e a reversão de Dados Reais de Vendas não Faturadas não estão vinculadas.
 - O botão **Atualizar Dados Reais** no formulário **Projeto** não atualiza **Horas Reais da Tarefa**.
@@ -59,4 +59,4 @@ Os seguintes problemas foram corrigidos:
 - Os valores da unidade e do grupo de unidades não são padronizados corretamente para as categorias de despesas nos formulários **Detalhes da Linha do Contrato** e **Detalhes da Linha de Cotação**.
 - As listas de **Preço de Custo Unitário da Organização** permitem sobreposições na data efetiva.
 - Os usuários não têm permissão para alterar **OrgUnit** quando o tipo de ordem não for baseado no trabalho, pois levará a um erro de exceção de referência nula.
-- Ao tentar navegar do formulário **Detalhes da Linha de Cotação** de volta à guia **Cotação** , o formulário é atualizado e exibe a guia **Resumo**.
+- Ao tentar navegar do formulário **Detalhes da Linha de Cotação** de volta à guia **Cotação**, o formulário é atualizado e exibe a guia **Resumo**.

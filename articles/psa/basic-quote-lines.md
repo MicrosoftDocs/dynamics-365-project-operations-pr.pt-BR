@@ -3,7 +3,7 @@ title: Cotações e linhas da cotação
 description: Este tópico fornece informações sobre cotações e linhas da cotação.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae48c691fd855e6f22d0642965fc0c1617793368
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 509bc089e69ec234ddfdecb789c2e446286da82b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071543"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129438"
 ---
 # <a name="quotes-and-quote-lines"></a>Cotações e linhas da cotação
 
@@ -35,7 +35,7 @@ No Dynamics 365 Project Service Automation, há dois tipos de cotação: de proj
 - Uma cotação de vendas dá suporte à ativação e a revisões. Uma cotação do projeto não aceita esses processos.
 - Você pode anexar vários ordens a uma cotação de vendas. Você pode anexar apenas um contrato de projeto a uma cotação de projeto.
 - Você pode ganhar uma cotação de vendas e manter a oportunidade relacionada aberta. Depois que uma cotação de projeto é ganha, a oportunidade relacionada é fechada.
-- Uma cotação de vendas não inclui alguns campos e conceitos que são incluídos em uma cotação de projeto. Os campos incluem **Unidade de Contratação** , **Gerente de Contas** e **Nome do Contato para Cobrança**.  
+- Uma cotação de vendas não inclui alguns campos e conceitos que são incluídos em uma cotação de projeto. Os campos incluem **Unidade de Contratação**, **Gerente de Contas** e **Nome do Contato para Cobrança**.  
 - As cotações de vendas e cotações de projeto também são identificadas por um campo baseado no conjunto de opções chamado **Tipo**. Para uma cotação de vendas, esse campo tem o valor **Com base no item**. Para uma cotação de projeto, ele tem o valor **Com base no trabalho**.
 
 Este tópico vai se concentrar nos detalhes das cotações de projeto.
@@ -76,7 +76,7 @@ O PSA dá suporte a três tipos de agendamento de fatura para linhas de cotaçã
 As organizações de serviço profissionais geralmente cotam e faturam seus clientes por classificação de custos. No PSA, os custos são representados pelas seguintes classificações de transação:
 
 - **Tempo** – essa classificação representa o custo de mão de obra ou tempo dos recursos humanos em um projeto.
-- **Despesa** : – essa classificação representa todos os outros tipos de despesa em um projeto. Como as despesas podem ser amplamente classificadas, a maioria das organizações cria subcategorias, como viagem, aluguel de carro, hotel ou materiais de escritório.
+- **Despesa**: – essa classificação representa todos os outros tipos de despesa em um projeto. Como as despesas podem ser amplamente classificadas, a maioria das organizações cria subcategorias, como viagem, aluguel de carro, hotel ou materiais de escritório.
 - **Taxa** – essa classificação representa despesas diversas, multas e outros itens que são cobrados do cliente. 
 - **Imposto** – essa classificação representa valores de imposto que os usuários adicionam enquanto inserem despesas.
 - **Transação de material** – essa classificação representa dados reais de linhas de produto em uma fatura de projeto confirmada.
@@ -91,7 +91,7 @@ Por exemplo, uma cotação pode conter as duas linhas de cotação seguintes:
 - Despesas de viagem relacionadas que usam um método de cobrança Preço fixo. Por exemplo, todas as despesas de viagem para o projeto de exemplo **Implementação do Dynamics AX** são faturadas a um valor monetário fixo.
 
 > [!NOTE]
-> A combinação das classificações de transação e projeto de **Tempo** , **Despesa** e **Taxa** que são associadas a uma linha de contato ou linha de cotação devem ser exclusivas. Se a mesma combinação de classes de transação e projeto for associada a mais de uma linha de contrato ou linha de cotação, o PSA não funcionará corretamente.
+> A combinação das classificações de transação e projeto de **Tempo**, **Despesa** e **Taxa** que são associadas a uma linha de contato ou linha de cotação devem ser exclusivas. Se a mesma combinação de classes de transação e projeto for associada a mais de uma linha de contrato ou linha de cotação, o PSA não funcionará corretamente.
 
 ## <a name="billing-types"></a>Tipos de cobrança
 

@@ -3,7 +3,7 @@ title: Rastrear o status de um projeto
 description: Como rastrear o status de um projeto no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 70d07c98bd9432712e939445dbf867b96642f5ba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00b6d874b42a415fe567d17e49c0ea319d8952a0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071514"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127819"
 ---
 # <a name="track-a-projects-status-project-service"></a>Rastrear o status de um projeto (Project Service)
 
@@ -37,10 +37,10 @@ Use os recursos do [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn
 |              |                                                                                                                                                                                                                                                                                                  |
 |--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |   **Novo**    | Ao criar um projeto, o estágio é definido como **Novo**. Se o projeto foi criado partir de um modelo, neste estágio, o projeto pode ter um cronograma, estimativas e dados da equipe. Caso contrário, será a estrutura de tópicos do projeto, e você precisará inserir manualmente o restante dos componentes do projeto. |
-|  **Cotação**   |      Ao associar um projeto a uma cotação ou criar um projeto a partir de uma cotação, o estágio do projeto é definido como **Cotação** , e a hora de início e de término estimadas são também atualizadas. Quando o projeto está no estágio de cotação, os detalhes da cotação são exibidos na guia **Vendas** na página **Projeto**.      |
+|  **Cotação**   |      Ao associar um projeto a uma cotação ou criar um projeto a partir de uma cotação, o estágio do projeto é definido como **Cotação**, e a hora de início e de término estimadas são também atualizadas. Quando o projeto está no estágio de cotação, os detalhes da cotação são exibidos na guia **Vendas** na página **Projeto**.      |
 |   **Plano**   |                                     Quando você vence uma cotação associada a um projeto, e quando o compromisso evolui para o estágio de contrato, o estágio do projeto é atualizado para **Plano**. Os detalhes do contrato são exibidos na guia **Vendas** na página **Projeto**.                                      |
 | **Concluir** |                    Quando o trabalho do projeto é concluído, você pode mudar o estágio para **Concluído**. Quando o estágio do projeto é definido como concluído, entende-se que o trabalho foi 100% concluído, mas que o projeto será mantido aberto para o registro de horas ou entradas de despesas pendentes.                     |
-|  **Fechar**   |           Quando todas as transações tiverem sido registradas no projeto e nada mais precisar ser registrado, você poderá definir manualmente o estágio como **Fechado**. Quando o projeto é definido como **Fechado** , não é possível registrar mais nenhuma transação nele, e ele será usado apenas para leitura.           |
+|  **Fechar**   |           Quando todas as transações tiverem sido registradas no projeto e nada mais precisar ser registrado, você poderá definir manualmente o estágio como **Fechado**. Quando o projeto é definido como **Fechado**, não é possível registrar mais nenhuma transação nele, e ele será usado apenas para leitura.           |
 
 ## <a name="to-track-a-projects-status"></a>Para acompanhar o status de um projeto  
 

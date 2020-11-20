@@ -3,7 +3,7 @@ title: Criar entrada de hora
 description: Esse tópico fornece informações sobre como criar entradas de hora.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 878413a24baa340b745a045a6991a63a00851c8b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d8c87f0fd2cc021bb9088d0fac73ccd52980a905
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071519"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131244"
 ---
 # <a name="create-time-entries"></a>Criar entrada de hora
 
@@ -35,13 +35,13 @@ Em versões anteriores do Dynamics 365 Project Service Automation, as entradas d
 
 Siga as etapas para criar uma entrada de hora.
 
-1. Na página **Entradas de hora** , selecione **Novo**.
-2. Na caixa de diálogo **Criação rápida: Entrada de hora** , insira a duração da entrada de hora em minutos, horas ou dias. A duração deve ser inserida no seguinte formato: *x* minutos, *x* horas ou *x* dias. As horas e os dias também podem ser inseridos usando decimais, como *x,x* horas ou *x,x* dias.
+1. Na página **Entradas de hora**, selecione **Novo**.
+2. Na caixa de diálogo **Criação rápida: Entrada de hora**, insira a duração da entrada de hora em minutos, horas ou dias. A duração deve ser inserida no seguinte formato: *x* minutos, *x* horas ou *x* dias. As horas e os dias também podem ser inseridos usando decimais, como *x,x* horas ou *x,x* dias.
 3. Selecione o tipo de entrada de hora e o projeto no qual você está inserido a entrada de hora.
-4. No campo **Tarefa do projeto** , localize a tarefa para essa entrada de hora.
+4. No campo **Tarefa do projeto**, localize a tarefa para essa entrada de hora.
 
     > [!NOTE]
-    > Se estiver criando uma entrada de hora para uma tarefa que não foi atribuída a um usuário, no campo **Tarefa do projeto** , selecione o botão **Pesquisar** , selecione **Alterar exibição** e depois **Todas as tarefas de projeto ativas** para listar todas as tarefas.
+    > Se estiver criando uma entrada de hora para uma tarefa que não foi atribuída a um usuário, no campo **Tarefa do projeto**, selecione o botão **Pesquisar**, selecione **Alterar exibição** e depois **Todas as tarefas de projeto ativas** para listar todas as tarefas.
 
 5. Insira uma descrição, se necessário, e selecione **Salvar e fechar**.
 
@@ -56,9 +56,9 @@ Observe que as frações de uma hora não são minutos. Portanto, 1,5 representa
 
 Após criar algumas entradas de hora, é possível copiá-las para criar entradas de hora adicionais em massa.
 
-1. Na página **Entradas de hora** , selecione **Copiar semana**.
-2. No grupo de campo **No período** nos campos **Data de início** e **Data de término** , defina o intervalo de datas que será usado para copiar as entradas.
-3. No grupo de campo **Até o período** no campo **Data de início** , especifique a data usada para criar as entradas de hora.
+1. Na página **Entradas de hora**, selecione **Copiar semana**.
+2. No grupo de campo **No período** nos campos **Data de início** e **Data de término**, defina o intervalo de datas que será usado para copiar as entradas.
+3. No grupo de campo **Até o período** no campo **Data de início**, especifique a data usada para criar as entradas de hora.
 4. Selecione **Cópia** para criar uma cópia das entradas de hora que correspondem ao dia da semana especificado no grupo de campo **Até o período**. Por exemplo, a entrada de hora para segunda-feira da semana passada é copiada para a segunda-feira da semana especificada no grupo de campo **Até o período**.
 
 ## <a name="import-data-for-time-entries"></a>Importar dados para entradas de hora
@@ -67,4 +67,4 @@ Você pode importar dados de reservas e atribuições de projetos. Ao importar d
 
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Recursos para agrupar por, classificar, pesquisar e filtrar
 
-Você pode agrupar e filtrar as entradas de hora pelas dimensões especificadas nas colunas. No campo **Agrupar por**. selecione a dimensão a ser usada para filtrar as entradas de hora. Você também pode classificar os registros de entrada de hora em ordem crescente ou decrescente usando a seta de classificação nos cabeçalhos de coluna. Além disso, é possível mostrar ou ocultar entradas selecionando-se o botão **Filtrar** nos cabeçalhos de colunas e, em seguida, na caixa **Pesquisar** , inserindo o texto que deve ser usado para pesquisar entradas de hora por nome de projeto, tarefa de projeto, entrada de hora ou recurso.
+Você pode agrupar e filtrar as entradas de hora pelas dimensões especificadas nas colunas. No campo **Agrupar por**. selecione a dimensão a ser usada para filtrar as entradas de hora. Você também pode classificar os registros de entrada de hora em ordem crescente ou decrescente usando a seta de classificação nos cabeçalhos de coluna. Além disso, é possível mostrar ou ocultar entradas selecionando-se o botão **Filtrar** nos cabeçalhos de colunas e, em seguida, na caixa **Pesquisar**, inserindo o texto que deve ser usado para pesquisar entradas de hora por nome de projeto, tarefa de projeto, entrada de hora ou recurso.

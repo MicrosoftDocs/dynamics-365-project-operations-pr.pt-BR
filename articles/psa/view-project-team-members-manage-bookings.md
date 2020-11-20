@@ -3,7 +3,7 @@ title: Exibir os membros da equipe de projeto e gerenciar as reservas
 description: Como exibir os membros da equipe do projeto e gerenciar as reservas no Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f7fae8a4e8821b7983112ffa46c1879c97b9589
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f9607614b0b5cbc5a2d65abe5b72f40c6099d83c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071503"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127740"
 ---
 # <a name="view-project-team-members-and-manage-bookings-project-service"></a>Exibir os membros da equipe do projeto e gerenciar as reservas (Project Service)
 
@@ -41,7 +41,7 @@ Você pode exibir uma lista dos membros da equipe do projeto e, a partir dela, m
   
 5.  Para fazer uma reserva fixa de um recurso, selecione a função e clique em **Reserva Fixa**. Isso mostra uma exibição de calendário de todos os recursos e sua disponibilidade, com código de cores que fornece uma exibição visual do status da reserva de um recurso. Proceda de uma das seguintes maneiras para otimizar sua pesquisa:  
   
-    -   Selecione uma exibição ou uma ordem de classificação na parte superior da tela. Você também pode selecionar se a disponibilidade para o **Dia** , a **Semana** ou o **Mês** deve ser mostrada e usar as setas para exibir o período anterior ou posterior. Use a caixa de pesquisa para localizar um recurso específico.  
+    -   Selecione uma exibição ou uma ordem de classificação na parte superior da tela. Você também pode selecionar se a disponibilidade para o **Dia**, a **Semana** ou o **Mês** deve ser mostrada e usar as setas para exibir o período anterior ou posterior. Use a caixa de pesquisa para localizar um recurso específico.  
   
     -   Clique em **Opções** para alterar o que é exibido. Por exemplo, você pode mostrar uma legenda que mostra o esquema de cores para diferentes tipos de reserva ou optar por mostrar apenas um determinado tipo de reserva (por exemplo, reserva fixa ou reserva flexível).  
   

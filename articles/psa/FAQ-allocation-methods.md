@@ -3,7 +3,7 @@ title: Métodos de alocação de reserva em Project Service Automation
 description: Este tópico fornece informações sobre as diferentes maneira de reservar alocações.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,16 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 295da428ce15e7775450dfa94e96047f200bdede
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071422"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131330"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Métodos de alocação de reserva em Project Service Automation
 
-Independentemente de adicionar um membro da equipe diretamente a um projeto na guia **Equipe** , ou de reservar um recurso para um projeto ou requisito no Quadro de Agendamento, há alguns métodos diferentes para reservar a alocação que você pode usar. Este tópico explica como cada método funciona e quais métodos podem levar à reserva em excesso de recursos.
+Independentemente de adicionar um membro da equipe diretamente a um projeto na guia **Equipe**, ou de reservar um recurso para um projeto ou requisito no Quadro de Agendamento, há alguns métodos diferentes para reservar a alocação que você pode usar. Este tópico explica como cada método funciona e quais métodos podem levar à reserva em excesso de recursos.
 
 ## <a name="full-capacity"></a>Capacidade Total 
 O método Capacidade Total reserva toda a capacidade do recurso para o intervalo de datas especificado. Por exemplo, se um recurso tiver um calendário definido para trabalhar oito horas por dia, cinco dias da semana, definir uma data de início e de término que cubra cinco dias de trabalho reservará o recurso por 40 horas. O registro referente foi feito sem relação à capacidade restante dos recursos. Se um recurso já estiver reservado para outros projeto durante esse período, as 40 horas serão reservadas como horas adicionais, o que potencialmente levará ao excesso de reserva.

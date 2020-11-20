@@ -3,7 +3,7 @@ title: Novidades ou alterações na Versão de Atualização 21 do Project Servi
 description: Este tópico lista os recursos e as correções novas ou alteradas disponíveis na Versão de Atualização 21 do Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 06/19/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e8a15d5f723da528640c62c1892bac0d801c2bee
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 799be481c365e82e8ffb59ba242e30378644008b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071379"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126694"
 ---
 # <a name="project-service-automation-update-release-21-v3"></a>Versão de Atualização 21, do Project Service Automation V3
 
@@ -54,7 +54,7 @@ Os seguintes problemas foram corrigidos:
 
 Os seguintes problemas foram corrigidos:
 
-- As grades do formulário **Projeto** ( **Atribuição de Recurso** , **Tarefa** , exibição de **Reconciliação** , **Estimativas de Despesas** ) continuam editáveis mesmo se o projeto não estiver ativo.
+- As grades do formulário **Projeto** (**Atribuição de Recurso**, **Tarefa**, exibição de **Reconciliação**, **Estimativas de Despesas**) continuam editáveis mesmo se o projeto não estiver ativo.
 - Os clientes duplicados não podem ser mesclados com os clientes vinculados a contratos de projetos confirmados.
 - Quando um recurso sem um calendário válido é adicionado, o sistema não retorna uma mensagem de erro amigável.
 - O botão **Adicionar Tarefa** na grade de tarefas é habilitado quando o projeto está vinculado ao **Suplemento do Microsoft Project**.
@@ -68,10 +68,10 @@ Os seguintes aprimoramentos foram realizados:
 
 Os seguintes problemas foram corrigidos:
 
-- O **Preço de Venda Total** é 0 (zero) para **Categoria** , embora **Função** tenha um preço de venda total diferente de zero.
+- O **Preço de Venda Total** é 0 (zero) para **Categoria**, embora **Função** tenha um preço de venda total diferente de zero.
 - Os clientes não podem alterar o valor do campo **Status da Fatura** para **Pronto para faturamento** quando outro processo personalizado estiver atualizando um campo adicional.
 - O botão **Atualizar Linhas da Fatura** pode criar várias linhas duplicadas se for selecionado repetidas vezes.
-- O botão **Atualizar Preços** não funciona na subgrade **Preços da Função** no formulário **Exibição Rápida**.
+- O botão **Atualizar Preços** não funciona na subgrade **Preços da Função** no formulário de **Exibição Rápida**.
 - A lógica **Resolução da Lista de Preços de Venda** trata incorretamente os fusos horários, resultando na seleção incorreta de listas de preços.
 - O **Custo Total Real** de um projeto pode apresentar uma diferença fracionária após a aprovação de uma única entrada de tempo.
 - A lógica **Resolução de Preço** não fornece uma mensagem de erro amigável se **Preço de Função Recuperado** não tiver valores nos campos **Unidade Principal** e **Preço na Unidade Principal**.

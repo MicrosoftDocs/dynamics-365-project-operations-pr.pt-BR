@@ -5,15 +5,15 @@ author: suvaidya
 manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 2c20e4a7fa9748e03bf1729fc2f7bdbfc2f292d1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c52d5ccef681ef9d9ff767c99af6f2fd0fd6da52
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071296"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126109"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Restituição de IVA no gerenciamento de despesas
 
@@ -21,7 +21,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 Para receber reembolsos em transações qualificadas de imposto sobre valor agregado (IVA), uma empresa ou organização deve identificar, coletar, verificar e enviar informações precisas. Esse processo inclui várias tarefas e, dependendo do tamanho da sua empresa, pode incluir vários funcionários ou funções.
 
-Para recuperar o IVA no módulo **Gerenciamento de despesas** , os seguintes pré-requisitos devem ser preenchidos:
+Para recuperar o IVA no módulo **Gerenciamento de despesas**, os seguintes pré-requisitos devem ser preenchidos:
 
 - Os códigos de imposto devem ser criados para países/regiões alocadas para categorias de despesas.
 - Um grupo de impostos deve ser criado para cada código de imposto.

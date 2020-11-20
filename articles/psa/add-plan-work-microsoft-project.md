@@ -3,7 +3,7 @@ title: Usar o Suplemento do Project Service para planejar seu trabalho no Micros
 description: Este tópico fornece informações sobre como adicionar, configurar e usar o suplemento do Microsoft Project para o Microsoft Project Service.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071558"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129664"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Usar o Suplemento do Project Service Automation para planejar seu trabalho no Microsoft Project
 
@@ -59,7 +59,7 @@ Com o [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)
 ## <a name="read-from-a-template"></a>Ler de um modelo  
  Ler usando um modelo que você criou no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] e copie para [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] para iniciar o planejamento do projeto. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Criar um modelo de projeto (Project Service Automation)](../psa/create-project-template.md)  
 
-1.  Na guia **Project Service** , clique em **Ler** > **Modelo de projeto do Project Service Automation**.  
+1.  Na guia **Project Service**, clique em **Ler** > **Modelo de projeto do Project Service Automation**.  
 
 2.  Selecione um modelo de projeto na lista e depois clique em **Abrir**.  
 
@@ -78,7 +78,7 @@ Com o [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)
 
 1.  Na guia Project Service, selecione uma linha e clique em **Encontrar Recursos**.  
 
-2.  Na tela **Reservar Recurso** , selecione o recurso que deseja usar no projeto.  
+2.  Na tela **Reservar Recurso**, selecione o recurso que deseja usar no projeto.  
 
 3.  Clique em **Reservar** e depois clique em **OK**.  
 
@@ -95,9 +95,9 @@ O projeto será importado para a [!INCLUDE[pn_project_service_auto](../includes/
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Uso**    |    Importa na tela [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Estimativas do Projeto**.     |
 
 **Para importar e publicar seu projeto**  
-1. Na guia **Project Service** , clique em **Publicar** > **Novo Projeto do Project Service Automation**.  
+1. Na guia **Project Service**, clique em **Publicar** > **Novo Projeto do Project Service Automation**.  
 
-2. Na caixa de diálogo **Publicar para um novo projeto no Project Service** , insira o **Nome do Projeto** e selecione o **Cliente**.  
+2. Na caixa de diálogo **Publicar para um novo projeto no Project Service**, insira o **Nome do Projeto** e selecione o **Cliente**.  
 
 3. Opcionalmente, verifique a opção **Vincular plano de projeto ao Project Service Automation** para vincular o arquivo do Project do plano ao Project Service Automation.  
 
@@ -139,11 +139,11 @@ O projeto será importado para a [!INCLUDE[pn_project_service_auto](../includes/
 
 2. Selecione **Para Documentos do Projeto do Project Service Automation**.  
 
-3. Na caixa de diálogo **Permitir Abertura no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , selecione **Sim** ou **Não**.  
+3. Na caixa de diálogo **Permitir Abertura no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, selecione **Sim** ou **Não**.  
 
-   - Se clicar em **Sim** , você poderá selecionar o botão **Abrir no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no Project Service Automation, iniciar o [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e carregar o arquivo do Project da biblioteca de documentos do SharePoint.  
+   - Se clicar em **Sim**, você poderá selecionar o botão **Abrir no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no Project Service Automation, iniciar o [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e carregar o arquivo do Project da biblioteca de documentos do SharePoint.  
 
-   - Se clicar em **Não** , o link do botão **Abrir no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** não funcionará.  
+   - Se clicar em **Não**, o link do botão **Abrir no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** não funcionará.  
 
 4. O arquivo do [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] pode ser encontrado no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] em **Documentos** para o projeto específico do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
@@ -153,20 +153,20 @@ O projeto será importado para a [!INCLUDE[pn_project_service_auto](../includes/
 
 2. Selecione **Para Documentos do Projeto do Project Service Automation**.  
 
-3. Na caixa de diálogo **Permitir Abertura no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** , selecione **Sim** ou **Não**.  
+3. Na caixa de diálogo **Permitir Abertura no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]**, selecione **Sim** ou **Não**.  
 
-   - Se clicar em **Sim** , você poderá selecionar o botão **Abrir no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no Project Service Automation, iniciar o [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e carregar o arquivo do Project da biblioteca de documentos do SharePoint.  
+   - Se clicar em **Sim**, você poderá selecionar o botão **Abrir no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** no Project Service Automation, iniciar o [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] e carregar o arquivo do Project da biblioteca de documentos do SharePoint.  
 
-   - Se clicar em **Não** , o link do botão **Abrir no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** não funcionará.  
+   - Se clicar em **Não**, o link do botão **Abrir no [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)]** não funcionará.  
 
 4. O arquivo do [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] pode ser encontrado no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] em **Documentos** para o projeto específico do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
 ## <a name="publish--your-project-as-a-template"></a>Publicar seu projeto como modelo  
  Você pode salvar seu projeto e reutilizá-lo salvando-o como modelo de projeto no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  Os modelos de projeto são planos de projeto reutilizáveis no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Criar um modelo de projeto (Project Service Automation)](../psa/create-project-template.md)  
 
-1. Na guia **Project Service** , clique em **Publicar** > **Novo Modelo de Projeto do Project Service Automation**.  
+1. Na guia **Project Service**, clique em **Publicar** > **Novo Modelo de Projeto do Project Service Automation**.  
 
-2. Na caixa de diálogo **Publicar para um novo projeto no modelo de Project Service** , insira o **Nome de modelo do projeto**.  
+2. Na caixa de diálogo **Publicar para um novo projeto no modelo de Project Service**, insira o **Nome de modelo do projeto**.  
 
 3. Opcionalmente, clique em **Vincular plano de projeto ao Project Service Automation** para vincular o arquivo do Project ao [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 

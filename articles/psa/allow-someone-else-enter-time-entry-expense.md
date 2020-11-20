@@ -3,7 +3,7 @@ title: Permitir que outra pessoa insira tempos ou despesas
 description: Como permitir que outras pessoas insiram suas horas ou despesas no Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f56fae115b383d66a59cbcb08fffe95c83c83e17
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 50c54e73cf4898ce525492b8ef7c8b8cf6dc36cd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071401"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130340"
 ---
 # <a name="allow-someone-else-to-enter-your-time-entry-or-expense-project-service"></a>Permitir que outra pessoa insira suas horas ou despesa (Project Service)
 
@@ -37,13 +37,13 @@ Configurar um delegado para permitir que alguém realize entradas de tempo e des
   
 2.  Na barra de comandos, clique em **Novo**.  
   
-3. **Nome** : Insira um nome para o registro.  
+3. **Nome**: Insira um nome para o registro.  
   
-4. **Tipo** : Selecione se o representante poderá inserir entradas de despesa ou tempo em seu nome.  
+4. **Tipo**: Selecione se o representante poderá inserir entradas de despesa ou tempo em seu nome.  
   
-5. **Delegado** : Selecione o nome de pessoa que deseja ser o delegado.  
+5. **Delegado**: Selecione o nome de pessoa que deseja ser o delegado.  
   
-6. **Datas de início e término** : Escolher as datas em que a delegação inicia e termina.  
+6. **Datas de início e término**: Escolher as datas em que a delegação inicia e termina.  
   
 7.  Quando tiver terminado, clique em **Salvar e Fechar**.  
   
@@ -55,13 +55,13 @@ Configurar um delegado para permitir que alguém realize entradas de tempo e des
   
 3.  Na barra de comandos, clique em **Desativar**.  
   
-4.  Na caixa de diálogo **Confirmar Desativação** , clique em **Desativar**.  
+4.  Na caixa de diálogo **Confirmar Desativação**, clique em **Desativar**.  
   
 ## <a name="enter-time-for-someone-else"></a>Insira tempo para outra pessoa  
   
 1.  No menu principal, clique em **Project Service** > **Entradas de Hora**.  
   
-2.  Na barra de comando, selecione o menu suspenso **NOME DO RECURSO** , e selecione o nome da pessoa da qual está inserindo a hora.  
+2.  Na barra de comando, selecione o menu suspenso **NOME DO RECURSO**, e selecione o nome da pessoa da qual está inserindo a hora.  
   
 3.  Clique em **OK**.  
   
@@ -77,7 +77,7 @@ Configurar um delegado para permitir que alguém realize entradas de tempo e des
   
 1.  No menu principal, clique em **Project Service** > **Despesas**.  
   
-2.  Na barra de comando, selecione o menu suspenso **NOME DO RECURSO** , e selecione o nome da pessoa da qual está inserindo a despesa.  
+2.  Na barra de comando, selecione o menu suspenso **NOME DO RECURSO**, e selecione o nome da pessoa da qual está inserindo a despesa.  
   
 3.  Clique em **OK**.  
   

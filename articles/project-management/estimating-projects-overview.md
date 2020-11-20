@@ -5,19 +5,19 @@ author: ruhercul
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8e7ee4888a907b9d8c3ce06c1597f6b05be84477
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d35be82563515adbba2c22402a751ed3daca8f83
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071317"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131554"
 ---
 # <a name="estimate-projects-overview"></a>Visão geral das estimativas de projeto
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Em uma cotação baseada em projeto, você pode usar a entidade **Detalhes da linha de cotação** para estimar o trabalho que é necessário para entregar um projeto. Essa estimativa pode ser compartilhada com o cliente.
 
@@ -74,8 +74,8 @@ Se você adicionou um campo personalizado nos detalhes da linha de cotação e d
 2. Selecione **Pesquisar** e procure o plug-in a ser atualizado.
 3. Selecione o plug-in e, em seguida, na página principal, clique em **Selecionar**.
 4. Selecione a etapa do plug-in a ser atualizado, clique com o botão direito do mouse e selecione **Atualizar**.
-5. Na caixa de diálogo **Atualizar Etapa Existente** , no campo **Filtrando Atributos** , selecione o botão de reticências ( **...** ):
-6. Na caixa de diálogo **Selecionar Atributos** , marque as caixas de seleção de atributos personalizados.
+5. Na caixa de diálogo **Atualizar Etapa Existente**, no campo **Filtrando Atributos**, selecione o botão de reticências (**...**):
+6. Na caixa de diálogo **Selecionar Atributos**, marque as caixas de seleção de atributos personalizados.
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, **Atualizar Etapa**.
 8. Repita as etapas de 1 a 7 para o segundo plug-in.
 9. Feche a **PluginRegistrationTool**.

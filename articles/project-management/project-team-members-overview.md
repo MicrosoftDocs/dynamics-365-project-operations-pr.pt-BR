@@ -5,19 +5,19 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f4941803c657fab55ee2702d9f58d6e333592889
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071319"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127414"
 ---
 # <a name="project-team-members"></a>Membros da equipe de projeto
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Os membros da equipe do projeto são os participantes do projeto que concluem o trabalho em um projeto. O objetivo da grade de membros da equipe é fornecer uma lista de recursos nomeados que estão comprometidos com o envolvimento e membros genéricos da equipe que são recursos de espaço reservado e serão contratados posteriormente.
 
@@ -47,16 +47,16 @@ A tabela a seguir lista os principais atributos de um membro da equipe do projet
 
 Na grade de membros da equipe, as seguintes ações podem ser realizadas:
 
-- **Reservar** : para organizações que executam o aproveitamento da metodologia de reservas híbridas, a ação de reserva permitirá que os usuários reservem um recurso nomeado baseado nos requisitos necessários gerados pelo membro da equipe genérica
-- **Gerar Requisito** : esta ação gera o requisito.
-- **Especificar Padrão** : permite que os gerentes de projeto ajustem os contornos dos requisitos de recursos em um nível granular. Os gerentes de projeto podem ajustar as necessidades específicas do projeto em casos em que a distribuição padrão não é adequada.
-- **Enviar Solicitação** : para organizações que usam a metodologia de reservas centrais.
-- **Editar** : os atributos dos membros da equipe podem ser editados, incluindo unidade organizacional, função e nome do cargo.
-- **Manter Reservas** : quando as reservas de recursos precisam ser atualizadas, esta opção permite que o gerente de projeto ajuste:
+- **Reservar**: para organizações que executam o aproveitamento da metodologia de reservas híbridas, a ação de reserva permitirá que os usuários reservem um recurso nomeado baseado nos requisitos necessários gerados pelo membro da equipe genérica
+- **Gerar Requisito**: esta ação gera o requisito.
+- **Especificar Padrão**: permite que os gerentes de projeto ajustem os contornos dos requisitos de recursos em um nível granular. Os gerentes de projeto podem ajustar as necessidades específicas do projeto em casos em que a distribuição padrão não é adequada.
+- **Enviar Solicitação**: para organizações que usam a metodologia de reservas centrais.
+- **Editar**: os atributos dos membros da equipe podem ser editados, incluindo unidade organizacional, função e nome do cargo.
+- **Manter Reservas**: quando as reservas de recursos precisam ser atualizadas, esta opção permite que o gerente de projeto ajuste:
 
     - Iniciada
     - End
     - Alocação de esforço total
 
-- **Novo** : além de adicionar recursos diretamente da agenda, os gerentes de projeto podem adicionar novos membros da equipe nomeados ou genéricos na grade de membros da equipe.
-- **Excluir** : ao selecionar um ou mais membros da equipe, o gerente de projeto pode excluir recursos que não participarão mais do projeto. Excluir um membro da equipe também excluirá todas as atribuições de recursos associadas e cancelará todas as reservas existentes.
+- **Novo**: além de adicionar recursos diretamente da agenda, os gerentes de projeto podem adicionar novos membros da equipe nomeados ou genéricos na grade de membros da equipe.
+- **Excluir**: ao selecionar um ou mais membros da equipe, o gerente de projeto pode excluir recursos que não participarão mais do projeto. Excluir um membro da equipe também excluirá todas as atribuições de recursos associadas e cancelará todas as reservas existentes.

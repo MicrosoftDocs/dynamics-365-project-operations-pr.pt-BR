@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 616bcd5758b434b45bd06aa1a026f32efc8b7f99
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071466"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4130879"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>Criar campos e entidades personalizados como dimensões de preços
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Conclua as etapas a seguir sempre que quiser criar uma entidade ou um conjunto de opções personalizado.
 
@@ -36,7 +36,7 @@ Conclua as etapas a seguir sempre que quiser criar uma entidade ou um conjunto d
 
 ## <a name="create-a-custom-solution-for-pricing-dimensions"></a>Criar uma solução personalizada para dimensões de preço
 1. Vá para **Configurações** > **Soluções** e selecione **Novo** para criar uma nova solução. 
-2. Nomeie a solução, **dimensões de preço da \<your organization name>** , insira as informações necessárias restantes e selecione **Salvar**.
+2. Nomeie a solução, **dimensões de preço da \<your organization name>**, insira as informações necessárias restantes e selecione **Salvar**.
   
 ## <a name="create-custom-fields-and-option-sets-in-the-pricing-dimension-solution"></a>Criar campos e conjuntos de opções personalizados na solução de dimensão de preço
 
@@ -62,8 +62,8 @@ Você pode criar duas dimensões baseadas em conjunto de opções. Use **Local d
 
 Você pode criar dados para dimensões baseadas em entidade manualmente, ou usando a importação ou as chamadas de serviço do Microsoft Excel. Use as etapas neste procedimento para criar dois cargos padrões, **Engenheiro de Sistemas** e **Engenheiro de Sistemas Sênior** na dimensão baseada em entidade, **Cargo Padrão**. Se os dados que quiser criar forem pequenos, como no exemplo a seguir, você poderá usar um formulário padrão.
 
-1. Selecione **Pesquisa Avançada** , a entidade **Cargo Padrão** e, depois, **Resultados**. Todas as linhas na entidade **Cargo Padrão** serão mostradas.
-2. Selecione **Novo** e, no campo **Nome** , insira "Engenheiro de Sistemas" e selecione **Salvar**.
+1. Selecione **Pesquisa Avançada**, a entidade **Cargo Padrão** e, depois, **Resultados**. Todas as linhas na entidade **Cargo Padrão** serão mostradas.
+2. Selecione **Novo** e, no campo **Nome**, insira "Engenheiro de Sistemas" e selecione **Salvar**.
 3. Fechar o formulário. 
 4. Repita as etapas de 1 a 3 para criar outro cargo padrão para "Engenheiro de Sistemas Sênior".
 
@@ -72,7 +72,7 @@ Você precisará adicionar as entidades a seguir à solução de preço. Use as 
 
 1. Selecione **Configurações** > **Soluções** e clique duas vezes em **dimensões de preço da \<your organization name>**. 
 2. No Gerenciador de Soluções, no painel de navegação à esquerda, selecione **Adicionar Existente** > **Entidades**.
-3. Na caixa de diálogo **Componentes da Solução** , selecione as seguintes entidades:
+3. Na caixa de diálogo **Componentes da Solução**, selecione as seguintes entidades:
 
   - Real
   - Recurso Reservável

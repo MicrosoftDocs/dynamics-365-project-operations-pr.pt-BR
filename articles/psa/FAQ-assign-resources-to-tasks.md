@@ -3,7 +3,7 @@ title: Atribuir um recurso a uma tarefa
 description: Este tópico fornece informações sobre como atribuir recursos a tarefas.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 77f13d1e96b76dfea241fbf7a67d5676582f0235
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b7aef799ec4b90d602a6f3641cbac06264664f00
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071617"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125119"
 ---
 # <a name="assign-a-resource-to-a-task"></a>Atribuir um recurso a uma tarefa
 
@@ -33,7 +33,7 @@ Há três maneiras de atribuir um recurso a uma tarefa no Microsoft Dynamics 365
 
 É possível adicionar um recurso à equipe do projeto e atribuí-lo a tarefas na agenda do projeto.
 
-1. Na guia **Membro da Equipe** , adicione um novo membro da equipe selecionando **Novo**. 
+1. Na guia **Membro da Equipe**, adicione um novo membro da equipe selecionando **Novo**. 
 
 2. O painel **Criação Rápida de Membro de Equipe** é aberto, onde você pode selecionar o nome do recurso reservável e definir uma função. 
 
@@ -45,10 +45,10 @@ Há três maneiras de atribuir um recurso a uma tarefa no Microsoft Dynamics 365
     - **Por horas de distribuição inicial** registra o recurso de um número de horas específico, com distribuição inicial das horas por dia nas datas de início e término especificadas.
     - **Nenhum** adiciona o recurso à equipe, mas não cria quaisquer registros que absorvem sua capacidade.
 
-3. Na grade **Agendar** de uma tarefa, selecione o ícone **Recurso** na célula do recurso e, em **Membros da Equipe** , selecione o membro da equipe que acabou de adicionar. 
+3. Na grade **Agendar** de uma tarefa, selecione o ícone **Recurso** na célula do recurso e, em **Membros da Equipe**, selecione o membro da equipe que acabou de adicionar. 
 
 > [!NOTE]
-> Nas guias **Membro da Equipe** e **Reconciliação** , o recurso mostra as horas reservadas e atribuídas. As horas devem ser as mesmas, mas não é obrigatório, pois as reservas e atribuições não são rigidamente combinadas. A guia **Reconciliação** fornece detalhes quando elas são diferentes, como quando você atribui a um recurso mais horas do que as que foram reservadas. Se necessário, você pode corrigir as informações estendendo as reservas ou alterando a atribuição do recurso.
+> Nas guias **Membro da Equipe** e **Reconciliação**, o recurso mostra as horas reservadas e atribuídas. As horas devem ser as mesmas, mas não é obrigatório, pois as reservas e atribuições não são rigidamente combinadas. A guia **Reconciliação** fornece detalhes quando elas são diferentes, como quando você atribui a um recurso mais horas do que as que foram reservadas. Se necessário, você pode corrigir as informações estendendo as reservas ou alterando a atribuição do recurso.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Criar um membro da equipe genérico por meio da atribuição de tarefa
 
@@ -58,7 +58,7 @@ Ao criar um membro da equipe genérico por meio da atribuição de tarefa, você
 
 2. Digite um nome para servir como o nome do recurso do espaço reservado. Por exemplo, Gerente de Programa.
 
-3. Selecione **Criar** e, no campo **Criação Rápida: Membro da Equipe do Projeto** , defina a função para o recurso genérico.
+3. Selecione **Criar** e, no campo **Criação Rápida: Membro da Equipe do Projeto**, defina a função para o recurso genérico.
 
 4. Você pode continuar atribuindo tarefas a esse recurso de espaço reservado selecionando o recurso no **Seletor de Recursos** da tarefa. Eles são listado em **Membros da Equipe**.
 

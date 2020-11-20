@@ -3,7 +3,7 @@ title: Visão geral dos dados reais
 description: Este tópico fornece informações sobre dados reais do projeto.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/03/2020
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9559cb2dcc38cb8058c5a9a3b97a35019fea486f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cf9e36c99790b77f0ed6490f49b4ebeb043bcdf6
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071626"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129754"
 ---
 # <a name="actuals-overview"></a>Visão geral dos dados reais
 
@@ -39,7 +39,7 @@ No PSA, quando uma entrada de hora é enviada para um projeto que está mapeado 
 
 A lógica para inserir preços padrão reside na linha do diário. Todos os valores de campo de uma entrada de hora são copiados para a linha do diário. Esses campos incluem a data da transação, a linha de contrato para a qual o projeto está mapeado e o resultado da moeda na lista de preços apropriada. 
 
-Os campos que afetam preços padrão, como **Função** e **Unidades Organizacional** , fazem com que um preço apropriado seja inserido por padrão na linha do diário. Se você adicionar um campo personalizado na entrada de hora e quiser que o valor do campo seja propagado para os dados reais, crie o campo na entidade Dados Reais e use mapeamentos de campo para copiar o campo da entrada de hora para os dados reais.
+Os campos que afetam preços padrão, como **Função** e **Unidades Organizacional**, fazem com que um preço apropriado seja inserido por padrão na linha do diário. Se você adicionar um campo personalizado na entrada de hora e quiser que o valor do campo seja propagado para os dados reais, crie o campo na entidade Dados Reais e use mapeamentos de campo para copiar o campo da entrada de hora para os dados reais.
 
 ## <a name="submitting-an-expense-entry"></a>Enviando uma entrada de despesa
 

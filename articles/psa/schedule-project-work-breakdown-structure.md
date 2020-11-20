@@ -3,7 +3,7 @@ title: Agendar um projeto com uma estrutura de detalhamento de trabalho
 description: Como agendar um projeto com uma estrutura de detalhamento de trabalho no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d77d9f8427f06015d4f4cb9438d7f59ac840b061
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 04f30f2f2ed93dd1525f1c86a7521cdbf39a77bc
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071610"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127864"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Agendar um projeto com uma estrutura de detalhamento de trabalho (Project Service)
 
@@ -86,14 +86,14 @@ Você usará os seguintes tipos de tarefa para criar a estrutura de detalhamento
   
 ### <a name="schedule-attributes"></a>Atributos da agenda
 
- - Atribua valores a **Horas de esforço** , **Número de recursos** , **Data inicial** , **Data final** e **Duração** para determinar a agenda da tarefa. 
+ - Atribua valores a **Horas de esforço**, **Número de recursos**, **Data inicial**, **Data final** e **Duração** para determinar a agenda da tarefa. 
  - O **Esforço** é uma estimativa das horas necessárias para concluir a tarefa.
  - O **Número de recursos** é uma estimativa que o gerente de projetos atribui à tarefa para ajudar a apresentar o melhor cronograma possível. 
  - A **Duração** (em dias) indica o número de dias úteis necessário para concluir a tarefa.  
   
 ### <a name="staffing-attributes"></a>Atributos de pessoal
 
- - Os valores **Função** , **Unidade organizacional do recurso** , **Número de recursos** e **Recursos** descrevem as necessidades de pessoal para a realização da tarefa. 
+ - Os valores **Função**, **Unidade organizacional do recurso**, **Número de recursos** e **Recursos** descrevem as necessidades de pessoal para a realização da tarefa. 
  - A **Função** descreve o tipo de recurso necessário executar a tarefa. 
  - A **Unidade organizacional do recurso** indica a unidade organizacional à qual os recursos devem ser fornecidos para a realização da tarefa; isso também afeta a estimativa de vendas e custos da tarefa, pois ela é registrada no momento em que o preço unitário de venda é determinado para o recurso. 
  - Os **Recursos** retêm um recurso genérico ou um recurso nomeado quando um dele é localizado.  
