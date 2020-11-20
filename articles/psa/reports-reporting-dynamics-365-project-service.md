@@ -3,7 +3,7 @@ title: Home page de relatórios
 description: Este tópico fornece informações sobre relatórios no Dynamics 365 Project Service Automation.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 30411818bdc1b370a71148cf79f743413167dab2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e1a645b157c56066e56b22ea8cf0324fbc1ddd2c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071655"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120304"
 ---
 # <a name="reporting-home-page"></a>Home page de relatórios
 

@@ -1,23 +1,23 @@
 ---
-title: Gerenciar listas de preços de projeto em cotações de projeto
+title: Gerenciar listas de preços de projeto em cotações de projeto - lite
 description: Este tópico fornece informações sobre como trabalhar com listas de preço do projeto em cotações. (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071351"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175967"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>Gerenciar listas de preços de projeto em cotações de projeto (Sales)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gerenciar listas de preços de projeto em cotações de projeto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 As cotações do projeto são desenvolvidas para oferecer suporte a listas de preços de venda com várias datas de vigência. Com o Dynamics 365 Project Operations, uma nova entidade associada chamada **Listas de preços de projetos** é adicionada. Esta entidade tem um relacionamento de 1 para muitos com uma cotação de projeto.
 
@@ -48,8 +48,8 @@ As listas de preços do projeto podem ser configuradas como padrão em uma cota�
 ### <a name="set-up-organizational-default-for-project-price-lists"></a>Configurar padrão organizacional para listas de preço do projeto
 
 1. Vá para **Configurações** > **Geral** > **Parâmetros**.
-2. Na página da lista **Parâmetros ativos** , localize o registro e clique duas vezes para abri-lo. 
-3. Na página **Parâmetros** , selecione a guia **Lista de preços**. Você pode ver que a lista de listas de preços padrão é exibida. Esta é uma lista de custos padrão e listas de preços de venda. Ao ter uma lista de preços de venda associada aqui para cada moeda em que você vende, você garantirá que essa lista de preços de venda seja padronizada em qualquer cotação que você criar para clientes que realizem transações nessa moeda.
+2. Na página da lista **Parâmetros ativos**, localize o registro e clique duas vezes para abri-lo. 
+3. Na página **Parâmetros**, selecione a guia **Lista de preços**. Você pode ver que a lista de listas de preços padrão é exibida. Esta é uma lista de custos padrão e listas de preços de venda. Ao ter uma lista de preços de venda associada aqui para cada moeda em que você vende, você garantirá que essa lista de preços de venda seja padronizada em qualquer cotação que você criar para clientes que realizem transações nessa moeda.
 
 ### <a name="set-up-customer-specific-project-price-lists"></a>Configure listas de preços do projeto específicas do cliente
 
@@ -57,13 +57,13 @@ As listas de preços do projeto específicas do cliente também podem ser config
 
 Para configurar uma lista de preços do projeto específica do cliente, conclua as etapas a seguir.
 
-1. Na area **Vendas** , selecione **Clientes**.
+1. Na area **Vendas**, selecione **Clientes**.
 2. Na lista de suas contas ativas, selecione e abra o registro do cliente para o qual você possui uma lista de preços especial.
-3. Na guia **Listas de preços do projeto** , você pode criar uma nova associação de lista de preços para ter a lista de preços do projeto que é específica para este cliente.
+3. Na guia **Listas de preços do projeto**, você pode criar uma nova associação de lista de preços para ter a lista de preços do projeto que é específica para este cliente.
 
 ## <a name="create-custom-pricing-on-a-project-quote"></a>Criar preços personalizados em uma cotação de projeto
 
 Depois de ter listas de preços de projeto padrão organizacionais e específicas do cliente, suas cotações de projeto serão criadas automaticamente com essas associações de lista de preços do projeto. No entanto, em certos casos, talvez você precise criar preços personalizados para uma cotação de projeto específica. 
 
-1. Em **Cotação de projeto** , na guia **Lista de preços do projeto** , verifique na subrade se nenhum registro específico da lista de preços está selecionado.
+1. Em **Cotação de projeto**, na guia **Lista de preços do projeto**, verifique na subrade se nenhum registro específico da lista de preços está selecionado.
 2. Selecione **Criar preços personalizados**. Isso fará cópias de todas as listas de preços padrão atualmente associadas à cotação e associará essas cópias à cotação. As atuais associações a listas de preços padrão serão removidas. O vendedor pode então começar a fazer edições nos preços dessas cópias. Esses preços alterados serão aplicáveis apenas a esta cotação de projeto.

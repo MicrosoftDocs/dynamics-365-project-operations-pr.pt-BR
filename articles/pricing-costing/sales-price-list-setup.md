@@ -1,12 +1,12 @@
 ---
-title: Configuração da lista de preços de vendas
+title: Configurar uma lista de preços para vendas
 description: Este tópico fornece informações sobre listas de preços de vendas para precificação de projetos.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d2c797b72666123eb0a18d2d0c1df9fe3d207f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071483"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176237"
 ---
-# <a name="sales-price-list-setup"></a>Configuração da lista de preços de vendas
+# <a name="set-up-a-sales-price-list"></a>Configurar uma lista de preços para vendas
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Em cotações e contratos do projeto, uma lista de preços de projeto tem um padrão de substituição de preço diferente de uma lista de preços de produto. Em uma linha de cotação baseada em catálogo de produtos, você pode substituir o preço de funções e categorias diretamente na linha de cotação, pois cada linha de cotação aponta exatamente para um item do catálogo. No entanto, em uma linha de cotação baseada em projeto, não é possível substituir o preço de funções e categorias diretamente na linha de cotação. Você pode usar a lista de preços de projeto para trabalhar com os dois padrões de substituição distintos.
 

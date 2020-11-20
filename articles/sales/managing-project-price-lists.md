@@ -1,12 +1,12 @@
 ---
-title: Listas de preços do projeto
+title: Gerenciar listas de preços de projeto em uma cotação
 description: Este tópico fornece informações sobre a entidade Lista de preços do projeto.
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1a69cf51ca8cde8260f4136cf1b2e936f99b112a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071654"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177182"
 ---
-# <a name="project-price-lists"></a>Listas de preços do projeto
+# <a name="manage-project-price-lists-on-a-quote"></a>Gerenciar listas de preços de projeto em uma cotação
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 O Dynamics 365 Project Operations estende a entidade Lista de preços no Dynamics 365 Sales. 
 
@@ -34,16 +34,16 @@ O Dynamics 365 Project Operations estende a entidade Lista de preços no Dynamic
 
 Uma lista de preços inclui informações que são fornecidas por quatro entidades diferentes:
 
-- **Lista de Preços** : essa entidade armazena informações sobre contexto, moeda, data efetiva e unidade de tempo para precificação de tempo. O contexto mostra se a lista de preços expressa taxas de custo ou taxas de vendas. 
-- **Moeda** : essa entidade armazena a moeda de preços na lista de preços. 
-- **Data** : essa entidade é usada quando o sistema tenta inserir um preço padrão em uma transação. Uma lista de preços que tem data efetiva que inclui a data da transação é selecionada. Se for encontrada mais de uma lista de preços em vigor para a data da transação e anexadas à cotação, ao contrato ou à unidade organizacional relacionada, nenhum preço será padronizado. 
-- **Tempo** : essa entidade armazena a unidade de tempo em que os preços são expressos, como taxas diárias ou por hora. 
+- **Lista de Preços**: essa entidade armazena informações sobre contexto, moeda, data efetiva e unidade de tempo para precificação de tempo. O contexto mostra se a lista de preços expressa taxas de custo ou taxas de vendas. 
+- **Moeda**: essa entidade armazena a moeda de preços na lista de preços. 
+- **Data**: essa entidade é usada quando o sistema tenta inserir um preço padrão em uma transação. Uma lista de preços que tem data efetiva que inclui a data da transação é selecionada. Se for encontrada mais de uma lista de preços em vigor para a data da transação e anexadas à cotação, ao contrato ou à unidade organizacional relacionada, nenhum preço será padronizado. 
+- **Tempo**: essa entidade armazena a unidade de tempo em que os preços são expressos, como taxas diárias ou por hora. 
 
 A entidade Lista de preços tem três tabelas relacionadas que armazenam preços:
 
-  - **Preço da Função** : essa tabela armazena uma taxa para uma combinação de valores de função e unidade organizacional e é usada para configurar preços baseados em função para recursos humanos.
-  - **Preço da Categoria de Transação** : essa tabela armazena preços por categoria de transação e é usada para configurar preços da categoria de despesa.
-  - **Itens da Lista de Preços** : essa tabela armazena preços para produtos do catálogo.
+  - **Preço da Função**: essa tabela armazena uma taxa para uma combinação de valores de função e unidade organizacional e é usada para configurar preços baseados em função para recursos humanos.
+  - **Preço da Categoria de Transação**: essa tabela armazena preços por categoria de transação e é usada para configurar preços da categoria de despesa.
+  - **Itens da Lista de Preços**: essa tabela armazena preços para produtos do catálogo.
  
 A lista de preços é uma tabela de tarifas. Uma tabela de tarifas é uma combinação da entidade Lista de preços e linhas relacionadas nas tabelas Preço da Função, Preço da Categoria de Transação e Itens da Lista de Preços.
 
@@ -53,15 +53,15 @@ O termo *função do recurso* se refere a um conjunto de habilidades, competênc
 
 O tempo de recursos humanos é cotado com base na função que um recurso preenche em um projeto específico. Para tempo de recurso humano, custo e cobrança que se baseiam na função do recurso. O tempo pode ser precificado em qualquer unidade no grupo de unidades **Tempo**.
 
-O grupo de unidades **Tempo** é criado quando você instala o Project Operations. Ele tem uma unidade padrão de **Hora**. Não é possível excluir, renomear ou editar os atributos do grupo de unidades **Tempo** ou a unidade **Hora**. No entanto, é possível adicionar outras unidades ao grupo de unidades **Tempo**. Se você tentar excluir o grupo de unidades **Tempo** ou a unidade **Hora** , poderá causar falhas na lógica de negócios.
+O grupo de unidades **Tempo** é criado quando você instala o Project Operations. Ele tem uma unidade padrão de **Hora**. Não é possível excluir, renomear ou editar os atributos do grupo de unidades **Tempo** ou a unidade **Hora**. No entanto, é possível adicionar outras unidades ao grupo de unidades **Tempo**. Se você tentar excluir o grupo de unidades **Tempo** ou a unidade **Hora**, poderá causar falhas na lógica de negócios.
  
 ## <a name="transaction-categories-and-expense-categories"></a>Categorias de transação e categorias de despesa
 
 Viagens e outras despesas geradas por consultores de projeto são cobradas do cliente. O preço das categorias de despesa é concluído usando listas de preços. Tarifa aérea, hotel e aluguel de carro são exemplos de categorias de despesa. Cada linha da lista de preços para despesas especifica o preço para uma categoria de despesa específica. Estes três métodos são usados para precificar categorias de despesas:
 
-- **A preço de custo** : o custo da despesa é cobrado do cliente e nenhum markup é aplicado.
-- **Porcentagem de markup** : a porcentagem sobre o custo real é cobrada do cliente. 
-- **Preço por unidade** : um preço de cobrança é definido para cada unidade da categoria de despesa. O valor que é cobrado do cliente é calculado com base no número de unidades de despesa reportado pelo consultor. A milhagem usa o método de precificação de preço por unidade. Por exemplo, a categoria de despesa de milhagem pode ser configurada para 30 dólares americanos (USD) por dia ou 2 USD por milha. Quando um consultor relata milhagem em um projeto, o valor a ser cobrado é calculado com base no número de milhas reportado pelo consultor.
+- **A preço de custo**: o custo da despesa é cobrado do cliente e nenhum markup é aplicado.
+- **Porcentagem de markup**: a porcentagem sobre o custo real é cobrada do cliente. 
+- **Preço por unidade**: um preço de cobrança é definido para cada unidade da categoria de despesa. O valor que é cobrado do cliente é calculado com base no número de unidades de despesa reportado pelo consultor. A milhagem usa o método de precificação de preço por unidade. Por exemplo, a categoria de despesa de milhagem pode ser configurada para 30 dólares americanos (USD) por dia ou 2 USD por milha. Quando um consultor relata milhagem em um projeto, o valor a ser cobrado é calculado com base no número de milhas reportado pelo consultor.
  
 ## <a name="project-sales-pricing-and-overrides"></a>Preço de vendas e substituições do projeto
 
@@ -103,7 +103,7 @@ Você pode criar substituições específicas de negociação para preços selec
 
 Por padrão, um contrato de projeto sempre tem uma cópia da lista de preços de vendas mestre em vez de um link direto para ela. Esse comportamento ajuda a garantir que os contratos de preço celebrados com um cliente para uma SOW (declaração de trabalho) não mudem se a lista de preços mestre for alterada.
 
-Entretanto, em uma cotação, você pode usar uma lista de preços mestre. Como alternativa, é possível copiar uma lista de preços mestre e editá-la para criar uma lista de preços personalizada que se aplique apenas a essa cotação. Para criar uma nova lista de preços específica a uma cotação, na página **Cotação** , selecione **Criar precificação personalizada**. Você pode acessar a lista de preços de projeto específica de negociação somente pela cotação. 
+Entretanto, em uma cotação, você pode usar uma lista de preços mestre. Como alternativa, é possível copiar uma lista de preços mestre e editá-la para criar uma lista de preços personalizada que se aplique apenas a essa cotação. Para criar uma nova lista de preços específica a uma cotação, na página **Cotação**, selecione **Criar precificação personalizada**. Você pode acessar a lista de preços de projeto específica de negociação somente pela cotação. 
 
 Quando você cria uma lista de preços de projeto personalizada, somente os componentes da lista de preços do projeto são copiados. Em outras palavras, uma nova lista de preços é criada como cópia da lista de preços de projeto existente que é anexada na cotação, e essa nova lista de preços tem apenas preços de função relacionada e preços da categoria de transação.
   

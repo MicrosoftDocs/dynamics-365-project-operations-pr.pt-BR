@@ -3,7 +3,7 @@ title: Configurar categorias de despesas
 description: Como configurar categorias de despesas no Project Service
 author: revathiMuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 82522c0ba8587446c5038a9cf38fcadfdcb6ba8d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 1768d7bd7ab94d909e53cd71f9c39b44e7ed4b4f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071400"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129259"
 ---
 # <a name="configure-expense-categories-project-service"></a>Configurar categorias de despesas (Project Service)
 
@@ -37,7 +37,7 @@ Cada categoria de despesa pode ter seu próprio grupo de unidade e unidade. Defi
   
 2.  Clique em **Novo**.  
   
-3.  Na área **Geral** , preencha os campos conforme necessário. Convém definir no mínimo as seguintes categorias de despesas:  
+3.  Na área **Geral**, preencha os campos conforme necessário. Convém definir no mínimo as seguintes categorias de despesas:  
   
     -   Tarifa aérea  
   

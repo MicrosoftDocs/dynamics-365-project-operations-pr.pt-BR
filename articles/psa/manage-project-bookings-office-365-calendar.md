@@ -3,7 +3,7 @@ title: Gerenciar projetos e reservas no seu calendário do Office 365
 description: Como gerenciar projetos e reservas no seu calendário do Office 365
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fd4119693875fb851c7bd3f34287db7d81237140
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31ff541f5b817c29b162c38c282df8cfd866e375
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071462"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129034"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>Gerenciar projetos e reservas em seu calendário (Project Service)
 
@@ -60,7 +60,7 @@ Exibir compromissos pessoais, reservas de trabalho de projeto, e atribuições d
   
 3.  Clique na guia **Sincronização**.  
   
-4.  Em **Selecionar habilitar sincronização do registro de recurso com** , marque **Sincronizar registro de recurso com Outlook**.  
+4.  Em **Selecionar habilitar sincronização do registro de recurso com**, marque **Sincronizar registro de recurso com Outlook**.  
   
 ## <a name="turn-on-synchronization-for-your-user-profile-user-task"></a>Ative a sincronização para seu perfil de usuário (tarefa de usuário)  
   
@@ -70,7 +70,7 @@ Exibir compromissos pessoais, reservas de trabalho de projeto, e atribuições d
   
 3.  Clique na guia **Sincronização**.  
   
-4.  Em **Sincronização de recursos com Outlook** , marque **Sincronizar registro de recurso com Outlook**.  
+4.  Em **Sincronização de recursos com Outlook**, marque **Sincronizar registro de recurso com Outlook**.  
   
 ## <a name="import-your-personal-appointments-user-task"></a>Importar seus compromissos pessoais (tarefa de usuário)  
  Somente é possível importar seus compromissos do calendário e projetar exibição para a entrada do tempo de Project Service Automation.  
@@ -83,7 +83,7 @@ Exibir compromissos pessoais, reservas de trabalho de projeto, e atribuições d
   
 4. Selecione o compromisso que deseja adicionar à exibição de entrada do tempo de Project Service Automation.  
   
-5. Na caixa pop-up **Entrada de hora** , selecione as opções apropriadas para converter o compromisso para uma exibição de entrada do tempo de Project Service Automation.  
+5. Na caixa pop-up **Entrada de hora**, selecione as opções apropriadas para converter o compromisso para uma exibição de entrada do tempo de Project Service Automation.  
   
 6. Clique em **Salvar**.  
   

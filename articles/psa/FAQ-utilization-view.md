@@ -3,7 +3,7 @@ title: Exibir horas trabalhadas passíveis de cobrança para recursos
 description: Este tópico fornece informações sobre a exibição de horas trabalhadas do recurso.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071450"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122149"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Exibir horas trabalhadas passíveis de cobrança para recursos
  
@@ -46,7 +46,7 @@ As horas trabalhadas de destino podem ser definidas na função padrão do recur
 
 1. Vá para **Recursos** \> **Recursos**. 
 2. Selecione um recurso para abrir o registro. 
-3. Na guia **Project Service** , você pode definir as horas trabalhadas de destino do recurso.
+3. Na guia **Project Service**, você pode definir as horas trabalhadas de destino do recurso.
 
 > ![Captura de tela do uso da guia Project Service para definir as horas trabalhadas de destino](media/FAQ-utilization-2.png)
  
@@ -68,7 +68,7 @@ Em primeiro lugar, as horas trabalhadas de destino devem ser definidas no recurs
 
 1. Para isso, vá para **Recursos** \> **Recursos**. 
 2. Selecione um recurso, abra o registro e selecione a guia **Project Service**. 
-3. Na grade **Função do Recurso** , verifique se há uma função para o recurso e se **É Padrão** está definido como **Sim**.
+3. Na grade **Função do Recurso**, verifique se há uma função para o recurso e se **É Padrão** está definido como **Sim**.
  
 ### <a name="change-billing-type-for-resource-role"></a>Alterar tipo de cobrança para função do recurso
 

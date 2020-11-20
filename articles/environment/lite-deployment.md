@@ -1,29 +1,29 @@
 ---
-title: Fazer implantação do Project Operations Lite – gerenciar faturamento pro forma
-description: Este tópico fornece informações sobre como instalar a implantação simplificada do Project Operations - transação para faturamento pró-forma.
+title: Implantar o Project Operations - lite
+description: Este tópico fornece informações sobre como instalar a implantação simplificada do Project Operations - transação para faturamento pro forma.
 author: stsporen
 manager: Annbe
 ms.date: 10/02/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: e938876d459b3f6dfedd90e57e3042cda96bffb7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0633585fcef91d9218d6140764addb7cf96ab31d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071292"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175652"
 ---
-# <a name="deploy-project-operations-lite-deployment--deal-to-proforma-invoicing"></a>Fazer implantação do Project Operations Lite – gerenciar faturamento pro forma
+# <a name="deploy-project-operations---lite"></a>Implantar o Project Operations - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 O Project Operations oferece suporte a vários modelos de implantação. Para determinar o melhor modelo de implantação, consulte [Tipos de implantação](determine-deployment-type.md).
 
 
 > [!IMPORTANT]
-> Esta implantação, implantação Lite - lidar com faturamento pró-forma, resulta em uma implantação apenas de **Common Data Service do Project Operations**.
+> Esta implantação, implantação Lite - lidar com faturamento pro forma, resulta em uma implantação apenas de **Common Data Service do Project Operations**.
 
 - [Instalar Project Operations em um novo ambiente CDS](#new)
 - [Instale em um ambiente CDS existente](#existing)

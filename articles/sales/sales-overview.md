@@ -1,29 +1,23 @@
 ---
-title: Visão geral dos processos de vendas
+title: Visão geral do processo de vendas
 description: Este tópico fornece informações sobre os processos de vendas básicos.
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071627"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177587"
 ---
-# <a name="sales-processes-overview"></a>Visão geral dos processos de vendas
+# <a name="sales-process-overview"></a>Visão geral do processo de vendas
+
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Os processos de vendas que são usados em uma organização baseada em projeto diferem dos processos de vendas que são usados em uma organização baseada em produto. Isso ocorre porque os ciclos de vendas de organizações baseadas em projeto são mais longos e exigem técnicas de estimativa personalizadas para analisar e criar cotações para cada negociação. O Dynamics 365 Project Operations usa algumas das seguintes funcionalidades utilizadas em um processo de vendas:
 
@@ -56,12 +50,12 @@ Por exemplo, sua empresa pode ter os seis seguintes estágios no processo de ven
  
 Sua organização pode usar entidades diferentes para representar a mesma negociação conforme evolui. No início do processo de vendas, uma negociação é representada pela entidade Oportunidade. Conforme o tempo passa e mais detalhes surgem, é possível usar estimativas de alto nível para criar uma ou mais cotações. Se uma dessas cotações for revisada pelos participantes internos ou do cliente, a entidade Cotação representará a negociação. Depois que o cliente aceita a cotação, um contrato de projeto ou SOW representa a negociação. Para dar suporte a esse comportamento, os BPFs são estruturados para que cada estágio no processo seja vinculado a uma tabela de banco de dados diferente.
 
-O estágio **Qualificar** no processo de vendas pode ser rastreado por uma entidade Oportunidade. Os estágios **Estimativa** e **Revisão Interna** podem ser apoiados por uma entidade Cotação. Os estágios **Contrato** , **Entrega** e **Fechamento** podem ser apoiados por uma entidade Contrato de Projeto.
+O estágio **Qualificar** no processo de vendas pode ser rastreado por uma entidade Oportunidade. Os estágios **Estimativa** e **Revisão Interna** podem ser apoiados por uma entidade Cotação. Os estágios **Contrato**, **Entrega** e **Fechamento** podem ser apoiados por uma entidade Contrato de Projeto.
 
 À medida que as negociações avançam pelos estágios, é solicitada a criação do registro da entidade apropriado para ajudar e guiar você pelo processo. Os estágios podem ser condicionais. Por exemplo, se você exigir uma revisão interna de uma cotação apenas se a cotação usar uma lista de preços personalizada, será possível configurar essa condição no estágio apropriado do processo empresarial. O estágio **Revisão Interna** será mostrada somente para cotações que usam uma lista de preços personalizada. Para todas as outras negociações e cotações, o estágio **Estimativa** é seguido pelo estágio **Contrato**.
 
 > [!NOTE]
-> O Project Operations tem páginas específicas para registros das entidades Oportunidade, Cotação, Ordem e Fatura. Você deve criar esses registros usando as páginas de informações do projeto dessas entidades. Caso contrário, você não poderá abrir os registros da página **Informações do projeto**. Se quiser abrir um registro da página **Informações do projeto** , você deverá excluir o registro e recriá-lo usando a página **Informações do projeto** na qual a lógica de negócios de cada um desses tipos de entidade garante que o campo **Tipo** do registro seja definido corretamente e que todos os conceitos obrigatórios sejam inicializados de forma adequada.
+> O Project Operations tem páginas específicas para registros das entidades Oportunidade, Cotação, Ordem e Fatura. Você deve criar esses registros usando as páginas de informações do projeto dessas entidades. Caso contrário, você não poderá abrir os registros da página **Informações do projeto**. Se quiser abrir um registro da página **Informações do projeto**, você deverá excluir o registro e recriá-lo usando a página **Informações do projeto** na qual a lógica de negócios de cada um desses tipos de entidade garante que o campo **Tipo** do registro seja definido corretamente e que todos os conceitos obrigatórios sejam inicializados de forma adequada.
 
 
 ## <a name="track-revisions-to-quotes-and-project-plans-in-the-sales-cycle"></a>Rastrear revisões em cotações e planos de projeto no ciclo de vendas

@@ -3,7 +3,7 @@ title: Reconciliar reservas e atribuições
 description: Este tópico fornece informações sobre dados efetivos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/27/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7ca6f4bb69322db08c413e076860e2ee9fdcc412
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071474"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120439"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Reconciliar reservas e atribuições
 
@@ -35,7 +35,7 @@ Devido à combinação livre de reservas e atribuições de tarefas do projeto, 
 
 Para cada membro da equipe nomeado, a guia **Reconciliação** mostra reservas e atribuições até a atribuição de tarefas individual. Ela mostra horas em células que podem representar períodos, desde meses até dias.
 
-No campo **Escala de tempo** , você pode selecionar **Mês** , **Semana** ou **Dia**. Por padrão, a opção **Semana** é selecionada. No entanto, você pode alterar o valor padrão selecionando o botão **Configurações**. Quando a guia **Reconciliação** é aberta, ela mostra a data atual, mas é possível usar o controle de calendário para avançar ou retroceder no tempo. Quando um projeto tem uma data de início que está no futuro, a guia mostra essa data ao ser aberta. O controle de calendário também possui opções que permitem navegar até as datas de início e término do projeto.
+No campo **Escala de tempo**, você pode selecionar **Mês**, **Semana** ou **Dia**. Por padrão, a opção **Semana** é selecionada. No entanto, você pode alterar o valor padrão selecionando o botão **Configurações**. Quando a guia **Reconciliação** é aberta, ela mostra a data atual, mas é possível usar o controle de calendário para avançar ou retroceder no tempo. Quando um projeto tem uma data de início que está no futuro, a guia mostra essa data ao ser aberta. O controle de calendário também possui opções que permitem navegar até as datas de início e término do projeto.
 
 Você pode usar os controles de expansão em cada recurso para mostrar os detalhes das reservas desse recurso. Também é possível expandir as atribuições de cada recurso até o nível da tarefa individual.
 
@@ -47,9 +47,9 @@ A parte inferior da guia **Reconciliação** mostra um total líquido geral para
 > [!NOTE]
 > A legenda dessas condições pode estar oculta para deixar mais espaço para a grade. Nesse caso, é possível torná-la visível selecionando o botão **Configurações**.
 
-Em alguns casos, quando o campo **Escala de tempo** é definido como um nível superior ao **Dia** , as diferenças podem ser calculadas como 0 (zero). Por exemplo, no nível **Mês** , a diferença líquida para um recurso pode ser 0 (zero) para indicar que as reservas são iguais às atribuições. No entanto, se você analisar o nível **Semana** , poderá ver que há atribuições de 0 (zero) horas e reservas de 40 horas na primeira semana do mês e atribuições de 40 horas e reservas de 0 (zero) horas na segunda semana desse mês. Embora o total de reservas e atribuições do mês seja igual, ele difere por semana.
+Em alguns casos, quando o campo **Escala de tempo** é definido como um nível superior ao **Dia**, as diferenças podem ser calculadas como 0 (zero). Por exemplo, no nível **Mês**, a diferença líquida para um recurso pode ser 0 (zero) para indicar que as reservas são iguais às atribuições. No entanto, se você analisar o nível **Semana**, poderá ver que há atribuições de 0 (zero) horas e reservas de 40 horas na primeira semana do mês e atribuições de 40 horas e reservas de 0 (zero) horas na segunda semana desse mês. Embora o total de reservas e atribuições do mês seja igual, ele difere por semana.
 
-Ao exibir níveis de tempo superiores, a guia **Reconciliação** mostra um indicador de células para notificá-lo sobre a existência de diferenças em níveis de tempo inferiores. Por exemplo, na ilustração a seguir, um indicador de células é exibido na célula do mês de Outubro de 2018 do recurso denominado Maria Eduarda Martins. Portanto, você pode ver que, embora as reservas e atribuições do recurso sejam iguais quando agregadas no nível **Mês** , elas não são correspondentes em níveis inferiores.
+Ao exibir níveis de tempo superiores, a guia **Reconciliação** mostra um indicador de células para notificá-lo sobre a existência de diferenças em níveis de tempo inferiores. Por exemplo, na ilustração a seguir, um indicador de células é exibido na célula do mês de Outubro de 2018 do recurso denominado Maria Eduarda Martins. Portanto, você pode ver que, embora as reservas e atribuições do recurso sejam iguais quando agregadas no nível **Mês**, elas não são correspondentes em níveis inferiores.
 
 ![Reservas e atribuições incompatíveis no nível mensal](media/reconcile-assignments-01.JPG)
 

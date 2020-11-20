@@ -3,7 +3,7 @@ title: Usar o Painel de Agendamento para reservar recursos de projeto
 description: Este tópico fornece informações sobre como reservar recursos.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa7e34b12f3767e89cc13ddde930e5c9f8ebc565
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ac3438da6bae45683d9eb2dee3544dff862e3ddd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071650"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120214"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>Usar o Painel de Agendamento para reservar recursos de projeto
 
@@ -32,7 +32,7 @@ Além de reservar recursos em um projeto de dentro dele, você poderá reservá-
 Antes de fazer reservas no Painel de Agendamento, você deve criar ou gerar requisitos de recursos. Siga estas etapas para criar requisitos de recursos no Painel de Agendamento.
 
 1. Se o painel **Requisitos da Reserva** na parte inferior da página estiver recolhido, selecione o controle de expansão para expandi-lo.
-2. No painel **Requisitos da Reserva** , na guia **Projeto** , selecione o requisito para reservar.
+2. No painel **Requisitos da Reserva**, na guia **Projeto**, selecione o requisito para reservar.
 
     ![Requisito selecionado na guia Projeto](media/Resource-Management-image73.png)
 
@@ -42,12 +42,12 @@ Antes de fazer reservas no Painel de Agendamento, você deve criar ou gerar requ
 
     ![Painel Criar Reserva de Recursos para o recurso reservável selecionado](media/Resource-Management-image74.png)
 
-6. Enquanto o requisito estiver selecionado no painel **Criar Reserva de Recursos** , selecione uma ou mais células de um recurso para criar a reserva.
+6. Enquanto o requisito estiver selecionado no painel **Criar Reserva de Recursos**, selecione uma ou mais células de um recurso para criar a reserva.
 
     ![Várias células selecionadas para um recurso](media/Resource-Management-image75.png)
 
 7. Selecione **Reservar**.
 
-O requisito é atendido usando o recurso selecionado. No painel **Requisitos da Reserva** , observe que o requisito foi atualizado e que o recurso é exibido como reservado no projeto.
+O requisito é atendido usando o recurso selecionado. No painel **Requisitos da Reserva**, observe que o requisito foi atualizado e que o recurso é exibido como reservado no projeto.
 
 ![Recurso reservado no projeto](media/Resource-Management-image76.png)

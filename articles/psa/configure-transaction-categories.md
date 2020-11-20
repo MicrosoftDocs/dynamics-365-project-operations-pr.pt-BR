@@ -3,7 +3,7 @@ title: Configurar categorias de transação
 description: Como configurar categorias de transação no Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d6261d375c91ec4ee0e1f0417fd611652817b38
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 851ad1984b099df81915fc8374eed09157526329
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071461"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129214"
 ---
 # <a name="configure-transaction-categories-project-service"></a>Configurar categorias de transações (Project Service)
 
@@ -35,7 +35,7 @@ Configure categorias de transações para definir um superconjunto de categorias
   
 2.  Clique em **Novo**.  
   
-3.  Na área **Geral** , preencha os campos conforme necessário.  
+3.  Na área **Geral**, preencha os campos conforme necessário.  
   
 4.  Clique no botão **Salvar** no canto inferior direito da tela.  
   

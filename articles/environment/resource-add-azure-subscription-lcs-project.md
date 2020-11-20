@@ -5,17 +5,17 @@ author: sigitac
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0b5703542ac58adcc710890d9676dd0090a82f25
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e741f35f9b229d2897cec06054d91ae620397228
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071299"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175787"
 ---
-# <a name="add-an-azure-subscription-to-lcs-project"></a>Adicionar uma subscrição do Azure a um projeto do LCS
+# <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adicionar uma subscrição do Azure a um projeto do LCS
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
@@ -23,11 +23,11 @@ Ambientes hospedados em nuvem devem ser implantados usando uma subscrição exis
 
 ## <a name="grant-admin-consent"></a>Conceder consentimento do administrador
 
-1. Em seu projeto do LCS, na seção **Ambientes** , selecione **Configurações do Microsoft Azure**.
+1. Em seu projeto do LCS, na seção **Ambientes**, selecione **Configurações do Microsoft Azure**.
 
 ![Configurações do Microsoft Azure](./media/1MicrosoftAzureSettings.png)
 
-2. Na página **Configurações do projeto** , na guia **Conectores do Azure** , selecione **Autorizar**. Isso permite que ambientes sejam implantados neste projeto.
+2. Na página **Configurações do projeto**, na guia **Conectores do Azure**, selecione **Autorizar**. Isso permite que ambientes sejam implantados neste projeto.
 
 ![Conectores do Azure](./media/2AzureConnectors.png)
 
@@ -57,11 +57,11 @@ A autorização agora está concluída.
 
 ### <a name="add-a-subscription-connector-to-an-lcs-project"></a>Adicionar um conector de subscrição a um projeto do LCS
 
-1. Em seu projeto do LCS, na página **Configurações do Microsoft Azure** , selecione **Adicionar** para adicionar um novo conector.
+1. Em seu projeto do LCS, na página **Configurações do Microsoft Azure**, selecione **Adicionar** para adicionar um novo conector.
 2. Insira sua ID da assinatura do Azure. Você pode encontrar sua ID da assinatura do Azure no [portal do Azure](https://ms.portal.azure.com/), em **Configurações** no canto inferior esquerdo da tela.
-3. No campo **Configurar para usar o Azure Resource Manager** , selecione **Sim**.
+3. No campo **Configurar para usar o Azure Resource Manager**, selecione **Sim**.
 4. Certifique-se de que o Domínio de Locatário do AAD de Subscrição do Azure corresponda à subscrição do Azure proprietária do domínio que você está usando e selecione **Avançar**.
-5. Na tela **Configuração do Microsoft Azure** , selecione **Avançar** para confirmar. Se ocorrer um erro nessa tela, volte para a seção [Fornecer ao Dynamics Deployment Services acesso à sua subscrição do Azure](#provide) neste tópico e certifique-se de ter concluído todas as etapas.
+5. Na tela **Configuração do Microsoft Azure**, selecione **Avançar** para confirmar. Se ocorrer um erro nessa tela, volte para a seção [Fornecer ao Dynamics Deployment Services acesso à sua subscrição do Azure](#provide) neste tópico e certifique-se de ter concluído todas as etapas.
 6. Baixe o certificado de gerenciamento do Azure em uma pasta local em seu computador e carregue-o no Portal de Gerenciamento do Azure acessando **Configurações** > **Certificados de Gerenciamento**. Esse certificado permitirá que o LCS se comunique com o Azure em seu nome. Você poderá pular essa etapa se seu usuário tiver acesso à subscrição.
 7. Selecione **Avançar**.
 8. Selecione a região do Azure para implantar e selecione um data center próximo ao local onde você planeja usar este sistema.

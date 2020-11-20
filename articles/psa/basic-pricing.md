@@ -3,7 +3,7 @@ title: Preço do projeto
 description: Este tópico fornece informações sobre como funciona o preço no Dynamics 365 Project Service Automation.
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/11/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b319f9be9fd72ac99ce6012b6baffde812e3077d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 88b791a1eb90d2aad67adba69169eab2c49c1318
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071625"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120754"
 ---
 # <a name="project-pricing"></a>Preço do projeto 
 
@@ -56,7 +56,7 @@ O termo *função do recurso* se refere a um conjunto de habilidades, competênc
 
 O tempo de recursos humanos geralmente é cotado com base na função que um recurso preenche em um projeto específico. Para tempo de recurso humano, o PSA trabalha com custo e cobrança que se baseiam na função do recurso. O tempo pode ser precificado em qualquer unidade no grupo de unidades **Tempo**.
 
-O grupo de unidades **Tempo** é criado quando um PSA é instalado. Ele tem uma unidade padrão de **Hora**. Não é possível excluir, renomear nem editar os atributos para o grupo de unidades **Tempo** ou a unidade **Hora**. No entanto, é possível adicionar outras unidades ao grupo de unidades **Tempo**. Se você tentar excluir o grupo de unidades **Tempo** ou a unidade **Hora** , você poderá causar falhas na lógica de negócios do PSA.
+O grupo de unidades **Tempo** é criado quando um PSA é instalado. Ele tem uma unidade padrão de **Hora**. Não é possível excluir, renomear nem editar os atributos para o grupo de unidades **Tempo** ou a unidade **Hora**. No entanto, é possível adicionar outras unidades ao grupo de unidades **Tempo**. Se você tentar excluir o grupo de unidades **Tempo** ou a unidade **Hora**, você poderá causar falhas na lógica de negócios do PSA.
 
 > ![Configurando preços por função](media/basic-guide-13.png)
  
@@ -110,7 +110,7 @@ No PSA, você pode criar substituições específicas de negociação para preç
 
 Por padrão, um contrato de projeto sempre tem uma cópia da lista de preços de vendas mestre em vez de um link direto para ela. Esse comportamento ajuda a garantir que os contratos de preço celebrados com um cliente para uma SOW (declaração de trabalho) não mudem se a lista de preços mestre for alterada.
 
-Entretanto, em uma cotação, você pode usar uma lista de preços mestre. Como alternativa, é possível copiar uma lista de preços mestre e editá-la para criar uma lista de preços personalizada que se aplique apenas a essa cotação. Para criar uma nova lista de preços específica a uma cotação, na página **Cotação** , selecione **Criar precificação personalizada**. Você pode acessar a lista de preços de projeto específica de negociação somente pela cotação. 
+Entretanto, em uma cotação, você pode usar uma lista de preços mestre. Como alternativa, é possível copiar uma lista de preços mestre e editá-la para criar uma lista de preços personalizada que se aplique apenas a essa cotação. Para criar uma nova lista de preços específica a uma cotação, na página **Cotação**, selecione **Criar precificação personalizada**. Você pode acessar a lista de preços de projeto específica de negociação somente pela cotação. 
 
 Quando você cria uma lista de preços de projeto personalizada, somente os componentes da lista de preços do projeto são copiados. Em outras palavras, uma nova lista de preços é criada como cópia da lista de preços de projeto existente que é anexada na cotação, e essa nova lista de preços tem apenas preços de função relacionada e preços da categoria de transação.
 

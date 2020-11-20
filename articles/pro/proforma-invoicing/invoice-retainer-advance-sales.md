@@ -1,30 +1,30 @@
 ---
-title: Faturar um honorário ou adiantamento
+title: Faturar um honorário ou adiantamento - lite
 description: Este tópico fornece informações sobre como faturar um honorário ou adiantamento no Project Operations.
 author: rumant
 manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 6ed3b71d5f0ac035403de9fa213f3f45d14038e0
-ms.sourcegitcommit: f8edff6422b82fdf2cea897faa6abb51e2c0c3c8
+ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/21/2020
-ms.locfileid: "4087802"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4180538"
 ---
-# <a name="invoice-a-retainer-or-an-advance"></a>Faturar um honorário ou adiantamento
+# <a name="invoice-a-retainer-or-an-advance---lite"></a>Faturar um honorário ou adiantamento - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 O Dynamics 365 Project Operations dá suporte a contratos baseados em honorários e adiantamentos únicos. Em um contrato de projeto, você pode registrar uma agenda de honorários ou um adiantamento único. No entanto, o registro em nível de contrato do projeto não disponibiliza imediatamente um honorário ou adiantamento para uso. Para usar um honorário ou adiantamento em uma fatura que realmente cobre do cliente, o honorário ou adiantamento deve ser faturado primeiro.
 
 Conclua as etapas a seguir para faturar um honorário ou um adiantamento.
 
 1. Selecione **Vendas** > **Cobrança** > **Honorários e Adiantamentos**. 
-2. Na página **Adiantamentos e Honorários** , use o filtro para selecionar o honorário ou adiantamento específico para faturamento e marque-o como **Pronto para Faturamento**.
+2. Na página **Adiantamentos e Honorários**, use o filtro para selecionar o honorário ou adiantamento específico para faturamento e marque-o como **Pronto para Faturamento**.
 3. Crie uma fatura manualmente a partir da lista **Contrato do Projeto** ou página de detalhes. O honorário ou adiantamento é mostrado na fatura de rascunho na seção **Adiantamentos e Honorários** na página **Fatura**.
 4. Confirme a fatura. Isso disponibilizará o honorário ou adiantamento para uso. Você pode verificar a fatura na página de listagem **Honorários e Adiantamentos**. Para um Adiantamento ou Honorário faturado, o valor disponível é mostrado na grade.
 
@@ -32,8 +32,8 @@ Conclua as etapas a seguir para faturar um honorário ou um adiantamento.
 
 Você pode criar um honorário ou um adiantamento diretamente em uma fatura.
 
-1. Em uma fatura de rascunho, na subgrade **Adiantamentos e Honorários** , selecione **Novo** para criar um novo honorário ou adiantamento. 
-2. Na página **Criação Rápida** , adicione as informações necessárias e selecione **Salvar**. O honorário ou adiantamento é criado no contrato do projeto relacionado à fatura. O honorário ou adiantamento é marcado automaticamente como **Pronto para Faturamento** e, depois, adicionado à subgrade **Adiantamentos e Honorários** na página **Fatura**.
+1. Em uma fatura de rascunho, na subgrade **Adiantamentos e Honorários**, selecione **Novo** para criar um novo honorário ou adiantamento. 
+2. Na página **Criação Rápida**, adicione as informações necessárias e selecione **Salvar**. O honorário ou adiantamento é criado no contrato do projeto relacionado à fatura. O honorário ou adiantamento é marcado automaticamente como **Pronto para Faturamento** e, depois, adicionado à subgrade **Adiantamentos e Honorários** na página **Fatura**.
 
 ## <a name="reconcile-an-invoiced-retainer-or-advance"></a>Reconciliar um honorário ou adiantamento faturado
 
@@ -43,7 +43,7 @@ Em cada fatura gerada para um contrato de projeto que faturou honorários ou adi
 
 Isso pode ser visto na grade **Honorários e Adiantamentos Aplicados** na página **Fatura**. A tabela a seguir fornece informações sobre os campos na grade **Honorários e Adiantamentos Aplicados** da página **Fatura do Projeto**.
 
-| Campo | Localização | Relevância, finalidade e orientação | Impacto a jusante |
+| Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
 | Descrição | Grade **Honorários e Adiantamentos Aplicados** na página **Fatura do Projeto** |Este campo somente leitura fornece uma descrição do honorário ou adiantamento usado nesta fatura. Este valor não pode ser alterado na fatura. Este valor pode ser atualizado na subgrade na página **Contrato de Projeto**. | Este campo pode ser exibido para o cliente na fatura impressa para indicar qual honorário ou adiantamento é aplicado na fatura. |
 | Data da Entrega | Grade **Honorários e Adiantamentos Aplicados** na página **Fatura do Projeto**  | Este campo somente leitura fornece a data da fatura do honorário ou adiantamento usado nesta fatura. Este valor não pode ser alterado na fatura. Este valor pode ser atualizado na subgrade na página **Contrato de Projeto**. | Este campo pode ser exibido para o cliente na fatura impressa para indicar a data em que o honorário ou adiantamento foi faturado pela primeira vez para o cliente. |

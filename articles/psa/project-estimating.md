@@ -3,7 +3,7 @@ title: Custos e receita de projetos
 description: Este tópico fornece informações sobre como estimar custos e receita de projeto.
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9862b6c69596f5b998cf40691f8478bb87251583
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 282950c0ee21f430a2f20b21128830891c76c84a
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071458"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127954"
 ---
 # <a name="project-costs-and-revenue"></a>Custos e receita de projetos
 
@@ -80,7 +80,7 @@ Na exibição em fases de tempo, você distribui o esforço total estimado para 
 
 ### <a name="work-hours-based-allocation"></a>Alocação baseada em horas de trabalho
  
-No modo de tarefa de agendamento automático, as horas diárias padrão para recursos da tarefa são definidas na taxa completa de hora de trabalho. Esse comportamento se aplica quando o esforço é alocado dividindo-o pela duração da tarefa na exibição em fases de tempo. Por exemplo, se a sua estimativa é de que uma tarefa seja concluída por um recurso na escala de tempo **Dia** , o esforço que é alocado por dia não excederá as horas de trabalho por dia definidas no calendário do projeto. Portanto, a alocação de esforços sempre garante que os recursos sejam estimados para serem usados o dia inteiro.
+No modo de tarefa de agendamento automático, as horas diárias padrão para recursos da tarefa são definidas na taxa completa de hora de trabalho. Esse comportamento se aplica quando o esforço é alocado dividindo-o pela duração da tarefa na exibição em fases de tempo. Por exemplo, se a sua estimativa é de que uma tarefa seja concluída por um recurso na escala de tempo **Dia**, o esforço que é alocado por dia não excederá as horas de trabalho por dia definidas no calendário do projeto. Portanto, a alocação de esforços sempre garante que os recursos sejam estimados para serem usados o dia inteiro.
 
 ### <a name="even-allocation"></a>Alocação uniforme
 

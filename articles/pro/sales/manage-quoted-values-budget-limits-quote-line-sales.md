@@ -1,23 +1,23 @@
 ---
-title: Linhas de cotação baseadas em projeto (Pro)
+title: Visão geral de linhas de cotação baseadas em projeto - lite
 description: Este tópico fornece informações sobre como usar linhas de cotação baseadas no projeto para o trabalho do projeto. (Pro)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: a409d1e378afe97de7fb6c77cf3ad6703661bdff
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: be1663c0d226fa19fe4b9df566e16d215f1fc08e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071358"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181078"
 ---
-# <a name="project-based-quote-lines-pro"></a>Linhas de cotação baseadas em projeto (Pro)
+# <a name="project-based-quote-lines-overview---lite"></a>Visão geral de linhas de cotação baseadas em projeto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 As linhas de cotação baseadas em projeto são projetadas para ajudar a estimar o trabalho do projeto em uma participação. A estrutura de uma linha de cotação baseada em projeto é estendida para estimativas de projeto com os seguintes conceitos:
 
@@ -31,7 +31,7 @@ As linhas de cotação baseadas em projeto são projetadas para ajudar a estimar
 
 A tabela a seguir fornece informações sobre os campos na guia **Geral** da linha de cotação baseada em projeto. Esses campos ajudam a estabelecer uma base para uma estimativa detalhada do trabalho do projeto.
 
-| **Campo** | **Relevância, finalidade e orientação** | **Impacto a jusante** |
+| **Campo** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- |
 | Nome | O nome da linha de cotação que deve ajudar você a identificar o componente discreto da cotação que está sendo estimada. | Copiado para a linha do contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |
 | Método de Cobrança | Em uma cotação é criada a partir de uma oportunidade, este valor é copiado do campo correspondente na oportunidade. Este campo inclui os dois modelos de contratação principais compatíveis com o Dynamics 365 Project Operations:</br>- Preço fixo</br>- Hora e material.| O valor deste campo é copiado para a linha de contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |
@@ -49,15 +49,15 @@ A tabela a seguir fornece informações sobre os campos na guia **Geral** da lin
 
 ## <a name="validation-rules-for-fields-on-the-general-tab-of-project-based-quote-lines"></a>Regras de validação para os campos na guia Geral de linhas de cotação baseadas em projeto
 
-**Regra 1** : se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Todas as tarefas do projeto** , um projeto será incluído na linha de cotação.
+**Regra 1**: se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Todas as tarefas do projeto**, um projeto será incluído na linha de cotação.
 
-**Regra 2** : se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Todas as tarefas do projeto** , um projeto e uma determinada classe de transação só poderão ser incluídos em uma única linha de cotação baseada em projeto de uma cotação.
+**Regra 2**: se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Todas as tarefas do projeto**, um projeto e uma determinada classe de transação só poderão ser incluídos em uma única linha de cotação baseada em projeto de uma cotação.
 
-**Regra 3** : se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Somente determinadas tarefas do projeto** , um projeto e uma determinada classe de transação só poderão ser incluídos em várias linhas de cotação baseada em projeto de uma cotação.
+**Regra 3**: se o campo **Tarefas Incluídas** estiver em branco ou se definido como **Somente determinadas tarefas do projeto**, um projeto e uma determinada classe de transação só poderão ser incluídos em várias linhas de cotação baseada em projeto de uma cotação.
 
 **Regra 4** : se uma oportunidade tiver várias cotações, pode haver linhas de cotação de cotações diferentes que façam referência ao mesmo projeto e incluam a mesma classe de transação.
 
-**Regra 5** : se as cotações não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transação.
+**Regra 5**: se as cotações não pertencerem à mesma oportunidade, não poderão incluir o mesmo projeto e classe de transação.
 
 <table border="0" cellspacing="0" cellpadding="0">
     <tbody>
