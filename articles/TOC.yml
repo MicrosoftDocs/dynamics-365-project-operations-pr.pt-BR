@@ -38,6 +38,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: Novidades
       items:
+        - name: Dezembro de 2020 – Project Operations para cenários baseados em recursos/sem estoque
+          href: whats-new/whats-new-dec-2020-resource-based.md
         - name: Novembro de 2020 – Project Operations para cenários baseados em recursos/sem estoque
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: Processo de vendas do projeto
@@ -87,7 +89,7 @@
                 - name: Gerenciar vários clientes em linhas de cotação baseadas em projeto
                   href: sales/manage-multiple-customers-quote-line.md
                 - name: Configurar os componentes passíveis de cobrança de uma linha de cotação de projeto
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                  href: sales/configure-chargeable-quoteline.md
                 - name: Criar estimativas em uma linha de cotação
                   href: sales/create-estimate-quote-line.md
                 - name: Importar estimativas de um projeto para uma linha de cotação baseada em projeto
@@ -109,7 +111,7 @@
             - name: Gerenciar listas de preços de projeto em contratos de projeto
               href: sales/contracts-manage-project-price-lists.md
             - name: Gerenciar vários clientes em contratos de projeto
-              href: sales/contracts-manage-project-price-lists.md
+              href: sales/manage-multiple-customers-contract.md
             - name: Linhas de contrato baseadas em projeto
               items:
                 - name: Visão geral de linhas de contrato baseadas em projeto
@@ -128,6 +130,14 @@
               href: pro/sales/confirm-contract-sales.md
             - name: Copiar um contrato de projeto
               href: pro/sales/copy-project-contracts-sales.md
+            - name: Adiantamentos e honorários
+              items:
+                - name: Contratos baseados em adiantamentos e honorários – lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: Configurar um agendamento de retenção – lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: Criar um adiantamento ad hoc em um contrato – lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
     - name: Preços e custos
       items:
         - name: Configuração da lista de preços
@@ -158,18 +168,28 @@
           items:
             - name: Visão geral das dimensões de precificação
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Criar uma solução para dimensões de precificação personalizadas
+              href: sales/create-solution-custompd.md
             - name: Usar campos existentes como dimensões de precificação
               items:
                 - name: Campos do Project Operations como dimensões de precificação
                   href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Campos personalizados como dimensões de preço
+                - name: Usar um recurso reservável como uma dimensão de precificação
+                  href: sales/use-br-as-pd.md
+                - name: Usar Categoria da Transação como uma dimensão de precificação
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Recurso reservável com várias funções em um projeto
+                  href: sales/br-playing-multiple-roles.md
+            - name: Campos personalizados como dimensões de precificação
               items:
-                - name: Criar campos personalizados e entidades como dimensões de preços
+                - name: Criar campos personalizados e entidades como dimensões de precificação
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Adicionar campos personalizados a entidades transacionais e de configuração de preço
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Configurar campos personalizados como dimensões de preço
+                - name: 'Configurar campos personalizados como dimensões de precificação '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Atualizar os atributos de plug-in para incluir novas dimensões de precificação
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Desativar uma dimensão de precificação
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Gerenciamento de projetos
@@ -250,12 +270,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administração de recursos
           items:
+            - name: Criar recursos
+              href: resource-management/create-resources.md
             - name: Definir habilidades e proficiências
               href: resource-management/define-skills-proficiencies.md
+            - name: Definir funções
+              href: resource-management/define-roles.md
             - name: Definir calendários de recurso
               href: resource-management/define-resource-calendars.md
         - name: Métodos de alocação de reserva
           href: resource-management/booking-allocation-methods.md
+        - name: Status de reserva
+          href: resource-management/booking-status.md
         - name: Modelos de proficiência e habilidades
           href: resource-management/skills-proficiency-models.md
         - name: Reconciliação de recurso
@@ -354,6 +380,8 @@
           href: proforma-invoicing/create-manual-proforma-invoice.md
         - name: Gerenciar uma fatura pro forma do projeto
           href: proforma-invoicing/manage-proforma-invoice.md
+        - name: Faturar um honorário ou adiantamento
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
         - name: Confirmar uma fatura pro forma do projeto
           href: proforma-invoicing/confirm-proforma-invoice.md
         - name: Configurar automação de fatura do projeto
@@ -370,6 +398,32 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: Diário de integração no Project Operations
           href: project-accounting/project-operations-integration-journal.md
+        - name: Faturamento intercompanhia
+          items:
+            - name: Visão geral do faturamento intercompanhia
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: Configurar faturamento intercompanhia
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: Criar faturas de clientes e fornecedores intercompanhia
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
+            - name: Criar transações intercompanhia
+              href: project-accounting/create-intercompany-transactions.md
+    - name: Reconhecimento de receita
+      items:
+        - name: Visão geral do reconhecimento de receita
+          href: revenue-recognition/revenue-recognition-overview.md
+        - name: Configurar reconhecimento de receita
+          items:
+            - name: Configurar tipos de período
+              href: project-accounting/period-types.md
+            - name: Configurar modelos de custo
+              href: revenue-recognition/rev-rec-cost-templates.md
+        - name: Gerenciar estimativas de receita
+          href: revenue-recognition/rev-rec-completed-contract-method.md
+        - name: Estimativa de receita de projeto de preço fixo
+          href: revenue-recognition/rev-rec-percentage-completion-method.md
+        - name: Custo para concluir métodos
+          href: revenue-recognition/cost-complete-methods.md
 - name: Implantação lite - gerenciar faturamento pro forma
   items:
     - name: Introdução
@@ -386,7 +440,9 @@
           href: environment/security-model.md
     - name: Novidades
       items:
-        - name: Novidades em novembro de 2020 – Implantação lite – gerenciar faturamento pro forma
+        - name: Novidades de dezembro de 2020 – Implantação lite – gerenciar faturamento pro forma
+          href: pro/whats-new/whats-new-dec-2020-lite.md
+        - name: Novidades de novembro de 2020 – Implantação lite – gerenciar faturamento pro forma
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: Processo de vendas do projeto
       items:
@@ -538,18 +594,28 @@
           items:
             - name: Visão geral das dimensões de precificação
               href: pricing-costing/pricing-dimensions-overview.md
+            - name: Criar uma solução para dimensões de precificação personalizadas
+              href: sales/create-solution-custompd.md
             - name: Usar campos existentes como dimensões de precificação
               items:
-                - name: Usar um campo existente como uma dimensão de precificação
+                - name: Campos do Project Operations como dimensões de precificação
                   href: pricing-costing/use-existing-field-pricing-dimension.md
-            - name: Campos personalizados como dimensões de preço
+                - name: Usar um recurso reservável como uma dimensão de precificação
+                  href: sales/use-br-as-pd.md
+                - name: Usar Categoria da Transação como uma dimensão de precificação
+                  href: pricing-costing/use-transaction-category-as-pd.md
+                - name: Recurso reservável com várias funções em um projeto
+                  href: sales/br-playing-multiple-roles.md
+            - name: Campos personalizados como dimensões de precificação
               items:
-                - name: Criar campos personalizados e entidades como dimensões de preços
+                - name: Criar campos personalizados e entidades como dimensões de precificação
                   href: pricing-costing/create-custom-fields-entities-pricing-dimensions.md
                 - name: Adicionar campos personalizados a entidades transacionais e de configuração de preço
                   href: pricing-costing/add-custom-fields-price-setup-transactional-entities.md
-                - name: Configurar campos personalizados como dimensões de preço
+                - name: 'Configurar campos personalizados como dimensões de precificação '
                   href: pricing-costing/set-up-custom-fields-pricing-dimensions.md
+                - name: Atualizar os atributos de plug-in para incluir novas dimensões de precificação
+                  href: pricing-costing/update-plugin-attributes-pd.md
             - name: Desativar uma dimensão de precificação
               href: pricing-costing/turning-off-pricing-dimension.md
     - name: Gerenciamento de projetos
@@ -626,12 +692,18 @@
               href: resource-management/generic-resource-requirement-fulfillment.md
         - name: Administração de recursos
           items:
+            - name: Criar recursos
+              href: resource-management/create-resources.md
             - name: Definir habilidades e proficiências
               href: resource-management/define-skills-proficiencies.md
+            - name: Definir funções
+              href: resource-management/define-roles.md
             - name: Definir calendários de recurso
               href: resource-management/define-resource-calendars.md
         - name: Reservar métodos de alocação
           href: resource-management/booking-allocation-methods.md
+        - name: Status de reserva
+          href: resource-management/booking-status.md
         - name: Modelos de proficiência e habilidades
           href: resource-management/skills-proficiency-models.md
         - name: Reconciliação de recurso
@@ -834,6 +906,8 @@
       items:
         - name: Agenda da Versão de atualização do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou alterações na Versão de atualização 26, V3'
+          href: psa/whats-new-ur-26.md
         - name: 'Novidades ou alterações na Versão de atualização 25, V3'
           href: psa/whats-new-ur-25.md
         - name: 'Novidades ou alterações na Versão de atualização 24, V3'
