@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 67e891d8576cd92f48466929fc53fe8a4203d72d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119404"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650181"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de preço
 
@@ -41,9 +41,15 @@ Esse tópico fornece informações sobre a configuração de dimensões de preç
 Para que um campo se torne uma dimensão de preço, ele deve:
 
 - Criado como um campo nas entidades **Preço da função** e **Markup de preço da função**. Para obter mais informações sobre esse procedimento, consulte [Adicionar campos personalizados para configuração de preço e entidades transacionais](add-custom-fields-price-setup-transactional-entities.md).
+
 - Criado como uma linha na tabela **Dimensão de preço**. Por exemplo, adicione as linhas de dimensão de preço conforme exibido no gráfico a seguir. 
 
+![Linhas de dimensões de preço baseadas em valor](media/Amt-based-PD.png)
+
 As Horas de Trabalho do Recurso (**msdyn_resourceworkhours**) foram adicionadas como uma dimensão baseada em markup e adicionadas à grade na guia **Dimensão de Precificação Baseada em Markup**.
+
+![Linhas de dimensões de preço baseadas em markup](media/Markup-based-PD.png)
+
 
 > [!IMPORTANT]
 > Todas as alterações nos dados de dimensões de precificação nessa tabela, existentes ou novas, são propagadas para a lógica de negócios de precificação somente após a atualização do cache. O tempo de atualização do cache pode demorar até 10 minutos. Permita que esse período considere alterações na lógica de padronização de preço que devem resultar de alterações nos dados da Dimensão de preço.

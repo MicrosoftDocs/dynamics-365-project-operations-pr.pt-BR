@@ -1,5 +1,5 @@
 ---
-title: Contratos baseados em adiantamentos e honorários - lite
+title: Contratos baseados em adiantamentos e honorários
 description: Este tópico fornece informações sobre modelos de contratação com base em honorários e adiantamentos no Project Operations.
 author: rumant
 manager: Annbe
@@ -8,17 +8,17 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 912b235af5e561349fdfb481e5f5b7c5514669c3
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 1aee64bf683b7d8d0bcde284f2d5d484e689c4d2
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180853"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596088"
 ---
-# <a name="advances-and-retainer-based-contracts---lite"></a>Contratos baseados em adiantamentos e honorários - lite
+# <a name="advances-and-retainer-based-contracts"></a>Contratos baseados em adiantamentos e honorários
 
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 O Dynamics 365 Project Operations dá suporte a contratos baseados em honorários. Um contrato com base em honorários é um conjunto negociado de pagamentos igualmente distribuídos pelo qual o cliente será faturado durante a duração de um projeto. Esse tipo de contrato é geralmente usado para modelos de cobrança com base em tempo e material ou consumo, em que é necessário fornecer ao cliente uma fatura e um agendamento de pagamento previsíveis. As receitas reais acumuladas em cada período são reconciliadas com o pagamento recebido do cliente no início do período. De acordo com o conceito do modelo de cobrança por tempo e material, os valores das receitas acumuladas em cada período podem variar com os custos incorridos. Se a receita acumulada for superior ao valor recebido no início do período, a empresa de entrega do projeto pode:
 

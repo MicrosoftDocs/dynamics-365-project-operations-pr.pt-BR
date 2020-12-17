@@ -5,15 +5,16 @@ author: rumant
 manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c97dca8685c2db7d256017cf4442416feb0e005b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130834"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672217"
 ---
 # <a name="override-project-sales-price-lists"></a>Substituir listas de preços de vendas do projeto
 
@@ -21,13 +22,13 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 
 ## <a name="customer-specific-project-price-lists"></a>Listas de preços de projetos específicas do cliente
 
-Os acordos de preços específicos do cliente podem ser configurados como listas de preços do projeto em um registro de conta no Dynamics 365 Project Operations.
+Os contratos de preços específicos do cliente podem ser configurados como listas de preços do projeto em um registro da conta no Dynamics 365 Project Operations.
 
 Para configurar uma lista de preços de projeto específica do cliente, na área **Vendas**, navegue até o registro da conta.
 
 1. Abra a página de lista **Contas**.
 2. Localize e clique duas vezes em um registro de cliente para abrir a página de detalhes da **Conta**.
-3. Na guia **Listas de Preços do projeto**, selecione **+ Nova Lista de Preços do Projeto^^.
+3. Na guia **Listas de Preços do projeto**, selecione **+ Nova Lista de Preços do Projeto**.
 4. Na página **Nova Lista de Preços do Projeto**, selecione uma lista de preços da lista suspensa. Apenas listas de preços que têm o contexto definido como **Vendas** e cuja moeda corresponda à moeda da conta estão incluídas.
 5. Nomeie a associação e selecione **Salvar**. Uma lista de preços de projetos específicas do cliente será criada. Esta lista de preços será usada para definir preços de projeto padrão em cotações de projeto ou contratos criados para este cliente, onde a data de criação da cotação ou do contrato do projeto está dentro da data efetiva da lista de preços.
 

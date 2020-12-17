@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130969"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590887"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>Adicionar campos personalizados necessários a entidades transacionais e de configuração de preço
 
@@ -49,6 +49,8 @@ Quando uma dimensão personalizada de preço for baseada no conjunto de opções
 > [!IMPORTANT]
 > Quando você adiciona um campo a mais de uma entidade, use o mesmo nome de campo em todas as entidades. 
 
+> ![Adicionando Local de Trabalho do Recurso ao Preço da Função](media/RWL-Field.png)
+
 Nas fases de vendas e estimativa de um projeto, as estimativas do esforço de trabalho que é exigido para concluir o trabalho **Local** e **No local**, em **Horas regulares** e **Horas extras** são usadas para estimar o valor da Cotação/do Projeto. Os campos **Local de Trabalho do Recurso** e **Horas de Trabalho do Recurso** serão adicionados às entidades de estimativa **Detalhes da Linha de Cotação**, **Detalhes da Linha de Contrato**, **Membro da Equipe de Projeto**, e **Linha de Estimativa**.
 
 1. Em Operações do projeto, selecione **Configurações** > **Soluções** e clique duas vezes em **\<your organization name> dimensões de preço**. 
@@ -58,6 +60,8 @@ Nas fases de vendas e estimativa de um projeto, as estimativas do esforço de tr
 5. Selecione **Usar um Conjunto de opções existente** e **Local de Trabalho do Recurso** e, depois, **Salvar**.
 6. Repita as etapas de 1 a 5 para adicionar esse campo às entidades **Detalhes da Linha de Contrato do Projeto**, **Membro da Equipe do Projeto** e **Linha de Estimativa**.
 7. Repita as etapas de 1 a 6 para o conjunto de opções **Horas de Trabalho do Recurso**. 
+
+> ![Adicionando Local de Trabalho do Recurso à Linha de Estimativa](media/RWL-Default-Value.png)
 
 Para entrega e faturamento, o trabalho concluído precisa ser precificado precisamente para seleção de **Local** ou **No Local** e se foi concluído durante **Horas regulares** ou **Horas extras** nos Dados Reais do Projeto. Os campos **Local de Trabalho do Recurso** e **Horas de Trabalho do Recurso** devem ser adicionados às entidades **Entrada de Tempo**, **Dados Reais**, **Detalhes da Linha de Fatura** e **Linha do Diário**.
 
@@ -69,6 +73,8 @@ Para entrega e faturamento, o trabalho concluído precisa ser precificado precis
 6. Repita as etapas de 1 a 5 para adicionar esse campo às entidades **Dados Reais**, **Detalhes da Linha de Fatura** e **Linha do Diário**.
 7. Repita as etapas de 1 a 6 para o conjunto de opções **Horas de Trabalho do Recurso**. 
 
+> ![Adicionando Local de Trabalho do Recurso à Entrada de Tempo](media/RWL-time-entry.png)
+
 Isso conclui as alterações no esquema exigidas para dimensões personalizadas baseadas em conjunto de opções.
 
 ## <a name="entity-based-custom-pricing-dimensions"></a>Dimensões de preço personalizadas baseadas em entidade
@@ -79,6 +85,8 @@ Quando a dimensão de preço personalizada for uma entidade, você adicionará r
 2. No Gerenciador de Soluções, no painel de navegação à esquerda, selecione **Entidades > Cargo Padrão**.
 3. Expanda a entidade **Cargo Padrão** e selecione **Relacionamentos 1: N**.
 4. Selecione **Novo** para criar um novo relacionamento 1:N chamado **Cargo Padrão para Recurso Reservável**. Insira as informações necessárias e selecione **Salvar**.
+
+> ![Adicionando Cargo Padrão como um campo de referência para Recurso Reservável](media/ST-BR.png)
 
 O Cargo Padrão também precisará ser adicionado às entidades Preço, **Preço da Função** e **Markup de Preço da Função**. Isso também pode ser feito usando relacionamentos 1:N entre as entidades **Cargo Padrão** e **Preço da Função** e as entidades **Cargo Padrão** e **Markup de Preço da Função**.
 
@@ -96,9 +104,13 @@ Nas fases de vendas e estimativa do projeto, para chegar ao preço da Cotação/
 
 5. Repita as etapas de 1 a 5 para criar relacionamentos 1:N de **Cargo Padrão** para **Detalhes da Linha de Cotação**, **Detalhes da Linha de Contrato do Projeto**, **Membro da Equipe do Projeto** e **Linha de Estimativa**.
 
+> ![Adicionando Cargo Padrão como um campo de referência para Linha de Estimativa](media/ST-Estimate-Line.png)
+
   Nas fases Entrega e Faturamento, o trabalho concluído por cada cargo padrão deve ser precisamente precificado nos Dados Reais do Projeto. Isso significa que há necessidades de relacionamentos 1:N de **Cargo Padrão** para as entidades **Entrada de Tempo**, **Dados Reais**, **Detalhes da Linha de Fatura** e **Linha do Diário**.
 
 6. Repita as etapas de 1 a 6 para criar relacionamentos 1:N de **Cargo Padrão** para as entidades **Entrada de Tempo**, **Dados Reais**, **Detalhes da Linha de Fatura** e **Linha do Diário**.
+
+> ![Adicionando Cargo Padrão como um campo de referência para Entrada de Tempo](media/ST-Mapping.png)
 
 ### <a name="set-up-dimension-value-defaulting-using-the-mappings-features-of-the-platform"></a>Configurar padronização do valor de Dimensão usando os recursos de mapeamento da plataforma
 Para Entrada de Tempo, seria útil que o sistema padronizasse o cargo padrão na Entrada de Tempo do Recurso Reservável que está registrando a entrada de tempo. Use as etapas a seguir para adicionar mapeamentos de campo no relacionamento 1:N de **Recurso Reservável** para **Entrada de Tempo**.
@@ -107,6 +119,8 @@ Para Entrada de Tempo, seria útil que o sistema padronizasse o cargo padrão na
 2. Expanda a entidade **Cargo Padrão** e selecione **Relacionamentos 1: N**.
 3. Clique duas vezes em **Recurso Reservável para Entrada de Tempo**. Na página **Relacionamento**, selecione **Usar Mapeamentos de Campo**. 
 4. Selecione **Novo** para criar um novo mapeamento de campo entre o campo **Cargo Padrão** na entidade **Recurso Reservável** para o campo de referência **Cargo Padrão** na entidade **Entrada de Tempo**. 
+
+> ![Configurar mapeamentos de campo para permitir a padronização de Cargo Padrão, de Recurso Reservável para Entrada de Tempo](media/ST-Mapping2.png)
 
 Isso conclui as alterações no esquema exigidas para dimensões personalizadas baseadas em entidade.
 

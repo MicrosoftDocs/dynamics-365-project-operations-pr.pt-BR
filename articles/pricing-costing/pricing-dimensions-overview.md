@@ -1,30 +1,22 @@
 ---
-title: Visão geral das dimensões de preço
-description: Este tópico fornece informações sobre as dimensões de preço no Dynamics 365 Project Operations.
+title: Visão geral das dimensões de precificação
+description: Esse tópico fornece informações sobre as dimensões de precificação no Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128449"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650171"
 ---
-# <a name="pricing-dimensions-overview"></a>Visão geral das dimensões de preço
+# <a name="pricing-dimensions-overview"></a>Visão geral das dimensões de precificação
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
@@ -38,16 +30,28 @@ Por isso, há dois tipos de valor de dimensão de preço disponíveis:
 - **Conjuntos de opções**: dimensões que são enumerações fixas para um conjunto de valores.
 - **Valores baseados em entidade**: dimensões que podem ser um conjunto variado de valores.
 
-## <a name="pricing-dimensions"></a>Dimensões de preço
+## <a name="pricing-dimensions"></a>Dimensões de precificação
 
-O Dynamics 365 Project Operations é fornecido com um conjunto padrão de dimensões de preços. É possível exibir essas dimensões de preços acessando **Project Operations** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de preço baseadas em valor**, verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Com esses campos habilitados, você pode configurar o preço e o custo para cada combinação de função e unidade organizacional.
+O Dynamics 365 Project Operations apresenta um conjunto padrão de dimensões de precificação. É possível exibir essas dimensões de precificaçãos acessando **Project Operations** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de precificação baseadas em valor**, verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Com esses campos habilitados, você pode configurar o preço e o custo para cada combinação de função e unidade organizacional.
 
-Se precisar precificar ou colocar custo para seus recursos usando atributos adicionais, você poderá criar campos, entidades e dimensões personalizados.
+![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque](media/PS-OOB-parameters.png)
+
+Se precisar precificar ou colocar custo para seus recursos usando atributos adicionais, você poderá criar campos, entidades e dimensões personalizados. Para obter mais informações, consulte os seguintes tópicos. 
+  
+  > [!NOTE]
+  > Os procedimentos devem ser concluídos na ordem em que estão listados.
+
+1. [Criar uma solução para dimensões de precificação personalizadas](../sales/create-solution-custompd.md)
+2. [Criar campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md)
+3. [Adicionar campos personalizados a entidades transacionais e de configuração de preço ](add-custom-fields-price-setup-transactional-entities.md)
+4. [Configurar campos personalizados como dimensões de precificação ](set-up-custom-fields-pricing-dimensions.md)
+5. [Atualizar os atributos de plug-in para incluir novas dimensões de precificação](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>Precificação do tempo do recurso humano
 Como uma organização precifica o tempo do recurso humano, às vezes, é uma consideração estratégica importante que afeta diretamente a lucratividade da organização. Trabalhe com as equipes e líderes financeiros quando sua organização estiver pronta para identificar como ela quer configurar tarifas de cobrança e custo para tempo do recurso humano.
 
-Outras considerações para preço incluem considerar a reutilização de campos ou entidades que atualmente não são dimensões de preço, mas são aplicados como uma dimensão de preço para sua organização. Campos como **Categoria de Transação** (**msdyn_transactioncategory**) e **Recurso Reservável** (**bookableresource**) são exemplos de dimensões candidatas. 
+Outras considerações para preço incluem considerar a reutilização de campos ou entidades que atualmente não são dimensões de precificação, mas são aplicados como uma dimensão de preço para sua organização. Campos como **Categoria de Transação** (**msdyn_transactioncategory**) e **Recurso Reservável** (**bookableresource**) são exemplos de dimensões candidatas. 
 
 Considere se sua dimensão de preço deve ser uma tabela ou um conjunto de opções. Se houver previsão de alterações nos valores de uma dimensão que excedam 10 ou 12, e forem necessários atributos adicionais nesses valores, você poderá criar uma entidade em vez de um conjunto de opções. Manter um conjunto de opções, como adição ou remoção de valores, exige um administrador ou desenvolvedor, enquanto a adição de novas linhas a uma tabela pode ser feita por qualquer usuário.
 

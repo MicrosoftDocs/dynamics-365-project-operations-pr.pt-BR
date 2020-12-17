@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 00fc16b0e723d4df88ceae961d9772e26dd1451e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 5e789295d4b1f5a53fcf179a2998f60d35f48f99
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180493"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513775"
 ---
 # <a name="manage-leads---lite"></a>Gerenciar clientes potenciais - lite
 
@@ -23,7 +23,7 @@ Os clientes potenciais baseados em projeto podem ser gerenciados e qualificados 
 
 ## <a name="list-of-project-sales-leads"></a>Lista de clientes potenciais de vendas do projeto
 
-No seção **Vendas**, no painel de navegação esquerdo, abra a página **Lista de clientes potenciais** para ver uma lista de todos os registros de cliente potencial no sistema. A lista de clientes potenciais exibida é baseada no trabalho e outros tipos de clientes potenciais que podem ser criados se você também tiver os aplicativos Dynamics 365 Sales ou Dynamics 365 Field Service.
+No seção **Vendas**, no painel de navegação esquerdo, abra a página **Lista de clientes potenciais** para ver uma lista de todos os registros de cliente potencial no sistema. Os clientes potenciais na lista são baseados no trabalho e outros tipos de clientes potenciais que podem ser criados se você também tiver os aplicativos Dynamics 365 Sales ou Dynamics 365 Field Service.
 
 Para criar uma exibição filtrada para ver apenas clientes potenciais baseados em projeto, você pode criar um filtro no valor **Tipo**. Por exemplo, você pode selecionar para mostrar apenas clientes potenciais baseados em trabalho.
 
@@ -53,9 +53,9 @@ Clientes potenciais que têm o valor **Tipo** definido como **Baseado no trabalh
 
 - Uma conta que usa o campo **Empresa** do cliente potencial.
 - Um registro de contato associado à conta com base nos valores dos campos **Nome** e **Sobrenome** no cliente potencial.
-- Uma oportunidade baseada em projeto que tem o valor do campo **Tipo** definido como **Baseado em trabalho**.
+- Uma oportunidade baseada em projeto que tem o campo **Tipo** definido como **Baseado em trabalho**.
 
-Para obter informações mais detalhadas sobre clientes potenciais qualificados, consulte[Qualificar ou converter clientes potenciais](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Para obter informações mais detalhadas sobre clientes potenciais qualificados, consulte [Qualificar ou converter clientes potenciais](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="business-process-flow-for-project-based-deals"></a>Fluxo de processo empresarial para negócios baseados em projetos
 

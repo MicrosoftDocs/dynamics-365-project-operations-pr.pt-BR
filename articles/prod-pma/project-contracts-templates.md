@@ -17,16 +17,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 9e4f11ec0bb88ed0971a3d082e7ca7823fcf8453
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071562"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642619"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar contratos de projeto e projetos diretamente do Project Service Automation para o Finance and Operations
 
 [!include[banner](../includes/banner.md)]
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico descreve o modelo e as tarefas subjacentes usadas para sincronizar contratos de projeto e projetos diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 
@@ -95,11 +97,11 @@ As etapas de linhas de contrato de projeto são gerenciados no Project Service A
 
 O campo **ID do contrato de projeto** está disponível na página **Contratos de projeto**. Esse campo se tornou uma chave natural e única para dar suporte à integração.
 
-Quando um novo contrato de projeto é criado, se ainda não existir um valor de **ID do contrato de projeto** , ele será gerado automaticamente usando uma sequência numérica. O valor consiste em **ORD** seguido por uma sequência numérica crescente e um sufixo de seis caracteres. Veja um exemplo: **ORD-01022-Z4M9Q0**.
+Quando um novo contrato de projeto é criado, se ainda não existir um valor de **ID do contrato de projeto**, ele será gerado automaticamente usando uma sequência numérica. O valor consiste em **ORD** seguido por uma sequência numérica crescente e um sufixo de seis caracteres. Veja um exemplo: **ORD-01022-Z4M9Q0**.
 
 O campo **Número do projeto** está disponível na página **Projetos**. Esse campo se tornou uma chave natural e única para dar suporte à integração.
 
-Quando um novo contrato de projeto é criado, se ainda não existir um valor de **Número do projeto** , ele será gerado automaticamente usando uma sequência numérica. O valor consiste em **PRJ** seguido por uma sequência numérica crescente e um sufixo de seis caracteres. Veja um exemplo: **PRJ-01049-CCNID0**.
+Quando um novo contrato de projeto é criado, se ainda não existir um valor de **Número do projeto**, ele será gerado automaticamente usando uma sequência numérica. O valor consiste em **PRJ** seguido por uma sequência numérica crescente e um sufixo de seis caracteres. Veja um exemplo: **PRJ-01049-CCNID0**.
 
 Quando a solução de integração do Project Service Automation ao Finance é aplicada, um script de atualização define o campo **ID do contrato de projeto** para contratos de projeto existentes e o campo **Número do projeto** para projetos existentes no Project Service Automation.
 
@@ -133,9 +135,9 @@ Se você precisar usar o Power Query, siga estas diretrizes:
 ## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelos na integração de dados
 
 > [!NOTE] 
-> Os campos **CustomerReference** , **AddressCity** , **AddressCountryRegionID** , **AddressDescription** , **AddressLine1** , **AddressLine2** , **AddressState** e **AddressZipCode** não são incluídos no mapeamento padrão para contratos de projeto. Você pode adicionar os mapeamentos se precisar que esses dados sejam sincronizados para contratos de projeto.
+> Os campos **CustomerReference**, **AddressCity**, **AddressCountryRegionID**, **AddressDescription**, **AddressLine1**, **AddressLine2**, **AddressState** e **AddressZipCode** não são incluídos no mapeamento padrão para contratos de projeto. Você pode adicionar os mapeamentos se precisar que esses dados sejam sincronizados para contratos de projeto.
 >
-> Os campos **Description** , **ParentID** , **ProjectGroup** , **ProjectManagerPersonnelNumber** e **ProjectType** não são incluídos no mapeamento padrão para projetos. Você pode adicionar os mapeamentos se precisar que esses dados sejam sincronizados para projetos.
+> Os campos **Description**, **ParentID**, **ProjectGroup**, **ProjectManagerPersonnelNumber** e **ProjectType** não são incluídos no mapeamento padrão para projetos. Você pode adicionar os mapeamentos se precisar que esses dados sejam sincronizados para projetos.
 
 As ilustrações a seguir mostram exemplos de mapeamentos de tarefas do modelo na integração de dados. O mapeamento mostra as informações de campos que serão sincronizadas do Project Service Automation para o Finance.
 

@@ -1,5 +1,5 @@
 ---
-title: Faturar um honorário ou adiantamento - lite
+title: Faturar um honorário ou adiantamento
 description: Este tópico fornece informações sobre como faturar um honorário ou adiantamento no Project Operations.
 author: rumant
 manager: Annbe
@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9013529b615026eab92177c9fd9fb84c50d66f4f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
+ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180538"
+ms.lasthandoff: 11/21/2020
+ms.locfileid: "4596178"
 ---
-# <a name="invoice-a-retainer-or-an-advance---lite"></a>Faturar um honorário ou adiantamento - lite
+# <a name="invoice-a-retainer-or-an-advance"></a>Faturar um honorário ou adiantamento
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-O Dynamics 365 Project Operations dá suporte a contratos baseados em honorários e adiantamentos únicos. Em um contrato de projeto, você pode registrar uma agenda de honorários ou um adiantamento único. No entanto, o registro em nível de contrato do projeto não disponibiliza imediatamente um honorário ou adiantamento para uso. Para usar um honorário ou adiantamento em uma fatura que realmente cobre do cliente, o honorário ou adiantamento deve ser faturado primeiro.
+Dynamics 365 Project Operations oferece suporte a contratos baseados em adiantamentos e honorários únicos. Em um contrato de projeto, você pode registrar uma agenda de honorários ou um adiantamento único. No entanto, o registro em nível de contrato do projeto não disponibiliza imediatamente um honorário ou adiantamento para uso. Para usar um honorário ou adiantamento em uma fatura que realmente cobre do cliente, o honorário ou adiantamento deve ser faturado primeiro.
 
 Conclua as etapas a seguir para faturar um honorário ou um adiantamento.
 

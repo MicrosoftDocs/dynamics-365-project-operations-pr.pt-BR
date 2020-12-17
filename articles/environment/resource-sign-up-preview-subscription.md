@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121114"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642935"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Inscreva-se para obter subscrições de versão preliminar do Project Operations para cenários de recursos/sem estoque
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico explica como subscrever a oferta de versão preliminar/para parceiro e implantar o ambiente do Project Operations para cenários baseados em recursos/sem estoque.
 
@@ -31,18 +33,18 @@ Este tópico explica como subscrever a oferta de versão preliminar/para parceir
 
 Quando sua [solicitação de versão preliminar](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) for aprovada, você receberá três ofertas da Microsoft por email. Essas ofertas permitem que você implante a versão preliminar do Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – avaliação da versão preliminar
+- Avaliação da versão preliminar do Dynamics 365 Project Operations (CRM)
 - Office 365 Project Operations – Avaliação de versão preliminar
 - Dynamics 365 Finance – Avaliação de versão preliminar
 
 > [!IMPORTANT]
 > Apenas uma pessoa, o administrador do locatário, em uma organização precisa executar esta tarefa. Se você não for o assinante dessa versão, espere até que sua organização se inscreva e você receba suas credenciais de usuário.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – avaliação da versão preliminar 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Avaliação da versão preliminar do Dynamics 365 Project Operations (CRM) 
 
 Antes de começar, verifique se está conectado a um navegador com a conta de trabalho do usuário no locatário em que deseja ter a versão preliminar do Project Operations.
 
-1. Resgate o primeiro código de oferta, **Dynamics 365 Project Operations (CRM) - avaliação de versão preliminar** colando-o na URL do navegador.
+1. Resgate o primeiro código da oferta, **Dynamics 365 Project Operations (CRM) – Avaliação da versão preliminar** colando-o na URL do navegador.
 
 ![Resgatar Oferta](./media/16RedeemFirstOfferNew.png)
 
@@ -75,7 +77,7 @@ Repita as mesmas etapas com a última oferta do email de boas-vindas.
 
 ![Atribuir Licenças](./media/15AssignLicenses.png)
 
-3. Verifique se as licenças **Versão Preliminar do Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations - versão preliminar** foram selecionadas e selecione **Salvar alterações**.
+3. Verifique se a **Versão preliminar do Dynamics 365 Project Operations (CRM)** e a licença da **Versão preliminar do Project Operations do Office 365** foi selecionada e selecione **Salvar alterações**.
 
 > [!NOTE]
 > A oferta de avaliação do Finance não precisa ser atribuída a um usuário.

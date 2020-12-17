@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121159"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642943"
 ---
 # <a name="provision-a-new-environment"></a>Provisionar um novo ambiente
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico fornece informações sobre como provisionar um novo ambiente do Dynamics 365 Project Operations para cenários baseados em recursos/sem estoque.
 
@@ -120,7 +122,7 @@ A manutenção do ambiente levará algum tempo. Após a conclusão, o ambiente r
 
 ![Aplicar Soluções](./media/13ApplySolutions.png)
 
-5. Selecione ambas as soluções, **Mapa de Entidades de Gravação Dupla do Dynamics 365 Finance and Operations** e **Mapas de Entidades de Gravação Dupla do Dynamics 365 Project Operations** e selecione **Aplicar**.
+5. Selecione ambas as soluções, **Mapa de entidade de gravação dupla do Dynamics 365 Finance and Operations** e **Mapas de entidades de gravação dupla do Dynamics 365 Project Operations** e selecione **Aplicar**.
 
 ![Confirmar Soluções](./media/14ConfirmSolutions.png)
 
@@ -159,7 +161,8 @@ A atualização levará aproximadamente 20 minutos. Você receberá um alerta qu
 | **Mapa de Entidade** | **Atualizar entidade** | **Sincronização inicial** | **Mestre para sincronização inicial** | **Executar pré-requisitos** | **Sincronização inicial dos pré-requisitos** |
 | --- | --- | --- | --- | --- | --- |
 | **Funções de Recursos do Projeto para Todas as Empresas (bookableresourcecategories)** | No | Sim | Common Data Service | No | N/A |
-| **Entidades legais (cdm\_companies)** | No | Sim | Aplicativos Finance and Operations | No | N/A |
+| **Entidades legais (cdm\_companies)** | No | Sim | Aplicativos do Finance and Operations | No | N/A |
+| **Contabilidade (msdyn_ledgers)** | No | Sim | Aplicativos do Finance and Operations | Sim | Sim, aplicativos do Finance and Operations |
 | **Valores reais da integração do Project Operations (msdyn\_actuals)** | No | No | N/A | Sim | No |
 | **Linhas de contrato do projeto (salesorderdetails)** | No | No | N/A | No | No |
 | **Entidade de integração para relacionamentos de transações do projeto (msdyn\_transactionconnections)** | No | No | N/A | No | N/A |

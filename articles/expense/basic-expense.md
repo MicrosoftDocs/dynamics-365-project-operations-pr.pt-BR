@@ -3,17 +3,17 @@ title: Entrada de despesa (lite)
 description: Este tópico fornece informações sobre como trabalhar com entrada de despesa em uma implantação lite.
 author: stsporen
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 11/19/2020
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d87094882751f0751a8d9d539fa4cdcfc6b7b0d7
+ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121069"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4590932"
 ---
 # <a name="expense-entry-lite"></a>Entrada de despesa (lite)
 
@@ -21,7 +21,7 @@ _**Aplica-se a:** Implantação lite - gerenciar faturamento pro forma_
 
 Básico ou lite, o gerenciamento de despesas é o recurso usado para registrar despesas simples. Você pode registrar despesas em um projeto e, em seguida, o aprovador do projeto revisará e aprovará essas despesas.
 
-Para obter mais informações sobre os recursos de despesas no Dynamics 365 Project Operations, consulte [Visão geral de despesas](expense-overview.md).
+Para obter mais informações sobre recursos de despesas no Dynamics 365 Project Operations, consulte [Visão geral de despesas](expense-overview.md).
 
 ## <a name="capture-a-basic-expense"></a>Capturar uma despesa básica
 
@@ -36,6 +36,10 @@ Quando tiver capturado todas as suas despesas e estiver pronto para aprová-las,
 
 1. Vá para **Despesas** e selecione uma despesa. Ou, selecione todas as despesas usando a caixa de seleção no cabeçalho.
 2. Selecione **Enviar**. O sistema processa as entradas selecionadas e depois cria solicitações de aprovação de despesas.
+
+## <a name="add-an-attachment"></a>Adicionar um anexo
+
+Você pode ter que fornecer documentação adicional sobre sua despesa ao aprovador. Você pode anexar um recibo na linha do tempo da entrada de despesa. Selecione **Editar** e na **Linha do tempo**, selecione o ícone de clipe de papel para anexar o recibo.
 
 ## <a name="recall-a-basic-expense"></a>Recuperar uma despesa básica
 
