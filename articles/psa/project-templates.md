@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fd618e15524c5cef5b6da9b282f449e3dfb7973
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122990"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148044"
 ---
 # <a name="project-templates"></a>Modelos de projeto 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -50,7 +52,7 @@ Há várias maneiras de criar um projeto com base em um modelo:
 > ![Caixa de diálogo Criação Rápida: Projeto](media/project-11.png)
 
 - Ao criar um projeto selecionando **Novo Projeto**, a página **Projeto** será exibida antes do salvamento do registro. No campo **Escolher um Modelo**, selecione um dos modelos de projeto predefinidos na organização.
-- Use **Criar Projeto com base em um Modelo** na página **Entidade de Modelo** .
+- Use **Criar Projeto com base em um Modelo** na página **Entidade de Modelo**.
 
 ## <a name="copying-components-of-template-to-project"></a>Copiar componentes de um modelo para um projeto
 

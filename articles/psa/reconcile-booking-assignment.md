@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f5255b4aa2c6c8b7fa7320da2e10b2ed23a88fdd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9528bd983e6e18197138f0720abccdc6d6fa1ed5
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4120439"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147909"
 ---
 # <a name="reconcile-bookings-and-assignments"></a>Reconciliar reservas e atribuições
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -57,7 +59,7 @@ Clique duas vezes em uma célula para ampliar o próximo nível inferior e visua
 
 ![Reservas e atribuições incompatíveis no nível semanal](media/reconcile-assignments-02.JPG)
 
-Você pode clicar com o botão direito do mouse em uma célula para reduzir o próximo nível superior. Também é possível desativar o indicador de células selecionando o botão **Configurações** . 
+Você pode clicar com o botão direito do mouse em uma célula para reduzir o próximo nível superior. Também é possível desativar o indicador de células selecionando o botão **Configurações**. 
 
 Além disso, você pode usar os botões **Voltar** e **Avançar** acima da grade para navegar entre quaisquer diferenças no seu projeto. Para usar esses botões, primeiro selecione um recurso. Selecione **Avançar** para navegar até a próxima diferença entre reservas e atribuições desse recurso. Selecione **Voltar** para ir até a diferença anterior.
 
