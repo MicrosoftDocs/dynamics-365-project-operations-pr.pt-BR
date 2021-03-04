@@ -3,6 +3,7 @@ title: Por que o preço padrão está sendo definido como zero nos dados reais d
 description: Estas três verificações ajudarão você a solucionar problemas do preço padrão definido como zero nos dados reais de vendas de despesas.
 author: rumant
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8c2270b07b6f8765a6ec1f506fe1767a1841950b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d4910d3727085a45036f3b438ecd69abc3e99836
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122059"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146289"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-sales-actuals"></a>Por que o preço padrão está sendo definido como zero nos dados reais de vendas de despesas?
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -35,7 +38,7 @@ Estas Perguntas frequentes se aplicam a dados reais de despesas em que a classe 
 
 Localize o projeto no campo de projeto dos dados reais e vá para a página do projeto. Vá para a guia Vendas. Na grade Linhas de contrato do projeto, clique no link do campo Contrato do projeto. A página Contrato do projeto abrirá. Na página Contrato do projeto, vá para a guia Listas de preços do projeto. Verifique se há pelo menos uma lista de preços anexada.
 
-Se não houver nenhuma lista de preços anexada à grade Listas de preços do projeto do Contrato do projeto, faça o seguinte:
+Se não houver nenhuma lista de preços anexada à grade Listas de preços do projeto do Contrato do projeto:
 
 - Anexe uma lista de preços à grade Listas de preços do projeto. As listas de preços que podem ser anexadas deverão ter campo de contexto definido como Vendas, e o campo de moeda na lista de preços deve corresponder ao campo de moeda no Contrato do projeto. Depois que você fizer as correções necessárias, recrie uma entrada de despesa, aprove-a e verifique se os dados reais de vendas não cobradas mostram um preço válido.
 - Caso tenha uma ou mais listas de preços anexadas à grade Listas de preços do projeto do Contrato do projeto, vá para a verificação 2.
@@ -47,7 +50,7 @@ Para que o Project Service considere uma lista de preços para definir o preço 
 - Comece verificando se as datas de início e de término na guia geral para as listas de preços anexadas não estão vazias. Se as datas de início e de término nas listas de preços identificadas acima estão vazias, você isolou o problema. 
 - Crie uma anotação do campo de data de início nos dados reais de vendas de despesas e verifique se as listas de preços identificadas são aplicáveis para essa data. Por exemplo, a data dos dados reais de despesas deve estar entre a data de início e a data de término na lista de preços. 
     - Se não houver nenhuma lista de preços que cubra essa data nos dados reais de vendas de despesas, você isolou o problema. Modifique as datas de início e de término da lista de preços para garantir que a lista de preços cubra a data dos dados reais de despesas. 
-    - Se houver mais de uma uma lista de preços que cubra a data nos dados reais de vendas de despesas, você isolou o problema. É possível corrigir isso editando as datas de início e de término das listas de preços para que haja apenas uma lista de preços que cubra a data dos dados reais de despesas. 
+    - Se houver mais de uma uma lista de preços que cubra a data nos dados reais de vendas de despesas, você isolou o problema. Edite as datas de início e de término das listas de preços para que haja apenas uma lista de preços que cubra a data dos dados reais de despesas. 
     - Se houver apenas uma lista de preços que cubra a data dos dados reais de despesas, prossiga para a verificação 3.
 Depois que você fizer as correções necessárias, recrie uma entrada de despesa, aprove-a e verifique se os dados reais de vendas não cobradas mostram um preço válido.
 
@@ -55,7 +58,7 @@ Depois que você fizer as correções necessárias, recrie uma entrada de despes
 
 Se você tiver concluído a verificação 1 e 2, é necessário ter apenas uma lista de preços do projeto que seja aplicável para a data dos dados reais de vendas de despesas. Abra essa Lista de preços do projeto e vá para a guia Preços de categorias. Verifique se há uma linha na grade para a categoria de despesa específica dos dados reais de despesa.
  
-- Se não houver nenhuma linha, você isolou o problema. Crie uma linha na grade de preços Categoria para a categoria nos dados reais de despesas. Depois que você fizer isso, recrie uma entrada de despesa, aprove-a e verifique se os dados reais de vendas não cobradas mostram um preço válido. 
+- Se não houver nenhuma linha, você isolou o problema. Crie uma linha na grade de preços Categoria para a categoria nos dados reais de despesas. Em seguida, recrie uma entrada de despesa, aprove-a e verifique se os dados reais de vendas não cobradas mostram um preço válido. 
 - Se houver uma linha para a categoria de despesa na grade de preços da categoria, verifique se há um preço válido.
 
 Para entender o que é um preço válido, use estes métodos:

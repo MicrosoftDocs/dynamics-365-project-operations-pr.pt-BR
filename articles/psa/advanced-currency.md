@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 61ca37db59b7d25478434c2376e3a987afd4972d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123364"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145659"
 ---
 # <a name="multiple-currency-scenarios"></a>Cenários de várias moedas
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -38,7 +40,7 @@ Por exemplo, a unidade Cabral US vendeu 100 camisetas a um cliente no Reino Unid
 
 | Produto | Quantidade | Preço por unidade | Moeda | Quantidade | Taxa de câmbio | Preço por unidade (Base)| Valor (Base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
-| Camiseta | 100      | 15             | GBP      | 1500   | 0.94          | US$ 17.25.               | US$ 1.725       |
+| Camiseta | 100      | 15             | GBP      | 1500   | 0.94          | US$ 17,25.               | US$ 1.725       |
 
 A coluna **Moeda** mostra a moeda da transação, que é a moeda em que a venda ocorreu. A coluna **Taxa de câmbio** é a taxa de câmbio entre a moeda da transação e a moeda base. A moeda base é dólar americano (USD). Essa moeda base foi configurada quando a instância do Dynamics 365 foi provisionada.
 Como mostrado na tabela, cada transação é registrada na moeda de transação e na moeda base. O Dynamics 365 usa a taxa de câmbio para calcular os valores da moeda base.
