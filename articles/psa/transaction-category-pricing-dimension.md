@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0019571a1d37d3b6a503e7221db3c3b51365c236
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00214aa2b514da71b331073cd0eeb5320c03e7d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071512"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150744"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Usar categoria de transação como uma dimensão de precificação
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Este tópico mostra como usar uma categoria de transação como uma dimensão de precificação. Antes de começar, se você ainda não criou uma solução de dimensão de precificação, será necessário criar uma. Se você já possui uma solução de dimensão de precificação, poderá fazer suas alterações nessa solução. Se você não criou uma solução de dimensão de precificação para sua organização, conclua os procedimentos no tópico [Criar campos e entidades personalizados](create-custom-fields-entities.md).
 
 ## <a name="add-transaction-category-to-forms-and-views"></a>Adicionar categoria de transação a formulários e exibições
@@ -47,6 +50,6 @@ A tabela a seguir é uma lista abrangente de formulários e exibições prontos 
 ## <a name="set-up-transaction-category-as-a-pricing-dimension"></a>Configurar categoria de transação como uma dimensão de precificação
 
 1. Na interface da Web, vá para **Project Service** > **Configurações** > **Parâmetros**. 
-2. Na página **Parâmetros** , na guia **Dimensões de Preço Baseadas em Valor** , observe que a grade na guia mostra os registros na entidade **Dimensões de Precificação**.
+2. Na página **Parâmetros**, na guia **Dimensões de Preço Baseadas em Valor**, observe que a grade na guia mostra os registros na entidade **Dimensões de Precificação**.
 3. Adicione **Categoria da Transação** a essa lista e defina os campos **Aplicável ao Custo** e **Aplicável às Vendas** como **Sim**.
-4. No campo **Tipo de Dimensão** , selecione **Baseado em Valor** e depois escolha a prioridade para **Categoria da Transação** relacionada a custo e vendas.
+4. No campo **Tipo de Dimensão**, selecione **Baseado em Valor** e depois escolha a prioridade para **Categoria da Transação** relacionada a custo e vendas.

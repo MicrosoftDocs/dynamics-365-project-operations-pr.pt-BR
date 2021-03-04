@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 515a2e2e518614884b414ca43702e8bfea2c6919
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071469"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151284"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de preço e custo
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 As dimensões usadas para definir os preços e custos de mão de obra em organizações baseadas em projetos são influenciadas pelos seguintes atributos:
 
@@ -38,7 +40,7 @@ Devido à natureza típica desses atributos do trabalho e as pessoas necessária
 
 ## <a name="pricing-dimensions"></a>Dimensões de preço
 
-O PSA apresenta um conjunto padrão de dimensões de preço. É possível exibi-las acessando **Project Service** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de preço baseadas em valor** , verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Isso permitirá configurar o preço e o custo para cada combinação de função e unidade organizacional.
+O PSA apresenta um conjunto padrão de dimensões de preço. É possível exibi-las acessando **Project Service** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de preço baseadas em valor**, verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Isso permitirá configurar o preço e o custo para cada combinação de função e unidade organizacional.
 
 ![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque](media/PS-OOB-parameters.png)
 
@@ -55,7 +57,7 @@ Se precisar precificar ou colocar custo para seus recursos usando atributos adic
 ## <a name="pricing-human-resource-time"></a>Precificação do tempo do recurso humano
 Como uma organização precifica o tempo do recurso humano, às vezes, é uma consideração estratégica importante que afeta diretamente a lucratividade da organização. Trabalhe com as equipes e líderes financeiros quando sua organização estiver pronta para identificar como ela quer configurar tarifas de cobrança e custo para tempo do recurso humano.
 
-Outras considerações para preço incluem considerar a reutilização de campos ou entidades que atualmente não são dimensões de preço, mas são aplicados como uma dimensão de preço para sua organização. Campos como **Categoria de Transação** ( **msdyn_transactioncategory** ) e **Recurso Reservável** ( **bookableresource** ) são exemplos de dimensões candidatas. 
+Outras considerações para preço incluem considerar a reutilização de campos ou entidades que atualmente não são dimensões de precificação, mas são aplicados como uma dimensão de preço para sua organização. Campos como **Categoria de Transação** (**msdyn_transactioncategory**) e **Recurso Reservável** (**bookableresource**) são exemplos de dimensões candidatas. 
 
 Considere se sua dimensão de preço deve ser uma tabela ou um conjunto de opções. Se houver previsão de alterações nos valores de uma dimensão que excedam 10 ou 12, e forem necessários atributos adicionais nesses valores, crie uma entidade em vez de um conjunto de opções. Manter um conjunto de opções, como adição ou remoção de valores, exige um administrador ou desenvolvedor, enquanto a adição de novas linhas a uma tabela pode ser feita por qualquer usuário empresarial.
 

@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8107a660f9993c7b6a32d69047a81fb7e0abef8
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0855e85c1f09d29d3ecb49ba517fd3043ae11140
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071492"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151374"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Faturando no Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -44,11 +46,11 @@ As faturas do projeto podem ser criadas uma a uma ou em massa. Também é possí
 
 ### <a name="manually-create-project-invoices-in-psa"></a>Criar manualmente faturas do projeto no PSA
 
-Na página de lista **Contratos do Projeto** , é possível criar faturas do projeto separadamente para cada contrato de projeto ou criar faturas em massa para vários contratos de projeto.
+Na página de lista **Contratos do Projeto**, é possível criar faturas do projeto separadamente para cada contrato de projeto ou criar faturas em massa para vários contratos de projeto.
 
 Siga esta etapa a fim de criar uma fatura para um contrato de projeto específico.
 
-- Na página de lista **Contratos de Projeto** , abra um contrato de projeto e selecione **Criar Fatura**.
+- Na página de lista **Contratos de Projeto**, abra um contrato de projeto e selecione **Criar Fatura**.
 
     ![Criando faturas do projeto para um contrato de projeto específico](media/CreateProjectInvoicesOneByOne.png)
 
@@ -56,7 +58,7 @@ Siga esta etapa a fim de criar uma fatura para um contrato de projeto específic
 
 Siga estas etapas para criar faturas em massa.
 
-1. Na página de lista **Contratos de Projeto** , selecione um ou mais contratos de projeto para os quais você deve criar uma fatura e selecione **Criar Faturas do Projeto**.
+1. Na página de lista **Contratos de Projeto**, selecione um ou mais contratos de projeto para os quais você deve criar uma fatura e selecione **Criar Faturas do Projeto**.
 
     ![Criando faturas de projeto em massa](media/CreateProjectInvoicesBulk.png)
 
@@ -74,8 +76,8 @@ Siga estas etapas para configurar uma fatura automatizada no PSA.
 
 1. Vá para **Project Service** \> **Configurações** \> **Trabalhos em lote**.
 2. Crie um trabalho em lote e denomine-o **Criação de Faturas no PSA**. O nome do trabalho em lote deve incluir o termo "Criar Faturas".
-3. No campo **Tipo de trabalho** , selecione **Nenhum**. Por padrão, as opções **Frequência Diária** e **Está Ativo** são definidas como **Sim**.
-4. Selecione **Executar Fluxo de Trabalho**. Na caixa de diálogo **Pesquisar Registro** , você verá três fluxos de trabalho:
+3. No campo **Tipo de trabalho**, selecione **Nenhum**. Por padrão, as opções **Frequência Diária** e **Está Ativo** são definidas como **Sim**.
+4. Selecione **Executar Fluxo de Trabalho**. Na caixa de diálogo **Pesquisar Registro**, você verá três fluxos de trabalho:
 
     - ProcessRunCaller
     - ProcessRunner
@@ -84,11 +86,11 @@ Siga estas etapas para configurar uma fatura automatizada no PSA.
 5. Selecione **ProcessRunCaller** e selecione **Adicionar**.
 6. Na próxima caixa de diálogo, selecione **OK**. Um fluxo de trabalho **Suspender** é seguido por um fluxo de trabalho **Processar**.
 
-    Também é possível selecionar **ProcessRunner** na etapa 5. Em seguida, quando você selecionar **OK** , um fluxo de trabalho **Processar** é seguido por um fluxo de trabalho **Suspender**.
+    Também é possível selecionar **ProcessRunner** na etapa 5. Em seguida, quando você selecionar **OK**, um fluxo de trabalho **Processar** é seguido por um fluxo de trabalho **Suspender**.
 
 Os fluxos de trabalho **ProcessRunCaller** e **ProcessRunner** criam faturas. **ProcessRunCaller** chama **ProcessRunner**. **ProcessRunner** é o fluxo de trabalho que de fato cria as faturas. Ele passa por todas as linhas de contrato para as quais as faturas devem ser criadas e cria faturas para essas linhas. A fim de determinar as linhas de contrato para as quais as faturas devem ser criadas, o trabalho examina as datas de execução de fatura das linhas de contrato. Se as linhas de contrato que pertencem a um contrato tiverem a mesma data de execução de fatura, as transações serão combinadas em uma fatura que tenha duas linhas de fatura. Se não houver transações para as quais criar faturas, o trabalho pulará a etapa de criação de fatura.
 
-Quando **ProcessRunner** termina de ser executado, ele chama **ProcessRunCaller** , fornece a hora de término e é fechado. **ProcessRunCaller** então inicia um timer que é executado por 24 horas a partir da hora de término especificada. Ao fim do timer, **ProcessRunCaller** é fechado.
+Quando **ProcessRunner** termina de ser executado, ele chama **ProcessRunCaller**, fornece a hora de término e é fechado. **ProcessRunCaller** então inicia um timer que é executado por 24 horas a partir da hora de término especificada. Ao fim do timer, **ProcessRunCaller** é fechado.
 
 O trabalho do processo em lote para criação de faturas é um trabalho recorrente. Se esse processo em lote for executado muitas vezes, várias instâncias do trabalho serão criadas e causarão erros. Portanto, você deve iniciar o processo em lote apenas uma vez, assim como deve reiniciá-lo apenas se a execução for interrompida.
 
@@ -103,7 +105,7 @@ Quando você cria um rascunho da fatura do projeto, todas as transações de ven
 - Editar e ajustar a quantidade e o tipo de cobrança.
 - Adicionar diretamente tempo, despesa e tarifas como transações na fatura. Você pode usar esse recurso se a linha da fatura for mapeada para uma linha de contrato que permite essas classes de transação.
 
-Selecione **Confirmar** para confirmar uma fatura. A ação Confirmar é uma ação unidirecional. Quando você seleciona **Confirmar** , o sistema torna a fatura somente leitura e cria dados reais de vendas cobradas de cada detalhe de linha de fatura para cada linha de fatura. Se os detalhes da linha da fatura fizerem referência a dados reais de vendas não cobradas, o sistema também reverterá os dados reais de vendas não cobradas. (Todos os detalhes da linha da fatura que foram criados de uma entrada de tempo ou despesa farão referência a dados reais de vendas não cobradas.) Os sistemas de integração de contabilidade podem usar essa reversão para reverter o WIP (trabalho em andamento) do projeto para fins de contabilidade.
+Selecione **Confirmar** para confirmar uma fatura. A ação Confirmar é uma ação unidirecional. Quando você seleciona **Confirmar**, o sistema torna a fatura somente leitura e cria dados reais de vendas cobradas de cada detalhe de linha de fatura para cada linha de fatura. Se os detalhes da linha da fatura fizerem referência a dados reais de vendas não cobradas, o sistema também reverterá os dados reais de vendas não cobradas. (Todos os detalhes da linha da fatura que foram criados de uma entrada de tempo ou despesa farão referência a dados reais de vendas não cobradas.) Os sistemas de integração de contabilidade podem usar essa reversão para reverter o WIP (trabalho em andamento) do projeto para fins de contabilidade.
 
 ### <a name="correct-a-confirmed-psa-invoice"></a>Corrigir uma fatura confirmada do PSA
 

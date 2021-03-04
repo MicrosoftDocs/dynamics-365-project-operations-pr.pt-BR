@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3dc87a66a4b881a06f2b888c26d9dfaefb419f16
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e1ceb7ea5484a1d099c4709eda48d34ecd9bac2e
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131330"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151599"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>Métodos de alocação de reserva em Project Service Automation
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Independentemente de adicionar um membro da equipe diretamente a um projeto na guia **Equipe**, ou de reservar um recurso para um projeto ou requisito no Quadro de Agendamento, há alguns métodos diferentes para reservar a alocação que você pode usar. Este tópico explica como cada método funciona e quais métodos podem levar à reserva em excesso de recursos.
 
