@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 35a76cad8c6ddaa84038746ace6a7e1e5623388f
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071573"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960053"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Exibir um relatório de despesas da Contabilidade ou de Aquisição e fornecimento
-
-[!include [banner](../includes/banner.md)]
 
 Quando você executa uma consulta para exibir as transações em Contabilidade ou Aquisição e fornecimento, a consulta pode retornar muitas informações. Portanto, você pode querer restringir sua pesquisa. Para obter as informações de que você precisa, você pode detalhar uma transação para ver o relatório de despesas em que ela apareceu.
 

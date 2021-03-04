@@ -3,17 +3,18 @@ title: Provisionar um novo ambiente
 description: Este tópico fornece informações sobre como provisionar um novo ambiente do Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/11/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642943"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727776"
 ---
 # <a name="provision-a-new-environment"></a>Provisionar um novo ambiente
 
@@ -60,17 +61,15 @@ Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do
 
 ![Consentimento de Implantação](./media/2DeploymentConsent.png)
 
-7. Preencha os campos obrigatórios restantes no assistente e confirme a implantação. O tempo de provisionamento do ambiente varia de acordo com o tipo de ambiente. O provisionamento pode levar até seis horas.
+7. Opcional - Aplique dados de demonstração ao ambiente. Vá para **Configurações avançadas**, selecione **Personalizar a configuração do banco de dados SQL** e defina **Especificar um conjunto de dados para o banco de dados do aplicativo** como **Demonstração**.
+
+8. Preencha os campos obrigatórios restantes no assistente e confirme a implantação. O tempo para provisionar o ambiente varia de acordo com o tipo de ambiente. O provisionamento pode levar até seis horas.
 
   Depois que a implantação for concluída com sucesso, o ambiente será exibido como **Implantado**.
 
-8. Para confirmar se o ambiente foi implantado com sucesso, selecione **Logon** e faça logon no ambiente para confirmar.
+9. Para confirmar que o ambiente foi implantado com sucesso, selecione **Entrar** e faça login no ambiente para confirmar.
 
 ![Detalhes do ambiente do ](./media/3EnvironmentDetails.png)
-
-## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Aplicar no Project Operations os dados de demonstração do Finance (etapa opcional)
-
-Aplique no Project Operations os dados de demonstração do Finance ao ambiente hospedado na nuvem da versão de serviço 10.0.13, conforme descrito [neste artigo](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplicar atualizações ao ambiente do Finance
 
@@ -151,6 +150,21 @@ Depois que as entidades forem aplicadas, todos os mapeamentos disponíveis serã
 A atualização levará aproximadamente 20 minutos. Você receberá um alerta quando ela for concluída.
 
 ![Atualizar Confirmação](./media/19RefreshConfirmation.png)
+
+## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Atualizar as configurações de segurança nas Project Operations no Dataverse
+
+1. Vá para o Project Operations no seu ambiente do Dataverse. 
+2. Vá para **Configurações** > **Segurança** > **Direitos de Acesso**. 
+3. Na página **Direitos de acesso**, na lista de direitos, selecione **usuário de aplicativo de gravação dupla** e selecione a guia **Entidades personalizadas**.  
+4. Verifique se o direito tem permissões para **Ler** e **Anexar a** para:
+      
+      - **Tipo da taxa de câmbio de moeda**
+      - **Tabela de contas**
+      - **Calendário fiscal**
+      - **Razão**
+
+5. Depois que o direito de acesso for atualizado, vá para **Configurações** > **Segurança** > **Equipes** e selecione a equipe padrão na exibição de equipe **Proprietário de empresa local**.
+6. Selecione **Gerenciar funções** e verifique se o privilégio de segurança **usuário de aplicativo de gravação dupla** está aplicado a essa equipe.
 
 ## <a name="run-project-operations-dual-write-maps"></a>Executar Mapas de Gravação Dupla do Project Operations
 

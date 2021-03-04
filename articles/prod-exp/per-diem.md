@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 537a50f5bc10a0293ed70ba6dc769a09ec6287f5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 177e0a6f676000c148346f7f7b7a2391326bc78b
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071578"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960008"
 ---
 # <a name="per-diem-rules"></a>Regras de diária
-
-[!include [banner](../includes/banner.md)]
 
 Uma *diária* é um subsídio pago a um trabalhador que viaja a trabalho. Em Gerenciamento de despesas, você pode criar regras de diária para várias situações de viagem. As taxas de diária podem ser baseadas na época do ano, no local da viagem ou em ambos. Ao criar uma regra de diária, você pode especificar que uma porcentagem da taxa da diária será retida se um funcionário receber refeições ou serviços complementares. Você também pode definir um número mínimo e máximo de horas que a taxa da diária pode aplicar à viagem de um funcionário.
 

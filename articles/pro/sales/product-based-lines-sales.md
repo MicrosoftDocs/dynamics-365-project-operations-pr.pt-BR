@@ -5,24 +5,26 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd32bedb94cf36f706c112a845f342d9dde19805
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: b826bf3a1320eee2758af7a094e9f1c2eac6a119
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176302"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764940"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Linhas de oportunidade baseadas em produto - lite
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-As linhas de oportunidade baseadas em produto são itens de linha na Oportunidade. Essas linhas são entregues ao cliente como itens de linha distintos na fatura eventual, sem quaisquer outros serviços de valor agregado. O gasto e o consumo associados não são controlados nas tarefas de qualquer projeto relacionado.
+As linhas de oportunidade baseadas em produto são itens de linha na Oportunidade. Esses itens de linha distintos estão na eventual fatura fornecida ao cliente. A fatura não inclui qualquer outro serviço. O gasto e o consumo associados não são controlados nas tarefas de qualquer projeto relacionado.
 
 As linhas baseadas em produtos podem ser itens de catálogo ou produtos escritos. A maior parte da funcionalidade nas linhas baseadas no produto de uma Oportunidade segue a funcionalidade fornecida pelo aplicativo Dynamics 365 Sales. Para obter mais informações sobre linhas de oportunidade baseadas em produtos, consulte [Adicione produtos a uma oportunidade](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
 
-As linhas de oportunidade baseadas em produto utilizam um conceito que é específico de oportunidades baseadas em projeto, que é o **Orçamento do cliente**. Use este campo para controlar o valor que o cliente está disposto a pagar pelo item de linha.
+**Orçamento do cliente** é um conceito específico para linhas de oportunidade baseadas em projeto. O campo **Orçamento do cliente** rastreia o valor que o cliente está disposto a pagar pelo item.
 
-Se o método de receita do resumo da oportunidade for definido como **Calculado pelo sistema**, os valores do orçamento do cliente nas linhas baseadas em produto e projeto são resumidos para calcular a receita estimada.
+Quando o método de receita do resumo da oportunidade é **Sistema Calculado**, os valores de orçamento do cliente nas linhas de oportunidade são resumidos para calcular a receita estimada. 
+
