@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071497"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144849"
 ---
 # <a name="create-custom-fields-and-entities"></a>Criar campos e entidades personalizados 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Conclua as etapas a seguir sempre que quiser criar uma entidade ou um conjunto de opções personalizado na plataforma Power Apps.  
 Os procedimentos neste tópico devem ser concluídos usando a interface da Web do PSA (Project Service Automation).
@@ -64,7 +66,7 @@ Você pode criar duas dimensões baseadas em conjunto de opções. Use **Local d
 Você pode criar dados para dimensões baseadas em entidade manualmente, ou usando a importação ou as chamadas de serviço do Microsoft Excel. Use as etapas neste procedimento para criar dois cargos padrões, **Engenheiro de Sistemas** e **Engenheiro de Sistemas Sênior** na dimensão baseada em entidade, **Cargo Padrão**. Se os dados que quiser criar forem pequenos, como no exemplo a seguir, você poderá usar um formulário padrão.
 
 1. No PSA, clique em **Localização Avançada**. Selecione a entidade **Cargo Padrão** e clique em **Resultados**. Todas as linhas na entidade **Cargo Padrão** serão mostradas.
-2. Clique em **Novo**. No campo **Nome** , insira "Engenheiro de Sistemas" e clique em **Salvar**.
+2. Clique em **Novo**. No campo **Nome**, insira "Engenheiro de Sistemas" e clique em **Salvar**.
 3. Feche o formulário. 
 4. Repita as etapas de 1 a 3 para criar outro cargo padrão para "Engenheiro de Sistemas Sênior".
 

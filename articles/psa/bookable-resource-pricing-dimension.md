@@ -17,14 +17,17 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8a5c643745d8e10887965228da7abd8f56228006
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071527"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144984"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Usar recurso reservável como uma dimensão de preço
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 Este tópico fornece informações sobre como usar um recurso reservável como uma dimensão de preço. Antes de começar, se você ainda não criou uma solução de dimensão de precificação, será necessário criar uma. Se você já possui uma solução de dimensão de precificação, poderá fazer suas alterações nessa solução. Se você não criou uma solução de dimensão de precificação para sua organização, conclua os procedimentos no tópico [Criar campos e entidades personalizados](create-custom-fields-entities.md).
 
 ## <a name="add-bookable-resource-to-forms-and-views"></a>Adicionar recurso reservável a formulários e exibições
@@ -48,18 +51,18 @@ Abra o Gerenciador de Soluções para a solução de dimensão de preço e cliqu
 
 ## <a name="set-up-bookable-resource-as-a-pricing-dimension"></a>Configurar recurso reservável como uma dimensão de preço
 
-1. Na interface da Web, vá para **Project Service** > **Configurações** > **Parâmetros**. Na página **Parâmetro** , na guia **Dimensões de Preço Baseadas em Valor** , observe que a grade na guia mostra os registros na entidade de dimensões de preço. 
+1. Na interface da Web, vá para **Project Service** > **Configurações** > **Parâmetros**. Na página **Parâmetro**, na guia **Dimensões de Preço Baseadas em Valor**, observe que a grade na guia mostra os registros na entidade de dimensões de preço. 
 2. Adicione **Recurso Reservável** a essa lista de dimensões de preço como **msdyn_bookableresource**. 
 3. Indique o contexto no qual o recurso reservável funciona como uma dimensão de preço e defina os valores de **Aplicável ao custo** e **Aplicável a vendas**.
-4. No campo **Tipo de Dimensão** , selecione **Baseado em Valor**. 
+4. No campo **Tipo de Dimensão**, selecione **Baseado em Valor**. 
 5. Selecione a prioridade de vendas e custo para o recurso reservável. Normalmente, quando incluído como uma dimensão de preço, um recurso reservável tem a prioridade mais alta, de modo que definir esse valor para **1** (ou **0** dependendo de como você conta a prioridade) garantiria esse comportamento.
 
 ## <a name="set-up-pricing-dimension-field-names"></a>Configurar nomes de campo de dimensão de preço
 
 Quando o nome do campo de uma dimensão de preço na tabela **Preço da Função** for diferente do seu nome de campo em qualquer uma das outras entidades onde a padronização de preço precisa funcionar, o registro de dimensão de preço deve estar ciente dos nomes diferentes.    
-Para recurso reservável, a entidade **Membros da Equipe do Projeto** tem um nome de campo ligeiramente diferente ( **msdyn_bookableresourceid** ) do que é chamado na entidade **Preço da função** ( **msdyn_bookableresource** ). O registro de dimensão de preço para **msydn_bookableresource** deve ser conscientizado disso. 
+Para recurso reservável, a entidade **Membros da Equipe do Projeto** tem um nome de campo ligeiramente diferente (**msdyn_bookableresourceid**) do que é chamado na entidade **Preço da função** (**msdyn_bookableresource**). O registro de dimensão de preço para **msydn_bookableresource** deve ser conscientizado disso. 
 1. Para isso, clique duas vezes na linha da grade **Dimensões de Preço** para abrir a página da dimensão de **msdyn_bookableresource**.
-2. Na página da dimensão, na guia **Relacionado** , clique em **Nomes de Campos da Dimensão de Preço**.
+2. Na página da dimensão, na guia **Relacionado**, clique em **Nomes de Campos da Dimensão de Preço**.
 
  ![Guia Nomes de campos da dimensão de preço](media/PD-fieldname.png)
 

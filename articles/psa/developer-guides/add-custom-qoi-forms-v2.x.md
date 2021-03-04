@@ -16,18 +16,20 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 31986efed81892cc5722cb8f5e292cde14d8843d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071622"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144579"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Adicionar novos formulários de entidade personalizada (Project Service Automation 2.x)
 
+[!include [banner](../../includes/psa-now-project-operations.md)]
+
 ## <a name="type-field"></a>Campo Tipo 
 
-O Dynamics 365 Project Service Automation depende do campo **Tipo** ( **msdyn\_ordertype** ) das entidades Oportunidade, Cotação, Ordem e Fatura para diferenciar versões **baseadas em trabalho** dessas entidades nas versões **baseadas em item** e **baseadas em serviço**. As versões baseadas no local dessas entidades são tratadas pelo PSA. Muito da lógica de negócios no cliente e servidor da solução depende do campo **Tipo**. Portanto, é importante que o campo seja inicializado com um valor correto quando as entidades são criadas. Um valor incorreto pode causar comportamentos incorretos, e alguma lógica de negócios pode não ser executada corretamente.
+O Dynamics 365 Project Service Automation depende do campo **Tipo** (**msdyn\_ordertype**) das entidades Oportunidade, Cotação, Ordem e Fatura para diferenciar versões **baseadas em trabalho** dessas entidades nas versões **baseadas em item** e **baseadas em serviço**. As versões baseadas no local dessas entidades são tratadas pelo PSA. Muito da lógica de negócios no cliente e servidor da solução depende do campo **Tipo**. Portanto, é importante que o campo seja inicializado com um valor correto quando as entidades são criadas. Um valor incorreto pode causar comportamentos incorretos, e alguma lógica de negócios pode não ser executada corretamente.
 
 ## <a name="automatic-form-switching"></a>Alternação automática de formulário
 
@@ -47,7 +49,7 @@ Siga estas etapas para criar uma versão personalizada do formulário **Informa�
     > [!IMPORTANT]
     > Não remova os scripts. Caso contrário, alguns dados podem ser inicializados incorretamente.
 
-3. Verifique se o campo **Tipo** ( **msdyn\_ordertype** ) está presente no formulário. 
+3. Verifique se o campo **Tipo** (**msdyn\_ordertype**) está presente no formulário. 
 
     > [!IMPORTANT]
     > Não remova esse campo. Caso contrário, os scripts de inicialização falharão.

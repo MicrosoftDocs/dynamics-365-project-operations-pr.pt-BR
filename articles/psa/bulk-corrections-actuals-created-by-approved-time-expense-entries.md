@@ -18,14 +18,16 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071604"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144939"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Correções em massa de valores criados por entradas de hora e despesa aprovadas
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 Ocasionalmente, uma entrada de hora ou de despesa pode ser inserida incorretamente. Por exemplo, um consultor pode selecionar a data erada ao criar uma entrada de hora ou pode transpor os números ao inserir uma despesa. Se um consultor não puder atualizar as entradas enviadas, um administrador pode corrigir a entrada de um projeto diretamente.
 
@@ -35,30 +37,30 @@ Para concluir os procedimentos neste tópico, será necessário ter permissões 
 
 Siga as etapas para corrigir uma ou várias entradas de hora de um projeto.
 
-1. Na área **Vendas** , selecione **Transações** e depois selecione **Hora Aprovada**. 
+1. Na área **Vendas**, selecione **Transações** e depois selecione **Hora Aprovada**. 
 
-2. Na lista **Hora Aprovada** , localize e selecione uma ou mais entradas de hora aprovadas para corrigir. Você pode usar o filtro para localizar entradas relacionadas. Por exemplo, você pode filtrar uma ID de Projeto e selecionar todas as horas aprovadas com essa ID de Projeto.
+2. Na lista **Hora Aprovada**, localize e selecione uma ou mais entradas de hora aprovadas para corrigir. Você pode usar o filtro para localizar entradas relacionadas. Por exemplo, você pode filtrar uma ID de Projeto e selecionar todas as horas aprovadas com essa ID de Projeto.
 
 3. Selecione **Corrigir entradas**. Um novo diário de correção é criado automaticamente com o tipo de **Correção de hora** atribuído. As entradas selecionadas são adicionadas ao diário. 
 
-4. Na página **Novo Diário** , insira uma **Descrição** para o diário de correção e selecione a guia **Correções de Entrada de Hora**.  
-5. Na seção **Novos Valores para Entradas de Hora** , atualize os campos com as informações corretas, conforme a necessidade. Por exemplo, é possível alterar o projeto atribuído ou o recurso reservável.
+4. Na página **Novo Diário**, insira uma **Descrição** para o diário de correção e selecione a guia **Correções de Entrada de Hora**.  
+5. Na seção **Novos Valores para Entradas de Hora**, atualize os campos com as informações corretas, conforme a necessidade. Por exemplo, é possível alterar o projeto atribuído ou o recurso reservável.
 
-6. Selecione **Versão Prévia**. Na caixa de diálogo, selecione **OK**. Na guia **Linhas do diário** , é possível visualizar uma lista dos dados reais originais relacionados às entradas de hora selecionadas que foram revertidas e as linhas correspondentes corrigidas que foram criadas. Se forem necessárias correções adicionais, repita as etapas 5 e 6. 
+6. Selecione **Versão Prévia**. Na caixa de diálogo, selecione **OK**. Na guia **Linhas do diário**, é possível visualizar uma lista dos dados reais originais relacionados às entradas de hora selecionadas que foram revertidas e as linhas correspondentes corrigidas que foram criadas. Se forem necessárias correções adicionais, repita as etapas 5 e 6. 
 
 > [!NOTE]
 > Todos os dados reais corrigidos terão os mesmos valores selecionados na seção **Novos valores para Entradas de Hora**.
 
 7. Se as correções aparecerem conforme o esperado, selecione **Confirmar**. Na caixa de diálogo, selecione **OK**.
 
-8. Volte para a área **Vendas** e selecione **Projetos** , depois abra o projeto para o qual atualizou as entradas de hora. 
+8. Volte para a área **Vendas** e selecione **Projetos**, depois abra o projeto para o qual atualizou as entradas de hora. 
 
-9. Na página **Projetos** , na guia **Dados Reais** , exiba as alterações feitas. 
+9. Na página **Projetos**, na guia **Dados Reais**, exiba as alterações feitas. 
 
 > [!NOTE]
 > Se a guia **Dados Reais** não estiver visível, selecione **Relacionados** > **Dados Reais**.  
 
-10. Na lista **Exibição Associada de Dados Reais** , é possível ver que as entradas de hora originais que foram revertidas ainda estão listadas, assim como as entradas de hora corrigidas correspondentes. 
+10. Na lista **Exibição Associada de Dados Reais**, é possível ver que as entradas de hora originais que foram revertidas ainda estão listadas, assim como as entradas de hora corrigidas correspondentes. 
 
 Por exemplo, no gráfico a seguir, há dois itens de linha com uma quantidade igual a 8,00 com débitos listados na coluna Valor. Além disso, há dois itens de linha com uma quantidade igual a -8,00 que mostram quantidades creditadas na coluna Valor. Essas correções definem a quantidade como zero.
 
@@ -68,11 +70,11 @@ Por exemplo, no gráfico a seguir, há dois itens de linha com uma quantidade ig
 
 Siga as etapas para corrigir uma ou mais entradas de despesa. 
 
-1. Na área **Vendas** , no painel de navegação à esquerda, em **Transações** , selecione **Despesas Aprovadas**.
+1. Na área **Vendas**, no painel de navegação à esquerda, em **Transações**, selecione **Despesas Aprovadas**.
 
-2. Na lista **Despesas Aprovadas** , selecione o projeto que deseja corrigir e selecione **Entradas corretas**. Um novo diário de correção será criado automaticamente com o tipo de **Correção de despesa** atribuído. 
+2. Na lista **Despesas Aprovadas**, selecione o projeto que deseja corrigir e selecione **Entradas corretas**. Um novo diário de correção será criado automaticamente com o tipo de **Correção de despesa** atribuído. 
 
-3. Na página **Novo Diário** , insira uma **Descrição** para a correção e, na guia **Correção de Despesa** , na seção **Novos Valores para Despesas** , selecione os campos de dados que deseja corrigir para as linhas de despesa selecionadas. Por exemplo, é possível atribuir a despesa a outro **Projeto** ou corrigir a **Categoria de Despesa** , **Data da Despesa** ou **Recurso Reservável**.
+3. Na página **Novo Diário**, insira uma **Descrição** para a correção e, na guia **Correção de Despesa**, na seção **Novos Valores para Despesas**, selecione os campos de dados que deseja corrigir para as linhas de despesa selecionadas. Por exemplo, é possível atribuir a despesa a outro **Projeto** ou corrigir a **Categoria de Despesa**, **Data da Despesa** ou **Recurso Reservável**.
 
 4. Selecione **Versão Prévia**. Na caixa de diálogo, selecione **OK**. 
 
@@ -85,6 +87,6 @@ Siga as etapas para corrigir uma ou mais entradas de despesa.
 
 7. Depois de confirmar o diário de correção, navegue de volta até os projetos atualizados para exibir as alterações.  
 
-8. Na página do projeto, na guia **Dados Reais** , revise a **Exibição Associada de Dados Reais**. As entradas originais e as entradas corrigidas serão listadas. O gráfico a seguir mostra os valores de entrada de despesa originais e os valores de entrada de despesa correspondentes corrigidos. 
+8. Na página do projeto, na guia **Dados Reais**, revise a **Exibição Associada de Dados Reais**. As entradas originais e as entradas corrigidas serão listadas. O gráfico a seguir mostra os valores de entrada de despesa originais e os valores de entrada de despesa correspondentes corrigidos. 
 
 ![Dados reais de despesa](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)

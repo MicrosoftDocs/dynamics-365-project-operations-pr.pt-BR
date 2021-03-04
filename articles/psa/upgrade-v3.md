@@ -2,6 +2,7 @@
 title: Considerações de upgrade - Microsoft Dynamics 365 Project Service Automation versão 2.x ou 1.x para a versão 3
 description: Este tópico fornece informações sobre as considerações que você deve fazer ao fazer upgrade da versão 2.x ou 1.x para a versão 3 do Project Service Automation.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -17,18 +18,21 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3c51726f71cfd0d4be98982d6a02268d64a70b91
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0c1e07bacb4867254a12436cf3bff58989e117f
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121699"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144134"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerações de atualização - PSA versão 2.x ou 1.x para a versão 3
+
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
 ## <a name="project-service-automation-and-field-service"></a>Project Service Automation e Field Service
-O Dynamics 365 Project Service Automation e o Dynamics 365 Field Service usam a solução URS (Universal Resourcing Scheduling) para agendamento de recursos. Se você tiver o Project Service Automation e o Field Service em sua instância, planeje fazer upgrade das duas soluções para a versão mais recente (versão 3.x para o Project Service Automation, versão 8.x para o Field Service). A atualização do Project Service Automation ou do Field Service instalará a versão mais recente do URS, o que significa que poderá ocorrer um comportamento inconsistente se as soluções Project Service Automation e Field Service na mesma instância não forem atualizadas para a versão mais recente.
+O Dynamics 365 Project Service Automation e o Dynamics 365 Field Service usam a solução URS (Universal Resourcing Scheduling) para agendamento de recursos. Se você tiver o Project Service Automation e Field Service na sua instância, atualize ambas as soluções para a última versão. Para o Project Service Automation, é a versão 3.x. Para o Field Service, é a versão 8.x. A atualização do Project Service Automation ou Field Service instalará a versão mais recente do URS. Se as soluções do Project Service Automation e Field Service na mesma instância não forem atualizadas para a versão mais recente, pode haver algum comportamento inconsistente.
 
 ## <a name="resource-assignments"></a>Atribuições de recursos
 No Project Service Automation versão 2 e versão 1, as atribuições de tarefas eram armazenadas como tarefas filho (também chamadas de tarefas de linha) na **entidade Tarefa** e estavam indiretamente relacionadas à entidade **Atribuição de Recurso**. A tarefa de linha ficava visível na janela pop-up de atribuição da WBS (estrutura de detalhamento de trabalho).
@@ -40,9 +44,9 @@ Na versão 3 do Project Service Automation, o esquema subjacente de atribuição
 Essas alterações causam impacto na atualização dos projetos existentes que possuem atribuições de recursos para recursos reserváveis nomeados e recursos genéricos em uma equipe de projeto. Este tópico descreve as considerações que você deve fazer em relação aos projetos ao atualizar para a versão 3. 
 
 ### <a name="tasks-assigned-to-named-resources"></a>Tarefas atribuídas a recursos nomeados
-Ao usar a entidade de tarefa subjacente, as tarefas na versão 2 e na versão 1 permitem que os membros da equipe desempenhem uma função diferente de suas funções padrão definidas. Por exemplo, Clara Gomes, que recebeu, por padrão, a função de Gerente de Programa, pode receber a atribuição de uma tarefa com a função de Desenvolvedor. Na versão 3, a função dos membros de uma equipe nomeada é sempre o padrão, de modo que qualquer tarefa que seja atribuída a Clara Gomes use sua função padrão de Gerente de Programa.
+Ao usar a entidade de tarefa subjacente, as tarefas na versão 2 e na versão 1 permitem que os membros da equipe desempenhem uma função diferente de suas funções padrão definidas. Por exemplo, Clara Gomes, que recebeu, por padrão, a função de Gerente de Programa, pode receber a atribuição de uma tarefa com a função de Desenvolvedor. Na versão 3, a função dos membros de uma equipe nomeada é sempre o padrão, de modo que qualquer tarefa que seja atribuída a Gracie George use sua função padrão de Gerente de programa.
 
-Se tiver atribuído a um recurso uma tarefa fora de sua função padrão nas versões 2 e 1, ao atualizar, a função padrão será atribuída ao recurso nomeado para todas as atribuições de tarefas, independentemente da atribuição de função na versão 2. Isso resultará em diferenças nas estimativas calculadas da versão 2 ou versão 1 em relação à versão 3, pois as estimativas são calculadas com base na função do recurso, e não na atribuição da tarefa de linha. Por exemplo, na versão 2, duas tarefas foram atribuídas a Vitória Cavalcante. A função na tarefa de linha da tarefa 1 era Desenvolvedor e, na tarefa 2, Gerente de Programa. A função padrão de Vitória Cavalcante é Gerente de Programa.
+Se tiver atribuído a um recurso uma tarefa fora de sua função padrão nas versões 2 e 1, ao atualizar, a função padrão será atribuída ao recurso nomeado para todas as atribuições de tarefas, independentemente da atribuição de função na versão 2. Essa atribuição resulta em diferenças nas estimativas calculadas da versão 2 ou versão 1 em relação à versão 3, pois as estimativas são calculadas com base na função do recurso, e não na atribuição da tarefa de linha. Por exemplo, na versão 2, duas tarefas foram atribuídas a Vitória Cavalcante. A função na tarefa de linha da tarefa 1 era Desenvolvedor e, na tarefa 2, Gerente de Programa. A função padrão de Vitória Cavalcante é Gerente de Programa.
 
 ![Várias funções atribuídas a um recurso](media/upgrade-multiple-roles-02.png)
 
@@ -56,7 +60,7 @@ Ao atualizar para a versão 3, as tarefas de linha são substituídas por atribu
 
 ![Atribuições de recursos](media/resource-assignment-v2-05.png)
 
-Como as estimativas baseiam-se na função padrão do recurso, as estimativas de custo e vendas podem ser alteradas. Observe que, na imagem a seguir, a função **Desenvolvedor** não é mais exibida, pois a função agora é obtida da função padrão do recurso reservável.
+Como as estimativas baseiam-se na função padrão do recurso, as estimativas de custo e vendas podem ser alteradas. Na imagem a seguir, a função **Desenvolvedor** não é mais exibida, pois a função agora é obtida da função padrão do recurso reservável.
 
 ![Estimativas de custo para funções padrão](media/resource-assignment-cost-estimate-06.png)
 ![Estimativas de vendas para funções padrão](media/resource-assignment-sales-estimate-07.png)
@@ -102,7 +106,7 @@ Você pode ver a unidade organizacional no modo de exibição de estimativas.
  
 Quando a atualização é concluída, a unidade organizacional na tarefa de linha que corresponde ao membro da equipe genérico é adicionada a esse membro e a tarefa de linha é removida. Por isso, recomendamos que, antes de atualizar, você gere a equipe em cada projeto que contém recursos genéricos, ou gere-a novamente.
 
-Para as tarefas atribuídas a uma função com uma unidade organizacional diferente daquela do projeto de contratação e sem uma equipe gerada, a atualização criará um membro da equipe genérico para a função, mas usará a unidade de contratação do projeto para a unidade organizacional do membro da equipe. Voltando ao exemplo do Projeto Z, isso significa que a função Consultor Técnico foi atribuída à unidade organizacional de contratação Cabral US e às tarefas de teste de plano do projeto na fase de implementação com a unidade organizacional atribuída à Cabral India. A tarefa de teste de integração concluída após a fase de implementação foi atribuída à função Consultor Técnico. A unidade organizacional é a unidade Cabral US e uma equipe não foi gerada. A atualização criará um membro da equipe genérico, um Consultor técnico que possui as horas atribuídas das três tarefas e uma unidade organizacional da unidade Cabral US, a unidade organizacional de contratação do projeto.   
+Para as tarefas atribuídas a uma função com uma unidade organizacional diferente daquela do projeto de contratação e sem uma equipe gerada, a atualização criará um membro da equipe genérico para a função, mas usará a unidade de contratação do projeto para a unidade organizacional do membro da equipe. Voltando ao exemplo do Projeto Z, a função Consultor Técnico foi atribuída à unidade organizacional de contratação Cabral US e às tarefas de teste de plano do projeto na fase de implementação com a unidade organizacional atribuída à Cabral India. A tarefa de teste de integração concluída após a fase de implementação foi atribuída à função Consultor Técnico. A unidade organizacional é a unidade Cabral US e uma equipe não foi gerada. A atualização criará um membro da equipe genérico, um Consultor técnico que possui as horas atribuídas das três tarefas e uma unidade organizacional da unidade Cabral US, a unidade organizacional de contratação do projeto.   
  
-Alteração no padrão de unidades organizacionais de recursos diferentes em membros de equipe não gerados é o motivo pelo qual recomendamos que você gere a equipe em cada projeto que contém recursos genéricos antes da atualização, de modo que as atribuições da unidade organizacional não sejam perdidas.
+Alteração no padrão de unidades organizacionais de recursos diferentes em membros de equipe não gerados é o motivo pelo qual recomendamos que você gere novamente a equipe em cada projeto que contém recursos genéricos antes da atualização, de modo que as atribuições da unidade organizacional não sejam perdidas.
 
