@@ -101,3 +101,6 @@ No exemplo a seguir, a Contoso Robotics USA (USPM) é a entidade legal que toma 
           - **Empresa de recursos** = **Contoso Robotics UK**
           - **Taxa de cobrança** = **200 USD**
       9. Vá para **Vendas** > **Contratos de projeto** e anexe a lista de preços das **Taxas de cobrança do Adventure Works** à lista de preços do projeto Adventure Works do contrato do projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

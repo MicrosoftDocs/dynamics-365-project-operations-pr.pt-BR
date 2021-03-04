@@ -37,3 +37,6 @@ O honorário no Project Operations não está disponível para uso até que seja
 | --- | --- | --- |
 | Valor Disponível | O valor que está disponível para ser usado no registro de honorário ou adiantamento. | Até que o adiantamento ou honorário seja faturado, ele não estará disponível para uso, o que significa que o valor disponível será zero. |
 | Valor Usado | O valor que já é utilizado no honorário ou adiantamento. | Um adiantamento ou honorário pode ser parcialmente reconciliado em uma fatura com os custos reais que terão alguma parte marcada como já usada ou consumida. O restante do valor do adiantamento ou honorário está disponível para reconciliação em uma fatura futura com os custos reais. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -59,3 +59,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o Projec
      - Corrigido: os botões extras para **Nova Oportunidade**, **Cotação**, **Linha da Ordem** e **Adicionar Produto** estão visíveis nos comandos de Oportunidades, Cotações, Produtos da Ordem e na subgrade de Linhas baseadas em projeto.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

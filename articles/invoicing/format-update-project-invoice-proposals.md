@@ -143,3 +143,6 @@ Para visualizar a fatura antes de postar, limpe a caixa de seleção **Postando*
 Em adição à página **Proposta de fatura**, as propostas de fatura também podem ser postadas executando o trabalho periódico, **Postar propostas de fatura**. Para encontrar este trabalho, vá para **Gerenciamento e contabilidade de projetos** > **Periódico** > **Faturas de projeto** > **Postar propostas de fatura**.
 
 Esta página mostra todas as propostas de fatura que estão prontas para postagem. Você pode programar a postagem de propostas de fatura selecionando **Lote**. Defina **Parâmetro de processamento em lote** como **Sim** e defina a recorrência do processamento em lote selecionando **Recorrência**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Estas Perguntas frequentes se aplicam a dados reais de despesas em que a classe 
 Vá para a entrada da despesa relacionada e verifique se há um valor no campo da entrada de despesa. Caso a entrada de despesa de origem não tiver o campo com um valor preenchido, você isolou o problema.
  
 Para resolvê-lo, recrie a entrada de despesa com um valor válido e aprove-a.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

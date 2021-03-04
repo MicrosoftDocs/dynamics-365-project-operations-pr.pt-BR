@@ -39,3 +39,6 @@ Este é um exemplo de quando vários recursos nomeados são necessários para at
 A principal diferença neste cenário é que o recurso genérico permanece na equipe atribuída à tarefa e os membros da equipe de recurso nomeados reservados não são atribuídos como parte da posição. O gerente de projeto pode atribuir o trabalho conforme apropriado aos recursos nomeados. A exibição **Reconciliação** pode ajudar um gerente de projeto na divisão de reservas entre vários recursos para atribuições de tarefa. Isso não é feito automaticamente porque em qualquer cenário mais complicado do que o exemplo simples acima, como quando você tem um pacote de tarefas compondo o requisito ou a intenção de como o gerente de projeto deseja atribuir, isso precisa ser pressuposto pelo sistema. Como o sistema não pode entender a intenção, é provável que as suposições sejam diferentes das pretensões e um resultado incorreto ou imprevisível seja obtido. O resultado previsível é que o recurso genérico permaneça atribuído até que o gerente de projeto crie atribuições deliberadamente, com a ajuda da exibição **Reconciliação**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

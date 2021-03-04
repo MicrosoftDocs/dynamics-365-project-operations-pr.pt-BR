@@ -113,3 +113,6 @@ Marcela Teles, desenvolvedora empregada na GBPM, registra 10 horas de trabalho e
     - Crédito: Projeto – Receita Acumulada 120 USD
 
     O sistema agora está pronto para criar uma fatura de cliente intercompanhia.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

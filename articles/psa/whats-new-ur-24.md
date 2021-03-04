@@ -81,3 +81,6 @@ Os seguintes problemas foram corrigidos:
 - O botão **Atualizar Dados Reais** calcula incorretamente tarefas de resumo.
 - Suplemento do Microsoft Project: corrija o erro de referência nula se algum membro da equipe tiver uma unidade de recursos vazia.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Apenas os seguintes atributos de contabilidade podem ser atualizados nas linhas 
 As linhas do diário de integração podem ser excluídas, no entanto, quaisquer linhas não publicadas serão inseridas no diário novamente após você executar novamente o processo periódico **Importar da tabela de preparo**.
 
 Quando você lança o diário de integração, uma subconta do projeto e transações do razão geral são criadas. Eles são usadas no faturamento de clientes downstream, reconhecimento de receita e relatórios financeiros.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

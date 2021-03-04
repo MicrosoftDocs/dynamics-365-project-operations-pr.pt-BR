@@ -135,3 +135,6 @@ Se houver dados reais recebidos após a criação da fatura, você poderá inclu
 2. Abra a fatura pro forma de rascunho e, na faixa de opções **Ações**, clique em **Atualizar Transações de Linha de Fatura**.
 
   Isso cria detalhes da linha de fatura para qualquer dado real com data anterior e marcado como **Pronto para Faturamento**; mas não está incluído na fatura.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

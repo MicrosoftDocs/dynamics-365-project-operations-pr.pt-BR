@@ -57,3 +57,6 @@ Os seguintes KPIs estão disponíveis na guia **Desempenho do Contrato** de um c
 | Custo Incorrido | Linhas baseadas em produto | A soma de todos os custos reais registrados para a linha de contrato baseada em produto. |
 | Margem Bruta | Linhas baseadas em projeto | Valor faturado - Custo incorrido até a data/valor faturado |
 | Margem Esperada | Linhas baseadas em produto | (Valor da linha do contrato - Custos estimados para a linha do contrato)/valor da linha do contrato |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ No Dynamics 365 Project Service Automation versão 3.0, os modos de exibição H
 Anteriormente, as exibições de calendário e grade para Hora e Despesa eram implementadas como controles DHTMLX. Os artefatos relacionados a essa implementação das exibições de calendário e grade agora estão obsoletos (preteridos).
 
 Para obter a lista completa de recursos preteridos, consulte [Recursos da Web preteridos no Project Service Automation 3.x](web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

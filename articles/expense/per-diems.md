@@ -31,3 +31,6 @@ Uma diária é um subsídio pago a um funcionário que viaja a trabalho. No gere
     
 ## <a name="submit-expenses-using-per-diem"></a>Enviar despesas usando diária
 Para enviar despesas usando diárias, use a categoria de despesas **Diárias** ao criar um relatório de despesas. Digite o **Data inicial de diária**, **Data final de diária** e o **Local da diária**. O valor será calculado com base nas taxas de diária para o local selecionado e a redução de refeição será calculada com base nos níveis de taxas de diárias.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

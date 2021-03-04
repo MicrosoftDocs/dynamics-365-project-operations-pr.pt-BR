@@ -36,3 +36,6 @@ Para usar o assistente, siga estas etapas:
 1. Acesse **Gerenciamento e contabilidade de projeto** > **Cotações** > **Cotações de projetos**.
 2. Selecione a cotação que deseja transferir e, na aba **Acompanhamento** , no grupo **Modificar** , selecione **Transferir para o projeto**.
 3. Siga o assistente **Transferir cotação para projeto** para associar e transferir a cotação a um projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

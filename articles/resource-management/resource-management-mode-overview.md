@@ -48,3 +48,6 @@ Reservar um recurso diretamente em um projeto:
 Reservar um recurso de um requisito de recursos:
 - [Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recurso](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [Reservar recursos indicados a partir de requisitos de recurso](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

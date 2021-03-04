@@ -113,3 +113,6 @@ Quando a entidade legal que faz o empréstimo, USSI, lança a fatura de cliente 
 Para obter mais informações, consulte [Configurar faturamento intercompanhia de projetos](tasks/configure-intercompany-project-invoicing.md).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -60,3 +60,6 @@ No Dynamics 365 Project Operations, os princípios de reconhecimento de receita 
 [Gerenciar estimativas de receita](rev-rec-completed-contract-method.md)
 
 [Custo para concluir os métodos](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

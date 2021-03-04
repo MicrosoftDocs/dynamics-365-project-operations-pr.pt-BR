@@ -94,3 +94,6 @@ Atualmente, há suporte para os Estados Unidos.
 O departamento de finanças entrará em contato com Serviços Cognitivos para extrair dados do campo. Os Serviços Cognitivos manterão uma cópia do seu recibo por até 24 horas durante o processamento. Após a conclusão do processamento, os Serviços Cognitivos removerão o recibo. Os recibos ainda estão armazenados em Finanças.
 
 Para obter mais informações, consulte [Habilite a compreensão do recibo com o novo recurso de Reconhecimento de Formulários](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

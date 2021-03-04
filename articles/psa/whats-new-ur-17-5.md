@@ -44,3 +44,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o V3, Ve
 - Corrigido: Modelos de horas de trabalho de 24 horas que adicionavam um dia extra incorretamente às tarefas foram resolvidos.
 - Corrigido: Modelos de horas de trabalho +13 GMT que alternavam as tarefas incorretamente para um dia antes foram resolvidos.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -40,3 +40,6 @@ Se a cotação de projeto fechada como Perdida fizer referência a um projeto em
 
 > [!NOTE]
 > No Project Operations, fechar uma cotação como Ganha ou Perdida não afetará o status da Oportunidade, que permanecerá aberta até que seja fechada manualmente.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

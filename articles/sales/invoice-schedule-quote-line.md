@@ -68,3 +68,6 @@ Abra a linha de cotação de preço fixo para a qual você precisa criar um marc
 | Status da fatura | Criação rápida | Quando um marco é criado, este status é sempre definido como **Não está pronto para faturamento**. | Isso é propagado para o marco da linha do contrato do projeto e para a fatura. |
 | Valor da Linha | Criação rápida | Quantidade ou valor da etapa que será faturada ao cliente. | Isso é propagado para o marco da linha do contrato do projeto e para a fatura. |
 | Imposto | Criação rápida | Valor do imposto que será aplicado ao marco. | Isso é propagado para o marco da linha do contrato do projeto e para a fatura. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

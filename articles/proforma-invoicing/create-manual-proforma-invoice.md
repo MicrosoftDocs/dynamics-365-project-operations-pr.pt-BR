@@ -111,3 +111,6 @@ Quando você confirma uma fatura corretiva, os dados reais de vendas cobradas or
 
 - Dados reais de vendas cobradas por seis horas.
 - Dados reais de vendas não cobradas pelas duas horas restantes. Essa transação pode ser cobrada posteriormente ou marcada como não passível de cobrança, dependendo das negociações com o cliente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

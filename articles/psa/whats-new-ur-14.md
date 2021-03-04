@@ -64,3 +64,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o PSA V3
      - Corrigido: O preço de venda total não é calculado até que o usuário também insira um preço de custo para estimativas de despesas em um projeto.
      - Corrigido: Fechar uma cotação como **Ganha** gera uma falha se o contrato do projeto associado não estiver em um estado de **Rascunho**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

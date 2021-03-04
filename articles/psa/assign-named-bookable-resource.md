@@ -68,3 +68,6 @@ Ao fazer isso, o recurso é adicionado à equipe do projeto e atribuído à tare
 ![Estendendo reservas para um membro da equipe na guia de reconciliação de recursos](media/RM-how-to-7.png)
 
 Depois que um membro da equipe é reservado no projeto, você pode usar o recurso de manter reservas ou o Quadro de Agendamento diretamente para gerenciar as reservas dele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

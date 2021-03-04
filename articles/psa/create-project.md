@@ -48,3 +48,6 @@ Em seguida, você criará uma estrutura de detalhamento de trabalho para seu pro
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

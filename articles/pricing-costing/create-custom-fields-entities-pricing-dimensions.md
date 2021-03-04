@@ -77,3 +77,6 @@ Você pode criar dados para dimensões baseadas em entidade manualmente, ou usan
 5. Repita as etapas de 1 a 3 para criar outro cargo padrão para "Engenheiro de Sistemas Sênior".
 
 > ![Dados de exemplo para a entidade Cargo Padrão](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

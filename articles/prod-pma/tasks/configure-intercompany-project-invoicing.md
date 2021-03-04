@@ -64,3 +64,6 @@ Este tópico mostra como configurar o faturamento de projetos entre duas empresa
 32. No campo **Preço** , insira um número.
 33. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Você pode criar pedidos de venda baseados em projeto de duas maneiras:
 - Vá para o próprio projeto. No Painel de Ação, selecione **Gerenciar > Tarefas de item> Pedido de venda**. As informações do projeto serão padronizadas para o pedido de venda do projeto. Se o contrato do projeto tiver mais de uma fonte de financiamento, você precisará selecionar a fonte de financiamento para definir o cliente para o pedido de venda. Se houver apenas uma fonte de financiamento para o projeto, o cliente será definido automaticamente.
 - Vá para a página de lista **Todos os pedidos de vendas** e crie um novo pedido de venda. Você precisará selecionar o projeto para o pedido de venda. Depois que o projeto for selecionado, o cliente será definido a partir da fonte de financiamento ou você precisará selecionar a fonte de financiamento se o contrato do projeto tiver várias fontes de financiamento.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

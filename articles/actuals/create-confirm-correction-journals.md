@@ -89,3 +89,6 @@ Siga as etapas para corrigir uma ou mais entradas de despesa.
 8. Na página do projeto, na guia **Dados Reais**, revise a **Exibição Associada de Dados Reais**. As entradas originais e as entradas corrigidas serão listadas. O gráfico a seguir mostra os valores de entrada de despesa originais e os valores de entrada de despesa correspondentes corrigidos. 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

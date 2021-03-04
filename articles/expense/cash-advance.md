@@ -63,3 +63,6 @@ Quando você cria e envia um relatório de despesas para o adiantamento em dinhe
 ### <a name="example"></a>Exemplo
 Você planeja viajar de Seattle a Nova York para uma conferência. Você cria uma solicitação de adiantamento em dinheiro de USD 3.000,00 com base no custo estimado do ingresso da conferência, voos, hotel, refeições e táxi. Você não será pago a menos que seu gerente aprove esta solicitação. Após a aprovação do gerente, o adiantamento de dinheiro solicitado é pago no valor de US$ 3.000,00 em sua conta bancária. Posteriormente, você participa da conferência. Depois de voltar da viagem, você descobre que a despesa total foi de apenas US$ 2.790,00. Selecione **Dinheiro** no campo **Forma de pagamento** e envie sua despesa de USD 2.790,00. O valor da despesa enviada é ajustado automaticamente de acordo com o adiantamento de dinheiro em US$ 3.000,00 emprestado a você. Agora você deve um saldo de USD 210,00 (3.000,00 - 2.790,00), que pode ser devolvido à empresa usando a categoria de despesas **Devolver dinheiro**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

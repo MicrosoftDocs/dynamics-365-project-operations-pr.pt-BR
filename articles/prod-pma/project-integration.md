@@ -127,3 +127,6 @@ Para criar uma nova estrutura de detalhamento de trabalho usando o Microsoft Pro
 8.  Selecione o **Calendário** a ser usado para obter recursos.
 
 11. Clique em **OK**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

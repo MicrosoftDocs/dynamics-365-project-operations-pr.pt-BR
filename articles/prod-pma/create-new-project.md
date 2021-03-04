@@ -104,3 +104,6 @@ Durante a reserva de recursos, os gerentes de projeto podem filtrar os recursos 
 
 3. Selecione **Salvar** e feche a página.
 4. Na guia **Competências** , adicione a habilidade **ProjectMgmt** e o certificado **PMP**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

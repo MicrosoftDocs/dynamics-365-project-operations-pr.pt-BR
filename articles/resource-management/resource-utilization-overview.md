@@ -45,3 +45,6 @@ Além disso, uma função padrão deve ser atribuída a cada recurso reservável
 Na guia **Project Service**, você também pode definir horas trabalhadas de destino individuais para o recurso. O cálculo de horas trabalhadas então usa essas horas trabalhadas de destino para avaliar o destino do recurso em vez do destino da função padrão do recurso.
 
 As horas trabalhadas são mostradas para um recurso, somente se ele tiver tempo passível de cobrança, aprovado durante o período exibido na grade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -34,3 +34,6 @@ As oportunidades de projeto podem ser facilmente copiadas para criar novas oport
     | Copiar precificação | Um valor Sim/Não que indica se o preço da oportunidade deve ser copiado da oportunidade de origem. | Se **Sim** for selecionado, as listas de preços serão copiadas da oportunidade de origem para a oportunidade de destino. Se **Não** for selecionado, as listas de preços serão padronizadas novamente com base nas listas de preços mais recentes que foram configuradas. |
 
 3. Selecione **OK**. O sistema cria uma cópia da oportunidade de projeto com base nos parâmetros selecionados e a nova oportunidade de projeto é aberta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -53,3 +53,6 @@ Para configurar as competências de um funcionário, você pode usar a página d
 5. No campo **Data do nível** , selecione **14/01/2014**.
 6. No campo **Anos de experiência** , digite **10**.
 7. Selecione **Salvar** e feche a página.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

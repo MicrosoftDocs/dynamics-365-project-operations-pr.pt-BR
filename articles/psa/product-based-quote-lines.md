@@ -82,3 +82,6 @@ As propriedades **Número de Usuários** e **Número de Meses** podem ser sinali
 
 > ![Sinalizando Número de Usuários e Número de Meses como fatores de qualidade](media/basic-guide-11.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

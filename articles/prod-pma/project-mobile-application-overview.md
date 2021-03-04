@@ -49,3 +49,6 @@ Minhas folhas de ponto (otimizado para celular) e Folhas de ponto para minha an�
 - [Entrada de hora de projeto]( project-time-entry-mobile-workspace.md)
 - [Project Timesheet em um dispositivo móvel](Mobile-timesheets.md)
 - [Implementar campos personalizados para o aplicativo móvel Microsoft Dynamics 365 Project Timesheet no iOS e Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

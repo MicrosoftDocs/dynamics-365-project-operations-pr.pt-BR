@@ -103,3 +103,6 @@ Categorias de orçamento são usadas para calcular automaticamente os valores da
 8. Opcional: atribua a regra de cobrança a projetos adicionais. Na FastTab **Projeto** , na seção **Projetos disponíveis** , selecione um projeto e, em seguida, selecione o botão de seta para a direita para adicioná-lo à seção **Projetos selecionados**.
 9. Opcional: calcule o valor percentual que o cliente retém dos pagamentos de uma fatura. Na FastTab **Termos de retenção de pagamento** , selecione a fonte de financiamento e, em seguida, no campo **Porcentagem de retenção** , insira a porcentagem de retenção.
 10. Repita essas etapas para criar regras de cobrança adicionais para o contrato do projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

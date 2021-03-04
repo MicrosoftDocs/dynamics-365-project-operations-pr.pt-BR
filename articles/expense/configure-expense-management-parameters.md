@@ -83,3 +83,6 @@ Este tópico descreve os parâmetros que controlam o comportamento geral no Gere
 | Exibir atestado de anticorrupção   | Selecione esta opção para mostrar o texto de anticorrupção ao criar um relatório de despesas. Dessa forma, as categorias de despesas específicas poderão ser habilitadas, o que exigirá que o atestado de anticorrupção seja selecionado no relatório de despesas. Por exemplo, uma categoria de presente relacionada à despesa de uma autoridade do governo pode exigir que o funcionário confirme que a despesa atende à política da empresa relacionada a autoridades do governo. |
 | Mensagem de anticorrupção para emissor | Insira o texto que deve ser mostrado a um funcionário que está criando um relatório de despesas. Para inserir o texto específico do idioma que será mostrado, com base no idioma do usuário, selecione **Traduções**. |
 | Mensagem de anticorrupção para aprovador  | Insira o texto que deve ser mostrado para o aprovador quando um relatório de despesas é criado. Para inserir o texto específico do idioma que será mostrado, com base no idioma do usuário, selecione **Traduções**. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

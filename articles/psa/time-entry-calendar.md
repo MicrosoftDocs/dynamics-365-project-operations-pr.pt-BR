@@ -42,3 +42,6 @@ O calendário não é compatível com ações em itens de calendário individuai
 ## <a name="extensibility"></a>Extensibilidade do 
 
 Na página **Entradas de hora** com a grade de entrada de hora, é possível adicionar campos personalizados, configurar campos de pesquisa e criar exibições personalizadas. Também é possível configurar a lógica de negócios baseada nos valores selecionados ou inseridos nos campos personalizados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

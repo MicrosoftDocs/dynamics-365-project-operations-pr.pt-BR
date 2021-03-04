@@ -38,3 +38,6 @@ Selecione **Fazer logon** > **Fazer logon no ambiente** para navegar até o mód
 
 > [!NOTE]
 > Você pode acessar o Project Operations no Common Data Service e no módulo **Gerenciamento e contabilidade de projeto** diretamente usando suas respectivas URLs. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

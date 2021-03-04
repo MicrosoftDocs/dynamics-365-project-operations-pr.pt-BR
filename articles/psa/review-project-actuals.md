@@ -35,3 +35,6 @@ Navegue nos dados efetivos e garanta que o custo e as vendas não cobrados por t
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

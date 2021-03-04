@@ -67,3 +67,6 @@ Quando estiver pronto para alterar um recurso de membro da equipe com reserva fl
 2. Clique com o botão direito na reserva e, em **Alterar Status**, selecione **Reserva Fixa** \> **Fixa**. O status da reserva agora é **Fixa**.
 3. Depois de fechar o Quadro de Agendamento, voltar para o projeto e abrir a guia **Equipe**, você verá que as horas para o recurso foram movidas da coluna **Horas com Reserva Flexível** para **Horas com Reserva Fixa** na guia **Equipe** quando na exibição **Membros da Equipe Nomeados**. Se o recurso for atribuído a tarefas, elas não mostrarão mais um déficit de reservas na guia **Reconciliação**, pois sua reservas agora são fixas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

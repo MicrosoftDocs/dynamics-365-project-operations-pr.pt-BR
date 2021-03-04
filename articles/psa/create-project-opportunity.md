@@ -55,3 +55,6 @@ Oportunidades são clientes potenciais interessados em contratar seus serviços.
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de conta](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

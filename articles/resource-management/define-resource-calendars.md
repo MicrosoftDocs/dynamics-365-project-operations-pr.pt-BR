@@ -43,3 +43,6 @@ Todos os recursos reserváveis que estiverem trabalhando em um projeto devem ter
 2. Na visualização de grade, selecione até 25 **Recursos Reserváveis** para atualizar.
 3. Selecione **Definir Calendário** e uma caixa de diálogo exibirá uma lista de modelos de horas de trabalho disponíveis.
 4. Selecione o modelo que deseja usar e depois selecione **Aplicar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -43,3 +43,6 @@ Os seguintes problemas foram corrigidos:
 
 - As datas de término são preenchidas automaticamente quando uma entrada de tempo é criada se a duração for nula.
 - Os usuários podem alterar a tarefa em uma entrada de hora que foi aprovada ou enviada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

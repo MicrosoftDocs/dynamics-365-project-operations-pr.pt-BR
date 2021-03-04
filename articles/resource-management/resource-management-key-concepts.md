@@ -35,3 +35,6 @@ Os recursos são o ativo mais importante de uma organização baseada em serviç
 
 
 Você pode fornecer ao seu projeto uma equipe de recursos genéricos ou nomeados no Project Operations. É possível usar vários métodos para adicionar e atribuir membros da equipe e gerenciar suas reservas e atribuições. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

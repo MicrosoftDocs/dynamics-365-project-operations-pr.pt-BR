@@ -71,3 +71,6 @@ Antes de iniciar este procedimento, verifique se o seu direito de acesso inclui 
 
 > [!IMPORTANT]
 >  Você não pode excluir moedas que estejam sendo usadas por outros registros, mas pode desativá-las. A desativação dos registros de moeda não remove as informações sobre moeda dos registros existentes, como oportunidades ou pedidos. Entretanto, você não poderá selecionar a moeda desativada para novas transações.  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

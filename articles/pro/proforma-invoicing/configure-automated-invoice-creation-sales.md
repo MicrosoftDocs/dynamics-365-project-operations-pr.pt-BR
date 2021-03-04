@@ -91,3 +91,6 @@ O trabalho do processo em lote para criação de faturas é um trabalho recorren
 
 > [!NOTE]
 > O faturamento em lote no Project Operations só é executado para linhas de contrato de projeto configuradas por agendas de faturas. Uma linha de contrato com um método de cobrança de preço fixo deve ter marcos configurados. Uma linha de contrato do projeto com um método de cobrança de horas e de material precisará de uma configuração de agenda de faturas baseada em data.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

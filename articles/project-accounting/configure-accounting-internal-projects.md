@@ -32,3 +32,6 @@ Qualquer projeto não associado a um contrato no Dynamics 365 Project Operations
 Depois que as transações forem lançadas no projeto, se o projeto estiver associado a um contrato de projeto, o sistema reverterá todas as transações acumuladas e criará novas transações faturáveis. As transações faturáveis seguem as regras de contabilidade definidas no respectivo perfil Custo e receita de projeto.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

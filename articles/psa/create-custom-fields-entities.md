@@ -73,3 +73,6 @@ Você pode criar dados para dimensões baseadas em entidade manualmente, ou usan
 > ![Dados de Exemplo para a entidade Cargo Padrão ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -42,3 +42,6 @@ Para obter mais informações, consulte:
 - [Visão geral das operações de projeto](https://dynamics.microsoft.com/en-us/project-operations/overview/)
 - [Visão geral do ciclo de lançamentos 1 de 2020 do Dynamics 365 Project Operations](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/dynamics365-project-operations/)
 
+
+
+[!INCLUDE[footer-include](includes/footer-banner.md)]

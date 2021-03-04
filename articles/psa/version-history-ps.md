@@ -73,3 +73,6 @@ Para obter informações sobre atualizações do Project Service, consulte os [P
 >[!Note]
 > - As datas em todas as regiões, exceto Nuvem da Comunidade Governamental (GCC), indicam o momento da próxima atualização automática. As datas no GCC indicam a disponibilidade da versão. No momento, não há atualizações automáticas para essas regiões.
 > - Para todas as outras regiões, enquanto a maioria das atualizações deve ser concluída na noite agendada, as atualizações que exigem mais tempo podem ser concluídas durante as madrugadas do fim de semana indicado na coluna **Data agendada**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

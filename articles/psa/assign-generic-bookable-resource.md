@@ -59,3 +59,6 @@ Também é possível clicar no link **Requisito de recurso** na grade da equipe 
 
 ![Requisito de Recurso](media/RM-how-to-13.png)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

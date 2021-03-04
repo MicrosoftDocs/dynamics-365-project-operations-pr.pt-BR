@@ -57,3 +57,6 @@ Regra: um projeto e certa classe de transação só podem ser incluídos em uma 
 | C1       | CL2           | P1      | No           | Sim             | No          | Válido           | O tempo e os valores no projeto P1 são incluídos no CL1. A despesa do projeto P1 está incluída no CL2. </br>   Não há sobreposição no que está sendo incluído em cada linha do contrato e que, portanto, é válido.  |
 | C1       | CL1           | P1      | Sim          | Sim             | Sim         | Não é válido       | Viola a regra. Hora, despesas e valores no projeto P1 estão incluídos nas linhas de dois contratos.                                                                                               |
 | CL2      | CL2           | P1      | Sim          | Sim             | Sim         | Não é válido       | Viola a regra. Hora, despesas e valores no projeto P1 estão incluídos nas linhas de dois contratos.                                                                                               |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

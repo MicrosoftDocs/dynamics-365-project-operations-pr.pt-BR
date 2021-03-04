@@ -43,3 +43,6 @@ Para criar cotações e faturar seus clientes em [!INCLUDE[pn_project_service_au
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

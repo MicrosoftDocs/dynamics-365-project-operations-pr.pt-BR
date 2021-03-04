@@ -26,3 +26,6 @@ Configurando preços para itens do catálogo de produtos no Dynamics 365 Project
 Em Project Operations, os produtos não podem ser estimados ou usados em projetos, portanto, os preços do catálogo de produtos não precisam ser definidos nas listas de preços do projeto para cotações e contratos.
 
 Use o campo **Preço do produto** de uma cotação, contrato ou conta para configurar preços de catálogo de produtos. Não configure preços de catálogo de produtos nas listas de preços do projeto. As listas de preços do projeto são exclusivas para o Project Operations. A lógica de negócios específica do aplicativo copia as listas de preços de uma cotação para um contrato. O resultado é uma lista de preços de projeto específica do contrato. A operação de cópia pode atrasar o processo de ganho da cotação se a lista de preços do projeto na cotação ficar muito grande. As listas de preços de produtos não são copiadas para criar listas de preços personalizadas em contratos. Como não há cópia envolvida, o desempenho do processo de cotação não é afetado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

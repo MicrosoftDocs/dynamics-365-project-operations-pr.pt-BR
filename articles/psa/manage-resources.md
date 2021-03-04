@@ -344,3 +344,6 @@ Se você tiver atribuições de tarefa para um recurso, mas nenhuma reserva, na 
 ![Caixa de diálogo Estender Reserva](media/Resource-Management-image58.png)
 
 O gerente de projeto ou o gerente de recursos pode usar o Quadro de Agendamento para gerenciar situações em que um recurso é reservado em excesso além de sua capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

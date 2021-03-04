@@ -48,3 +48,6 @@ A tabela a seguir lista os tipos de fluxo de trabalho que podem ser criados em *
 |       <strong>Requisição de viagem</strong>       |          Criar fluxos de trabalho de aprovação para requisições de viagem.           |
 |      <strong>Solicitação de adiantamento em dinheiro</strong>      |         Criar fluxos de trabalho de aprovação para solicitações de adiantamento em dinheiro.          |
 |        <strong>Recuperação do imposto IVA</strong>        | Criar fluxos de trabalho de aprovação para a recuperação do imposto sobre valor agregado (IVA).  |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

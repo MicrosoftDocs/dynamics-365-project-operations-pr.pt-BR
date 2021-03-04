@@ -54,3 +54,6 @@ Este tópico explicar como configurar custos padrão para mão de obra e despesa
 22. No campo **Preço** , insira um número. O preço de venda real, que é aplicado quando um trabalhador insere transações em um diário de despesas é o preço de venda com o maior nível de detalhes. Por exemplo, se um preço de venda geral e um preço de venda específico de um trabalhador forem configurados, o preço de venda específico do trabalhador será usado.  
 23. Selecione **Salvar**.
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

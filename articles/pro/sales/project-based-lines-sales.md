@@ -32,3 +32,6 @@ Veja abaixo os campos em uma linha de oportunidade baseada em projeto:
 | Nome | Guia Geral | Este campo de texto editável pode ser usado para fornecer uma identidade curta ao item de linha. | Este valor é transportado para a linha de cotação quando você cria uma cotação a partir desta oportunidade. |
 | Orçamento do Cliente | Guia Geral | Este campo de moeda editável pode ser usado para rastrear o valor que o cliente deseja gastar neste item de linha. | Este valor é transportado para o campo correspondente na linha de cotação quando você cria uma cotação a partir desta oportunidade. |
 | Método de Cobrança | Guia Geral | Este campo editável possui os valores a seguir:</br>- Hora e Material</br>- Preço Fixo | Este valor é transportado para o campo correspondente na linha de cotação quando você cria uma cotação a partir desta oportunidade. Depois que a linha de cotação é criada, o campo é bloqueado e não pode ser alterado. Atribua este valor de campo com a maior precisão possível. Se você precisar alterar o valor deste campo na linha de cotação, exclua e recrie a linha de cotação. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

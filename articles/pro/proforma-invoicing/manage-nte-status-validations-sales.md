@@ -73,3 +73,6 @@ Você pode fazer uma reavaliação em massa do status de NTE (limite máximo). A
 Para reavaliar o status de NTE (limite máximo), selecione um ou mais dados reais da exibição **Lista de Pendências de Cobrança de Hora e Materiais** ou **Dados Reais** e selecione **Reavaliar Status de NTE (limite máximo)**.
 
 Todos os dados reais selecionados relevantes com um limite de NTE (limite máximo) serão avaliados em relação à configuração de NTE (limite máximo). Os dados reais que são relevantes para reavaliar o status de NTE (limite máximo) são dados reais de vendas não cobradas que não são faturadas, não em uma fatura de rascunho, e são marcadas como cobráveis. Outros dados reais selecionados.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

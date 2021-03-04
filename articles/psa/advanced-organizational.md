@@ -167,3 +167,6 @@ Se sua empresa opera como uma unidade que tem uma lista de preços de custo, nã
 Quando um projeto é criado por si só, a unidade de contratação padrão do projeto é baseada no usuário que a cria. Esse usuário também é o gerente padrão do projeto. Se o projeto for mapeado para uma entidade de vendas, como um contrato de projeto ou cotação, a unidade de contratação no projeto será baseada na entidade de vendas. Nesse caso, as estimativas do projeto podem ser recalculadas, pois a lista de preços de custo é usada para calcular as alterações de estimativa de custo se a unidade de contratação for alterada. A lista de preços de vendas é usada para calcular as estimativas de vendas que serão alteradas para que estejam em sincronia com a lista de preços do projeto na cotação.
 
 Os campos **Unidade de Contratação** e **Moeda** no projeto estão bloqueados para edição, pois eles devem estar em sincronia com os valores na entidade de vendas (cotação ou contrato de projeto) para a qual o projeto é mapeado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

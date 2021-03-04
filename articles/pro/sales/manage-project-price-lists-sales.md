@@ -67,3 +67,6 @@ Depois de ter listas de preços de projeto padrão organizacionais e específica
 
 1. Em **Cotação de projeto**, na guia **Lista de preços do projeto**, verifique na subrade se nenhum registro específico da lista de preços está selecionado.
 2. Selecione **Criar preços personalizados**. Isso fará cópias de todas as listas de preços padrão atualmente associadas à cotação e associará essas cópias à cotação. As atuais associações a listas de preços padrão serão removidas. O vendedor pode então começar a fazer edições nos preços dessas cópias. Esses preços alterados serão aplicáveis apenas a esta cotação de projeto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

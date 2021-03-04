@@ -40,3 +40,6 @@ O esforço de rastreamento exibe o rastreamento do progresso para tarefas na est
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

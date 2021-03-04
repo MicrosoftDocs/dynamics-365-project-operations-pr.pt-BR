@@ -45,3 +45,6 @@ As seguintes informações não são copiadas da **Origem** para o **Contrato de
   - Informações de orçamento do cliente
 
 Como essas informações são específicas para cada contrato, esses campos e registros não são copiados. Linhas de contrato para projetos e produtos, estimativas em detalhes da linha de contrato e valores que não devem ser excedidos no nível de contrato são copiados. Os padrões de preço e taxa de custo dependem da seleção no campo **Preços de cópia** na página de diálogo **Parâmetros de Cópia**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

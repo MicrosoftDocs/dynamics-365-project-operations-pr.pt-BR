@@ -20,3 +20,6 @@ ms.locfileid: "4514485"
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Você pode usar o Dynamics 365 Field Service para criar recursos reserváveis para usar em seu ambiente do Dynamics 365 Project Operations. Para criar esses recursos, consulte [Configurar recursos reserváveis](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

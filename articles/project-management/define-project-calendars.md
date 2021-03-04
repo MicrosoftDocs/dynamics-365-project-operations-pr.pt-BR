@@ -49,3 +49,6 @@ Para criar uma agenda de projeto, crie um modelo de calendário de projeto que d
 8. Na caixa de diálogo **Modelo de Trabalho**, insira um nome para o modelo de trabalho e selecione **Aplicar**. 
 
 Agora é possível associar o modelo de trabalho a um modelo de calendário de projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

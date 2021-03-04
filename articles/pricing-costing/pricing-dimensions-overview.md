@@ -71,3 +71,6 @@ O exemplo a seguir mostra taxas de cobrança que são configuradas com base na f
 | ----------------|-------------|----------|----------:|----------|
 | My company_Band1 | Cabral EUA  |Hour | 145|USD     |
 | My company_Band2 | Cabral India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

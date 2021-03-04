@@ -231,3 +231,6 @@ A tabela a seguir descreve como os dados são sincronizados entre o Project Serv
 
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

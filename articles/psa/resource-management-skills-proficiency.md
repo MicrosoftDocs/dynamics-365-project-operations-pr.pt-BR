@@ -48,3 +48,6 @@ As habilidades para recursos são classificadas por modelos de proficiência. As
 > ![Classificações mínimas e máximas definidas](media/Resource-Management-image85.png)
 
 Esses valores de classificação são exibidos nos filtros **Requisitos de Recursos**, **Painel de Agendamento** e **Assistente de Agendamento**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

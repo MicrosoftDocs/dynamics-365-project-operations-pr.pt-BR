@@ -170,3 +170,6 @@ Os campos a seguir de custo e vendas planejados, reais e restantes não foram al
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

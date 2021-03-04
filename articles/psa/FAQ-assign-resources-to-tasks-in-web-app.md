@@ -116,3 +116,6 @@ Selecione **Livro** para o recurso genérico, e depois você pode usar o painel 
 Quando o recurso genérico é preenchido com um recurso nomeado, o recurso genérico é removido da equipe e as atribuições de tarefa do recurso genérico são atribuídas ao recurso nomeado que preencheu o requisito de recurso do recurso genérico.
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -273,3 +273,6 @@ Uma venda cobrada real para a linha de produto com a quantidade e o valor proven
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

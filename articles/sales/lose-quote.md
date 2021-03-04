@@ -45,3 +45,6 @@ Quando você seleciona **OK** na página da caixa de diálogo, o sistema cria um
 > - Referência do projeto nas linhas de orçamento baseadas no projeto - Informações sobre o orçamento do cliente
 >
 >Como essas informações são muito específicas para cada cotação, esses campos e registros não são copiados. Linhas de cotação para projetos e produtos, estimativas nos detalhes da linha de cotação e valores que não devem ser excedidos no nível de cotação são copiados. Os padrões de preço e taxa de custo dependem da opção **Preços de cópia** selecionada na página de diálogo **Parâmetros de cópia**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -39,3 +39,6 @@ Conclua as etapas a seguir para faturar o cliente por um adiantamento.
     | **Status da Fatura** | Esta é uma configuração de opção que indica se este adiantamento é adicionado a uma fatura de rascunho para este cliente. Os valores possíveis são:</br>- **Não pronto para faturamento**</br>- **Pronto para faturamento** | Quando um adiantamento ou pré-pagamento é marcado como **Pronto para faturamento**, ele é adicionado como uma hora da linha em uma fatura de rascunho. Apenas um adiantamento totalmente faturado pode ser usado para reconciliar os custos do projeto para o próximo período da fatura. |
 
 4. Selecione **Salvar e fechar** na caixa de diálogo de criação rápida para registrar o adiantamento ou o pré-pagamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

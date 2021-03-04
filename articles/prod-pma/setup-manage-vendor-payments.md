@@ -80,3 +80,6 @@ Quando um fornecedor conclui seu trabalho em um projeto e envia uma fatura para 
 2. Na página **Faturas do fornecedor com pagar quando pago** , no campo de pesquisa, insira valores para encontrar a fatura de fornecedor que deseja analisar e selecione **Pesquisar**.
 3. Na FastTab **Linhas de fatura de fornecedor** , selecione as linhas que você deseja alterar.
 4. Se as condições **Pagar quando pago** forem atendidas para a linha da fatura, selecione **Liberar pagamento do fornecedor**. A opção **Pagar quando pago** é desmarcada e o valor do campo **Pronto para pagamento** é alterado para **Sim**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

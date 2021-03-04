@@ -68,3 +68,6 @@ Depois que a funcionalidade de reserva estendida tiver sido usada para cada recu
 Observe que uma análise mais detalhada dos detalhes das reservas mostra diferenças na hora de início das reservas. As reservas não começam antes da hora de início do contorno da atribuição nem antes da hora de início disponível do recurso.
 
 ![Novas reservas de recursos no quadro de horários](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

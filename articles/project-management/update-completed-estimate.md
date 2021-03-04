@@ -36,3 +36,6 @@ Um gerente de projetos pode reprojetar o esforço em tarefas de duas maneiras:
 - Substituindo a porcentagem de progresso padrão por uma nova estimativa do verdadeiro progresso na tarefa.
 
 Cada uma dessas abordagens causa o recálculo de ETC, estimativa ao término (EAT), porcentagem de progresso e variação de esforço projetada da tarefa. A EAT, a ETC e a porcentagem de progresso nas tarefas de resumo são recalculadas e produzem uma nova projeção da variação de esforço.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

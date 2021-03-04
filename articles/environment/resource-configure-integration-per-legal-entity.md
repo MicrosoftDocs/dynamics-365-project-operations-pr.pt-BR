@@ -51,3 +51,6 @@ Cada entidade legal que usa o Project Operations no Dynamics 365 Customer Engage
   - **Padrões de tipo de cobrança**: o Project Operations usa um conjunto fixo de padrões de tipo de cobrança que deve ser mapeado para as propriedades de linha Finance. Crie um registro para cada tipo de cobrança: **Não especificado**, **Passível de Cobrança**, **Não Passível de Cobrança**, **Complementar** e **Não disponível**.
   - **Padrões de categoria de projeto**: selecione as categorias de projeto padrão a serem usadas para cada tipo de transação. Esses padrões serão usados no **Diário de integração de operações do projeto** e em estimativas onde nenhuma categoria de transação é especificada para o projeto real.
   - **Previsões**: selecione o modelo de previsão a ser usado para estimativas de tempo e despesas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

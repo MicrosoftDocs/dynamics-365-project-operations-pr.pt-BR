@@ -47,3 +47,6 @@ Agora que você ganhou a cotação de seu projeto, está na hora de criar um con
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de conta](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

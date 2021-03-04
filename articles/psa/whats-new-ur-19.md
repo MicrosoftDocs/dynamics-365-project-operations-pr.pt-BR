@@ -66,3 +66,6 @@ Os seguintes problemas foram corrigidos:
 - Os clientes podem sofrer uma degradação no desempenho ao criar um projeto porque **GetBookableResourceIdFromUser** recupera todas as colunas de recursos reserváveis em vez de apenas o ID principal.
 - Entidade **TransactionType** ausente do plug-in de atualização de pré-validação para impedir que os usuários insiram **Unidades** e **UnitGroups** que não são válidos para os tipos de transação.
 - A etapa **Retirar** não funciona para a importação de entrada de horas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

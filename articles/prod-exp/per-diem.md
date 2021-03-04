@@ -28,3 +28,6 @@ ms.locfileid: "4960008"
 Uma *diária* é um subsídio pago a um trabalhador que viaja a trabalho. Em Gerenciamento de despesas, você pode criar regras de diária para várias situações de viagem. As taxas de diária podem ser baseadas na época do ano, no local da viagem ou em ambos. Ao criar uma regra de diária, você pode especificar que uma porcentagem da taxa da diária será retida se um funcionário receber refeições ou serviços complementares. Você também pode definir um número mínimo e máximo de horas que a taxa da diária pode aplicar à viagem de um funcionário.
 
 O cálculo de um valor diário total é baseado nas datas de início e término que você pode definir na página **Diárias**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

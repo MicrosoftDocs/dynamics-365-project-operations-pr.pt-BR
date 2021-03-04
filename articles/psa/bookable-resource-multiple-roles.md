@@ -74,3 +74,6 @@ Ao expandir a linha desse registro Membro da Equipe, você poderá ver atribuiç
 Quando navegar para a grade **Estimativas**, você notará que ambas as atribuições para o mesmo recurso têm preços diferentes.
 O preço da atribuição para o recurso na Tarefa A foi estimado usando o valor do atributo **Função** de **Líder de Consultoria**. O preço da atribuição para o mesmo recurso na Tarefa B foi estimado usando o valor do atributo **Função** de **Técnico de Rede**.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

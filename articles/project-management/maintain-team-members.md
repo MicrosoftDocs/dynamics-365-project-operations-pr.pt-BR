@@ -42,3 +42,6 @@ Quando você faz uma seleção, o recurso é adicionado à equipe do projeto e a
 É possível usar o recurso de extensão da guia **Reconciliação** ou **Quadro de Agendamento** para reservar a capacidade do recurso para o projeto.
 
 Depois que um membro da equipe é reservado no projeto, você pode usar o recurso **Manter reservas** ou o **Quadro de agendamento** diretamente para gerenciar as reservas dele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

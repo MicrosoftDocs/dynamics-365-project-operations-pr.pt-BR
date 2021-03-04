@@ -33,3 +33,6 @@ ms.locfileid: "5148944"
 
 O PSA (Project Service Automation) não permite excluir dados reais porque eles atuam como a fonte da verdade em transações que têm implicações financeiras para sistemas downstream, como a contabilidade. Se os dados reais pudessem ser excluídos, a integridade das transações do relatório financeiro poderia ser duvidosa. Para estabelecer uma trilha de auditoria, os clientes devem usar diários para criar transações de compensação.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

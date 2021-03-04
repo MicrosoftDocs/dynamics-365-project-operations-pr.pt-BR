@@ -105,3 +105,6 @@ O Dynamics 365 trata automaticamente dos acúmulos de valores em diferentes moed
 | Expense           | Vendas não cobradas   | 17 de junho | Joaquim  | Aluguel de Carros           | 1 cada     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Para calcular o valor total de vendas não cobrado no projeto, você pode criar um campo de acúmulo para o campo **Valor** em todos os dados reais de vendas não cobrados. O campo de acúmulo é uma construção do Dynamics 365 que permite fórmulas rápidas em registros relacionados.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

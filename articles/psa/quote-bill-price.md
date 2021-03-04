@@ -44,3 +44,6 @@ Os tópicos a seguir fornecem mais informações sobre as funcionalidades de cot
 - [Grupos de unidades e unidades](advanced-units.md)
 - [Moeda de várias unidades](advanced-currency.md)
 - [Registrar dados efetivos](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

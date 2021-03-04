@@ -152,3 +152,6 @@ Você usará os seguintes tipos de tarefa para criar a estrutura de detalhamento
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

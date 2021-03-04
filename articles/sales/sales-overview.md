@@ -63,3 +63,6 @@ No Project Operations, não é possível rastrear revisões realizadas em uma co
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Rastrear comentários e aprovações de cotações e contratos de projeto
 Você pode gerenciar a revisão e aprovação de cotações e contratos de projeto usando postagens e murais de registro. Sua organização pode criar fluxos de trabalho e plug-ins personalizados para atribuir, redirecionar, escalonar e gerenciar notificações de revisão e a aprovação de itens de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

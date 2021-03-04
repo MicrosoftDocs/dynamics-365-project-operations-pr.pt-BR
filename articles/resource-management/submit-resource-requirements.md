@@ -27,3 +27,6 @@ Você pode enviar um requisito de recurso gerado como uma solicitação de recur
 O status da solicitação do membro da equipe genérico será alterado para **Enviado**.
 
 Após a solicitação ser aprovada, o recurso genérico será substituído por um recurso nomeado se o gerente de recursos aprovar a solicitação ao reservar um recurso nomeado. Caso contrário, se o gerente de recursos propuser um recurso nomeado, o recurso genérico permanecerá na equipe e o status de solicitação será alterado para **Precisa de Revisão**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

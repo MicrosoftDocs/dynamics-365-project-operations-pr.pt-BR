@@ -55,3 +55,6 @@ Por exemplo, um desenvolvedor da divisão de robótica da Fabrikam India que tra
     | Developer | Fabrikam US | Fabrikam US - Robotics | US$ 150 |
 
 3. Anexe a lista de preços de venda **Taxas de cobrança da Fabrikam US** à lista de preços do projeto do contrato de projeto ou a uma determinada conta.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

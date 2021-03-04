@@ -74,3 +74,6 @@ Você pode gerar manualmente etapas de preço fixo quando elas não são dividid
 | Imposto | Criação Rápida | O valor do imposto aplicado na etapa. | Isso é transferido para a etapa de linha do contrato do projeto e a fatura. |
 
 3. Selecione **Salvar e Fechar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

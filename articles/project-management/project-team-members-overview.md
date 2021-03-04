@@ -60,3 +60,6 @@ Na grade de membros da equipe, as seguintes ações podem ser realizadas:
 
 - **Novo**: além de adicionar recursos diretamente da agenda, os gerentes de projeto podem adicionar novos membros da equipe nomeados ou genéricos na grade de membros da equipe.
 - **Excluir**: ao selecionar um ou mais membros da equipe, o gerente de projeto pode excluir recursos que não participarão mais do projeto. Excluir um membro da equipe também excluirá todas as atribuições de recursos associadas e cancelará todas as reservas existentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

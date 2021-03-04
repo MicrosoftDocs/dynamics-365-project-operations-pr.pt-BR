@@ -56,3 +56,6 @@ Uma cotação existente pode ser vinculada a uma Oportunidade. Conclua as etapas
    Ao mover uma oportunidade para este estágio, você pode selecionar esta cotação em uma lista de cotações associadas a esta oportunidade. Selecionar esta cotação indica que você está avançando com ela.
 
    Todas as outras cotações associadas à Oportunidade ainda estarão disponíveis e ativas até que uma delas seja ganha. Você pode mover o processo de vendas de volta para o estágio anterior **Qualificar** e escolha outra citação para seguir em frente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

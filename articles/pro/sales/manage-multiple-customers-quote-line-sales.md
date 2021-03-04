@@ -43,3 +43,6 @@ A tabela a seguir mostra os campos no registro do cliente da linha de cotação 
 Você pode editar as porcentagens de divisão do faturamento in-line. Quando as porcentagens de divisão do faturamento não totalizam 100%, ocorre um erro. Depois de editar as porcentagens de divisão do faturamento, atualize a página da linha de cotação para remover o erro.
 
 Use a ação distribuir uniformemente na subgrade dos clientes da linha de cotação para alocar divisões de faturamento para todos os clientes da linha de cotação. Se houver um fator de arredondamento, ele será adicionado ao cliente de arredondamento. Um dos clientes da linha de cotação é sempre marcado como o cliente de arredondamento, o que significa que o registro do cliente da linha de cotação tem o sinalizador de arredondamento definido como **Sim**. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

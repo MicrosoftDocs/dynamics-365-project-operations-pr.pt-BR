@@ -51,3 +51,6 @@ Os gerentes de conta e os gerentes de projeto solicitam recursos para seus proje
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

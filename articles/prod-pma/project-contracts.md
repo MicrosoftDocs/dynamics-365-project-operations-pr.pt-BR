@@ -344,3 +344,6 @@ No primeiro mês, são registradas 800 horas pelos consultores do projeto. O cus
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

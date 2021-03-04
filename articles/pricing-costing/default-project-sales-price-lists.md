@@ -57,3 +57,6 @@ As listas de preços de custo não são padronizadas para entidades no Project O
 5. Em seguida, o sistema verifica a data efetiva das listas de preços que correspondem à data da estimativa de entrada ou linha real. 
 6. Se houver várias listas de preços em vigor para a data na estimativa de entrada ou real, a lista de preços recém-criada será selecionada.
 7. Se não houver listas de preços de custo anexadas aos parâmetros do projeto que correspondam à moeda e à data efetiva, o sistema padronizará a taxa de custo como zero (0) na estimativa de entrada ou linha real.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -38,3 +38,6 @@ Os seguintes atributos são definidos para cada item de linha de despesa:
 - **Preço de Custo Unitário**: o preço unitário usado para calcular o custo da despesa.
 - **Preço Unitário de Venda**: o preço unitário usado para calcular os preços de venda da despesa.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

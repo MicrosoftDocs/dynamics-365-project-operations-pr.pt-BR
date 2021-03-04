@@ -62,3 +62,6 @@ Projetos são criados e mantidos no CDS. Atributos de contabilidade para projeto
 4. Defina os padrões de dimensão financeira. Observe que dimensões financeiras são padronizadas a partir da conta do cliente. Se o projeto estiver associado a uma linha de contrato com vários clientes de contrato de projeto, o cliente principal será usado para dimensões financeiras padrão.
 
 As dimensões financeiras padrão do projeto são usadas para definir padrões de linha de diário para transações de hora, despesas e taxas no **Diário de Integração de Operações do Projeto** e nas linhas de fatura do projeto relacionado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

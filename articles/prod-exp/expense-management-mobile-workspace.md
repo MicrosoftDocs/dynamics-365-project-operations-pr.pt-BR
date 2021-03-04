@@ -240,3 +240,6 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
 22. Selecione **Enviar**.
 23. Insira comentários para o aprovador.
 24. Escolha **Concluído**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

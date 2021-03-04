@@ -112,3 +112,6 @@ O exemplo a seguir mostra como chamar a ação personalizada **CopyProject** com
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

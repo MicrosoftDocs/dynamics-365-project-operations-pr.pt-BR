@@ -95,3 +95,6 @@ Este guia contém as informações necessárias para criar e gerenciar projetos:
  [Guia do gerente de recursos](../psa/resource-manager-guide.md)   
  [Guia de tempo, despesas e colaboração](../psa/time-expense-collaboration-guide.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

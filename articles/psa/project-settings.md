@@ -68,3 +68,6 @@ Cada organização deve configurar essas funções na página **Categorias de Re
 ## <a name="price-lists"></a>Listas de preços
 
 As listas de preços permitem definir preços de custo e vendas para funções do recurso, categorias de despesa, produtos e outros elementos em uma organização. Antes de definir estimativas financeiras para o trabalho que deve ser entregue para um projeto, você deve criar uma listas de preços de custo e vendas de apoio. Na seção de parâmetros, você também deve configurar uma lista de preços de custo e vendas padrão que se aplica a todos os projetos que são criados na organização. Na página **Parâmetros do Projeto Ativos**, certifique-se de configurar uma lista de preços de custo e vendas padrão.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

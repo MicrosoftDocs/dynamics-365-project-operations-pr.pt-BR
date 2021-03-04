@@ -93,3 +93,6 @@ Configurar um delegado para permitir que alguém realize entradas de tempo e des
   
 ### <a name="see-also"></a>Consulte também  
  [Guia de tempo, despesas e colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

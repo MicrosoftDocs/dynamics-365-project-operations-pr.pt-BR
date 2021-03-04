@@ -42,3 +42,6 @@ Você pode usar uma caixa de pesquisa no **Seletor de Recursos** para procurar t
 1. Na grade de tarefas, no quadro ou na linha do tempo, navegue até a célula **Atribuído a**.
 2. Na caixa de pesquisa, comece a digitar um nome. Os resultados da pesquisa para o nome são exibidos no **Seletor de Recursos** em **Outros Recursos**.
 3. Selecione o recurso que deseja atribuir à tarefa ou selecione o nome do recurso em **Outros Recursos da Equipe**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

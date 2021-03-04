@@ -33,3 +33,6 @@ Na grade **Membro da equipe**, um gerente de projeto pode destacar um recurso es
 ## <a name="schedule-board"></a>Quadro de Agendamento
 
 No **Quadro de agendamento**, o gerente de recursos tem uma visão de portfólio de todas as reservas em uma organização. Nessa exibição, o gerente de recursos pode estender, encurtar ou mover as reservas existentes semelhantes aos recursos oferecidos em **Manter reservas**. O gerente de recursos também pode substituir os recursos existentes alocados para uma reserva específica clicando com o botão direito na reserva e selecionando **Substituir recurso**. Os gerentes de recursos também podem editar os contornos das reservas existentes clicando com o botão direito na reserva e selecionando **Editar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

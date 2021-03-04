@@ -69,3 +69,6 @@ Para habilitar o aprimoramento de desempenho do agendamento de recursos, conclua
 
 > [!NOTE]
 > Isso distribuirá dados gerais para a tabela **ResRollup** em todas as empresas em seu ambiente, de modo que o trabalho em lote só precisa ser executado em uma entidade legal. Esse trabalho em lote é necessário para todas as exibições **Disponibilidade do Recurso**. Se esse trabalho em lote não for executado, os dados **ResRollup** serão gerados imediatamente, o que pode levar algum tempo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

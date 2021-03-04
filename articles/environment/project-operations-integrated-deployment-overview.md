@@ -43,3 +43,6 @@ Esta implantação deve ser escolhida, a expectativa do Project Operations é us
 - Requer um mecanismo de taxa de câmbio e imposto sobre vendas de classe empresarial, avançado para gerar faturas voltadas ao cliente para projetos.
 - Um sistema de reconhecimento de receita e contabilidade de projetos em conformidade com as Normas Internacionais de Contabilidade (IFRS).
 - Aplicativos Finance ou Supply Chain Management e a integração de transações baseadas no projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

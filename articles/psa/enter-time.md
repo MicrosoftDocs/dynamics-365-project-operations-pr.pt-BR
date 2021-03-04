@@ -61,3 +61,6 @@ Insira suas horas pelo menos semanalmente — ou, pelo menos, na frequência sol
   
 ### <a name="see-also"></a>Consulte também  
  [Guia de tempo, despesas e colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

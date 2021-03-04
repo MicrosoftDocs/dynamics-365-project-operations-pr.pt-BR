@@ -59,3 +59,6 @@ Todas as linhas de contrato do projeto com um método de cobrança de preço fix
 Para revisar as etapas de cobrança, vá para **Vendas** \> **Cobrança** \> **Etapas com preço fixo**. Selecione as etapas prontas para faturamento e, em seguida, selecione **Pronto para faturar**. O status de cobrança dessas etapas foi alterado para **Pronto para faturar**.
 
 ![Etapas de preço fixo](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

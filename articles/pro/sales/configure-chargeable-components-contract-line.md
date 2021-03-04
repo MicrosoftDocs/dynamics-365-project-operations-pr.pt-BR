@@ -79,3 +79,6 @@ Uma estimativa ou real criado para despesa só será considerado passível de co
 | No            | Sim              | Projeto inteiro | Não pode ser definido   | Não Passível de Cobrança | Cobrança em um Tempo real: **Não disponível**</br> Tipo de cobrança em Despesa real: **Não Passível de Cobrança**     |
 | Sim           | No               | Projeto inteiro | Passível de Cobrança     | Não pode ser definido   | Cobrança em um Tempo real: **Passível de Cobrança** </br> Tipo de cobrança em Despesa real: **Não disponível**        |
 | Sim           | No               | Projeto inteiro | Não Passível de Cobrança | Não pode ser definido   | Cobrança em um Tempo real: **Não Passível de Cobrança** </br>Tipo de cobrança em Despesa real: **Não disponível**   |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -30,3 +30,6 @@ O gerente de projeto pode revisar as transações de vendas não faturadas usand
 Você pode [criar manualmente uma fatura pro forma](../proforma-invoicing/create-manual-proforma-invoice.md) ou usar um [processo periódico](../proforma-invoicing/configure-automated-invoice-creation.md). O gerente de projeto pode [ajustar um rascunho de fatura pro forma](../proforma-invoicing/manage-proforma-invoice.md) conforme necessário e, em seguida, confirmá-lo.
 
 A fatura pro forma confirmada é enviada para o módulo **Gerenciamento e contabilidade de projetos** no Finance. O contador do projeto formata e atualiza a proposta de fatura do projeto e então posta e imprime o documento. As faturas de projeto lançadas são registradas na Contabilidade, bem como nos razões auxiliares do Cliente e do Projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

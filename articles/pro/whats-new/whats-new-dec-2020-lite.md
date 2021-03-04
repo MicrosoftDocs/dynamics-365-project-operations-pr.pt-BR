@@ -57,3 +57,6 @@ A tabela a seguir lista as atualizações do Project Operations no ambiente do D
 | Horas e despesas | 2034882 | O botão **Novo** é exibido duas vezes na barra de comando para entradas de tempo quando o Dynamics 365 Field Service é instalado. |
 | Horas e despesas | 2056028 | Atualize a página **Edição de Hora** para incluir a linha de tempo. |
 | Horas e despesas | 1983747 | O gráfico de entrada de tempo mostra dados adicionais. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

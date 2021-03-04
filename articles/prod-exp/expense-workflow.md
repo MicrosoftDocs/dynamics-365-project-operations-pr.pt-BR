@@ -55,3 +55,6 @@ O processo a seguir é um exemplo do fluxo de trabalho de gerenciamento de despe
 Após a verificação desses requisitos, o relatório de despesas é postado.
 
 Depois que o relatório de despesas é postado, o pagamento é autorizado para o relatório de despesas e o funcionário é reembolsado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

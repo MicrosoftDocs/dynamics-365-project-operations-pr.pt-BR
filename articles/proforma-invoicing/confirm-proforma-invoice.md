@@ -198,3 +198,6 @@ Uma venda cobrada real para o valor do marco original na linha de contrato do pr
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

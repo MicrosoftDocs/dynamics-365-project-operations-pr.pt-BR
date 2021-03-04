@@ -45,3 +45,6 @@ Depois que você criar um modelo de horas de trabalho, você precisará atribuí
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

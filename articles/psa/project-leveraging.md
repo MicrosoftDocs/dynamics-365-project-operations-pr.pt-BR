@@ -54,3 +54,6 @@ Você pode definir as estimativas de agenda e esforço de trabalho usando os cam
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importando estimativas de um projeto em uma cotação
 
 Após definição de estimativas do projeto, você pode importá-las na linha de cotação. Na página **Detalhes da Linha de Cotação**, selecione na faixa de opções **Importar de estimativas** para resumir as estimativas do projeto por tipo de transação, função ou nível da tarefa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -123,3 +123,6 @@ Ao trabalhar com a entidade **Real**, é importante compreender quais transaçõ
 A entidade **Origem da Transação** registra a origem do registro **Real**, e a entidade **Conexão da Transação** registra os registros relacionados do registro **Real**. Além disso, o registro **Real** contém referências a projeto, contrato de projeto (ordem), recurso reservável e cliente.
 
 ![Diagrama mostrando a conexão da transação, a origem e os relacionamentos reais](media/PS-Reporting-image6.png "Diagrama mostrando a conexão da transação, a origem e os relacionamentos reais")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

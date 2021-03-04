@@ -81,3 +81,6 @@ Qualquer despesa incorrida no projeto, que não esteja diretamente relacionada 
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

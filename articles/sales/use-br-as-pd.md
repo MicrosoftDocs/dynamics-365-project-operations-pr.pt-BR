@@ -78,3 +78,6 @@ O registro de dimensão de preço para **msydn_bookableresource** deve ser notif
 5. Adicione **msdyn_bookableresourceid** a **Nome do Campo**.
 
  ![Formulário Novo nome de campo da dimensão de preço](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

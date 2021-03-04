@@ -47,3 +47,6 @@ Para abrir a página **Parâmetros de integração do Project Service Automation
 | Padrões de tipo de cobrança  | Tipo de cobrança         | Clique em **Novo** para adicionar uma linha onde você pode selecionar o tipo de cobrança para definir a propriedade de linha padrão. Um tipo de cobrança específico pode ser selecionado apenas uma vez na configuração. |
 |                        | Propriedade de linha        | Selecione a propriedade de linhas padrão para o tipo de cobrança selecionado. Quando novas estimativas de horas, novas estimativas de despesas ou novos valores reais são sincronizados a partir do Project Service Automation, o campo **Propriedade de linha** é definido com o valor padrão para o tipo de cobrança. |
 | Bloqueio de funcionalidade  | Não aplicável       | Selecione a funcionalidade a ser desabilitada em Finanças para projetos e contratos originados do Project Service Automation. Por exemplo, você pode desativar a capacidade de editar contratos e projetos, criar estruturas analíticas de trabalho e inserir planilhas de horas em Finanças. Os campos relacionados à contabilidade continuarão habilitados, mesmo que não sejam disponibilizados pela configuração do parâmetro. Por padrão, todas as funcionalidades estão habilitadas. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

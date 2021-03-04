@@ -97,3 +97,6 @@ Em ambas, na exibição de grade e na exibição em fases de tempo, você pode s
 ## <a name="expense-estimates"></a>Estimativas de despesas
 
 O botão **Adicionar uma Nova Estimativa de Despesa** na exibição de grade permite registrar as despesas que são incorridas no projeto, mas que não se relacionam diretamente à mão de obra. Você pode registrar as estimativas de despesa para uma tarefa específica ou para o projeto inteiro. Selecione as categorias de despesa e a data provisória quando você espera incorrer em despesa. Se a lista de preços de custo e a lista de preços de vendas associadas tiverem preços padrão (ou se as porcentagens de markup forem definidas para categorias de despesa), eles serão inseridos automaticamente na linha de estimativa quando ocorrer a associação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

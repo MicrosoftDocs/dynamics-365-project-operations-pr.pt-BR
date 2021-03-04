@@ -72,3 +72,6 @@ Quando Alberto estiver pronto para enviar os dados do relatório de despesas ao 
 Alberto deve verificar se as transações do relatório de despesas estão qualificadas para a restituição de IVA e se os recibos digitais foram anexados aos relatórios. Para começar a processar as despesas qualificadas para a restituição interna, Alberto abre a página **Restituição de imposto de despesa** e seleciona o relatório de despesas que requer verificação. Ele verifica se os recibos estão em nome da empresa e não no do funcionário. Para a recuperação do IVA, os recibos devem estar em nome da empresa. Alberto então confirma se o grupo de impostos sobre vendas correto e os códigos de imposto sobre vendas do item foram aplicados.
 
 Ao receber os recibos físicos, Alberto altera o status do relatório de despesas para **Pronto para recuperação**. Ele poderá, então, fazer a declaração junto à autoridade fiscal apropriada. Nesse caso, a autoridade fiscal apropriada nos EUA é o Serviço da Receita Federal (Internal Revenue Service — IRS).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

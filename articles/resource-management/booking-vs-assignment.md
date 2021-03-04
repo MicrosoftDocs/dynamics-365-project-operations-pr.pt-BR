@@ -26,3 +26,6 @@ Diferente das reservas, as atribuições representam o compromisso de recursos a
 Normalmente, a soma das reservas para um recurso será igual à soma das atribuições do recurso em uma ou mais tarefas. No entanto, o Project Operations não impõe essa correspondência. A exibição **Reconciliação** mostra ao gerente de projetos os locais em que as reservas e atribuições de um recurso não são correspondentes.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

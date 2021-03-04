@@ -39,3 +39,6 @@ Se a chave de gerenciamento de recursos **Habilitar página de lista de delegado
 Um delegado pode filtrar e pesquisar rapidamente os relatórios de despesas existentes que foram delegados a ele. O delegado também pode criar rapidamente um novo relatório de despesas para outros usuários, selecionando **Novo relatório de despesas**.
 
 Os delegados podem criar e gerenciar relatórios de despesas para outros funcionários acessando **Gerenciamento de despesas** > **Minhas despesas** > **Relatório de despesas** e selecionando **Abrir as despesas de outro usuário**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

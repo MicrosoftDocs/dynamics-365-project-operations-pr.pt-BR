@@ -61,3 +61,6 @@ Use este procedimento para criar manualmente uma fatura de cliente intercompanhi
 ## <a name="post-the-intercompany-vendor-invoice"></a>Lançar a fatura de fornecedor intercompanhia
 
 Um contador de projeto na entidade legal que toma o empréstimo pode revisar as faturas de fornecedores intercompanhia pendentes quando a fatura de cliente intercompanhia correspondente é lançada. No Finance, na entidade legal que toma o empréstimo, vá para **Contas a pagar** > **Faturas** > **Fatura de fornecedor pendente**. O número da fatura pendente corresponderá ao número da fatura do cliente intercompanhia. Verifique se a fatura está correta e lance a fatura. Lançar a fatura de fornecedor intercompanhia cria uma transação no diário-razão auxiliar e na contabilidade do projeto que reflete os custos de transação na entidade legal que toma o empréstimo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

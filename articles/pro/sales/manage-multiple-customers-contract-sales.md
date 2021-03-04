@@ -52,3 +52,6 @@ Um cliente do contrato pode ser criado, atualizado ou excluído da guia **Client
 As porcentagens de divisão de cobrança podem ser editadas usando a experiência de edição de grade em linha. Quando as porcentagens de divisão de cobrança não totalizarem 100%, você receberá um erro. Depois de editar as porcentagens de divisão de cobrança, atualize a página para ignorar o erro.
 
 Você também pode selecionar **Distribuir Uniformemente** na subgrade **Clientes do Contrato** para alocar divisões de cobrança uniformemente para todos os clientes do contrato. Se houver um fator de arredondamento, ele será adicionado ao cliente de arredondamento. Um dos clientes do contrato é sempre marcado como o cliente de **arredondamento**, o que significa que o registro do cliente do contrato tem o sinalizador de arredondamento definido como **Sim**. Normalmente, esse é o cliente principal do contrato, mas também pode ser alterado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

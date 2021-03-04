@@ -65,3 +65,6 @@ Para poder criar agendas de projetos, você precisa configurar um calendário de
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

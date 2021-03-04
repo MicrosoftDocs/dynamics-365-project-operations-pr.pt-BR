@@ -33,3 +33,6 @@ Uma lista de todas as cotações do projeto pode ser vista na página de listage
 2. Use **Exibir Seletor** para selecionar outras exibições filtradas das cotações. Usando critérios de filtro personalizados, você pode configurar suas próprias exibições e opções de navegação.
 
 As cotações podem ser criadas ou excluídas desta página de listagem ou de páginas de detalhes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

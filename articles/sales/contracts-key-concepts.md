@@ -88,3 +88,6 @@ As agendas de fatura são específicas para cada linha do contrato e são necess
 ## <a name="changes-from-dynamics-365-sales-orders"></a>Alterações de Pedidos do Dynamics 365 Sales
 
 Os contratos no Project Operations são criados em Pedidos no Dynamics 365 Sales. No entanto, existem desvios e diferenças importantes na funcionalidade. Os contratos têm seu próprio formulário e elementos de interface do usuário, regras de negócios, lógica de negócios em plug-ins e scripts do lado do cliente que as tornam exclusivas das cotações de Pedidos. Por esses motivos, não use um Pedido de venda e um contrato do Project Operations de forma intercambiável.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

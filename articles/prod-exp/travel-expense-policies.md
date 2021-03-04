@@ -51,3 +51,6 @@ Veja a seguir algumas sugestões que podem ajudá-lo na criação de novas polí
 ## <a name="when-to-evaluate-policies"></a>Quando avaliar as políticas
 
 Nos parâmetros de gerenciamento de despesas, você pode escolher avaliar as políticas de gerenciamento de despesas quando uma linha for salva ou quando um relatório de despesas for enviado. Se você optar por avaliar quando uma linha for salva, isso garante que os usuários terão uma visibilidade antecipada do que precisam fazer para preencher o relatório de despesas de uma vez. Caso contrário, você pode atrasar a avaliação da política e economizar tempo validando no final, durante o envio para o fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

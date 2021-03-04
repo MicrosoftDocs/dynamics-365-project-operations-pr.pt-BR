@@ -113,3 +113,6 @@ Como o Dynamics 365 Project Service Automation usa o mecanismo Universal Resourc
 Para exibir mais detalhes sobre um recurso individual, clique com o botão direito do mouse nele para abrir o cartão de recurso.
 
 ![Cartão de recurso](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

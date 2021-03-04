@@ -153,3 +153,6 @@ As ilustrações a seguir mostram exemplos de mapeamentos de tarefas do modelo n
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>Mapeamento de etapas de linha de contrato de projeto em Projetos e contratos (PSA 3.x para Dynamics) – modelo v2:
 
 [![Mapeamento de marco de linha de contrato de projeto com modelo de versão dois](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

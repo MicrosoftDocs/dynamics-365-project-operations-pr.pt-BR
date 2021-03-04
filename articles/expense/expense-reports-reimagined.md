@@ -78,3 +78,6 @@ Os recursos a seguir estão presentes na página existente, mas ainda não estã
 - Fluxo de trabalho do nível da linha
 - Suporte para aprovadores provisórios
 - Discriminação avançada
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

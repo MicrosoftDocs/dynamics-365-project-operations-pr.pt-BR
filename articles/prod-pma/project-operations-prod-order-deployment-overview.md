@@ -43,3 +43,6 @@ Selecione este tipo de implantação para usar o Dynamics 365 Project Operations
 - Um mecanismo de taxa de câmbio e imposto sobre vendas de classe empresarial para gerar faturas de projetos voltadas para o cliente.
 - Um sistema de reconhecimento de receita e contabilidade de projetos em conformidade com as Normas Internacionais de Contabilidade (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

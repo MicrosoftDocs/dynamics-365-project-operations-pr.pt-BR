@@ -62,3 +62,6 @@ O seguinte procedimento explica como criar uma equipe de projeto.
 ## <a name="monitor-project-teams"></a>Monitorar equipes de projeto
 1. Na página **Todos os projetos** , selecione o link da **ID do projeto** para o projeto **Atualização do XYZ fase 2**.
 2. Na FastTab **Equipe do projeto e agendamento** , verifique se os recursos do projeto listados estão corretos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

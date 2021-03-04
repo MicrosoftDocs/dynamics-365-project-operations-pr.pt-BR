@@ -77,3 +77,6 @@ Os seguintes problemas foram corrigidos:
 - A lógica **Resolução da Lista de Preços de Venda** trata incorretamente os fusos horários, resultando na seleção incorreta de listas de preços.
 - O **Custo Total Real** de um projeto pode apresentar uma diferença fracionária após a aprovação de uma única entrada de tempo.
 - A lógica **Resolução de Preço** não fornece uma mensagem de erro amigável se **Preço de Função Recuperado** não tiver valores nos campos **Unidade Principal** e **Preço na Unidade Principal**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -41,3 +41,6 @@ Veja abaixo as guias e KPIs disponíveis em uma cotação de projeto que são ex
 | Análise de lucratividade | Guia na Cotação | A guia mostra as seguintes métricas:</br>- Custo total passível de cobrança</br></br>- Custo total não passível de cobrança</br>- Receita total</br>- Receita total (base)</br>- Margem bruta</br>- Margem bruta ajustada|
 | Comparação com Expectativas do Cliente | Guia na Cotação | Esta guia mostra as seguintes métricas:</br>- Conclusão estimada</br>- Conclusão da solicitação</br>- Orçamento do cliente</br>- Valor da cotação |
 | Análise da cotação | Guia na Cotação | Esta guia resume os seguintes KPIs principais para uma cotação de projeto</br>- Comparação com as expectativas do cliente para orçamento e agenda</br>- Margem bruta</br>- Margem bruta ajustada |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

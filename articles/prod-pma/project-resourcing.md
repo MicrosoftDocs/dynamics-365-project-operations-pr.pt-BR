@@ -55,3 +55,6 @@ Os tópicos a seguir fornecem informações sobre as tarefas que precisam ser co
 - [Desempenho de agendamento de recursos do projeto](project-scheduling-performance.md)
 - [Configurar funções em modelos de estrutura de detalhamento de trabalho](set-up-roles-wbs-template.md)
 - [Preenchimento de recursos para recursos planejados](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

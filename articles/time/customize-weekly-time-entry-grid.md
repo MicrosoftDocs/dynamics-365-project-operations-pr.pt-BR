@@ -144,3 +144,6 @@ Use validações de plug-in para validações que exijam mais contexto do que o 
 
 ### <a name="copying-time-entries"></a>Copiar entradas de hora
 Use a exibição **Copiar Colunas de Entrada de Hora** para definir a lista de campos a serem copiados durante a entrada de hora. **Data** e **Duração** são campos obrigatórios e não devem ser removidos da exibição.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

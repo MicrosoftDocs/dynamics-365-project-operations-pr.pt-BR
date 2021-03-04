@@ -33,3 +33,6 @@ Existem dois métodos para lidar com despesas pessoais de um trabalhador:
 - **Pago pela empresa** - sua organização paga toda a conta do cartão de crédito corporativo e, em seguida, debita na conta do trabalhador as despesas pessoais.
 
 Você pode selecionar o método que sua organização usa na página **Parâmetros de gerenciamento de despesas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

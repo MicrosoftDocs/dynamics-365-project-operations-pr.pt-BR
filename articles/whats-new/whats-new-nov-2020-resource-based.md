@@ -68,3 +68,6 @@ Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Proj
 
 ### <a name="regulatory-updates"></a>Atualizações regulatórias
 Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

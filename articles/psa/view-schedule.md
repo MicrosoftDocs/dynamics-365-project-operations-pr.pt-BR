@@ -45,3 +45,6 @@ Quando quiser saber no que você está trabalhando na semana, confira sua agenda
   
 ### <a name="see-also"></a>Consulte também  
  [Guia de tempo, despesas e colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

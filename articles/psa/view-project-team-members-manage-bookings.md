@@ -57,3 +57,6 @@ Você pode exibir uma lista dos membros da equipe do projeto e, a partir dela, m
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

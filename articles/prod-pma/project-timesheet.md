@@ -96,3 +96,6 @@ Clique em **Enviar** para enviar a planilha de horas para o fluxo de trabalho de
 ## <a name="review-timesheets"></a>Rever planilhas de horas
 
 Uma lista das planilhas de horas que precisam ser revisadas está disponível no menu. Essa opção estará disponível apenas se você tiver sido designado como um aprovador de fluxo de trabalho. Há suporte para aprovação de cabeçalho e linha. A aprovação de nível de linha oferece a capacidade de marcar uma ou mais linhas para aprovação. Depois de revisar as informações do quadro de horários, clique em **Aprovar** , **Delegar** ou **Retornar** para continuar o fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ A criação de uma cotação é semelhante a criar uma oportunidade. Enquanto um
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de conta](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

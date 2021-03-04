@@ -43,3 +43,6 @@ Você pode verificar a utilização dos recursos para determinar os níveis de u
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

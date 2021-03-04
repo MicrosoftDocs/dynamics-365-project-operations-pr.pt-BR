@@ -28,3 +28,6 @@ As linhas baseadas em produtos podem ser itens de catálogo ou produtos escritos
 
 Quando o método de receita do resumo da oportunidade é **Sistema Calculado**, os valores de orçamento do cliente nas linhas de oportunidade são resumidos para calcular a receita estimada. 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Quando uma equipe de projeto for copiada do projeto de origem, os recursos gené
 Quando o projeto é copiado, as linhas de estimativa de recursos e de despesas são copiadas do projeto de origem. 
 
 Para obter informações sobre como acessar programaticamente Copiar Projeto, consulte [Desenvolver modelos de projeto com Copiar Projeto](dev-copy-project.md).
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

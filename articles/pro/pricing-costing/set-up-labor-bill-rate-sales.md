@@ -55,3 +55,6 @@ Por exemplo, um desenvolvedor da Fabrikam India que trabalha em um projeto nos E
     | Developer | Fabrikam US | US$ 150 |
 
 3. Anexe a lista de preços de venda **Taxas de cobrança da Fabrikam US** à lista de preços do projeto do contrato de projeto ou a uma determinada conta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

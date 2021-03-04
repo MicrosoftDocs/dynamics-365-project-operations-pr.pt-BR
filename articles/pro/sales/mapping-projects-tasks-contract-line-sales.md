@@ -82,3 +82,6 @@ Esta é a experiência ideal para desassociar tarefas de linhas de contrato. Voc
 4. Na página da caixa de diálogo que for aberta, selecione uma linha de contrato no menu suspenso.
 5. Marque a caixa de seleção para indicar se a associação também deve ser removida de tarefas filho das tarefas selecionadas. Marcar a caixa também desassociará as tarefas filho das tarefas selecionadas da linha de contrato.
 6. Selecione **OK**. Uma mensagem de aviso indica que a remoção dessa associação pode resultar na reversão de dados reais anteriormente registrados na tarefa. Selecione **OK** na caixa de diálogo de aviso para remover a associação entre a tarefa e a linha de contrato baseada em projeto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

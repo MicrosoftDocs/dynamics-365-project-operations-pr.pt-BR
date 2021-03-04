@@ -90,3 +90,6 @@ A estimativa mudará o status para **Eliminado**.
 Use esta página para reverter todas as eliminações com uma data de estimativa especificada e com um status de estimativa de **Eliminado**. O status da transação será alterado depois que você selecionar os campos apropriados.
 
 Isso também alterará automaticamente o status do projeto para **Em andamento** se o estágio do projeto estiver definido como concluído. O status da estimativa do período do projeto será aletrado de volta para **Lançado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

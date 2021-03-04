@@ -63,3 +63,6 @@ Quando o trabalho no projeto estiver concluído, o gerente do projeto poderá at
 
 Quando todas as transações do projeto estiverem registradas, o gerente do projeto poderá atualizar o estágio para **Fechar**. Nesse momento, nenhuma transação pode ser registrada e o projeto é definido como somente leitura.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

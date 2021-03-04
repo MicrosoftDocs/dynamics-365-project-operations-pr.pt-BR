@@ -51,3 +51,6 @@ Um cliente de cotação pode ser criado, atualizado ou excluído na guia **Clien
 Você pode editar as porcentagens de divisão de cobrança usando a experiência de edição de grade em linha. Quando as porcentagens de divisão do cobrança não totalizam 100%, ocorre um erro. Depois de atualizar as porcentagens de divisão de cobrança, atualize a página para remover o erro.
 
 Você também pode tentar selecionar **Distribuir Uniformemente** na subgrade dos clientes de cotação. Esta ação aloca divisões de cobrança para todos os clientes da cotação. Se houver qualquer fator de arredondamento, ele será adicionado ao cliente de arredondamento. Um dos clientes da cotação é sempre marcado como o cliente de arredondamento. Isso significa que o registro do cliente da cotação tem o sinalizador **Arredondamento** definido como **Sim**. Normalmente, este é o cliente principal da cotação, mas isso pode ser alterado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

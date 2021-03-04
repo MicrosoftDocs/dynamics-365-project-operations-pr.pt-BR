@@ -102,3 +102,6 @@ A seguir, veja uma visão geral dos controles comuns encontrados nas várias gui
 **Adicionar coluna**: permite ao usuário definir as colunas visíveis na grade. Somente colunas de funcionalidade predefinida podem ser adicionadas às grades no formulário **Planejamento de projeto**.
 
 ![Botão Adicionar coluna](media/navigation5.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

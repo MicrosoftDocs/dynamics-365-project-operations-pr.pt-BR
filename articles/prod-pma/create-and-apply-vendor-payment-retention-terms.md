@@ -65,3 +65,6 @@ Depois de criar os termos de retenção de fornecedor para um fornecedor, você 
 6. Se o projeto também tiver termos de pagamento quando pago (PWP) configurados para o fornecedor, insira a porcentagem limite para o projeto no campo **Porcentagem de limite PWP**.
 
 Os termos de retenção do fornecedor também são exibidos nas ordens de compra que você cria para o fornecedor.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

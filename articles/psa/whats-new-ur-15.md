@@ -63,3 +63,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o PSA V3
   - Corrigido: Não é mais exibida uma mensagem de erro em **Pesquisa de projeto** no formulário **Linha da cotação** quando há mais de 1000 projetos.
   - Corrigido: A grade **Estimativas** para estimativas de mão-de-obra e de despesas agora exibe o símbolo correto da moeda.
   - Corrigido: Depois que uma organização atualiza o PSA da Versão de Atualização 14 para a Versão de Atualização 15, a guia **Agendar** não aparece mais em branco no formulário **Projeto**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

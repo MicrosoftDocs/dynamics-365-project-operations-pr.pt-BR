@@ -72,3 +72,6 @@ O processo empresarial Cliente Potencial até a Oportunidade oferece suporte aos
 | Desenvolver | Oportunidade | Desenvolver a oportunidade para adicionar mais informações sobre o trabalho envolvido, os principais participantes e a concorrência. |
 | Propor | Oportunidade | Desenvolver a proposta e obter aprovação da equipe de revisão interna. |
 | Fechar | Oportunidade | Vencer a oportunidade para fechar o negócio. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

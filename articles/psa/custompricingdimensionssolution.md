@@ -68,3 +68,6 @@ Você precisará adicionar as entidades a seguir do Project Service à sua solu�
 > ![Não inclua todos os componentes selecionados](media/Do-not-include-required.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

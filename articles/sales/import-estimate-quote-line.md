@@ -67,3 +67,6 @@ Quando o usuário selecionar a opção de resumir por Classe de transação, Cat
 | Tarefa A | Tarifa aérea | 1/10/2020 | 4 | 400 | 1600 |
 | Tarefa B | Hotel | 1/10/2020 | 4 | 200 | 800 |
 | Tarefa C | Hotel | 1/11/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Quando uma linha de cotação for baseada em um catálogo de produtos, você pod
 Se você selecionar **Substituir Preços**, o preço padrão não será definido. Em vez disso, você deve inserir um preço para o produto na linha de cotação. Se você selecionar **Usar Padrão**, o preço de venda padrão será usado e o campo será bloqueado para edição.
 
 Os preços de venda padrão serão inseridos nas linhas baseadas no produto de uma cotação. O campo **Preço** é definido como **Substituir Preços**, de forma que você possa editar o preço padrão nas linhas de cotação. Esta é uma substituição específica do Project Operations para o comportamento das linhas baseadas no produto no Dynamics 365 Sales.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

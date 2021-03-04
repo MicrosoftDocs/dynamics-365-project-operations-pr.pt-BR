@@ -77,3 +77,6 @@ As datas planejadas da versão estão sujeitas a alterações. Para obter mais i
 | --- | --- |
 | 10.0.17 | 19 de março de 2021 |
 | 10.0.18 | 16 de abril de 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

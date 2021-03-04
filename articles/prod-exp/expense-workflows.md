@@ -50,3 +50,6 @@ A tabela a seguir lista os tipos de fluxos de trabalho que podem ser criados em 
 |      <strong>Solicitação de adiantamento em dinheiro</strong>      |         Criar fluxos de trabalho de aprovação para solicitações de adiantamento em dinheiro.          |
 |        <strong>Recuperação do imposto IVA</strong>        | Criar fluxos de trabalho de aprovação para a recuperação do imposto sobre valor agregado (IVA).  |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

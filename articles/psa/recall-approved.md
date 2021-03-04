@@ -107,3 +107,6 @@ A ilustração a seguir mostra as alterações que ocorrem em entradas de hora a
 A ilustração a seguir mostra as alterações que ocorrem em entradas de despesa aprovadas quando elas são recuperadas.
 
 ![Transições de estado de Entradas de Despesa](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

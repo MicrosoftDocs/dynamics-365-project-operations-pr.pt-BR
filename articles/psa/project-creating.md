@@ -149,3 +149,6 @@ Por padrão, se uma tarefa de nó folha não tiver predecessores, sua data de in
 ### <a name="manual-scheduling"></a>Agendamento manual
 
 Se as regras de agendamento automático não atenderem aos seus requisitos, você poderá definir o modo de tarefa como **Agendado Manualmente**. Essa configuração faz com que o mecanismo de agendamento pare de calcular os valores de outros atributos de agendamento. Independentemente do modo da tarefa, se você definir predecessoras em tarefas, você sempre afetará a data de início da tarefa dependente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

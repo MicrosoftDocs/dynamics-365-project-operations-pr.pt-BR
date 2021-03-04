@@ -87,3 +87,6 @@ Quando estiver pronto para alterar um recurso de membro da equipe com reserva fl
 2. Quando o painel de agendamento abrir, expanda o recurso para mostrar suas reservas. Você verá a reserva marcada como Flexível.
 3. Clique com o botão direito na reserva e, em Alterar Status, selecione Reserva Fixa e Fixa. O status da reserva agora é Fixa.
 4. Depois de fechar o painel de agendamento, você verá que as horas para o recurso mudaram de Flexíveis para Fixas na grade de membros da equipe. Agora é possível atribuir recursos a tarefas (contanto que haja um alinhamento entre as horas com reserva fixa e as horas de esforço da tarefa para a atribuição). Observe que se você seguiu as etapas de atendimento ao recurso genérico no item 3 acima, ao alterar o status do recurso reservável com reserva flexível para fixa, o membro da equipe genérico será removido da equipe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

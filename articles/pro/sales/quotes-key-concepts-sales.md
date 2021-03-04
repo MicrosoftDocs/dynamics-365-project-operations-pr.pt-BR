@@ -89,3 +89,6 @@ As cotações do Project Operations são baseadas nas cotações do Dynamics 365
 - As cotações do Project Operations têm seu próprio formulário e elementos de interface do usuário, regras de negócios, lógica de negócios em plug-ins e scripts do lado do cliente que as tornam exclusivas das cotações do Sales.
 
 Por esses motivos, não é recomendável usar uma cotação do Sales e uma cotação do Project Operations de forma intercambiável.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -140,3 +140,6 @@ As ilustrações a seguir mostram exemplos de mapeamentos de tarefas do modelo n
 [![Mapeamento de modelo - Atualização de reais](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![Mapeamento de modelo - Atualização de transação](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

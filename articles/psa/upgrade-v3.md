@@ -110,3 +110,6 @@ Para as tarefas atribuídas a uma função com uma unidade organizacional difere
  
 Alteração no padrão de unidades organizacionais de recursos diferentes em membros de equipe não gerados é o motivo pelo qual recomendamos que você gere novamente a equipe em cada projeto que contém recursos genéricos antes da atualização, de modo que as atribuições da unidade organizacional não sejam perdidas.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

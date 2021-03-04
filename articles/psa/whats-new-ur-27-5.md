@@ -42,3 +42,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o Projec
 Os seguintes problemas foram corrigidos:
 
 - Agendar assistência para degradação de desempenho de pesquisa
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

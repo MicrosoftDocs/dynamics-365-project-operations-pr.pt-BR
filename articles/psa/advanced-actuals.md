@@ -34,3 +34,6 @@ ms.locfileid: "5145704"
 Todas as transações financeiras que ocorrem durante um projeto são registradas. Essas transações são registradas como **dados reais**. A tabela a seguir mostra os diferentes tipos de dados reais que são criados de acordo com o tipo de projeto; se é de tempo e material, preço fixo ou interno, ou se está no estágio de pré-venda.
 
 > ![Tabela mostrando como os dados reais são registrados](media/advanced-table2.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

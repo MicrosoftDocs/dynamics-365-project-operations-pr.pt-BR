@@ -160,3 +160,6 @@ Ao criar políticas de relatório de despesas, você pode ajudar a organização
 - Quando a política expirará?
 - Qual é a regra da política?
 - Qual é o resultado da regra da política?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

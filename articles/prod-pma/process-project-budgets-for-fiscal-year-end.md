@@ -98,3 +98,6 @@ Ao processar os valores restantes do orçamento, você pode criar transações n
 5. Para cada projeto que você deseja processar, selecione a opção no início da linha para o projeto. 
 6. Selecione **Processo** para transferir os valores de orçamento restantes dos projetos selecionados para o ano fiscal selecionado.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

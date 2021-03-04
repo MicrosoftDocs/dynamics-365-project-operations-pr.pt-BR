@@ -257,3 +257,6 @@ A imagem a seguir é posterior à criação das listas de preços personalizadas
 
 > [!NOTE]
 > Um pequeno atraso pode ocorrer entre você clicar em **Criar precificação personalizada** e a lista de preços personalizada ser criada. É recomendável atualizar a grade, em vez de clicar várias vezes. Uma lista de preços personalizada será criada se o nome da lista de preços associada tiver o nome da cotação ou o nome do contrato do projeto anexado a ele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

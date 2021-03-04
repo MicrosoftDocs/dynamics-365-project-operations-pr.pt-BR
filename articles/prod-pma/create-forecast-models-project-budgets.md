@@ -57,3 +57,6 @@ Este tópico descreve como criar um modelo de previsão para os orçamentos rest
 
  
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

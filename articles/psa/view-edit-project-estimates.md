@@ -45,3 +45,6 @@ Com os recursos do [!INCLUDE[pn_project_service_auto](../includes/pn-project-ser
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

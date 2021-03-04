@@ -48,3 +48,6 @@ Se você tiver atribuições de tarefa para um recurso, mas nenhuma reserva, na 
 Reservas que são criadas por meio da ação **Estender reserva** são associadas ao requisito principal do projeto. Quando uma extensão é iniciada, o requisito específico que deve ser estendido não pode ser determinado, porque o recurso pode estar associado a mais de um requisito para o projeto.
 
 O gerente de projeto ou o gerente de recursos pode usar o quadro de agendamento para gerenciar situações em que um recurso é reservado em excesso além de sua capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

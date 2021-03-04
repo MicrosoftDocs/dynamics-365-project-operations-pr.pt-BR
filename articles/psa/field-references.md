@@ -150,3 +150,6 @@ A tabela a seguir fornece uma lista abrangente de formulários e exibições pro
 |  Real|• Informações<br>• Dados Reais Ativos|• Exibição Associada de Dados Reais|
 
 Talvez os campos personalizados também tenham que ser adicionados às regras de negócios, dependendo do que você definiu. Um exemplo pronto para uso é para a regra de negócios **Capacidade de Edição da Entrada de Tempo baseada no status**. Essa regra define quais campos precisam ser bloqueados quando a Entrada de Tempo estiver em um status não editável, como **Aprovado**. Adicione campos a essa regra de negócios para que os campos sejam bloqueados para edição quando a Entrada de Tempo estiver em um status diferente de **Rascunho** ou **Devolvido**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -55,3 +55,6 @@ Quando esse método de precificação é selecionado na linha de preço da categ
 
 ### <a name="markup-over-cost"></a>Markup sobre custo
 Quando esse método de precificação é selecionado na linha de preço da categoria vinculada a uma lista de preços de venda, o preço padrão para a combinação de categoria e unidade apenas para uma despesa real. Por exemplo, vendas reais não cobradas para a classe de transação de despesas. Esse preço unitário é definido nas vendas não cobradas reais para um valor calculado a partir do preço unitário no custo real para a despesa após a porcentagem de marcação definida ser aplicada. A padronização de preços com base no custo não é feita nas estimativas do projeto para despesas ou na linha de cotação e nos detalhes da linha do contrato para despesas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

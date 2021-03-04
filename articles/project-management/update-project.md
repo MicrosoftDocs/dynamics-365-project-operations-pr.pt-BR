@@ -48,3 +48,6 @@ Veja a seguir um resumo dos campos que podem ser atualizados em um projeto após
 - **Status Geral do Projeto**: a integridade geral do projeto fornecida pelo gerente de projeto.
 - **Comentários**: uma narrativa sobre a integridade atual do projeto fornecida pelo gerente de projeto.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

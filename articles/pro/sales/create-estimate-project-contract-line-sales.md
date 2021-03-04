@@ -68,3 +68,6 @@ Os cálculos de lucratividade convertem os valores dos detalhes da linha do cont
 
 > [!NOTE]
 > Erros de arredondamento de moeda e margens alteradas podem ocorrer devido à falta de taxas de câmbio efetivas de data. Use esses cálculos em contratos de projeto apenas como aproximações e não para relatórios estatutários reais ou outros relatórios que requeiram maior precisão de arredondamento e consciência da validade de data para taxas de câmbio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

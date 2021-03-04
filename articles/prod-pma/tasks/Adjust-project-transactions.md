@@ -44,3 +44,6 @@ Este guia de tarefas mostra a você como ajustar uma transação em um projeto. 
 13. Na lista, marque a linha selecionada. 
 14. No campo Preço de custo, insira um número. 
 15. Clique em Lançar. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

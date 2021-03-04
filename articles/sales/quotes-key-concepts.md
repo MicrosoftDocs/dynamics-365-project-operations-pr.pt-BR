@@ -128,3 +128,6 @@ Para uma linha de cotação de preço fixo, você pode usar a grade **Agenda de 
 - Para criar etapas de cobrança que sejam igualmente divididas, selecione uma frequência de fatura, insira a data de início da cobrança na linha de cotação e selecione **Data de Conclusão Solicitada** para a cotação na seção **Resumo** do cabeçalho da cotação. Em seguida, selecione **Gerar Etapas Periódicas** para criar etapas igualmente divididas com base na frequência de fatura selecionada. 
 - Para criar uma etapa de cobrança de soma total, crie uma etapa e insira o valor da linha de cotação como o valor da etapa.
 - Para criar etapas de cobrança que sejam baseadas em tarefas específicas no plano de projeto, crie uma etapa e mapeie-a para o elemento de agenda do projeto na interface do usuário da etapa de cobrança.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

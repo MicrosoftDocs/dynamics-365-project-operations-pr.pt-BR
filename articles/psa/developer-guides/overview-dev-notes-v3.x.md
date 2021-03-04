@@ -33,3 +33,6 @@ O Dynamics 365 Project Service Automation 3.x oferece novos recursos, implementa
 - [Mudanças de hora e despesas (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [Alterações no Gerenciamento de recursos (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [Recursos da Web preteridos no Project Service Automation 3.x](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -69,3 +69,6 @@ Quando você copia as linhas de estimativas de projeto, as listas de preços sã
 ### <a name="copying-a-project-team"></a>Copiar uma equipe de projeto
 
 Quando uma equipe de projeto é copiada de um modelo de projeto para um projeto, os recursos genéricos são copiados, juntamente com as habilidades e proficiências definidas no modelo. As atribuições de recursos genéricos também são mantidas, pois estavam no modelo de projeto. Recursos nomeados não têm suporte em modelos de projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

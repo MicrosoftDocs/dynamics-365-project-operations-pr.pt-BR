@@ -28,3 +28,6 @@ Existem dois métodos que você pode usar para trabalhar com as despesas pessoai
   - **Pago pela empresa**: sua organização paga a conta integral do cartão de crédito corporativo e, em seguida, debita da conta do funcionário as despesas pessoais.
 
 Você pode selecionar o método que sua organização usa na página **Parâmetros de gerenciamento de despesas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -106,3 +106,6 @@ Quando uma ou mais atualizações são feitas na estrutura de detalhamento de tr
   - Sistema do Project Operations
   - Sistema do projeto
   - Sistema de gravação dupla do Project Operations (Esta função é necessária se você estiver implantando o cenário baseado em recursos/sem estoque do Project Operations.)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

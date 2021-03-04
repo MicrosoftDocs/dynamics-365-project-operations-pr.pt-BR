@@ -67,3 +67,6 @@ Para definir parâmetros de projeto:
 
 ### <a name="see-also"></a>Consulte também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

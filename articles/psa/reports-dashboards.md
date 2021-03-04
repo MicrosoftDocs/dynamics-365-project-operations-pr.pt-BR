@@ -40,3 +40,6 @@ O painel **Gerente de Prática** concede aos gerentes de prática uma experiênc
 ## <a name="resource-manager"></a>Gerente de Recursos 
 
 O painel **Gerente de Recursos** oferece aos gerentes de recursos uma experiência gráfica de painel para monitorar solicitações, demanda de recursos e horas trabalhadas. Ele também permite que os gerentes de recursos segmentem as informações monitoradas por várias dimensões.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -70,3 +70,6 @@ Você pode importar dados de reservas e atribuições de projetos. Ao importar d
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>Recursos para agrupar por, classificar, pesquisar e filtrar
 
 Você pode agrupar e filtrar as entradas de hora pelas dimensões especificadas nas colunas. No campo **Agrupar por**. selecione a dimensão a ser usada para filtrar as entradas de hora. Você também pode classificar os registros de entrada de hora em ordem crescente ou decrescente usando a seta de classificação nos cabeçalhos de coluna. Além disso, é possível mostrar ou ocultar entradas selecionando-se o botão **Filtrar** nos cabeçalhos de colunas e, em seguida, na caixa **Pesquisar**, inserindo o texto que deve ser usado para pesquisar entradas de hora por nome de projeto, tarefa de projeto, entrada de hora ou recurso.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

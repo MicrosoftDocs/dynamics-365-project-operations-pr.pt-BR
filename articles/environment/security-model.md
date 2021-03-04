@@ -81,3 +81,6 @@ O Project Operations inclui as seguintes funções:
 Para obter mais informações sobre segurança no Finance, consulte [Segurança baseada em funções](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/sysadmin/role-based-security).
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

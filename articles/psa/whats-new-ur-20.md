@@ -62,3 +62,6 @@ Os seguintes problemas foram corrigidos:
 - As listas de **Preço de Custo Unitário da Organização** permitem sobreposições na data efetiva.
 - Os usuários não têm permissão para alterar **OrgUnit** quando o tipo de ordem não for baseado no trabalho, pois levará a um erro de exceção de referência nula.
 - Ao tentar navegar do formulário **Detalhes da Linha de Cotação** de volta à guia **Cotação**, o formulário é atualizado e exibe a guia **Resumo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

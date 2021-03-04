@@ -62,3 +62,6 @@ Os modelos de projeto economizam seu tempo se a empresa tiver lances regulares e
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

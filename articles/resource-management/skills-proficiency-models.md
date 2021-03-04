@@ -43,3 +43,5 @@ Adicionar características aos requisitos de recursos permite documentar o conhe
 3. Na subguia **Habilidades**, selecione **+Adicionar nova Característica de Requisito**.
 4. No painel de criação rápida, localize e selecione as características necessárias e adicione um **Valor de Classificação**.
 5. Selecione **Salvar e fechar**.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -32,3 +32,6 @@ Para relatórios de despesas, você pode fazer uma busca detalhada de uma transa
 Para fazer uma busca detalhada no relatório de despesas original em que uma transação apareceu, selecione a transação e, em seguida, selecione **Documento original**.
 
 Ao visualizar transações individuais, você também pode visualizar quaisquer dados adicionais anexados a uma transação. Por exemplo, para uma despesa de hotel detalhada, você pode ver uma lista detalhada de despesas, como acesso à Internet, chamadas telefônicas e serviço de quarto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

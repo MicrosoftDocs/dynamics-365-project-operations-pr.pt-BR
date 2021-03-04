@@ -61,3 +61,6 @@ Antes de iniciar o processo de configuração, as seguintes decisões deverão s
 
     - Alguma das subcategorias foi excluída da recuperação de impostos?
     - Qual é o grupo de impostos do item das subcategorias?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

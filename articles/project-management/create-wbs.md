@@ -116,3 +116,6 @@ O modo de tarefa não tem efeito em atualizações que são feitas nas datas de 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Acessibilidade e atalhos de teclado
 
 A grade **Agendar** é totalmente acessível e pode ser usada com leitores de tela como o Narrator, JAWS ou NVDA. Você pode se mover pela área da grade usando as teclas de seta (como no Microsoft Excel), pode usar a tecla Tab para avançar pelos elementos da interface de usuário interativa, bem como usar a tecla de seta para baixo, a tecla Enter ou a barra de espaços para selecionar e abrir os menus suspensos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

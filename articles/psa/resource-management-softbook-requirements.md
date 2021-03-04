@@ -63,3 +63,6 @@ Você pode usar o mesmo método para cancelar uma reserva fixa ou flexível no P
 Para converter um recurso com reserva flexível em um com reserva fixa na guia **Equipe** do projeto, selecione o recurso e, em seguida, selecione **Confirmar**.
 
 ![Confirmar comando](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

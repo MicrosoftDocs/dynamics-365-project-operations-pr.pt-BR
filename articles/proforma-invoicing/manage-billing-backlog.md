@@ -38,3 +38,6 @@ Dados efetivos de vendas não cobradas com **Limite Máximo** com o status **Com
 No caso de linhas de contrato de vários clientes que têm um método de faturamento de tempo e material, quando o tempo e as despesas são aprovados, um dado efetivo de vendas não cobradas é criado para cada cliente na linha de contrato de acordo com a divisão percentual de faturamento definida para cada cliente no linha de contrato. Na exibição **Lista de pendências de cobrança de hora e materiais**, você verá esses dados efetivos individuais de vendas não cobradas específicas do cliente. Cada um desses registros de dados efetivos de vendas não cobradas pode ser marcado como **Pronto para Faturamento** separadamente desta exibição.
 
 Um dado efetivo de vendas não cobradas em uma fatura de rascunho é mostrado nesta exibição com um **Status de Cobrança** de **Fatura do Cliente Criada**. Quando a fatura de rascunho é confirmada, o status de cobrança neste registro é atualizado para **Fatura do Cliente**. Não é recomendável atualizar este valor de status, quando ele está neste estado, usando código personalizado. O Project Operations não funcionará corretamente quando esses valores de status forem atualizados com código personalizado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

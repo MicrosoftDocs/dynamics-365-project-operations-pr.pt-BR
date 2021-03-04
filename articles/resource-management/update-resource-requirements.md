@@ -37,3 +37,5 @@ Como Gerente de projeto, conclua as etapas a seguir para editar o requisito de r
 ## <a name="edit-resource-assignment-contours"></a>Editar delimitações da atribuição de recursos
 
 Além de editar os detalhes dos requisitos de recursos, um Gerente de projeto pode atualizar as delimitações individuais dos requisitos de recursos usando a funcionalidade **Especificar Padrão**. Quando a funcionalidade **Especificar Padrão** for selecionada, uma página será aberta e você poderá exibir as delimitações na escala de tempo de dia, semana ou mês. Cada delimitação pode ser ajustada para hora de início, hora de término e esforço total em um determinado período.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ Sem dúvida, os projetos de seus clientes requerem várias habilidades diferente
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

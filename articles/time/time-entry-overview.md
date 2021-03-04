@@ -27,3 +27,6 @@ Os membros da equipe do projeto criam e enviam entradas de hora para aprovação
 
 Para obter informações sobre como criar, enviar ou recuperar uma entrada e outras ferramentas para ajudar a preencher seu relatório, consulte [Comportamento do usuário para entrada de horas](ui-behavior-time.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

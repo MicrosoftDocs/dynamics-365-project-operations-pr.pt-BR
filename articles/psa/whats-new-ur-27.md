@@ -81,3 +81,6 @@ Os seguintes problemas foram corrigidos:
 - Quando o Dynamics 365 Field Service e Project Service Automation estão instalados, as opções **Preços de bloqueio** e **Use o preço atual** não são exibidas ao mesmo tempo na página **Fatura**.
 - Para o idioma japonês, há tradução inconsistente com outras páginas baseadas no calendário.
 - **Ativar** e **Desativar** foram removidos de entidades **Associação de lista de preços** no Project Service Automation.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

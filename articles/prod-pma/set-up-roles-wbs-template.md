@@ -107,3 +107,6 @@ Outras opções foram adicionadas à WBS para usar melhor a funcionalidade de re
     > Você não recebe um aviso de que o recurso especificado agora é o 2, porque o número de recursos permanece 1.
 
 14. Na página **Estrutura de detalhamento de trabalho** , valide a atribuição de recursos na WBS e selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

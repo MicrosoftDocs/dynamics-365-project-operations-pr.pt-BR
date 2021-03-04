@@ -70,3 +70,6 @@ Os seguintes problemas foram corrigidos:
 - Melhoria do tratamento de erros para abordar as Exceções de Referência Nula geradas de **Copiar Projeto: Gerenciamento de Estimativas do HelperResource**.
 - **Não pronto para faturamento** em um **Registro Acumulado de Hora e Material** não limpa o status de cobrança.
 - Correção dos botões **Preços** incorretamente rotulados na guia **Preço da Função** e **Itens de Catálogo**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

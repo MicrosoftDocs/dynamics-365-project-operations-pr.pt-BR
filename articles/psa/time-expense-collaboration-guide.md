@@ -73,3 +73,6 @@ Clique em um link abaixo para saber mais sobre o que você pode fazer com o [!IN
  [Guia do gerente de conta](../psa/account-manager-guide.md)   
  [Guia do gerente de projeto](../psa/project-manager-guide.md)   
  [Guia do gerente de recursos](../psa/resource-manager-guide.md)   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

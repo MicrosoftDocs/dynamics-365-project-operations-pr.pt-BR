@@ -75,3 +75,6 @@ Após a conclusão das tarefas anteriores, você poderá concluir as seguintes t
 - Preencher solicitações de recursos.
 - Solicitar um recurso de equipe de uma WBS.
 - Reservar recursos para um projeto sem ter uma solicitação de um recurso de equipe.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

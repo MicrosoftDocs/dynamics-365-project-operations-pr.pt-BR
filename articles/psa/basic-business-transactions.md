@@ -149,3 +149,6 @@ A tabela a seguir mostra os registros na entidade Conexão da transação para o
 | Correção do Valor de Rascunho       | GUID de Transação da Linha da Fatura | Substituição          | msdyn_invoicelinetransaction | GUID de Vendas Cobradas            | Original           | msdyn_actual       |
 | Confirmar Correção da Fatura     | GUID da Reversão de Vendas Cobradas    | Reversão          | msdyn_actual                 | GUID de Vendas Cobradas            | Original           | msdyn_actual       |
 | GUID de Valor Real de Novas Vendas Não Cobradas | Substituição                     | msdyn_actual       | GUID de Vendas Cobradas            | Original                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -46,3 +46,6 @@ Para concluir as etapas neste tópico, verifique se você foi atribuído à fun�
 3. No campo **Quantidade**, insira a quantidade que a unidade conterá. Por exemplo, se uma caixa contiver duas peças, insira "2". 
 4. No campo **Unidade base**, selecione uma unidade base para estabelecer a menor unidade de medida para a unidade. Por exemplo, você pode selecionar "Peça".
 5. Selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

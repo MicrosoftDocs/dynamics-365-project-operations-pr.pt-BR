@@ -43,3 +43,6 @@ Para fazer uma cópia da lista de preços, conclua as etapas a seguir.
 1. Nas guias **Função**, **Categoria** e **Item da Lista de Preços** de uma lista de preços, é possível selecionar **Atualizar Preços** para aplicar uma marcação a todos os preços na subgrade. 
 2. Na página de diálogo aberta, insira uma marcação. Você também pode inserir uma porcentagem de marcação negativa para diminuir os preços em uma determinada porcentagem. 
 3. Selecione **OK** na página de diálogo e, em seguida, verifique se os preços na subgrade refletem as alterações feitas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

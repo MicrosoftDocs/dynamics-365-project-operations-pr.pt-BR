@@ -60,3 +60,6 @@ Dados reais não cobrados com um status **NTE (Limite Máximo)** de **Falhou** n
 Se as linhas de contrato de vários clientes tiverem um método de cobrança de horas e materiais, quando a hora e as despesas forem aprovadas, um dado real de vendas não cobradas será criado para cada cliente na linha do contrato de acordo com a divisão percentual de cobrança definida para cada um dos clientes. Na exibição **Lista de Pendências de Cobrança de Hora e Materiais**, você verá esses dados reais de vendas não cobradas específicos do cliente. Cada um desses registros de dados efetivos de vendas não cobradas pode ser marcado como **Pronto para Faturamento** separadamente desta exibição.
 
 Um dado real de vendas não cobradas que está em uma fatura de rascunho é mostrado nesta exibição com um status de cobrança **Fatura do Cliente Criada**. Quando a fatura de rascunho é confirmada, o status de cobrança neste registro é atualizado para **Fatura do Cliente**. Não atualize este valor de status usando código personalizado. O Project Operations não funciona corretamente quando esses valores de status são atualizados com código personalizado.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

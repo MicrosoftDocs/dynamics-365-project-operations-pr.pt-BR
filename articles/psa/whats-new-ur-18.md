@@ -63,3 +63,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o Projec
 **Sales**
 
 - Corrigido: quando as entradas de horário são aprovadas novamente (**Aprovar > Cancelar >** aprovar novamente), uma duplicata real não cobrável é criada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

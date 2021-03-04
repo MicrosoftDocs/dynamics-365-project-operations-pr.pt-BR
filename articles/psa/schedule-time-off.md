@@ -57,3 +57,6 @@ Agende seu período de férias ou de licença da mesma maneira como ao inserir t
   
 ### <a name="see-also"></a>Consulte também  
  [Guia de tempo, despesas e colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ Você pode usar cada uma dessas listas de preços e fazer atualizações nos pre
 Em um contrato do projeto, o preço do projeto sempre é padronizado como uma lista de preços personalizada com o nome do contrato e o carimbo de data/hora de criação anexado ao nome. Isso ocorre se o contrato foi criado quando a cotação foi ganha ou se o contrato foi criado do zero. Se necessário, você pode remover essa associação à lista de preços personalizada e associar uma lista de preços padrão ao contrato do projeto.
 
 Quando você associa uma lista de preços padrão às listas de preços do projeto na cotação ou contrato, quaisquer alterações feitas nos preços na lista de preços afetarão todas as cotações e contratos que usam a lista de preços.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

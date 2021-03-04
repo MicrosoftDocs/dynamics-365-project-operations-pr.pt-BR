@@ -44,3 +44,6 @@ Depois que um orçamento ou revisão for alocada, você poderá revisar os valor
 10. Quando a alocação estiver da forma desejada, clique em Enviar na página Orçamento do projeto para enviar o orçamento ou as revisões do projeto para o fluxo de trabalho de aprovação.  
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

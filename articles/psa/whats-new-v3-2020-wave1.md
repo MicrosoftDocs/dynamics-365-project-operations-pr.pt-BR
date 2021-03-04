@@ -43,3 +43,6 @@ Além disso, se você tiver algum módulo de aplicativo personalizado que inclua
 
 ### <a name="currently-extended-time-entry-changes"></a>Alterações da entrada de hora atualmente estendida
 Para minimizar o impacto aos usuários atuais da entrada de hora, esta função altera somente o principal requisito necessário para continuar utilizando a entrada de hora. Se você tiver criado exibições personalizadas ou experiências de entrada de hora separadas, será necessário configurar os campos da **Configuração de Entrada de Hora** com os valores corretos do PSA.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

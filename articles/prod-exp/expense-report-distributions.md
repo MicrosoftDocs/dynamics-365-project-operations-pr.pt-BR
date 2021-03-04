@@ -37,3 +37,6 @@ Como a Nancy trabalhou em dois projetos separados quando estava em Frankfurt, ao
 |Hotel         |EUR 725              |EUR 557                        |EUR 168                          |
 |Refeições         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

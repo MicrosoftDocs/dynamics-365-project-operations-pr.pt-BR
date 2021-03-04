@@ -112,3 +112,6 @@ Nº A estimativa do cronograma atualmente está restrita a horas e não pode ser
 
 ### <a name="can-units-and-unit-groups-be-edited-deleted-and-added"></a>As unidades e os grupos de unidades podem ser editados, excluídos e adicionados?
 Sim. Com exceção do grupo de unidades **Tempo** e da unidade **Hora**, todas as unidades podem ser excluídas ou editadas, e novas unidades podem ser adicionadas. No PSA, o grupo de unidades **Tempo** e a unidade **Hora** não podem ser excluídos. Entretanto, eles podem ser atualizados com um texto traduzido para o campo **Nome**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

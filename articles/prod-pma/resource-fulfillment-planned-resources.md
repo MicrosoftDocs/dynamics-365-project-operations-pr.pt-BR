@@ -40,3 +40,6 @@ Um gerente de projeto pode planejar as funções de recursos necessárias para u
 7. Selecione um funcionário e, em seguida, **Atribuir**.
 8. Verifique se a linha de **Desenvolvedor de software 1** foi removida para o **Projeto de atualização do XYZ fase 2**.
 9. Na guia **Equipe do projeto e agendamento** , para o projeto **Atualização do XYZ fase 2** , verifique se o funcionário que você selecionou na etapa anterior foi adicionado como **Desenvolvedor de software**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

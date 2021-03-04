@@ -55,3 +55,6 @@ Os seguintes problemas foram corrigidos:
 - Uma exceção de referência nula é gerada quando o plug-in **GetEstimatesForProject** é chamado.
 - **Marcar como pronto para faturar** na grade de marcos atualiza apenas parcialmente os atributos, exceto para o atributo **InvoiceStatus**, que é atualizado.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

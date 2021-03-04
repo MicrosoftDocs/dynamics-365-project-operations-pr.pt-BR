@@ -45,3 +45,6 @@ Estes white papers são gerados para fornecer informações detalhadas do Projec
 
 ### <a name="see-also"></a>Consulte também
  [Visão geral do Project Service](../psa/overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

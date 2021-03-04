@@ -34,3 +34,6 @@ Os preços de venda são aplicados uma vez por negócio. A hierarquia para a lis
 1. Organização
 2. Cliente
 3. Cotação/contrato
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

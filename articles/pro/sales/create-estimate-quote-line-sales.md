@@ -67,3 +67,6 @@ A moeda no detalhe da linha de cotação para os padrões de custo da lista de p
 Os cálculos de lucratividade convertem o valor dos detalhes da linha de cotação para custos e vendas na moeda base do ambiente para relatar a margem estimada geral da cotação.
 
 Isso pode resultar em erros de arredondamento de moeda e alteração das margens devido à falta de taxas de câmbio de data efetiva. Use esses cálculos nas cotações do Projeto somente como aproximações e não em relatórios estatutários reais ou outros que exijam maior precisão de arredondamento e conhecimento da efetividade da data para as taxas de câmbio.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

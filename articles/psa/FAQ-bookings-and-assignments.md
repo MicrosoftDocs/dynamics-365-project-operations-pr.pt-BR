@@ -68,3 +68,6 @@ A **Exibição de Reconciliação** permite que o gerente de projeto veja as res
 > [!NOTE]
 > Se você mover uma tarefa que você mesmo contornou, esses contornos não serão mantidos. Os contornos são registrados de acordo com o calendário do projeto para contar as alterações em horas de trabalho e feriados. Isso é proposital, pois o sistema não sabe da intenção do contorno original e não pode determinar se faz sentido manter esse contorno em um novo período. Como as reservas e atribuições estão desconectadas, as reservas retêm os contornos de reserva originais. Nesse caso, será necessário cancelar e registrar novamente o novo contorno da atribuição.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

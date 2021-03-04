@@ -62,3 +62,6 @@ Como o Dynamics 365 Project Operations usa o mecanismo Universal Resource Schedu
 
 Para exibir mais detalhes sobre um recurso individual, clique com o botão direito do mouse nele para abrir o cartão de recurso.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

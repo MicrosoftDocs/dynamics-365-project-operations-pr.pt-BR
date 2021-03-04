@@ -54,3 +54,6 @@ Depois que uma lista de preços para vendas é resolvida, o sistema conclui as s
     | &nbsp; | Markup sobre custo | Aplicar uma marcação conforme definido pela linha de preço da categoria na taxa de custo unitário do custo real relacionado |
 
 4. Se o sistema não corresponder aos valores de campo **Categoria** e **Unidade**, a taxa de venda será zero (0) como padrão.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

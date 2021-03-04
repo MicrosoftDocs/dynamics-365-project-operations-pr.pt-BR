@@ -35,3 +35,6 @@ As etapas do projeto podem servir como um guia para o ciclo de vida do projeto. 
 4. Na lista , selecione o estágio pré-definido ou definido por usuário que deseja modificar. 
 5. No campo Estágio do projeto, insira o novo nome.
 6. Clique em Salvar.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

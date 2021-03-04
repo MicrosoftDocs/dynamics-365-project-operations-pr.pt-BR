@@ -43,3 +43,6 @@ O diagrama a seguir ilustra o faturamento intercompanhia no que se refere a even
 - [Configurar faturamento intercompanhia](configure-intercompany-invoicing.md)
 - [Registrar transações intercompanhia](create-intercompany-transactions.md)
 - [Criar faturas intercompanhia de clientes e fornecedores](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

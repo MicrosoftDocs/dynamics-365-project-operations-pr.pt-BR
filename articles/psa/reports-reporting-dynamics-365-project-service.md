@@ -52,3 +52,6 @@ Para obter mais informações sobre relatórios no PSA, consulte os seguintes t�
 - [Trabalhar com o modelo de dados do Project Service](reports-working-project-service-data-model.md)
 - [Painéis](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

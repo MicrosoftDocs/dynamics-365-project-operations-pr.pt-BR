@@ -48,3 +48,6 @@ A tabela a seguir define os conceitos básicos usados no aplicativo Dynamics 365
 | Contorno                    | Horas de tarefas, requisitos ou atribuições que são divididas em uma distribuição diária. Por exemplo, uma tarefa de 40 horas com duração de cinco dias pode ser dividida em oito horas por dia ao longo desse período. |
 | Exibição Reconciliação        | Uma exibição que mostra as reservas e atribuições de cada membro da equipe do projeto. Essa exibição permite ao gerente de projetos procurar ocorrências de não correspondência entre reservas e atribuições, além de executar ações corretivas caso elas existam. |
 | Horas de trabalho                 | Uma entidade que é usada para identificar a capacidade do recurso, além de horas de trabalho e de folga. Essa entidade também é conhecida como calendário de recursos. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -96,3 +96,6 @@ Definir a prioridade da dimensão ajuda a precificação a gerar um preço mesmo
 
 - **Prioridade de custo**: o valor de uma prioridade de custo da dimensão indicará o peso dessa dimensão ao compará-la à configuração dos preços de custo. O valor de **Prioridade de custo** deve ser exclusivo nas dimensões **Aplicável ao custo**.
 - **Prioridade de vendas**: o valor da prioridade de vendas da dimensão indicará o peso da dimensão ao compará-lo à configuração dos preços de vendas ou das taxas de faturamento. O valor de **Prioridade de vendas** deve ser exclusivo nas dimensões **Aplicável a vendas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -209,3 +209,6 @@ Se você aplicou dados de demonstração ao ambiente do Finance, consulte [Confi
 
 
 Seu ambiente do Project Operations agora está provisionado e configurado. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

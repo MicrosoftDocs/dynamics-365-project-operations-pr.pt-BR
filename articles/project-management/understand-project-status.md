@@ -29,3 +29,6 @@ A seção **Status** na página **Entidade de Projeto** fornece um resumo da int
 - O campo **Comentários** permite ao gerente do projeto inserir comentários específicos sobre o status. 
 - O campo **Status** atualizado em não é editável. O valor neste campo é um carimbo de data/hora que indica quando o status foi atualizado pela última vez.
 - Os campos **Desempenho da agenda** e **Desempenho do custo** são definidos a partir da grade de acompanhamento. Quando a variação de agenda e de custo para o nó raiz na exibição **Acompanhamento de esforço** for positiva, esses campos serão atualizados como **Adiantado**. Quando a variação de agenda e de custo para o nó raiz for negativa, esses campos serão definidos como **Atrasado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

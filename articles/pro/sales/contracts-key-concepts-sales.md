@@ -93,3 +93,6 @@ Os contratos do Project Operations são criados nos contratos do Dynamics 365 Sa
 - Os contratos do Project Operations têm seu próprio formulário e elementos de interface do usuário, regras de negócios, lógica de negócios em plug-ins e scripts do lado do cliente que as tornam exclusivas dos contratos do Sales.
 
 Por esses motivos, você não deve usar um contrato do Sales e um contrato do Project de forma intercambiável.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

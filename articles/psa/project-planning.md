@@ -52,3 +52,6 @@ Os seguintes tópicos fornecem informações que ajudarão os gerentes de projet
 - [Modelos de projeto](project-templates.md)
 - [Estágios do projeto](project-stages.md)
 - [Configurações do projeto](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

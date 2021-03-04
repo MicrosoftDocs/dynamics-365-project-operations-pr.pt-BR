@@ -31,3 +31,6 @@ Se as despesas em um relatório de despesas forem cobradas de uma empresa que n�
 Para postar um relatório de despesas, na página **Relatórios de despesas aprovados**, selecione o relatório de despesas e, em seguida, no Painel de ações, selecione **Postar**.
 
 Você também pode postar todos os relatórios de despesas na lista ao mesmo tempo. Selecione todos os relatórios de despesas e, em seguida, selecione **Postar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

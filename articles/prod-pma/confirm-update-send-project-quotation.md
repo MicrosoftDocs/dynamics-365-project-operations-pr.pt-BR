@@ -57,3 +57,6 @@ Para modificar uma cotação de projeto existente, o status da cotação deverá
 
 > [!NOTE]
 > Você não pode modificar uma cotação de projeto após o status ser alterado para **Enviada**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ Você pode usar um dos métodos a seguir para criar um pedido de compra no geren
 
 Para obter mais informações, consulte [Receber itens no pedido de compra em uma solicitação de item](tasks/receive-items-purchase-order-item-requirement.md).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

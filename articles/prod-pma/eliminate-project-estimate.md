@@ -51,3 +51,6 @@ Para eliminar uma estimativa de projeto, ela deve ser concluída. As etapas a se
 5. Após a conclusão do processo de eliminação, a estimativa do projeto eliminada é exibida com um valor negativo. 
 
 Se você não pretendia eliminar uma estimativa, poderá selecionar a estimativa eliminada e selecionar **Reverter eliminação**.   
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

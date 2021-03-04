@@ -297,3 +297,6 @@ Selecione um usuário (por exemplo, Spencer Low) e as horas de trabalho de Spenc
 
 > [!div class="mx-imgBorder"]
 > ![Captura de tela dos recursos agendáveis ativos](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

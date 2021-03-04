@@ -23,3 +23,6 @@ O Dynamics 365 Project Operations inclui lógica de validação que garante a tr
 
   - Todas as linhas de suporte são criadas em tabelas relacionadas, como diários e dados reais.
   - O aprovador é marcado como um **Aprovador de Projeto** no projeto, antes de prosseguir.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

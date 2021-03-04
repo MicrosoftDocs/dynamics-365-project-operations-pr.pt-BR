@@ -330,3 +330,6 @@ Os PSA registra as transações financeiras que ocorrem durante um projeto. Essa
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

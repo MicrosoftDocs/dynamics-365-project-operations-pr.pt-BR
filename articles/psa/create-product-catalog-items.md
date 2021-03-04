@@ -37,3 +37,6 @@ Se você quiser incluir produtos, como licenças de software, em suas cotações
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

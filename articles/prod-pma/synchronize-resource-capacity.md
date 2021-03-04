@@ -49,3 +49,6 @@ O processo de sincronização foi projetado para sincronizar todas as informaç�
     | Data de término    | Insira a data de término do processo de sincronização para os acúmulos de capacidade de recursos. |
 
 [![Processo de sincronização](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

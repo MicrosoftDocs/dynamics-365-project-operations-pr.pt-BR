@@ -242,3 +242,6 @@ A tabela a seguir descreve como os dados da entidade Dependências da Tarefa do 
 
 ### <a name="additional-resources"></a>Recursos adicionais
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

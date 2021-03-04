@@ -70,3 +70,6 @@ A autorização agora está concluída.
 Você conectou sua subscrição do Azure com êxito. Agora você pode implantar ambientes hospedados em nuvem do Dynamics 365 Finance.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

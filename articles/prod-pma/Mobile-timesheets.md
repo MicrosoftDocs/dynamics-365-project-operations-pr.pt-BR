@@ -62,3 +62,6 @@ Android será compatível com a Update 16 para plataforma quando estiver dispon�
 13. Opcional: insira linhas adicionais da folha de pagamento.
 
 14. Depois que concluir a inserção de linhas adicionais, selecione a ação **Fluxo de Trabalho** \> **Enviar** para enviar a folha de ponto para o processo de aprovação do fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

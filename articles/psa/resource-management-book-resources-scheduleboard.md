@@ -53,3 +53,6 @@ Antes de fazer reservas no Painel de Agendamento, você deve criar ou gerar requ
 O requisito é atendido usando o recurso selecionado. No painel **Requisitos da Reserva**, observe que o requisito foi atualizado e que o recurso é exibido como reservado no projeto.
 
 ![Recurso reservado no projeto](media/Resource-Management-image76.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

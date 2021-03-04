@@ -113,3 +113,6 @@ Baixe e instale o aplicativo móvel Finance and Operations:
 11. Selecione a propriedade de linha.
 12. Opcional: insira quaisquer comentários externos e internos.
 13. Escolha **Concluído**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

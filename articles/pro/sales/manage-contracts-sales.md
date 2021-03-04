@@ -33,3 +33,6 @@ Uma lista de todos os contratos do projeto pode ser vista na página de listagem
 2. Selecione **Exibir seletor** (a seta suspensa ao lado do nome da exibição) para selecionar outras exibições filtradas. Você pode criar suas próprias exibições com critérios de filtro personalizados.
 
 Os contratos podem ser criados ou excluídos desta página de listagem ou de páginas de detalhes.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

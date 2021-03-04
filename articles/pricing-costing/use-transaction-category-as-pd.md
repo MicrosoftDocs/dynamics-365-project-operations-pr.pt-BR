@@ -50,3 +50,6 @@ A tabela a seguir lista todos os formulários e exibições prontos para uso, po
 2. Na página **Parâmetros**, na guia **Dimensões de Preço Baseadas em Valor**, verifique se a grade mostra os registros na entidade **Dimensões de Preço**.
 3. Adicione **Categoria da Transação** a essa lista e defina os campos **Aplicável ao Custo** e **Aplicável às Vendas** como **Sim**.
 4. No campo **Tipo de Dimensão**, selecione **Baseado em Valor** e depois escolha a prioridade para **Categoria da Transação** pois ela está relacionada a custo e vendas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

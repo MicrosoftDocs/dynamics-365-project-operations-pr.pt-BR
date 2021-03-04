@@ -120,3 +120,6 @@ Assim como as taxas de cobrança, as taxas de custo para recursos humanos també
     1. A lista de preços de custo que é anexada à unidade organizacional.
     2. A lista de preços de custo que é anexada aos parâmetros do Project Operations. Uma vez que as listas de preços de custo em muitas moedas diferentes podem ser anexadas aos parâmetros, a correspondência de moeda é concluída entre a moeda da unidade organizacional da contratação do projeto, o contrato ou cotação e a moeda da lista de preços de custo.
     3. Para despesas, os métodos de precificação a preço de custo e markup sobre custo não se aplicam às listas de preços de custo. Mesmo que esses métodos de precificação sejam usados nas linhas da lista de preços de custo para configurar custos da categoria de transação, o sistema os ignora, e nenhum preço de custo padrão é inserido.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

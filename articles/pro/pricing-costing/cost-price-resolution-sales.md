@@ -36,3 +36,6 @@ Depois que uma lista de preços de custo é resolvida, os campos **Função** e 
 As linhas de estimativa para Despesa referem-se aos detalhes da cotação e da linha de contrato para despesas e as linhas de estimativa de despesa em um projeto.
 
 Depois que uma lista de preços de custo é resolvida, o sistema usa uma combinação dos campos **Categoria** e **Unidade** na linha de estimativa de despesas para combinar com as linhas do **Preço da categoria** na lista de preços resolvida. Se o sistema encontrar uma linha de preço de categoria que tenha uma taxa de custo para a combinação dos campos **Categoria** e **Unidade**, a taxa de custo terá o padrão. Se o sistema não puder corresponder aos valores **Categoria** e **Unidade**, ou se conseguir encontrar uma linha de preço de categoria correspondente, mas o método de precificação não for **Preço por unidade**, a taxa de custo será padronizada como zero (0).
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

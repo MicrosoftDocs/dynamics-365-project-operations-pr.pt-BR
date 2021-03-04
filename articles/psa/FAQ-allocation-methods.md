@@ -71,3 +71,6 @@ Em resumo, os seguintes métodos de alocação levam a registro em excesso se o 
 - Distribuir Horas Uniformemente
 
 Ao usar um desses três métodos de alocação, você não será notificado que o recurso está com registros em excesso. Para corrigir a reserva em excesso, será preciso usar o Quadro de Agendamento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

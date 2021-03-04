@@ -55,3 +55,6 @@ As despesas que ainda não foram enviadas podem ser excluídas. Para excluir uma
 ## <a name="see-also"></a>Consulte também
 
 - [Visão geral de aprovações](../approvals/approvals-overview.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

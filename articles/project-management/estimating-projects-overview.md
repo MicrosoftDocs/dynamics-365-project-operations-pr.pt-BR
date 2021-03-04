@@ -79,3 +79,6 @@ Se você adicionou um campo personalizado nos detalhes da linha de cotação e d
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, **Atualizar Etapa**.
 8. Repita as etapas de 1 a 7 para o segundo plug-in.
 9. Feche a **PluginRegistrationTool**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

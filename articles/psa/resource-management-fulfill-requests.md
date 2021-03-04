@@ -46,3 +46,6 @@ O Assistente de Agendamento aparece e é filtrado pelos requisitos. Selecione o 
 > ![Recurso selecionado](media/Resource-Management-image61.png)
 
 O membro genérico da equipe é substituído pelo recurso nomeado com reserva fixa na equipe do projeto e nas atribuições de tarefas na agenda do projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

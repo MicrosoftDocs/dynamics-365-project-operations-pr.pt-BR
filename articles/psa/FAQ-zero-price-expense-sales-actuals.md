@@ -72,3 +72,6 @@ Se a configuração de preço para a categoria de despesa não é válida, você
 Se você ainda não vir um preço válido nos dados reais de vendas de despesas depois de fazer as três verificações acima, abra um tíquete de suporte.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

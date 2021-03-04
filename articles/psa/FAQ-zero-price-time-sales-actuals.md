@@ -57,3 +57,6 @@ Se não houver nenhuma linha na grade de preços de funções para as dimensões
 
 Se você ainda não vir um preço válido nos dados reais de vendas de tempo depois de seguir as três verificações acima, abra um tíquete de suporte. 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

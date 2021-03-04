@@ -170,3 +170,6 @@ As ilustrações a seguir mostram exemplos de mapeamentos de tarefas do modelo n
 [![Mapeamento de modelo de transações de estimativa de despesas](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![Mapeamento de modelo de estimativas de despesas](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

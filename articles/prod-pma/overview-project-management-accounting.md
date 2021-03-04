@@ -440,3 +440,6 @@ Depois que o demonstrativo for calculado, você pode exibir as seguintes informa
 -   **Consumo** – Informações sobre o consumo de horas, itens, despesas, e de transações de folha de pagamento.
 -   **Fatura** – Informações sobre faturas e faturamento por conta.
 -   **Taxa horária** – Taxas horárias das horas lançadas nas contas de receita e custo.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

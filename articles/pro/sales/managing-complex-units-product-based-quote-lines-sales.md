@@ -45,3 +45,6 @@ Para criar fatores de quantidade a partir das propriedades do produto, siga esta
 6. Salve e feche o formulário. Repita essas etapas para todas as propriedades a serem usadas para calcular a quantidade da linha de cotação baseada no produto.
 
 Quando você criar uma linha de cotação baseada em produto para um produto, a quantidade da linha de cotação será bloqueada. A quantidade será calculada como um produto dos valores de propriedade que você inseriu para essa linha de cotação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

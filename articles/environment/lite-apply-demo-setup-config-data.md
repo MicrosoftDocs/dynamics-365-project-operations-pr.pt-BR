@@ -74,3 +74,6 @@ Antes de iniciar a configuração, você deve ter um ambiente do Common Data Ser
     -   Característica de Recurso Reservável
 
     ![Concluir importação](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

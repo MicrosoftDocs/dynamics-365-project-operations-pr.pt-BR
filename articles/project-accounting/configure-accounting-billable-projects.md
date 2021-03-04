@@ -125,3 +125,6 @@ Preço Fixo – porcentagem de conclusão
 As regras do Perfil de custo e receita determinam o perfil de custo e receita que deve ser usado ao processar quaisquer transações de projeto faturáveis. Defina as regras acessando **Gerenciamento e contabilidade de projeto** \> **Configuração** \> **Lançamento** \> **Regras do perfil de custo e receita do projeto**.
 
 As regras podem ser definidas por contrato de projeto, grupo de projeto ou por um projeto específico. O sistema sempre escolherá a regra de granularidade mais alta primeiro.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -64,3 +64,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o PSA V3
 
     -   Corrigido: Quando os usuários atualizarem do 2.X para 3.X, os projetos com valor NULL para o nome do projeto serão permitidos.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -56,3 +56,6 @@ Ao entrar nos aplicativos Dynamics 365 , você precisa ter as seguintes informa�
   
 ### <a name="see-also"></a>Consulte também  
  [Guia de tempo, despesas e colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

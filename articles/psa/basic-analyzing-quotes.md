@@ -60,3 +60,6 @@ Você pode analisar cotações e gerar gráficos para expectativas do cliente qu
 A análise das expectativas do cliente quanto ao agendamento é realizada pela comparação da data de término mais recente dos detalhes da linha da cotação com a data de entrega solicitada em todas as linhas na cotação.
 
 A análise das expectativas do cliente quanto ao orçamento é realizada pela comparação da soma do orçamento total do cliente com o valor cotado em todas as linhas da cotação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -37,3 +37,6 @@ A tabela a seguir lista as atualizações do Project Operations no ambiente do C
 | Entrada rápida de tempo e despesa | 2047499          | O botão **Novo** na página de Entrada de Tempo abre a página **Nova Assinatura de E-mail**.                                                                                               |
 | Entrada rápida de tempo e despesa | 2059859          | Um pop-up inesperado abre ao criar uma entrada de despesa.                                                                                                                         |
 | Outra                        | 2044181          | [Desinstalação do PO] – O erro "Registro indisponível" ocorre ao tentar desinstalar as soluções principais do Project Service **msdyn_ProjectServiceCore_Patch** e msdyn.        |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -61,3 +61,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o Projec
     - Corrigido: IDs de objeto duplicados encontrados no formulário do **Contrato principal**.
     - Corrigido: A lógica foi atualizada para tornar a guia **Análise de cotação** visível para exibir a configuração de metadados da guia.
     - Corrigido: Data contábil no registro real agora é gerada com base na data da entrada de hora/despesa e não da data da aprovação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -72,3 +72,6 @@ Os seguintes problemas foram corrigidos:
 - Fechar a cotação como ganha não direciona para o contrato criado se um Fluxo do Processo Empresarial anexado à cotação estiver no estágio final.
 - A reversão de **Vendas Não Cobradas** está vinculada ao custo original quando uma entrada de hora é recuperada.
 - Depois de selecionar o botão **Confirmar**, o status da fatura não é alterado para **Confirmado** a menos que a fatura seja atualizada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

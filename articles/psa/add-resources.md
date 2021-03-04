@@ -55,3 +55,6 @@ Você pode atribuir recursos a unidades organizacionais quando precisar ter cust
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

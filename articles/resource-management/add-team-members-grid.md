@@ -200,3 +200,6 @@ Ao exibir tempo em níveis mais altos, as células na guia **Reconciliação** t
 Se você tiver atribuições de tarefa para um recurso, mas nenhuma reserva, na guia **Reconciliação** no formulário **Projetos**, selecione a falta de reserva e depois selecione **Estender Reserva**. A caixa de diálogo **Estender Reserva** aparece e mostra a reserva que é necessária para suprir a falta do recurso. A caixa de diálogo também mostra as reservas existentes do recurso em todos os projetos ou outras entidades que podem ser agendadas. Se você selecionar **OK** a fim de criar a reserva para o recurso, independentemente da disponibilidade desse recurso, é possível haver reservas em excesso.
 
 O Gerente de projeto ou o Gerente de recursos pode usar o Quadro de Agendamento para gerenciar situações em que um recurso é reservado em excesso além de sua capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

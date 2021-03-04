@@ -429,3 +429,6 @@ A entrada de uma categoria de projeto padrão nas entradas de o quadro de folha 
 1. O aplicativo tenta colocar a categoria padrão a partir do recurso do projeto. Essa categoria padrão é definida nos métodos **getCurrentUserResource** e **getDelegatedResourcesForCurrentUser** na classe **TSTimesheetSettingsService**.
 2. Se a categoria padrão não for fornecida no nível do recurso do projeto, o aplicativo tentará extraí-la da atividade do projeto. Esta categoria padrão é definida no método **getActivitiesForProject** na classe **TSTimesheetProjectService**.
 3. Se a categoria padrão não for fornecida no nível da atividade do projeto, a categoria padrão será extraída dos parâmetros do projeto. Essa categoria padrão é definida no método **getProjectDetailsbyRule** na classe **TSTimesheetProjectService**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

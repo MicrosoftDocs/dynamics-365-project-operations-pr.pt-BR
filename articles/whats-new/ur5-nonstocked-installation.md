@@ -125,3 +125,6 @@ As seguintes atualizações para os privilégios de segurança para entidades s�
  
  ![Sincronização de mapa de razão](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

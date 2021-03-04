@@ -26,3 +26,5 @@ Os requisitos de recursos são definidos pelo Gerente de projeto para estabelece
 3.  Na guia **Membro da Equipe**, selecione o membro da equipe e depois selecione **Gerar Requisito**.
 
 Para obter informações sobre como modificar o requisito de recurso, consulte [Atualizar detalhes do Requisito de recurso](define-resource-requirements.md) para modificar o requisito de recurso.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

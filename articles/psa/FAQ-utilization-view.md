@@ -101,3 +101,6 @@ Se você não está vendo as horas trabalhadas passíveis de cobrança, veja a s
   - A função na linha de contrato de projeto dando suporte ao projeto foi definida como não passível de cobrança.
   - O projeto não tem uma linha de contrato associada.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

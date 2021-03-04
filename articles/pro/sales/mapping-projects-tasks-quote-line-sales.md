@@ -90,3 +90,6 @@ Você pode também desassociar tarefas de projeto a linhas de cotação na guia 
 
 >[!NOTE]
 > Este procedimento não exclui a tarefa do projeto. Ele apenas remove a associação de tarefa da linha de cotação baseada em projeto.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
