@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0a47a5bb588df83a958acedd830c53d4c5a7122f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 433cd05746423d5e654a999b80aee594c1fd1455
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071618"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148584"
 ---
 # <a name="time-and-expense-changes-project-service-automation-3x"></a>Mudanças de hora e despesas (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 No Dynamics 365 Project Service Automation versão 3.0, os modos de exibição Hora e Despesa foram atualizados para aproveitar a nova estrutura da plataforma de controles personalizados.
 

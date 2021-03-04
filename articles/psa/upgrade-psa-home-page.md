@@ -2,6 +2,7 @@
 title: Home page de atualização
 description: Este tópico mostra onde encontrar informações importantes sobre os recursos novos e alterados no Dynamics 365 Project Service Automation e o processo de atualização para a versão mais recente.
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,14 +19,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa25d069de8098c0e8788c9ebb8aa3426eec5db9
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121744"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150069"
 ---
 # <a name="upgrade-home-page"></a>Home page de atualização
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -37,7 +40,7 @@ Desde 17 de maio de 2019, quando o Project Service Automation é selecionado dur
 
 ### <a name="existing-instances"></a>Instâncias existentes
 
-Anteriormente, os clientes que possuem uma instância do PSA versão 2.x e precisavam atualizar para a versão 3.x, que é a versão do PSA baseado em UCI (Interface Unificada do Cliente), deveriam entrar em contato com o Suporte da Microsoft e fornecer os detalhes da instância para que o suporte pudesse ativar a instância para atualização para a versão 3.x. A partir de 1° de março de 2020, os clientes que tiverem uma instância da versão 2.x do PSA e precisarão atualizar para a versão 3.x, poderão atualizar as instâncias diretamente do portal de Administração sem precisar entrar em contato com o Suporte da Microsoft.  
+Anteriormente, os clientes que possuem uma instância do PSA versão 2.xe precisavam atualizar para a versão 3.x, que é a versão do PSA baseado em UCI (Interface Unificada do Cliente), deviam entrar em Suporte da Microsoft com o suporte e fornecer os detalhes da instância, para que o suporte possa ativar a instância para atualização para a versão 3.x. A partir de 1º de março de 2020, os clientes que possuem uma instância do PSA versão 2.xe precisam atualizar para a versão 3.x, poderão atualizar suas instâncias diretamente do portal de administração sem precisar entrar em contato com o Suporte da Microsoft.  
 
 > [!NOTE]
 > O PSA versão 3.x inclui alterações significativas. Ele foi baseado na estrutura de Interface Unificada para ajudar a fornecer uma melhor experiência do usuário. O aplicativo recriado oferece uma interface do usuário consistente e uniforme e segue princípios de design responsivos para uma exibição ideal em qualquer tamanho de tela ou dispositivo. Houve outras alterações em todo o aplicativo. Algumas das áreas que foram alteradas incluem preços, reservas e designação de recursos, tempo, despesas e aprovações.
@@ -58,7 +61,7 @@ Depois de analisar os tópicos mencionados anteriormente e estar pronto para atu
 
 Desde 17 de maio de 2019, todas as novas instâncias têm o UCI como cliente padrão. Para alinhamento com essa alteração, o PSA versão 3.xe e o Field Service versão 8.x serão provisionados por padrão, porque essas versões foram projetadas para funcionar com o cliente de UCI.
 
-A partir de 1° de março de 2020, os clientes do Dynamics PSA não poderão mais criar ambientes com versões mais antigas do PSA, por exemplo, a versão 2.x ou anterior do PSA. Todos os novos ambientes serão para obter apenas a versão 3.x do PSA.
+A partir de 1º de março de 2020, os clientes do Dynamics PSA não poderão mais criar um novo ambiente com versões anteriores do PSA, por exemplo, PSA versão 2.x ou inferior. Todos os novos ambientes serão para obter apenas a versão 3.x do PSA.
 
 > [!NOTE]
 > Para obter a melhor experiência ao usar versões mais antigas dos aplicativos Field Service e PSA, acesse a página **Configurações do sistema** e, no campo **Usar apenas a nova Interface Unificada (recomendado)**, selecione **Não**, já que essas versões não foram projetadas para serem carregadas corretamente na UCI. Depois de desativar a UCI, você pode abrir e executar essas versões do Field Service e PSA usando o cliente da Web antigo. 

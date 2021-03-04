@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071619"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148629"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Alterações no Gerenciamento de recursos (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 As seções deste tópico fornecem informações sobre as alterações feitas na área de Gerenciamento de recursos do Dynamics 365 Project Service Automation versão 3.x.
 
 ## <a name="project-estimates"></a>Estimativas de projeto
 
-Em vez de se basearem na entidade **msdyn\_projecttask** ( **Tarefa do Projeto** ), as estimativas de projeto se baseiam na entidade **msdyn\_resourceassignment** ( **Atribuição de Recurso** ). As atribuições de recursos se tornaram a "fonte de referência" para preços e agendamento de tarefas.
+Em vez de se basearem na entidade **msdyn\_projecttask** (**Tarefa do Projeto**), as estimativas de projeto se baseiam na entidade **msdyn\_resourceassignment** (**Atribuição de Recurso**). As atribuições de recursos se tornaram a "fonte de referência" para preços e agendamento de tarefas.
 
 ## <a name="line-tasks"></a>Tarefas de linha
 
@@ -65,7 +67,7 @@ No PSA 3.x, uma atribuição não atribuída é aquela que é atribuída a um me
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>Campos de agendamento na entidade Tarefa do Projeto
 
-Os campos na entidade **msdyn\_projecttask** foram preteridos, movidos para a entidade **msdyn\_resourceassignment** ou agora são referenciados da entidade **msdyn\_projectteam** ( **Membro da Equipe do Projeto** ).
+Os campos na entidade **msdyn\_projecttask** foram preteridos, movidos para a entidade **msdyn\_resourceassignment** ou agora são referenciados da entidade **msdyn\_projectteam** (**Membro da Equipe do Projeto**).
 
 | Campo preterido em msdyn\_projecttask (Tarefa do Projeto) | Novo campo em msdyn\_resourceassignment (Atribuição de Recurso) | Comentário |
 |---|---|---|
@@ -77,7 +79,7 @@ Os campos na entidade **msdyn\_projecttask** foram preteridos, movidos para a en
 
 ## <a name="schedule-contour"></a>Contorno de agenda
 
-O contorno de agenda é armazenado no campo **Trabalho Planejado** ( **msdyn\_plannedwork** ) de cada entidade **Atribuição de Recurso** ( **msdyn\_resourceassignment** ).
+O contorno de agenda é armazenado no campo **Trabalho Planejado** (**msdyn\_plannedwork**) de cada entidade **Atribuição de Recurso** (**msdyn\_resourceassignment**).
 
 ### <a name="structure"></a>Estrutura
 
@@ -139,7 +141,7 @@ Nesse exemplo, a tarefa foi atribuída a dois recursos e agendada automaticament
 
 ## <a name="pricing-dimensions"></a>Dimensões de precificação
 
-No PSA 3.x, campos de dimensões de precificação específicos aos recursos (como **Função** e **Unidade Organizacional** ) foram removidos da entidade **msdyn\_projecttask**. Esses campos agora podem ser recuperados do membro da equipe do projeto correspondente ( **msdyn\_projectteam** ) da atribuição de recursos ( **msdyn\_resourceassignment** ) quando as estimativas do projeto forem geradas. Um novo campo, **msdyn\_organizationalunit** , foi adicionado à entidade **msdyn\_projectteam**.
+No PSA 3.x, campos de dimensões de precificação específicos aos recursos (como **Função** e **Unidade Organizacional**) foram removidos da entidade **msdyn\_projecttask**. Esses campos agora podem ser recuperados do membro da equipe do projeto correspondente (**msdyn\_projectteam**) da atribuição de recursos (**msdyn\_resourceassignment**) quando as estimativas do projeto forem geradas. Um novo campo, **msdyn\_organizationalunit**, foi adicionado à entidade **msdyn\_projectteam**.
 
 | Campo preterido em msdyn\_projecttask (Tarefa do Projeto) | Campo de msdyn\_projectteam (Membro da Equipe do Projeto) que é usado no lugar |
 |---|---|
@@ -155,12 +157,12 @@ Os campos de contornos de estimativas e preços foram preteridos na entidade **m
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedsalescontour |
 
-Os campos a seguir foram adicionados à entidade **msdyn\_resourceassignment** :
+Os campos a seguir foram adicionados à entidade **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-Os campos a seguir de custo e vendas planejados, reais e restantes não foram alterados na entidade **msdyn\_projecttask** :
+Os campos a seguir de custo e vendas planejados, reais e restantes não foram alterados na entidade **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
