@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 27a93c41243f300cadb632c697672180e5a3817b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: b4296837cabd4c6f7e2d2924079658e45ce8b87c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286279"
 ---
 # <a name="how-do-i-assign-a-bookable-resource-to-a-task-in-the-web-app-project-service-app-v2x"></a>Como eu atribuo um recurso agendável a uma tarefa no aplicativo Web (aplicativo Project Service v2.x)?
 

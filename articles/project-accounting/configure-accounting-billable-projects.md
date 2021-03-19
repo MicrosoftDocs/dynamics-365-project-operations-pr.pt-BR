@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 47bb5671c7b80c0e96f3f65e9c4d25f6da8184a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131959"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287629"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar contabilidade para projetos cobráveis
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-O Dynamics 365 Project Operations oferece suporte a várias opções de contabilidade para projetos faturáveis que incluem transações de tempo e material e de preço fixo.
+O Dynamics 365 Project Operations oferece suporte a várias opções de contabilidade para projetos faturáveis que incluem transações de hora e material e de preço fixo.
 
 - **Transações de tempo e material**: essas transações são faturadas à medida que o trabalho avança, com base no consumo de horas, despesas, itens ou taxas no projeto. Esses custos de transação podem ser combinados com a receita de cada transação e o projeto é faturado à medida que o trabalho avança. A receita do projeto também pode ser acumulada no momento da transação. Durante o faturamento, a receita é reconhecida e, se aplicável, a receita acumulada é revertida.
 - **Transações de preço fixo**: essas transações são faturadas de acordo com uma agenda de faturamento baseada no contrato do projeto. A receita de transações de preço fixo pode ser reconhecida no faturamento ou calculada e lançada periodicamente, de acordo com os métodos **Contrato concluído** ou **Porcentagem concluída**.
