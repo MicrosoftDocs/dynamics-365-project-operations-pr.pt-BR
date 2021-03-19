@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 732b72d9819fc149c4b2c783b3dc7f7eec3f0393
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e93d23559d1f3aca9022cd97dae3b0726bb5ca05
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071489"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289310"
 ---
 # <a name="microsoft-project-client-integration"></a>Integração com o Microsoft Project Client
 
@@ -42,7 +42,7 @@ Para habilitar a integração com o Microsoft Project Client, um suplemento do M
 •   Clique em **Abrir** e, em seguida, em **Executar** quando solicitado.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Abrir e editar um rascunho existente da estrutura de detalhamento de trabalho no Microsoft Project Client
-Se um projeto no Dynamics 365 Finance já tiver uma estrutura de detalhamento de trabalho criada, ela poderá ser aberta no aplicativo Microsoft Project Client, caso esteja no status de rascunho. Para abrir na página **Projeto** , clique no link **Abrir no Microsoft Project** na guia **Planejar**. Essa página também pode ser aberta no aplicativo Microsoft Project Client clicando em **Abrir** na guia **Microsoft Dynamics 365**. Selecione **Entidade legal** e **Projeto** na lista.
+Se um projeto no Dynamics 365 Finance já tiver uma estrutura de detalhamento de trabalho criada, ela poderá ser aberta no aplicativo Microsoft Project Client, caso esteja no status de rascunho. Para abrir na página **Projeto**, clique no link **Abrir no Microsoft Project** na guia **Planejar**. Essa página também pode ser aberta no aplicativo Microsoft Project Client clicando em **Abrir** na guia **Microsoft Dynamics 365**. Selecione **Entidade legal** e **Projeto** na lista.
 
 > [!NOTE]
 > Se você estiver usando o Internet Explorer como navegador, precisará clicar em **Salvar** para abrir manualmente a partir do local em que o arquivo foi baixado. Ou clique em **Salvar e abrir** para abrir o arquivo no Microsoft Project Client. Não mude o nome do arquivo ao salvá-lo.
@@ -82,7 +82,7 @@ Siga estas etapas para criar uma nova estrutura de detalhamento de trabalho usan
 
 1.  Abra o Microsoft Project Client.
 
-2.  Na guia **Microsoft Dynamics 365** , clique em **Abrir**.
+2.  Na guia **Microsoft Dynamics 365**, clique em **Abrir**.
 
 3.  Selecione a **Entidade legal** para o projeto.
 
@@ -99,7 +99,7 @@ Para criar uma nova estrutura de detalhamento de trabalho usando o Microsoft Pro
 
 2.  Crie a agenda no Microsoft Project Client.
 
-3.  Na guia **Microsoft Dynamics 365** , clique em **Salvar alterações** > **Substituir projeto existente**.
+3.  Na guia **Microsoft Dynamics 365**, clique em **Salvar alterações** > **Substituir projeto existente**.
 
 4.  Selecione a **Entidade legal** para o projeto.
 
@@ -114,15 +114,15 @@ Para criar uma nova estrutura de detalhamento de trabalho usando o Microsoft Pro
 
 2.  Crie a agenda no Microsoft Project Client.
 
-3.  Na guia **Microsoft Dynamics 365** , clique em **Salvar alterações** > **Salvar em novo projeto**.
+3.  Na guia **Microsoft Dynamics 365**, clique em **Salvar alterações** > **Salvar em novo projeto**.
 
 4.  Selecione a **Entidade legal** para o projeto.
 
-5.  Insira a **ID do projeto** , se necessário.
+5.  Insira a **ID do projeto**, se necessário.
 
 6.  Informe o **Nome do projeto**.
 
-7.  Selecione o **Tipo de projeto** , o **Grupo do projeto** e a **ID do contrato de projeto**. Também é possível criar um novo contrato de projeto clicando em **Novo**.
+7.  Selecione o **Tipo de projeto**, o **Grupo do projeto** e a **ID do contrato de projeto**. Também é possível criar um novo contrato de projeto clicando em **Novo**.
 
 8.  Selecione o **Calendário** a ser usado para obter recursos.
 

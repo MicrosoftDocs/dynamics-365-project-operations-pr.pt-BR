@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11ccbd64c37341b2969e10e9a737f1aa4b4a61f9
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071560"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289670"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronize dados reais de projeto diretamente do Project Service Automation com o diário de integração de projetos para lançamento no Finance and Operations
 
@@ -88,7 +88,7 @@ No modelo de dados reais do projeto, é necessário usar o Microsoft Power Query
 #### <a name="contract-organizational-unit"></a>Unidade organizacional de contrato
 Para atualizar a coluna condicional inserida no modelo, clique na seta **Mapa** para abrir o mapeamento. Selecione o link **Filtragem e consulta avançada** para abrir o Power Query.
 
-- Se você estiver usando o modelo de dados reais do Project padrão (PSA para Fin and Ops), no Power Query, selecione a última **Condição inserida** na seção **Etapas aplicadas**. Na entrada **Função** , substitua **USSI** pelo nome da entidade legal que deve ser usado com a integração. Inclua condições adicionais à entrada **Função** conforme necessário e atualize a condição **else** do **USMF** para a entidade legal correta.
+- Se você estiver usando o modelo de dados reais do Project padrão (PSA para Fin and Ops), no Power Query, selecione a última **Condição inserida** na seção **Etapas aplicadas**. Na entrada **Função**, substitua **USSI** pelo nome da entidade legal que deve ser usado com a integração. Inclua condições adicionais à entrada **Função** conforme necessário e atualize a condição **else** do **USMF** para a entidade legal correta.
 - Se você estiver criando um modelo, será necessário adicionar a coluna para oferecer suporte a tempo e despesas intercompanhia. Selecione **Adicionar Coluna Condicional** e insira um nome para a coluna, como **LegalEntity**. Insira uma condição para a coluna, em que, se **msdyn\_contractorganizationalunitid.msdyn\_name** é \<organizational unit\>, então \<enter the legal entity\>; senão nula (null).
 
 ### <a name="template-mapping-in-data-integration"></a>Mapeamento de modelos na integração de dados

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b7d15523f1b22bb8813a47f9f822f12bc4162104
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b53eb6ff3f98e7efc3d6b997cd4d877025225936
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071559"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289535"
 ---
 # <a name="project-contracts"></a>Contratos de projeto
 
@@ -252,15 +252,15 @@ Ao negociar um contrato de projeto com um cliente, você define como e quando po
 
 Você pode configurar os seguintes tipos de regras de cobrança:
 
--   **Unidade de entrega** : faturar um cliente ao concluir uma unidade de entrega. Você define as unidades de entrega no contrato.
--   **Progresso** : faturar um cliente quando você concluir uma porcentagem especificada do projeto. Você pode configurar uma regra de cobrança para calcular automaticamente a porcentagem de trabalho concluído, ou pode calcular manualmente a porcentagem de trabalho concluído e o valor para faturar o cliente.
--   **Etapa** : faturar um cliente pelo valor total de uma etapa do projeto quando ela for atingida.
--   **Taxa** : faturar um cliente por seus serviços, mais uma taxa de administração, que normalmente é uma porcentagem do custo dos serviços.
--   **Tempo e material** : faturar um cliente pelo valor do tempo e dos materiais usados em um projeto.
+-   **Unidade de entrega**: faturar um cliente ao concluir uma unidade de entrega. Você define as unidades de entrega no contrato.
+-   **Progresso**: faturar um cliente quando você concluir uma porcentagem especificada do projeto. Você pode configurar uma regra de cobrança para calcular automaticamente a porcentagem de trabalho concluído, ou pode calcular manualmente a porcentagem de trabalho concluído e o valor para faturar o cliente.
+-   **Etapa**: faturar um cliente pelo valor total de uma etapa do projeto quando ela for atingida.
+-   **Taxa**: faturar um cliente por seus serviços, mais uma taxa de administração, que normalmente é uma porcentagem do custo dos serviços.
+-   **Tempo e material**: faturar um cliente pelo valor do tempo e dos materiais usados em um projeto.
 
 Para todos os tipos de regras de cobrança, você pode especificar uma porcentagem de retenção que é deduzida das faturas do cliente até que um projeto alcance um estágio combinado. A porcentagem de retenção de pagamento é especificada no contrato de projeto. O valor é calculado com base no valor total das linhas em uma fatura do cliente e subtraído dele. 
 
-Para regras de cobrança de **Tempo e material** e **Progresso** , você pode atribuir categorias cobráveis. As categorias cobráveis indicam as transações que devem ser incluídas nas faturas do cliente. 
+Para regras de cobrança de **Tempo e material** e **Progresso**, você pode atribuir categorias cobráveis. As categorias cobráveis indicam as transações que devem ser incluídas nas faturas do cliente. 
 
 Quando você está pronto para faturar o cliente, o valor da fatura para o projeto é calculado com base nas regras de cobrança, e uma proposta de fatura do projeto é gerada. 
 
@@ -289,8 +289,8 @@ Sua organização, uma empresa de consultoria de software, celebra um contrato c
 
 Sua organização, uma empresa de desenvolvimento de software, concorda em desenvolver um pacote de contabilidade da folha de pagamento para um cliente por 30.000. O cliente concorda em pagar à sua organização com base em uma porcentagem do trabalho concluído. Você estima que os custos do projeto são 20.000. O contrato do projeto especifica as categorias de trabalho que você usa no processo de cobrança. Você configura regras de cobrança que calculam automaticamente os valores da fatura para a porcentagem de trabalho concluído em cada categoria. Você configura um orçamento para cada categoria:
 
--   **Desenvolvimento** : custo de 15.000 e receita de 20.000
--   **Instalação** : custo de 5.000 e receita de 10.000
+-   **Desenvolvimento**: custo de 15.000 e receita de 20.000
+-   **Instalação**: custo de 5.000 e receita de 10.000
 
 Quando você cria uma fatura do cliente pela primeira vez, o valor dela é calculado automaticamente com base nas seguintes informações:
 

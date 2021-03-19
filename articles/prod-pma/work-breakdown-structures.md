@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9dc4575f5b4b80e257e34e21980b0516e7c546e6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071403"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287944"
 ---
 # <a name="work-breakdown-structures-overview"></a>Visão geral das estruturas de detalhamento de trabalho
 
@@ -49,8 +49,8 @@ Para criar uma WBS, você deve ser capaz de criar uma agenda de trabalho e estim
 Para usar as funcionalidades de agendamento com sucesso dos recursos da WBS, conclua a configuração a seguir:
 
 1.  Configurar um calendário padrão e um calendário de projeto:
-    1.  Clique em **Gerenciamento de projetos e contabilidade** &gt; **Configuração** &gt; **Parâmetros de gerenciamento de projetos e contabilidade** &gt; **Agendamento**. No campo **Calendário padrão** , especifique um calendário padrão. Esse será o calendário padrão para qualquer novo projeto criado.
-    2.  Você pode mudar o calendário padrão para um projeto específico. Clique na página de detalhes do projeto e, em seguida, na Guia Rápida **Equipe do projeto e agendamento** , atualize o campo **Calendário de agendamento** selecionando outro calendário.
+    1.  Clique em **Gerenciamento de projetos e contabilidade** &gt; **Configuração** &gt; **Parâmetros de gerenciamento de projetos e contabilidade** &gt; **Agendamento**. No campo **Calendário padrão**, especifique um calendário padrão. Esse será o calendário padrão para qualquer novo projeto criado.
+    2.  Você pode mudar o calendário padrão para um projeto específico. Clique na página de detalhes do projeto e, em seguida, na Guia Rápida **Equipe do projeto e agendamento**, atualize o campo **Calendário de agendamento** selecionando outro calendário.
 
 2.  Configure os dias úteis e o horário comercial. O calendário que você define como o calendário padrão para seu projeto será usado na WBS para determinar as informações a seguir:
 
@@ -98,7 +98,7 @@ Atualmente, você não pode personalizar os números da WBS.
 
 **Recuar tarefa para a esquerda** Quando você recua uma tarefa para a esquerda, não é mais uma tarefa constituinte de seu pai. O número da WBS da tarefa é recalculado automaticamente para refletir o novo nível da tarefa na hierarquia. O esforço, o custo e as datas da tarefa pai anterior são recalculados para excluir essa tarefa. 
 
-**Mova para cima e Mova para baixo** Quando você clica em **Mover para baixo** e **Mover para baixo** , você altera a posição de uma tarefa na hierarquia de seu pai. A posição de uma tarefa não afeta o esforço, o custo, as datas ou a duração da tarefa. No entanto, o número da WBS da tarefa é recalculado automaticamente para refletir a nova posição da tarefa.
+**Mova para cima e Mova para baixo** Quando você clica em **Mover para baixo** e **Mover para baixo**, você altera a posição de uma tarefa na hierarquia de seu pai. A posição de uma tarefa não afeta o esforço, o custo, as datas ou a duração da tarefa. No entanto, o número da WBS da tarefa é recalculado automaticamente para refletir a nova posição da tarefa.
 
 ### <a name="schedule-estimation"></a>Agendar estimativa
 

@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db035bfd555d724f80156d0b50df7c0d0bfaff27
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071601"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288815"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicativo móvel Folha de ponto do projeto
 
@@ -68,15 +68,15 @@ Você pode inserir informações do projeto clicando na ação **Adicionar tempo
 
 As informações do projeto que são exibidas dependem dos parâmetros móveis que você definiu na página **Parâmetros de gerenciamento e contabilidade de projeto**.
 
-No campo **Entidade legal** , selecione a entidade legal para a qual você executou o trabalho do projeto. O campo **Entidade legal** estará disponível apenas se o suporte a planilha de horas entre empresas tiver sido habilitado para sua entidade legal.
+No campo **Entidade legal**, selecione a entidade legal para a qual você executou o trabalho do projeto. O campo **Entidade legal** estará disponível apenas se o suporte a planilha de horas entre empresas tiver sido habilitado para sua entidade legal.
 
 Selecione o cliente que está associado ao projeto para o quadro de horários. Para o lançamento inicial no Android, a entrada do cliente não é suportada, pois você deve selecionar o projeto primeiro. Se você selecionou o projeto primeiro, o campo **Cliente** é preenchido automaticamente.
 
-No campo **Projeto** , selecione o projeto para o qual você está inserindo o tempo. O campo **Cliente** é preenchido automaticamente.
+No campo **Projeto**, selecione o projeto para o qual você está inserindo o tempo. O campo **Cliente** é preenchido automaticamente.
 
 As pesquisas de cliente e projeto permitem pesquisar clientes e projetos.
 
-Selecione as informações no campo **Categoria** , **Atividade** , **Propriedade de linha** , **Grupo de impostos sobre vendas** e **Grupo de impostos sobre vendas de itens** conforme necessário. Esses campos podem ser substituídos.
+Selecione as informações no campo **Categoria**, **Atividade**, **Propriedade de linha**, **Grupo de impostos sobre vendas** e **Grupo de impostos sobre vendas de itens** conforme necessário. Esses campos podem ser substituídos.
 
 O campo **Propriedade de linha** será definido com um valor padrão, com base nos parâmetros de gerenciamento e contabilidade do projeto. Quando os parâmetros de projeto/categoria e categoria/recurso estão ativados, o valor **Propriedade de linha** será definido como o valor padrão que você definiu para esta validação. Quando os parâmetros de projeto/categoria e categoria/recurso não estão habilitados, o valor **Propriedade de linha** será o padrão de acordo com o campo **Habilitar propriedade de linha padrão** na página **Parâmetros de gerenciamento e contabilidade de projeto**. O valor **Propriedade de linha** pode ser substituído.
 
@@ -95,7 +95,7 @@ Clique em **Enviar** para enviar a planilha de horas para o fluxo de trabalho de
 
 ## <a name="review-timesheets"></a>Rever planilhas de horas
 
-Uma lista das planilhas de horas que precisam ser revisadas está disponível no menu. Essa opção estará disponível apenas se você tiver sido designado como um aprovador de fluxo de trabalho. Há suporte para aprovação de cabeçalho e linha. A aprovação de nível de linha oferece a capacidade de marcar uma ou mais linhas para aprovação. Depois de revisar as informações do quadro de horários, clique em **Aprovar** , **Delegar** ou **Retornar** para continuar o fluxo de trabalho.
+Uma lista das planilhas de horas que precisam ser revisadas está disponível no menu. Essa opção estará disponível apenas se você tiver sido designado como um aprovador de fluxo de trabalho. Há suporte para aprovação de cabeçalho e linha. A aprovação de nível de linha oferece a capacidade de marcar uma ou mais linhas para aprovação. Depois de revisar as informações do quadro de horários, clique em **Aprovar**, **Delegar** ou **Retornar** para continuar o fluxo de trabalho.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -18,23 +18,23 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: ec0d53e9d294b12be9af9bb03885a45b68fb3388
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9952336c395d98eb776190f92062fffcfb31556b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071404"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288079"
 ---
 # <a name="transfer-a-quotation-to-a-project"></a>Transferir uma cotação para um projeto
 
 [!include [banner](../includes/banner.md)]
 
-Quando uma cotação de projeto tem um status de **Confirmado** , você pode transferir algumas ou todas as linhas de cotação para um projeto novo ou existente usando o assistente **Transferir para o projeto**. 
+Quando uma cotação de projeto tem um status de **Confirmado**, você pode transferir algumas ou todas as linhas de cotação para um projeto novo ou existente usando o assistente **Transferir para o projeto**. 
 
 Para usar o assistente, siga estas etapas:
 
 1. Acesse **Gerenciamento e contabilidade de projeto** > **Cotações** > **Cotações de projetos**.
-2. Selecione a cotação que deseja transferir e, na aba **Acompanhamento** , no grupo **Modificar** , selecione **Transferir para o projeto**.
+2. Selecione a cotação que deseja transferir e, na aba **Acompanhamento**, no grupo **Modificar**, selecione **Transferir para o projeto**.
 3. Siga o assistente **Transferir cotação para projeto** para associar e transferir a cotação a um projeto.
 
 

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f99c00effbb0678f1f55e5068a7128cbfb86f5ce
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 2685e99800ef6fd0b613377271259da0da805aad
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071541"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289400"
 ---
 # <a name="project-forecasts-and-budgets"></a>Previsões e orçamentos de projetos
 
@@ -61,9 +61,9 @@ Os modelos de previsão podem usar a redução de previsão como mecanismo de co
 
 É possível revisar, copiar, excluir ou transferir previsões do projeto para um orçamento do razão geral. No entanto, não há controle de processo. Qualquer funcionário com permissão para um formulário de previsão pode fazer revisões sem análise.
 
--   **Revisar** : você pode revisar uma transação de previsão nos mesmos formulários em que as entradas originais foram feitas.
--   **Copiar ou excluir** : ao copiar transações de previsão, você copia as linhas de transação de um modelo de previsão para outro. Ao excluir uma previsão, você exclui as transações de previsão de um modelo de previsão. Para limitar as transações de previsão que são copiadas ou excluídas, selecione tipos específicos de transações e de datas. Assim, você pode copiar ou excluir apenas partes específicas de uma previsão.
--   **Transferir** : ao transferir uma previsão de projeto para um orçamento do razão geral, você transfere as transações de previsão de um modelo de previsão para um orçamento do razão geral. Você pode substituir quaisquer transações transferidas anteriormente no orçamento do razão geral para o qual transferiu a previsão do projeto.
+-   **Revisar**: você pode revisar uma transação de previsão nos mesmos formulários em que as entradas originais foram feitas.
+-   **Copiar ou excluir**: ao copiar transações de previsão, você copia as linhas de transação de um modelo de previsão para outro. Ao excluir uma previsão, você exclui as transações de previsão de um modelo de previsão. Para limitar as transações de previsão que são copiadas ou excluídas, selecione tipos específicos de transações e de datas. Assim, você pode copiar ou excluir apenas partes específicas de uma previsão.
+-   **Transferir**: ao transferir uma previsão de projeto para um orçamento do razão geral, você transfere as transações de previsão de um modelo de previsão para um orçamento do razão geral. Você pode substituir quaisquer transações transferidas anteriormente no orçamento do razão geral para o qual transferiu a previsão do projeto.
 
 ## <a name="project-budgets"></a>Orçamentos de projetos
 O orçamento de projeto é um método mais simples do que a previsão, embora se integre aos modelos de previsão. Ele usa um único formulário de entrada para os detalhes e as revisões do orçamento original, e permite projeções baseadas apenas no valor, categoria ou atividade. 

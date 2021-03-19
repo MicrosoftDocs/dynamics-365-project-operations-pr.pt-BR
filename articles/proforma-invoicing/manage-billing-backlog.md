@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bec6afe04a705d4f55ac3a7de93a64b47021fbb4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c3752abd26e760d27320d2b86079d84a967d53cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122329"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287719"
 ---
 # <a name="manage-the-billing-backlog"></a>Gerenciar a lista de pendências de cobrança
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-O Dynamics 365 Project Operations tem duas exibições dedicadas para ajudá-lo a trabalhar e gerenciar a lista de pendências de cobrança. Elas são **Etapas de preço fixo** e **Lista de pendências de cobrança de hora e materiais**. Para selecionar uma exibição, na área **Vendas** do Project Operations, na página de navegação à esquerda, selecione **Cobrança**. Os links da lista de pendências de cobrança são armazenados ali.
+O Dynamics 365 Project Operations tem duas exibições dedicadas para ajudar você a usar e a gerenciar a lista de pendências de cobrança. Elas são **Etapas de preço fixo** e **Lista de pendências de cobrança de hora e materiais**. Para selecionar uma exibição, na área **Vendas** do Project Operations, na página de navegação à esquerda, selecione **Cobrança**. Os links da lista de pendências de cobrança são armazenados ali.
 
 ## <a name="fixed-price-milestones"></a>Etapas de Preço Fixo
 

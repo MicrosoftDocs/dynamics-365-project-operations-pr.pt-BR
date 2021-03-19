@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 23a5a9f25cfdd6df74257b3500c7a035d711b5f6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071409"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288860"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espaço de trabalho móvel de entrada de hora de projeto
 
@@ -36,7 +36,7 @@ Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Dynamics 
 ## <a name="overview"></a>Visão Geral
 Como parte de seu trabalho diário, os recursos do projeto costumam estar no local ou em viagem. O espaço de trabalho móvel **Entrada de tempo do projeto** permite que os usuários insiram seu tempo faturável ou não faturável em um projeto no dispositivo móvel de sua escolha. Portanto, os recursos do projeto podem registrar entradas de tempo a qualquer hora e em qualquer lugar. Eles também podem ver as entradas de tempo que já foram registradas. 
 
-Especificamente, no espaço de trabalho móvel **Entrada de tempo do projeto** , os usuários podem executar estas tarefas:
+Especificamente, no espaço de trabalho móvel **Entrada de tempo do projeto**, os usuários podem executar estas tarefas:
 
 -   Para qualquer data selecionada, insira o número de horas que você gastou em uma tarefa específica.
 -   Pesquise por nome do projeto ou cliente para encontrar o projeto para o qual inserir o tempo.

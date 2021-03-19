@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6a8363c1f94a974881df984869ee56bfc198ac5c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071408"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288635"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar funções em modelos de estrutura de detalhamento de trabalho
 
@@ -33,7 +33,7 @@ Os gerentes de projeto podem configurar modelos de estrutura de detalhamento de 
 
 1. Selecione **Gerenciamento e contabilidade de projetos** > **Configuração** > **Projetos** > **Modelos de estrutura de detalhamento de trabalho**.
 2. Selecione **Detalhes** para um modelo de WBS selecionado.
-3. Selecione uma tarefa na lista e, em seguida, no campo **Função** , selecione uma função para atribuir à tarefa.
+3. Selecione uma tarefa na lista e, em seguida, no campo **Função**, selecione uma função para atribuir à tarefa.
 
 ## <a name="work-with-a-wbs"></a>Trabalhar com uma WBS
 
@@ -79,7 +79,7 @@ Outras opções foram adicionadas à WBS para usar melhor a funcionalidade de re
 </tbody>
 </table>
 
-1. Na página **Todos os projetos** , selecione o projeto **Atualização do XYZ fase 2**.
+1. Na página **Todos os projetos**, selecione o projeto **Atualização do XYZ fase 2**.
 2. Selecione **Planejar** > **Atividades** > **Estrutura de detalhamento de trabalho**.
 3. Selecione **Nova** para adicionar as seguintes atividades de nível um à WBS:
 
@@ -93,20 +93,20 @@ Outras opções foram adicionadas à WBS para usar melhor a funcionalidade de re
 
     [![Definir as datas e o esforço](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
-5. Selecione a linha de tarefa **Iniciando** e, em seguida, no campo **Função** , selecione **Gerente de projeto sênior**.
+5. Selecione a linha de tarefa **Iniciando** e, em seguida, no campo **Função**, selecione **Gerente de projeto sênior**.
 6. Selecione **Publicar**.
-7. Na mesma linha, no campo **Recurso** , selecione **Daniel Goldschmidt** e, em seguida, **Aceitar**.
-8. Selecione a linha de tarefa **Planejamento** e, em seguida, no campo **Função** , selecione **Analista de negócios**.
+7. Na mesma linha, no campo **Recurso**, selecione **Daniel Goldschmidt** e, em seguida, **Aceitar**.
+8. Selecione a linha de tarefa **Planejamento** e, em seguida, no campo **Função**, selecione **Analista de negócios**.
 9. Selecione **Publicar** e, em seguida, **Gerar equipe automaticamente**.
 10. Na caixa de mensagem que é exibida, selecione **Sim**.
-11. No campo **Recurso** , verifique se o valor é **Analista de negócios 1**.
-12. Para o recurso **Analista de negócios 1** , abra a pesquisa e selecione **Iniciar atribuições de recursos**. Em seguida, selecione um funcionário para a tarefa.
+11. No campo **Recurso**, verifique se o valor é **Analista de negócios 1**.
+12. Para o recurso **Analista de negócios 1**, abra a pesquisa e selecione **Iniciar atribuições de recursos**. Em seguida, selecione um funcionário para a tarefa.
 13. Selecione **Atribuição flexível** &gt; **Capacidade total**.
 
     > [!NOTE] 
     > Você não recebe um aviso de que o recurso especificado agora é o 2, porque o número de recursos permanece 1.
 
-14. Na página **Estrutura de detalhamento de trabalho** , valide a atribuição de recursos na WBS e selecione **Salvar**.
+14. Na página **Estrutura de detalhamento de trabalho**, valide a atribuição de recursos na WBS e selecione **Salvar**.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

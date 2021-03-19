@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b1de330df8cf85ed30c0ee4e4f2f2fe74d05dbff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071557"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289490"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Criar contratos avançados para cobrança baseada no andamento
 [!include [banner](../includes/banner.md)]
@@ -51,17 +51,17 @@ O gerente de orçamento cria um orçamento para as categorias do projeto. A quan
 Antes de criar um projeto que usa regras de cobrança, você deve configurar as sequências numéricas para regras de cobrança e um diário de taxas que é usado para lançar cobranças em andamento.
 
 1. Vá para **Gerenciamento e contabilidade de projeto** \> **Configuração** \> **Parâmetros de gerenciamento e contabilidade de projeto**.
-2. Na página **Parâmetros de gerenciamento e contabilidade de projeto** , na guia **Número de sequências** , configure a sequência numérica que deseja usar quando as regras de faturamento são criadas.
+2. Na página **Parâmetros de gerenciamento e contabilidade de projeto**, na guia **Número de sequências**, configure a sequência numérica que deseja usar quando as regras de faturamento são criadas.
 3. Vá para **Gerenciamento e contabilidade de projeto** \> **Diários** \> **Taxa**.
-4. Na página **Diário de taxas** , selecione **Novo** e digite o nome do diário.
+4. Na página **Diário de taxas**, selecione **Novo** e digite o nome do diário.
 
 ## <a name="create-a-contract-for-progress-billings"></a>Criar um contrato para faturamento em andamento
 
 Use este procedimento para criar um contrato de projeto para um projeto de preço fixo. Você cria uma fatura de projeto quando o trabalho concluído no projeto atinge uma porcentagem especificada.
 
 1. Acesse **Gerenciamento e contabilidade de projeto** \> **Projetos** \> **Contratos do projeto**.
-2. Na página **Contratos do projeto** , selecione **Novo**.
-3. Na caixa de diálogo **Novo contrato de projeto** , defina os seguintes campos:
+2. Na página **Contratos do projeto**, selecione **Novo**.
+3. Na caixa de diálogo **Novo contrato de projeto**, defina os seguintes campos:
 
     - **Nome**
     - **Tipo de financiamento**
@@ -69,15 +69,15 @@ Use este procedimento para criar um contrato de projeto para um projeto de preç
     - **Moeda de venda** – Por padrão, esta moeda é usada para faturas de clientes associadas ao contrato do projeto. Entretanto, você pode alterar a moeda de venda em uma fatura de cliente específica.
 
 4. Selecione **OK**. As informações são copiadas para o cabeçalho da página **Contratos do projeto**.
-5. Na página **Contratos do projeto** , preencha o restante das informações necessárias para o projeto.
+5. Na página **Contratos do projeto**, preencha o restante das informações necessárias para o projeto.
 
 ## <a name="create-a-project-for-progress-billings"></a>Criar um projeto para faturamento em andamento
 
 Siga estas etapas para criar um projeto e quaisquer subprojetos associados a um contrato de projeto.
 
 1. Acesse **Gerenciamento e contabilidade de projeto** \> **Projetos** \> **Todos os projetos**.
-2. Na página **Todos os projetos** , selecione **Novo**.
-3. Na caixa de diálogo **Novo projeto** , no campo **Tipo de projeto** , selecione **Hora e material**.
+2. Na página **Todos os projetos**, selecione **Novo**.
+3. Na caixa de diálogo **Novo projeto**, no campo **Tipo de projeto**, selecione **Hora e material**.
 4. Selecione um grupo de projetos. Um grupo de projetos define as informações de postagem dos projetos atribuídos ao grupo.
 5. Selecione **Criar projeto**.
 6. Depois que o projeto for criado, defina o estágio do projeto para **Em andamento**.
@@ -87,21 +87,21 @@ Siga estas etapas para criar um projeto e quaisquer subprojetos associados a um 
 Categorias de orçamento são usadas para calcular automaticamente os valores da fatura para a porcentagem de trabalho concluído em cada categoria. Siga estas etapas para criar categorias de orçamento para os custos estimados.
 
 1. Acesse **Gerenciamento e contabilidade de projeto** \> **Projetos** \> **Todos os projetos**.
-2. Na página **Todos os projetos** , selecione e abra o projeto que deseja.
-3. Na página **Projetos** , no Painel de Ações, na guia **Plano** , no grupo **Orçamento** , selecione **Orçamento do projeto**.
-4. Na página **Orçamento do projeto** , insira um custo estimado para cada categoria do projeto.
+2. Na página **Todos os projetos**, selecione e abra o projeto que deseja.
+3. Na página **Projetos**, no Painel de Ações, na guia **Plano**, no grupo **Orçamento**, selecione **Orçamento do projeto**.
+4. Na página **Orçamento do projeto**, insira um custo estimado para cada categoria do projeto.
 
 ## <a name="create-billing-rules-for-progress-billings"></a>Criar regras de cobrança para cobranças em andamento
 
 1. Acesse **Gerenciamento e contabilidade de projeto** \> **Projetos** \> **Contratos do projeto**.
-2. Na página **Contratos do projeto** , selecione e abra um contrato de projeto.
-3. Na página do contrato do projeto, na FastTab **Regras de cobrança** , selecione **Adicionar**.
-4. Na página **Regra de cobrança** , no campo **Tipo de Linha** , selecione **Progresso**.
-5. Na FastTab **Detalhes da linha de regra de cobrança** , no campo **Valor do contrato** , insira o valor total do contrato.
-6. No campo **Categoria** , selecione a categoria para postar a transação de taxa.
-7. No campo **Projeto** , selecione o projeto que usa esta regra de cobrança.
-8. Opcional: atribua a regra de cobrança a projetos adicionais. Na FastTab **Projeto** , na seção **Projetos disponíveis** , selecione um projeto e, em seguida, selecione o botão de seta para a direita para adicioná-lo à seção **Projetos selecionados**.
-9. Opcional: calcule o valor percentual que o cliente retém dos pagamentos de uma fatura. Na FastTab **Termos de retenção de pagamento** , selecione a fonte de financiamento e, em seguida, no campo **Porcentagem de retenção** , insira a porcentagem de retenção.
+2. Na página **Contratos do projeto**, selecione e abra um contrato de projeto.
+3. Na página do contrato do projeto, na FastTab **Regras de cobrança**, selecione **Adicionar**.
+4. Na página **Regra de cobrança**, no campo **Tipo de Linha**, selecione **Progresso**.
+5. Na FastTab **Detalhes da linha de regra de cobrança**, no campo **Valor do contrato**, insira o valor total do contrato.
+6. No campo **Categoria**, selecione a categoria para postar a transação de taxa.
+7. No campo **Projeto**, selecione o projeto que usa esta regra de cobrança.
+8. Opcional: atribua a regra de cobrança a projetos adicionais. Na FastTab **Projeto**, na seção **Projetos disponíveis**, selecione um projeto e, em seguida, selecione o botão de seta para a direita para adicioná-lo à seção **Projetos selecionados**.
+9. Opcional: calcule o valor percentual que o cliente retém dos pagamentos de uma fatura. Na FastTab **Termos de retenção de pagamento**, selecione a fonte de financiamento e, em seguida, no campo **Porcentagem de retenção**, insira a porcentagem de retenção.
 10. Repita essas etapas para criar regras de cobrança adicionais para o contrato do projeto.
 
 

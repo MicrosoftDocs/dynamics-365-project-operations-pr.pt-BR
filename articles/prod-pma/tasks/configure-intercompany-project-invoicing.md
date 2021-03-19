@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 1cb53cb63ee11082146455ec9f13790501dc3d1d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9df15cb3712356a164de3507f5dbc17a9ff9a652
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071487"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5288365"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurar faturamento intercompanhia de projetos
 
@@ -31,12 +31,12 @@ ms.locfileid: "4071487"
 Este tópico mostra como configurar o faturamento de projetos entre duas empresas em sua organização. Esta tarefa usa o conjunto de dados USSI.
 
 1. No painel de navegação, acesse **Módulos > Contas a pagar > Fornecedores > Todos os fornecedores**.
-2. Na lista **Todos os fornecedores** , encontre e selecione o registro desejado.
+2. Na lista **Todos os fornecedores**, encontre e selecione o registro desejado.
 3. No Painel de Ações, selecione **Geral**.
 4. Selecione **Intercompanhia**.
 5. Defina **Ativo** como **Sim** para habilitar o comércio intercompanhia.
-6. No campo **Empresa do cliente** , insira ou selecione um valor.
-7. No campo **Minha conta** , insira ou selecione um valor.
+6. No campo **Empresa do cliente**, insira ou selecione um valor.
+7. No campo **Minha conta**, insira ou selecione um valor.
 8. Selecione **Salvar**.
 9. Feche as páginas para retornar à home page.
 10. No painel de navegação, acesse **Módulos > Gerenciamento e contabilidade de projeto > Configurar > Parâmetros de gerenciamento e contabilidade de projeto**.
@@ -44,24 +44,24 @@ Este tópico mostra como configurar o faturamento de projetos entre duas empresa
 12. Mova o controle deslizante para **Sim** para habilitar o agendamento e as folhas de ponto dos recursos.
 13. Na lista, marque a linha selecionada.
 14. Selecione **Novo**.
-15. No campo **Entidade legal que toma o empréstimo** , insira ou selecione um valor.
+15. No campo **Entidade legal que toma o empréstimo**, insira ou selecione um valor.
 16. Marque a caixa de seleção **Acumular receita**.
-17. No campo **Categoria de folha de ponto padrão** , insira ou selecione um valor.
-18. No campo **Categoria de despesa padrão** , insira ou selecione um valor.
+17. No campo **Categoria de folha de ponto padrão**, insira ou selecione um valor.
+18. No campo **Categoria de despesa padrão**, insira ou selecione um valor.
 19. Selecione **Salvar**.
 20. Feche a página.
 21. No painel de navegação, acesse **Módulos > Gerenciamento e contabilidade de projeto > Configurar > Lançamento > Configuração de lançamento contábil**.
-22. No campo **Tipos de conta contábil** , insira ou selecione um valor.
+22. No campo **Tipos de conta contábil**, insira ou selecione um valor.
 23. Selecione **Novo**.
 24. No campo **Conta principal** da nova linha, especifique os valores desejados.
 25. Selecione **Salvar**.
 26. Feche a página.
 27. No painel de navegação, acesse **Módulos > Gerenciamento e contabilidade de projeto > Configurar > Preços > Preço de transferência**.
 28. Selecione **Novo**.
-29. No campo **Data de efetivação** , insira uma data.
-30. No campo **Entidade legal que toma o empréstimo** , insira ou selecione um valor.
-31. No campo **Modelo de preço de transferência** , insira ou selecione um valor.
-32. No campo **Preço** , insira um número.
+29. No campo **Data de efetivação**, insira uma data.
+30. No campo **Entidade legal que toma o empréstimo**, insira ou selecione um valor.
+31. No campo **Modelo de preço de transferência**, insira ou selecione um valor.
+32. No campo **Preço**, insira um número.
 33. Selecione **Salvar**.
 
 
