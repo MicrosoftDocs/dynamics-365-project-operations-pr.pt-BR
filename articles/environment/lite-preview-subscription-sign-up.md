@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175877"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290030"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Inscrever-se em uma assinatura de versão preliminar - lite 
 
-Este tópico explica como assinar a oferta de parceiro de visualização e implantar Dynamics 365 Project Operations - oferta para faturamento pro forma.
+Este tópico explica como assinar a oferta do parceiro de visualização e executar a implantação lite do Dynamics 365 Project Operations – oferta do faturamento pro forma.
 
 > [!NOTE]
 > Este processo mudará nas próximas versões de Project Operations.
@@ -32,17 +32,17 @@ Este tópico explica como assinar a oferta de parceiro de visualização e impla
 
 Ao receber uma aprovação de [solicitação de versão preliminar](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), você receberá duas ofertas da Microsoft por email. Essas ofertas permitem que você implante a versão preliminar do Project Operations:
 
-- Dynamics 365 Project Operations (CRM) – avaliação da versão preliminar
+- Avaliação da versão preliminar do Dynamics 365 Project Operations (CRM)
 - Office 365 Project Operations – Avaliação de versão preliminar
 
 > [!IMPORTANT]
 > Apenas uma pessoa, o administrador do locatário, em uma organização precisa executar esta tarefa. Se você não for o assinante dessa versão, espere até que sua organização se inscreva e você receba suas credenciais de usuário.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Dynamics 365 Project Operations (CRM) – avaliação da versão preliminar 
+### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Avaliação da versão preliminar do Dynamics 365 Project Operations (CRM) 
 
 Antes de começar, verifique se está conectado a um navegador com a conta de trabalho do usuário no locatário em que deseja ter a versão preliminar do Project Operations.
 
-1. Resgate o primeiro código de oferta, **Dynamics 365 Project Operations (CRM) - avaliação de versão preliminar** colando-o na URL do navegador.
+1. Resgate o primeiro código da oferta, **Dynamics 365 Project Operations (CRM) – Avaliação da versão preliminar** colando-o na URL do navegador.
 
 ![Resgatar Oferta](./media/16RedeemFirstOfferNew.png)
 
@@ -71,7 +71,7 @@ Repita as mesmas etapas do primeiro código de oferta. Certifique-se de incluir 
 
 ![Atribuir Licenças](./media/15AssignLicenses.png)
 
-3. Verifique se as licenças **Versão Preliminar do Dynamics 365 Project Operations (CRM)** e **Office 365 Project Operations - versão preliminar** estão selecionadas. 
+3. Verifique se as licenças da **Versão Preliminar do Dynamics 365 Project Operations (CRM)** e do **Office 365 Project Operations – Versão Preliminar** estão selecionadas. 
 4. Selecione **Salvar alterações**.
 
 ## <a name="create-a-new-cds-environment"></a>Criar um novo ambiente CDS
@@ -84,7 +84,7 @@ Repita as mesmas etapas do primeiro código de oferta. Certifique-se de incluir 
 
 ![Adicionar banco de dados](./media/20CreateEnvironment1.png)
 
-4. Após a criação do ambiente, instale a solução **Microsoft Dynamics 365 Project Operations**. 
+4. Depois de criar o ambiente, instale a solução **Microsoft Dynamics 365 Project Operations**. 
 
 ![Instalar Solução](./media/21InstallSolution.png)
 

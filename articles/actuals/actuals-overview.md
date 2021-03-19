@@ -1,6 +1,6 @@
 ---
 title: Dados reais
-description: Este tópico fornece informações sobre como trabalhar com dados reais no Microsoft Dynamics 365 Project Operations.
+description: Este tópico oferece informações sobre como trabalhar com dados reais no Microsoft Dynamics 365 Project Operations.
 author: rumant
 manager: AnnBe
 ms.date: 09/16/2020
@@ -16,14 +16,14 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 13c429763fa805fae5324e4dcf1bf7669e842281
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 6a94bd143b0d0dad2a08511a34e592a057b6d2a1
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4126289"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291785"
 ---
-# <a name="actuals"></a>Dados reais 
+# <a name="actuals"></a>Dados Reais 
 
 _**Aplicável a: Project Operations para cenários baseados em recursos/sem estoque**_
 
@@ -70,7 +70,7 @@ A entrada baseada em categoria dos preços padrão por unidade nas entradas de d
 Você pode usar diários de entrada para registrar o custo ou receita nas classes de material, valor, hora, despesa ou transação de imposto. Os diários podem ser usados para as seguintes finalidades:
 
 - Registrar o custo real dos materiais e as vendas em um projeto.
-- Mover dados reais de outro sistema para o Microsoft Dynamics 365 Project Operations.
+- Mova os dados reais de transações de outro sistema para o Microsoft Dynamics 365 Project Operations.
 - Registre os custos que ocorreram em outro sistema. Esses custos podem incluir custos de aquisição ou subcontratação.
 
 > [!IMPORTANT]
