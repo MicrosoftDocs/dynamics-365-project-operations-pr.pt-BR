@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f16634a87780c23d699d9ad535dd5e6d4ecb895d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 967e2170aac72de629ebb930e485b8cd6560b6ca
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180925"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272419"
 ---
 # <a name="summary-information-on-a-project-quote---lite"></a>Resumo informativo de uma cotação de projeto - lite
 
@@ -21,7 +21,7 @@ _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 Este artigo explica as informações que se aplicam a uma cotação de projeto. Isso inclui as configurações que afetam todas as linhas de cotação e informações sobre a cotação que são resumidas em todos os itens de linha para direcionar os KPIs da cotação do projeto.
 
-A tabela a seguir lista os campos de informações de resumo em uma cotação de projeto que são exclusivos para o Dynamics 365 Project Operations ou têm algumas mudanças importantes no comportamento das cotações do Dynamics 365 Sales.
+A tabela a seguir lista os campos de informações de resumo em uma cotação de projeto que são exclusivos do Dynamics 365 Project Operations ou que tenham algumas alterações importantes no comportamento das cotações do Dynamics 365 Sales.
 
 | **Campo** | **Local** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |

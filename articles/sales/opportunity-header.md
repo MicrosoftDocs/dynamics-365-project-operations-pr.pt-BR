@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1344e21d58fbc28198468146f9cea9cf00572d7d
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: c58c3696ae03e8a33a25a9483825a4b7cbf850be
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181213"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277684"
 ---
 # <a name="opportunity-settings"></a>Configurações de oportunidade
 
@@ -22,7 +22,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 O cabeçalho da oportunidade, ou resumo, captura as informações gerais sobre um negócio baseado em projeto que se aplica a todas as linhas em uma oportunidade baseada em projeto.
 
-Oportunidades baseadas em projeto no Dynamics 365 Project Operations são extensões de oportunidades no Dynamics 365 Sales. Essas extensões fornecem funcionalidade adicional que é específica e necessária para oportunidades baseadas em projetos. Essas extensões podem incluir novos campos e ações da faixa de opções disponíveis em oportunidades baseadas em projeto. Você pode encontrar alguns campos, funcionalidades e lógica padrão que estão disponíveis no Sales e não estão disponíveis no Operações de Projeto.
+As oportunidades baseadas em projeto no Dynamics 365 Project Operations são extensões de oportunidades no Dynamics 365 Sales. Essas extensões fornecem funcionalidade adicional que é específica e necessária para oportunidades baseadas em projetos. Essas extensões podem incluir novos campos e ações da faixa de opções disponíveis em oportunidades baseadas em projeto. Você pode encontrar alguns campos, funcionalidades e lógica padrão que estão disponíveis no Sales e não estão disponíveis no Operações de Projeto.
 
 A tabela a seguir inclui os campos de uma oportunidade baseada em projeto que são exclusivos do Project Operations ou têm algumas mudanças importantes no comportamento de Oportunidades em comparação ao Sales.
 

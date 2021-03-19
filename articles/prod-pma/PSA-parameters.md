@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a0cee090e0ecb306aa3bda62c79a57dfade93c0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b8faba1d799e360e58d47a02dc8b46e09fa0d393
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071568"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270889"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Parâmetros de integração do Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-Na página **Parâmetros de integração do Project Service Automation** , você pode configurar como os dados padrão são inseridos ao integrar o Dynamics 365 Project Service Automation ao Dynamics 365 Finance. Para que os projetos sejam sincronizados com êxito do Project Service Automation para Finance, você deve configurar os campos a seguir.
+Na página **Parâmetros de integração do Project Service Automation**, você pode configurar como os dados padrão são inseridos ao integrar o Dynamics 365 Project Service Automation ao Dynamics 365 Finance. Para que os projetos sejam sincronizados com êxito do Project Service Automation para Finance, você deve configurar os campos a seguir.
 
-Para abrir a página **Parâmetros de integração do Project Service Automation** , vá para parâmetros de integração **Gestão e contabilidade de projetos** \> **Configuração** \> **Dynamics 365 for Project Service Automation**. 
+Para abrir a página **Parâmetros de integração do Project Service Automation**, vá para parâmetros de integração **Gestão e contabilidade de projetos** \> **Configuração** \> **Dynamics 365 for Project Service Automation**. 
 
 > [!NOTE]
 > - A integração de tarefas de projeto, as categorias de transação de despesas, as estimativas de horas, as estimativas de despesas e o bloqueio de funcionalidades estão disponíveis na versão 8.0.

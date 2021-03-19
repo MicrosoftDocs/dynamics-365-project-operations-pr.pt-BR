@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071482"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270979"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para o aplicativo móvel Microsoft Dynamics 365 Project Timesheet no iOS e Android
 
@@ -49,7 +49,7 @@ A classe **TSTimesheetCustomField** é o contrato de dados de X+ que representa 
 
 ### <a name="fieldbasetype-types"></a>fieldBaseType (Tipos)
 
-A propriedade **FieldBaseType** no objeto **TsTimesheetCustom** determina o tipo de campo que é exibido no aplicativo. Ha suporte aos seguintes valores de **Tipos** :
+A propriedade **FieldBaseType** no objeto **TsTimesheetCustom** determina o tipo de campo que é exibido no aplicativo. Ha suporte aos seguintes valores de **Tipos**:
 
 | Valor de tipos | Digitar              | Anotações |
 |-------------|-------------------|-------|
@@ -61,11 +61,11 @@ A propriedade **FieldBaseType** no objeto **TsTimesheetCustom** determina o tipo
 | 15          | GUID              | |
 | 16          | Int64             | |
 
-- Se a propriedade **stringOptions** não for fornecida no objeto **TSTimesheetCustomField** , um campo de texto livre será fornecido ao usuário.
+- Se a propriedade **stringOptions** não for fornecida no objeto **TSTimesheetCustomField**, um campo de texto livre será fornecido ao usuário.
 
     A propriedade **stringLength** pode ser usada para definir o tamanho máximo da cadeia de caracteres que os usuário poderão inserir.
 
-- Se a propriedade **stringOptions** for fornecida no objeto **TSTimesheetCustomField** , os valores dessa lista de elementos serão os únicos que os usuários poderão selecionar usando os botões de opção.
+- Se a propriedade **stringOptions** for fornecida no objeto **TSTimesheetCustomField**, os valores dessa lista de elementos serão os únicos que os usuários poderão selecionar usando os botões de opção.
 
     Nesse caso, o campo de cadeia de caracteres pode agir como um valor de enumeração para fins de entrada do usuário. Para salvar o valor de um banco de dados como uma enumeração, mapeie manualmente o valor da cadeia de caracteres de volta ao valor da enumeração antes de salvar no banco de dados usando a cadeia de comando (consulte a seção "Usar cadeia de comando na classe TSTimesheetEntryService para salvar uma entrada de folha de ponto do aplicativo de volta no banco de dados" posteriormente neste tópico para obter um exemplo).
 
@@ -125,31 +125,31 @@ Essa propriedade controla a ordem na qual os campos personalizados são exibidos
 
 ### <a name="booleanvalue-boolean"></a>booleanValue (booliano)
 
-Para campos do tipo **Booliano** , essa propriedade passa o valor booliano do campo entre o servidor e o aplicativo.
+Para campos do tipo **Booliano**, essa propriedade passa o valor booliano do campo entre o servidor e o aplicativo.
 
 ### <a name="guidvalue-guid"></a>guidValue (guid)
 
-Para campos do tipo **GUID** , essa propriedade passa o valor do identificador global exclusivo (GUID) do campo entre o servidor e o aplicativo.
+Para campos do tipo **GUID**, essa propriedade passa o valor do identificador global exclusivo (GUID) do campo entre o servidor e o aplicativo.
 
 ### <a name="int64value-int64"></a>int64Value (int64)
 
-Para campos do tipo **Int64** , essa propriedade passa o valor de Int64 do campo entre o servidor e o aplicativo.
+Para campos do tipo **Int64**, essa propriedade passa o valor de Int64 do campo entre o servidor e o aplicativo.
 
 ### <a name="intvalue-int"></a>intValue (int)
 
-Para campos do tipo **Int** , essa propriedade passa o valor de int do campo entre o servidor e o aplicativo.
+Para campos do tipo **Int**, essa propriedade passa o valor de int do campo entre o servidor e o aplicativo.
 
 ### <a name="realvalue-real"></a>realValue (real)
 
-Para campos do tipo **Real** , essa propriedade passa o valor real do campo entre o servidor e o aplicativo.
+Para campos do tipo **Real**, essa propriedade passa o valor real do campo entre o servidor e o aplicativo.
 
 ### <a name="stringvalue-str"></a>stringValue (str)
 
-Para campos do tipo **Cadeia de Caracteres** , essa propriedade passa o valor da cadeia de caracteres do campo entre o servidor e o aplicativo. Ela também é usada para campos do tipo **Real** que são formatados como moeda. Para esses campos, a propriedade é usada para passar o código de moeda para o aplicativo.
+Para campos do tipo **Cadeia de Caracteres**, essa propriedade passa o valor da cadeia de caracteres do campo entre o servidor e o aplicativo. Ela também é usada para campos do tipo **Real** que são formatados como moeda. Para esses campos, a propriedade é usada para passar o código de moeda para o aplicativo.
 
 ### <a name="datevalue-date"></a>dateValue (data)
 
-Para campos do tipo **Data** , essa propriedade passa o valor de data do campo entre o servidor e o aplicativo.
+Para campos do tipo **Data**, essa propriedade passa o valor de data do campo entre o servidor e o aplicativo.
 
 ## <a name="show-and-save-a-custom-field-in-the-timesheet-entry-section"></a>Mostrar e salvar um campo personalizado na seção de entrada de folha de ponto
 
@@ -179,9 +179,9 @@ Abaixo encontra-se uma captura de tela do Visual Studio da árvore de objetos do
 
 Esse código controla as configurações de exibição do campo no aplicativo. Por exemplo, ele controla o tipo de campo, o rótulo, se o campo é obrigatório e em qual seção o campo é exibido.
 
-O exemplo a seguir mostra um campo de cadeia de caracteres em entradas de horas. Esse campo tem duas opções, **Primeira opção** e **Segunda opção** , que estão disponíveis por meio dos botões de opção. O campo no aplicativo está associado ao campo **TestLineString** , que está adicionado à tabela TSTimesheetLine table.
+O exemplo a seguir mostra um campo de cadeia de caracteres em entradas de horas. Esse campo tem duas opções, **Primeira opção** e **Segunda opção**, que estão disponíveis por meio dos botões de opção. O campo no aplicativo está associado ao campo **TestLineString**, que está adicionado à tabela TSTimesheetLine table.
 
-Observe o uso do método **TSTimesheetCustomField::newFromMetatdata()** para simplificar a inicialização das propriedades do campo personalizado: **fieldBaseType** , **tableName** , **fieldname** , **label** , **isEditable** , **isMandatory** , **stringLength** e **numberOfDecimals**. Você também pode definir esses parâmetros manualmente, como preferir.
+Observe o uso do método **TSTimesheetCustomField::newFromMetatdata()** para simplificar a inicialização das propriedades do campo personalizado: **fieldBaseType**, **tableName**, **fieldname**, **label**, **isEditable**, **isMandatory**, **stringLength** e **numberOfDecimals**. Você também pode definir esses parâmetros manualmente, como preferir.
 
 ```xpp
 ...
@@ -248,7 +248,7 @@ Para salvar um campo personalizado de volta no banco de dados em uso típico, vo
 - O método **populateTimesheetWeekFromEntry** também poderá ser estendido se o campo personalizado que é mapeado para o objeto **TSTimesheetEntry** tiver que gravar de volta na tabela TSTimesheetLineweek do banco de dados.
 
 > [!NOTE]
-> O exemplo a seguir salva o valor de **firstOption** ou de **secondOption** que o usuário selecionar no banco de dados como um valor de cadeia de caracteres bruto. Se o campo do banco de dados for um campo do tipo **Enumeração** , esses valores podem ser mapeados manualmente para um valor de enumeração e depois salvos no campo de enumeração na tabela do banco de dados.
+> O exemplo a seguir salva o valor de **firstOption** ou de **secondOption** que o usuário selecionar no banco de dados como um valor de cadeia de caracteres bruto. Se o campo do banco de dados for um campo do tipo **Enumeração**, esses valores podem ser mapeados manualmente para um valor de enumeração e depois salvos no campo de enumeração na tabela do banco de dados.
 
 ```xpp
 ...
@@ -410,7 +410,7 @@ A lógica existente para a funcionalidade de folha de ponto no nível do banco d
 
 - Se **validateWrite** na tabela TSTimesheetLine retornar **false** durante uma operação de salvamento de uma linha da folha de ponto, uma mensagem de erro será exibida no aplicativo móvel.
 - Se **validateSubmit** na tabela TSTimesheetTable retornar **false** durante uma operação de envio no aplicativo, uma mensagem de erro será exibida ao usuário.
-- A lógica que preenche os campos (por exemplo, **Line Property** ) durante o método **insert** na tabela TSTimesheetLine ainda será executado.
+- A lógica que preenche os campos (por exemplo, **Line Property**) durante o método **insert** na tabela TSTimesheetLine ainda será executado.
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>Ocultando e marcando campos prontos para uso como somente leitura por meio de configuração
 

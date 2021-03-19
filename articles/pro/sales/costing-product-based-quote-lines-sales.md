@@ -8,19 +8,19 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c08ac3b0f24dda19489bad6e667a50b67b8ce3ec
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118909"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273634"
 ---
 # <a name="costing-product-based-quote-lines"></a>Linhas de custos de cotação baseadas em produto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 
-As linhas de cotação baseadas em produto no Dynamics 365 Project Operations também têm um campo **Preço de Custo**. Esse campo é usado para rastrear o preço de custo do produto na linha de cotação e para cálculos de lucratividade posteriores.
+Linhas de cotação com base em produto no Dynamics 365 Project Operations também têm um campo **Preço de Custo**. Esse campo é usado para rastrear o preço de custo do produto na linha de cotação e para cálculos de lucratividade posteriores.
 
 Quando uma linha de cotação baseada em produto é criada para um produto de catálogo, o custo da linha de cotação baseada em produto assume o padrão do campo **Custo padrão** no catálogo de produtos. O campo de custo padrão no catálogo de produtos é configurado na moeda base da Organização. O custo unitário padrão na linha de cotação baseada em produto é convertido para a moeda de venda na cotação.
 

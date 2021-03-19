@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4604708dbd7c835c8df1cf48f67e645952f49774
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071454"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270754"
 ---
 # <a name="intercompany-invoicing"></a>Faturamento intercompanhia
 
@@ -31,7 +31,7 @@ ms.locfileid: "4071454"
 
 Este artigo fornece informações e exemplos sobre o faturamento intercompanhia de projetos.
 
-Sua organização pode ter várias divisões, subsidiárias e outras entidades legais que transferem produtos e serviços de outros projetos entre si. A entidade legal que fornece o serviço ou produto é chamada de *entidade legal que faz o empréstimo* , e a entidade legal que recebe o serviço ou produto é chamada de *entidade legal que toma o empréstimo*. 
+Sua organização pode ter várias divisões, subsidiárias e outras entidades legais que transferem produtos e serviços de outros projetos entre si. A entidade legal que fornece o serviço ou produto é chamada de *entidade legal que faz o empréstimo*, e a entidade legal que recebe o serviço ou produto é chamada de *entidade legal que toma o empréstimo*. 
 
 A ilustração a seguir mostra um cenário típico em que duas entidades legais, SI FR (a entidade legal que toma o empréstimo) e SI USA (a entidade legal que faz o empréstimo) compartilham recursos para entregar um projeto para o cliente A. Para esse cenário, SI FR é contratada para entregar o trabalho para o cliente A. 
 
@@ -78,7 +78,7 @@ USSI, a entidade legal que faz o empréstimo, deve criar e lançar a folha de po
 
 | Etapa | Ponto de entrada                                                                       | Descrição                                                                                                                                                                                       |
 |------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| T    | **Gerenciamento e contabilidade de projeto** &gt; **Folhas de ponto** &gt; **Todas as folhas de ponto** | Crie uma folha de ponto. Na linha da folha de ponto, no campo **Entidade legal** , selecione **FRSI**. No campo **ID do Projeto** , selecione o projeto na FRSI. Insira as horas para cada dia da semana. |
+| T    | **Gerenciamento e contabilidade de projeto** &gt; **Folhas de ponto** &gt; **Todas as folhas de ponto** | Crie uma folha de ponto. Na linha da folha de ponto, no campo **Entidade legal**, selecione **FRSI**. No campo **ID do Projeto**, selecione o projeto na FRSI. Insira as horas para cada dia da semana. |
 | N    | Página **Folha de ponto**                                                                | Após a execução do fluxo de trabalho, lance a folha de ponto e anote o número do comprovante.                                                                                                               |
 
 ## <a name="example-3-create-and-post-an-intercompany-vendor-invoice"></a>Exemplo 3: Criar e lançar uma fatura de fornecedor intercompanhia
@@ -87,7 +87,7 @@ USSI, a entidade legal que faz o empréstimo, deve criar e lançar a fatura de f
 | Etapa | Ponto de entrada                                                                                      | Descrição                                                                                                                                                                                                                                                                          |
 |------|--------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | T    | **Contas a pagar** &gt; **Faturas** &gt; **Faturas de fornecedor em aberto** &gt; **Nova fatura de fornecedor** | Crie uma fatura de fornecedor e insira os serviços que foram adquiridos em nome do projeto da FRSI.                                                                                                                                                                                  |
-| N    | A página **Fatura de fornecedor**                                                                      | Insira linhas que representem os serviços terceirizados em nome da FRSI. Na FastTab **Detalhes da linha** , na guia **Projeto** para a linha da fatura, no campo **Empresa do projeto** , insira **FRSI**. Insira o projeto e as informações correspondentes. Em seguida, lance a fatura de fornecedor. |
+| N    | A página **Fatura de fornecedor**                                                                      | Insira linhas que representem os serviços terceirizados em nome da FRSI. Na FastTab **Detalhes da linha**, na guia **Projeto** para a linha da fatura, no campo **Empresa do projeto**, insira **FRSI**. Insira o projeto e as informações correspondentes. Em seguida, lance a fatura de fornecedor. |
 
 ## <a name="example-4-create-and-post-the-intercompany-invoice"></a>Exemplo 4: Criar e lançar a fatura intercompanhia
 USSI, a entidade legal que faz o empréstimo, deve criar e lançar a fatura intercompanhia. Existem dois pontos de entrada para as etapas necessárias desta tarefa.
@@ -95,7 +95,7 @@ USSI, a entidade legal que faz o empréstimo, deve criar e lançar a fatura inte
 | Etapa | Ponto de entrada                                                                                             | Descrição                                                                                                                                      |
 |------|---------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | T    | **Gerenciamento e contabilidade de projeto** &gt; **Faturas de projeto** &gt; **Fatura de cliente intercompanhia**  | Clique em **Novo** para abrir a página **Criar fatura intercompanhia**.                                                                                  |
-| N    | **Gerenciamento e contabilidade de projeto** &gt; **Faturas de projeto** &gt; **Faturas de cliente intercompanhia** | Na página **Criar fatura intercompanhia** , insira a entidade legal, especifique a transação que deve ser incluída e clique em **Pesquisar**. |
+| N    | **Gerenciamento e contabilidade de projeto** &gt; **Faturas de projeto** &gt; **Faturas de cliente intercompanhia** | Na página **Criar fatura intercompanhia**, insira a entidade legal, especifique a transação que deve ser incluída e clique em **Pesquisar**. |
 | C    | **Gerenciamento e contabilidade de projeto** &gt; **Faturas de projeto** &gt; **Faturas de cliente intercompanhia** | Selecione as transações a serem faturadas ou clique em **Selecionar tudo** para faturar todas as transações na lista e, em seguida, clique em **OK**.                  |
 | D    | A página **Fatura intercompanhia**                                                                       | A proposta de fatura de cliente intercompanhia será exibida.                                                                                             |
 | E    | A página **Fatura intercompanhia**                                                                       | Clique em **Lançar**.                                                                                                                                  |

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 1d911ab0defaaee40d8752557e1115ea49c8fa93
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176552"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274309"
 ---
 # <a name="configure-automatic-invoice-creation---lite"></a>Configurar a criação automática de fatura - lite
  
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Você pode configurar a criação automática de faturas no Dynamics 365 Project Operations. O sistema cria um rascunho de fatura pro forma com base na agenda da fatura para cada contrato de projeto e linha de contrato. As programações de faturas são configuradas no nível da linha do contrato. Cada linha em um contrato pode ter uma agenda de fatura distinta ou a mesma agenda de fatura pode ser incluída em cada linha do contrato.
+Você pode configurar a criação automática de fatura no Dynamics 365 Project Operations. O sistema cria um rascunho de fatura pro forma com base na agenda da fatura para cada contrato de projeto e linha de contrato. As programações de faturas são configuradas no nível da linha do contrato. Cada linha em um contrato pode ter uma agenda de fatura distinta ou a mesma agenda de fatura pode ser incluída em cada linha do contrato.
 
 Quando você cria uma fatura, o sistema sempre cria pelo menos uma fatura por contrato de projeto. Em alguns casos, pode haver várias faturas criadas.
 

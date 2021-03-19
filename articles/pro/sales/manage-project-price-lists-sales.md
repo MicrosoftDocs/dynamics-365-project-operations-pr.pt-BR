@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175967"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5273004"
 ---
 # <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gerenciar listas de preços de projeto em cotações de projeto - lite
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-As cotações do projeto são desenvolvidas para oferecer suporte a listas de preços de venda com várias datas de vigência. Com o Dynamics 365 Project Operations, uma nova entidade associada chamada **Listas de preços de projetos** é adicionada. Esta entidade tem um relacionamento de 1 para muitos com uma cotação de projeto.
+As cotações do projeto são desenvolvidas para oferecer suporte a listas de preços de venda com várias datas de vigência. Com o Dynamics 365 Project Operations, uma nova entidade associada chamada **Listas de preços do projeto** é adicionada. Esta entidade tem um relacionamento de 1 para muitos com uma cotação de projeto.
 
 As listas de preços do projeto são usadas para definir o preço das transações de tempo e despesas em um projeto. Quando uma cotação tem uma ou mais listas de preços de projeto, essas listas de preços são usadas para definir o preço de estimativas de tempo e despesas e dados efetivos em projetos que estejam associados à cotação por meio da linha de cotação.
 

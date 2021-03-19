@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: ca6c2cc8855cfed592057ca129b436450104af99
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181528"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274001"
 ---
 # <a name="manage-a-proforma-invoice---lite"></a>Gerenciar uma fatura pro forma - lite
 
@@ -109,7 +109,7 @@ Os seguintes campos estão disponíveis em um detalhe de linha da fatura com sup
 | **Descrição** | Descrição do detalhe da linha de fatura. Definido por padrão a partir da descrição da etapa de origem. | &nbsp; |
 |**Descrição Externa** | Descrição do detalhe da linha da fatura que é definido por padrão a partir da descrição da etapa de origem. | Esse campo pode ser usado para determinar o que deve constar na fatura impressa que será enviada ao cliente. Uma fatura pro forma no Project Operations não tem todas as funcionalidades necessárias para definir as configurações de impressão de uma fatura. |
 | **Data de Início** | Definido por padrão na data da **Etapa** na etapa de origem. Um campo somente leitura que está bloqueado para edição. | &nbsp; |
-| **Projeto** | Definido por padrão a partir da etapa de origem. Um campo somente leitura que está bloqueado para edição. | &nbsp; |
+| **Project** | Definido por padrão a partir da etapa de origem. Um campo somente leitura que está bloqueado para edição. | &nbsp; |
 | **Tarefa** | Definido por padrão a partir da etapa de origem. Um campo somente leitura que está bloqueado para edição. | &nbsp; |
 | **Categoria da transação** | Um campo somente leitura que está bloqueado para edição. | &nbsp; |
 | **Função** | Um campo somente leitura que está bloqueado para edição. | &nbsp; |

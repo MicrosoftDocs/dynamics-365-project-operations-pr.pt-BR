@@ -1,6 +1,6 @@
 ---
 title: Relatórios de despesas reprojetados
-description: Este tópico fornece informações sobre a experiência reprojetada e reinventada para a entrada de relatórios de despesas no Microsoft Dynamics 365 Finance. A nova experiência simplifica o processo de preenchimento de relatórios de despesas e diminui o tempo necessário.
+description: Este tópico fornece informações sobre a experiência reprojetada e reformulada para a entrada de relatórios de despesas.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/14/2019
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: d076c0a596940cb08433f7ee57dea54903f6078f
-ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
+ms.openlocfilehash: 7533f8aca317bd8d72e437592b5251fd3a866ba6
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/14/2021
-ms.locfileid: "4960233"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271969"
 ---
 # <a name="redesigned-expense-reports"></a>Relatórios de despesas reprojetados
 
@@ -40,12 +40,6 @@ Para ativar a nova experiência, use o workspace **Gerenciamento de recursos** p
 - Um novo item de menu para visibilidade do campo de despesas é adicionado.
 - Nenhum item de menu existente para os relatórios de despesas (a página existente) ou os campos do relatório de despesas são removidos.
 - Fluxos de trabalho e aprovações ainda levam você para a página de relatórios de despesas existentes.
-
-## <a name="getting-started-video-for-new-users"></a>Vídeo de introdução para novos usuários
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-O [vídeo Experiência de despesas Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrado acima) está incluído na [playlist do Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
 
 ## <a name="new-features"></a>Novos recursos
 

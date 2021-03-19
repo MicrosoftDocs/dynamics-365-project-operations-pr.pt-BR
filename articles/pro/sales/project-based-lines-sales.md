@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bba555003b76e3e87412679b274f74f68ac7203b
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: cac6125abc7269ee95667ae589d5a748b3d4190c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180988"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5272509"
 ---
 # <a name="project-based-opportunity-lines---lite"></a>Linhas de oportunidade baseadas no projeto - lite
 
@@ -27,7 +27,7 @@ Veja abaixo os campos em uma linha de oportunidade baseada em projeto:
 
 | **Campo** | **Local** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
-| Tipo de Produto | Guia geral (oculta) | É possível selecionar uma das seguintes opções:</br>- Serviço baseado em projeto (disponível apenas quando o Dynamics 365 Project Operations está instalado)</br>- Produto (disponível apenas quando o Project Operations e o Dynamics 365 Sales estão instalados) | O valor deste campo é definido como **Serviço baseado em projeto** ao criar uma linha de oportunidade baseada em projeto a partir da grade de linhas baseadas em projeto na Oportunidade. <br> Se você alterar ou substituir este valor, a funcionalidade do projeto não será habilitada nos itens de linha baseados em projeto. |
+| Tipo de Produto | Guia geral (oculta) | É possível selecionar uma das seguintes opções:</br>- Serviço baseado em projeto (disponível somente quando o Dynamics 365 Project Operations está instalado)</br>- Produto (disponível apenas quando o Project Operations e o Dynamics 365 Sales estão instalados) | O valor deste campo é definido como **Serviço baseado em projeto** ao criar uma linha de oportunidade baseada em projeto a partir da grade de linhas baseadas em projeto na Oportunidade. <br> Se você alterar ou substituir este valor, a funcionalidade do projeto não será habilitada nos itens de linha baseados em projeto. |
 | Oportunidade | Guia Geral | Este campo é somente leitura e faz referência ao Registro de oportunidade pai ao qual este item de linha pertence. | Não há impacto a jusante deste campo. |
 | Nome | Guia Geral | Este campo de texto editável pode ser usado para fornecer uma identidade curta ao item de linha. | Este valor é transportado para a linha de cotação quando você cria uma cotação a partir desta oportunidade. |
 | Orçamento do Cliente | Guia Geral | Este campo de moeda editável pode ser usado para rastrear o valor que o cliente deseja gastar neste item de linha. | Este valor é transportado para o campo correspondente na linha de cotação quando você cria uma cotação a partir desta oportunidade. |

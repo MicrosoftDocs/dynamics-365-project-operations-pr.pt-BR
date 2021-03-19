@@ -17,18 +17,18 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d113111f5fbf6f5d23ef02cae36d85a27beed93
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 899279b33f4fe8780d110d7c18a097407bd8d839
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121294"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277504"
 ---
 # <a name="quotes---key-concepts"></a>Cotações - principais conceitos
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-No Dynamics 365 Project Operations, existem dois tipos de cotações: projeto e vendas. Os dois tipos de cotações diferem nos seguintes aspectos:
+No Dynamics 365 Project Operations, há dois tipos de cotação: projeto e vendas. Os dois tipos de cotações diferem nos seguintes aspectos:
 
 - **Grades para itens de linha**: em uma cotação de vendas, há apenas uma grade para itens de linha. Em uma cotação de projeto, existem duas grades para itens de linha. Uma grade é para linhas de projeto e a outra é para linhas de produtos.
 - **Ativação e revisões**: cotações de vendas dão suporte a ativação e revisões. Esses processos não têm suporte em uma cotação de projeto.

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 34a3ea3dda64969fe66248e295cd3dd8bbe72a05
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071453"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270619"
 ---
 # <a name="manage-resource-competencies"></a>Gerenciar as competências dos recursos
 
@@ -39,19 +39,19 @@ Para configurar as competências de um funcionário, você pode usar a página d
 
 ## <a name="set-up-competencies-certificates"></a>Configurar competências: certificados
 
-1. Na página de lista **Funcionários** , selecione a linha para a qual o funcionário deseja adicionar informações sobre certificados.
-2. No Painel de ações, na guia **Funcionário** , no grupo **Competências** , selecione **Certificados**.
-3. Selecione **Novo** e, no campo **Tipo de certificado** , selecione **PMP**.
-4. No campo **Data de início** , selecione **01/10/2015** e **Salvar**.
+1. Na página de lista **Funcionários**, selecione a linha para a qual o funcionário deseja adicionar informações sobre certificados.
+2. No Painel de ações, na guia **Funcionário**, no grupo **Competências**, selecione **Certificados**.
+3. Selecione **Novo** e, no campo **Tipo de certificado**, selecione **PMP**.
+4. No campo **Data de início**, selecione **01/10/2015** e **Salvar**.
 
 ## <a name="set-up-competencies-skills"></a>Configurar competências: habilidades
 
-1. Na página de lista **Funcionários** , certifique-se de que o funcionário que você usou no procedimento anterior ainda está selecionado. Então, no Painel de ações, na guia **Funcionário** , no grupo **Competências** , selecione **Habilidades**.
+1. Na página de lista **Funcionários**, certifique-se de que o funcionário que você usou no procedimento anterior ainda está selecionado. Então, no Painel de ações, na guia **Funcionário**, no grupo **Competências**, selecione **Habilidades**.
 2. Selecione **Novo**.
-3. No campo **Habilidade** , selecione **Gerenciamento de projetos**.
-4. No campo **Nível** , selecione **5 Especialista**.
-5. No campo **Data do nível** , selecione **14/01/2014**.
-6. No campo **Anos de experiência** , digite **10**.
+3. No campo **Habilidade**, selecione **Gerenciamento de projetos**.
+4. No campo **Nível**, selecione **5 Especialista**.
+5. No campo **Data do nível**, selecione **14/01/2014**.
+6. No campo **Anos de experiência**, digite **10**.
 7. Selecione **Salvar** e feche a página.
 
 
