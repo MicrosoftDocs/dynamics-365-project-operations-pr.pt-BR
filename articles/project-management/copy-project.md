@@ -1,30 +1,30 @@
 ---
 title: Copiar um projeto
-description: Este tópico fornece informações sobre como copiar projetos no Dynamics 365 Project Operations.
+description: Este tópico fornece informações sobre copiar projetos no Dynamics 365 Project Operations.
 author: ruhercul
 manager: AnnBe
-ms.date: 10/07/2020
+ms.date: 02/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 53c72e5fd680eb28128644788752368705440445
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
+ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131779"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5479505"
 ---
 # <a name="copy-a-project"></a>Copiar um projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Com o Dynamics 365 Project Operations, é possível criar projetos rapidamente selecionando **Copiar Projeto** no formulário **Projetos**. Para copiar um projeto, abra o projeto que deseja copiar e selecione **Copiar projeto**. A ação copiará:
+Com o Dynamics 365 Project Operations, você pode criar projetos rapidamente selecionando **Copiar Projeto** no formulário **Projetos**. Para copiar um projeto, abra o projeto que deseja copiar e selecione **Copiar projeto**. A ação copiará:
 
-- Propriedades do projeto
+- Propriedades do projeto (a data de início estimada é copiada do projeto de origem)
 - A Estrutura de detalhamento de trabalho
 - Membros da equipe de projeto
-- Estimativas de projeto
+- Estimativas do projeto
 - Estimativas de despesas do projeto
 
 ## <a name="project-properties"></a>Propriedades do projeto

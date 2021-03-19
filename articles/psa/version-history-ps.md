@@ -24,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e8ec1b5f7760b21ca3f0a85952820bdf6d0a5da
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a8e1c7233de5705c928308431738060cca454e89
+ms.sourcegitcommit: 7e39fc1d50681850175428c909755204b08f0a77
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144264"
+ms.lasthandoff: 03/08/2021
+ms.locfileid: "5556609"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Agenda de lançamento da atualização do Project Service 3.x
 
@@ -39,7 +39,7 @@ ms.locfileid: "5144264"
 
 | Solução  | Última versão |
 |-------|----|
-| Project Service Automation    | 3.10.46.87 |
+| Project Service Automation    | 3.10.47.7 |
 | Suplemento do Project Service Automation para desktop                | 3.15          |
 
 Para obter informações sobre atualizações do Project Service, consulte os [Planos de Lançamento do Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/). 
@@ -47,28 +47,28 @@ Para obter informações sobre atualizações do Project Service, consulte os [P
 | Estação  | Região | Versão atual | Próxima versão |  Data agendada
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Estação 1</strong> | |  |  | |
-| | <i>Primeira Versão</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 19 de fevereiro de 2021
+| | <i>Primeira Versão</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 de abril de 2021
 |<strong>Estação 2</strong> | |  |  | |
-| | <i>América do Sul</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 de fevereiro de 2021
-| | <i>Canadá</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 de fevereiro de 2021
-| | <i>Índia</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 de fevereiro de 2021
-| | <i>França</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 de fevereiro de 2021
-| | <i>Emirados Árabes Unidos</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 de fevereiro de 2021
-| | <i>África do Sul</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 de fevereiro de 2021
-| | <i>Alemanha</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 de fevereiro de 2021
-| | <i>Suíça</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 26 de fevereiro de 2021
+| | <i>América do Sul</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 de abril de 2021
+| | <i>Canadá</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 de abril de 2021
+| | <i>Índia</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 de abril de 2021
+| | <i>França</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 de abril de 2021
+| | <i>Emirados Árabes Unidos</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 de abril de 2021
+| | <i>África do Sul</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 de abril de 2021
+| | <i>Alemanha</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 de abril de 2021
+| | <i>Suíça</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 2 de abril de 2021
 |<strong>Estação 3</strong> | |  |  | |
-| | <i>Japão</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05 de março de 2021
-| | <i>Pacífico Asiático</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05 de março de 2021
-| | <i>Grã-Bretanha</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05 de março de 2021
-| | <i>Oceana</i> | [3.10.46.87](whats-new-ur-28-5.md) | TBD | 05 de março de 2021
+| | <i>Japão</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9 de abril de 2021
+| | <i>Pacífico Asiático</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9 de abril de 2021
+| | <i>Grã-Bretanha</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9 de abril de 2021
+| | <i>Oceana</i> | [3.10.47.7](whats-new-ur-29.md) | TBD | 9 de abril de 2021
 |<strong>Estação 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.45.119](whats-new-ur-27-5.md) | [3.10.46.87](whats-new-ur-28-5.md) | 19 de fevereiro de 2021
+| | <i>Europa</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 12 de março de 2021
 |<strong>Estação 5</strong> | |  |  | |
-| | <i>América do Norte</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 12 de fevereiro de 2021
+| | <i>América do Norte</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 19 de março de 2021
 |<strong>Estação 6</strong> | |  |  | |
-| | <i>Nuvem da Comunidade Governamental</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 12 de fevereiro de 2021
-| | <i>Grupos de Escala Dedicados</i> | [3.10.44.59](whats-new-ur-26.md) | [3.10.45.119](whats-new-ur-27-5.md) | 19 de fevereiro de 2021
+| | <i>Nuvem da Comunidade Governamental</i> | [3.10.46.147](whats-new-ur-28-6.md) | [3.10.47.7](whats-new-ur-29.md) | 19 de março de 2021
+| | <i>Grupos de Escala Dedicados</i> | [3.10.45.120](whats-new-ur-27-6.md) | [3.10.46.147](whats-new-ur-28-6.md) | 05 de março de 2021
 
 >[!Note]
 > - As datas em todas as regiões, exceto Nuvem da Comunidade Governamental (GCC), indicam o momento da próxima atualização automática. As datas no GCC indicam a disponibilidade da versão. No momento, não há atualizações automáticas para essas regiões.

@@ -3,17 +3,17 @@ title: Comportamento da interface do usuário de entrada de hora
 description: Este tópico fornece informações sobre o comportamento da interface do usuário para Entrada de Hora.
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124489"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499600"
 ---
 # <a name="time-entry-ui-behavior"></a>Comportamento da interface do usuário de entrada de hora
 
@@ -21,6 +21,19 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 
 
 A grade **Entrada de hora semanal** é um controle personalizado que possui duas seções principais: **Dimensões** e **Duração**.
+
+## <a name="keyboard-shortcuts"></a>Atalhos do teclado
+| Ação        | Atalho                  |
+|------------   |------------------------   |
+| Criar           | Alt + Shift + n           |
+| Copiar linha      | Alt + Shift + c           |
+| Editar entrada    | Alt + Shift + e           |
+| Editar linha      | Alt + Shift + Ctrl + e    |
+| Abrir entrada    | Alt + Shift + o           |
+| Enviar        | Alt + Shift + s           |
+| Recuperar        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| Copiar semana     | Alt + Shift + w           |
 
 ## <a name="dimensions"></a>Dimensões
 A seção **Dimensões** mostra as dimensões em que as horas podem ser inseridas. As seguintes dimensões têm suporte imediato:

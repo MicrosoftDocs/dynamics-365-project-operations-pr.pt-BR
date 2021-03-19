@@ -1,9 +1,9 @@
 ---
 title: Relatórios de despesas reinventados
-description: Este tópico fornece informações sobre a experiência reprojetada e reformulada para a entrada de relatórios de despesas.
+description: Este tópico explica a experiência reprojetada e reimaginada para a entrada de relatórios de despesas.
 author: suvaidya
 manager: AnnBe
-ms.date: 10/01/2020
+ms.date: 03/01/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 18d7407681906361f3f818225efb8510ac981d98
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122779"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499702"
 ---
 # <a name="expense-reports-reimagined"></a>Relatórios de despesas reinventados
 
@@ -59,25 +59,22 @@ O [vídeo Experiência de despesas Dynamics 365 for Finance and Operations](http
 | Redução de mensagens na barra de mensagens| O número de mensagens do log de Informações foi diminuído e foi feito um esforço para evitar que mensagens duplicadas aparecessem em muitos casos. |
 | Ações comuns agrupadas | A interface foi limpa com a adição de um novo botão de ações para a maioria das ações comuns de nível de linha e a adição de um botão de reticências (...) para cabeçalho e outras ações menos frequentes. |
 | Novo espaço de trabalho para aumentar a visibilidade | Um novo espaço de trabalho unifica recursos e links que permitem que os usuários migrem para áreas diferentes. |
-| Adicionar despesas e recibos existentes durante a criação da despesa | Ao criar relatórios de despesas, você pode adicionar todas as despesas e recibos selecionados. |
+| Adicionar despesas e recibos existentes durante a criação da despesa | Ao criar relatórios de despesa, você pode adicionar todas as despesas ou selecionar despesas não anexadas. As despesas não anexadas são as despesas que foram importadas do cartão de crédito corporativo ou despesas que foram criadas manualmente pelo usuário, mas não foram anexadas a um relatório de despesa.|
 | Calculadora de taxa de câmbio | Foi adicionada uma calculadora de taxa de câmbio que permite calcular a taxa de câmbio para transações do próprio bolso em várias moedas. |
 | Salvar e adicionar novas linhas de despesa | Os botões **Salvar** e **Novo** estão disponíveis quando novas despesas são inseridas, para ajudar a inserir rapidamente as linhas de despesas. |
 | Melhor visibilidade em linhas divididas e discriminadas | As linhas discriminadas e divididas são adicionadas diretamente à lista de despesas, para aumentar a visibilidade e ajudar a determinar facilmente se há erros. |
 | Mostrar recibos durante a discriminação | Os recibos podem ser exibidos durante a discriminação. |
+| Seleção de adiantamento em dinheiro | Selecione um ou mais adiantamentos em dinheiro para cumprir uma única transação de despesa. |
+| Saldo de adiantamento em dinheiro | Revise o saldo de adiantamento em dinheiro em tempo real ao criar uma entrada de despesa em adiantamentos em dinheiro aprovados e pagos. |
 
 A versão inicial é focada em cenários de entrada de despesa. Qualquer revisão de relatório de despesas ou cenário de aprovação continuará a usar a página de entrada de despesa existente.
 
-Os recursos a seguir estão presentes na página existente, mas ainda não estão presentes na nova página. Estes recursos serão reintroduzidos nas próximas versões:
+Os seguintes recursos não são compatíveis com o Espaço de Trabalho de Despesas Reimaginado:
 
-- Aprovações
-- Aprovação de contas a pagar e a capacidade de editar a contabilidade
-- Vários pontos de entrada
 - Integração de requisição de viagem
-- Entidade de dados para visibilidade do campo de despesas
-- Entrada para despesas diárias
-- Fluxo de trabalho do nível da linha
+- Entrada de despesas diária
 - Suporte para aprovadores provisórios
-- Discriminação avançada
+- Capacidade de exibir o histórico do fluxo de trabalho
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
