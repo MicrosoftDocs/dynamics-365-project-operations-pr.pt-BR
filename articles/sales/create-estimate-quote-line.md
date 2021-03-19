@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122914"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278449"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Criar estimativas em uma linha de cotação
 
@@ -30,7 +30,7 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 
 Em uma cotação baseada em projeto, você pode usar a entidade Detalhes da linha de cotação para estimar o trabalho que é necessário para entregar um projeto. Essa estimativa pode ser compartilhada com o cliente.
 
-As linhas de cotação baseadas em projeto não precisam ter qualquer detalhe da linha de cotação. Ou, elas podem ter muitos detalhes da linha de cotação. Os detalhes da linha de cotação são usados para estimar tempo, despesas ou tarifas. O Dynamics 365 Project Operations não permite estimativas de material em detalhes da linha de cotação. Essas são chamadas de classes de transação. Os valores estimados de impostos também podem ser inseridos em uma classe de transação.
+As linhas de cotação baseadas em projeto não precisam ter qualquer detalhe da linha de cotação. Ou, elas podem ter muitos detalhes da linha de cotação. Os detalhes da linha de cotação são usados para estimar horas, despesas ou tarifas. O Dynamics 365 Project Operations não permite estimativas de material em detalhes da linha de cotação. Essas são chamadas de classes de transação. Os valores estimados de impostos também podem ser inseridos em uma classe de transação.
 
 Além das classes de transação, os detalhes da linha de cotação têm um tipo de transação. Há dois tipos de transação para detalhes da linha de cotação, **Custo** e **Contrato de Projeto**.
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ea54d83b1e26d1ee3520dbfab9ba56ffd1191dc9
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181843"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277774"
 ---
 # <a name="project-based-quote-lines-overview"></a>Visão geral de linhas de cotação baseadas em projeto
 
@@ -34,7 +34,7 @@ A tabela a seguir fornece informações sobre os campos na guia **Geral** da lin
 | **Campo** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- |
 | Nome | O nome da linha de cotação que deve ajudar você a identificar o componente discreto da cotação que está sendo estimada. | Copiado para a linha do contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |
-| Método de Cobrança | Em uma cotação é criada a partir de uma oportunidade, este valor é copiado do campo correspondente na oportunidade. Este campo inclui os dois modelos de contratação principais compatíveis com o Dynamics 365 Project Operations:</br>- Preço fixo</br>- Hora e material.| O valor deste campo é copiado para a linha de contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |
+| Método de Cobrança | Em uma cotação é criada a partir de uma oportunidade, este valor é copiado do campo correspondente na oportunidade. Este campo inclui os dois principais modelos de contratação compatíveis com o Dynamics 365 Project Operations:</br>- Preço fixo</br>- Hora e material.| O valor deste campo é copiado para a linha de contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |
 | Project | Use este campo opcional para identificar o projeto que será usado para entregar o trabalho nesta participação. Quando um projeto é mapeado para uma linha de cotação, isso ajuda a configurar tarefas cobráveis e também a gerar uma estimativa baseada em projeto para a linha de cotação como detalhes da linha de cotação. Quando um projeto não é mapeado para uma linha de cotação baseada em projeto, a estimativa deve ser criada manualmente criando cada detalhe da linha de cotação. | O valor deste campo é copiado para a linha de contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |
 | Incluir Hora | Um sinalizador **Sim**/**Não** indica se as transações de tempo ou custo de mão de obra no projeto selecionado serão incluídos na estimativa nesta linha de cotação. Um valor **Não** indica que as transações de tempo ou custo de mão de obra não serão incluídos na estimativa nesta linha de cotação. Um valor **Sim** indica que as transações de tempo ou custo de mão de obra serão incluídos na estimativa nesta linha de cotação. | O valor deste campo é copiado para a linha de contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |
 | Incluir Despesa | Um sinalizador **Sim**/**Não** indica se os custos de despesa no projeto selecionado serão incluídos na estimativa nesta linha de cotação. Um valor **Não** indica que as despesas de custo não serão incluídas na estimativa nesta linha de cotação. Um valor **Sim** indica que as despesas de custo serão incluídas na estimativa nesta linha de cotação. | O valor deste campo é copiado para a linha de contrato do projeto que é criada a partir desta linha de cotação quando uma cotação é vencida. |

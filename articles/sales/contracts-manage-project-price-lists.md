@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 030684576e1f53d27921907b07c9e5e0c5efe612
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 2cfac6eda64d1d8e578115bba07942a7d786328f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4133275"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278584"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Gerenciar listas de preços do projeto em contratos do projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Os contratos do projeto no Dynamics 365 Project Operations são projetados para oferecer suporte a listas de preços de venda de várias datas efetivas em um contrato. No Project Operations, há uma nova entidade associada chamada **Listas de Preços do Projeto**. Essa entidade tem um relacionamento um-para-muitos com um contrato do projeto.
+Os contratos do projeto no Dynamics 365 Project Operations são elaborados para oferecer suporte a listas de preços de venda de várias datas efetivas em um contrato. No Project Operations, há uma nova entidade associada chamada **Listas de Preços do Projeto**. Essa entidade tem um relacionamento um-para-muitos com um contrato do projeto.
 
 As listas de preços do projeto são usadas para definir o preço das transações de tempo e despesas em um projeto. Quando um contrato tem uma ou mais listas de preços do projeto, essas listas de preços são usadas para definir preços para estimativas de tempo e despesas e dados reais em projetos associados ao contrato por meio da linha do contrato.
 

@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: cacf3913c3893dd09509cd02361c4a21bed59825
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121519"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280069"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Adicionar membros da equipe da grade de membros da equipe
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-O Dynamics 365 Project Operations inclui um painel de Gerente de recursos que fornece uma visão geral da demanda e da utilização do recurso em toda a organização. Você pode usar os gráficos desse painel para visualizar as seguintes informações:
+O Dynamics 365 Project Operations inclui um painel de Gerente de recursos que fornece uma visão geral visual da demanda e horas trabalhadas dos recursos em toda a organização. Você pode usar os gráficos desse painel para visualizar as seguintes informações:
 
 - **Demanda do recurso**: o gráfico **Solicitação de Recurso Ativa** mostra os recursos que foram enviados. Os recursos são agregados pela função ou pelo projeto.
 - **Demanda de recurso não enviada**: o gráfico **Demanda de Recurso Não Atribuída** mostra todos os requisitos de recurso que não foram enviados. Este gráfico ajuda os Gerenciadores de recursos a verem a demanda que não está confirmada e pode ser enviada por meio de uma solicitação de recurso.
