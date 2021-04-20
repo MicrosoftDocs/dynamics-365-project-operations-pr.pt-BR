@@ -3,17 +3,17 @@ title: Configurar contabilidade para projetos cobráveis
 description: Este tópico fornece informações sobre as opções de contabilidade para projetos faturáveis.
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4398ef44d4211a2921270bebe38fc92f18503854
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 629e3fc2f9069d104d459d0b4a6fa46c37f5c6f2
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287629"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858639"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar contabilidade para projetos cobráveis
 
@@ -58,13 +58,25 @@ Execute as seguintes etapas para criar um novo perfil de custo e receita do proj
 
          - **Saldo**: ao lançar o diário de integração do Project Operations, o custo de transação de despesas será debitado no tipo de conta contábil *WIP ‑ Valor de custo* conforme definido na guia **Custo** na página **Configuração de lançamento do razão** e creditado na contrapartida da linha do diário. As contrapartidas de despesas estão definidas em **Gerenciamento e contabilidade de projeto** > **Configuração** \> **Lançamento** \> **Contrapartida padrão para despesas**. O contador usará a função **Lançar custos** para mover esse custo de uma conta de saldo para a conta de lucros e perdas periodicamente.
         - **Lucros e perdas**: ao lançar o diário de integração do Project Operations, o custo de transação de despesas será debitado no tipo de conta contábil *Custo* conforme definido na guia **Custo** na página **Configuração de lançamento do razão** e creditado na contrapartida da linha do diário. As contrapartidas de despesas estão definidas em **Gerenciamento e contabilidade de projeto** \> **Configuração** \> **Lançamento** \> **Contrapartida padrão para despesas**.
+      
+    - **Lançar custos – item**:
+
+         - **Saldo**: ao lançar o diário de Integração do Project Operations, o custo de transação do item será debitado da conta Razão tipo *WIP - Valor de custo - item* conforme definido na guia **Custo** na página **Configuração de lançamento contábil** e creditado no seguinte:
+    
+              - Para o uso de tipo de documento: conta **Custo - item** na **Configuração de lançamento contábil**.  
+              - Para compra do tipo de documento: **Conta de integração da aquisição** em **Parâmetros de gerenciamento e contabilidade de projetos**.
+           O contador usará a função **Lançar custos** para mover esse custo de uma conta de saldo para a conta de lucros e perdas periodicamente.
+        - **Lucros e perdas**: ao lançar o diário de Integração do Project Operations, o custo de transação do item será debitado da conta Razão tipo *Custo* conforme definido na guia **Custo** na página **Configuração de lançamento contábil** e creditado no seguinte:
+         
+             - Para o uso de tipo de documento: conta **Custo - item** na **Configuração de lançamento contábil**.  
+             - Para compra do tipo de documento: **Conta de integração da aquisição** em **Parâmetros de gerenciamento e contabilidade de projetos**.
        
     - **Faturamento por conta**:
 
         - **Saldo**: ao lançar a Proposta de fatura do projeto, uma transação por conta (etapa de cobrança) será creditada no tipo de conta contábil *WIP Faturado - por conta* conforme definido na guia **Receita** na página **Configuração de lançamento contábil** e debitada na conta de saldo do cliente.
          - **Lucros e perdas**: ao lançar a Proposta de fatura do projeto, uma transação por conta (etapa de cobrança) será creditada no tipo de conta contábil *Receita faturada - por conta* conforme definido na guia **Receita** na página **Configuração de lançamento contábil** e debitada na conta de saldo do cliente. As contas de saldo do cliente são definidas em **Contas a receber** \> **Configuração** \> **Perfis de lançamentos de cliente**.
 
-   Ao definir os perfis de lançamento para os métodos de cobrança por tempo e material, você tem a opção de acumular receita por tipo de transação (hora, despesa e taxa). Se a opção **Acumular receita** estiver definida como **Sim**, as transações de vendas não faturadas no Diário de integração do Project Operations serão registradas na Contabilidade. O valor da venda é debitado na conta **WIP ‑ valor de venda** e creditado na conta **Receita acumulada ‑ valor de venda** que foi configurada na página **Configuração do lançamento contábil**, na guia **Receita**. 
+   Ao definir os perfis de lançamento para os métodos de cobrança por tempo e material, você tem a opção de acumular receita por tipo de transação (hora, despesa, item e taxa). Se a opção **Acumular receita** estiver definida como **Sim**, as transações de vendas não faturadas no Diário de integração do Project Operations serão registradas na Contabilidade. O valor da venda é debitado na conta **WIP ‑ valor de venda** e creditado na conta **Receita acumulada ‑ valor de venda** que foi configurada na página **Configuração do lançamento contábil**, na guia **Receita**. 
   
   > [!NOTE]
   > A opção, **Acumular receita** está disponível somente quando o tipo de transação **Custo** respectivo for lançado na conta de lucros e perdas.

@@ -3,7 +3,7 @@ title: Relatórios de despesas reinventados
 description: Este tópico explica a experiência reprojetada e reimaginada para a entrada de relatórios de despesas.
 author: suvaidya
 manager: AnnBe
-ms.date: 03/01/2021
+ms.date: 03/26/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -15,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: aaa7dd24915982cf137b5959f2f4c244b9c1e012
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 79e6a407689813f8c87fdffba0cda84df10d3b83
+ms.sourcegitcommit: 46726e5c8c994735c1e570e08d6ed8f9c9341319
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499702"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5717681"
 ---
 # <a name="expense-reports-reimagined"></a>Relatórios de despesas reinventados
 
@@ -41,11 +41,7 @@ Para ativar a nova experiência, use o espaço de trabalho **Gerenciamento de re
 - Nenhum item de menu existente para os relatórios de despesas (a página existente) ou os campos do relatório de despesas são removidos.
 - Fluxos de trabalho e aprovações ainda levam você para a página de relatórios de despesas existentes.
 
-## <a name="getting-started-video-for-new-users"></a>Vídeo de introdução para novos usuários
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Y7gO]
-
-O [vídeo Experiência de despesas Dynamics 365 for Finance and Operations](https://youtu.be/Ocy-MsTvEE0) (mostrado acima) está incluído na [playlist do Finance and Operations](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW) disponível no YouTube.
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IQFM]
 
 ## <a name="new-features"></a>Novos recursos
 

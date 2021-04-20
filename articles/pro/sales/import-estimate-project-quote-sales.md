@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f3f18644a51d87cf3bb5b4effba2236eaf3d81a9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0aedaa2ec77bb54031fccd0db2872e0aa5fea5e0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273409"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858213"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importar estimativas de um projeto para uma linha de cotação baseada em projeto - lite
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimativas de um projeto para uma linha de cotação baseada em projeto 
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** Implantação lite - gerenciar faturamento pro forma, Project Operations para cenários com base em recursos/sem estoque_
 
 Se um projeto for criado durante o estágio de pré-vendas, você pode optar por importar a estimativa financeira do projeto para a linha de cotação baseada no projeto.
 
@@ -30,7 +30,7 @@ Se um projeto for criado durante o estágio de pré-vendas, você pode optar por
   - **Função** 
   - **Tarefa do projeto**
 
-Com base em sua seleção, a estimativa do projeto para todas as classes de transação incluídas nesta linha de cotação é copiada. Para verificar quais classes de transação estão incluídas, selecione a guia **Geral** na linha de cotação baseada no projeto e verifique os valores de **Incluir Hora**, **Incluir Despesas** e **Incluir Taxas**.  Para verificar quais tarefas estão incluídas, selecione a guia **Tarefas Passíveis de Cobrança** na linha de cotação.
+Com base em sua seleção, a estimativa do projeto para todas as classes de transação incluídas nesta linha de cotação é copiada. Para verificar quais classes de transação estão incluídas, selecione a guia **Geral** na linha de cotação baseada em projeto e verifique os valores de **Incluir Hora**, **Incluir Despesas**, **Incluir Materiais** e **Incluir Taxas**.  Para verificar quais tarefas estão incluídas, selecione a guia **Tarefas Passíveis de Cobrança** na linha de cotação.
 
 Dependendo das tarefas associadas e classes de transação incluídas, as estimativas para essas combinações de tarefa e classe de transação são importadas para a linha de cotação.
 

@@ -1,27 +1,27 @@
 ---
-title: Gerenciar listas de preços de projeto em cotações de projeto - lite
-description: Este tópico fornece informações sobre como trabalhar com listas de preço do projeto em cotações. (Sales)
+title: Gerenciar listas de preços de projeto em cotações de projeto
+description: Este tópico fornece informações sobre como trabalhar com listas de preço do projeto em cotações.
 author: rumant
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d48da44f382e329a978a8ceee59c354d009f2114
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 912d2fad33ac02c3ba980da7eeb88eef5c331230
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273004"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858594"
 ---
-# <a name="manage-project-price-lists-on-project-quotes---lite"></a>Gerenciar listas de preços de projeto em cotações de projeto - lite
+# <a name="manage-project-price-lists-on-project-quotes"></a>Gerenciar listas de preços de projeto em cotações de projeto 
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 As cotações do projeto são desenvolvidas para oferecer suporte a listas de preços de venda com várias datas de vigência. Com o Dynamics 365 Project Operations, uma nova entidade associada chamada **Listas de preços do projeto** é adicionada. Esta entidade tem um relacionamento de 1 para muitos com uma cotação de projeto.
 
-As listas de preços do projeto são usadas para definir o preço das transações de tempo e despesas em um projeto. Quando uma cotação tem uma ou mais listas de preços de projeto, essas listas de preços são usadas para definir o preço de estimativas de tempo e despesas e dados efetivos em projetos que estejam associados à cotação por meio da linha de cotação.
+As listas de preços de projetos são usadas para determinar o preço de transações de tempo, material e despesas em um projeto. Quando uma cotação tem uma ou mais listas de preço de projeto, elas são usadas para definir o preço de tempo, material, estimativas de despesas e dados reais em projetos associados à cotação por meio da linha de cotação.
 
 Quando não houver listas de preços de projeto em uma cotação de projeto, você receberá uma mensagem de aviso. A mensagem informa que, como não há listas de preços do projeto, o trabalho e as despesas estimados e reais do projeto não serão avaliados. Em vez disso, eles terão preço zero (0) para os valores de venda.
 

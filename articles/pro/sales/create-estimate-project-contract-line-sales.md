@@ -3,17 +3,17 @@ title: Estimar uma linha de contrato baseada no projeto - lite
 description: Este tópico fornece informações sobre como fazer uma estimativa de uma linha de contrato baseada no projeto.
 author: rumant
 manager: Annbe
-ms.date: 10/27/2020
+ms.date: 03/30/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 186b982ee440576e10cf5b78922848b8877afd51
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf7941a627375604dca778ab293756bed2536049
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273523"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858063"
 ---
 # <a name="estimate-a-projectbased-contract-line---lite"></a>Estimar uma linha de contrato baseada no projeto - lite
 
@@ -28,28 +28,33 @@ Para estimar uma linha de contrato baseada no projeto, vá para a guia **Detalhe
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Criar uma estimativa diretamente em uma linha de contrato baseada em projeto
 
+Para criar uma estimativa diretamente em uma linha de contrato baseada em projeto, siga estas etapas:
+
 1. Vá para a linha do contrato e selecione a guia **Detalhe da Linha de Contrato**. As linhas que você cria nesta guia são resumidas e exibidas como o **Valor Contratado** por esta **Linha de Contrato**. 
-2. Na subgrade **Detalhes da Linha do Contrato**, selecione **+ Novo Detalhe de Linha de Contrato**. Um controle deslizante de criação rápida é aberto. Os seguintes campos estão disponíveis no formulário **Detalhes da Linha de Contrato**:
+2. Na subgrade **Detalhes da Linha do Contrato**, selecione **+ Novo Detalhe de Linha de Contrato**. Um controle deslizante de criação rápida é aberto. Os seguintes campos estão disponíveis na página **Detalhes da Linha de Contrato**.
 
 | Campo | Localização | Descrição | Impacto a jusante |
 | --- | --- | --- | --- |
-| **Descrição** | **Criação Rápida** | Uma descrição da estimativa específica. | Este campo assume como padrão o detalhe da linha do contrato relacionado para custos que são criados automaticamente. |
-| **Classe da Transação** | **Criação Rápida** | Esta lista suspensa é uma lista de classes de transação incluídas na guia **Geral** da linha de contrato baseado em projeto. | Este campo assume como padrão o detalhe da linha do contrato relacionado para custos que são criados automaticamente. |
-| **Função** | **Criação Rápida** | A função da pessoa que está realizando este trabalho ou incorrendo nessa despesa. | Este campo assume como padrão o detalhe da linha do contrato relacionado para custos que são criados automaticamente. |
-| **Categoria** | **Criação Rápida** | A categoria do trabalho ou da despesa. | Este campo assume como padrão o detalhe da linha do contrato relacionado para custos que são criados automaticamente. |
-| **Data de Início** | **Criação Rápida** | A data de início do trabalho. | Este campo assume como padrão o detalhe da linha do contrato relacionado para custos que são criados automaticamente. |
-| **Data de Término** | **Criação Rápida** | A data de término do trabalho. | Este campo assume como padrão o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
-| **Unidade de Recursos** | **Criação Rápida** | A unidade de recursos que incorre nesse custo e fornece o recurso para trabalhar nisso. | Este campo assume como padrão o detalhe da linha do contrato relacionado para custos que são criados automaticamente. Este campo também é usado na recuperação do preço de custo. |
-| **Agenda da unidade** | **Criação rápida** | O grupo de unidades do trabalho ou da despesa. As unidades pertencem a uma agenda da unidade ou a um grupo de unidades. Por exemplo, *milhas* e *quilômetros (Kms)* são unidades que pertencem a um grupo de unidades que descrevem distâncias. | Este campo assume como padrão o detalhe da linha do contrato relacionado para custos que são criados automaticamente. |
-| **Unidade** | **Criação Rápida** | A unidade do trabalho ou da despesa. | Este campo assume como padrão o detalhe da linha do contrato relacionado para custos que são criados automaticamente. |
-| **Quantidade** | **Criação Rápida** | A quantidade de trabalho ou da despesa. | Este campo assume como padrão o detalhe da linha do contrato relacionado para custos que são criados automaticamente. |
-| **Preço unitário** | **Criação Rápida** | A taxa de cobrança da função que está realizando o trabalho ou o preço de venda da categoria de despesas. Este campo é padronizado para **Hora** baseado na combinação de função e unidade de recursos na lista de preços do projeto efetiva para a data de início. Para despesas, o padrão deste campo é da configuração de preço para a categoria de transação na lista de preços do projeto que é efetiva para a data de início. Se o método de precificação da categoria de transação não for **preço por unidade**, não haverá padrão e este campo ficará em branco. | A taxa de custo da função que está realizando o trabalho ou o custa por unidade da categoria de despesas. Este campo é padronizado para **Tempo com base na função** e a combinação da unidade de recurso na linha de preço da função da lista de preços de custo anexada à unidade de contratação efetiva para a data de início. Para despesas, o padrão deste campo é baseado na linha de preço da categoria da lista de preços de custo anexada à unidade de contratação efetiva para a data de início. Se o método de precificação da categoria de transação não for preço por unidade não haverá padrão e este campo ficará em branco. |
-| **Imposto Estimado** | **Criação Rápida** | O imposto estimado para este trabalho ou despesa, conforme inserido pelo usuário. | O imposto estimado para este trabalho ou despesa, conforme inserido pelo usuário. |
-| **Valor** | **Criação Rápida** | Este valor neste campo pode ser adicionado pelo usuário se os campos **Quantidade** e **Preço** ficarem em branco. Se **Quantidade** e **Preço** forem preenchidos, o campo **Valor** será somente para leitura e será calculado como **(Quantidade \* Preço unitário) + Imposto**. | &nbsp; |
+| **Descrição** | **Criação Rápida** | Uma descrição da estimativa específica. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Classe da Transação** | **Criação Rápida** | Esta é uma lista de classes de transação incluídas na guia **Geral** da linha de contrato baseada em projeto. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Selecionar Produto** | **Criação rápida** | Aplica-se quando a classe de transação é **Material**. É possível especificar se esta linha de estimativa é para um produto **Existente** (catálogo) ou um produto **Fora do Catálogo**. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Produto** | **Criação rápida** | O ID do produto do catálogo de produtos. Esse campo só estará ativado quando você selecionar **Produto existente** no campo **Selecionar Produto**. A ID é usada para recuperar o preço de venda da lista de preços do projeto no contrato. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Produto Fora do Catálogo** | **Criação rápida** | Um campo de texto para informar o nome do produto. Esse campo só estará ativado quando você selecionar **Fora do Catálogo** no campo **Selecionar Produto**.| Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Função** | **Criação Rápida** | A função da pessoa que está realizando este trabalho ou incorrendo nessa despesa. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente.|
+| **Categoria** | **Criação Rápida** | A categoria do trabalho ou da despesa. |Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente.|
+| **Data de Início** | **Criação Rápida** | A data de início do trabalho. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Data de Término** | **Criação Rápida** | A data de término do trabalho. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Unidade de Recursos** | **Criação Rápida** | A unidade de recursos que irá incorrer neste custo e fornecer o recurso para trabalhar nisso. |Este valor é padronizado para o detalhe da linha de contrato relacionado para o custo que é criado automaticamente e usado na recuperação do preço de custo. |
+| **Agenda da unidade** | **Criação rápida** | O grupo de unidades de trabalho, produto ou despesa. As unidades pertencem a uma agenda da unidade ou a um grupo de unidades. Por exemplo, *milhas* e *quilômetros (kms)* são unidades que pertencem a um grupo de unidades que descrevem distâncias. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Unidade** | **Criação Rápida** | A unidade de trabalho, produto ou despesa. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Quantidade** | **Criação Rápida** | A quantidade de trabalho, produto ou despesa. | Este valor é padronizado para o detalhe da linha do contrato relacionado para o custo que é criado automaticamente. |
+| **Preço unitário** | **Criação Rápida** | A taxa de faturamento da função que está executando o trabalho, o preço unitário do produto, ou o preço de venda do produto ou a categoria de despesa. Este campo é padronizado para **Tempo** com base na combinação de valores de dimensão de preço na linha de preço da função da lista de preços do projeto que está em vigor para a data de início. Para **Despesas**, o padrão deste campo é da configuração de preço para a categoria de transação na lista de preços do projeto que é efetiva para a data de início. Se o método de precificação da categoria de transação não for **preço por unidade**, não haverá padrão e este campo ficará em branco. Para produtos, o padrão deste campo é baseado na linha **Item da lista de preços** na lista de preços do projeto que está em vigor para a data de início.| A taxa de custo da função que está executando o trabalho ou o custo por unidade da categoria de despesas ou o custo unitário do produto. Este campo é padronizado para **Tempo** com base na combinação de valores de dimensão de preço na linha de preço da função da lista de preços de custo anexada à unidade de contratação efetiva para a data de início. Para despesas, o padrão deste campo é baseado na linha de preço da categoria da lista de preços de custo anexada à unidade de contratação efetiva para a data de início. Se o método de precificação da categoria de transação não for preço por unidade não haverá padrão e este campo ficará em branco. Para produtos, este padrão do campo é baseado na linha do **Item da lista de preços** da lista de preços de custo anexada à unidade de contratação que é efetiva para a data de início.|
+| **Imposto Estimado** | **Criação Rápida** | O imposto estimado para este trabalho ou despesa. | O imposto estimado para este trabalho ou despesa. |
+| **Valor** | **Criação Rápida** | Você pode adicionar o valor neste campo se os campos **Quantidade** e **Preço** ficarem em branco. Se **Quantidade** e **Preço** forem preenchidos, o campo **Valor** será somente para leitura e será calculado como **(Quantidade\*Preço unitário) + Imposto**. | &nbsp; |
 
 ## <a name="update-prices-on-contract-line-details"></a>Atualizar os preços nos detalhes da linha do contrato
 
-Se você alterar os preços na lista de preços do projeto anexada ao contrato ou na lista de preços de custo da unidade de contratação, poderá atualizar os preços nos detalhes da linha do contrato individual para refletir a mudança. Na página **Contrato**, selecione **Recalcular**. Um aviso é aberto para informá-lo de que os preços de todas as linhas do contrato neste contrato foram redefinidos. Selecione **Sim** para atualizar os preços dos detalhes da linha do contrato de vendas e custo.
+Se você alterar os preços na lista de preços do projeto anexada ao contrato ou na lista de preços de custo da unidade de contratação, poderá atualizar os preços nos detalhes da linha do contrato individual para refletir a mudança. Na página **Contrato**, selecione **Recalcular**. Um aviso aparece para informá-lo de que os preços de todas as linhas do contrato neste contrato foram redefinidos. Selecione **Sim** para atualizar os preços dos detalhes da linha do contrato de vendas e custo.
 
 ## <a name="access-contract-line-details-for-cost"></a>Acesse os detalhes da linha do contrato para custo
 
@@ -67,7 +72,7 @@ O detalhe da linha do contrato para **Custo** define a moeda padrão da lista de
 Os cálculos de lucratividade convertem os valores dos detalhes da linha do contrato para **Custo** e **Vendas** na moeda base do ambiente para relatar as margens reais e estimadas gerais do contrato.
 
 > [!NOTE]
-> Erros de arredondamento de moeda e margens alteradas podem ocorrer devido à falta de taxas de câmbio efetivas de data. Use esses cálculos em contratos de projeto apenas como aproximações e não para relatórios estatutários reais ou outros relatórios que requeiram maior precisão de arredondamento e consciência da validade de data para taxas de câmbio.
+> Erros de arredondamento de moeda e margens alteradas podem ocorrer devido à falta de taxas de câmbio efetivas de data. Use esses cálculos apenas nos contratos do projeto, pois são aproximações e não são estatutários reais ou outros relatórios que exigem maior precisão de arredondamento e consciência da data efetiva para as taxas de câmbio.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

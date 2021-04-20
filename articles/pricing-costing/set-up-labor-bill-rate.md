@@ -3,17 +3,17 @@ title: Configurar taxas de cobrança de mão de obra
 description: Este tópico fornece informações sobre como configurar as taxas de cobrança de mão de obra no Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/16/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b4d09f4bf6788f93c028f084965faa6aac41a22d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f0267fce673bbd0080022a8abf2dd0020cc8b662
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274804"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877386"
 ---
 # <a name="set-up-labor-bill-rates"></a>Configurar taxas de cobrança de mão de obra
 
@@ -21,8 +21,8 @@ _ **Aplicável a:** Project Operations para cenários baseados em recursos/sem e
 
 Cada lista de preços tem um conjunto de preços de função, ou taxas de mão de obra, que são efetivos para o contexto e data efetiva incluídos no cabeçalho da lista de preços. As taxas de cobrança por hora no Dynamics 365 Project Operations podem ser configuradas em apenas uma moeda, que é a moeda no cabeçalho da Lista de preços.
 
-1. Para configurar taxas de cobrança de mão de obra para uma lista de preços de venda, crie uma lista de preços com base no cabeçalho da lista de preços. 
-2. Na guia **Preços da Função**, na sub-grade, selecione **+ Preço da nova função**. 
+1. Para configurar as taxas da conta de trabalho para uma lista de preços de venda, acesse **Vendas** > **Clientes** > **Lista de Preços** e selecione **Novo** para criar uma nova lista de preços. 
+2. Na guia **Preços da Função**, na subgrade, selecione **Novo Preço de Função**. 
 3. No painel **Criação Rápida**, insira a combinação de função e unidade organizacional para a qual você precisa configurar a taxa de cobrança.
 
    A tabela a seguir inclui os campos da guia **Geral** e o painel **Criação Rápida** de uma linha de preço de função que você precisa ter em mente ao criar preços de função em uma lista de preços de venda:

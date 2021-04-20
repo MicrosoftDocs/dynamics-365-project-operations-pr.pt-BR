@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c29872ef3d62780eea3c0eda48c8fd2a9af4b1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4737f9870904bfc7adac11b8e2aa13bb8c610ca3
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272779"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858034"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-contract-line---lite"></a>Mapear projetos e tarefas para uma linha de contrato baseada em projeto - lite
+# <a name="map-projects-and-tasks-to-a-project-based-contract-line"></a>Mapear projetos e tarefas para uma linha de contrato baseada em projeto 
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** Implantação lite - gerenciar faturamento pro forma, Project Operations para cenários com base em recursos/sem estoque_
 
 Em linhas de contrato baseadas em projeto, você pode mapear tarefas específicas em um projeto para a linha de contrato.
 

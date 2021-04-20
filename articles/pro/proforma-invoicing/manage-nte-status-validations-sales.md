@@ -3,17 +3,17 @@ title: Gerenciar status e validações que não devem ser excedidos
 description: Este tópico fornece informações sobre as verificações de limite de NTE (limite máximo) realizadas no Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 10/22/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c5c491d4014ffc2568d7df72b542761ec9b1a90b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7026ff654a9db8e8a22bcef544b043af39865559
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273995"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5866713"
 ---
 # <a name="manage-not-to-exceed-status-and-validations"></a>Gerenciar status e validações que não devem ser excedidos 
 
@@ -21,7 +21,7 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 
 ## <a name="not-to-exceed-on-approvals"></a>Limite de NTE (limite máximo) em aprovações
 
-Quando uma entrada de tempo ou despesa é enviada, um registro de aprovação é criado. Se a aprovação for cobrável e mapeada para uma linha de contrato de tempo e material, o sistema concluirá uma verificação de validação NTE (limite máximo) nos seguintes níveis:
+Ao enviar uma entrada de tempo, despesa ou uso de material, é criado um registro de aprovação. Se a aprovação for cobrável e mapeada para uma linha de contrato de tempo e material, o sistema concluirá uma verificação de validação NTE (limite máximo) nos seguintes níveis:
 
   - Verifique o limite configurado para o cliente na linha do contrato do projeto
   - Verifique o limite configurado na linha do contrato
@@ -34,11 +34,11 @@ Se a verificação for aprovada, a aprovação receberá um status de validaçã
 
 Se a verificação falhar, a aprovação receberá um status de validação **Falha**. O detalhe de validação NTE (limite máximo) informará ao usuário o nível em que a validação falhou.
 
-Quando o tempo enviado ou entrada de despesas é considerada não cobrável, o status de validação NTE (limite máximo) é definido como **Não Aplicável** com o detalhe de validação igual a **Não aplicável**.
+Quando a entrada de tempo, despesa ou uso de material enviada é considerada não passível de cobrança, o status de validação que não deve ser excedido é definido como **Não aplicável** com o detalhe de validação equivalente a **Não aplicável**.
 
 ## <a name="not-to-exceed-on-unbilled-sales-actuals"></a>NTE (limite máximo) em dados reais de vendas não cobradas
 
-Quando uma entrada de tempo ou despesa é aprovada, são criados registros de dados reais de custo e vendas não cobradas. Se o dado real de vendas não cobráveis criado for cobrável e mapeado para uma linha de contrato de tempo e material, o aplicativo executará uma verificação de validação NTE (limite máximo) nos seguintes níveis:
+Quando uma entrada de tempo, despesa ou uso de material é aprovada, são criados registros reais de custo e vendas não faturadas. Se o dado real de vendas não cobráveis criado for cobrável e mapeado para uma linha de contrato de tempo e material, o aplicativo executará uma verificação de validação NTE (limite máximo) nos seguintes níveis:
 
   - Verifique o limite configurado para o cliente da linha do contrato do projeto
   - Verifique o limite configurado na linha do contrato
@@ -55,9 +55,9 @@ Quando o dado real de vendas não cobradas for considerado não cobrável ou com
 
 ## <a name="reset-the-not-to-exceed-status"></a>Redefinir o status de NTE (limite máximo)
 
-Você pode fazer uma redefinição em massa do status de NTE (limite máximo). Isso permite que os gerentes de projeto ajustem a validação de NTE (limite máximo) para priorizar o faturamento de determinado corpo de trabalho, tempo ou despesas em relação a outros que já estão confirmados com o valor de NTE (limite máximo) disponível.
+Você pode fazer uma redefinição em massa do status de NTE (limite máximo). Os gerentes de projeto podem ajustar a validação que não deve ser excedida para priorizar o faturamento de determinado corpo de trabalho, tempo, despesa ou uso de material em relação a outros já comprometidos com o valor disponível que não deve ser excedido.
 
-Após o status de NTE (limite máximo) ser redefinido em dados reais de vendas não cobradas, o valor confirmado será reduzido. O gerente de projeto pode selecionar outro corpo de trabalho, tempo ou despesas que antes falharam na validação de NTE (limite máximo) e reavaliá-los. Com a redução do valor confirmado, agora esses dados reais passarão na validação. Isso ajuda o gerente de projeto a exercer maior influência e controle sobre as transações faturáveis nesse período.
+Após o status de NTE (limite máximo) ser redefinido em dados reais de vendas não cobradas, o valor confirmado será reduzido. O gerente de projeto pode selecionar outra entrada de trabalho, tempo, despesa ou uso de material que antes falhou na validação e reavaliação de não excedido. Com a redução do valor comprometido, esses dados reais passam a ser validados, o que auxilia o gerente de projetos a exercer maior influência e controle sobre as transações faturáveis desse período.
 
 Para redefinir o status de NTE (limite máximo), selecione um ou mais dados reais da exibição **Lista de Pendências de Cobrança de Hora e Materiais** ou **Dados Reais** e selecione **Redefinir Status de NTE (limite máximo)**.
 

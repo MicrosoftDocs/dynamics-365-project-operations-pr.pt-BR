@@ -1,22 +1,22 @@
 ---
-title: Resolver preços de custo em estimativas e dados reais - lite
-description: Este tópico fornece informações sobre como os preços de custo em estimativas e reais são resolvidos.
+title: Resolver preços de custo em estimativas e dados reais do projeto
+description: Este tópico fornece informações sobre como resolver preços de custo em estimativas de projeto e em dados reais.
 author: rumant
 manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bbb79fdc5c68d67530b5aa34fe6105211eff1768
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f20631f41c560f1a4047aaaa624fa4e8651c687
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5274535"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877251"
 ---
-# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>Resolver preços de custo em estimativas e dados reais - lite
+# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Resolver preços de custo em estimativas e dados reais do projeto 
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
@@ -36,6 +36,12 @@ Depois que uma lista de preços de custo é resolvida, os campos **Função** e 
 As linhas de estimativa para Despesa referem-se aos detalhes da cotação e da linha de contrato para despesas e as linhas de estimativa de despesa em um projeto.
 
 Depois que uma lista de preços de custo é resolvida, o sistema usa uma combinação dos campos **Categoria** e **Unidade** na linha de estimativa de despesas para combinar com as linhas do **Preço da categoria** na lista de preços resolvida. Se o sistema encontrar uma linha de preço de categoria que tenha uma taxa de custo para a combinação dos campos **Categoria** e **Unidade**, a taxa de custo terá o padrão. Se o sistema não puder corresponder aos valores **Categoria** e **Unidade**, ou se conseguir encontrar uma linha de preço de categoria correspondente, mas o método de precificação não for **Preço por unidade**, a taxa de custo será padronizada como zero (0).
+
+## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Resolver taxas de custo em dados reais e linhas de estimativa para Material
+
+As linhas de estimativa de material referem-se aos detalhes da linha de orçamento e contrato para materiais e as linhas de estimativa de material em um projeto.
+
+Depois que uma lista de preços de custo é resolvida, o sistema usa uma combinação dos campos **Produtos** e **Unidade** na linha de estimativa para uma estimativa de material para combinar com as linhas de **Itens da Lista de Preços** na lista de preços resolvida. Se o sistema encontrar uma linha de preço de produto que tenha uma taxa de custo para a combinação de campo **Produto** e **Unidade**, a taxa de custo é padronizada. Se o sistema não pode corresponder aos valores **Produto** e **Unidade**, ou se for capaz de encontrar uma linha de item de lista de preços correspondente, mas o método de precificação é baseado no Custo padrão ou Custo atual e nenhum é definido no produto, o custo unitário é padronizado para zero.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

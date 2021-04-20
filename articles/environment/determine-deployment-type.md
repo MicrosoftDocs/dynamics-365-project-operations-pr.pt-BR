@@ -3,17 +3,17 @@ title: Determinar o tipo de implantação
 description: Este tópico fornece informações para ajudar a determinar o tipo de implantação correto do Project Operations para a sua empresa.
 author: stsporen
 manager: Annbe
-ms.date: 11/05/2020
+ms.date: 03/15/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 2da6af3240d8e561d01b1fcd8d32b657dbac1588
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: 715b117cae5418fc743ea870772278450fff5ae9
+ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479550"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5663580"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o tipo de implantação
 
@@ -44,9 +44,9 @@ Nosso [Questionário de implantação](https://aka.ms/provisionprojectoperations
 - [Project Operations para cenários baseados em recursos/itens sem estoque](#integrated)
 - [Project Operations para cenários de pedido baseado em estoque/produção](#pma)
 
-O Project Operations oferece suporte a cenários com estoque/ordem de produção e cenários baseados em recursos/sem estoque no mesmo ambiente por meio de configurações no nível de entidade legal. Por exemplo, a Contoso pode usar os recursos de pedido baseado em estoque/produção em instalações de manufatura nos EUA (entidade legal = Contoso Manufacturing Estados Unidos). A Contoso pode usar os recursos não estocados/baseados em recursos em instalações de serviço da Contoso Robotics Arms no Reino Unido (entidade legal = Contoso Robotics Reino Unido).
+O Project Operations oferece suporte a cenários com estoque/ordem de produção e cenários baseados em recursos/sem estoque no mesmo ambiente por meio de configurações no nível de entidade legal. Por exemplo, Contoso pode usar os recursos em estoque/ordem de produção em sua fábrica nos EUA (entidade legal = Contoso Fabricação nos Estados Unidos). Contoso pode usar os recursos não estocados/sem estoque na instalação de atendimento Contoso Robotics Arms no Reino Unido (entidade legal = Contoso Robotics - Reino Unido).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implantação lite - gerenciar faturamento pro forma
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implantação lite – gerenciar faturamento pro forma
 
 A implantação lite inclui as seguintes funcionalidades:
 
@@ -56,7 +56,7 @@ A implantação lite inclui as seguintes funcionalidades:
 - Gerenciamento unificado de recursos
 - Controle de horas
 - Despesa básica
-- Faturamento pro forma e voltado ao cliente 
+- Faturamento pro-forma para revisão e edição do gerente do Projeto 
 
 #### <a name="deployment-steps"></a>Etapas de implantação
 Determine o melhor modelo de implantação do Project Operations usando o [Questionário de implantação](https://aka.ms/provisionprojectoperations).
@@ -87,14 +87,14 @@ Para esta implantação, consulte [Inscreva-se para obter assinaturas de versão
 ### <a name="project-operations-for-stockedproduction-order-scenarios"></a><a name="pma"></a>Project Operations para cenários de pedido baseado em estoque/produção
 
 - Planejamento de projeto usando WBS
-- Gerenciamento de Recursos
+- Gerenciamento de recursos
 - Controle de horas
 - Despesa total
 - OCR de recibo
-- Faturamento Completo
-- Reconhecimento de Receita
-- Ordens de Produção
-- Suporte a materiais
+- Faturamento completo
+- Reconhecimento de receita
+- Ordens de produção
+- Suporte de materiais estocados com estoque
 
 #### <a name="deployment-steps"></a>Etapas de implantação
 Determine o melhor modelo de implantação do Project Operations usando o [Questionário de implantação](https://aka.ms/provisionprojectoperations).

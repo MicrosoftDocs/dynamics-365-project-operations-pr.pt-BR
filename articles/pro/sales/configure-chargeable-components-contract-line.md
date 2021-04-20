@@ -1,5 +1,5 @@
 ---
-title: Configurar componentes passíveis de cobrança de uma linha de contrato baseada em projeto - lite
+title: Configurar componentes passíveis de cobrança de uma linha de contrato baseada em projeto
 description: Este tópico fornece informações sobre como adicionar componentes passíveis de cobrança às linhas de contrato no Project Operations.
 author: rumant
 manager: Annbe
@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf3f2a28fc992d6444b35d6ffa0c3f6cadcf16ea
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ddada2cb412ba7370fb0a750325a84772937d8d0
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273904"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858459"
 ---
-# <a name="configure-chargeable-components-of-a-project-based-contract-line---lite"></a>Configurar componentes passíveis de cobrança de uma linha de contrato baseada em projeto - lite
+# <a name="configure-chargeable-components-of-a-project-based-contract-line"></a>Configurar componentes passíveis de cobrança de uma linha de contrato baseada em projeto
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** Implantação lite - gerenciar faturamento pro forma, Project Operations para cenários com base em recursos/sem estoque_
 
 Uma linha de contrato com base em projeto tem componentes *incluídos* e componentes *passíveis de cobrança*.
 
@@ -62,23 +62,582 @@ O tipo de cobrança de uma transação pode ser configurado na guia **Categorias
 
 ### <a name="resolve-chargeability"></a>Resolver os encargos
 
-Uma estimativa ou real criado para o tempo só será considerada passível de cobrança se **Tempo** estiver incluído na linha de contrato e se **Tarefa** e **Função** estiverem configuradas como passíveis de cobrança na linha de contrato.
+Uma estimativa ou dados reais criados para tempo são considerados passíveis de cobrança se:
 
-Uma estimativa ou real criado para despesa só será considerado passível de cobrança se **Despesa** estiver incluída na linha de contrato e se as categorias **Tarefa** e **Transação** estiverem configuradas como passíveis de cobrança na linha de contrato.
+   - **Tempo** estiver incluído na linha de contrato.
+   - **Função** estiver configurado como passível de cobrança na linha do contrato.
+   - **Tarefas Incluídas** estiver configurado como **Tarefas selecionadas** na linha do contrato.
+ 
+ Se esses três itens forem verdadeiros, a tarefa será configurada como passível de cobrança. 
+
+Uma estimativa ou dados reais criados para despesas são considerados passíveis de cobrança se:
+
+   - **Despesa** está incluído na linha de contrato
+   - **Categoria da transação** estiver configurado como passível de cobrança na linha do contrato
+   - **Tarefas Incluídas** estiver configurado como **Tarefa selecionada** na linha do contrato
+  
+ Se esses três itens forem verdadeiros, a **Tarefa** será configurada como passível de cobrança. 
+
+Uma estimativa ou dados reais criados para material são considerados passíveis de cobrança se:
+
+   - **Materiais** estiver incluído na linha de contrato
+   - **Tarefas Incluídas** estiver configurado como **Tarefas selecionadas** na linha do contrato
+
+Se esses dois itens forem verdadeiros, a **Tarefa** será configurada como passível de cobrança. 
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Inclui Tempo</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>Inclui Despesa</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>Inclui Materiais</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+                    <strong>Tarefas Incluídas</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Função</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Categoria</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Tarefa</strong>
+                    <strong></strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+                    <strong>Impacto de encargos</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projeto Inteiro </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em uma despesa real: <strong>Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em um material real: <strong>Passível de Cobrança</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Somente tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em uma despesa real: <strong>Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em um material real: <strong>Passível de Cobrança</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Somente tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Não Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em uma despesa real: Passível de Cobrança </p>
+                <p>
+Tipo de cobrança em um material real: Passível de Cobrança </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Somente tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Não Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em despesa real: <strong>Não Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em um material real: <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Somente tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Não Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em despesa real: <strong>Não Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em um material real: <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Somente tarefas selecionadas </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Não Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em despesa real: <strong>Não Passível de Cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em um material real: Passível de Cobrança </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projeto Inteiro </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Não disponível</strong>
+                </p>
+                <p>
+Tipo de cobrança em uma despesa real: Passível de Cobrança </p>
+                <p>
+Tipo de cobrança em um material real: Passível de Cobrança </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projeto Inteiro </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Não disponível</strong>
+                </p>
+                <p>
+Tipo de cobrança em despesa real: <strong>Não passível de cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em um material real: Passível de Cobrança </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projeto Inteiro </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: Passível de Cobrança </p>
+                <p>
+Tipo de cobrança em despesa real: <strong>Não disponível</strong>
+                </p>
+                <p>
+Tipo de cobrança em um material real: Passível de Cobrança </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projeto Inteiro </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Não passível de cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em despesa real: <strong>Não disponível</strong>
+                </p>
+                <p>
+Tipo de cobrança em um material real: Passível de Cobrança </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projeto Inteiro </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+Passível de Cobrança </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: Passível de Cobrança </p>
+                <p>
+Tipo de cobrança em uma despesa real: Passível de Cobrança </p>
+                <p>
+Tipo de cobrança em material real: <strong>Não disponível</strong>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="70" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="78" valign="top">
+                <p>
+Sim </p>
+            </td>
+            <td width="63" valign="top">
+                <p>
+                    <strong>No</strong>
+                </p>
+            </td>
+            <td width="75" valign="top">
+                <p>
+Projeto Inteiro </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="70" valign="top">
+                <p>
+                    <strong>Não Passível de Cobrança</strong>
+                </p>
+            </td>
+            <td width="65" valign="top">
+                <p>
+Não pode ser definido </p>
+            </td>
+            <td width="350" valign="top">
+                <p>
+Cobrança em um tempo real: <strong>Não passível de cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em despesa real: <strong>Não passível de cobrança</strong>
+                </p>
+                <p>
+Tipo de cobrança em material real: <strong>Não disponível</strong>
+                </p>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
-| Inclui Tempo | Inclui Despesa | Inclui Tarefas | Função           | Categoria       | Tarefa                                                                                                      |
-|---------------|------------------|----------------|----------------|----------------|-----------------------------------------------------------------------------------------------------------|
-| Sim           | Sim              | Projeto inteiro | Passível de Cobrança     | Passível de Cobrança     | Cobrança em um Tempo real: **Passível de Cobrança** </br> Tipo de cobrança em Despesa real: **Passível de Cobrança**           |
-| Sim           | Sim              | Tarefas selecionadas | Passível de Cobrança     | Passível de Cobrança     | Cobrança em um Tempo real: **Passível de Cobrança** </br> Tipo de cobrança em Despesa real: **Passível de Cobrança**           |
-| Sim           | Sim              | Tarefas selecionadas | Não Passível de Cobrança | Passível de Cobrança     | Cobrança em um Tempo real: **Não Passível de Cobrança** </br> Tipo de cobrança em Despesa real: **Passível de Cobrança**       |
-| Sim           | Sim              | Tarefas selecionadas | Passível de Cobrança     | Passível de Cobrança     | Cobrança em um Tempo real: **Não Passível de Cobrança** </br> Tipo de cobrança em Despesa real: **Não Passível de Cobrança** |
-| Sim           | Sim              | Tarefas selecionadas | Não Passível de Cobrança | Passível de Cobrança     | Cobrança em um Tempo real: **Não Passível de Cobrança** </br> Tipo de cobrança em Despesa real: **Não Passível de Cobrança** |
-| Sim           | Sim              | Tarefas selecionadas | Não Passível de Cobrança | Não Passível de Cobrança | Cobrança em um Tempo real: **Não Passível de Cobrança** </br> Tipo de cobrança em Despesa real: **Não Passível de Cobrança** |
-| No            | Sim              | Projeto inteiro | Não pode ser definido   | Passível de Cobrança     | Cobrança em um Tempo real: **Não disponível**</br>Tipo de cobrança em Despesa real: **Passível de Cobrança**          |
-| No            | Sim              | Projeto inteiro | Não pode ser definido   | Não Passível de Cobrança | Cobrança em um Tempo real: **Não disponível**</br> Tipo de cobrança em Despesa real: **Não Passível de Cobrança**     |
-| Sim           | No               | Projeto inteiro | Passível de Cobrança     | Não pode ser definido   | Cobrança em um Tempo real: **Passível de Cobrança** </br> Tipo de cobrança em Despesa real: **Não disponível**        |
-| Sim           | No               | Projeto inteiro | Não Passível de Cobrança | Não pode ser definido   | Cobrança em um Tempo real: **Não Passível de Cobrança** </br>Tipo de cobrança em Despesa real: **Não disponível**   |
+
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

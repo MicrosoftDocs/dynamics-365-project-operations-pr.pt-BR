@@ -1,31 +1,41 @@
 ---
-title: Visão geral dos projetos previstos
-description: Este tópico fornece informações sobre estimativas no Dynamics 365 Project Operations.
-author: ruhercul
+title: Conceitos de estimativa financeira
+description: Este tópico fornece informações sobre estimativas financeiras de projetos no Project Operations.
+author: rumant
 manager: AnnBe
-ms.date: 10/06/2020
+ms.date: 03/22/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
-ms.author: ruhercul
-ms.openlocfilehash: 4ff73c6efd5b21b91a7772c3733734d8008e00a3
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: a251be995abddba04cee689714d0a8f4e9d9e7d7
+ms.sourcegitcommit: 386921f44f1e9a8a828b140206d52945de07aee7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286864"
+ms.lasthandoff: 03/22/2021
+ms.locfileid: "5701722"
 ---
-# <a name="estimate-projects-overview"></a>Visão geral dos projetos previstos
+# <a name="financial-estimation-concepts"></a>Conceitos de estimativa financeira
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
+No Dynamics 365 Project Operations, você pode estimar financeiramente seus projetos em duas fases: 
+1. Durante a fase de pré-venda, antes de fechar o negócio. 
+2. Durante a fase de execução após a criação do contrato do projeto. 
+
+Você pode criar uma estimativa financeira para o trabalho baseado em projeto usando qualquer uma das seguintes 3 páginas:
+- A página **Linha de cotação**, usando os detalhes da linha de cotação.  
+- A página **Linha de contrato do projeto**, usando os detalhes da linha do contrato. 
+- A página **Projeto**, usando as página da guia **Tarefas**  ou **Estimativas de Despesas**.
+
+## <a name="use-a-project-quote-to-create-an-estimate"></a>Use uma cotação de projeto para criar uma estimativa
 Em uma cotação baseada em projeto, você pode usar a entidade **Detalhes da linha de cotação** para estimar o trabalho que é necessário para entregar um projeto. Essa estimativa pode ser compartilhada com o cliente.
 
 As linhas de cotação baseadas em projeto podem ter de zero a muitos detalhes da linha de cotação. Os detalhes da linha de cotação são usados para estimar horas, despesas ou tarifas. O Microsoft Dynamics 365 Project Operations não permite estimativas de material em detalhes da linha de cotação. Essas são chamadas de classes de transação. Os valores estimados de impostos também podem ser inseridos em uma classe de transação.
 
 Além das classes de transação, os detalhes da linha de cotação têm um tipo de transação. Há suporte a dois tipos de transação para detalhes da linha de cotação: **Custo** e **Contrato de Projeto**.
 
-## <a name="estimate-by-using-a-contract"></a>Estimativa usando um contrato
+## <a name="use-a-project-contract-to-create-an-estimate"></a>Use um contrato de projeto para criar uma estimativa
 
 Se você usou uma cotação quando criou um contrato baseado em projeto, a estimativa que foi feita para cada linha de cotação será copiada para o contrato de projeto. A estrutura de um contrato de projeto é como a estrutura da cotação do projeto, que tem linhas, detalhes da linha e agendamento de fatura.
 
@@ -35,23 +45,17 @@ Os detalhes da linha de contrato podem ser usados para estimar horas, despesas o
 
 As estimativas de material não são permitidas em detalhes da linha de contrato.
 
-Os processos que são aceitos em um contrato de projeto são a criação e a confirmação da fatura. A criação da fatura cria um rascunho de uma fatura baseada em projeto que inclui todos os dados reais de vendas não cobradas até a data atual.
+## <a name="use-a-project-to-create-an-estimate"></a>Use um projeto para criar uma estimativa 
 
-A confirmação torna o contrato somente leitura e muda seu status de **Rascunho** para **Confirmado**. Depois de tomada essa ação, não é possível desfazê-la. Como essa ação é permanente, é uma prática recomendada manter o contrato no status de **Rascunho**.
-
-As únicas diferenças entre rascunhos de contratos e contratos confirmados são os respectivos status e o fato de que os rascunhos de contratos podem ser editados enquanto os confirmados, não. A criação da fatura e o acompanhamento de dados reais podem ser feitos em rascunhos de contratos e contratos confirmados.
-
-O Project Operations não permite mudança de ordens em contratos ou projetos.
-
-## <a name="estimating-projects"></a>Estimando projetos
-
-Você pode estimar horas e despesas nos projetos. O Project Operations não permite estimativas de materiais ou tarifas em projetos.
+Você pode estimar horas e despesas nos projetos. O Project Operations não suporta estimativas de materiais ou taxas nos projetos.
 
 As estimativas de horas são geradas quando você cria uma tarefa e identifica os atributos de um recurso genérico que é exigido para executar a tarefa. As estimativas de tempo são geradas nas tarefas de agendamento. As estimativas de horas não serão criadas se você criar membros da equipe genéricos fora do contexto da agenda.
 
-As estimativas de despesa são inseridas na grade da página **Estimativas**.
+As estimativas de despesa são inseridas na grade da página **Estimativas de Despesas**.
 
-## <a name="understanding-estimation"></a>Reconhecendo a estimativa
+A criação de uma estimativa para um projeto é considerada uma prática recomendada porque você pode construir estimativas crescentes detalhadas para mão de obra ou tempo e despesas em cada tarefa no plano do projeto. Você pode então usar esta estimativa detalhada para criar estimativas para cada linha de cotação e construir uma cotação mais confiável para o cliente. Quando você importa ou cria uma estimativa detalhada na linha de cotação usando o plano do projeto, o Project Operations importa os valores de vendas e os valores de custo dessas estimativas. Após a importação, você pode visualizar a lucratividade, as margens e as métricas de viabilidade na cotação do projeto.
+
+## <a name="understanding-estimates"></a>Reconhecendo estimativas
 
 Use a tabela a seguir como um guia para reconhecer a lógica de negócios na fase de estimativa.
 

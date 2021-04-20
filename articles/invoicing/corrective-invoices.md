@@ -1,23 +1,23 @@
 ---
-title: Faturas de projeto corretivas
-description: Este tópico fornece informações sobre como criar e confirmar faturas corretivas baseadas no Project Operations.
+title: Criar faturas baseadas em projeto
+description: Este tópico fornece informações sobre faturas corretivas no Project Operations.
 author: rumant
 manager: Annbe
-ms.date: 04/05/2021
+ms.date: 03/29/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ae6d881e4e68b9f467478afe9735fc3186e6b0a8
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 32772d64b3fc77f0af9618edff40e3b295593454
+ms.sourcegitcommit: 504c09365bf404c1f1aa9b5034c1e1e5bc9d0d54
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866577"
+ms.lasthandoff: 03/31/2021
+ms.locfileid: "5788830"
 ---
-# <a name="corrective-project-invoices"></a>Faturas de projeto corretivas
+# <a name="create-corrective-project-based-invoices"></a>Criar faturas baseadas em projeto 
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
 Uma fatura de projeto confirmada pode ser corrigida para processar alterações ou créditos negociados com o cliente e o gerente de projeto.
 
@@ -26,18 +26,17 @@ Para fazer edições em uma fatura confirmada, abra a fatura confirmada e seleci
 > [!NOTE]
 > Esta seleção não estará disponível a menos que uma fatura do projeto seja confirmada.
 
-Um novo esboço de fatura é criado da fatura confirmada. Todos os detalhes da linha da fatura confirmada anteriormente são copiados para o novo rascunho. A seguir estão alguns dos pontos-chave para entender sobre os detalhes da linha na nova fatura corrigida:
+Um novo esboço de fatura é criado da fatura confirmada. Todos os detalhes da linha da fatura confirmada anteriormente são copiados para o novo rascunho. A seguir estão alguns pontos-chave para ajudá-lo a entender mais sobre os detalhes da linha na nova fatura corrigida:
 
-- Todas as quantidades são atualizadas para zero. O aplicativo assume que todos os itens faturados estejam totalmente creditados. Se necessário, você pode atualizar manualmente essas quantidades para refletir a quantidade que está sendo faturada, e não a quantidade que está sendo creditada. Com base na quantidade inserida, o aplicativo calcula a quantidade creditada. Esse valor é refletido nos valores reais criados quando a fatura corrigida é confirmada. Se você estiver fazendo alterações no valor do imposto, deverá inserir o valor correto do imposto e não o valor do imposto que está sendo creditado.
-- Linhas de contrato baseadas em produto previamente confirmadas não são copiadas. O processamento de correções em uma fatura de projeto com base no produto não tem suporte.
+- Todas as quantidades são atualizadas para zero. Isso presumo que todos os itens faturados são totalmente creditados. Se necessário, você pode atualizar manualmente essas quantidades para refletir a quantidade que está sendo faturada, e não a quantidade que está sendo creditada. Com base na quantidade inserida, o aplicativo calcula a quantidade creditada. Esse valor é refletido nos valores reais criados quando a fatura corrigida é confirmada. Se você estiver fazendo alterações no valor do imposto, deverá inserir o valor correto do imposto e não o valor do imposto que está sendo creditado.
 - As correções de marcos são sempre processadas como créditos completos.
 - Os valores retidos ou adiantados poderão ser corrigidos se o cliente tiver sido faturado com um valor incorreto.
 - As reconciliações de retenções e adiantamentos podem ser corrigidas se um valor incorreto tiver sido usado para reconciliar com os encargos em uma fatura previamente confirmada.
 
 > [!IMPORTANT]
-> Os detalhes da linha da fatura que são correções para outras despesas já faturadas têm o campo **Correção** definido como **Sim**. As faturas com os detalhes da linha da fatura corrigidos têm um campo chamado **Tem correções**, que também está definido como **Sim**.
+> Os detalhes de linha de fatura que são correções para outros encargos já faturados têm o campo **Correção** definido como **Sim**. As faturas com os detalhes da linha da fatura corrigidos têm um campo chamado **Tem correções**, que também está definido como **Sim**.
 
-## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a>Os valores reais quando uma fatura corretiva é confirmada
+## <a name="actuals-created-on-confirmation-of-a-corrective-invoice"></a>Os valores reais criados na confirmação de uma fatura corretiva
 
 A tabela a seguir lista os valores reais criados quando uma fatura corretiva é confirmada.
 
@@ -214,51 +213,6 @@ Uma nova venda não cobrada real que é passível de cobrança pela quantidade e
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
-Faturar o crédito total de uma transação de material faturada anteriormente.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Um estorno de vendas faturadas para a quantidade e o valor no detalhe da linha da fatura original do material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Um novo valor de vendas não faturado para a quantidade e o valor no detalhe da linha da fatura original do material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="3" valign="top">
-                <p>
-Faturamento do crédito parcial em uma transação de material.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Um estorno de vendas faturadas para a quantidade e o valor faturado no detalhe da linha da fatura original do material.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Um novo valor real de vendas não faturadas que é cobrado pela quantidade e valor no detalhe da linha da fatura editada, um estorno disso e um valor real de vendas faturadas equivalente.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="408" valign="top">
-                <p>
-Uma nova venda não cobrada real que é passível de cobrança pela quantidade e valores restantes após a dedução dos números corrigidos no detalhe da linha da fatura.
-                </p>
-            </td>
-        </tr>
-        <tr>
-            <td width="216" rowspan="2" valign="top">
-                <p>
 Faturamento do crédito total de uma transação de valor faturada anteriormente.
                 </p>
             </td>
@@ -305,7 +259,7 @@ Faturamento do crédito total de um marco faturado anteriormente.
 Um estorno de venda cobrada pelas horas e o valor no detalhe da linha de fatura original para o marco.
                 </p>
                 <p>
-O status da fatura no marco é atualizado de <b>Fatura do Cliente Lançada</b> para <b>Pronto para Faturamento</b>.
+O status da fatura no marco é atualizado de <b>Fatura do cliente lançada</b> para <b>Pronto para Faturar</b>.
                 </p>
             </td>
         </tr>
@@ -319,20 +273,9 @@ Faturamento do crédito parcial de um marco faturado anteriormente.
                 <p>
 Com suporte </p>
             </td>
-        </tr>
-        <tr>
-            <td width="216" valign="top">
-                <p>
-Créditos e correções de uma linha de contrato com base em produto previamente faturado.
-                </p>
-            </td>
-            <td width="408" valign="top">
-                <p>
-Com suporte </p>
-            </td>
-        </tr>
+        </tr>        
     </tbody>
 </table>
 
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

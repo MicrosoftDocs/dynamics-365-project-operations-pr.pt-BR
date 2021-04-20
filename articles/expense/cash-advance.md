@@ -3,19 +3,19 @@ title: Adiantamento em dinheiro
 description: Este tópico oferece informações sobre adiantamentos de dinheiro.
 author: suvaidya
 manager: AnnBe
-ms.date: 02/01/2021
+ms.date: 03/25/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6da50ac5611fcbd54aef8d8591ee112200468177
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ac8956720deac9e9c9191cefb870a7fbbeedcca
+ms.sourcegitcommit: 9ebf7dd501898053bfa824f732adabf3f273613b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276694"
+ms.lasthandoff: 03/26/2021
+ms.locfileid: "5715546"
 ---
 # <a name="cash-advance"></a>Adiantamento em dinheiro
 
@@ -60,7 +60,22 @@ O procedimento a seguir é normalmente concluído por um contador ou um usuário
 
 Quando você cria e envia um relatório de despesas para o adiantamento em dinheiro que já recebeu, as despesas serão automaticamente ajustadas em relação a esse adiantamento. Se o adiantamento de dinheiro for maior que o valor gasto, será necessário devolver o saldo à empresa usando a categoria de despesas **Devolver dinheiro**. Se o adiantamento em dinheiro pago pela empresa for menor do que o valor que você gastou, a empresa deve reembolsar o restante. 
 
-### <a name="example"></a>Exemplo
+### <a name="select-cash-advances-that-apply-to-your-expenses"></a>Selecione adiantamentos de dinheiro que se aplicam às suas despesas
+Antes de enviar um relatório de despesas, é possível selecionar o adiantamento de dinheiro que se alinhe às transações de despesas no relatório. Para usar essa funcionalidade, os dois seguintes recursos devem estar habilitados no espaço de trabalho **Gerenciamento de recursos**:
+
+  - Relatórios de despesas reinventados
+  - Capacidade de mapear adiantamentos de dinheiro para linhas de despesas
+ 
+ Quando esses recursos estiverem habilitados:
+ 
+  - Você pode adicionar um ou mais adiantamentos de dinheiro em cada linha de despesa.
+  - O saldo disponível de um adiantamento de dinheiro está visível em tempo real quando um relatório de despesa é salvo. Isso permite processar transações de despesa e retornar transações de pagamento ao mesmo tempo.
+  - Você pode selecionar vários adiantamentos de dinheiro para uma transação de despesa.
+  - Os dados de reconciliação de adiantamento de dinheiro estão disponíveis usando uma consulta. 
+ 
+Se você não usar esses recursos, a funcionalidade permanecerá a mesma, com adiantamentos de dinheiro existentes automaticamente reduzidos após uma despesa ter sido enviada.
+
+### <a name="example"></a>Exemplo 
 Você planeja viajar de Seattle a Nova York para uma conferência. Você cria uma solicitação de adiantamento em dinheiro de USD 3.000,00 com base no custo estimado do ingresso da conferência, voos, hotel, refeições e táxi. Você não será pago a menos que seu gerente aprove esta solicitação. Após a aprovação do gerente, o adiantamento de dinheiro solicitado é pago no valor de US$ 3.000,00 em sua conta bancária. Posteriormente, você participa da conferência. Depois de voltar da viagem, você descobre que a despesa total foi de apenas US$ 2.790,00. Selecione **Dinheiro** no campo **Forma de pagamento** e envie sua despesa de USD 2.790,00. O valor da despesa enviada é ajustado automaticamente de acordo com o adiantamento de dinheiro em US$ 3.000,00 emprestado a você. Agora você deve um saldo de USD 210,00 (3.000,00 - 2.790,00), que pode ser devolvido à empresa usando a categoria de despesas **Devolver dinheiro**.
 
 

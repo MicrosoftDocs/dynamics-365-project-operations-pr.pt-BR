@@ -1,6 +1,6 @@
 ---
-title: Visão geral de linhas de cotação baseadas em projeto
-description: Este tópico fornece informações sobre como usar linhas de cotação baseadas no projeto para o trabalho do projeto.
+title: Visão geral de linhas de cotação de projeto
+description: Este tópico fornece informações sobre como usar linhas de cotação de projeto para o trabalho do projeto.
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,14 +8,14 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e61a9fbf357123884397b930662d11f22bfdeaa0
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa48a90c275eae1b0c0dbce685ae718dd9674c88
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277774"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858009"
 ---
-# <a name="project-based-quote-lines-overview"></a>Visão geral de linhas de cotação baseadas em projeto
+# <a name="project-quote-lines-overview"></a>Visão geral de linhas de cotação de projeto
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 

@@ -3,7 +3,7 @@ title: Listas de preços de produtos
 description: Este tópico fornece informações sobre as listas de preços em preços de catálogo usados para cotações e contratos de projetos.
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -14,23 +14,21 @@ ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e37f0bf9eef946ab4ebd658cef4e1269cbaf686d
+ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275344"
+ms.lasthandoff: 04/09/2021
+ms.locfileid: "5877476"
 ---
 # <a name="product-price-lists"></a>Listas de preços de produtos
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-As entidades de listas de preços e item da lista de preços suportam preços do catálogo de produtos. De modo geral, essa funcionalidade é usada para linhas baseadas em catálogo em cotações e contratos de projeto.
-
-Para linhas baseadas em projeto, um contrato representa a negociação depois que ela é ganha. Como o processo de negociação geralmente antecede a vitória, o preço que é anexado à cotação sempre é copiado como está em uma nova lista de preços e anexado ao contrato. Essa nova lista de preços não pode ser alterada fora do escopo do contrato. Essa limitação ajuda a proteger a tabela de tarifas que foi negociada contra qualquer alteração de preço que ocorra na lista de preços mestre.
+ Em Project Operations, **Listas de preços de produtos** e entidades de itens de lista de preços relacionadas dão suporte à funcionalidade para produtos de preços em linhas de contrato e cotação baseada em produto. Para produtos usados em projetos, os registros de item da lista de preços para listas de preços do projeto são usados. 
 
 Os produtos devem ser configurados para que tenham listas de preços e custos padrão no catálogo de produtos. Use o preço da listas, o custo padrão e o custo atual para configurar preços de lista e custos padrão. Os preços de lista padrão são usados em uma linha de cotação ou linha de contrato do projeto somente quando o sistema não pode encontrar uma linha da lista de preços para esse produto na lista de preços do produto para a cotação ou o contrato do projeto.
 
@@ -40,9 +38,7 @@ O preço de custo das linhas do catálogo de produtos pode ser alterado entre co
 
 É possível adicionar produtos de um catálogo de produtos a diferentes listas de preços. As linhas da lista de preços para produtos sempre fazem referência a uma unidade específica. O preço de um produto em itens da lista de preços pode ser configurado como um valor monetário. Como alternativa, ele pode ser configurado como uma função do preço de lista, custo atual ou custo padrão.
 
-O PSA dá suporte a várias opções de arredondamento quando os preços são configurados como uma função de preço de lista, custo padrão ou custo atual. Além de aproveitar vários métodos de precificação e opções de arredondamento, você pode associar listas de descontos a itens da lista de preços. 
-
-Quando você cria uma nova lista de preços personalizada para uma cotação selecionando **Criar Preço Personalizado** na página **Cotação do Projeto**, é criada uma cópia da lista de preços e o campo **Entidade** no cabeçalho da nova lista de preços é definido como **Entidade de Vendas**. O nome da nova lista de preços é acrescentada com o nome da cotação e um carimbo de data/hora. Você também pode usar o nome da nova lista de preços e o nome da cotação em fluxos de trabalho personalizados para disparar revisão adicional e aprovações para cotações que usam preço personalizado.
+A funcionalidade de preços dá suporte a várias opções de arredondamento quando os preços de produtos são configurados como uma função de preço de lista, custo padrão ou custo atual. Além de aproveitar vários métodos de precificação e opções de arredondamento, você pode associar listas de descontos a itens da lista de preços. 
 
  
 ## <a name="default-product-price-list"></a>Lista de preços padrão do produto
@@ -57,7 +53,7 @@ As entidades Oportunidade, Cotação e Contrato de Projeto usam a ordem a seguir
 
 Por padrão, o campo **Produto** na linha de cotação lista todos os produtos ativos na lista de preços de produto da cotação. Se um produto foi inativado, ou se for um produto em rascunho, ele não será listado, mesmo se estiver na lista de preços. 
 
-As linhas do catálogo de produtos são adicionadas como linhas da fatura na primeira fatura que é criada para um contrato de projeto. Em uma fatura de rascunho, essas linhas de fatura podem ser excluídas. Nesse caso, as linhas aparecerão em uma fatura subsequente até que sejam faturadas, ou até que a fatura seja enviada ao cliente. Não é possível faturar uma quantidade parcial de uma linha de fatura do produto. Quando as linhas de produto do contrato do projeto são faturadas, dados reais são criados. No entanto, esses dados reais não são vinculados à entidade de projeto relacionada. Em outras palavras, as linhas de contrato do projeto baseadas em produto são independentes de qualquer uso baseado em projeto. O consumo de material em projetos não é rastreado.
+As linhas do catálogo de produtos são adicionadas como linhas da fatura na primeira fatura que é criada para um contrato de projeto. Em uma fatura de rascunho, essas linhas de fatura podem ser excluídas. Nesse caso, as linhas aparecerão em uma fatura subsequente até que sejam faturadas, ou até que a fatura seja enviada ao cliente. Não é possível faturar uma quantidade parcial de uma linha de fatura do produto. Quando as linhas de produto do contrato do projeto são faturadas, dados reais são criados. No entanto, esses dados reais não são vinculados à entidade de projeto relacionada. Em outras palavras, as linhas de contrato do projeto baseadas em produto são independentes de qualquer uso baseado em projeto. 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
