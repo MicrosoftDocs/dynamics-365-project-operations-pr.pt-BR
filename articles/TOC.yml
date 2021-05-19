@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: Configurar a integração do Project Operations por entidade legal
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: Configurar a integração de gravação dupla
+          items:
+            - name: Visão geral da integração de gravação dupla
+              href: environment/resource-dual-write-overview.md
+            - name: Versões do mapa de gravação dupla do Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: Integração de dados de instalação e configuração do Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: Integração de estimativas e dados reais do projeto
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: Integração de faturas do projeto
+              href: environment/resource-dual-write-project-invoice.md
+            - name: Integração do gerenciamento de despesas
+              href: environment/resource-dual-write-expense.md
+            - name: Integração de faturas de fornecedores
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: Novidades
       items:
         - name: Abril de 2021 – Project Operations para cenários baseados em recursos/sem estoque
@@ -212,10 +228,12 @@
           href: project-management/project-stages.md
         - name: Navegar na interface do usuário
           href: project-management/navigate-ui.md
-        - name: Entender o status de projeto
+        - name: Entender o status do projeto
           href: project-management/understand-project-status.md
-        - name: Definir calendários de projeto
+        - name: Definir calendários do projeto
           href: project-management/define-project-calendars.md
+        - name: Modos de agendamento
+          href: project-management/scheduling-modes.md
         - name: Atualizar um projeto
           href: project-management/update-project.md
         - name: Copiar um projeto
@@ -404,9 +422,15 @@
           items:
             - name: Criar e confirmar Diários de correção
               href: actuals/create-confirm-correction-journals.md
+    - name: Compras
+      items:
+        - name: Configurar materiais sem estoque e faturas de fornecedores pendentes
+          href: procurement/configure-materials-nonstocked.md
+        - name: Adquirir materiais sem estoque para projetos usando faturas de fornecedores pendentes
+          href: procurement/pending-vendor-invoices.md
     - name: Faturamento
       items:
-        - name: Visão geral do processamento de faturamento
+        - name: Visão geral do processo de faturamento
           href: invoicing/post-project-invoices.md
         - name: Gerenciar propostas de fatura do projeto
           href: invoicing/format-update-project-invoice-proposals.md
@@ -428,11 +452,13 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: Configurar automação de fatura baseada no projeto
               href: proforma-invoicing/configure-automated-invoice-creation.md
-    - name: Contabilidade de projeto
+        - name: Gerenciar propostas de fatura do projeto
+          href: invoicing/format-update-project-invoice-proposals.md
+    - name: Contabilidade do projeto
       items:
         - name: Padrões de dimensão financeira
           href: project-accounting/financial-dimension-defaults.md
-        - name: Configurar categorias de projeto
+        - name: Configurar categorias do projeto
           href: project-accounting/configure-project-categories.md
         - name: Configurar contabilidade para projetos internos
           href: project-accounting/configure-accounting-internal-projects.md
@@ -678,10 +704,12 @@
           href: project-management/project-stages.md
         - name: Navegando na interface do usuário
           href: project-management/navigate-ui.md
-        - name: Entender o status de projeto
+        - name: Entender o status do projeto
           href: project-management/understand-project-status.md
-        - name: Definir calendários de projeto
+        - name: Definir calendários do projeto
           href: project-management/define-project-calendars.md
+        - name: Modos de agendamento
+          hreF: project-management/scheduling-modes.md
         - name: Atualizar um projeto
           href: project-management/update-project.md
         - name: Copiar um projeto
@@ -848,6 +876,8 @@
   items:
     - name: Novidades
       items:
+        - name: Novidades em abril de 2021 – Project Operations para cenários baseados em estoque/produção
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: Novidades em março de 2021 – Project Operations para cenários baseados em estoque/produção
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: Novidades em janeiro de 2021 – Project Operations para cenários baseados em estoque/produção
@@ -871,9 +901,9 @@
     - name: Configurar e usar pagamentos de fornecedor pagar-quando-pago
       href: prod-pma/setup-manage-vendor-payments.md
     - name: Acúmulo de custo do projeto nos recebimentos de compra
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: Faturamento do projeto
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: Desempenho de proposta de fatura do projeto
       href: prod-pma/project-invoice-proposal-performance.md
     - name: Contratos do projeto
@@ -996,8 +1026,10 @@
       href: psa/overview.md
     - name: Novidades
       items:
-        - name: Agenda de lançamento da Versão de atualização do Project Service 3.x
+        - name: Agenda da Versão de atualização do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou alterações na Versão de atualização 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'Novidades ou alterações na Versão de atualização 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'Novidades ou alterações no Hotfix da Versão de atualização 29.5, V3'
@@ -1327,7 +1359,7 @@
             - name: Exibir horas trabalhadas de recursos
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: Guia do gerente de projeto
           items:
             - name: Guia do gerente de projeto (Project Service)
