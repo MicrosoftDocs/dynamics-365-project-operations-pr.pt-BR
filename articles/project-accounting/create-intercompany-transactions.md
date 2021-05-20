@@ -3,17 +3,17 @@ title: Criar transações intercompanhia
 description: Este tópico fornece informações sobre como criar transações intercompanhia.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d23e45d99be61e93d98a8377ff5fa05b3febb6b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b8b35e8875ac4aff1ae9690c4d4afabe25af8dc9
+ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287404"
+ms.lasthandoff: 04/13/2021
+ms.locfileid: "5880434"
 ---
 # <a name="create-intercompany-transactions"></a>Criar transações intercompanhia
 
@@ -62,7 +62,7 @@ Marcela Teles, desenvolvedora empregada na GBPM, registra 10 horas de trabalho e
     4. Defina a moeda como **USD**.
     5. Salve o registro.
 3. Acesse **Vendas** > **Contratos do Projeto** e crie um contrato de projeto para a Adventure Works.
-    1. Defina a empresa proprietária como **USPM** e a unidade de contratação como **Contoso Robotics US**.
+    1. Defina a empresa proprietária como **USPM** e a unidade contratante como **Contoso Robotics US**.
     2. Selecione Adventure Works como o cliente.
     3. Selecione uma lista de preços de produtos e salve o registro.
     4. Na guia **Linhas de Contrato**, crie uma linha de contrato. Defina um nome e selecione **Tempo e Material** como o método de cobrança.
@@ -94,7 +94,7 @@ Marcela Teles, desenvolvedora empregada na GBPM, registra 10 horas de trabalho e
     Esta venda não cobrada agora está pronta para faturamento. A fatura do cliente Adventure Works pode ser lançada financeiramente quando necessário.
 
 10. Entre como o contador da **GBPM**. Abra a instância do Finance do Project Operations e abra a empresa **GBPM**. 
-11. Acesse **Gerenciamento e contabilidade de projeto** > **Atividades Periódicas** > **Project Operations no Customer Engagement** > **Importar da preparação** e execute o processo periódico para o preenchimento no diário de integração no Project Operations.
+11. Acesse **Gerenciamento e contabilidade de projetos** > **Periódico** > **Integração do Project Operations** > **Importar da tabela de preparo** e execute o processo periódico para preencher o diário de Integração do Project Operations.
 12. Acesse **Gerenciamento e contabilidade de projeto** > **Diários** > **Diário de integração do Project Operations** e revise as linhas. O sistema cria as linhas a seguir.
 
     | **Tipo de transação** | **Preço** | **Moeda da transação** | **Valor** |

@@ -3,17 +3,17 @@ title: Criar faturas intercompanhia de clientes e fornecedores
 description: Este tópico fornece informações sobre como criar faturas intercompanhia de clientes e fornecedores.
 author: sigitac
 manager: tfehr
-ms.date: 11/19/2020
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dd9aa1a4d167d556206a487e79983090b3f4592a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 92d08537fe0c2a1deba486974db53e7ebe1ff2d8
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287449"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948375"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Criar faturas intercompanhia de clientes e fornecedores
 
@@ -25,7 +25,9 @@ O contador do projeto da entidade legal que faz o empréstimo pode configurar um
 
 ## <a name="manually-create-an-intercompany-customer-invoice-for-project-transactions"></a>Criar manualmente uma fatura de cliente intercompanhia para transações do projeto 
 
-Use este procedimento para criar manualmente uma fatura de cliente intercompanhia para transações do projeto. Pesquise as horas que foram lançadas pelos trabalhadores em projetos nas entidades legais que tomam o empréstimo e as despesas incorridas pela entidade legal em nome das entidades legais que tomam o empréstimo. É possível pesquisar por nome da entidade legal, número do contrato do projeto, número do projeto, intervalo de datas ou qualquer combinação dessas opções. Nos resultados de pesquisa, selecione as transações a serem adicionadas a uma fatura intercompanhia.
+Use este procedimento para criar manualmente uma fatura de cliente intercompanhia para transações do projeto. Pesquise as horas que foram lançadas pelos trabalhadores em projetos nas entidades legais que tomam o empréstimo e as despesas incorridas pela entidade legal em nome das entidades legais que tomam o empréstimo. É possível pesquisar por nome da entidade legal, número do contrato do projeto, número do projeto, intervalo de datas ou qualquer combinação dessas opções. Nos resultados de pesquisa, selecione as transações a serem adicionadas a uma fatura intercompanhia. 
+
+As etapas a seguir devem ser executadas na entidade legal mutuante. 
 
 1. No Dynamics 365 Finance, vá para **Gerenciamento e contabilidade de projeto** > **Faturas do projeto** > **Faturas de cliente intercompanhia**. Na página de lista **Faturas de cliente intercompanhia**, no Painel de Ações, selecione **Novo**.
 2. Na página **Criar fatura intercompanhia**, no campo **Entidade legal**, selecione uma entidade legal de empréstimo.
@@ -35,9 +37,9 @@ Use este procedimento para criar manualmente uma fatura de cliente intercompanhi
 6. Nos resultados da pesquisa, selecione as transações a serem incluídas na proposta de fatura intercompanhia e selecione **OK**.
 7. Na página **Fatura de cliente intercompanhia**, as transações de projeto intercompanhia selecionadas nos resultados da pesquisa são exibidas. Para modificar as transações antes de enviar a fatura para a entidade legal que toma o empréstimo, faça o seguinte:
   
-    1. Abra a página **Criar proposta de fatura**. Selecione as transações intercompanhia adicionais da fatura atual e selecione **Adicionar linha**.
+    1. Na página **Fatura de cliente intercompanhia**, abra os detalhes da fatura e selecione **Adicionar linha**.
     2. Para remover uma linha, selecione-a e selecione **Remover**.
-    3. Exiba comentários, motivos, dimensões financeiras e outras informações sobre uma linha selecionada na FastTab **Linhas da fatura**.
+    3. Visualize comentários, motivos, dimensões financeiras e outras informações sobre uma linha selecionada nos detalhes da linha da fatura.
     
 8. Para lançar a fatura de cliente intercompanhia, no Painel de Ações, selecione **Lançar**.
 
@@ -52,7 +54,7 @@ Use este procedimento para criar manualmente uma fatura de cliente intercompanhi
 2. Na página **Criar faturas de cliente intercompanhia**, no campo **Empresa**, selecione uma entidade legal para faturar. Se você não selecionar uma empresa, todas as transações que atendem aos critérios de pesquisa são exibidas para todas as entidades legais que tomam o empréstimo.
 3. Em **Criar uma fatura por**, selecione se deseja criar uma fatura para transações intercompanhia com base em um projeto ou em uma entidade legal que toma o empréstimo.
 4. Opcional: para selecionar um projeto e um contrato de projeto específicos para criar faturas intercompanhia, clique em **Selecionar**. Na página **Consulta**, no campo **Critérios**, selecione o contrato do projeto, número do projeto, ou ambos, e selecione **OK**.
-5. Na guia **Lote**, configure um processo em lotes para criar faturas intercompanhia com frequência. Para obter mais informações, consulte [Enviar um trabalho de processamento em lotes de um formulário](https://docs.microsoft.com/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
+5. Na guia **Lote**, configure um processo em lotes para criar faturas intercompanhia com frequência. Para obter mais informações, consulte [Enviar um trabalho de processamento em lotes de um formulário](/dynamicsax-2012/appuser-itpro/submit-a-batch-processing-job-from-a-form).
 6. Para lançar faturas intercompanhia, no Painel de Ações, selecione **Lançar**.
 
 > [!NOTE]

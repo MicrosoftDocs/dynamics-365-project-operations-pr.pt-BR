@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 526f2ab1fd186877f32a2d11bd92ee8c26a19139
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278044"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947865"
 ---
 # <a name="manage-leads"></a>Gerenciar clientes potenciais
 
@@ -55,7 +55,7 @@ Clientes potenciais que têm o valor **Tipo** definido como **Baseado no trabalh
 - Um registro de contato associado à conta com base nos valores dos campos **Nome** e **Sobrenome** no cliente potencial.
 - Uma oportunidade baseada em projeto que tem o campo **Tipo** definido como **Baseado em trabalho**.
 
-Para obter informações mais detalhadas sobre clientes potenciais qualificados, consulte [Qualificar ou converter clientes potenciais](https://docs.microsoft.com/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
+Para obter informações mais detalhadas sobre clientes potenciais qualificados, consulte [Qualificar ou converter clientes potenciais](/dynamics365/sales-enterprise/qualify-lead-convert-opportunity-sales).
 
 ## <a name="lead-qualification-and-legal-entity-information"></a>Qualificação de cliente potencial e informações da entidade legal 
 

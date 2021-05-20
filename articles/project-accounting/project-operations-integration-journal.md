@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 0021147530d1aa9f82cc54ca8c92b9977c1eea2c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287224"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948316"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diário de integração no Project Operations
 
@@ -27,7 +27,7 @@ As entradas de hora e despesas criam transações **Reais** que representam a vi
 
 Os registros no diário de integração do Project Operations são criados usando o processo periódico, **Importar da tabela de preparo**. Você pode executar este processo indo para **Dynamics 365 Finance** > **Gerenciamento e contabilidade de projeto** > **Periódico** > **Integração de Operações do Projeto** > **Importar da tabela de preparo**. Você pode executar o processo interativamente ou configurá-lo para ser executado em segundo plano, conforme necessário.
 
-Quando o processo periódico é executado, quaisquer dados efetivos que ainda não foram adicionados ao diário de integração do Project Operations são encontrados. Uma linha do diário para cada transação real é criada.
+Quando o processo periódico é executado, quaisquer dados reais que ainda não foram adicionados ao diário de integração do Project Operations são encontrados. Uma linha do diário para cada transação real é criada.
 O sistema agrupa as linhas do diário em diários separados com base no valor selecionado no campo **Unidade de período no diário de integração do Project Operations** (**Finança** > **Gerenciamento e contabilidade de projeto** > **Configuração** > **Parâmetros de gerenciamento e contabilidade de projeto**, guia **Project Operations no Dynamics 365 Customer Engagement**). Os valores possíveis para este campo incluem:
 
   - **Dias**: os dados reais são agrupados pela data da transação. Um diário separado é criado para cada dia.
@@ -38,7 +38,7 @@ O sistema agrupa as linhas do diário em diários separados com base no valor se
 As linhas do diário são criadas com base nos dados reais do projeto. A lista a seguir inclui algumas das regras padrão e de transformação mais notáveis:
 
   - Cada transação real do projeto tem uma linha no diário de Integração do Project Operations. As transações de vendas de custo e não faturadas para tipo de faturamento de tempo e material são mostradas em linhas separadas.
-  - O campo **Data** representa a data da transação. O campo **Data da contabilidade** representa a data em que a transação é registrada no razão. Se a data contábil estiver em um [período financeiro fechado](https://docs.microsoft.com/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), e o parâmetro **Definir automaticamente a data contábil para abrir o período contábil** estiver definido na guia **Financeiro** da página **Parâmetros de gerenciamento e contabilidade de projeto**, o sistema ajustará a data contábil da transação para a primeira data no próximo período de razão aberto.
+  - O campo **Data** representa a data da transação. O campo **Data da contabilidade** representa a data em que a transação é registrada no razão. Se a data contábil estiver em um [período financeiro fechado](/dynamics365/finance/general-ledger/close-general-ledger-at-period-end), e o parâmetro **Definir automaticamente a data contábil para abrir o período contábil** estiver definido na guia **Financeiro** da página **Parâmetros de gerenciamento e contabilidade de projeto**, o sistema ajustará a data contábil da transação para a primeira data no próximo período de razão aberto.
   - O campo **Comprovante** mostra o número do comprovante para cada transação real. A sequência do número do comprovante é definida na guia **Sequências numéricas**, na página **Parâmetros de gerenciamento e contabilidade de projeto**. Cada linha recebe um novo número. Depois que o comprovante for postado, você pode ver como o custo e a transação de vendas não faturadas estão relacionados selecionando **Comprovantes relacionados** na página **Transação de comprovante**.
   - O campo **Categoria** representa uma transação do projeto e os padrões com base na categoria de transação para o projeto real relacionado.
     - Se **Categoria da transação** for definida no Projeto real e houver uma **Categoria do projeto** em determinada entidade legal fornecida, a categoria é padronizada para esta categoria do projeto.
