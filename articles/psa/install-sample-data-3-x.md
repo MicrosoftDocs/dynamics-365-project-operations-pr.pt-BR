@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 377e50fc5772c4dc146ccee098bf2806bbc8c6b7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c521fb4000b4856fc5c2fbf3275bf3b3e0dfa458
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275074"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950565"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>Instalação de dados de exemplo para aplicação do Project Service
 
@@ -136,7 +136,7 @@ O pacote de dados demonstrativos requer seis usuários. Para o pacote instalar c
     - Usuário Fullname="Molly Clark" como Account Manager   
     - Usuário Fullname="Spencer Low" como Practice and Project Manager  
     - Usuário Fullname="Veronica Quek" como Team Member   
-    - Usuário Fullname="William Cabral"
+    - User Fullname="William Contoso"
   
 2. Para fins de importação de demonstração de dados, atribuir os seis usuários acima a função de administrador para que registros de amostra sejam importados corretamente. 
 
@@ -149,7 +149,7 @@ O pacote de dados demonstrativos requer seis usuários. Para o pacote instalar c
 
 5. O primeiro calendário de usuário (na tag **userstocreateandconfigure**) é usado para popular as horas de trabalho de todos recursos agendáveis na importação de dados de demonstração. Navegue até **Configurações** > **Segurança** > **Usuários**, encontre seu usuário "Spencer Low", e abra a opção "Horas de trabalho". Edite as horas de trabalho existentes, selecionando a opção **Programa semanal recorrente completo do início ao fim**. Verifique se **Horas de trabalho estão definidas para 8 AM - 5 PM (9 Horas), segunda-feira a sexta-feira e com o fuso horário definido como Hora do Pacífico (EUA e Canadá)**. Isso é necessário para garantir que o painel de Projeto e agenda esteja como esperado.
 
-**Recomendação:** Considere criar um backup de seu org agora, caso você precise reverter seu ponto de início caso algo dê errado durante a instalação de dados de exemplo. Para mais informações, consulte [Backup e restaurar instâncias](https://docs.microsoft.com/dynamics365/customer-engagement/admin/backup-restore-instances).
+**Recomendação:** Considere criar um backup de seu org agora, caso você precise reverter seu ponto de início caso algo dê errado durante a instalação de dados de exemplo. Para mais informações, consulte [Backup e restaurar instâncias](/dynamics365/customer-engagement/admin/backup-restore-instances).
 
 ## <a name="run-the-package-deployer"></a>Executar o Package Deployer
 

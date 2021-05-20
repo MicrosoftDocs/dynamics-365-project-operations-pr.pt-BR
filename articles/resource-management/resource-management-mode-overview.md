@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 872f4f2878f474e16674932f23fe192c6a8de6eb
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279439"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949935"
 ---
 # <a name="resource-management-modes-overview"></a>Visão geral dos modos de gerenciamento de recursos
 
@@ -29,11 +29,11 @@ Para organizações que centralizam a alocação de recursos para projetos, o mo
 
 Para gerenciar recursos com o modo Central, consulte:
 
-- [Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recurso](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Reservar recursos indicados a partir de requisitos de recurso](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [Enviar uma solicitação de recurso](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [Atender uma solicitação de recursos](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [Aceitar ou rejeitar um recurso de projeto proposto de uma solicitação de recurso](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recurso](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Reservar recursos indicados a partir de requisitos de recurso](/dynamics365/project-service/book-named-resource)
+- [Enviar uma solicitação de recurso](/dynamics365/project-service/submit-resource-request)
+- [Atender uma solicitação de recursos](/dynamics365/project-service/resource-management-fulfill-requests)
+- [Aceitar ou rejeitar um recurso de projeto proposto de uma solicitação de recurso](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>Modo Híbrido
 Para organizações que exigem flexibilidade na alocação de recursos, o modo híbrido permite que gerentes de projeto e gerentes de recursos reservem recursos.
@@ -43,11 +43,11 @@ Para organizações que exigem flexibilidade na alocação de recursos, o modo h
 Além do processo do modo Central compatível, consulte os tópicos a seguir para gerenciar todos os outros fluxos de reserva compatíveis no modo Híbrido:
 
 Reservar um recurso diretamente em um projeto:
-- [Reservar recursos reserváveis nomeados a uma equipe de projeto e atribuir tarefas](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [Reservar recursos reserváveis nomeados a uma equipe de projeto e atribuir tarefas](/dynamics365/project-service/assign-named-bookable-resource)
 
 Reservar um recurso de um requisito de recursos:
-- [Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recurso](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [Reservar recursos indicados a partir de requisitos de recurso](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recurso](/dynamics365/project-service/assign-generic-bookable-resource)
+- [Reservar recursos indicados a partir de requisitos de recurso](/dynamics365/project-service/book-named-resource)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

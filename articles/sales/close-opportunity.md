@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8698663fc35c9ae0eb54c2f1cf1fbbaaf29230d7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01c2452003d9ac5fbf85704ead67f7ee8011ed1c
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278764"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949890"
 ---
 # <a name="close-an-opportunity"></a>Fechar uma oportunidade
 
@@ -23,7 +23,7 @@ As oportunidades do projeto podem ser fechadas como Ganhas ou Perdidas. A caixa 
 
 Você não terá permissão para fechar a oportunidade se houver cotações ativas associadas a ela. Você pode fechar todas as cotações ativas e de rascunho associadas a uma oportunidade ao mesmo tempo. Dessa forma, você poderá fechar a oportunidade.
 
-Para obter mais informações gerais sobre como fechar oportunidades, consulte [Fechar uma oportunidade como ganha ou perdida](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
+Para obter mais informações gerais sobre como fechar oportunidades, consulte [Fechar uma oportunidade como ganha ou perdida](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

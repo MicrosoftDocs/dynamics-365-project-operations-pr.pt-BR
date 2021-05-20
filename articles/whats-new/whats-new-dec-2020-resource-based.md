@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291920"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951015"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em dezembro de 2020 – Project Operations para cenários baseados em recursos/não estocados
 
@@ -108,7 +108,7 @@ Os seguintes recursos estão incluídos nesta versão:
 | Viagens e despesas                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | O fluxo de trabalho de publicação automática do relatório de despesas foi concluído, mas a fatura não foi lançada                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Atualizações regulatórias
-Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
+Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

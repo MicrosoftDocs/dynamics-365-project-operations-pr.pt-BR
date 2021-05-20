@@ -3,17 +3,17 @@ title: Gerenciar propostas de fatura do projeto
 description: Este tópico fornece detalhes sobre como processar faturas voltadas para o cliente com o Project Operations para cenários baseados em recursos/não estocados.
 author: sigitac
 manager: Annbe
-ms.date: 01/29/2021
+ms.date: 04/12/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4e663a9a0ca5b197e556d8c36233ab25affda876
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275839"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950700"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gerenciar propostas de fatura do projeto
 
@@ -80,7 +80,8 @@ O padrão dos valores de **Grupo de impostos sobre vendas** e **Grupo de imposto
     - **Cliente** sempre padronizará o grupo de impostos sobre vendas de cobrança com base no cliente.
     - **Pesquisar** pesquisa em todas as entidades desta lista e seleciona o primeiro valor disponível. A pesquisa começa com a entidade **Projeto**, em seguida a entidade **Contrato do projeto** e então a entidade **Cliente**.
 
-- **Grupo de impostos de vendas de item de marco de preço fixo** é usado para padronizar o valor do campo **Grupo de impostos sobre vendas de item**.
+- **Grupo de impostos de item de etapa de preço fixo** é usado como o valor padrão no campo **Grupo de impostos de itens** para a etapa de cobrança. O contador pode revisar e modificar este valor na página **Transações na conta**. O sistema usa o valor da transação na conta ao criar uma linha de proposta de fatura do projeto.
+ 
 
 ### <a name="financial-dimensions"></a>Dimensões financeiras
 
@@ -132,7 +133,7 @@ A página **Formatar propostas de fatura** permite que as transações de agrupa
 
 O gerenciamento de impressão usa diferentes arquivos de relatório para imprimir, especificar destinos e personalizar o texto do rodapé da fatura. O gerenciamento de impressão pode ser configurado no nível do módulo, no entanto, essas configurações podem ser substituídas para um cliente, contrato ou proposta de fatura específica. Para acessar esta função na página **Proposta de fatura do projeto**, selecione **Impressão** > **Gerenciamento de impressão**.
 
-A configuração do gerenciamento de impressão aparece como uma exibição em árvore, onde cada nível de nó exibe os documentos disponíveis para ajuste. Você pode atribuir impressões personalizadas no nível do módulo, cliente, contrato ou documento da proposta de fatura. Para modificar a impressão do documento original, expanda o nó desejado e selecione **Item original**. No campo **Formato de relatório**, selecione o formato de relatório a ser usado para impressão. Você pode usar formatos de relatório personalizados usando [Estrutura de gerenciamento de documentos de negócios](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+A configuração do gerenciamento de impressão aparece como uma exibição em árvore, onde cada nível de nó exibe os documentos disponíveis para ajuste. Você pode atribuir impressões personalizadas no nível do módulo, cliente, contrato ou documento da proposta de fatura. Para modificar a impressão do documento original, expanda o nó desejado e selecione **Item original**. No campo **Formato de relatório**, selecione o formato de relatório a ser usado para impressão. Você pode usar formatos de relatório personalizados usando [Estrutura de gerenciamento de documentos de negócios](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Postar propostas de fatura
 

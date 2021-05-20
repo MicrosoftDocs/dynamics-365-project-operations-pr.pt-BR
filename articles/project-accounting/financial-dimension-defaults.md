@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287359"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950115"
 ---
 # <a name="financial-dimension-defaults"></a>Padrões de dimensão financeira
 
@@ -21,7 +21,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-O Dynamics 365 Project Operations usa a estrutura de [Dimensões financeiras](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) no Dynamics 365 Finance para fornecer insights adicionais sobre transações de contabilidade e do razão auxiliar do projeto.
+O Dynamics 365 Project Operations usa a estrutura de [Dimensões financeiras](/dynamics365/finance/general-ledger/financial-dimensions) no Dynamics 365 Finance para fornecer insights adicionais sobre transações de contabilidade e do razão auxiliar do projeto.
 
 As dimensões financeiras padrão podem ser definidas em um cliente, fonte de financiamento do projeto, etapa, linha de contrato do projeto ou projeto.
 
