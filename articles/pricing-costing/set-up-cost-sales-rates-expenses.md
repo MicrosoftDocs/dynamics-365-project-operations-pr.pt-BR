@@ -2,18 +2,16 @@
 title: Configurar taxas de custo e de vendas para despesas
 description: Este tópico fornece informações sobre como configurar as taxas de custo e vendas para categorias de transação e despesas.
 author: rumant
-manager: Annbe
 ms.date: 04/07/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 34e3c24ae1aa999954af9b347633820d265ac0c3
-ms.sourcegitcommit: ac90be6106592f883a0de39a75836fb40255d65a
+ms.openlocfilehash: c7c932ec379e004f58727912920aba114f4cfbca
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/09/2021
-ms.locfileid: "5877206"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004787"
 ---
 # <a name="set-up-cost-and-sales-rates-for-expenses"></a>Configurar taxas de custo e de vendas para despesas
 

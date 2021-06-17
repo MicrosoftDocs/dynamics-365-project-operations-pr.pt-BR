@@ -2,19 +2,17 @@
 title: Visão geral das dimensões de precificação
 description: Esse tópico fornece informações sobre as dimensões de precificação no Dynamics 365 Project Operations.
 author: rumant
-manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ff675823d84c6e2b83be1e313f881bd672e53981
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 01ba11e34e7d8a59716fa9d8c8be3389ab380048
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275389"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004967"
 ---
 # <a name="pricing-dimensions-overview"></a>Visão geral das dimensões de precificação
 
@@ -61,16 +59,16 @@ O exemplo a seguir mostra taxas de cobrança que são configuradas com base na f
 
 | Função        | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolvedor   | Cabral EUA  |Hour | 200|USD     |
-| Desenvolvedor   | Cabral India |Hour|   112|USD     |
+| Desenvolvedor   | Contoso US  |Hora | 200|USD     |
+| Desenvolvedor   | Contoso Índia |Hora|   112|USD     |
 
 
 **Taxas de custo de exemplo**
 
 | Faixa Salarial     | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Cabral EUA  |Hour | 145|USD     |
-| My company_Band2 | Cabral India |Hour|   67|USD     |
+| My company_Band1 | Contoso US  |Hora | 145|USD     |
+| My company_Band2 | Contoso Índia |Hora|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

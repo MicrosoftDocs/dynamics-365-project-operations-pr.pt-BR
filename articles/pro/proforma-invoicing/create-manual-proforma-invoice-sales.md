@@ -2,19 +2,17 @@
 title: Faturas pro-forma do projeto
 description: Este tópico fornece informações sobre faturas de projeto pro-forma no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 04/06/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d08e2b0422a991aa4c98ae5d1e0f60aa0eb9daa6
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 1b839c3e40ddcfe1f07b0330a78c42851140d4bf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5867162"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004022"
 ---
 # <a name="proforma-project-pnvoices"></a>Faturas pro-forma do projeto
 

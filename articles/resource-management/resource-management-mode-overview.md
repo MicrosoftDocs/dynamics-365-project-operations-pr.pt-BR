@@ -2,18 +2,16 @@
 title: Visão geral dos modos de gerenciamento de recursos
 description: Esse tópico fornece informações sobre a funcionalidade de Gerenciamento de recursos no Dynamics 365 Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 4d132bcbef5421202d2f4899091f0dc75166dd66
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 94db65a2ddbdc6a7226c70907bcce4c45b4a3923
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949935"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000872"
 ---
 # <a name="resource-management-modes-overview"></a>Visão geral dos modos de gerenciamento de recursos
 

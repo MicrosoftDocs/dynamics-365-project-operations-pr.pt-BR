@@ -2,18 +2,16 @@
 title: Visão geral da implantação do Project Operations para cenários baseados em estoque/produção
 description: Este tópico fornece informações sobre o tipo de implantação do Project Operations para cenários baseados em estoque/produção.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8ffbcb326e5cd86c49b3b3b27ce7d68404a6842b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7b2a606bc587b99c16d45b19689ba90b422c3c62
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5289220"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999387"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Visão geral da implantação do Project Operations para cenários baseados em estoque/produção
 

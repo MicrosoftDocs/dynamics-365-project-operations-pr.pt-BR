@@ -2,18 +2,16 @@
 title: Gerenciar lista de pendências de cobrança do projeto
 description: Este tópico fornece informações sobre as várias visualizações disponíveis para uso ao gerenciar o backlog de cobrança em projetos.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 25dc9cff6aeb6daed9a27ba843a74b892ca4751c
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: ddd0b62133139a8d9d8d09920986890bd8616808
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866982"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003932"
 ---
 # <a name="manage-project-billing-backlog"></a>Gerenciar lista de pendências de cobrança do projeto 
 

@@ -2,18 +2,16 @@
 title: Visão geral de faturamento intercompanhia
 description: Este tópico fornece informações e exemplos sobre como o faturamento intercompanhia de projetos.
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287314"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002627"
 ---
 # <a name="intercompany-invoicing-overview"></a>Visão geral de faturamento intercompanhia
 
@@ -21,7 +19,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 Sua organização pode ter várias divisões, subsidiárias e outras entidades legais que transferem produtos e serviços de outros projetos entre si. A entidade legal que fornece o serviço ou produto é chamada de *entidade legal que faz o empréstimo*. A entidade legal que recebe o serviço ou produto é chamada de *entidade legal que toma o empréstimo*.
 
-A ilustração a seguir mostra um cenário típico em que duas entidades legais, a Contoso Robotics USA (a entidade legal que toma o empréstimo) e a Contoso Robotics UK (a entidade legal que faz o empréstimo) compartilham recursos para entregar um projeto para o cliente, a Adventure works. Neste cenário, a Contoso Robotics USA é contratada para entregar o trabalho à Adventure Works.
+A ilustração a seguir mostra um cenário típico em que duas entidades legais, Contoso Robotics EUA (a entidade legal que toma o empréstimo) e Contoso Robotics Reino Unido (a entidade legal do empréstimo) compartilha recursos para entregar um projeto para o cliente, Adventure works. Para este cenário, a Contoso Robotics USA é contratada para entregar o trabalho à Adventure Works.
 
 ![Faturamento intercompanhia](./media/IntercompanyScenario.png) 
 

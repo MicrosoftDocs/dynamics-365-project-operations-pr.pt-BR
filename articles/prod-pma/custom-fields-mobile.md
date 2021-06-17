@@ -2,11 +2,9 @@
 title: Implementar campos personalizados para o aplicativo móvel Microsoft Dynamics 365 Project Timesheet no iOS e Android
 description: Este tópico fornece padrões comuns para usar extensões para implementar campos personalizados.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 23b002559dcbb9118ccb2b36d70707ccb37b19ad
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270979"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6003003"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para o aplicativo móvel Microsoft Dynamics 365 Project Timesheet no iOS e Android
 
@@ -54,7 +52,7 @@ A propriedade **FieldBaseType** no objeto **TsTimesheetCustom** determina o tipo
 | Valor de tipos | Digitar              | Anotações |
 |-------------|-------------------|-------|
 | 0           | Cadeia de Caracteres (e Enumeração) | O campo é exibido como um campo de texto. |
-| 0           | Integer           | O valor é exibido como um número sem casas decimais. |
+| 1           | Integer           | O valor é exibido como um número sem casas decimais. |
 | 2           | Real              | O valor é exibido como um número com casas decimais.<p>Para mostrar o valor real como uma moeda no aplicativo, use a propriedade **fieldExtenededType**. Você pode usar a propriedade **numberOfDecimals** para definir o número de casas decimais exibidas.</p> |
 | 3           | Data              | Os formatos de data são definidos pela configuração **formato de data, hora e número** do usuário, que está especificada em **Preferência de idioma e país/região** em **Opções do usuário**. |
 | 4           | Boolean           | |

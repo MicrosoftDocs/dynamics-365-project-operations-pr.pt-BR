@@ -2,8 +2,6 @@
 title: Novidades ou alterações na Versão de Atualização 24 do Project Service Automation V3
 description: Este tópico lista os recursos e as correções novas ou alteradas disponíveis na Versão de Atualização 24 do Project Service Automation V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 10/02/2020
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 956dcd2a06fad1eec488ad81bec2de4bd0550e82
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: c95a9dcada4fbf6c462df29d450aaafab4e73aa5
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948901"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000242"
 ---
 # <a name="project-service-automation-update-release-24-v3"></a>Versão de Atualização 24, do Project Service Automation V3
 

@@ -2,18 +2,16 @@
 title: Restituição de IVA no gerenciamento de despesas
 description: Este tópico explica como receber reembolsos em transações qualificadas de imposto sobre valor agregado (IVA).
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 1c7bd2cb3b200ef3be735484d4e831a7a5793d58
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a840c808a76c96dd5f9dfb863c230801718c203c
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275929"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001682"
 ---
 # <a name="vat-recovery-in-expense-management"></a>Restituição de IVA no gerenciamento de despesas
 
@@ -35,25 +33,25 @@ Após o preenchimento dos pré-requisitos, as etapas a seguir devem ser concluí
 4. Envie os dados de restituição de IVA ao fornecedor terceirizado para fazer as declarações de restituição internacional.
 5. Processe as despesas para a restituição de IVA interno.
 
-As seções a seguir fornecem exemplos que mostram como os funcionários da Contoso concluem cada etapa.
+As seções a seguir fornecem exemplos que mostram como funcionários da Contoso concluem cada etapa.
 
 ## <a name="enter-tax-information-about-credit-card-transactions-to-identify-eligible-vat-refunds"></a>Inserir as informações fiscais sobre transações de cartão de crédito para identificar reembolsos de IVA qualificados
 
-Gabrielle, uma representante de vendas da Contoso que mora nos Estados Unidos, voltou recentemente de uma viagem de vendas ao Reino Unido. Durante a viagem, Gabrielle teve algumas despesas pessoais com cartão de crédito para as refeições. Agora, Gabrielle deve criar um relatório de despesas para reconciliar as despesas.
+Nancy, uma representante de vendas da Contoso baseado nos Estados Unidos, voltou recentemente de uma viagem de vendas ao Reino Unido. Durante a viagem, Gabrielle teve algumas despesas pessoais com cartão de crédito para as refeições. Agora, Gabrielle deve criar um relatório de despesas para reconciliar as despesas.
 
 Ao inserir as informações no relatório de despesas, ela seleciona **Reino Unido** no campo **País/região** na página **Editar relatório de despesas**. A lista de grupos de impostos é filtrada para mostrar somente os grupos que se aplicam ao Reino Unido. Gabrielle seleciona o grupo de impostos **Reino Unido 001** e seleciona o grupo de impostos **Refeições** do item. Em seguida, ela adiciona uma nova transação para hospedagem. Como há somente um grupo de impostos e um grupo de impostos de itens para hospedagem no Reino Unido, essas informações são preenchidas automaticamente no relatório de despesas dela.
 
-De acordo com a política da Contoso, todas as despesas devem ter um recibo correspondente. Portanto, quando Gabrielle salva o relatório de despesas, ela recebe uma mensagem informando que é necessário anexar um recibo para cada transação listada no relatório de despesas. Ela verifica se anexou uma imagem digital de cada recibo de transação ao relatório de despesas e envia o relatório para aprovação. Ela então envia os recibos físicos para a equipe de processamento de back office. Essa equipe enviará os dados de restituição de IVA ao fornecedor terceirizado que faz as declarações de restituição de IVA internacional para a Contoso.
+Por política da Contoso, todas as despesas devem ter um recibo correspondente. Portanto, quando Gabrielle salva o relatório de despesas, ela recebe uma mensagem informando que é necessário anexar um recibo para cada transação listada no relatório de despesas. Ela verifica se anexou uma imagem digital de cada recibo de transação ao relatório de despesas e envia o relatório para aprovação. Ela então envia os recibos físicos para a equipe de processamento de back office. Essa equipe enviará os dados de recuperação de IVA ao fornecedor terceirizado que registra as devoluções de recuperação de IVA internacional da Contoso.
 
 ## <a name="verify-tax-information-and-post-an-expense-report"></a>Verificar as informações fiscais e postar um relatório de despesas
 
-Antes, Ana, a coordenadora de Contas a pagar da Contoso, pode postar um relatório de despesas. Ela deve inserir todas as informações fiscais que estiverem faltando nele. Ela abre a página **Detalhes do relatório de despesas** e vê o relatório de despesas aprovado de Gabrielle. Ana abre o relatório de despesas para ver os detalhes das transações. Ela vê que Gabrielle não inseriu o grupo de impostos de um item em uma das transações. Como essas informações não foram fornecidas, Ana não pode postar o relatório de despesas. Portanto, ela ela na página **Configurações fiscais** em Gerenciamento de despesas e encontra o grupo de impostos do item apropriado para o país/região e o tipo de transação. Ana agora pode lançar o relatório de despesas na contabilidade.
+Antes de abril, o coordenador de Contas a pagar para a Contoso, pode publicar um relatório de despesas, ela deve inserir todas as informações fiscais que estiverem faltando nele. Ela abre a página **Detalhes do relatório de despesas** e vê o relatório de despesas aprovado de Gabrielle. Ana abre o relatório de despesas para ver os detalhes das transações. Ela vê que Gabrielle não inseriu o grupo de impostos de um item em uma das transações. Como essas informações não foram fornecidas, Ana não pode postar o relatório de despesas. Portanto, ela ela na página **Configurações fiscais** em Gerenciamento de despesas e encontra o grupo de impostos do item apropriado para o país/região e o tipo de transação. Ana agora pode lançar o relatório de despesas na contabilidade.
 
 Ao lançar o relatório de despesas, um item de trabalho de IVA recuperável é criado. Este item de trabalho é atribuído a um membro da equipe de processamento de back office. Ana recebe uma mensagem que confirma que a postagem teve êxito. A mensagem também lista o número de transações de IVA que foram identificadas para restituição.
 
 ## <a name="process-expenses-that-are-eligible-for-international-vat-recovery"></a>Processar as despesas que estão qualificadas para a restituição de IVA internacional
 
-Alberto, um membro da equipe de processamento de back office da Contoso, é responsável por verificar se todas as informações necessárias para a restituição do IVA estão incluídas nos relatórios de despesas. Ele abre a página **Restituição de imposto de despesa** e seleciona o relatório de despesas que Gabrielle enviou. Alberto verifica se todos os recibos necessários foram anexados e se o grupo de impostos correto e os códigos de imposto do item foram inseridos.
+Arnie, um membro da equipe de processamento de back-office da Contoso, é responsável por verificar se todas as informações necessárias para a recuperação do IVA estão incluídas nos relatórios de despesas. Ele abre a página **Restituição de imposto de despesa** e seleciona o relatório de despesas que Gabrielle enviou. Alberto verifica se todos os recibos necessários foram anexados e se o grupo de impostos correto e os códigos de imposto do item foram inseridos.
 
 Quando Alberto recebe os recibos físicos de Gabrielle, ele os verifica em relação aos recibos digitais e altera o status do relatório de despesas para **Pronto para recuperação**.
 

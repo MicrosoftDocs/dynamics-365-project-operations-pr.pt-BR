@@ -2,11 +2,9 @@
 title: Sincronizar contratos de projeto e projetos diretamente do Project Service Automation para o Finance
 description: Este tópico descreve o modelo e as tarefas subjacentes usadas para sincronizar contratos de projeto e projetos diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85722f61a672cc55cd2b511dc80ebfbe4807b957
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950385"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999792"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>Sincronizar contratos de projeto e projetos diretamente do Project Service Automation para o Finance 
 
@@ -116,7 +114,7 @@ Quando a solução de integração do Project Service Automation ao Finance é a
 
     | Valor | Descrição   |
     |-------|---------------|
-    | 0     | Líquido 30        |
+    | 1     | Líquido 30        |
     | 2     | 2% 10, Líquido 30 |
     | 3     | Líquido 45        |
     | 4     | Líquido 60        |
