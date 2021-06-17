@@ -2,18 +2,16 @@
 title: Gerenciar fusos horários
 description: Quando um projeto é criado, seu fuso horário é baseado no fuso horário definido no modelo de hora de trabalho aplicado.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e0cf24a9916f7ceedee0e9d6fa9399a88c3e4b91
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279529"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997722"
 ---
 # <a name="manage-time-zones"></a>Gerenciar fusos horários
 

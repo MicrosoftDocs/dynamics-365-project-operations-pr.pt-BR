@@ -2,18 +2,16 @@
 title: Configurações de contrato de projeto
 description: Este tópico fornece informações sobre os campos que afetam as linhas de contrato e as informações sobre o contrato resumidas em todos os itens de linha.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ba005d82e0ce4fae58543401e34da5a24345dc4
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1e6971553bb436ee5bcad2c335d32c929ddc4800
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663850"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996147"
 ---
 # <a name="header-details-for-project-based-contracts"></a>Detalhes do cabeçalho para contratos baseadas em projeto
 

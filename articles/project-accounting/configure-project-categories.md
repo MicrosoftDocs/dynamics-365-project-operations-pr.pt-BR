@@ -2,18 +2,16 @@
 title: Configurar categorias de projeto
 description: Este tópico fornece informações sobre como configurar categorias de projeto.
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b7adf61a82714a0148d9c8b1d2b2b37fd611c1cf
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d82302f12ba75a92f2de0e9746ad7e61ce0cdc6b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287494"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5995157"
 ---
 # <a name="configure-project-categories"></a>Configurar categorias de projeto
 
@@ -29,7 +27,7 @@ As categorias de transação são o agrupamento básico para transações de pro
 
 ## <a name="transaction-categories"></a>Categorias de transação
 
-As categorias de transação representam o agrupamento básico de transações de projeto e não são específicas da empresa ou do tipo de transação. Por exemplo, a Contoso Robotics usa as categorias Design, Viagem, Instalação e Transação de Serviço para agrupar as Transações do projeto.
+As categorias de transação representam o agrupamento básico de transações de projeto e não são específicas da empresa ou do tipo de transação. Por exemplo, a Contoso Robotics usa as categorias Design, Viagem, Instalação e Transação de Serviço para agrupar as transações do Projeto.
 
 As categorias de transação são definidas no módulo do Project Operations. 
 1. Vá para **Configurações** \> **Categorias de Transação** para abrir o formulário. 

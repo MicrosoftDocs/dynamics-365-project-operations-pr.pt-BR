@@ -2,11 +2,9 @@
 title: Definir calendários de projeto
 description: Este tópico fornece informações sobre como aplicar um modelo de calendário a um projeto para rastrear a agenda do projeto.
 author: ruhercul
-manager: AnnBe
 ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 0d1a2c4bd2d4022bbf79afcef79170eb482e6418
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981286"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998982"
 ---
 # <a name="define-project-calendars"></a>Definir calendários de projeto
 
@@ -48,7 +46,7 @@ Para criar um modelo de calendário para sua organização, existem dois requisi
 
 1. Vá para **Recursos** \> **Recursos**.
 2. Crie um novo recurso para fazer referência no modelo de calendário ou selecione um recurso existente.
-3. Selecione a guia **Horas de Trabalho** do recurso e complete as instruções em [Definir horas de trabalho para um recurso](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) para configurar as regras de calendário.
+3. Selecione a guia **Horas de Trabalho** do recurso e complete as instruções em [Definir horas de trabalho para um recurso](/dynamics365/field-service/set-work-hours-resource.md) para configurar as regras de calendário.
 
 **Criar um novo modelo de calendário**
 

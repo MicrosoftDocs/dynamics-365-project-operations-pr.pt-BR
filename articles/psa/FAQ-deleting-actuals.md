@@ -2,8 +2,6 @@
 title: Por que não posso excluir registros da entidade de dados reais?
 description: Este tópico fornece informações sobre por que não é possível excluir registros da entidade de dados reais.
 author: JPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/6/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e3122c5d9495b3ff9a683f477e719ce0c228a84d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 434be93cedb4772616b1e6d5cbe15fc715eed19a
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286054"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993087"
 ---
 # <a name="why-cant-i-delete-records-from-the-actuals-entity"></a>Por que não posso excluir registros da entidade Dados Reais?
 

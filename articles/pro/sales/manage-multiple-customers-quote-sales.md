@@ -2,18 +2,16 @@
 title: Gerenciar vários clientes em cotações de projeto - lite
 description: Este tópico fornece informações sobre como trabalhar em cotações com vários clientes que financiarão o projeto. (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 532eea802430e8b5a66c4a0d4348937708400347
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 02a05de28a92d98b58245a70f456a9b144c8d5a1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273056"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994932"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Gerenciar vários clientes em cotações de projeto - lite
 

@@ -2,18 +2,16 @@
 title: Status de reserva
 description: Este tópico fornece um link para informações sobre como configurar status de reserva no Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 552cf8515b6a858437d9ef0f0cbc56f1bd103878
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: ac812428e107eabece4744739579070d61bb5183
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950070"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5998712"
 ---
 # <a name="booking-statuses"></a>Status de reserva
 
