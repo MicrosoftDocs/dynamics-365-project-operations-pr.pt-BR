@@ -2,8 +2,6 @@
 title: Encontrar o próximo projeto com o aplicativo Project Finder Mobile
 description: Como encontrar seu projeto com o aplicativo Project Finder Mobile para Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c15be8d9884c31298f996477c732c542fce65fcc
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275254"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007487"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>Encontre seu projeto com o aplicativo Project Finder Mobile (Project Service)
 

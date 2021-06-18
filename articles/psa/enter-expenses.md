@@ -2,8 +2,6 @@
 title: Inserir despesas
 description: Como inserir despesas no Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1114685a8299c0096d0c13830a9d39d187883534
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: faa6f44e184af016227fcd9fec5d7dae15bd250f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284569"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007667"
 ---
 # <a name="enter-expenses-project-service"></a>Inserir despesas (Project Service)
 

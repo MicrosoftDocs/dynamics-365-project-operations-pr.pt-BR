@@ -2,12 +2,10 @@
 title: Alterações no Gerenciamento de recursos (Project Service Automation 3.x)
 description: Este tópico fornece informações sobre as alterações na área de Gerenciamento de recursos.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/18/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f88d7309a5e1171629a72e749bfc01abb64c62a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e888d55b93c40e08e51bd4480853fec37f2b6333
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284749"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007802"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Alterações no Gerenciamento de recursos (Project Service Automation 3.x)
 

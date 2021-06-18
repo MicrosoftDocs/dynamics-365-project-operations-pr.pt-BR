@@ -2,19 +2,17 @@
 title: Novidades em dezembro de 2020 – Project Operations para cenários baseados em estoque/produção
 description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de dezembro de 2020 do Project Operations para cenários baseados em estoque/produção.
 author: Yowelle
-manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 4a208ed98a5549030bd663e18b1b490d1a42ee33
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 6194dfc9f8983b048f69605ee12036904c3c5e69
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950205"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6007217"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novidades ou alterações do Project Operations, dezembro de 2020, para cenários baseados em estoque/produção
 

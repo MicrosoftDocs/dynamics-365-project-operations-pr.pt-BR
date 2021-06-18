@@ -2,11 +2,9 @@
 title: Criar estimativas em uma linha de cotação
 description: Este tópico fornece informações sobre como criar uma estimativa em uma linha de cotação para um projeto.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d525bd86621178761346221306dfc83e13e720d2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4010f7599b66c9ad9e49943c1c0d7d165493d60
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278449"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010277"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Criar estimativas em uma linha de cotação
 
