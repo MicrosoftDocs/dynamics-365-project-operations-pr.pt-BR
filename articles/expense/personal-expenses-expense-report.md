@@ -2,19 +2,17 @@
 title: Trabalhar com despesas pessoais em um relatório de despesas
 description: Este tópico fornece informações sobre como lidar com despesas pessoais incorridas por funcionários durante viagens de negócios.
 author: suvaidya
-manager: tfehr
-ms.date: 11/18/2020
+ms.date: 05/11/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: d2d558ad4f1a35f83af93d37e377db66d7f70e4f
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae25eca08089d224f1e17e95eeb571054de8a5c0
+ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276199"
+ms.lasthandoff: 05/12/2021
+ms.locfileid: "6025670"
 ---
 # <a name="work-with-personal-expenses-on-an-expense-report"></a>Trabalhar com despesas pessoais em um relatório de despesas
 
@@ -28,6 +26,15 @@ Existem dois métodos que você pode usar para trabalhar com as despesas pessoai
   - **Pago pela empresa**: sua organização paga a conta integral do cartão de crédito corporativo e, em seguida, debita da conta do funcionário as despesas pessoais.
 
 Você pode selecionar o método que sua organização usa na página **Parâmetros de gerenciamento de despesas**.
+
+
+## <a name="enable-split-expense-function-when-personal-amount-field-has-value-defined"></a>Ative a função de divisão de despesas quando o campo de valor pessoal tiver um valor definido
+
+O recurso, **Ative a função de divisão de despesas quando o campo de valor pessoal tiver um valor definido** aplica-se apenas a relatórios de despesas que são aprovados usando um fluxo de trabalho de nível de linha. Os relatórios são aprovados indo para **Processar relatórios de despesas** > **Relatórios de despesas atribuídos a mim** > **Abrir relatório de despesas**. 
+
+Para habilitar este recurso, vá para **Espaços de trabalho** > **Gerenciamento de recursos**, selecione **Ative a função de divisão de despesas quando o campo de valor pessoal tiver um valor definido** e, em seguida, selecione **Ativar agora**. 
+
+Quando o recurso estiver habilitado, as linhas de despesas que usam essa funcionalidade geram duas linhas quando o relatório é enviado. Duas linhas são geradas para que o aprovador possa aprovar cada linha separadamente.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

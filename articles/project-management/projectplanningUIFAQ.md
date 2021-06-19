@@ -2,19 +2,17 @@
 title: Solucionar problemas de trabalho na grade de Tarefas
 description: Este tópico fornece informações de solução de problemas necessárias ao trabalhar na grade de Tarefas.
 author: ruhercul
-manager: tfehr
 ms.date: 01/19/2021
 ms.topic: article
 ms.product: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedd989cc7c959d9ea97a0abfb13f8f1b2150a56
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
+ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286549"
+ms.lasthandoff: 06/09/2021
+ms.locfileid: "6213386"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemas de trabalho na grade de Tarefas 
 
@@ -57,7 +55,7 @@ O Project Operations exige que um parâmetro do projeto faça referência ao Pon
  ![Campo Ponto de Extremidade PEX no parâmetro do projeto](media/projectparameter.png)
 
 1. Adicione o campo **Ponto de Extremidade PEX** à página **Parâmetros do projeto**.
-2. Atualize o campo com o seguinte valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=\<id>&type=2`
+2. Atualize o campo com o seguinte valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
 3. Remova o campo da página **Parâmetros do projeto**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilégios para projeto para a Web

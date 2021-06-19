@@ -2,18 +2,16 @@
 title: Use APIs de programação para realizar operações com entidades de agendamento
 description: Este tópico fornece informações e exemplos para usar APIs de programação.
 author: sigitac
-manager: Annbe
 ms.date: 04/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e03f4e6c49a835206b23cade3fabe3fd26693441
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4a032dc7bcbdf23fce3c3b2ca63c51d473bd8e26
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950790"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116783"
 ---
 # <a name="use-schedule-apis-to-perform-operations-with-scheduling-entities"></a>Use APIs de programação para realizar operações com entidades de agendamento
 
@@ -268,7 +266,6 @@ Esta é uma lista de limitações e problemas conhecidos:
 - Cada usuário pode ter no máximo 10 **OperationSets** abertos.
 - No momento, o Project Operations dá suporte no máximo a 500 tarefas em um projeto.
 - O status de falha e logs de falha do **OperationSet** não estão disponíveis no momento.
-- APIs de programação estão na versão preliminar pública. O uso dessas APIs em um ambiente de produção não é compatível com a Microsoft.
 - [Limites em projetos e tarefas](/project-for-the-web/project-for-the-web-limits-and-boundaries)
 
 ## <a name="error-handling"></a>Tratamento de erros
