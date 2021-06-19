@@ -2,8 +2,6 @@
 title: Usar o Suplemento do Project Service para planejar seu trabalho no Microsoft Project | MicrosoftDocs
 description: Este tópico fornece informações sobre como adicionar, configurar e usar o suplemento do Microsoft Project para o Microsoft Project Service.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 20436393aca6c16e337e06ae646b2857ef925e74
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e85b3e0e13bb48aeb9eeb111c2f782f4d62505a7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285469"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014507"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Usar o Suplemento do Project Service Automation para planejar seu trabalho no Microsoft Project
 

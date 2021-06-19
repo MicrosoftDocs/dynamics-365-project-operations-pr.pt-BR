@@ -2,8 +2,6 @@
 title: Cenários de multimoeda (versão 3.x)
 description: Este tópico fornece informações sobre cenários de multimoeda.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 33e44297dc80801c3e4416cd9fc3bedae5f3c4ba
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 70f27d29c74a82f0307bd0724347960e5755e3a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291695"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014777"
 ---
 # <a name="multiple-currency-scenarios"></a>Cenários de várias moedas
 
@@ -36,7 +34,7 @@ O Microsoft Dynamics 365 têm dois conceitos de moeda:
 - **Moeda de transação** – a moeda que em que ocorre uma transação. 
 - **Moeda base** – a moeda da instância do Dynamics 365. Essa moeda é configurada quando uma instância do Dynamics 365 é provisionada. Não é possível alterá-la.
 
-Por exemplo, a unidade Cabral US vendeu 100 camisetas a um cliente no Reino Unido, cada uma por 15 libras esterlinas (GBP). A tabela a seguir mostra como essa transação é registrada na entidade Produto da Ordem.
+Por exemplo, a Contoso EUA vendeu 100 camisetas a um cliente no Reino Unido, cada uma por 15 libras esterlinas (GBP). A tabela a seguir mostra como essa transação é registrada na entidade Produto da Ordem.
 
 | Produto | Quantidade | Preço por unidade | Moeda | Quantidade | Taxa de câmbio | Preço por unidade (Base)| Valor (Base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -68,14 +66,14 @@ O PSA estende o conceito de moeda de transação para o custo e as vendas das se
 
 ## <a name="multiple-currency-scenario"></a>Cenário de várias moedas
 
-Esta seção descreve o exemplo de um projeto que a unidade Cabral UK entrega para um cliente chamado Fabrikam, do Japão. Veja a seguir como o cenário foi configurado:
+Esta seção descreve o exemplo de um projeto que a Contoso Reino Unido entrega para um cliente chamado Fabrikam, do Japão. Veja a seguir como o cenário foi configurado:
 
 1. A libra esterlina e o iene japonês (JPY) são definidos em **Configurações** \> **Gerenciamento de Negócios** \> **Moedas**. 
 2. Uma conta de cliente chamada **Fabrikam – Japan** é configurada e JPY está marcada como a moeda da conta.
-3. Uma unidade organizacional chamada **Cabral UK** é configurada e GBP é selecionada como a moeda.
-4. Um contrato de projeto é criado, onde **Cabral UK** é especificada como a unidade de contratação e **Fabrikam – Japan** é especificada como a cliente.
+3. Uma unidade organizacional chamada **Contoso Reino Unido** é configurada e GBP é selecionada como a moeda.
+4. Um contrato de projeto é criado, onde **Contoso Reino Unido** é especificada como a unidade de contratação e **Fabrikam – Japão** é especificada como o cliente.
 5. As linhas de contrato de projeto são criadas, com base nas disposições de cobrança para as diversas classes de transação no projeto, como cobrança por tempo vs. cobrança por despesas.
-6. Um projeto é criado, onde **Cabral UK** é especificado como a unidade de contratação. Esse projeto é criado e mapeado para as linhas de contrato de projeto.
+6. Um projeto é criado, onde **Contoso Reino Unido** é especificado como a unidade de contratação. Esse projeto é criado e mapeado para as linhas de contrato de projeto.
 
 
 Durante a estimativa que usa os detalhes da linha de cotação, os detalhes da linha de contrato de projeto ou a linha de estimativa da agenda, dois registros são sempre criados na entidade. Um registro é para custo e o outro é para vendas.
