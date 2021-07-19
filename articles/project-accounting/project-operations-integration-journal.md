@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ebdb543560027d223715d0e5c70c864b706cb2c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
+ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007127"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "6304242"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diário de integração no Project Operations
 
@@ -26,7 +26,7 @@ As entradas de hora e despesas criam transações **Reais** que representam a vi
 Os registros no diário de integração do Project Operations são criados usando o processo periódico, **Importar da tabela de preparo**. Você pode executar este processo indo para **Dynamics 365 Finance** > **Gerenciamento e contabilidade de projeto** > **Periódico** > **Integração de Operações do Projeto** > **Importar da tabela de preparo**. Você pode executar o processo interativamente ou configurá-lo para ser executado em segundo plano, conforme necessário.
 
 Quando o processo periódico é executado, quaisquer dados reais que ainda não foram adicionados ao diário de integração do Project Operations são encontrados. Uma linha do diário para cada transação real é criada.
-O sistema agrupa as linhas do diário em diários separados com base no valor selecionado no campo **Unidade de período no diário de integração do Project Operations** (**Finança** > **Gerenciamento e contabilidade de projeto** > **Configuração** > **Parâmetros de gerenciamento e contabilidade de projeto**, guia **Project Operations no Dynamics 365 Customer Engagement**). Os valores possíveis para este campo incluem:
+O sistema agrupa as linhas do diário em diários separados com base no valor selecionado no campo **Unidade de período no diário de integração do Project Operations** (**Finance** > **Gerenciamento e contabilidade de projeto** > **Configuração** > **Parâmetros de gerenciamento e contabilidade de projeto**, guia **Project Operations no Dynamics 365 Customer Engagement**). Os valores possíveis para este campo incluem:
 
   - **Dias**: os dados reais são agrupados pela data da transação. Um diário separado é criado para cada dia.
   - **Meses**: Os dados reais são agrupados por mês do calendário. Um diário separado é criado para cada mês.

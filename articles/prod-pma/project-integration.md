@@ -2,7 +2,7 @@
 title: Integração com o Microsoft Project Client
 description: O planejamento e a manutenção da agenda de um projeto podem ser complexos; portanto, os gerentes de projeto precisam usar ferramentas que os ajudem a gerenciar essa tarefa. A integração com o Microsoft Project Client fornece suporte para abrir e gerenciar uma estrutura de detalhamento de trabalho do projeto.
 author: Yowelle
-ms.date: 12/11/2017
+ms.date: 06/16/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 032d726bb6206c563b573f30d13fe2697a13c949
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b312ec5b1f4e6a98a2cbf1667b2f55b758b2d613
+ms.sourcegitcommit: 3a4b181be08ef0428104d72b54a3e61ac2782f14
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999432"
+ms.lasthandoff: 06/17/2021
+ms.locfileid: "6269821"
 ---
 # <a name="microsoft-project-client-integration"></a>Integração com o Microsoft Project Client
 
@@ -124,7 +124,14 @@ Para criar uma nova estrutura de detalhamento de trabalho usando o Microsoft Pro
 
 8.  Selecione o **Calendário** a ser usado para obter recursos.
 
-11. Clique em **OK**.
+11. Clique no **OK**.
 
+> [!NOTE]
+> O suplemento Project Client não oferece suporte aos seguintes caracteres no formato de ID do projeto:
+> 
+>   - Sublinhado
+>   - Ponto
+>   - Espaço
+>   - Barra
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

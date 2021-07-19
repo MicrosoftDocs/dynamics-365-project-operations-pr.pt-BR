@@ -2,58 +2,40 @@
 title: Inscrever-se em uma assinatura de versão preliminar - lite
 description: Este tópico fornece informações sobre como assinar e implantar a implantação simplificada do Project Operations - transação para faturamento pro forma.
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997407"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334768"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a>Inscrever-se em uma assinatura de versão preliminar - lite 
+# <a name="sign-up-for-a-preview-subscription---lite"></a>Inscreva-se para obter uma assinatura de versão preliminar – lite 
 
-Este tópico explica como assinar a oferta do parceiro de visualização e executar a implantação lite do Dynamics 365 Project Operations – oferta do faturamento pro forma.
+Este tópico explica como assinar a oferta de avaliação e implementar a implantação lite do Dynamics 365 Project Operations - lidar com o faturamento pró-forma.
 
 > [!NOTE]
 > Este processo mudará nas próximas versões de Project Operations.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-
-- Você receberá um email convidando para participar da versão preliminar. Você pode solicitar uma versão preliminar no [site do Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/).
-- O usuário que implementa a versão preliminar precisa ter direitos de administrador global no Locatário do Azure.
-- Reveja todos os termos e condições.
-
-## <a name="subscribe"></a>Inscrever-se
-
-Ao receber uma aprovação de [solicitação de versão preliminar](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u), você receberá duas ofertas da Microsoft por email. Essas ofertas permitem que você implante a versão preliminar do Project Operations:
-
-- Avaliação da versão preliminar do Dynamics 365 Project Operations (CRM)
-- Office 365 Project Operations – Avaliação de versão preliminar
+- O usuário que implementa a versão preliminar precisa ter direitos de administrador global no Locatário do Azure. Você pode criar um inquilino durante o primeiro resgate da oferta.
 
 > [!IMPORTANT]
 > Apenas uma pessoa, o administrador do locatário, em uma organização precisa executar esta tarefa. Se você não for o assinante dessa versão, espere até que sua organização se inscreva e você receba suas credenciais de usuário.
+> 
+> As avaliações são de uso único no locatário. Você só pode executar uma avaliação de cada vez. Recomendamos que você crie um novo locatário para o propósito de avaliação.
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a>Avaliação da versão preliminar do Dynamics 365 Project Operations (CRM) 
+### <a name="dynamics-365-project-operations-trial"></a>Avaliação do Dynamics 365 Project Operations 
 
 Antes de começar, verifique se está conectado a um navegador com a conta de trabalho do usuário no locatário em que deseja ter a versão preliminar do Project Operations.
 
-1. Resgate o primeiro código da oferta, **Dynamics 365 Project Operations (CRM) – Avaliação da versão preliminar** colando-o na URL do navegador.
-
-![Resgatar Oferta](./media/16RedeemFirstOfferNew.png)
-
+1. Vá para [Avaliação do Project Operations](https://aka.ms/try-po) para resgatar o primeiro código da oferta, **Dynamics 365 Project Operations**.
 2. Confirme a ordem.
-![Confirme a ordem](./media/17ConfirmOrderNew.png)
 
-Você verá que a oferta de confirmação foi resgatada com êxito.
-
-![Confirmação](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a>Office 365 Project Operations – Avaliação de versão preliminar
-
-Repita as mesmas etapas do primeiro código de oferta. Certifique-se de incluir o segundo código de oferta usando a mesma conta de usuário que foi usada com o primeiro código de oferta.
+  Você verá que a oferta de confirmação foi resgatada com sucesso.
 
 ## <a name="assign-licenses"></a>Atribuir licenças
 
@@ -62,25 +44,20 @@ Repita as mesmas etapas do primeiro código de oferta. Certifique-se de incluir 
 
 
 1. Acesse [Centro de administração do Microsoft 365](https://portal.office.com/) para atribuir licenças aos usuários.
-
-![Página de aterrissagem do Centro de Administração](./media/14AdminPortal.png)
-
 2. Na página **Usuários ativos**, selecione os usuários aos quais deseja atribuir uma licença.
-
-![Atribuir Licenças](./media/15AssignLicenses.png)
-
-3. Verifique se as licenças da **Versão Preliminar do Dynamics 365 Project Operations (CRM)** e do **Office 365 Project Operations – Versão Preliminar** estão selecionadas. 
+3. Verifique se a licença do **Dynamics 365 Project Operations** foi selecionada. 
 4. Selecione **Salvar alterações**.
 
-## <a name="create-a-new-cds-environment"></a>Criar um novo ambiente CDS
+## <a name="create-a-new-dataverse-environment"></a>Criar um novo ambiente do Dataverse
 
-1. Provisione um novo ambiente de implantação do Project Operations CDS seguindo as instruções no tópico, [Modelo de implantação de CDS](lite-deployment.md). Ao selecionar o tipo de ambiente, utilize **Avaliação (baseado em assinatura)**.
-![Novo ambiente](./media/19CreateEnvironment.png)
+1. Provisione um novo ambiente de implantação do Project Operations Dataverse seguindo instruções no tópico, [modelo de implantação do Dataverse](lite-deployment.md). Ao selecionar o tipo de ambiente, utilize **Avaliação (baseado em assinatura)**.
+
+  ![Novo ambiente](./media/19CreateEnvironment.png)
 
 2. Selecione a configuração **Habilitar aplicações do Dynamics 365** e deixe em branco **Implantar automaticamente essas aplicações**.  
 3. Selecione **Salvar** para criar o ambiente.
 
-![Adicionar banco de dados](./media/20CreateEnvironment1.png)
+  ![Adicionar banco de dados](./media/20CreateEnvironment1.png)
 
 4. Depois de criar o ambiente, instale a solução **Microsoft Dynamics 365 Project Operations**. 
 
