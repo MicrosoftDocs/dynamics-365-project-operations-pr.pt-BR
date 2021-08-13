@@ -832,6 +832,16 @@
           items:
             - name: Visão geral da utilização de recurso
               href: resource-management/resource-utilization-overview.md
+    - name: Gerenciamento de subcontratos no Project Operations
+      items:
+        - name: Visão geral do gerenciamento de subcontratos
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Principais conceitos na subcontratação
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gerenciando fornecedores e listas de preços de projetos
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subcontratados como recursos reserváveis
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: Hora
       items:
         - name: Visão geral de hora
@@ -1050,6 +1060,8 @@
       items:
         - name: Agenda de lançamento da Versão de Atualização do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou alterações na Versão de atualização 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'Novidades ou alterações na Versão de atualização 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'Novidades ou alterações na Versão de atualização 32.5, V3'
