@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 148f52f74ee64c2ee218dda3b09e1188e70217b0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009197"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000157"
 ---
 # <a name="product-catalog-pricing"></a>Preço do catálogo de produtos 
 
@@ -44,7 +44,7 @@ O preço de custo das linhas do catálogo de produtos pode ser alterado entre co
 
 O PSA dá suporte a várias opções de arredondamento quando os preços são configurados como uma função de preço de lista, custo padrão ou custo atual. Além de aproveitar vários métodos de precificação e opções de arredondamento, você pode associar listas de descontos a itens da lista de preços. 
 
-> ![Adicionando produtos de um catálogo a diferentes listas de preços](media/basic-guide-16.png)
+> ![Adicionando produtos de um catálogo a diferentes listas de preços.](media/basic-guide-16.png)
 
 Quando você cria uma nova lista de preços personalizada para uma cotação selecionando **Criar Preço Personalizado** na página **Cotação do Projeto**, o PSA faz uma cópia da lista de preços e o campo **Entidade** no cabeçalho da nova lista de preços é definido como **Entidade de Vendas**. O nome da nova lista de preços é acrescentada com o nome da cotação e um carimbo de data/hora. Você também pode usar o nome da nova lista de preços e o nome da cotação em fluxos de trabalho personalizados para disparar revisão adicional e aprovações para cotações que usam preço personalizado.
 

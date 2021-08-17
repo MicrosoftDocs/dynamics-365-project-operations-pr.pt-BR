@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9fc49211f3c2c79e18f6dd18e9a687091793cad0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5a70d2c2b3f98028b4e4998ed25ab73a275c66e4b8137eb573b943658a1a41e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996732"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991742"
 ---
 # <a name="link-actuals-to-original-records"></a>Vincule os dados reais aos registros originais
 
@@ -77,7 +77,7 @@ Juntas, **Origem da transação** e **Conexão da transação** ajudam você a a
 
 O exemplo a seguir mostra o processamento típico de entradas de tempo em um ciclo de vida de projeto do Project Operations.
 
-> ![Processando entradas de tempo em um ciclo de vida do Project Service](media/basic-guide-17.png)
+> ![Processando entradas de tempo em um ciclo de vida do Project Service.](media/basic-guide-17.png)
  
 1. Um envio de tempo de entrada cria duas linhas de diário: uma para custo e outra para vendas não cobradas.
 2. A aprovação eventual da entrada de tempo cria dois dados reais: um para custo e outro para vendas não cobradas.

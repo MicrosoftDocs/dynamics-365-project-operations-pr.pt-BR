@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cce3a3fe6aef247380f6284f58d49337f969c38c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008297"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002317"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuração de campos personalizados como dimensões de precificação 
 
@@ -41,11 +41,11 @@ Para que um campo se torne uma dimensão de preço, ele deve:
 - Criado como um campo nas entidades **Preço da função** e **Markup de preço da função**. Para obter mais informações sobre esse procedimento, consulte [Adicionar campos personalizados para configuração de preço e entidades transacionais](field-references.md).
 - Criado como uma linha na tabela **Dimensão de preço**. Por exemplo, adicione as linhas de dimensão de preço conforme exibido no gráfico a seguir. 
 
-![Linhas de dimensões de preço baseadas em valor](media/Amt-based-PD.png)
+![Linhas de dimensões de preço baseadas em valor.](media/Amt-based-PD.png)
 
 Observe que as horas de trabalho do recurso (**msdyn_resourceworkhours**) foram adicionadas como uma dimensão baseada em markup e adicionadas à grade na guia **Dimensão de preço baseada em markup**.
 
-![Linhas de dimensões de preço baseadas em markup](media/Markup-based-PD.png)
+![Linhas de dimensões de preço baseadas em markup.](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Todas as alterações em dados de dimensões de preço nessa tabela, existentes ou novas, são propagadas na lógica de negócios de preço do Project Service somente após atualizar o cache. O tempo de atualização do cache pode demorar até 10 minutos. Permita que esse período considere alterações na lógica de padronização de preço que devem resultar de alterações nos dados da Dimensão de preço.

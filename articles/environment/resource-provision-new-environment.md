@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995472"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988547"
 ---
 # <a name="provision-a-new-environment"></a>Provisionar um novo ambiente
 
@@ -52,12 +52,12 @@ Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do
 
 6. Selecione o tipo de ambiente para sua implantação. Uma avaliação baseada em subscrição permitirá que você implante um ambiente CDS por 30 dias. 
 
-![Configurações da implantação](./media/1DeploymentSettings.png)
+![Configurações da implantação.](./media/1DeploymentSettings.png)
 
 > [!IMPORTANT]
 > Selecione **Concordo** para aceitar os termos de serviço e, em seguida, **Concluído** para retornar às configurações de implantação.
 
-![Consentimento de Implantação](./media/2DeploymentConsent.png)
+![Consentimento de implantação.](./media/2DeploymentConsent.png)
 
 7. Opcional - Aplique dados de demonstração ao ambiente. Vá para **Configurações avançadas**, selecione **Personalizar a configuração do banco de dados SQL** e defina **Especificar um conjunto de dados para o banco de dados do aplicativo** como **Demonstração**.
 
@@ -67,7 +67,7 @@ Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do
 
 9. Para confirmar que o ambiente foi implantado com sucesso, selecione **Entrar** e faça login no ambiente para confirmar.
 
-![Detalhes do ambiente do ](./media/3EnvironmentDetails.png)
+![Detalhes do ambiente.](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplicar atualizações ao ambiente do Finance
 
@@ -77,19 +77,19 @@ Poderá ser necessário aplicar atualizações de qualidade ao seu ambiente do F
 
 1. No LCS, na página **Detalhes do ambiente**, na seção **Atualizações Disponíveis**, selecione **Exibir Atualização**.
 
-![Exibir Atualizações](./media/5ViewUpdates.png)
+![Exibir atualizações.](./media/5ViewUpdates.png)
 
 2. Na página **Atualizações de binário**, selecione **Salvar pacote**.
 
-![Salvar pacote](./media/6SavePackage.png)
+![Salvar pacote.](./media/6SavePackage.png)
 
 3. Clique em **Selecionar tudo** e selecione **Salvar pacote**.
 
-![Revisar e salvar atualizações](./media/7ReviewAndSaveUpdates.png)
+![Revisar e salvar atualizações.](./media/7ReviewAndSaveUpdates.png)
 
 4. Insira um nome e uma descrição do pacote e selecione **Salvar**. Dependendo da conexão com a Internet, esse processo pode levar algum tempo.
 
-![Carregar pacote para Biblioteca de Ativos](./media/8UploadPackageToAssetsLibrary.png)
+![Carregar pacote para biblioteca de ativos.](./media/8UploadPackageToAssetsLibrary.png)
 
 5. Depois que o pacote for salvo, selecione **Concluído** e salve esse pacote na Biblioteca de Ativos em seu projeto do LCS.
 
@@ -97,15 +97,15 @@ Salvar e validar o pacote pode levar cerca de 15 minutos.
 
 6. Para aplicar a atualização, navegue até a página **Detalhes do ambiente** no LCS e selecione **Manter** > **Aplicar atualizações**.
 
-![Manter Ambientes](./media/9MaintainEnvironment.png)
+![Manter ambientes.](./media/9MaintainEnvironment.png)
 
 7. Na lista de atualizações, selecione o pacote que você criou e **Aplicar**.
 
-![Aplicar Atualizações](./media/10ApplyUpdates.png)
+![Aplicar atualizações.](./media/10ApplyUpdates.png)
 
 A manutenção do ambiente levará algum tempo. Após a conclusão, o ambiente retornará ao estado implantado.
 
-![Ambiente Implantado](./media/11EnvironmentDeployed.png)
+![Ambiente implantado.](./media/11EnvironmentDeployed.png)
 
 ## <a name="establish-a-dual-write-connection"></a>Estabelecer uma conexão de Gravação Dupla 
 
@@ -113,41 +113,41 @@ A manutenção do ambiente levará algum tempo. Após a conclusão, o ambiente r
 2. Em **Informações do ambiente do Common Data Service**, selecione **Link para o CDS para aplicativos**.
 3. Depois que o link for concluído, selecione novamente **Link para o CDS para aplicativos**. Você será redirecionado para Gravação Dupla no Finance.
 
-![Link para o CDS](./media/12LinktoCDS.png)
+![Link para o CDS.](./media/12LinktoCDS.png)
 
 4. Selecione **Aplicar Solução** para acessar as entidades que serão mapeadas na integração.
 
-![Aplicar Soluções](./media/13ApplySolutions.png)
+![Aplicar soluções.](./media/13ApplySolutions.png)
 
 5. Selecione ambas as soluções, **Mapa de entidade de gravação dupla do Dynamics 365 Finance and Operations** e **Mapas de entidades de gravação dupla do Dynamics 365 Project Operations** e selecione **Aplicar**.
 
-![Confirmar Soluções](./media/14ConfirmSolutions.png)
+![Confirmar soluções.](./media/14ConfirmSolutions.png)
 
 Depois que as soluções forem aplicadas, as entidades de Gravação Dupla serão aplicadas ao ambiente.
 
-![Aplicar Soluções](./media/15ApplyingSolutions.png)
+![Aplicando soluções.](./media/15ApplyingSolutions.png)
 
 Depois que as entidades forem aplicadas, todos os mapeamentos disponíveis serão listados no ambiente.
 
-![Mapas de Gravação Dupla](./media/15DWMappings.png)
+![Mapas de gravação dupla.](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>Atualizar as entidades de dados após a atualização
 
 1. No Finance, acesse o espaço de trabalho de **Gerenciamento de dados**.
 
-![Espaço de trabalho de Gerenciamento de Dados](./media/16DataManagement.png)
+![Espaço de trabalho do gerenciamento de dados.](./media/16DataManagement.png)
 
 2. Selecione o bloco **Parâmetros da estrutura**.
 
-![Parâmetros da Estrutura](./media/17FrameworkParameters.png)
+![Parâmetros da estrutura.](./media/17FrameworkParameters.png)
 
 3. Na página **Configurações de entidade**, selecione **Atualizar lista de entidades**.
 
-![Atualizar Lista de Entidades](./media/18RefreshEntityList.png)
+![Atualizar lista de entidades.](./media/18RefreshEntityList.png)
 
 A atualização levará aproximadamente 20 minutos. Você receberá um alerta quando ela for concluída.
 
-![Atualizar Confirmação](./media/19RefreshConfirmation.png)
+![Atualizar confirmação.](./media/19RefreshConfirmation.png)
 
 ## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Atualizar as configurações de segurança nas Project Operations no Dataverse
 
@@ -188,17 +188,17 @@ A atualização levará aproximadamente 20 minutos. Você receberá um alerta qu
 4. Para atualizar a entidade, selecione o nome do mapa e, em seguida, **Atualizar entidades**. 
 
 
-![Atualizar Mapa](./media/20RefreshMapping.png)
+![Atualizar mapa.](./media/20RefreshMapping.png)
 
 5. Depois que a atualização for concluída, execute o mapa. Antes de habilitar o próximo mapa, verifique se o mapa na tabela está em um estado **Em Execução**. Executar mapas com um número maior de pré-requisitos pode levar algum tempo.
 
 Para executar um mapa com pré-requisitos, habilite o botão de alternância **Exibir mapas de entidades relacionadas**. Se a tabela indicar que **Sincronização inicial do pré-requisito** é **Não**, verifique se o indicador **Sincronização inicial** é **Desativado** em todos os mapas de pré-requisitos antes de executá-lo.
 
-![Executar Mapa](./media/21RunMap.png)
+![Executar mapa.](./media/21RunMap.png)
 
 6. Verifique se todos os mapas relacionados ao projeto estão no estado em execução.
 
-![Todos os Mapas em Execução](./media/22AllMapsRunning.png)
+![Todos os mapas em execução.](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Aplicar dados de configuração no CDS para o Project Operations (opcional)

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f4f93ee0c0bdb9fc6a9a3c6a75f6c3d178766d0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ac815eb82114c00af712a7ae76e43f28841ac5023be81f97718dc7ce529e1d34
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009062"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987242"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>Guia do usuário do Project Resource Hub
 
@@ -52,28 +52,28 @@ Antes de começar a usar o aplicativo Hub de Recursos do Projeto, é necessário
 1.  Ao entrar no aplicativo móvel, você verá a página MyApps com uma lista dos aplicativos que você acessa. 
 2.  Selecionar **Hub de Recursos de Projeto**.
 
-![Escolher um aplicativo](media/chooseApp_1.png "Escolher um aplicativo")
+![Escolha um aplicativo.](media/chooseApp_1.png "Escolher um aplicativo")
 
 **A barra de navegação**
 
-Use a barra de navegação para acessar a área de trabalho, crie um novo registro, pesquise, ou execute outras tarefas. Para acessar mais comandos, toque em ![Botão Mais](media/MoreButton.png "Botão Mais")
+Use a barra de navegação para acessar a área de trabalho, crie um novo registro, pesquise, ou execute outras tarefas. Para acessar mais comandos, toque em ![Botão Mais.](media/MoreButton.png "Botão Mais")
 
-![Barra de navegação](media/NavBar_2.png "Barra de navegação")
+![Barra de navegação.](media/NavBar_2.png "Barra de navegação")
 
 **Favoritos e registros usados recentemente**
 
 As seções Favoritos e Registros Usados Recentemente fornecem acesso rápido a registros, exibições e painéis. 
 
-- Para acessar essas seções, toque no botão **Menu** ![botão Menu](media/MenuButton.png "Botão de menu") na barra de navegação e, em seguida, no botão **Favoritos e recentes** ![botão Favoritos](media/FavButton.png "Botão Favoritos").
+- Para acessar essas seções, toque no botão **Menu** ![Botão Menu.](media/MenuButton.png "Botão de menu") na barra de navegação e, em seguida, toque no botão **Favoritos e Recentes** ![Botão Fav](media/FavButton.png "Botão Favoritos").
 
 - Para fixar um item como favorito, na lista de itens **Usados Recentemente** , toque em fixar. Isso fixará e moverá o item para Favoritos.
 
-  ![Favoritos e Itens Recentes](media/Favs_3.png "Favoritos e Itens Recentes")
+  ![Favoritos e Itens Recentes.](media/Favs_3.png "Favoritos e Itens Recentes")
  
-## <a name="enter-time"></a>Inserir um tempo
+## <a name="enter-time"></a>Inserir uma hora
 Insira suas horas pelo menos semanalmente — ou, pelo menos, na frequência solicitada pelos seus gerentes — para garantir que seus clientes sejam faturados e você seja creditado corretamente.
 
-1. Toque no botão de menu ![botão Menu](media/MenuButton.png "Botão de menu") e, em seguida, em **Entrada de horas**. Isso abre seu calendário.
+1. Toque no botão menu ![Botão Menu.](media/MenuButton.png "Botão de menu") e toque em **Entradas de Tempo**. Isso abre seu calendário.
 
 2. Para ver seu calendário da semana anterior ou da próxima, toque no botão **Anterior** ou **Próximo**. Toque em **Hoje** para voltar para a semana atual.
 

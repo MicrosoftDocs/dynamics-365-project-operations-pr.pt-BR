@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: 0eab33c8640f665555cf5ec5b0f188e5af65a493
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 804d42f7e8bfd103b9143dc0f5c7ddecdee9e66e6072c3e7bf76b2a8c549cf55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369002"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003757"
 ---
 # <a name="invoicing-process-overview"></a>Visão geral do processamento de faturamento
 
@@ -20,7 +20,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 O Project Operations para cenários baseados em recursos/não estocados oferece recursos abrangentes personalizados para atender às necessidades do gerente de projetos e do administrador de contas a receber/contador do projeto. Para o processo de faturamento, o gerente de projeto gerencia a carteira de cobrança do projeto e o administrador de contas a receber/contador do projeto cria um documento de fatura compatível e preciso voltado para o cliente.
 
-![Diagrama do fluxo de faturamento](./media/invoicing-flow.png)
+![Diagrama do fluxo de faturamento.](./media/invoicing-flow.png)
 
 A linha de contrato do projeto define o método de cobrança para as transações de projeto associadas. Quando o gerente de projeto aprova transações de tempo e despesas, o sistema registra as transações na entidade **Dados reais do projeto** e envia as informações para o módulo do **Gerenciamento e contabilidade de projetos** no Dynamics 365 Finance. O contador do projeto então revisa e publica os registros usando o [Diário de integração do Project Operations](../project-accounting/project-operations-integration-journal.md). Esse diário inclui detalhes contábeis importantes para dados reais do projeto, como cobrança, grupo de impostos sobre vendas, grupo de impostos sobre vendas de item de cobrança e dimensões financeiras.
 

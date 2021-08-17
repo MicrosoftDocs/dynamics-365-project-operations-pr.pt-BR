@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7407c98aad79806dcbaf25e81ff3e08397b41ffe
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5996552"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993227"
 ---
 # <a name="project-invoice-integration"></a>Integração de faturas do projeto
 
@@ -20,7 +20,7 @@ Este tópico fornece informações sobre a integração de gravação dupla do P
 
 No Project Operations, o gerente do projeto gerencia a lista de pendências de cobrança do projeto e cria uma fatura pro forma para o cliente no Microsoft Dataverse. Com base nessa fatura pro forma, o administrador de contas a receber ou o contador do projeto cria uma fatura voltada para o cliente. A integração de gravação dupla garante que os detalhes da fatura pro forma sejam sincronizados com aplicativos do Finance and Operations. Depois que a fatura do cliente é lançada, o sistema atualiza os dados reais do projeto relevante no Dataverse com os detalhes contábeis. O gráfico a seguir fornece uma visão geral conceitual de alto nível dessa integração.
 
-   ![Integração de faturas do projeto](./media/DW5Invoicing.png)
+   ![Integração de faturas do projeto.](./media/DW5Invoicing.png)
 
 Depois que o gerente de projeto confirma a fatura pro forma no Dataverse, as informações do cabeçalho da fatura pro forma são sincronizadas com aplicativos do Finance and Operations usando o mapa de tabela de gravação dupla, **Proposta de fatura do projeto V2 (faturas)**. Esta é uma integração unilateral do Dataverse para aplicativos do Finance and Operations. Não há suporte à criação ou exclusão de propostas de fatura do projeto diretamente em aplicativos do Finance and Operations.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5f01ba14baa0a2378b0a230a46aed3a682342ce6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58d5aa68dd5af7fc2b39caac429948e55bbc94c39dfb7fc9ae15a37cc3c92ce6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014192"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000517"
 ---
 # <a name="sales-processes"></a>Processos de vendas
 
@@ -39,7 +39,7 @@ Os processos de vendas que são usados em uma organização baseada em projeto d
 
 A seguinte ilustração mostra um processo de vendas típico em uma organização baseada em projeto.
 
-> ![O processo de vendas em uma organização baseada em projeto](media/basic-guide-1.png)
+> ![O processo de vendas em uma organização baseada em projeto.](media/basic-guide-1.png)
 
 ## <a name="estimating-a-sale"></a>Estimando uma venda
 O valor de uma venda pode ser estimado com base em projetos que foram entregues anteriormente e na complexidade dos projetos. Em projetos que envolvem extensões para projetos anteriores, ou projetos em que a experiência do fornecedor é alta e em que modelos de trabalho reconhecidos são usados, você pode usar um processo de estimativa mais simples. Os projetos mais complexos geralmente têm um processo de compra mais longo. Portanto, há mais estágios no processo de estimativa de vendas. No início do processo, a equipe de vendas usa a entrada dos gerentes de conta e SMEs (especialistas no assunto) para iniciar a criação de uma estimativa de alto nível para cada componente distinto de trabalho que é cotado. Esses componentes de trabalho são representados pelas linhas de cotação. 
@@ -50,7 +50,7 @@ Você pode criar uma estimativa de alto nível da cotação. Por fim, essa estim
 
 Também é possível criar cotações alternativas sob um tipo de entidade de oportunidade ou configurar o sistema para que um contrato de projeto seja criado quando uma cotação é ganha. Nesse caso, você pode anexar um documento do Word que represente a SOW ao registro do contrato do projeto.
 
-![Fechando uma cotação para criar um contrato de projeto](media/basic-guide-2.png)
+![Fechando uma cotação para criar um contrato de projeto.](media/basic-guide-2.png)
 
 ## <a name="configuring-the-sales-process"></a>Configurando o processo de vendas
 Você pode usar BPFs (fluxos de processo empresarial) no Microsoft Dynamics 365 para configurar seu processo de vendas. Os BPFs proporcionam aos seus funcionários de vendas uma interface visual guiada que eles podem usar para avançar as negociações pelas fases que são típicas da sua empresa.
@@ -66,7 +66,7 @@ Por exemplo, sua empresa pode ter os seis seguintes estágios no processo de ven
 
 Esses seis estágios são representados por setas (\>) que você seleciona para expandir em cada tipo de entidade de oportunidade que cria.
 
-![Configuração do processo empresarial no Dynamics 365](media/basic-guide-3.png)
+![Configuração do processo empresarial no Dynamics 365.](media/basic-guide-3.png)
  
 Sua organização pode usar entidades diferentes para representar a mesma negociação conforme evolui. No início do processo de vendas, uma negociação é representada pela entidade Oportunidade. Conforme o tempo passa e mais detalhes surgem, é possível usar estimativas de alto nível para criar uma ou mais cotações. Se uma dessas cotações for revisada pelos participantes internos ou do cliente, a entidade Cotação representará a negociação. Depois que o cliente aceita a cotação, um contrato de projeto ou SOW representa a negociação. Para dar suporte a esse comportamento, os BPFs são estruturados para que cada estágio no processo seja vinculado a uma tabela de banco de dados diferente.
 
@@ -77,7 +77,7 @@ O estágio **Qualificar** no processo de vendas pode ser rastreado por uma entid
 > [!NOTE]
 > O PSA tem páginas específicas para as entidades Oportunidade, Cotação, Ordem e Fatura. Você deve criar oportunidades, cotações, ordens e faturas de serviço de projeto usando as páginas de informações do projeto para essas entidades. Se você usar outra página para criar um registro, não será possível abrir o registro pela página **Informações do Projeto**. Se desejar abrir um registro na página **Informações do Projeto**, você deverá excluir o registro e recriá-lo usando a página **Informações do Projeto**. Na página **Informações do Projeto**, uma lógica de negócios para cada um desses tipos de entidade garante que o campo **Tipo** do registro seja definido corretamente e todos os conceitos obrigatórios sejam corretamente inicializados.
 
-> ![Informações do projeto para uma nova ordem](media/basic-guide-4.png)
+> ![Informações do projeto para uma nova ordem.](media/basic-guide-4.png)
  
 ## <a name="differences-between-project-service-automation-and-sales"></a>Diferenças entre o Project Service Automation e o Sales
 Embora o processo de vendas no PSA use os recursos básicos do processo de vendas no Sales, ele tem algumas diferenças básicas devido a variações nas práticas de negócios das organizações baseadas em projeto. Veja alguns exemplos:

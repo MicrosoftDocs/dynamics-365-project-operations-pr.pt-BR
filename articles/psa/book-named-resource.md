@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e929a5fb4c307d3b64d0f7f70203fe20bc6dd4f99e89e039fae0ce8276c69c52
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6013382"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000472"
 ---
 # <a name="book-named-resources-from-resource-requirements"></a>Reservar recursos nomeados usando requisitos do recurso
 
@@ -35,33 +35,33 @@ ms.locfileid: "6013382"
 2. Selecione na lista o recurso genérico com um requisito de recurso e clique em **Reservar**. Ou abra o requisito de recurso e clique em **Reservar**.
 
 
-![Reservando um membro de equipe genérico](media/RM-how-to-14.png)
+![Reservando um membro de equipe genérico.](media/RM-how-to-14.png)
 
 
 3. Na página **Assistente de Agendamento**, selecione um recurso nomeado para reservar na equipe do seu projeto e clique em **Reservar**.
 
-![Reservando um membro de equipe genérico usando o assistente de agendamento](media/RM-how-to-15.png)
+![Reservando um membro de equipe genérico usando o assistente de agendamento.](media/RM-how-to-15.png)
 
 Quando a reserva é concluída e preenchida por um recurso nomeado, o recurso genérico é substituído pelo recurso nomeado.
 
-![Membro da equipe nomeado substituindo um membro da equipe genérico](media/RM-how-to-16.png)
+![Membro da equipe nomeado substituindo um membro da equipe genérico.](media/RM-how-to-16.png)
 
 As atribuições na agenda também são atualizadas com o recurso nomeado.
 
-![Membro da equipe nomeado atribuído a tarefas do projeto](media/RM-how-to-17.png)
+![Membro da equipe nomeado atribuído a tarefas do projeto.](media/RM-how-to-17.png)
 
 ## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a>Preencher um recurso genérico com vários recursos nomeados
 Atender a um requisito para um recurso genérico com vários recursos nomeados é semelhante a atribuir um único recurso nomeado. Por exemplo, há uma tarefa com uma duração de cinco dias e 120 horas de esforço. Essa tarefa não pode ser concluída por um recurso que trabalha um dia comum de oito horas em uma semana de cinco dias. 
 
-![Uma tarefa que precisa de 120 horas de esforço em cinco dias](media/RM-how-to-21.png)
+![Uma tarefa que precisa de 120 horas de esforço em cinco dias.](media/RM-how-to-21.png)
 
 O requisito é de 120 horas de engenharia robótica por cinco dias, o que significa 24 horas por dia.
 
-![Requisito por dia](media/RM-how-to-22.png)
+![Requisito por dia.](media/RM-how-to-22.png)
 
 Este é um exemplo de quando vários recursos nomeados são necessários para atender a uma solicitação de recurso genérico. Você precisará reservar vários recursos para atender ao requisito.
 
-![Reservando vários recursos para atender ao requisito](media/RM-how-to-23.png)
+![Reservando vários recursos para atender ao requisito.](media/RM-how-to-23.png)
 
 A principal diferença neste cenário é que o recurso genérico permanece na equipe atribuída à tarefa e os membros da equipe de recurso nomeados reservados não são atribuídos como parte da posição. O gerente de projeto pode atribuir o trabalho conforme apropriado aos recursos nomeados. A exibição **Reconciliação** pode ajudar um gerente de projeto na divisão de reservas entre vários recursos para atribuições de tarefa. Isso não é feito automaticamente porque em qualquer cenário mais complicado do que o exemplo simples acima, em que você tem um pacote de tarefas, por exemplo, compondo o requisito, a intenção de como o gerente de projeto quer atribuir, precisa ser pressuposta pelo sistema. Como o sistema não pode entender a intenção, as chances são de que as suposições sejam diferentes das intencionadas e de que o resultado seja incorreto ou imprevisível. O resultado previsível é que o recurso genérico permaneça atribuído até que o gerente de projeto crie atribuições deliberadamente, com a ajuda da exibição **Reconciliação**.
 

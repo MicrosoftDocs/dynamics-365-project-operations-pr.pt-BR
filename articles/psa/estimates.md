@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fcb3c85af092667cc5a473ab4674c3be47e33327
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007577"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992372"
 ---
 # <a name="estimates"></a>Estimativas
 
@@ -83,24 +83,24 @@ Se você adicionou um campo personalizado nos detalhes da linha de cotação e q
 1. Abra PluginRegistrationTool e conecte-se à sua instância online
 2. Selecione **Pesquisar** e procure o plug-in a ser atualizado.
 
-    ![Caixa de diálogo Árvore de Pesquisa](media/basic-guide-19.png)
+    ![Caixa de diálogo Árvore de Pesquisa.](media/basic-guide-19.png)
 
 3. Selecione o plug-in e, em seguida, na página principal, escolha **Selecionar**.
 4. Selecione a etapa do plug-in a ser atualizado, clique com o botão direito do mouse e selecione **Atualizar**.
 
-    ![Selecionando uma etapa no plug-in](media/basic-guide-20.png)
+    ![Selecionando uma etapa no plug-in.](media/basic-guide-20.png)
 
 5. Na caixa de diálogo **Atualizar Etapa Existente**, no campo **Filtrando Atributos**, selecione o botão de reticências (**...**):
  
-    ![Caixa de diálogo Atualizar Etapa Existente](media/basic-guide-21.png)
+    ![Caixa de diálogo Atualizar Etapa Existente.](media/basic-guide-21.png)
 
 6. Na caixa de diálogo **Selecionar Atributos**, marque as caixas de seleção de atributos personalizados.
 
-    ![Caixa de diálogo Selecionar Atributos](media/basic-guide-22.png)
+    ![Caixa de diálogo Selecionar Atributos.](media/basic-guide-22.png)
 
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, **Atualizar Etapa**.
  
-    ![Botão Atualizar Etapa](media/basic-guide-23.png)
+    ![Botão Atualizar Etapa.](media/basic-guide-23.png)
 
 8. Repita as etapas de 1 a 7 para o segundo plug-in.
 9. Feche a ferramenta PluginRegistrationTool.

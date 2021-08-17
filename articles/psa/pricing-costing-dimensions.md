@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368867"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998447"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de preço e custo
 
@@ -41,7 +41,7 @@ Devido à natureza típica desses atributos do trabalho e as pessoas necessária
 
 O PSA apresenta um conjunto padrão de dimensões de preço. É possível exibi-las acessando **Project Service** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de preço baseadas em valor**, verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Isso permitirá configurar o preço e o custo para cada combinação de função e unidade organizacional.
 
-![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque](media/PS-OOB-parameters.png)
+![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque.](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Se você vem usando os campos prontos para uso da função e da unidade organizacional como dimensões de preço antes da versão 3 do PSA, não haverá qualquer mudança significativa. Você pode continuar usando o Project Service normalmente. 

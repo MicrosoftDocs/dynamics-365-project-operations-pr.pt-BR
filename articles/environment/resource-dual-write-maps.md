@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025760"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003802"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versões do mapa de gravação dupla do Project Operations
 
@@ -32,7 +32,7 @@ Os mapas a seguir são pré-requisitos necessários para a solução Project Ope
 
 1. Na lista de mapas, selecione o mapa Razão **(msdyn\_ledgers)** com todos os pré-requisitos e marque a caixa de seleção **Sincronização inicial**. No campo **Mestre para sincronização inicial**, selecione **aplicativos do Finance and Operations** para o mapa do razão e todos os mapas de pré-requisito. Selecione **Executar**.
 
-![Sincronização de mapa de razão](media/DW6.png)
+![Sincronização do mapa do razão.](media/DW6.png)
 
 2. Siga as mesmas etapas para todos os mapas de tabela restantes listados na tabela acima. Não marque a caixa de seleção **Sincronização inicial** ao executar esses mapas.
 
@@ -65,7 +65,7 @@ Conclua as etapas a seguir para executar os mapas listados.
 
 1. Habilite as funções de recurso do projeto para o mapa da tabela **todas as empresas (bookableresourcecategories)**, pois este mapa exige a sincronização inicial. No campo **Mestre para sincronização inicial**, selecione **Common Data Service**. 
 
- ![Sincronização de mapa de tabela de função de recurso](media/6ResourceInitialSync.jpg)
+ ![Sincronização do mapa de tabela de função de recurso.](media/6ResourceInitialSync.jpg)
 
  Espere até que o status do mapa seja **Em execução** antes de passar para a próxima etapa.
 

@@ -6,12 +6,12 @@ ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e79e33da618c4ab32b1ba13f33e50f60a550ff0b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4be4c8087005ae66a54d40ac88017df591c56eca64f04b00cf34b0e5a8a09ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010772"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998672"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>Estimativas financeiras para tempo do recurso em projetos
 
@@ -37,7 +37,7 @@ Uma estimativa financeira por tempo em uma tarefa de nó folha é a soma das est
 
 Uma estimativa financeira por tempo em uma tarefa de resumo ou pai é a soma das estimativas financeiras em todas as tarefas filho. Este é o custo estimado da mão de obra no projeto. 
 
-![Estimativas de Recurso](./media/navigation12.png)
+![Estimativas de recurso.](./media/navigation12.png)
 
 ## <a name="default-cost-price-and-cost-currency"></a>Preço de custo e moeda de custo padrão
 

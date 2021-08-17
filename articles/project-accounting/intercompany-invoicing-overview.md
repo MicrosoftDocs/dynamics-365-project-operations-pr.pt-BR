@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369362"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005377"
 ---
 # <a name="intercompany-invoicing-overview"></a>Visão geral de faturamento intercompanhia
 
@@ -22,7 +22,7 @@ Sua organização pode ter várias divisões, subsidiárias e outras entidades l
 
 A ilustração a seguir mostra um cenário típico em que duas entidades legais, Contoso Robotics EUA (a entidade legal que toma o empréstimo) e Contoso Robotics Reino Unido (a entidade legal do empréstimo) compartilha recursos para entregar um projeto para o cliente, Adventure works. Para este cenário, a Contoso Robotics USA é contratada para entregar o trabalho à Adventure Works.
 
-![Faturamento intercompanhia](./media/IntercompanyScenario.png) 
+![Faturamento intercompanhia.](./media/IntercompanyScenario.png) 
 
 O Dynamics 365 Project Operations usa o seguinte fluxo para processar transações intercompanhia:
 
@@ -35,7 +35,7 @@ O Dynamics 365 Project Operations usa o seguinte fluxo para processar transaçõ
 
 O diagrama a seguir ilustra o faturamento intercompanhia no que se refere a eventos contábeis e lançamentos esperados na contabilidade.
 
-![Fluxo intercompanhia](./media/IntercompanyFlow.png)
+![Fluxo intercompanhia.](./media/IntercompanyFlow.png)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

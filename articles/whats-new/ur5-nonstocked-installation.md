@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011042"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986747"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Atualizar o Project Operations em seu ambiente do Finance
 
@@ -33,7 +33,7 @@ Este tópico fornece informações sobre como atualizar o Dynamics 365 Project O
 4. Verifique se o ambiente está sendo executado. Se não tiver sido iniciado, inicie o ambiente.
 5. Na seção **Nova versão** em **Atualizações disponíveis**, selecione **Ver atualização** para 10.0.15.
 
-![Botão Visualizar atualização](media/view-update.png)
+![Botão Exibir atualização.](media/view-update.png)
 
 6. Na página **Atualizações de binário**, selecione **Salvar pacote**.
 7. Na página **Revisar e salvar atualizações**, selecione **Salvar pacote**.
@@ -47,11 +47,11 @@ Este tópico fornece informações sobre como atualizar o Dynamics 365 Project O
 2. Na lista, selecione o pacote que você salvou anteriormente e selecione **Aplicar**.
 3. Selecione **Sim** para confirmar que deseja implantar o pacote.
 
-![Confirmar a caixa de diálogo de implantação do pacote](media/confirm-package-deployment.png)
+![Caixa de diálogo Confirmar implantação do pacote.](media/confirm-package-deployment.png)
 
 4. Selecione **Sim** para confirmar que deseja atualizar o aplicativo.
 
-![Confirmar a caixa de diálogo de atualização do aplicativo](media/confirm-application-update.png)
+![Caixa de diálogo Confirmar atualização do aplicativo.](media/confirm-application-update.png)
 
 A implantação e atualização do aplicativo serão iniciadas. 
 
@@ -84,7 +84,7 @@ As seguintes atualizações para os privilégios de segurança para entidades s�
 
 1. No seu ambiente do Dataverse, vá para **Configurações** e no grupo **Sistema**, selecione **Segurança**.
 
-![Configurações do ambiente do Dataverse](media/Picture21.png)
+![Configurações do ambiente do Dataverse.](media/Picture21.png)
 
 2. Selecione **Direitos de Acesso**.
 3. Na lista de direitos, selecione **usuário de aplicativo de gravação dupla** e selecione a guia **Entidades personalizadas**. 
@@ -121,7 +121,7 @@ As seguintes atualizações para os privilégios de segurança para entidades s�
 6. Na lista de mapas, selecione o mapa **Razão (msdyn_ledgers)** com todos os pré-requisitos e marque a caixa de seleção **Sincronização inicial**. 
 7. No campo **Mestre para sincronização inicial**, selecione **Aplicativos Finance and Operations** e então selecione **Executar**.
  
- ![Sincronização de mapa de razão](media/DW6.png)
+ ![Sincronização do mapa do razão.](media/DW6.png)
  
 
 

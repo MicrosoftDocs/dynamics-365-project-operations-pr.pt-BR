@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 04ae6aa3ef6a14a6f85dce3eaa5af01e0adce9ba
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014867"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000067"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerações de atualização - PSA versão 2.x ou 1.x para a versão 3
 
@@ -35,7 +35,7 @@ O Dynamics 365 Project Service Automation e o Dynamics 365 Field Service usam a 
 ## <a name="resource-assignments"></a>Atribuições de recursos
 No Project Service Automation versão 2 e versão 1, as atribuições de tarefas eram armazenadas como tarefas filho (também chamadas de tarefas de linha) na **entidade Tarefa** e estavam indiretamente relacionadas à entidade **Atribuição de Recurso**. A tarefa de linha ficava visível na janela pop-up de atribuição da WBS (estrutura de detalhamento de trabalho).
 
-![Linha de tarefas na WBS no Project Service Automation versão 2 e versão 1](media/upgrade-line-task-01.png)
+![Tarefas de linha na WBS no Project Service Automation versão 2 e versão 1.](media/upgrade-line-task-01.png)
 
 Na versão 3 do Project Service Automation, o esquema subjacente de atribuição de recursos reserváveis às tarefas foi alterado. A tarefa de linha foi preterida e há um relacionamento 1:1 direto entre a tarefa na **entidade Tarefa** e o membro da equipe na entidade **Atribuição de Recurso**. As tarefas atribuídas a um membro da equipe do projeto agora são armazenadas diretamente na entidade Atribuição de Recurso.  
 
@@ -46,26 +46,26 @@ Ao usar a entidade de tarefa subjacente, as tarefas na versão 2 e na versão 1 
 
 Se tiver atribuído a um recurso uma tarefa fora de sua função padrão nas versões 2 e 1, ao atualizar, a função padrão será atribuída ao recurso nomeado para todas as atribuições de tarefas, independentemente da atribuição de função na versão 2. Essa atribuição resulta em diferenças nas estimativas calculadas da versão 2 ou versão 1 em relação à versão 3, pois as estimativas são calculadas com base na função do recurso, e não na atribuição da tarefa de linha. Por exemplo, na versão 2, duas tarefas foram atribuídas a Vitória Cavalcante. A função na tarefa de linha da tarefa 1 era Desenvolvedor e, na tarefa 2, Gerente de Programa. A função padrão de Vitória Cavalcante é Gerente de Programa.
 
-![Várias funções atribuídas a um recurso](media/upgrade-multiple-roles-02.png)
+![Várias funções atribuídas a um recurso.](media/upgrade-multiple-roles-02.png)
 
 Como as funções de Desenvolvedor e Gerente de Programa são diferentes, as estimativas de custo e vendas são as seguintes:
 
-![Estimativas de custo para as funções do recurso](media/upggrade-cost-estimates-03.png)
+![Estimativas de custo para as funções do recurso.](media/upggrade-cost-estimates-03.png)
 
-![Estimativas de vendas para as funções do recurso](media/upgrade-sales-estimates-04.png)
+![Estimativas de vendas para as funções do recurso.](media/upgrade-sales-estimates-04.png)
 
 Ao atualizar para a versão 3, as tarefas de linha são substituídas por atribuições de recursos na tarefa do membro da equipe de recurso reservável. A atribuição usará a função padrão do recurso reservável. Na imagem a seguir, Vitória Cavalcante, que possui a função de Gerente de Programa, é o recurso.
 
-![Atribuições de recursos](media/resource-assignment-v2-05.png)
+![Atribuições de recurso.](media/resource-assignment-v2-05.png)
 
 Como as estimativas baseiam-se na função padrão do recurso, as estimativas de custo e vendas podem ser alteradas. Na imagem a seguir, a função **Desenvolvedor** não é mais exibida, pois a função agora é obtida da função padrão do recurso reservável.
 
-![Estimativas de custo para funções padrão](media/resource-assignment-cost-estimate-06.png)
-![Estimativas de vendas para funções padrão](media/resource-assignment-sales-estimate-07.png)
+![Estimativas de custo para funções padrão.](media/resource-assignment-cost-estimate-06.png)
+![Estimativas de vendas para funções padrão.](media/resource-assignment-sales-estimate-07.png)
 
 Depois que a atualização for concluída, você poderá editar a função de um membro da equipe como algo diferente do padrão atribuído. Entretanto, se você modificar a função de membros da equipe, ela será alterada em todas as suas tarefas atribuídas, pois não é mais permitido atribuir várias funções aos membros da equipe na versão 3.
 
-![Atualizando uma função de recurso](media/resource-role-assignment-08.png)
+![Atualizando uma função de recurso.](media/resource-role-assignment-08.png)
 
 Isso também é válido para as tarefas de linha atribuídas a recursos nomeados quando você altera a unidade organizacional do recurso de padrão para outra unidade organizacional. Após a conclusão da atualização da versão 3, a atribuição usará a unidade organizacional padrão do recurso, em vez da unidade definida na tarefa de linha.
 
@@ -83,24 +83,24 @@ Para as tarefas atribuídas a membros da equipe genéricos que foram gerados usa
 
 Por exemplo, no Projeto Z, a unidade organizacional de contratação Contoso Estados Unidos. No plano do projeto, as tarefas de teste na fase de implementação receberam a função de Consultor Técnico e a unidade organizacional atribuída é Contoso Índia.
 
-![Atribuição de organização na fase de implementação](media/org-unit-assignment-09.png)
+![Atribuição de organização na fase de implementação.](media/org-unit-assignment-09.png)
 
 Após a fase de implementação, a tarefa de teste de integração é atribuída à função Consultor Técnico, mas a organização é definida como Contoso Estados Unidos.  
 
-![Atribuição de organização da tarefa de teste de integração](media/org-unit-generate-team-10.png)
+![Atribuição de organização da tarefa de teste de integração.](media/org-unit-generate-team-10.png)
 
 Ao gerar uma equipe para o projeto, dois membros da equipe genéricos são criados devido às unidades organizacionais diferentes nas tarefas. O consultor técnico 1 receberá as tarefas da Contoso Índia e o consultor técnico 2 receberá as tarefas da Contoso Estados Unidos.  
 
-![Membros da equipe genéricos gerados](media/org-unit-assignments-multiple-resources-11.png)
+![Membros genéricos da equipe gerados.](media/org-unit-assignments-multiple-resources-11.png)
 
 > [!NOTE]
 > No Project Service Automation versões 2 e 1, o membro da equipe não mantém a unidade organizacional, ela é mantida na tarefa de linha.
 
-![Tarefas de linha de versão 2 e da versão 1 no Project Service Automation](media/line-tasks-12.png)
+![Tarefas de linha da versão 2 e da versão 1 no Project Service Automation.](media/line-tasks-12.png)
 
 Você pode ver a unidade organizacional no modo de exibição de estimativas. 
 
-![Estimativas da unidade organizacional](media/org-unit-estimates-view-13.png)
+![Estimativas da unidade organizacional.](media/org-unit-estimates-view-13.png)
  
 Quando a atualização é concluída, a unidade organizacional na tarefa de linha que corresponde ao membro da equipe genérico é adicionada a esse membro e a tarefa de linha é removida. Por isso, recomendamos que, antes de atualizar, você gere a equipe em cada projeto que contém recursos genéricos, ou gere-a novamente.
 

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a46ec93744067205e1aa8c99dba52967a1780957
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014894"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995432"
 ---
 # <a name="quotes-and-quote-lines"></a>Cotações e linhas da cotação
 
@@ -84,7 +84,7 @@ As organizações de serviço profissionais geralmente cotam e faturam seus clie
 
 Uma ou mais dessas classificações de transação podem ser associadas a cada linha de cotação. Depois que uma cotação é ganha, o mapeamento entre classificação de transação e linha de cotação é transferido para a linha de contrato.
  
-> ![Captura de tela dos tipos de transação de mapeamento para cotação e linhas de contrato](media/basic-guide-5.png)
+> ![Captura de tela dos tipos de transação de mapeamento para cotação e linhas de contrato.](media/basic-guide-5.png)
   
 Por exemplo, uma cotação pode conter as duas linhas de cotação seguintes: 
 - Trabalho de consultoria que usa um método de cobrança Tempo e material, onde classificações de transação de taxa e tempo são aplicáveis. Por exemplo, todas as transações de taxa e tempo para o projeto de exemplo **Implementação do Dynamics AX** são faturadas para o cliente com base no tempo e nos materiais que são usados. 

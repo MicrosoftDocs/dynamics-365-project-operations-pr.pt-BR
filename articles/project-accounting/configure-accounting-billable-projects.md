@@ -6,12 +6,12 @@ ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 413c9821f251fa37f5cfa082281be662d6be670a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: cbc6bcbfa527486df4c740c52cec8c4be1dabe0478783fb7d2e71a65f18c050f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012572"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991012"
 ---
 # <a name="configure-accounting-for-billable-projects"></a>Configurar contabilidade para projetos cobráveis
 
@@ -101,23 +101,23 @@ Execute as seguintes etapas para criar um novo perfil de custo e receita do proj
 
 Tempo e materiais – sem WIP
 
-![Perfil de custo e receita: tempo e materiais – sem WIP](media/time-material-no-wip.png)
+![Perfil de custo e receita: tempo e materiais – sem WIP.](media/time-material-no-wip.png)
 
 Tempo e materiais – WIP (receita)
 
-![Perfil de custo e receita: tempo e materiais – WIP](media/time-material-with-wip.png)
+![Perfil de custo e receita: tempo e materiais – WIP.](media/time-material-with-wip.png)
 
 Preço fixo – Sem WIP
 
-![Perfil de custo e receita: preço fixo – sem WIP](media/fixed-price-no-wip.png)
+![Perfil de custo e receita: preço fixo – sem WIP.](media/fixed-price-no-wip.png)
 
 Preço Fixo – contrato concluído
 
-![Perfil de custo e receita: preço fixo – contrato concluído](media/fixed-price-completed-contract.png)
+![Perfil de custo e receita: preço fixo – contrato concluído.](media/fixed-price-completed-contract.png)
 
 Preço Fixo – porcentagem de conclusão
 
-![Perfil de custo e receita: preço fixo – porcentagem de conclusão](media/fixed-price-completed-percentage.png)
+![Perfil de custo e receita: preço fixo – porcentagem de conclusão.](media/fixed-price-completed-percentage.png)
 
 
 ## <a name="accounting-event-examples-for-sample-project-cost-and-revenue-profiles"></a>Exemplos de evento contábil para exemplos de Perfis de custo e receita do projeto.

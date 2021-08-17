@@ -1,8 +1,8 @@
 ---
 title: Despesas intercompanhia
 description: Este tópico fornece informações sobre como usar despesas entre empresas para atribuir as despesas de um funcionário à entidade legal para a qual o trabalho foi executado.
-author: ShylaThompson
-ms.date: 05/20/2020
+author: Surya Vaidyanathan
+ms.date: 07/08/2021
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
@@ -11,15 +11,15 @@ audience: Application User
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: shylaw
+ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d2cdba8d5368a8b26bf4d98226bda76a58261cf0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 80ef42bf5274ff9a5c50e6dcb93995cfbbda40a66d7471f29ebf056086320640
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6005057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001192"
 ---
 # <a name="intercompany-expenses"></a>Despesas entre empresas
 
@@ -34,5 +34,17 @@ Para que um funcionário possa criar e enviar despesas entre empresas, você dev
 Para usar grupos de impostos associados à entidade legal de empréstimo (origem) em vez da entidade legal de empréstimo (destino) em seu relatório de despesas, você deve habilitar a funcionalidade na configuração do imposto sobre vendas de contabilidade. Quando o parâmetro **Entidade legal para lançamento de imposto entre empresas** está definido para **Origem** e **Aplicar regras de tributação de impostos sobre vendas** está definido como **Não**, é utilizada a combinação fiscal para a entidade legal de empréstimo. Quando o mesmo parâmetro for definido como **Destino**, será utilizada a combinação fiscal para entidade legal que contrai empréstimo. Para entidades legais nos Estados Unidos, quando o parâmetro é definido como **Fonte**, o campo **Imposto sobre vendas a receber** também deve ser configurado na nova página **Grupos de lançamentos contábeis**. O mecanismo de contabilidade usará as informações desse campo para a entrada contábil relacionada a impostos.   
 O comportamento é consistente para linhas de despesas lançadas com ou sem um projeto.  
 
+## <a name="new-expense-expression-builder"></a>Novo construtor de expressões de despesa
+
+O novo construtor de expressão de despesa aborda problemas com cenários de despesa entre empresas que usam projetos. Esse recurso garante que, ao criar uma despesa entre empresas, a política de despesa seja validada corretamente em relação ao projeto selecionado na linha de despesa e que o relatório de despesa possa ser enviado com êxito.
+
+Para que o recurso construtor de expressão de despesa funcione, ele deve ser ativado. Além disso, a política de despesa que possui uma ID de projeto deve ser configurada.
+
+Se você já configurou políticas que validam a ID do projeto na linha de despesa, essas políticas devem ser desativadas. Você pode então ativar o recurso e reconfigurar as políticas.
+
+Para ativar o recurso, siga as etapas abaixo.
+
+1. Acesse **Workspaces** \> **Gerenciamento de Recursos**.
+2. Na lista, selecione **Novo construtor de expressões para abordar problemas em cenários de despesas entre empresas que usam projetos**. Então selecione **Habilitar agora**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8218747366be8536601cb007318c642ac122536b
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 5aa5e00252697f91a585eaaa83a0c8a39b315cc1b25fcbf6343fdf2ce31a824e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006227"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985937"
 ---
 # <a name="create-a-new-project"></a>Criar um novo projeto
 
@@ -51,7 +51,7 @@ Você também pode atribuir categorias a um recurso conforme sua necessidade. O 
 
 Um gerente de projeto pode usar a funcionalidade de alocação de recursos do projeto para criar as funções necessárias para o projeto. As funções podem ser usadas se os recursos confirmados ainda forem desconhecidos quando os estiverem sendo reservados. As funções podem ser reservadas temporariamente como recursos planejados, para que você possa continuar as etapas de planejamento do projeto.
 
-[![Exemplo de uma função](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
+[![Exemplo de uma função.](./media/projectresourcing05.jpg)](./media/projectresourcing05.jpg) 
 
 **Cenário:** A Contoso foi contratada para concluir um projeto de tempo e material que tem um estatuto do projeto aprovado. O gerente de projeto júnior ainda está preenchendo o escopo do projeto. O gerente de recursos está no momento identificando recursos específicos que serão reservados para trabalhar no novo projeto. Devido à natureza crítica do projeto, o patrocinador dele solicitou um gerente de projeto sênior como uma das funções. O gerente de recursos deve encontrar o novo recurso e definir a função no sistema, caso o gerente de projeto júnior precise das informações do recurso durante o planejamento do projeto.
 

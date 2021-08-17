@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368462"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001957"
 ---
 # <a name="pricing-dimensions-overview"></a>Visão geral das dimensões de precificação
 
@@ -33,7 +33,7 @@ Por isso, há dois tipos de valor de dimensão de preço disponíveis:
 
 O Dynamics 365 Project Operations apresenta um conjunto padrão de dimensões de precificação. É possível exibir essas dimensões de precificaçãos acessando **Project Operations** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de precificação baseadas em valor**, verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Com esses campos habilitados, você pode configurar o preço e o custo para cada combinação de função e unidade organizacional.
 
-![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque](media/PS-OOB-parameters.png)
+![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque.](media/PS-OOB-parameters.png)
 
 Se precisar precificar ou colocar custo para seus recursos usando atributos adicionais, você poderá criar campos, entidades e dimensões personalizados. Para obter mais informações, consulte os seguintes tópicos. 
   

@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1814d3a48611a76ee957967fc6da0b66e821ce5d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1b9c19438effff5901426c904fa905afb3e2c09c35aff8559f491c06401806e0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997992"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996827"
 ---
 # <a name="fulfilling-resource-requests"></a>Atender às solicitações de recursos
 
@@ -33,15 +33,15 @@ Os requisitos de recursos podem ser enviados como solicitações de recursos ao 
 
 As solicitações de recursos são exibidas como uma lista na exibição **Solicitações de Recursos Ativas**.
 
-> ![Lista de solicitações de recursos](media/Resource-Management-image59.png)
+> ![Lista de solicitações de recursos.](media/Resource-Management-image59.png)
 
 Para atender a uma solicitação, selecione-a na lista e, em seguida, selecione **Localizar Recursos**. Como alternativa, clique duas vezes em uma linha para abrir a solicitação. Em seguida, selecione a guia **Requisito de Recurso** para exibir os requisitos dessa solicitação. Para começar a atender à solicitação, selecione **Localizar Recursos**.
 
-> ![Detalhes das solicitações de recursos](media/Resource-Management-image60.png)
+> ![Detalhes das solicitações de recursos.](media/Resource-Management-image60.png)
 
 O Assistente de Agendamento aparece e é filtrado pelos requisitos. Selecione o recurso e, em seguida, selecione **Reservar**.
 
-> ![Recurso selecionado](media/Resource-Management-image61.png)
+> ![Recurso selecionado.](media/Resource-Management-image61.png)
 
 O membro genérico da equipe é substituído pelo recurso nomeado com reserva fixa na equipe do projeto e nas atribuições de tarefas na agenda do projeto.
 

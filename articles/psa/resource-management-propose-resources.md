@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 02e47338e34a37e05455e2bc6e6a175210ed6bc7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 9fe63f424735f22dc6b525631287e7ff36db17f37aad8e14e926f5cc9be39136
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997947"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995027"
 ---
 # <a name="propose-project-resources"></a>Propor recursos de projeto
 
@@ -32,21 +32,21 @@ Os gerentes de recursos podem propor um recurso ao gerente de projetos usando um
 1. Na grade de solicitações ou na própria solicitação, selecione **Localizar Recursos**.
 2. Na página **Assistente de Agendamento**, selecione o recurso e, em seguida, no painel **Criar Reserva de Recursos**, no campo **Status da Reserva**, selecione **Reservar**.
 
-    ![Recurso proposto selecionado](media/Resource-Management-image62.png)
+    ![Recurso proposto selecionado.](media/Resource-Management-image62.png)
 
 As seguintes atualizações de status ocorrem:
 
 - Na página **Assistente de Agendamento**, os indicadores de status são atualizados para indicar que a reserva é proposta, não fixa.
 
-    ![Indicadores de status da reserva proposta na página Assistente de Agendamento](media/Resource-Management-image63.png)
+    ![Indicadores de status da reserva proposta na página Assistente de Agendamento.](media/Resource-Management-image63.png)
 
 - Na solicitação de recurso, o status é alterado para **Precisa de Revisão**.
 
-    ![Status da solicitação de recurso alterado para Precisa de Revisão](media/Resource-Management-image64.png)
+    ![Status da solicitação de recurso alterado para Precisa de Revisão.](media/Resource-Management-image64.png)
 
 - Na guia **Equipe** do projeto, o valor **Status de Solicitação** do membro genérico da equipe é alterado para **Precisa de Revisão**.
 
-    ![Status de solicitação do membro genérico da equipe alterado para Precisa de Revisão na guia Equipe](media/Resource-Management-image48.png)
+    ![Status de solicitação do membro genérico da equipe alterado para Precisa de Revisão na guia Equipe.](media/Resource-Management-image48.png)
 
 O gerente de projetos pode aceitar ou rejeitar a proposta.
 
@@ -70,7 +70,7 @@ As fórmulas a seguir são usadas para calcular as horas trabalhadas:
 
 Você pode encontrar a exibição **Horas Trabalhadas do Recurso** no painel **Recursos**.
 
-![Exibição Horas Trabalhadas do Recurso](media/Resource-Management-image65.png)
+![Exibição Horas Trabalhadas do Recurso.](media/Resource-Management-image65.png)
 
 Cada célula na grade representa o percentual de horas trabalhadas faturáveis do recurso em um período, como dia, semana ou mês. As fórmulas a seguir são usadas para colorir as células:
 
@@ -84,7 +84,7 @@ A grade exige que você defina as horas trabalhadas de destino na função ou no
 
 Além disso, uma função padrão deve ser atribuída a cada recurso reservável. Vá para **Recursos** \> **Recursos**. Na guia **Project Service**, verifique se a função de um recurso está definida e se o campo **É Padrão** dela está definido como **Sim**. É possível adicionar outras funções onde **É Padrão = Não**. A função em que **É Padrão = Sim** é usada para avaliar as horas trabalhadas do recurso em relação ao destino dessa função.
 
-![Função padrão definida](media/Resource-Management-image67.png)
+![Função padrão definida.](media/Resource-Management-image67.png)
 
 Na guia **Project Service**, você também pode definir horas trabalhadas de destino individuais para o recurso. O cálculo de horas trabalhadas então usa essas horas trabalhadas de destino para avaliar o destino do recurso em vez do destino da função padrão do recurso.
 
@@ -96,21 +96,21 @@ As horas trabalhadas são mostradas para um recurso somente se ele tiver tempo p
 
 As horas de trabalho do recurso são usadas como base para calcular a disponibilidade de um recurso. As reservas de recursos consomem a capacidade dos recursos.
 
-![Painel de Agendamento](media/Resource-Management-image68.png)
+![Painel de Agendamento.](media/Resource-Management-image68.png)
 
 O Painel de Agendamento usa cores e sombreamento para mostrar reservas, disponibilidade e reservas em excesso, além do status das reservas. Uma das configurações do Painel de Agendamento permite mostrar uma legenda.
 
 Se uma seta que aponta para a direita aparecer ao lado de um recurso reservável individual no Painel de Agendamento, o recurso poderá ser expandido para mostrar detalhes do trabalho no qual o recurso está reservado.
 
-![Recurso reservável expandido no Painel de Agendamento](media/Resource-Management-image69.png)
+![Recurso reservável expandido no Painel de Agendamento.](media/Resource-Management-image69.png)
 
 Como o Dynamics 365 Project Service Automation usa o mecanismo Universal Resource Scheduling, se você também tiver o Dynamics 365 Field Service instalado, poderá ver os detalhes das reservas de recursos para projetos, ordens de serviço e qualquer outra entidade à qual você tenha estendido o agendamento.
 
-![Detalhes de reservas de recursos para projetos e ordens de serviço](media/Resource-Management-image70.png)
+![Detalhes de reservas de recursos para projetos e ordens de serviço.](media/Resource-Management-image70.png)
 
 Para exibir mais detalhes sobre um recurso individual, clique com o botão direito do mouse nele para abrir o cartão de recurso.
 
-![Cartão de recurso](media/Resource-Management-image71.png)
+![Cartão de recurso.](media/Resource-Management-image71.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

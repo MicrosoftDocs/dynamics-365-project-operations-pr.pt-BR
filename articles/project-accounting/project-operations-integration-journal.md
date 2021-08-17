@@ -6,12 +6,12 @@ ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f4428bac8e82bdfc848c199b0e294486b9fde82e
-ms.sourcegitcommit: 639ec8a41fda15dedfd6918702d33ea406999ba6
+ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/24/2021
-ms.locfileid: "6304242"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987917"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diário de integração no Project Operations
 
@@ -19,7 +19,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 As entradas de hora e despesas criam transações **Reais** que representam a visão operacional do trabalho concluído em um projeto. O Dynamics 365 Project Operations fornece aos contadores uma ferramenta para revisar as transações e ajustar os atributos de contabilidade, conforme necessário. Após a revisão e os ajustes serem concluídos, as transações são lançadas na subconta do Projeto e na Contabilidade. Um contador pode realizar essas atividades usando o diário de **Integração de Operações do Projeto** (**Dynamics 365 Finance** > **Gerenciamento e Contabilidade de Projeto** > **Diários** > **Integração de Operações do Projeto**).
 
-![Fluxo diário de integração](./media/IntegrationJournal.png)
+![Fluxo diário de integração.](./media/IntegrationJournal.png)
 
 ### <a name="create-records-in-the-project-operations-integration-journal"></a>Cria registros no diário de integração do Project Operations
 

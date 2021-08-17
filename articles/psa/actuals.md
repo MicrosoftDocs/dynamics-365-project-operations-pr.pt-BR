@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbb3e5c7f74cdf37ae4d259687bf7a98102a8131
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368147"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992462"
 ---
 # <a name="actuals-overview"></a>Visão geral dos dados reais
 
@@ -32,7 +32,7 @@ ms.locfileid: "6368147"
 
 Os dados reais são o volume de trabalho que foi concluído em um projeto. Os dados reais do projeto podem ser rastreados para seus documentos de origem. Esses documentos de origem incluem hora, despesa e entradas de diário, além de faturas.
 
-![Como os dados reais do projeto são rastreados para documentos de origem](media/basic-guide-18.png)
+![Como os dados reais do projeto são rastreados para documentos de origem.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Enviando uma entrada de hora
 

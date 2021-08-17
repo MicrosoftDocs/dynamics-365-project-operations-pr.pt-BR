@@ -2,17 +2,17 @@
 title: Solucionar problemas de trabalho na grade de Tarefas
 description: Este tópico fornece informações de solução de problemas necessárias ao trabalhar na grade de Tarefas.
 author: ruhercul
-ms.date: 01/19/2021
+ms.date: 08/02/2021
 ms.topic: article
 ms.product: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: a15a4752de7537b3f60d5ee3269c846257a1fe4a
-ms.sourcegitcommit: 72fa1f09fe406805f7009fc68e2f3eeeb9b7d5fc
+ms.openlocfilehash: 07e7bd42db48842edee17fdfdd22fdcd8207644c1751f453ec29c3194aac625e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "6213386"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989087"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemas de trabalho na grade de Tarefas 
 
@@ -24,7 +24,7 @@ Este tópico descreve como corrigir problemas que você pode encontrar ao trabal
 
 O Project Operations exige que os cookies de terceiros sejam habilitados para processar a estrutura de detalhamento de trabalho. Quando os cookies de terceiros não estão habilitados, em vez de ver as tarefas, você verá uma página em branco ao selecionar a guia **Tarefas** na página **Projeto**.
 
-![Guia em branco quando os cookies de terceiros não estão habilitados](media/blankschedule.png)
+![Guia em branco quando os cookies de terceiros não estão habilitados.](media/blankschedule.png)
 
 
 ### <a name="workaround"></a>Solução alternativa
@@ -52,11 +52,22 @@ Para os navegadores Microsoft Edge ou Google Chrome, os procedimentos a seguir d
 O Project Operations exige que um parâmetro do projeto faça referência ao Ponto de Extremidade PEX. Esse ponto de extremidade é necessário para se comunicar com o serviço usado para processar a estrutura de detalhamento de trabalho. Se o parâmetro não estiver habilitado, você receberá o erro "O parâmetro do projeto não é válido". 
 
 ### <a name="workaround"></a>Solução alternativa
- ![Campo Ponto de Extremidade PEX no parâmetro do projeto](media/projectparameter.png)
 
 1. Adicione o campo **Ponto de Extremidade PEX** à página **Parâmetros do projeto**.
-2. Atualize o campo com o seguinte valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=/<id>&type=2`
-3. Remova o campo da página **Parâmetros do projeto**.
+2. Identifique o tipo de produto que você está usando. Esse valor é usado quando o Ponto de Extremidade PEX é definido. Após a recuperação, o tipo de produto já está definido no Ponto de Extremidade PEX. Mantenha esse valor. 
+   
+    ![Campo Ponto de Extremidade PEX no parâmetro do projeto.](media/pex-endpoint.png)
+
+3. Atualize o campo com o seguinte valor: `https://project.microsoft.com/<lang>/?org=<cdsServer>#/taskgrid?projectId=<id>&type=2`.
+
+   
+   | Tipo de produto                         | Tipo de parâmetro |
+   |--------------------------------------|----------------|
+   | Project for the Web na organização padrão   | type=0         |
+   | Project for the Web na organização chamada CDS | type=1         |
+   | Project Operations                   | type=2         |
+   
+4. Remova o campo da página **Parâmetros do projeto**.
 
 ## <a name="privileges-for-project-for-the-web"></a>Privilégios para projeto para a Web
 
@@ -67,7 +78,7 @@ O Project Operations conta com um serviço de agendamento externo. O serviço re
 
 1. Vá para **Configurações > Segurança > Usuários > Usuários do Aplicativo**.  
 
-   ![Leitor de aplicativo](media/applicationuser.jpg)
+   ![Leitor de aplicativo.](media/applicationuser.jpg)
    
 2. Clique duas vezes no nome de inscrição para verificar o seguinte:
 
@@ -76,7 +87,7 @@ O Project Operations conta com um serviço de agendamento externo. O serviço re
  
 3. Se este usuário não existir, você poderá criar um novo registro de usuário. Selecionar **Novos usuários**. Altere o formulário de inscrição para **Usuário do aplicativo** e, em seguida, adicione o **ID do aplicativo**.
 
-   ![Detalhes do usuário de inscrição](media/applicationuserdetails.jpg)
+   ![Detalhes do usuário de inscrição.](media/applicationuserdetails.jpg)
 
 4. Verifique se o usuário recebeu a licença correta e se o serviço está habilitado nos detalhes dos planos de serviço da licença.
 5. Verifique se o usuário consegue abrir project.microsoft.com.

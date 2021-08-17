@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009152"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002542"
 ---
 # <a name="project-costs-and-revenue"></a>Custos e receita de projetos
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009152"
 
 As estimativas de projeto fornecem a visão financeira do trabalho estimado e programado na agenda do projeto. A guia **Estimativas** na página **Projetos** mostra o impacto de custo e receita do trabalho que você está planejando. Ela também fornece informações sobre muitas dimensões predefinidas. 
 
-> ![Guia Estimativas](media/project-5.png)
+> ![Guia Estimativas.](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Os valores de custo e vendas do projeto
 
@@ -66,13 +66,13 @@ Se o sistema não encontrar um preço para a função, o preço de vendas na lin
 
 A guia **Estimativas** tem uma exibição de grade que mostra as linhas de estimativa. A grande inclui colunas para a unidade, o preço de custo total e o preço de vendas total, conforme mostrado na ilustração a seguir. 
 
-> ![Exibição de grade na guia Estimativas](media/project-6.png)
+> ![Exibição de grade na guia Estimativas.](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Exibição de estimativas de projeto em fases de tempo
 
 A visão em fases de tempo das estimativas do projeto mostra os dados de estimativa da exibição de grade na linha do tempo, em uma escala de tempo selecionada por você. Por padrão, os dados da estimativa são dinamizados na dimensão **Função**.
 
-> ![Exibição em fases de tempo das estimativas do projeto](media/project-7.png)
+> ![Exibição em fases de tempo das estimativas do projeto.](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Alocando esforço estimado com base no modo de tarefa
 

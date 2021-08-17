@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
-ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
+ms.openlocfilehash: 5ba43ba9f917da068415fb62067ab73433b701139ee07014b6bd8c02612008ce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/02/2021
-ms.locfileid: "6334768"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991517"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Inscreva-se para obter uma assinatura de versão preliminar – lite 
 
@@ -52,16 +52,16 @@ Antes de começar, verifique se está conectado a um navegador com a conta de tr
 
 1. Provisione um novo ambiente de implantação do Project Operations Dataverse seguindo instruções no tópico, [modelo de implantação do Dataverse](lite-deployment.md). Ao selecionar o tipo de ambiente, utilize **Avaliação (baseado em assinatura)**.
 
-  ![Novo ambiente](./media/19CreateEnvironment.png)
+  ![Novo ambiente.](./media/19CreateEnvironment.png)
 
 2. Selecione a configuração **Habilitar aplicações do Dynamics 365** e deixe em branco **Implantar automaticamente essas aplicações**.  
 3. Selecione **Salvar** para criar o ambiente.
 
-  ![Adicionar banco de dados](./media/20CreateEnvironment1.png)
+  ![Adicionar banco de dados.](./media/20CreateEnvironment1.png)
 
 4. Depois de criar o ambiente, instale a solução **Microsoft Dynamics 365 Project Operations**. 
 
-![Instalar Solução](./media/21InstallSolution.png)
+![Instalar Solução.](./media/21InstallSolution.png)
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalar uma configuração CDS e configurar dados de demonstração
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e0dc911bb0ca72af547262a5716ef1091ea81c81
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 58259c05939cfe870ce5e36b4a0221cd93b8e8d2b4be582efc9167e82579699e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6015047"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985487"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Faturando no Project Service Automation
 
@@ -50,7 +50,7 @@ Siga esta etapa a fim de criar uma fatura para um contrato de projeto específic
 
 - Na página de lista **Contratos de Projeto**, abra um contrato de projeto e selecione **Criar Fatura**.
 
-    ![Criando faturas do projeto para um contrato de projeto específico](media/CreateProjectInvoicesOneByOne.png)
+    ![Criando faturas do projeto para um contrato de projeto específico.](media/CreateProjectInvoicesOneByOne.png)
 
     Uma fatura é gerada para todas as transações do contrato de projeto selecionado que tem um status de **Pronto para Faturar**. Essas transações incluem tempo, despesas, etapas e linhas de contrato baseadas em produto.
 
@@ -58,7 +58,7 @@ Siga estas etapas para criar faturas em massa.
 
 1. Na página de lista **Contratos de Projeto**, selecione um ou mais contratos de projeto para os quais você deve criar uma fatura e selecione **Criar Faturas do Projeto**.
 
-    ![Criando faturas de projeto em massa](media/CreateProjectInvoicesBulk.png)
+    ![Criando faturas de projeto em massa.](media/CreateProjectInvoicesBulk.png)
 
     Uma mensagem de aviso informa que pode haver um atraso antes da criação das faturas. O processo também é mostrado.
 
