@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a1e22337d3fd3e7ff4147a9547fd3c272f4185d3
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d9a81d7242e78dafad871bb07c03459f1de21884d196c6ee7dd9619b2c410404
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009377"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007087"
 ---
 # <a name="assign-generic-bookable-resources-to-a-task-and-generate-resource-requirements"></a>Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recurso 
 
@@ -33,21 +33,21 @@ Além de reservar e atribuir recursos nomeados ou reais ao seu projeto, você po
 
 1. No PSA (Project Service Automation), abra a página **Projeto** e, na guia **Agendar**, insira o nome da posição do recurso genérico na célula **Recurso** da agenda. Ou, clique no ícone **Recurso** da célula a fim de abrir o seletor de recursos e insira o nome do recurso genérico que deseja criar.
 
-![Criando e atribuindo um membro de equipe genérico](media/RM-how-to-9.png)
+![Criando e atribuindo um membro de equipe genérico.](media/RM-how-to-9.png)
 
 Isso abrirá o painel **Criação rápida: membro da equipe do projeto**. 
 
 2. Insira a função e a unidade organizacional do membro da equipe de recurso genérico e clique em **Salvar**.
 
-![Criação rápida do membro da equipe genérico](media/RM-how-to-10.png)
+![Criação rápida do membro da equipe genérico.](media/RM-how-to-10.png)
 
 3. Depois de criar o novo membro da equipe de recurso genérico, ele é atribuído à tarefa. Você pode continuar atribuindo esse recurso genérico a outras tarefas na agenda de tarefas.
 
-![Atribuindo membro da equipe genérico existente a tarefas](media/RM-how-to-11.png)
+![Atribuindo membro da equipe genérico existente a tarefas.](media/RM-how-to-11.png)
 
 4. Depois de atribuir o recurso genérico, você pode gerar um requisito de recurso e preenchê-lo diretamente reservando ou enviando uma solicitação de recurso a um gerente de recursos.
 
-![Gerando um requisito para um membro da equipe genérico](media/RM-how-to-12.png)
+![Gerando um requisito para um membro da equipe genérico.](media/RM-how-to-12.png)
 
 Na grade do membro da equipe, além de poder usar o seletor de recursos como mencionado acima, você pode adicionar recursos genéricos diretamente. Os recursos são adicionados com um requisito de recurso que se baseia nas datas de início/término e um método de alocação especificado no painel **Criação Rápida: Membro da Equipe do Projeto**.
 
@@ -55,7 +55,7 @@ Na grade do membro da equipe, além de poder usar o seletor de recursos como men
 
 Também é possível clicar no link **Requisito de recurso** na grade da equipe para abrir o requisito e adicionar habilidades, recursos preferidos, etc.
 
-![Requisito de Recurso](media/RM-how-to-13.png)
+![Requisito de recurso.](media/RM-how-to-13.png)
 
 
 

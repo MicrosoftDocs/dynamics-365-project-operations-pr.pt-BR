@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6992498df5beb97d4e7197e301f093320dc28a23
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 8cff4c37e1c2df29041ef86cdcf05afa6093f890565a855024202e87fd533ea5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433639"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009202"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>O que há de novo em julho de 2021 - Implantação lite do Project Operations
 
@@ -20,7 +20,7 @@ _Aplica-se a: Implantação lite – gerenciar faturamento pro forma_
 
 Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
-  - Project Operations no ambiente do Dataverse versão 4.12.0.148.
+  - Project Operations na versão 4.12.0.148 ou 4.12.0.152 do ambiente do Dataverse.
 
 ## <a name="quality-updates"></a>Atualizações de qualidade
 | **Área do recurso**              | **Número de referência** | **Atualização de qualidade**                                                                                                                                                                                             |
@@ -59,3 +59,4 @@ Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Proj
 | Geral                       | 2296857              | Rastreamento de progresso para trabalhos de execução prolongada.                                                                                                                                                                        |
 | Geral                       | 2253682              | A solução de gravação dupla do Project Operations não deve ser instalada quando a solução principal de gravação dupla é instalado em um ambiente sem a solução de orquestração de gravação dupla.                                                |
 | Geral                       | 2316420              | O provisionamento principal do Project service falhará se a unidade de negócios do usuário do aplicativo for alterada.                                                                                                                     |
+| Geral                       | 2376405              | Foi corrigido o problema da atualização controlada pelo editor (A atualização de qualidade está disponível na versão 4.12.0.152)                                                                                                                     |

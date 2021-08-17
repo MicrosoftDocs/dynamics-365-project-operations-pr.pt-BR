@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8d3d39aa28565692bf894ff8d4fc8f8c3c5542d4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6006182"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005782"
 ---
 # <a name="create-a-project-team"></a>Criar uma equipe de projeto
 
@@ -33,7 +33,7 @@ As configurações de exibição também podem ser personalizadas para exibir me
 
 O gerente de projeto pode selecionar uma função na página e, em seguida, se houver um recurso disponível que atenda ao requisito, selecionar para reservar um recurso para preencher a função. Observe que os recursos não precisam ser reservados nesse ponto do estágio de planejamento. Ao criar uma WBS, você pode substituir funções por recursos de equipe para o projeto. Se as funções forem substituídas por recursos de equipe na WBS, a configuração do recurso atualiza automaticamente o agendamento e a lista da equipe do projeto.
 
-[![Lista da equipe do projeto que inclui funções e recursos reais](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Lista da equipe do projeto que inclui funções e recursos reais.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 O gerente de projeto tem várias opções para reservar um recurso para um projeto, como **Capacidade restante**, **Capacidade total**, **Porcentagem de capacidade** e **Especificar horas**. Essas opções de reserva podem ser canceladas a qualquer momento se as atribuições de recursos forem alteradas. Dois tipos de reserva são compatíveis:
 

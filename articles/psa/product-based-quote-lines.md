@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1bd789f4ee4d5b4603093be24aa25addafa9e8e8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3cc2e8788ea699b57ef75903ec3771f2e66fe867a9b8b6328a55b484eb13ede4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998487"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008572"
 ---
 # <a name="product-based-quote-lines"></a>Linhas de cotação baseadas em produto
 
@@ -58,7 +58,7 @@ Se você definir esse campo como **Substituir preço**, o Dynamics 365 não defi
 
 Após a instalação do PSA, os preços de vendas padrão são inseridos nas linhas baseadas em produto em uma cotação. O campo **Preço** é definido como **Substituir preço** para que seja possível editar o preço padrão nas linhas de cotação.
 
-> ![Definindo a substituição de preço](media/basic-guide-10.png)
+> ![Definindo a substituição de preço.](media/basic-guide-10.png)
  
 ## <a name="quantity-factors-for-products"></a>Fatores de quantidade para produtos
 
@@ -78,7 +78,7 @@ Por exemplo, o Dynamics 365 pode ter as seguintes propriedades:
 
 As propriedades **Número de Usuários** e **Número de Meses** podem ser sinalizadas como fatores de quantidade, bastando para isso editá-las na linha de produto. 
 
-> ![Sinalizando Número de Usuários e Número de Meses como fatores de qualidade](media/basic-guide-11.png)
+> ![Sinalizando Número de Usuários e Número de Meses como fatores de qualidade.](media/basic-guide-11.png)
  
 
 
