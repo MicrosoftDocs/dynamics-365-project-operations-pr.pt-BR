@@ -6,12 +6,12 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c9b3c1a1b958de0fc5d58199b8229ea5b3b221d01efe6602eecffdd100f13cae
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ec5cd77318afdbfb01af2f1dc9ad151849374593
+ms.sourcegitcommit: bbcfb917667e319247f6e57143f87a3e89fa5077
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001642"
+ms.lasthandoff: 08/27/2021
+ms.locfileid: "7440763"
 ---
 # <a name="manage-multiple-customers-on-project-quotes---lite"></a>Gerenciar vários clientes em cotações de projeto - lite
 
@@ -37,7 +37,7 @@ Um cliente de cotação pode ser criado, atualizado ou excluído na guia **Clien
 
 | **Campo** | **Local** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
-| Conta | Grade editável na guia **Clientes de cotação**, o formulário **Principal** e os formulários de **Criação rápida** para um cliente da cotação. | Lista todas as contas ativas. Este campo será bloqueado após a criação do registro. Se você quiser atualizá-lo, exclua e recrie o registro. Se você tiver registrado quaisquer dados reais, ou se o registro do cliente da cotação for um cliente principal, você terá permissão para excluir o registro. | Quando uma linha de cotação é criada, os clientes da cotação são copiados para os clientes da linha de cotação do projeto. Quando uma cotação é ganha, os clientes da cotação são copiados para os clientes do contrato de projeto. |
+| Conta | Grade editável na guia **Clientes de cotação**, o formulário **Principal** e os formulários de **Criação rápida** para um cliente da cotação. | Lista todas as contas ativas. Este campo será bloqueado após a criação do registro. Se você quiser atualizá-lo, exclua e recrie o registro. Se tiver registrado quaisquer dados reais ou se o registro do cliente da cotação for um cliente principal, você não terá permissão para excluir o registro. | Quando uma linha de cotação é criada, os clientes da cotação são copiados para os clientes da linha de cotação do projeto. Quando uma cotação é ganha, os clientes da cotação são copiados para os clientes do contrato de projeto. |
 | Percentual de cobrança dividida | Grade editável na guia **Clientes de cotação**, o formulário **Principal** e os formulários de **Criação rápida** para um cliente da cotação. | Represente a porcentagem de cada transação de vendas não faturada que será atribuída a este cliente da cotação. | Copiado para novas linhas de cotação e para clientes de contrato de projeto. |
 | Nome do Contato para Cobrança | Grade editável na guia **Clientes de cotação**, o formulário **Principal** e os formulários de **Criação rápida** para um cliente da cotação. | Este é um campo de texto e deve ser usado para identificar a pessoa de contato da fatura para este cliente. Eles são padronizados a partir do registro da conta relacionado | Copiado para os clientes do contrato do projeto quando uma cotação é ganha e, por sua vez, para o campo nome Contrato para Cobrança na fatura que é gerada para este cliente. |
 | Nome para Cobrança | Grade editável na guia **Clientes de cotação**, o formulário **Principal** e os formulários de **Criação rápida** para um cliente da cotação. | Este campo de texto deve ser usado para identificar a pessoa de contato da fatura para este cliente. | Copiado para os clientes do contrato do projeto quando uma cotação é ganha e, por sua vez, para o campo nome **Contrato para Cobrança** na fatura que é gerada para este cliente. |
