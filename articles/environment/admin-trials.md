@@ -2,16 +2,16 @@
 title: Inscrever-se para avaliações do Project Operations
 description: Esse tópico fornece informações sobre como implantar uma avaliação do Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418443"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599199"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrever-se para avaliações do Project Operations 
 
@@ -85,15 +85,9 @@ Antes de começar, entre em um navegador com a conta de trabalho do usuário no 
 
    Após o início do provisionamento, você será redirecionado para a lista de ambientes no centro de administração do Power Platform. Enquanto o provisionamento estiver em andamento, o estado do seu ambiente será **Preparando Instância**.
  
-  Após a conclusão do provisionamento, o estado do seu ambiente será **Pronto**.
+  Quando o provisionamento for concluído, o estado do seu ambiente será **Pronto**. O provisionamento do ambiente inclui dados de demonstração da implantação.
  
-4.  Quando o provisionamento for concluído, selecione a respectiva URL do Microsoft Dataverse e as URLs dos aplicativos do Finance and Operations para validar a implantação.
-
-## <a name="demo-data-installation"></a>Instalação de dados de demonstração
-
-Use os links a seguir para acessar pacotes de dados de demonstração para materiais sem estoque e cenários de implantação simples. 
-- [Dados de demonstração de materiais sem estoque](resource-apply-pro-setup-config-data.md)
-- [Dados de demonstração lite](lite-apply-demo-setup-config-data.md)
+4.  Selecione a respectiva URL do Microsoft Dataverse e as URLs dos aplicativos do Finance and Operations para validar a implantação.
 
 ## <a name="configuring-dual-write"></a>Configuração da gravação dupla
 Apenas para implantações de materiais sem estoque, configure seus mapeamentos de gravação dupla. Para mais informações, consulte [Versões de mapa de gravação dupla do Project Operations](resource-dual-write-maps.md).

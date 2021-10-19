@@ -6,12 +6,12 @@ ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 3301e5a627e4842009fcd5e352f1b76fd3053ee3
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7f99853f5f649f96225b7d72580db97bb92de7c5
+ms.sourcegitcommit: d507a75a19c992a9421e4f3605162a2faa84a445
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323762"
+ms.lasthandoff: 09/27/2021
+ms.locfileid: "7558488"
 ---
 # <a name="subcontract-line-milestones"></a>Etapas da linha de subcontrato
 
@@ -50,15 +50,15 @@ Os marcos de preço fixo em uma linha de subcontrato poderão ser gerados manual
 3. Na guia **Marcos de linha de subcontrato**, na subgrade, selecione **+ Novo Marco de Linha de Subcontrato**.
 4. Na página **Novo Marco de Linha de Subcontrato**, insira as informações necessárias com base na tabela a seguir.
 
-    | Campo | Descrição |
-    | --- | --- |
-    | Nome da Etapa | O nome da etapa. |
-    | Descrição | Uma descrição do marco.  |
-    | Data da Etapa | A data em que o processo de criação automática de fatura deve procurar o status desse marco para considerá-lo para o faturamento. Esse valor está incluído na linha da fatura do fornecedor ao faturar para este subcontrato. |
-    | Amount | A quantidade ou valor da etapa que será faturada para o cliente. Esse valor está incluído na linha da fatura do fornecedor ao faturar para este subcontrato. |
-    | Imposto | O valor do imposto aplicado na etapa. Esse valor está incluído na linha da fatura do fornecedor ao faturar para este subcontrato. |
-    | Valor após imposto | Esse campo somente leitura é calculado como Valor + Imposto. Esse valor está incluído na linha da fatura do fornecedor ao faturar para este subcontrato. |
-    | Status da Fatura | Quando o marco for criado, esse status sempre será definido como **Não está pronto para faturamento**.  Quando o status for **Pronto para Faturar**, a criação da fatura do fornecedor incluirá esse marco na fatura do fornecedor. |
+    | Campo | Descrição |Impacto funcional|
+    | --- | --- |----------------------|
+    | Nome da Etapa | O nome da etapa. |Isso será exibido como a primeira coluna em todas as pesquisas baseadas em etapas da linha de subcontrato. A linha da fatura do fornecedor criada com base nesta etapa também usará o nome da etapa da linha de subcontrato como o nome padrão da linha da fatura do fornecedor.|
+    | Descrição | Uma descrição do marco. |A linha da fatura do fornecedor criada com base nesta etapa também usará a descrição da etapa da linha de subcontrato como a descrição padrão da linha da fatura do fornecedor.|
+    | Data da Etapa | A data em que o processo de criação automática de fatura deve procurar o status desse marco para considerá-lo para o faturamento.| Este valor será usado como a data padrão da linha da fatura do fornecedor ao faturar para esta linha do subcontrato. |
+    | Amount | A quantidade ou valor da etapa que será faturada para o cliente. |Este valor é usado como o valor padrão na linha da fatura do fornecedor ao faturar para esta linha do subcontrato. |
+    | Imposto | O valor do imposto aplicado na etapa.| Este valor é usado como o valor padrão do imposto na linha da fatura do fornecedor ao faturar para esta linha do subcontrato. |
+    | Valor após imposto | Este campo somente leitura é calculado como Valor + Imposto.|Este valor é usado como o padrão na linha da fatura do fornecedor ao faturar para esta linha do subcontrato. |
+    | Status da Fatura | Quando o marco for criado, esse status sempre será definido como **Não está pronto para faturamento**.|  Quando o status for **Pronto para Faturar**, a criação da fatura do fornecedor incluirá esse marco na fatura do fornecedor. |
 
 5. Selecione **Salvar e Fechar**.
 

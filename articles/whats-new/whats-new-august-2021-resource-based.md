@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cd5a7e74fc90c6138cd672ff6109b59a8d2ae916
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 26861472d3af20c58b3d01142b834d535cf99715
+ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323447"
+ms.lasthandoff: 09/18/2021
+ms.locfileid: "7501357"
 ---
 # <a name="whats-new-august-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em agosto de 2021 – Project Operations para cenários baseados em recursos/sem estoque
 
@@ -31,7 +31,7 @@ Os seguintes recursos estão incluídos nesta versão:
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Atualizações dos mapas de gravação dupla do Project Operations
 
-Não há atualizações para mapas de Gravação Dupla do Project Operations nesta versão. 
+Não há atualizações para mapas de gravação dupla do Project Operations nesta versão.
 
 Para obter uma lista atual e versões dos mapas de gravação dupla do Project Operations, consulte [Versões de mapa de gravação dupla do Project Operations](../environment/resource-dual-write-maps.md).
 
@@ -63,4 +63,4 @@ Se você encontrar um problema ao iniciar o mapa, siga as instruções na seçã
 | Viagens e despesas | [4618082](https://fix.lcs.dynamics.com/Issue/Details?kb=4618082&amp;bugId=583101&amp;dbType=3&amp;qc=9c85ac8ca1e5e9cd07fac9e9aa2cb0914724e28b86ad3339dacf7741f554c605) | Transações incorretas de fornecedores e transações de impostos sobre vendas são lançadas quando uma despesa é criada de uma transação de cartão de crédito. |
 | Viagens e despesas | [4621765](https://fix.lcs.dynamics.com/Issue/Details?kb=4621765&amp;bugId=587306&amp;dbType=3&amp;qc=6fbfad0123d4e95eaf8d5a5a2f6c354577c991b7905c852ab02d1f94e728a876) | Excluir uma linha de despesas pode levar muito tempo. |
 | Contabilidade de projeto | [4623737](https://fix.lcs.dynamics.com/Issue/Details?kb=4623737&amp;bugId=598109&amp;dbType=3&amp;qc=4101fc5865201e21815299f2ff11ae46d5d5370510868df86c25ee09a8ca1a0c) | O sistema não dá suporte à configuração de sequenciamento numérico contínuo quando você lança uma estimativa depois de aplicar o KB 4619395. |
-| Contabilidade de projeto | [4623332](https://fix.lcs.dynamics.com/Issue/Details?kb=4623332&amp;bugId=586034&amp;dbType=3&amp;qc=2f64bb1977c4a9c9dd2ce9de7e72230b86eca14b6295c5bbfb614ea97ad81caf) | O lançamento da fatura do fornecedor pode falhar com a mensagem de erro "As transações no comprovante não têm saldo em 17/05/2021. (moeda contábil: 0,00 - moeda de relatório: 0,01)" |
+| Contabilidade de projeto | [4623332](https://fix.lcs.dynamics.com/Issue/Details?kb=4623332&amp;bugId=586034&amp;dbType=3&amp;qc=2f64bb1977c4a9c9dd2ce9de7e72230b86eca14b6295c5bbfb614ea97ad81caf) | O lançamento da fatura do fornecedor pode falhar com a mensagem de erro "As transações no comprovante não têm saldo em 17/05/2021. (moeda contábil: 0,00 – moeda de relatório: 0,01)" |

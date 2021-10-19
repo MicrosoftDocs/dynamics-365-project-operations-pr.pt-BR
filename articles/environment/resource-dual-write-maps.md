@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003802"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547095"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versões do mapa de gravação dupla do Project Operations
 
@@ -49,8 +49,8 @@ Os mapas a seguir são necessários para uma solução Project Operations. As ve
 | Tabela de integração do Project Operations para estimativas de material (msdyn\_estimateslines) | 1.0.0.0 | Não é necessário para provisionamento. |
 | Propostas de fatura do projeto V2 (faturas) | 1.0.0.3 | Não é necessário para provisionamento. |
 | Valores reais da integração do Project Operations (msdyn_actuals) | 1.0.0.14 | Não é necessário para provisionamento. |
-| Etapas da linha do contrato de integração do Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Não é necessário para provisionamento. |
-| Entidade de integração do Project Operations para estimativas de despesas (msdyn_estimateslines) | 1.0.0.2 | Não é necessário para provisionamento. |
+| Marcos de linha de contrato de integração do Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Não é necessário para provisionamento. |
+| Entidade de integração do Project Operations para estimativas de despesas (msdyn_estimatelines) | 1.0.0.2 | Não é necessário para provisionamento. |
 | Entidade de integração do Project Operations para estimativas de horas (msdyn_resourceassignments) | 1.0.0.5 | Não é necessário para provisionamento. |
 | Entidade de exportação de categorias de despesas do projeto de integração do Project Operations (msdyn_expensecategories) | 1.0.0.1 | Não é necessário para provisionamento. |
 | Entidade de exportação de despesas do projeto de integração do Project Operations (msdyn_expenses) | 1.0.0.2 | Não é necessário para provisionamento. |

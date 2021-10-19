@@ -2,17 +2,17 @@
 title: Comprar materiais sem estoque usando uma fatura de fornecedor pendente
 description: Este tópico explica como registrar faturas de fornecedores pendentes.
 author: sigitac
-ms.date: 04/12/2021
+ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ce9f244eaa549742aeb55024ca9ef4d82cde1bd4a5b9c7f8c762cf72e0da83f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e95f7dabe597968707fdd2dead40bfb93d7f1f95
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009022"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547275"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>Comprar materiais sem estoque usando uma fatura de fornecedor pendente
 
@@ -20,7 +20,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 Como uma empresa adquire materiais não estocados para um projeto, os custos podem ser logo registrados no projeto. 
 
-Por exemplo, a Contoso Robotics US está realizando um projeto de renovação de equipamentos e precisa de licenças de software. Essas licenças são adquiridas de um fornecedor terceirizado.  Usando o Dynamics 365 Finance, o administrador de contas a pagar registra um documento de fatura do fornecedor pendente e atribui os custos da licença diretamente ao projeto de renovação do equipamento. 
+Por exemplo, a Contoso Robotics US está executando um projeto de renovação de equipamentos e precisa de licenças de software. Essas licenças são adquiridas de um fornecedor terceirizado.  Usando o Dynamics 365 Finance, o administrador de contas a pagar registra um documento de fatura do fornecedor pendente e atribui os custos da licença diretamente ao projeto de renovação do equipamento. 
 
 > [!IMPORTANT]
 > Antes de usar a funcionalidade descrita neste tópico, revise e aplique as configurações necessárias. Para obter mais informações, consulte [Habilitar materiais não estocados e faturas de fornecedores pendentes](configure-materials-nonstocked.md). 
@@ -45,4 +45,5 @@ As faturas de fornecedor pendentes podem ser registradas na página **Faturas de
     - O valor do saldo do fornecedor.
     - O valor do imposto.
     - O custo do projeto é registrado na conta de integração de aquisições.
-    - A transação real do projeto no Dataverse. Esta transação é posteriormente processada usando o [diário de integração do Project Operations](../project-accounting/project-operations-integration-journal.md). A postagem deste diário move o valor da conta de integração de aquisições para a conta de custo do projeto.
+    - A transação de custo real do projeto no Dataverse.  Esta transação é posteriormente processada usando o [diário de integração do Project Operations](../project-accounting/project-operations-integration-journal.md). A postagem deste diário move o valor da conta de integração de aquisições para a conta de custo do projeto. 
+    - Compras que são faturadas para o cliente do projeto usando o método de cobrança de tempo e materiais. Além disso, transações de vendas não faturadas são criadas para as compras no Dataverse. A lista de preços do produto no Dataverse é usada para os preços de venda e os valores das transações de vendas não faturadas.
