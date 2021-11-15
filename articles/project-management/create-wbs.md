@@ -2,16 +2,16 @@
 title: Criar uma estrutura de detalhamento de trabalho
 description: Este tópico explica como criar uma estrutura de detalhamento de trabalho (WBS), incluindo os controles básicos na nova interface de agendamento.
 author: ruhercul
-ms.date: 01/07/2021
+ms.date: 06/30/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 701c386af8a227308d6868deda27a63e6101e85f667b0392501bb0490329f484
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
+ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998717"
+ms.lasthandoff: 10/19/2021
+ms.locfileid: "7655403"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura de detalhamento de trabalho (WBS)
 
@@ -117,5 +117,26 @@ O modo de tarefa não tem efeito em atualizações que são feitas nas datas de 
 
 A grade **Agendar** é totalmente acessível e pode ser usada com leitores de tela como o Narrator, JAWS ou NVDA. Você pode se mover pela área da grade usando as teclas de seta (como no Microsoft Excel), pode usar a tecla Tab para avançar pelos elementos da interface de usuário interativa, bem como usar a tecla de seta para baixo, a tecla Enter ou a barra de espaços para selecionar e abrir os menus suspensos.
 
+## <a name="project-limitations"></a>Limitações do projeto 
+Você deve estar ciente das limitações a seguir se estiver usando a estrutura de detalhamento de trabalho no Project Operations. Esses limites se aplicam a projetos e tarefas. Para mais informações, veja [Limites e fronteiras do Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
+
+| **Campo**                                          |  **Limit**           |
+|----------------------------------------------------|----------------------|
+| Total máximo de tarefas para um projeto                  | 500                  |
+| Duração máxima total para um projeto               | 3.650 dias (10 anos) |
+| Total máximo de recursos para um projeto              | 150                  |
+| Total máximo de links (somente sucessor) para um projeto | 600                  |
+| Total máximo de campos personalizados para um projeto          | 10                   |
+
+**Limitações do projeto**
+
+| **Campo**                               |   **Limit**           |
+|-----------------------------------------|-----------------------|
+| Nível máximo de hierarquia                 | 10 níveis             |
+| Links máximos (sucessor + predecessor) | 20                    |
+| Duração máxima da tarefa folha           | 1250 dias             |
+| Duração máxima de uma tarefa de resumo      | 3.650 dias (10 anos)  |
+| Recursos máximos atribuídos a uma tarefa    | 20 recursos          |
+| Intervalo de datas com suporte para uma tarefa         | 1/1/2000 a 31/12/2149 |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

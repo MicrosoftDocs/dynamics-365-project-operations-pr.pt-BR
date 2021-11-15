@@ -1,32 +1,32 @@
 ---
-title: Atualizar um projeto
+title: Criar e atualizar um projeto
 description: Este tópico fornece informações sobre a atualização de projetos no Project Operations.
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 10/20/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: b0ec03a2c4dd7bc833b22b7a93fed810b4998a2788f4ff40234e3dd163bd9eb6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d0847b5343cf3e353b91eae04c94509f14213ba5
+ms.sourcegitcommit: 51224cb3bf7cdeae6614d39fc8d899c83dbad5f2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000877"
+ms.lasthandoff: 10/23/2021
+ms.locfileid: "7678335"
 ---
-# <a name="update-a-project"></a>Atualizar um projeto
+# <a name="create-and-update-a-project"></a>Criar e atualizar um projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Veja a seguir um resumo dos campos que podem ser atualizados em um projeto após sua criação e todas as implicações aplicáveis das atualizações.
+A seguir, um resumo dos campos que podem ser atualizados em um projeto após sua criação. Isso também inclui quaisquer implicações aplicáveis com base nessas atualizações.
 
 ## <a name="project-detail-fields"></a>Campos de detalhes do projeto
 
 - **Nome**: o título do projeto.
 - **Descrição**: uma visão geral do projeto.
 - **Cliente**: a empresa para a qual o projeto será entregue.
-- **Modelo de calendário**: as horas de trabalho do projeto. Quando o campo é alterado, toda a agenda é recalculada.
-- **Moeda**: a moeda do projeto. Este campo é padronizado com base na moeda definida na unidade de contratação. Quando a unidade de contratação é atualizada, o campo também é atualizado.
-- **Unidade de Contratação**: a unidade organizacional que representa o grupo ou a divisão da empresa que primariamente é responsável por efetuar vendas e gerenciar a prestação de trabalho e serviços ao cliente. 
+- **Modelo de calendário**: as horas de trabalho do projeto. Quando o campo é alterado, a agenda inteira é recalculada.
+- **Moeda**: a moeda do projeto. O valor padrão para esse campo se baseia na moeda definida na unidade de contratação. Quando a unidade de contratação é atualizada, o campo também é atualizado.
+- **Unidade de Contratação**: a unidade organizacional que representa o grupo ou a divisão da empresa que primariamente é responsável por efetuar vendas e gerenciar a prestação de trabalho e serviços ao cliente.  Quando a unidade organizacional do gerente de projeto não estiver definida, esse campo assumirá o valor padrão definido nos parâmetros do projeto.
 - **Gerente de Projeto**: o membro da equipe do projeto que tem autoridade para revisar e aprovar entradas de horas e despesas.
 
 ## <a name="estimate-fields"></a>Campos de estimativa

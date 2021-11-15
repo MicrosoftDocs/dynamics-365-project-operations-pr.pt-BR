@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: Integração de faturas de fornecedores
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: Desinstalar o Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
         - name: Outubro de 2021 – Project Operations para cenários baseados em recursos/sem estoque
@@ -296,8 +298,10 @@
           items:
             - name: Desenvolver modelos de projeto com Copiar Projeto
               href: project-management/dev-copy-project.md
-            - name: Usar APIs de agenda do Projeto
+            - name: Usar APIs de agenda do projeto
               href: project-management/schedule-api-preview.md
+            - name: Desempenho da API de agenda do projeto
+              href: project-management/project-schedule-api-performance.md
     - name: Gerenciamento de recursos
       items:
         - name: Conceitos principais
@@ -800,8 +804,10 @@
           items:
             - name: Desenvolver modelos de projeto com Copiar Projeto
               href: project-management/dev-copy-project.md
-            - name: Usar APIs de agenda do Projeto
+            - name: Usar APIs de agenda do projeto
               href: project-management/schedule-api-preview.md
+            - name: Desempenho da API de agenda do projeto
+              href: project-management/project-schedule-api-performance.md
     - name: Gerenciamento de recursos
       items:
         - name: Conceitos principais
@@ -1102,6 +1108,8 @@
       items:
         - name: Agenda de lançamento da Versão de Atualização do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou alterações na Versão de atualização 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'Novidades ou alterações na Versão de atualização 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Novidades ou alterações na Versão de Atualização 35, V3'

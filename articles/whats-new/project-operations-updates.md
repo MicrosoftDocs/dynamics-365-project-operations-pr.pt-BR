@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 970fcc71b3ebe1489c676727598ebbb296e9c989
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 493218d53075f3044adce47bed8ecdc031cca8e7
+ms.sourcegitcommit: b8b7a59eee7d93638446e93726d270316e45ab3d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623302"
+ms.lasthandoff: 11/10/2021
+ms.locfileid: "7783409"
 ---
 # <a name="project-operations-updates"></a>Atualizações do Project Operations
 
@@ -36,7 +36,7 @@ O Dynamics 365 Project Operations consiste em dois componentes:
 
 | Project Operations no ambiente do Dataverse | Gerenciamento e contabilidade de projeto nos ambientes dos aplicativos Finance and Operations | 
 | --- | --- |
-| 4.25.0.91 | 10.0.20 |
+| 4.26.0.145 | 10.0.21 |
 
 Para o cenário de recursos do Project Operations/sem estoque, recomendamos o uso do Dual Write Orchestration versão 2.2.2.83 ou superior.
 
@@ -47,23 +47,23 @@ As atualizações para Project Operations no ambiente do Dataverse estão dispon
 | Estação | Região | Número da versão atual | Atualizações automáticas para implantação Lite | Atualizações automáticas para implantação de Recursos/sem estoque | Número da próxima versão | Próxima versão disponível ao público |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estação 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira Versão         |  4.25.0.91      | Concluída           | Concluída            | TBD                 | 29 de outubro de 2021    |
+|   &nbsp;  | Primeira Versão         |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 03 de dezembro de 2021   |
 | Estação 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sul         |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | TBD                 | 29 de outubro de 2021    |
-|   &nbsp;  | Canadá                |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | TBD                 | 29 de outubro de 2021    |
-|   &nbsp;  | Índia                 |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | TBD                 | 29 de outubro de 2021    |
-|   &nbsp;  | França                |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | TBD                 | 29 de outubro de 2021    |
-|   &nbsp;  | África do Sul          |  4.25.0.91      | Concluída           | 15 de outubro de 2021    | TBD                 | 29 de outubro de 2021    |
+|   &nbsp;  | América do Sul         |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 03 de dezembro de 2021   |
+|   &nbsp;  | Canadá                |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 03 de dezembro de 2021   |
+|   &nbsp;  | Índia                 |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 03 de dezembro de 2021   |
+|   &nbsp;  | França                |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 03 de dezembro de 2021   |
+|   &nbsp;  | África do Sul          |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 03 de dezembro de 2021   |
 | Estação 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japão                 |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | TBD                 | 05 de novembro de 2021   |
-|   &nbsp;  | Pacífico Asiático          |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | TBD                 | 05 de novembro de 2021   |
-|   &nbsp;  | Grã-Bretanha         |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | TBD                 | 05 de novembro de 2021   |
-|   &nbsp;  | Oceania               |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | TBD                 | 05 de novembro de 2021   |
-|   &nbsp;  | Emirados Árabes Unidos  |  4.25.0.91      | 15 de outubro de 2021   | 22 de outubro de 2021    | TBD                 | 05 de novembro de 2021   |
+|   &nbsp;  | Japão                 |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 10 de dezembro de 2021   |
+|   &nbsp;  | Pacífico Asiático          |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 10 de dezembro de 2021   |
+|   &nbsp;  | Grã-Bretanha         |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 10 de dezembro de 2021   |
+|   &nbsp;  | Oceania               |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 10 de dezembro de 2021   |
+|   &nbsp;  | Emirados Árabes Unidos  |  4.26.0.145     | 12 de novembro de 2021  | 19 de novembro de 2021   | TBD                 | 10 de dezembro de 2021   |
 | Estação 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.14.0.99      | Concluída           | Concluída            | 4.25.0.91           | 15 de outubro de 2021    |
+|   &nbsp;  | Europa                |  4.25.0.91      | Concluída           | Concluída            | 4.26.0.145          | 12 de novembro de 2021   |
 | Estação 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.14.0.99      | Concluída           | 08 de outubro de 2021    | 4.25.0.91           | 22 de outubro de 2021    |
+|   &nbsp;  | América do Norte         |  4.25.0.91      | Concluída           | Concluída            | 4.26.0.145          | 19 de novembro de 2021   |
 
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Agenda da versão para Gerenciamento e contabilidade de projeto no ambiente dos aplicativos Finance and Operations
@@ -72,14 +72,15 @@ As atualizações para gerenciamento e contabilidade de projetos são lançadas 
 
 |Versão compatível| Exibição da disponibilidade (PEAP) | Geralmente disponível (atualização automática) | Cronograma de atualização automática (via Configurações de Atualização de LCS) - data de início da produção |   Fim do serviço   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
+|     10.0.22     |      3 de setembro de 2021      |        22 de outubro de 2021           |                          5 de novembro de 2021                            | 14 de janeiro de 2022   |
 |    10.0.21      |         02 de agosto de 2021     |           17 de setembro de 2021      |                             1 de outubro de 2021                          |  10 de dezembro de 2021 |
-|    10.0.20      |         28 de maio de 2021        |           16 de julho de 2021           |                             30 de julho de 2021                            |  22 de outubro de 2021  |
+
 
 As datas planejadas da versão estão sujeitas a alterações. Para obter mais informações, consulte [Disponibilidade de atualização de serviço](/dynamics365/fin-ops-core/fin-ops/get-started/public-preview-releases?toc=%2fdynamics365%2ffinance%2ftoc.json).
 
 |Versão de Destino | Exibição da disponibilidade (PEAP) | Geralmente disponível (atualização automática) | Cronograma de atualização automática (via Configurações de Atualização de LCS) - data de início da produção |   Fim do serviço   |
 |:---------------:|:---------------------------:|:---------------------------------:|:--------------------------------------------------------------------:|:------------------:|
-|     10.0.22     |      3 de setembro de 2021      |          22 de outubro de 2021         |                           5 de novembro de 2021                           |  14 de janeiro de 2022  |
 |     10.0.23     |      15 de outubro de 2021       |        10 de dezembro de 2021          |                          31 de dezembro de 2021                           | 18 de março de 2022     |
+|     10.0.24     |      3 de dezembro de 2021       |        14 de janeiro de 2022           |                          4 de fevereiro de 2022                            | 15 de abril de 2022     |
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
