@@ -52,13 +52,15 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integração do gerenciamento de despesas
               href: environment/resource-dual-write-expense.md
-            - name: Integração de faturas de fornecedores
+            - name: Integração da fatura de fornecedor
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Desinstalar o Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
-        - name: Outubro de 2021 – Project Operations para cenários baseados em recursos/sem estoque
+        - name: Novembro de 2021 – Project Operations para cenários baseados em recurso/sem estoque
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: Outubro de 2021 – Project Operations para cenários baseados em recurso/sem estoque
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: Setembro de 2021 – Project Operations para cenários baseados em recursos/sem estoque
           href: whats-new/whats-new-sept-2021-resource-based.md
@@ -302,6 +304,8 @@
               href: project-management/schedule-api-preview.md
             - name: Desempenho da API de agenda do projeto
               href: project-management/project-schedule-api-performance.md
+            - name: Logs de agendamento do projeto
+              href: project-management/schedule-api-logs.md
     - name: Gerenciamento de recursos
       items:
         - name: Conceitos principais
@@ -542,8 +546,10 @@
           href: environment/security-model.md
     - name: Novidades
       items:
-        - name: Novidades no acesso antecipado ao ciclo 2 de 2021 - implantação lite
+        - name: Novidades no acesso antecipado do ciclo 2 de 2021 – implantação lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novidades em novembro de 2021 – implantação lite
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novidades em outubro de 2021 – implantação lite
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: Novidades em setembro de 2021 – implantação lite
@@ -948,11 +954,15 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configurar automação de fatura do projeto
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-- name: Project Operations para cenários baseados em estoque/produção
+- name: Project Operations para cenários baseados em produção/em estoque
   items:
     - name: Novidades
       items:
-        - name: Novidades em julho de 2021 – Project Operations para cenários baseados em estoque/produção
+        - name: Novidades em outubro de 2021 – Project Operations para cenários baseados em produção/em estoque
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: Novidades em setembro de 2021 – Project Operations para cenários baseados em produção/em estoque
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+        - name: Novidades em julho de 2021 – Project Operations para cenários baseados em produção/em estoque
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: Novidades em maio de 2021 – Project Operations para cenários baseados em estoque/produção
           href: prod-pma/whats-new/whats-new-may-2021-stocked.md
@@ -1106,11 +1116,13 @@
       href: psa/overview.md
     - name: Novidades
       items:
-        - name: Agenda de lançamento da Versão de Atualização do Project Service 3.x
+        - name: Agenda de versão de atualização para o Project Service 3.x
           href: psa/version-history-ps.md
-        - name: 'Novidades ou alterações na Versão de atualização 37, V3'
+        - name: 'Novidades ou alterações na Versão de Atualização 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
+        - name: 'Novidades ou alterações na Versão de Atualização 37, V3'
           href: psa/whats-new-ur-37.md
-        - name: 'Novidades ou alterações na Versão de atualização 36, V3'
+        - name: 'Novidades ou alterações na Versão de Atualização 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'Novidades ou alterações na Versão de Atualização 35, V3'
           href: psa/whats-new-ur-35.md

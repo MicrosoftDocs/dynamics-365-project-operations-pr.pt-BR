@@ -2,7 +2,7 @@
 title: Aplicativo móvel de despesas
 description: Esse tópico fornece informações sobre o espaço de trabalho móvel Gerenciamento de despesas.
 author: suvaidya
-ms.date: 09/23/2020
+ms.date: 11/15/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 88251552a937f0a3a066e08b87dbd5f7b73c46c69776fbc788d37cc21fe73541
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5ab5959fa5c9c5463826a9a792112a93e469de5f
+ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993182"
+ms.lasthandoff: 11/17/2021
+ms.locfileid: "7818169"
 ---
 # <a name="mobile-expense-app"></a>Aplicativo móvel de despesas
 
@@ -47,42 +47,9 @@ Você também pode usar estes recursos:
 - Envie um relatório de despesas para aprovação e reembolso.
 - Aprove ou rejeite relatórios de despesas para os quais você seja um aprovador atribuído.
 
-## <a name="prerequisites"></a>Pré-requisitos
-Os pré-requisitos variam, com base na versão que foi implantada para sua organização.
+## <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Pré-requisitos se você usar Dynamics 365 Finance
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Pré-requisitos se você usar Dynamics 365 Finance 
 Se o Finance foi implantado para sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Gerenciamento de despesas**. 
-
-### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar a versão 1611 com atualização de plataforma 3 ou posterior
-Se a versão 1611 com atualização da plataforma 3 ou posterior foi implantada para sua organização, o administrador do sistema deverá preencher os pré-requisitos a seguir. 
-
-<table>
-<thead>
-<tr class="header">
-<th>Pré-requisito</th>
-<th>Função</th>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>Implemente o KB 4019015.</td>
-<td>Administrador do sistema</td>
-<td>KB 4019015 é uma atualização X++ ou hotfix de metadados que contém o espaço de trabalho móvel <strong>Gerenciamento de despesas</strong>. Para implementar o KB 4019015, o administrador do sistema deve seguir estas etapas.
-<ol>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixe atualizações do Lifecycle Services</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instale o hotfix de metadados</a>.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implantável</a> que contém os modelos <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong> e, em seguida, carregue o pacote implantável no LCS.</li>
-<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implantável</a>.</li>
-</ol></td>
-</tr>
-<tr class="even">
-<td>Publique o espaço de trabalho móvel <strong>Gerenciamento de despesas</strong>.</td>
-<td>Administrador do sistema</td>
-<td>Consulte <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar um espaço de trabalho móvel</a>.</td>
-</tr>
-</tbody>
-</table>
 
 ## <a name="download-and-install-the-dynamics-365-unified-ops-mobile-app"></a>Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops
 Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
@@ -103,11 +70,11 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
 3. Selecione **Tirar foto** ou **Escolher imagem**.
 4. Siga uma destas etapas:
 
-   - Se você selecionou **Tirar foto**, Siga estas etapas:
+    - Se você selecionou **Tirar foto**, Siga estas etapas:
 
-      1. Você é levado para a câmera do dispositivo móvel para poder tirar uma foto do recibo. 
-      2. Quando terminar de tirar uma foto, selecione **OK** para aceitar a foto.
-      3. Opcional: insira um nome para a foto e anotações.
+        1. Você é levado para a câmera do dispositivo móvel para poder tirar uma foto do recibo. 
+        2. Quando terminar de tirar uma foto, selecione **OK** para aceitar a foto.
+        3. Opcional: insira um nome para a foto e anotações.
 
     - Se você selecionou **Escolher imagem**, siga estas etapas:
 
@@ -133,20 +100,20 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
 
 10. Escolha **Concluído**.
 
-## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Aprove um relatório de despesas usando o espaço de trabalho móvel Gerenciamento de despesas (se você usar a atualização de julho de 2017)
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace"></a>Aprovar um relatório de despesas usando o espaço de trabalho móvel Gerenciamento de despesas
 
 1. No dispositivo móvel, abra o espaço de trabalho **Gerenciamento de despesas**.
 2. **Aprovações de despesas** mostra o número de relatórios de despesas atribuídos a você para aprovação. O número é atualizado aproximadamente a cada 30 minutos. Selecione **Aprovações de despesas**.
 
     A lista de relatórios de despesas atribuídos a você para aprovação é mostrada.
-    
+
 3. Selecione um relatório de despesas para exibir os detalhes das despesas.
 4. Selecione uma despesa para exibir os detalhes dela. As informações que são mostradas para uma despesa incluem detalhes de recibo, convidado e discriminação.
 5. Na página **Relatório de despesas**, selecione para aprovar ou rejeitar o relatório de despesas.
 6. Insira comentários para a ação de aprovação.
 7. Escolha **Concluído**.
 
-## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Crie um novo relatório de despesas e envie-o para aprovação usando o espaço de trabalho móvel Gerenciamento de despesas (se você usar a atualização de julho de 2017)
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace"></a>Crie um novo relatório de despesas e o envie para aprovação usando o espaço de trabalho móvel Gerenciamento de despesas
 
 1. No dispositivo móvel, abra o espaço de trabalho **Gerenciamento de despesas**.
 2. Selecione **Entrada de despesas**.
@@ -184,12 +151,12 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
                     1. Selecione uma imagem na lista.
                     2. Opcional: insira um nome para a imagem e anotações.
 
-            3.  Escolha **Concluído**.
+            3. Escolha **Concluído**.
 
         - Se você selecionou **Anexar recibo**, siga estas etapas:
 
-            1.  Selecione uma ou mais imagens na lista.
-            2.  Escolha **Concluído**.
+            1. Selecione uma ou mais imagens na lista.
+            2. Escolha **Concluído**.
 
     3. Selecione o botão **Voltar** para retornar aos detalhes de despesas.
 
@@ -233,7 +200,32 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
 21. Repita as etapas anteriores até terminar de adicionar todas as despesas.
 22. Selecione **Enviar**.
 23. Insira comentários para o aprovador.
-24. Escolha **Concluído**.
+24. Selecione **Concluído**.
 
+## <a name="frequently-asked-questions"></a>Perguntas frequentes
+
+### <a name="why-doesnt-the-expense-mobile-app-enter-the-payment-method-by-default"></a>Por que o aplicativo móvel de despesas não entra no método de pagamento por padrão?
+
+As organizações podem personalizar a configuração do **método de pagamento padrão** para cada categoria de despesa ao criá-la. Além disso, ao configurar métodos de pagamento, você pode definir o campo **Método de pagamento padrão** como **Importar apenas**.
+
+Quando **Importar apenas** estiver habilitado para um método de pagamento, o método de pagamento não será inserido por padrão. Ele fiará em branco em categorias de despesas em que este método de pagamento esteja configurado. Esse comportamento é consistente na experiência da Web e na experiência móvel.
+    
+Quando **Importar apenas** não estiver habilitado para um método de pagamento, o valor definido será inserido por padrão para as categorias de despesas em que esse método de pagamento esteja configurado. No entanto, há um problema conhecido em que o valor padrão não é inserido no aplicativo móvel de despesas. Para contornar esse problema, selecione manualmente um método de pagamento antes de salvar o relatório de despesas. 
+
+### <a name="why-cant-i-add-or-edit-financial-dimensions-in-the-expense-mobile-app"></a>Por que não posso adicionar ou editar dimensões financeiras no aplicativo móvel de despesas?
+
+A entrada de dimensões e distribuições não é compatível. Para contornar essa limitação, você pode definir esses campos por padrão no aplicativo móvel, configurando as dimensões financeiras padrão por projeto ou funcionário.
+
+### <a name="why-do-i-sometimes-see-a-synchronization-error-in-the-expense-mobile-app"></a>Por que às vezes vejo um erro de sincronização no aplicativo móvel de despesas?
+
+Se as linhas de despesas não atenderem aos requisitos da política e o usuário enviar o relatório de despesas sem tratar do aviso da política, os dados móveis não serão sincronizados com o servidor e ocorrerá uma falha de sincronização. Todos os relatórios de despesas enviados após a ocorrência de uma falha de sincronização permanecerão em um estado de falha e causarão mais falhas de sincronização. A única forma de corrigir essa situação é excluir manualmente as notificações de sincronização. Esse problema foi solucionado, interrompendo o envio de relatórios de despesas quando os avisos de política não foram resolvidos; assim, evita-se os erros de sincronização.
+
+### <a name="why-isnt-project-and-category-validation-correctly-reflected-in-the-expense-mobile-app"></a>Por que a validação do projeto e da categoria não é refletida corretamente no aplicativo móvel de despesas?
+
+Não há suporte a essa validação no momento. No entanto, o suporte pode ser adicionado no futuro. 
+
+### <a name="what-document-types-are-supported-in-the-expense-mobile-app"></a>Quais tipos de documentos são compatíveis com o aplicativo móvel de despesas?
+
+O aplicativo móvel de despesas oferece suporte apenas a imagens. Atualmente, ele não oferece suporte a PDFs ou outros documentos.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
