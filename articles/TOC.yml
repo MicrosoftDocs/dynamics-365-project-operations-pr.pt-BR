@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: Atualizações do Project Operations
       href: whats-new/project-operations-updates.md
+    - name: Recursos removidos ou preteridos
+      items:
+        - name: Recursos removidos ou obsoletos no Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations para cenários baseados em recursos/sem estoque
   items:
     - name: Introdução
@@ -58,7 +62,9 @@
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
-        - name: Novembro de 2021 – Project Operations para cenários baseados em recurso/sem estoque
+        - name: Dezembro de 2021 – Project Operations para cenários baseados em recursos/sem estoque
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: Novembro de 2021 – Project Operations para cenários baseados em recursos/sem estoque
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: Outubro de 2021 – Project Operations para cenários baseados em recurso/sem estoque
           href: whats-new/whats-new-oct-2021-resource-based.md
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: Configurar milhagem usando níveis de taxa de milhagem
               href: expense/set-up-mileage.md
+        - name: Discriminação de despesas
+          href: prod-exp/expense-itemization.md
         - name: Despesas pessoais
           href: expense/personal-expenses-expense-report.md
         - name: Despesas intercompanhia
@@ -526,10 +534,16 @@
               href: revenue-recognition/rev-rec-cost-templates.md
         - name: Estimativa de receita de projeto de preço fixo
           href: revenue-recognition/rev-rec-percentage-completion-method.md
-        - name: Custo para concluir métodos
+        - name: Métodos de custo de conclusão
           href: revenue-recognition/cost-complete-methods.md
         - name: Gerenciar estimativas de receita
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: Solução de Problemas
+      items:
+        - name: Processo de vendas do projeto
+          items:
+            - name: 'Erro de incompatibilidade de moeda ao criar projeto, contrato, cotação ou recurso reservável'
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: Implantação lite – gerenciar faturamento pro forma
   items:
     - name: Introdução
@@ -548,6 +562,8 @@
       items:
         - name: Novidades no acesso antecipado do ciclo 2 de 2021 – implantação lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: Novidades em dezembro de 2021 – implantação lite
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: Novidades em novembro de 2021 – implantação lite
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: Novidades em outubro de 2021 – implantação lite
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: Etapas da linha de subcontrato
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subcontratando membros da equipe do projeto
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opções de subcontratação de membros da equipe do projeto
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimativa de custo de atribuições de recursos subcontratados
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurar o Quadro de Agendamento para mostrar os trabalhadores contratados e a capacidade subcontratada
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Recrutando trabalhadores contratados e capacidade subcontratada para um projeto
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registrando hora, despesas e uso de material para componentes subcontratados'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transições de estado em um subcontrato
+          href: pro/subcontracting/subcon-states.md
     - name: Hora
       items:
         - name: Visão geral de hora
@@ -1116,8 +1146,10 @@
       href: psa/overview.md
     - name: Novidades
       items:
-        - name: Agenda de versão de atualização para o Project Service 3.x
+        - name: Agenda de Versão de Atualização para o Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou alterações na Versão de Atualização 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'Novidades ou alterações na Versão de Atualização 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'Novidades ou alterações na Versão de Atualização 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: Guia de relatórios
           href: psa/implementation-guides/reporting-guide.md
+    - name: Atualizar do Project Service Automation para o Project Operations - lite
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: Atualização do Project Service Automation (versão 3.x do aplicativo)
       items:
         - name: Atualização do Project Service Automation
