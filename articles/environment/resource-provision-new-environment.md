@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7f63b144b6fe3eb848d0c303b64237516a97cb56
-ms.sourcegitcommit: 083e3d219cd5126eecb74debb1b70b361680b1f6
+ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/18/2021
-ms.locfileid: "7501402"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928647"
 ---
 # <a name="provision-a-new-environment"></a>Provisionar um novo ambiente
 
@@ -159,7 +159,6 @@ A atualização levará aproximadamente 20 minutos. Você receberá um alerta qu
       - **Calendário fiscal**
       - **Razão**
       - **Empresa**
-      - **Tipo da taxa de câmbio de moeda**
       - **Despesa**
 
 5. Depois que o direito de acesso for atualizado, vá para **Configurações** > **Segurança** > **Equipes** e selecione a equipe padrão na exibição de equipe **Proprietário de empresa local**.

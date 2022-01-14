@@ -2,16 +2,16 @@
 title: Inscrever-se para avaliações do Project Operations
 description: Esse tópico fornece informações sobre como implantar uma avaliação do Dynamics 365 Project Operations.
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599199"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901603"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrever-se para avaliações do Project Operations 
 
@@ -90,7 +90,8 @@ Antes de começar, entre em um navegador com a conta de trabalho do usuário no 
 4.  Selecione a respectiva URL do Microsoft Dataverse e as URLs dos aplicativos do Finance and Operations para validar a implantação.
 
 ## <a name="configuring-dual-write"></a>Configuração da gravação dupla
-Apenas para implantações de materiais sem estoque, configure seus mapeamentos de gravação dupla. Para mais informações, consulte [Versões de mapa de gravação dupla do Project Operations](resource-dual-write-maps.md).
+- Para configurar funções de segurança para gravação dupla, consulte [Atualizar as configurações de segurança no Project Operations no Dataverse](resource-provision-new-environment.md).
+- Para configurar mapas de gravação dupla, consulte [Executar mapas de gravação dupla do Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuir licenças
 

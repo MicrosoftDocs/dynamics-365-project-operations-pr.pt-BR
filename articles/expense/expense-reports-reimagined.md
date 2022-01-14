@@ -1,8 +1,8 @@
 ---
-title: Relatórios de despesas reinventados
+title: Relatórios de despesas reinventados (contém vídeo)
 description: Este tópico explica a experiência reprojetada e reimaginada para a entrada de relatórios de despesas.
 author: suvaidya
-ms.date: 07/08/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: dba30d16283d820d04d3a1b2fec0acbf30252e87b86c899686ef4df0985ae6ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5812ebf5a96afee53144efb231093f6af85b68
+ms.sourcegitcommit: 1186e9822e06a13fde89b67ea89427eddfe23cee
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997817"
+ms.lasthandoff: 12/20/2021
+ms.locfileid: "7941020"
 ---
 # <a name="expense-reports-reimagined"></a>Relatórios de despesas reinventados
 
@@ -58,6 +58,7 @@ Para ativar a nova experiência, use o espaço de trabalho **Gerenciamento de re
 | Salvar e adicionar novas linhas de despesa | Os botões **Salvar** e **Novo** estão disponíveis quando novas despesas são inseridas, para ajudar a inserir rapidamente as linhas de despesas. |
 | Melhor visibilidade em linhas divididas e discriminadas | As linhas discriminadas e divididas são adicionadas diretamente à lista de despesas, para aumentar a visibilidade e ajudar a determinar facilmente se há erros. |
 | Veja os detalhes da subcategoria em linhas discriminadas | As linhas discriminadas de uma despesa pai mostram os rótulos de subcategoria no relatório de despesas. A discriminação permite que você revise os detalhes granulares rapidamente.|
+|Discriminar despesas recorrentes por item rapidamente | O espaço de trabalho de despesas reinventado oferece a capacidade de detalhar as despesas recorrentes rapidamente, adicionando a subcategoria, a data de início e a quantidade. A quantidade refere-se ao número de vezes que a carga é repetida em um período contínuo. |
 | Mostrar recibos durante a discriminação | Os recibos podem ser exibidos durante a discriminação. |
 | Seleção de adiantamento em dinheiro | Selecione um ou mais adiantamentos em dinheiro para cumprir uma única transação de despesa. |
 | Saldo de adiantamento em dinheiro | Revise o saldo de adiantamento em dinheiro em tempo real ao criar uma entrada de despesa em adiantamentos em dinheiro aprovados e pagos. |

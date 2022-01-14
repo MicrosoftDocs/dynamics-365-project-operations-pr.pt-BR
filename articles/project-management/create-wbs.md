@@ -2,16 +2,16 @@
 title: Criar uma estrutura de detalhamento de trabalho
 description: Este tópico explica como criar uma estrutura de detalhamento de trabalho (WBS), incluindo os controles básicos na nova interface de agendamento.
 author: ruhercul
-ms.date: 06/30/2021
+ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: f77450d0d754606dd336072248012fea462510a4
-ms.sourcegitcommit: a12d21c7cab296f5b6a3181d76a06f57dee1267c
+ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
+ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/19/2021
-ms.locfileid: "7655403"
+ms.lasthandoff: 12/17/2021
+ms.locfileid: "7928601"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura de detalhamento de trabalho (WBS)
 
@@ -95,7 +95,7 @@ Como administrador, você pode definir campos personalizados na entidade de tare
 
 ## <a name="staffing-attributes"></a>Atributos de pessoal
 
-Os atributos de equipe são acessados pelo campo **Recursos** na agenda. Você pode procurar um recurso existente ou selecionar **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipe do projeto como um novo recurso.
+Os atributos de equipe são acessados pelo campo **Recursos** na agenda. Você pode procurar um recurso existente ou selecionar **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipe do projeto como um novo recurso.  Quando você pesquisa um recurso usando o seletor de recursos na grade de tarefas, exibição de quadro ou gantt, a pesquisa retorna membros da equipe de projeto existentes ou recursos reserváveis ativos.
 
 Os campos **Função**, **Unidade de Recursos** e **Nome da Posição** são usados para descrever os requisitos de equipe para a tarefa. Esses atributos de equipe em conjunto com a agenda da tarefa são usados para encontrar recursos disponíveis para realização da tarefa.
 
@@ -127,6 +127,7 @@ Você deve estar ciente das limitações a seguir se estiver usando a estrutura 
 | Total máximo de recursos para um projeto              | 150                  |
 | Total máximo de links (somente sucessor) para um projeto | 600                  |
 | Total máximo de campos personalizados para um projeto          | 10                   |
+| Máximo de itens da lista de verificação por tarefa                   | 20                   |
 
 **Limitações do projeto**
 
