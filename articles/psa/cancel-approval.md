@@ -2,6 +2,8 @@
 title: Cancelar entradas de tempo e despesa aprovadas anteriormente
 description: Este tópico fornece informações sobre como cancelar uma transação aprovada de tempo e despesa do projeto.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 09b85ea302ac46171afbd531a551aa5fbf5492a3644cba3448be03009840228c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ea42c6755b4b48d986e385879607d659c57f483d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987422"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150564"
 ---
 # <a name="cancel-previously-approved-time-or-expense-entries"></a>Cancelar entradas de tempo ou despesa aprovadas anteriormente
 
@@ -60,6 +62,3 @@ Um projeto também é afetado financeiramente quando uma aprovação é cancelad
 Em seguida, as entradas reversas são criadas na tabela Dados reais. Para criar entradas de reversão, o sistema dados reais originais nos valores de campo. Os únicos valores que não são copiados são os valores de quantidade. Esses valores são revertidos. Os dados reais revertidos são criados para dados reais de **Custo** e **Vendas Não Cobradas**. O campo **Status do Ajuste** nos dados reais revertidos é definido como **Não Ajustável** e o status de cobrança é definido como **Cancelado**.
 
 Depois que as alterações forem feitas, o valor que é registrado como gasto no projeto e na lista de pendências de receita no projeto não será mais contado para os valores representados por esses dados reais.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

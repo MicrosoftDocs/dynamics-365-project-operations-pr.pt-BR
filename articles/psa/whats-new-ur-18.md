@@ -2,6 +2,8 @@
 title: Novidades ou alterações na Versão de Atualização 18 do Project Service Automation V3
 description: Este tópico lista os recursos e as correções novas ou alteradas disponíveis na Versão de Atualização 18 do Project Service Automation V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 43491a3820d84e9d2a43e678f2604e234e18794d9e28889429debc0b991bbfac
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d6e0bb669513185ca266858ea9b8a89ed6dd4408
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004342"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147189"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Versão de Atualização 18, do Project Service Automation V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
+Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Este tópico lista os recursos e as correções novas ou alteradas para o Project Service Automation V3, Versão de Atualização 18. Esta versão apresenta o número de build V3.10.8.12 e geralmente está disponível por meio de uma atualização automática de abril de 2020.
 
@@ -61,6 +63,3 @@ Este tópico lista os recursos e as correções novas ou alteradas para o Projec
 **Sales**
 
 - Corrigido: quando as entradas de horário são aprovadas novamente (**Aprovar > Cancelar >** aprovar novamente), uma duplicata real não cobrável é criada.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

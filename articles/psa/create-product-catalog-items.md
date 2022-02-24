@@ -2,6 +2,8 @@
 title: Criar itens do catálogo de produtos
 description: Como criar itens do catálogo de produtos no Project Service
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 727f7139ec590ff2994d1ae7e7c5dddbd50a7733b0e5935f3fd6bdefde713713
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f29d36b97615dbaa9b85987b749045c0e9daf262
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995342"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144669"
 ---
 # <a name="create-product-catalog-items-project-service"></a>Criar itens do catálogo de produtos (Project Service)
 
@@ -31,10 +33,7 @@ ms.locfileid: "6995342"
 
 Se você quiser incluir produtos, como licenças de software, em suas cotações e estimativas de projeto, será necessário adicionar cada produto ao catálogo de produtos.  
   
- Para obter mais informações sobre como adicionar produtos ao catálogo de produtos, consulte [Criar um produto (Sales)](/dynamics365/sales-enterprise/create-product-sales)  
+ Para obter mais informações sobre como adicionar produtos ao catálogo de produtos, consulte [Criar um produto (Sales)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-product-sales)  
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar Project Service](../psa/configure.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

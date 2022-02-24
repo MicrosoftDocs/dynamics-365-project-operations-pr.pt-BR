@@ -2,17 +2,19 @@
 title: Substituir listas de preços de vendas do projeto
 description: Este tópico fornece informações sobre a criação de listas de preços de venda personalizadas.
 author: rumant
+manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b26947822eb8e87b3b36fcde9c99c6ee69375aa942a5641112b9b1109dcaa26c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: af9baca540d89f4e5e616bdfdd6111bef29abe28
+ms.sourcegitcommit: 656a9d03f260c29e988e2ff05b6e07ae0365d6d0
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009562"
+ms.lasthandoff: 12/04/2020
+ms.locfileid: "4672217"
 ---
 # <a name="override-project-sales-price-lists"></a>Substituir listas de preços de vendas do projeto
 
@@ -50,6 +52,3 @@ Você pode usar cada uma dessas listas de preços e fazer atualizações nos pre
 Em um contrato do projeto, o preço do projeto sempre é padronizado como uma lista de preços personalizada com o nome do contrato e o carimbo de data/hora de criação anexado ao nome. Isso ocorre se o contrato foi criado quando a cotação foi ganha ou se o contrato foi criado do zero. Se necessário, você pode remover essa associação à lista de preços personalizada e associar uma lista de preços padrão ao contrato do projeto.
 
 Quando você associa uma lista de preços padrão às listas de preços do projeto na cotação ou contrato, quaisquer alterações feitas nos preços na lista de preços afetarão todas as cotações e contratos que usam a lista de preços.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

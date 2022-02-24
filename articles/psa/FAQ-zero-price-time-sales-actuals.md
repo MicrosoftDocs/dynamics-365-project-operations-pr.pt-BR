@@ -2,6 +2,8 @@
 title: Por que o preço padrão está sendo definido como zero em dados reais de vendas de tempo?
 description: Solução de problemas do preço padrão definido como zero em dados reais de vendas de tempo.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2df4ce2d6391e70fea8e8f15c1b5774c9a9bfbe5f5ef2e6d8da8668afd34d4c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f72e0db94392a35fee9fdcf2c4adb8a08feef13
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992552"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5146199"
 ---
 # <a name="why-is-price-defaulting-to-zero-on-time-sales-actuals"></a>Por que o preço padrão está sendo definido como zero em dados reais de vendas de tempo?
 
@@ -55,6 +57,3 @@ Se não houver nenhuma linha na grade de preços de funções para as dimensões
 
 Se você ainda não vir um preço válido nos dados reais de vendas de tempo depois de seguir as três verificações acima, abra um tíquete de suporte. 
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,11 +2,12 @@
 title: Home page de dimensões de preço e custo
 description: Este tópico fornece uma visão geral das dimensões de preço.
 author: rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 65516784c6787fa5f3c08297f4d161d52c2ea4a9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998447"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151284"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de preço e custo
 
@@ -41,7 +42,7 @@ Devido à natureza típica desses atributos do trabalho e as pessoas necessária
 
 O PSA apresenta um conjunto padrão de dimensões de preço. É possível exibi-las acessando **Project Service** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de preço baseadas em valor**, verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Isso permitirá configurar o preço e o custo para cada combinação de função e unidade organizacional.
 
-![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque.](media/PS-OOB-parameters.png)
+![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > Se você vem usando os campos prontos para uso da função e da unidade organizacional como dimensões de preço antes da versão 3 do PSA, não haverá qualquer mudança significativa. Você pode continuar usando o Project Service normalmente. 
@@ -66,16 +67,13 @@ O exemplo a seguir mostra taxas de cobrança que são configuradas com base na f
 
 | Função        | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolvedor   | Contoso US  |Hora | 200|USD     |
-| Desenvolvedor   | Contoso Índia |Hora|   112|USD     |
+| Desenvolvedor   | Cabral EUA  |Hour | 200|USD     |
+| Desenvolvedor   | Cabral India |Hour|   112|USD     |
 
 
 **Taxas de custo de exemplo**
 
 | Faixa Salarial     | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hora | 145|USD     |
-| My company_Band2 | Contoso Índia |Hora|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Cabral EUA  |Hour | 145|USD     |
+| My company_Band2 | Cabral India |Hour|   67|USD     |

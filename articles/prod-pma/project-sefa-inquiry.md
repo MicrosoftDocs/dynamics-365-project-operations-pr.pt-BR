@@ -2,9 +2,11 @@
 title: Consulta sobre agendamento de despesas de prêmios federais
 description: Este tópico fornece informações sobre a consulta sobre agendamento de despesas de prêmios federais.
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007222"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071412"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>Consulta sobre agendamento de despesas de prêmios federais
 
@@ -60,7 +62,7 @@ Você deve configurar os números do CFDA que podem ser adicionados às concess�
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Configurar concessões para relatar para a consulta sobre agendamento de despesas de prêmios federais
 
 1. Acesse **Gerenciamento e contabilidade de projeto \> Concessões \> Concessões** e selecione uma concessão existente.
-2. Na FastTab **Configuração**, no campo **Catálogo de assistência doméstica federal**, atribua o número do CFDA. O número do CFDA na concessão determina o cluster do CFDA para relatórios.
+2. Na FastTab **Configuração**, no campo **Catálogo de assistência doméstica federal**, atribua o número do CFDA. O número do CFDA na concessão determina o cluster do CFDA para relatórios.
 3. Na FastTab **Informações de contato**, insira as informações do concedente seguindo estas etapas:
 
     1. No campo **Cliente da concessão**, insira o cliente que é responsável pela concessão. Para uma concessão existente, essas informações podem já ter sido inseridas.
@@ -77,8 +79,8 @@ O governo federal financiou um projeto de infraestrutura para um estado. O gover
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>Excluir concessões de relatórios do SEFA com base no tipo de concessão
 
-1. Acesse **Gerenciamento e contabilidade de projeto \> Configuração \> Concessões \> Tipos de concessão**.
-2. Na FastTab **Informações padrão**, marque a caixa de seleção **Excluir do agendamento de despesas de prêmios federais**.
+1. Acesse **Gerenciamento e contabilidade de projeto \> Configuração \> Concessões \> Tipos de concessão**.
+2. Na FastTab **Informações padrão**, marque a caixa de seleção **Excluir do agendamento de despesas de prêmios federais**.
 3. Selecione **Salvar** para salvar suas alterações.
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>Executar a consulta sobre agendamento de despesas de prêmios federais
@@ -102,6 +104,3 @@ A consulta sobre agendamento de despesas de prêmios federais inclui as seguinte
 - Catálogo de assistência doméstica federal
 - Recibos
 - Despesas
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,12 @@
 title: Alterações no Gerenciamento de recursos (Project Service Automation 3.x)
 description: Este tópico fornece informações sobre as alterações na área de Gerenciamento de recursos.
 author: makk
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/18/2019
 ms.topic: article
+ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bc293e7686b7fd7d50d232cb8b26bfc03eb29c8911b52536d2b0a3a4929730c9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000292"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148629"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>Alterações no Gerenciamento de recursos (Project Service Automation 3.x)
 
@@ -168,6 +170,3 @@ Os campos a seguir de custo e vendas planejados, reais e restantes não foram al
 * msdyn\_actualsales
 * msdyn\_remainingcost
 * msdyn\_remainingsales
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Trabalhar com linhas de contrato baseadas em projeto
 description: Este tópico fornece informações sobre linhas de contrato baseadas em projeto.
 author: rumant
+manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: c1c935a998cba8bd42ba2f11c8310d41e72de94adac7c2cb83f4c7224127b10b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14d880eccd5547c122ebe37b63022e64fa2fb6fe
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990032"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181690"
 ---
 # <a name="work-with-projectbased-contract-lines"></a>Trabalhar com linhas de contrato baseadas em projeto
 
@@ -55,6 +57,3 @@ Regra: um projeto e certa classe de transação só podem ser incluídos em uma 
 | C1       | CL2           | P1      | No           | Sim             | No          | Válido           | O tempo e os valores no projeto P1 são incluídos no CL1. A despesa do projeto P1 está incluída no CL2. </br>   Não há sobreposição no que está sendo incluído em cada linha do contrato e que, portanto, é válido.  |
 | C1       | CL1           | P1      | Sim          | Sim             | Sim         | Não é válido       | Viola a regra. Hora, despesas e valores no projeto P1 estão incluídos nas linhas de dois contratos.                                                                                               |
 | CL2      | CL2           | P1      | Sim          | Sim             | Sim         | Não é válido       | Viola a regra. Hora, despesas e valores no projeto P1 estão incluídos nas linhas de dois contratos.                                                                                               |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

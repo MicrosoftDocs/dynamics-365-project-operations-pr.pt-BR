@@ -2,16 +2,18 @@
 title: Atualizar atributos de plug-in com novas dimensões de preço
 description: Este tópico fornece informações sobre como atualizar atributos de plug-in para dimensões de preço.
 author: rumant
+manager: Annbe
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d57ec617d2c7b10a01a75e7eaa9ca2d646af3f6ee1d06d4e6fb228fc0533da27
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9b0cf48318d0b9e94c4be0d3775b54e83832c1b7
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988322"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643204"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Atualizar atributos de plug-in com novas dimensões de preço
 
@@ -50,6 +52,3 @@ Conclua as etapas a seguir para atualizar e registrar novamente os plug-ins.
 7. Selecione **OK** para fechar a página e selecione **Atualizar Etapa**.
 8. Repita as etapas de 2 a 7 para o segundo plug-in, **PreOperationQuoteLineDetail**. Para este plug-in, você precisa atualizar a etapa **Atualização de msdyn_quotelinetransaction**.
 9. Feche **PluginRegistrationTool**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

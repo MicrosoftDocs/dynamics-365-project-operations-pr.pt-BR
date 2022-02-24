@@ -2,6 +2,8 @@
 title: Novidades ou alterações na Versão de Atualização 14 do Project Service Automation V3
 description: Este tópico inclui informações sobre o que há de novo e o que foi alterado na Versão da Atualização 14 do Project Service Automation V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2020
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 71971b96ea6955b95fa519884356a310b2885d0667d60ca07856a444de77dc64
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f9347741d8dae2c9a810bb5b3a32d4d6c0a628ed
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987017"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147144"
 ---
 # <a name="project-service-automation-update-release-14-v3"></a>Versão de Atualização 14, do Project Service Automation V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Temos o orgulho de anunciar a versão mais recente do aplicativo Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e vá para a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
+Temos o orgulho de anunciar a versão mais recente do aplicativo Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e vá para a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Este tópico lista os recursos e as correções novas ou alteradas para o PSA V3, Versão de Atualização 14. Esta versão possui um número de compilação da V3.10.4.21 e está disponível na seguinte agenda:
 
@@ -62,6 +64,3 @@ Este tópico lista os recursos e as correções novas ou alteradas para o PSA V3
      - Corrigido: O preço de venda total não é calculado até que o usuário também insira um preço de custo para estimativas de despesas em um projeto.
      - Corrigido: Fechar uma cotação como **Ganha** gera uma falha se o contrato do projeto associado não estiver em um estado de **Rascunho**.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

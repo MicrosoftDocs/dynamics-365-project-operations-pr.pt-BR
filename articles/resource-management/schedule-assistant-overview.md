@@ -2,21 +2,22 @@
 title: Visão geral do assistente de agendamento
 description: Este tópico fornece informações sobre como trabalhar com o assistente de Agenda para reservar recursos.
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 309cb94ea30c525daccf032c625004c42fb408dada4b337b65d8f36d76219669
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990212"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071284"
 ---
 # <a name="schedule-assistant-overview"></a>Visão geral do assistente de agendamento
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
 
 O assistente de Agenda é usado para reservar recursos com base nos requisitos definidos pelo gerente de projeto. O assistente de Agenda depende dos parâmetros fornecidos no requisito de recursos para localizar o recurso. O assistente de Agenda recomenda recursos que atendam aos requisitos relevantes, como janelas de tempo ou habilidades necessárias.
 
@@ -24,7 +25,7 @@ Depois que os recursos adequados são identificados, o gerente de recursos ou de
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-O assistente de Agenda faz parte da solução Universal Resource Scheduling. Esta solução está incluída e instalada com o Dynamics 365 Project Operations, o Dynamics 365 Field Service e o Dynamics 365 Customer Service.
+O assistente de Agenda faz parte da solução Universal Resource Scheduling. Essa solução está incluída e instalada com o Dynamics 365 Project Operations, o Dynamics 365 Field Service e o Dynamics 365 Customer Service.
 
 ## <a name="matching-requirements-and-resources"></a>Correspondência entre requisitos e recursos
 
@@ -56,6 +57,3 @@ O painel de filtro mostra opções relacionadas ao trabalho, incluindo:
 -   Empresa de recursos
 -   Tipos de recurso
 -   Recursos preferenciais
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,9 +2,11 @@
 title: Moeda
 description: Este tópico fornece informações sobre como adicionar e remover tipos de moeda no Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999572"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642259"
 ---
 # <a name="currency"></a>Moeda
 
@@ -69,6 +71,3 @@ Antes de iniciar este procedimento, verifique se o seu direito de acesso inclui 
 
 > [!IMPORTANT]
 >  Você não pode excluir moedas que estejam sendo usadas por outros registros, mas pode desativá-las. A desativação dos registros de moeda não remove as informações sobre moeda dos registros existentes, como oportunidades ou pedidos. Entretanto, você não poderá selecionar a moeda desativada para novas transações.  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

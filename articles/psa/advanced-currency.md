@@ -2,6 +2,8 @@
 title: Cenários de multimoeda (versão 3.x)
 description: Este tópico fornece informações sobre cenários de multimoeda.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/26/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 89a91cf3dbbcf81dbb089ee88c8c177c73afb694914ca7d95eae96776d38abed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bdb9ccad84e0f510118502d4253f5c83a760f8bb
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005107"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5145659"
 ---
 # <a name="multiple-currency-scenarios"></a>Cenários de várias moedas
 
@@ -34,7 +36,7 @@ O Microsoft Dynamics 365 têm dois conceitos de moeda:
 - **Moeda de transação** – a moeda que em que ocorre uma transação. 
 - **Moeda base** – a moeda da instância do Dynamics 365. Essa moeda é configurada quando uma instância do Dynamics 365 é provisionada. Não é possível alterá-la.
 
-Por exemplo, a Contoso EUA vendeu 100 camisetas a um cliente no Reino Unido, cada uma por 15 libras esterlinas (GBP). A tabela a seguir mostra como essa transação é registrada na entidade Produto da Ordem.
+Por exemplo, a unidade Cabral US vendeu 100 camisetas a um cliente no Reino Unido, cada uma por 15 libras esterlinas (GBP). A tabela a seguir mostra como essa transação é registrada na entidade Produto da Ordem.
 
 | Produto | Quantidade | Preço por unidade | Moeda | Quantidade | Taxa de câmbio | Preço por unidade (Base)| Valor (Base)|
 |---------|----------|----------------|----------|--------|---------------|----------------------|--------------|
@@ -66,14 +68,14 @@ O PSA estende o conceito de moeda de transação para o custo e as vendas das se
 
 ## <a name="multiple-currency-scenario"></a>Cenário de várias moedas
 
-Esta seção descreve o exemplo de um projeto que a Contoso Reino Unido entrega para um cliente chamado Fabrikam, do Japão. Veja a seguir como o cenário foi configurado:
+Esta seção descreve o exemplo de um projeto que a unidade Cabral UK entrega para um cliente chamado Fabrikam, do Japão. Veja a seguir como o cenário foi configurado:
 
 1. A libra esterlina e o iene japonês (JPY) são definidos em **Configurações** \> **Gerenciamento de Negócios** \> **Moedas**. 
 2. Uma conta de cliente chamada **Fabrikam – Japan** é configurada e JPY está marcada como a moeda da conta.
-3. Uma unidade organizacional chamada **Contoso Reino Unido** é configurada e GBP é selecionada como a moeda.
-4. Um contrato de projeto é criado, onde **Contoso Reino Unido** é especificada como a unidade de contratação e **Fabrikam – Japão** é especificada como o cliente.
+3. Uma unidade organizacional chamada **Cabral UK** é configurada e GBP é selecionada como a moeda.
+4. Um contrato de projeto é criado, onde **Cabral UK** é especificada como a unidade de contratação e **Fabrikam – Japan** é especificada como a cliente.
 5. As linhas de contrato de projeto são criadas, com base nas disposições de cobrança para as diversas classes de transação no projeto, como cobrança por tempo vs. cobrança por despesas.
-6. Um projeto é criado, onde **Contoso Reino Unido** é especificado como a unidade de contratação. Esse projeto é criado e mapeado para as linhas de contrato de projeto.
+6. Um projeto é criado, onde **Cabral UK** é especificado como a unidade de contratação. Esse projeto é criado e mapeado para as linhas de contrato de projeto.
 
 
 Durante a estimativa que usa os detalhes da linha de cotação, os detalhes da linha de contrato de projeto ou a linha de estimativa da agenda, dois registros são sempre criados na entidade. Um registro é para custo e o outro é para vendas.
@@ -103,6 +105,3 @@ O Dynamics 365 trata automaticamente dos acúmulos de valores em diferentes moed
 | Expense           | Vendas não cobradas   | 17 de junho | Joaquim  | Aluguel de Carros           | 1 cada     | 150 EUR      | 150 EUR     | 0.94          | 159,57 USD     |
 
 Para calcular o valor total de vendas não cobrado no projeto, você pode criar um campo de acúmulo para o campo **Valor** em todos os dados reais de vendas não cobrados. O campo de acúmulo é uma construção do Dynamics 365 que permite fórmulas rápidas em registros relacionados.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

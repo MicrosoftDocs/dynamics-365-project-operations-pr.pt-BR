@@ -2,16 +2,18 @@
 title: Estimativa de receita de projeto de preço fixo
 description: Este tópico fornece informações sobre receita de preço fixo em projetos.
 author: sigitac
+manager: Annbe
 ms.date: 11/16/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 80fe1d4171d80ca39e8b7ebb1eefaa524a4f2b07
+ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006412"
+ms.lasthandoff: 11/17/2020
+ms.locfileid: "4531354"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>Estimativa de receita de projeto de preço fixo 
 
@@ -33,6 +35,3 @@ Para revisar estimativas de projetos de receita de preço fixo, conclua as segui
 
   O custo do projeto, o perfil de receita, o modelo de custo e o código do período podem ser definidos manualmente. Se eles não forem definidos manualmente, os valores serão padronizados durante o primeiro cálculo da estimativa para o projeto usando as regras configuradas para perfis de custo e receita do projeto.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

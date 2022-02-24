@@ -2,9 +2,11 @@
 title: Criar contratos avançados para cobrança baseada no andamento
 description: Este tópico explica como criar contratos de projeto para que você possa gerar faturas para clientes, com base em uma porcentagem do trabalho concluído.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000967"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071557"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Criar contratos avançados para cobrança baseada no andamento
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ Categorias de orçamento são usadas para calcular automaticamente os valores da
 8. Opcional: atribua a regra de cobrança a projetos adicionais. Na FastTab **Projeto**, na seção **Projetos disponíveis**, selecione um projeto e, em seguida, selecione o botão de seta para a direita para adicioná-lo à seção **Projetos selecionados**.
 9. Opcional: calcule o valor percentual que o cliente retém dos pagamentos de uma fatura. Na FastTab **Termos de retenção de pagamento**, selecione a fonte de financiamento e, em seguida, no campo **Porcentagem de retenção**, insira a porcentagem de retenção.
 10. Repita essas etapas para criar regras de cobrança adicionais para o contrato do projeto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

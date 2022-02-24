@@ -2,17 +2,19 @@
 title: Novidades em dezembro de 2020 – Project Operations para cenários baseados em estoque/produção
 description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de dezembro de 2020 do Project Operations para cenários baseados em estoque/produção.
 author: Yowelle
+manager: Annbe
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 14c31f27c0d8871063b3c6689a70f32201958002b50ac4c721c4e26c3359b631
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5aac6b77b0d07a090a071b075711e3dd915e6be4
+ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008797"
+ms.lasthandoff: 12/11/2020
+ms.locfileid: "4727921"
 ---
 # <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>Novidades ou alterações do Project Operations, dezembro de 2020, para cenários baseados em estoque/produção
 
@@ -139,7 +141,4 @@ Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Proj
 
 ## <a name="regulatory-updates"></a>Atualizações regulatórias
 
-Para obter informações sobre atualizações regulatórias do Dynamics 365 Finance, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre atualizações regulatórias é entrar no Lifecycle Services (LCS) e exibir as atualizações regulatórias planejadas usando a ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+Para obter informações sobre atualizações regulatórias do Dynamics 365 Finance, consulte [Atualizações regulatórias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Outra forma de aprender sobre atualizações regulatórias é entrar no Lifecycle Services (LCS) e exibir as atualizações regulatórias planejadas usando a ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.

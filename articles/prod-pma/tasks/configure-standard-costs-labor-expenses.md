@@ -2,9 +2,11 @@
 title: Configurar custos padrão para mão de obra e despesas
 description: Este tópico explicar como configurar custos padrão para mão de obra e despesas de um projeto.
 author: Yowelle
+manager: AnnBe
 ms.date: 08/02/2019
 ms.topic: business-process
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: b8f65709433ed6f9ff9d23ed6d99624ee1d4aaef6927ee689c9f7651807340c5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3eb6b1d4d75b095383689dd53a59a15fe9e884a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987962"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071485"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configurar custos padrão para mão de obra e despesas
 
@@ -52,6 +54,3 @@ Este tópico explicar como configurar custos padrão para mão de obra e despesa
 22. No campo **Preço**, insira um número. O preço de venda real, que é aplicado quando um trabalhador insere transações em um diário de despesas é o preço de venda com o maior nível de detalhes. Por exemplo, se um preço de venda geral e um preço de venda específico de um trabalhador forem configurados, o preço de venda específico do trabalhador será usado.  
 23. Selecione **Salvar**.
 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

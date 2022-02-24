@@ -2,8 +2,10 @@
 title: Correções em massa de valores criados por entradas de hora e despesa aprovadas
 description: Este tópico explica como um administrador pode realizar correções separadamente ou em massa a entradas de hora e despesa aprovadas anteriormente se o faturamento não tiver sido concluído.
 author: rumant
+manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +18,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995387"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144939"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Correções em massa de valores criados por entradas de hora e despesa aprovadas
 
@@ -62,7 +64,7 @@ Siga as etapas para corrigir uma ou várias entradas de hora de um projeto.
 
 Por exemplo, no gráfico a seguir, há dois itens de linha com uma quantidade igual a 8,00 com débitos listados na coluna Valor. Além disso, há dois itens de linha com uma quantidade igual a -8,00 que mostram quantidades creditadas na coluna Valor. Essas correções definem a quantidade como zero.
 
-![Lista de exibição associada de dados reais.](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
+![Lista de exibição associada de dados reais](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
  
 ## <a name="correct-approved-expense-entries"></a>Corrigir entradas de despesa aprovadas
 
@@ -87,7 +89,4 @@ Siga as etapas para corrigir uma ou mais entradas de despesa.
 
 8. Na página do projeto, na guia **Dados Reais**, revise a **Exibição Associada de Dados Reais**. As entradas originais e as entradas corrigidas serão listadas. O gráfico a seguir mostra os valores de entrada de despesa originais e os valores de entrada de despesa correspondentes corrigidos. 
 
-![Dados reais de despesa.](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![Dados reais de despesa](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)

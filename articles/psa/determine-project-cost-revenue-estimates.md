@@ -2,7 +2,9 @@
 title: Determinar as estimativas de custo e receita do projeto
 description: Como determinar estimativas de custo e receita de projeto no Project Service
 author: ruhercul
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -17,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 38de99680f4ba67b8eb593ec575c2a796fcfb59436fea5323dd1d86d7cf3d797
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a91e988632d2b2cdebfe7fd17516c5d6886728fc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002587"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148809"
 ---
 # <a name="determine-project-cost-and-revenue-estimates"></a>Determinar as estimativas de custo e receita do projeto 
 
@@ -79,6 +81,3 @@ Qualquer despesa incorrida no projeto, que não esteja diretamente relacionada 
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

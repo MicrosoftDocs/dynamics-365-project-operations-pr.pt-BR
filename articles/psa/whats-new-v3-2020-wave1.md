@@ -1,6 +1,8 @@
 ---
 title: Novidades ou alterações no Project Service Automation versão 3.x, onda 1 2020
 description: Este tópico inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3 onda 1 2020.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002092"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150924"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Novidades ou alterações no Project Service Automation versão 3.x onda 1 2020
 
@@ -41,6 +43,3 @@ Além disso, se você tiver algum módulo de aplicativo personalizado que inclua
 
 ### <a name="currently-extended-time-entry-changes"></a>Alterações da entrada de hora atualmente estendida
 Para minimizar o impacto aos usuários atuais da entrada de hora, esta função altera somente o principal requisito necessário para continuar utilizando a entrada de hora. Se você tiver criado exibições personalizadas ou experiências de entrada de hora separadas, será necessário configurar os campos da **Configuração de Entrada de Hora** com os valores corretos do PSA.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

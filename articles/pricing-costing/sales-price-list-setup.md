@@ -2,9 +2,11 @@
 title: Configurar uma lista de preços para vendas
 description: Este tópico fornece informações sobre listas de preços de vendas para precificação de projetos.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 952d518fb58b5be46c4b1cf4ed57b2494fdfdad85e7fe6fb0d622367bc071b5f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997592"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176237"
 ---
 # <a name="set-up-a-sales-price-list"></a>Configurar uma lista de preços para vendas
 
@@ -57,6 +59,3 @@ Em um contrato de projeto, a seguinte ordem de precedência é usada para defini
 Quando uma lista de preços de projeto é inserida por padrão, o sistema valida que a moeda corresponde à moeda do cliente e que as listas de preços padrão que foram inseridas têm um contexto de **Vendas**.
 
 Você pode associar várias listas de preços de projeto às entidades Cliente, Oportunidade, Cotação e Contrato de Projeto. Esse recurso aceita preços padrão específicos de data para um contrato de projeto de longa duração, onde você pode exigir mais de uma lista de preços para considerar atualizações de preço que ocorrem por conta da inflação. No entanto, se as listas de preços que você associa à entidade Cliente, Oportunidade, Cotação ou Contrato de Projeto tiverem sobreposição de data efetiva, os preços padrão poderão estar incorretos. Desse modo, é preciso ter certeza de que as listas de preços de projeto que tenham sobreposição de data efetiva não sejam associadas a essas entidades.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

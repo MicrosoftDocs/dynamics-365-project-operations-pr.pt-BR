@@ -2,9 +2,11 @@
 title: Atualizar os atributos de plug-in para incluir novas dimensões de precificação
 description: Este tópico fornece informações sobre a atualização de atributos de plug-in para dimensões de precificação.
 author: Rumant
+manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
+ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -14,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988772"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147054"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>Atualizar os atributos de plug-in para incluir novas dimensões de precificação
 
@@ -42,30 +44,27 @@ As etapas a seguir orientam você no processo de registro dos plug-ins.
 1. Abra **PluginRegistrationTool** e conecte-se à sua instância online
 2. Clique em **Pesquisar** e procure o plug-in a ser atualizado.
 
- ![Captura de tela da árvore de pesquisa.](media/PRT-1.png)
+ ![Captura de tela da árvore de pesquisa](media/PRT-1.png)
 
 3. Depois que o plug-in for encontrado, selecione-o e clique em **Selecionar no Formulário Principal**.
 
 4. Selecione a etapa do plug-in a ser atualizado, clique com o botão direito do mouse e selecione **Atualizar**.
 
- ![Captura de tela do plug-in a ser atualizado.](media/PRT-2.png)
+ ![Captura de tela do plug-in a ser atualizado](media/PRT-2.png)
  
 5. Na janela de atualização, clique nas reticências (**...**) nos atributos de filtragem.
 
- ![Captura de tela das informações de configuração Atualizar etapa existente.](media/PRT-3.png)
+ ![Captura de tela das informações de configuração Atualizar etapa existente](media/PRT-3.png)
  
 6. Marque as caixas de seleção do atributo de precificação.
 
- ![Captura de tela mostrando a marcação das caixas de seleção de atributos de precificação.](media/PRT-4.png)
+ ![Captura de tela mostrando a marcação da caixa de seleção de atributos de precificação](media/PRT-4.png)
 
 7. Clique em **OK** para fechar a página e selecione **Atualizar Etapa**.
 
- ![Captura de tela mostrando o botão “Atualizar Etapa”.](media/PRT-5.png)
+ ![Captura de tela mostrando o botão “Atualizar Etapa”](media/PRT-5.png)
  
 8. Repita esse processo para o segundo plug-in, **PreOperationQuoteLineDetail - Update of msdyn_quotelinetransaction**.
 
 9. Feche a ferramenta de registro de plug-in.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,8 @@
 title: Planejamento e acompanhamento de projeto
 description: Este tópico fornece um link para informações sobre planejamento e acompanhamento no Project Service Automation.
 author: kfend
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/04/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4dafe76864ac873c596381324ab6865b1b3adc24a495d828b552e7ac459954b9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 363483d7a63ce028b3378e021a210b4c8d8e4623
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985375"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149079"
 ---
 # <a name="project-planning-and-tracking"></a>Planejamento e acompanhamento de projeto
 
@@ -43,6 +45,3 @@ O link do PDF que estava neste tópico foi removido e o conteúdo foi movido par
 
 > [!NOTE]
 > Esse tópico será removido em uma atualização futura da documentação. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

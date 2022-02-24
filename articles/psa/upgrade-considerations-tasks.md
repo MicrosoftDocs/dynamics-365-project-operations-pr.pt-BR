@@ -1,6 +1,8 @@
 ---
 title: Considerações sobre atualização para a estrutura de detalhamento de trabalho
 description: Este tópico fornece informações sobre a atualização da estrutura de detalhamento de trabalho do Project Service Automation 2.x para 3.x.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992327"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149529"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considerações sobre atualização para a estrutura de detalhamento de trabalho
 
@@ -32,20 +34,20 @@ Este tópico fornece informações sobre a atualização da estrutura de detalha
 ## <a name="key-entities"></a>Entidades principais
 Para uma estrutura de detalhamento de trabalho precisa que já esteja carregada com recursos, são necessárias as seguintes entidades:
 
-- [Projeto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [Equipe do Projeto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [Tarefa do Projeto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [Atribuições de Recursos](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [Dependência de Tarefa do Projeto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [Recursos Reserváveis](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [Projeto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [Equipe do Projeto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [Tarefa do Projeto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [Atribuições de Recursos](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [Dependência de Tarefa do Projeto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [Recursos Reserváveis](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 Para definir uma estrutura de detalhamento de trabalho carregada por recurso, você deve concluir as seguintes etapas:
 
-1. Crie um projeto. Para obter mais informações sobre como criar um projeto, consulte [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
-2. Crie uma ou mais tarefas. Para obter mais informações sobre como criar uma tarefa, consulte [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
-3. Defina as dependências da tarefa. Para mais informações, consulte [Dependência da tarefa do projeto](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
-4. Atribua membros da equipe do projeto para o projeto. Para obter mais informações, consulte [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
-5. Atribua membros da equipe do projeto para as tarefas. Para obter mais informações, consulte [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
+1. Crie um projeto. Para obter mais informações sobre como criar um projeto, consulte [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project).
+2. Crie uma ou mais tarefas. Para obter mais informações sobre como criar uma tarefa, consulte [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask).
+3. Defina as dependências da tarefa. Para mais informações, consulte [Dependência da tarefa do projeto](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency).
+4. Atribua membros da equipe do projeto para o projeto. Para obter mais informações, consulte [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam).
+5. Atribua membros da equipe do projeto para as tarefas. Para obter mais informações, consulte [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment).
 
 ## <a name="project-team-relationships"></a>Relações da equipe do projeto
 
@@ -94,6 +96,3 @@ Para garantir uma atualização bem-sucedida, os seguintes relacionamentos devem
 
 - Todas as dependências de tarefa do projeto devem estar relacionadas ao mesmo projeto.
 - Uma tarefa não pode ter a mesma dependência referenciada mais de uma vez.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

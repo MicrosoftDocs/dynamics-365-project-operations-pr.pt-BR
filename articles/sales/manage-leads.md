@@ -2,16 +2,18 @@
 title: Gerenciar clientes potenciais
 description: Este tópico fornece informações sobre como gerenciar clientes potenciais baseados em projeto.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2ac6d03e8e070b62a2ffe689cccfc19bad1ee2bdc88dd65902f663b2d19ba655
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 31613936d48f785eeba4ec7c066761c8f69924cf
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008167"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5947865"
 ---
 # <a name="manage-leads"></a>Gerenciar clientes potenciais
 

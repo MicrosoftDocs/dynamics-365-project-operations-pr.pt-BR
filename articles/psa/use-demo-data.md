@@ -2,6 +2,8 @@
 title: Experiência com dados demonstrativos
 description: Como baixar o Project Service Automation e experimentá-lo usando dados demonstrativos.
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49b5f0fe9c35e6975fa05c592920f38203a888d49a341c8c54005c4bdb3a0786
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1f3ebf8d0cd6c8e25fcab6775cd92d544867af8
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998087"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5151104"
 ---
 # <a name="experiment-with-demo-data-project-service"></a>Experimentar usando dados demonstrativos (Project Service)
 
@@ -53,6 +55,3 @@ Para obter mais informações, consulte este [blog](https://blogs.msdn.microsoft
  [Guia do gerente de projeto](../psa/project-manager-guide.md)   
  [Guia do gerente de recursos](../psa/resource-manager-guide.md)   
  [Guia de tempo, despesas e colaboração](../psa/time-expense-collaboration-guide.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

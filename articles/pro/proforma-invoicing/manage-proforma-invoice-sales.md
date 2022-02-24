@@ -1,19 +1,21 @@
 ---
-title: Gerenciar uma fatura pro forma do projeto
-description: Este tópico fornece informações sobre como trabalhar com faturas de projeto pro forma.
+title: Gerenciar uma fatura pro forma - lite
+description: Este tópico fornece informações sobre como trabalhar com faturas pro forma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: f14cf9d5ee25247500180081b8f407ee311db481a5ef5eac330e75d45baba54a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd56b99c3ed455848edbd9ff4419afa58d782a3e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997412"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181528"
 ---
-# <a name="manage-a-proforma-project-invoice"></a>Gerenciar uma fatura pro forma do projeto 
+# <a name="manage-a-proforma-invoice---lite"></a>Gerenciar uma fatura pro forma - lite
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
@@ -67,9 +69,9 @@ No Project Operations, há sempre uma linha de fatura para cada linha de contrat
 
 Cada linha da fatura em uma fatura do projeto inclui detalhes da linha da fatura. Estes detalhes da linha estão relacionados aos dados reais e etapas de vendas não cobradas associados à linha de contrato referenciada pela linha da fatura. Todas essas transações são marcadas como **Pronto para Faturar**.
 
-Para uma linha **Fatura de Tempo e Material**, os detalhes da linha da fatura são agrupados em **Cobrável**, **Não cobrável** e **Complementar** na página **Linha de Fatura**. Os detalhes de **Linha de Fatura Cobrável** somam-se ao total da linha da fatura. **Complementar** e **Dados Reais não Cobráveis** não são adicionados ao total da linha da fatura.
+Para a linha **Fatura de Tempo e Material**, os detalhes da linha da fatura são agrupados em **Cobrável**, **Não cobrável** e **Complementar** na página **Linha de Fatura**. Os detalhes de **Linha de Fatura Cobrável** somam-se ao total da linha da fatura. **Complementar** e **Dados Reais Não Cobráveis** não são adicionados ao total da linha de fatura.
 
-Para uma linha **Fatura de Preço Fixo**, os detalhes da linha da fatura são criados a partir de etapas marcadas como **Pronto para faturamento** na linha de contrato relacionada. Depois que o detalhe da linha da fatura é criado a partir de uma etapa, o status de faturamento na etapa é atualizado para **Fatura do Cliente Criada**.
+Para a linha **Fatura de Preço Fixo**, os detalhes da linha de fatura são criados a partir de etapas marcadas como **Pronto para faturar** na linha de contrato relacionada. Depois que o detalhe da linha da fatura é criado a partir de uma etapa, o status de faturamento na etapa é atualizado para **Fatura do Cliente Criada**.
 
 ### <a name="edit-invoice-line-details"></a>Editar detalhes de linha de fatura
 
@@ -96,12 +98,8 @@ Os seguintes campos estão disponíveis no detalhe de uma linha da fatura com su
 | **Imposto** | Definido por padrão a partir da fonte real. O campo pode ser editado pelo usuário | O campo pode ser editado pelo usuário ao criar um novo detalhe de linha de fatura sem um dado real de apoio. |
 | **Valor Ampliado** | Um campo calculado, calculado como **Valor + Imposto**. Um campo somente leitura que está bloqueado para edição. | &nbsp; |
 | **Tipo de Cobrança** | Definido por padrão a partir da fonte real. O campo pode ser editado pelo usuário. | Selecionar **Cobrável** adiciona a linha ao total da linha da fatura. **Complementar** e **Não cobrável** irá excluí-lo do total da linha da fatura. |
-| **Selecionar Produto** | Definido por padrão a partir dos dados reais de origem, este é um campo somente leitura. | Quando você cria um novo detalhe de linha de fatura sem um dado real de apoio, este campo pode ser editado. |
-| **Produto** | Definido por padrão a partir de dados reais de origem, este é um campo somente leitura. | Quando você criar um novo detalhe de linha de fatura sem um dado real de apoio, este campo poderá ser editado se o campo **Selecionar Produto** for definido como **Produto existente**. |
-| **Nome do Produto** | Definido por padrão a partir de dados reais de origem, este é um campo somente leitura. | Em um novo detalhe de linha de fatura, em que a ID do produto é selecionada no catálogo, este campo é definido como o nome do produto. Para uma gravação no produto, o campo é definido para o nome da gravação. |
-| **Descrição da Gravação** | Definido por padrão a partir dos dados reais de origem, este campo é somente leitura. | Ao criar um novo detalhe de linha de fatura sem dados reais de apoio, você pode adicionar uma descrição de gravação do produto. |
 | **Tipo de Transação** | Definido por padrão a partir da fonte real. Um campo somente leitura que está bloqueado para edição. | Definido por padrão como **Vendas Cobradas** e bloqueado ao criar um novo **Detalhe da linha de fatura** sem um dado real de apoio.  |
-| **Classe da Transação** | Definido por padrão a partir da fonte real. Um campo somente leitura que está bloqueado para edição. | Definido por padrão com base em se o usuário decide criar um detalhe de linha de fatura de **Tempo**, **Despesa**, **Material** ou **Valor** ao criar um novo **Detalhe da linha de fatura** sem um apoio de dado real. Bloqueado para edição. |
+| **Classe da Transação** | Definido por padrão a partir da fonte real. Um campo somente leitura que está bloqueado para edição. | Definido por padrão com base na opção do usuário em criar um detalhe da linha de fatura **Hora**, **Despesa** ou **Taxa**, além de criar um novo **Detalhe da linha de fatura** sem um dado real de apoio. Bloqueado para edição. |
 
 Os seguintes campos estão disponíveis em um detalhe de linha da fatura com suporte de uma etapa:
 
@@ -111,7 +109,7 @@ Os seguintes campos estão disponíveis em um detalhe de linha da fatura com sup
 | **Descrição** | Descrição do detalhe da linha de fatura. Definido por padrão a partir da descrição da etapa de origem. | &nbsp; |
 |**Descrição Externa** | Descrição do detalhe da linha da fatura que é definido por padrão a partir da descrição da etapa de origem. | Esse campo pode ser usado para determinar o que deve constar na fatura impressa que será enviada ao cliente. Uma fatura pro forma no Project Operations não tem todas as funcionalidades necessárias para definir as configurações de impressão de uma fatura. |
 | **Data de Início** | Definido por padrão na data da **Etapa** na etapa de origem. Um campo somente leitura que está bloqueado para edição. | &nbsp; |
-| **Project** | Definido por padrão a partir da etapa de origem. Um campo somente leitura que está bloqueado para edição. | &nbsp; |
+| **Projeto** | Definido por padrão a partir da etapa de origem. Um campo somente leitura que está bloqueado para edição. | &nbsp; |
 | **Tarefa** | Definido por padrão a partir da etapa de origem. Um campo somente leitura que está bloqueado para edição. | &nbsp; |
 | **Categoria da transação** | Um campo somente leitura que está bloqueado para edição. | &nbsp; |
 | **Função** | Um campo somente leitura que está bloqueado para edição. | &nbsp; |
@@ -146,6 +144,3 @@ Se houver dados reais recebidos após a criação da fatura, você poderá inclu
 No Project Operations, você pode criar linhas de fatura para produtos que não se aplicam a projetos ou para todos os projetos junto com linhas de fatura baseadas em projeto. Essas linhas de fatura são criadas como linhas de contrato baseadas em produto e, após serem marcadas como prontas para faturamento, são adicionadas como linhas de fatura baseadas em produto.
 
 Após você adicionar as linhas de fatura baseadas em produto, elas não poderão ser alteradas. No entanto, elas poderão ser excluídas da fatura pro forma de rascunho.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

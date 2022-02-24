@@ -2,22 +2,24 @@
 title: Fechar uma cotação
 description: Este tópico fornece informações sobre como fechar cotações no Project Operations.
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993407"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124669"
 ---
 # <a name="close-a-quote"></a>Fechar uma cotação
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Uma cotação de projeto pode ser fechada como Ganha ou Perdida. Como as funções Ativar e Revisar não são compatíveis em cotações no Microsoft Dynamics 365 Project Operations, você pode fechar um rascunho de cotação.
+Uma cotação de projeto pode ser fechada como Ganha ou Perdida. Como as funções Ativar e Revisar nas cotações não têm suporte no Microsoft Dynamics 365 Project Operations, portanto, você pode fechar uma cotação de rascunho.
 
 ## <a name="close-a-quote-as-won"></a>Fechar uma cotação como Ganha
 
@@ -41,6 +43,3 @@ Se a cotação de projeto fechada como Perdida tiver um projeto referenciado em 
 
 > [!NOTE]
 > No Project Operations, fechar uma cotação como Ganha ou Perdida não afetará o status da Oportunidade, que permanecerá aberta até que seja fechada manualmente.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

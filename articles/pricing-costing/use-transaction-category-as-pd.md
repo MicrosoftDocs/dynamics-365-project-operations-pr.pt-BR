@@ -2,16 +2,18 @@
 title: Usar Categoria da Transação como uma dimensão de precificação
 description: Este tópico fornece informações sobre o campo Categoria de Transação como uma dimensão de precificação.
 author: rumant
+manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
+ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996107"
+ms.lasthandoff: 11/12/2020
+ms.locfileid: "4513958"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Usar Categoria da Transação como uma dimensão de precificação
 
@@ -48,6 +50,3 @@ A tabela a seguir lista todos os formulários e exibições prontos para uso, po
 2. Na página **Parâmetros**, na guia **Dimensões de Preço Baseadas em Valor**, verifique se a grade mostra os registros na entidade **Dimensões de Preço**.
 3. Adicione **Categoria da Transação** a essa lista e defina os campos **Aplicável ao Custo** e **Aplicável às Vendas** como **Sim**.
 4. No campo **Tipo de Dimensão**, selecione **Baseado em Valor** e depois escolha a prioridade para **Categoria da Transação** pois ela está relacionada a custo e vendas.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

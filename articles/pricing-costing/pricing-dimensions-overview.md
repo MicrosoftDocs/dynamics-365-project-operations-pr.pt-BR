@@ -2,18 +2,19 @@
 title: Visão geral das dimensões de precificação
 description: Esse tópico fornece informações sobre as dimensões de precificação no Dynamics 365 Project Operations.
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001957"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650171"
 ---
 # <a name="pricing-dimensions-overview"></a>Visão geral das dimensões de precificação
 
@@ -33,7 +34,7 @@ Por isso, há dois tipos de valor de dimensão de preço disponíveis:
 
 O Dynamics 365 Project Operations apresenta um conjunto padrão de dimensões de precificação. É possível exibir essas dimensões de precificaçãos acessando **Project Operations** > **Parâmetros**. No registro do parâmetro, na guia **Dimensões de precificação baseadas em valor**, verifique se a função **msdyn_resourcecategory** e a unidade organizacional de recursos **msdyn_organizationalunit** têm os campos **Aplicável às vendas** e **Aplicável ao custo** definidos como **Sim**. Com esses campos habilitados, você pode configurar o preço e o custo para cada combinação de função e unidade organizacional.
 
-![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque.](media/PS-OOB-parameters.png)
+![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque](media/PS-OOB-parameters.png)
 
 Se precisar precificar ou colocar custo para seus recursos usando atributos adicionais, você poderá criar campos, entidades e dimensões personalizados. Para obter mais informações, consulte os seguintes tópicos. 
   
@@ -60,16 +61,13 @@ O exemplo a seguir mostra taxas de cobrança que são configuradas com base na f
 
 | Função        | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolvedor   | Contoso US  |Hora | 200|USD     |
-| Desenvolvedor   | Contoso Índia |Hora|   112|USD     |
+| Desenvolvedor   | Cabral EUA  |Hour | 200|USD     |
+| Desenvolvedor   | Cabral India |Hour|   112|USD     |
 
 
 **Taxas de custo de exemplo**
 
 | Faixa Salarial     | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hora | 145|USD     |
-| My company_Band2 | Contoso Índia |Hora|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| My company_Band1 | Cabral EUA  |Hour | 145|USD     |
+| My company_Band2 | Cabral India |Hour|   67|USD     |

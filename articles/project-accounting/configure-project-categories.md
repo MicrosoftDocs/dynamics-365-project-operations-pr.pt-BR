@@ -2,16 +2,18 @@
 title: Configurar categorias de projeto
 description: Este tópico fornece informações sobre como configurar categorias de projeto.
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: cea43422469adf12f336f7686814a8199717090c18804d3d0a7509452349566e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3698b68b5dd0460343d26af0fcea5b9a56be4083
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997097"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131914"
 ---
 # <a name="configure-project-categories"></a>Configurar categorias de projeto
 
@@ -23,11 +25,11 @@ O diagrama a seguir ilustra a correlação entre categorias de transação, cate
 
 As categorias de transação são o agrupamento básico para transações de projeto. Dentro desse agrupamento, há um conjunto de categorias compartilhadas que podem ser compartilhadas entre aplicativos e módulos. Ao se aprofundar ainda mais nas especificidades, as categorias de projeto são o nível mais granular de categorias. As categorias de projeto são específicas para entidade legal, módulo e aplicativo.
 
-![Correlação entre categorias de transação, categorias compartilhadas e categorias de projeto.](media/project-categories.png)
+![Correlação entre categorias de transação, categorias compartilhadas e categorias de projeto](media/project-categories.png)
 
 ## <a name="transaction-categories"></a>Categorias de transação
 
-As categorias de transação representam o agrupamento básico de transações de projeto e não são específicas da empresa ou do tipo de transação. Por exemplo, a Contoso Robotics usa as categorias Design, Viagem, Instalação e Transação de Serviço para agrupar as transações do Projeto.
+As categorias de transação representam o agrupamento básico de transações de projeto e não são específicas da empresa ou do tipo de transação. Por exemplo, a Contoso Robotics usa as categorias Design, Viagem, Instalação e Transação de Serviço para agrupar as Transações do projeto.
 
 As categorias de transação são definidas no módulo do Project Operations. 
 1. Vá para **Configurações** \> **Categorias de Transação** para abrir o formulário. 
@@ -35,7 +37,7 @@ As categorias de transação são definidas no módulo do Project Operations.
 
 ## <a name="shared-categories"></a>Categorias compartilhadas
 
-O Dynamics 365 usa o conceito de categorias Compartilhadas para categorizar despesas em diferentes aplicativos, como Dynamics 365 Finance, Dynamics 365 Supply Chain e Dynamics 365 Project Operations. Para cada Categoria de transação criada, o Project Operations automaticamente cria quatro Categorias compartilhadas relacionadas: Horas, Despesa, Taxas e Item. Você pode revisar e ajustar as categorias compartilhadas acessando **Gerenciamento e contabilidade de projeto** \> **Configurar** \> **Categorias** \> **Categorias Compartilhadas**.
+O Dynamics 365 usa o conceito de Categorias compartilhadas para categorizar despesas em aplicativos diferentes, como Dynamics 365 Finance, Dynamics 365 Supply Chain e Dynamics 365 Project Operations. Para cada Categoria de transação criada, o Project Operations automaticamente cria quatro Categorias compartilhadas relacionadas: Horas, Despesa, Taxas e Item. Você pode revisar e ajustar as categorias compartilhadas acessando **Gerenciamento e contabilidade de projeto** \> **Configurar** \> **Categorias** \> **Categorias Compartilhadas**.
 
 ## <a name="project-categories"></a>Categorias de produto
 
@@ -51,6 +53,3 @@ As categorias de projeto representam o nível mais granular da configuração de
 Os grupos de categorias são usados para compartilhar propriedades, principalmente perfis de lançamentos, entre Categorias de projeto relacionadas. Deve haver pelo menos um grupo de categorias para cada tipo de transação e cada categoria de projeto é atribuído a um grupo.
 
 As especificações de lançamento no Project Operations são definidas pelo custo do projeto e regras do perfil da receita, categorias de projeto e grupos de categorias. Você pode configurar grupos de categorias acessando **Gerenciamento e contabilidade de projeto** \> **Configuração** \> **Categorias** \> **Grupos de categorias**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

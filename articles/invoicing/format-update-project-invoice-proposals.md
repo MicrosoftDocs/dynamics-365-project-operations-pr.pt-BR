@@ -2,16 +2,18 @@
 title: Gerenciar propostas de fatura do projeto
 description: Este tópico fornece detalhes sobre como processar faturas voltadas para o cliente com o Project Operations para cenários baseados em recursos/não estocados.
 author: sigitac
-ms.date: 04/12/2021
+manager: Annbe
+ms.date: 01/29/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 83e5af60d0a3baf0b59da2a97c6b156ef5b2b7ed
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989897"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089203"
 ---
 # <a name="manage-project-invoice-proposals"></a>Gerenciar propostas de fatura do projeto
 
@@ -78,8 +80,7 @@ O padrão dos valores de **Grupo de impostos sobre vendas** e **Grupo de imposto
     - **Cliente** sempre padronizará o grupo de impostos sobre vendas de cobrança com base no cliente.
     - **Pesquisar** pesquisa em todas as entidades desta lista e seleciona o primeiro valor disponível. A pesquisa começa com a entidade **Projeto**, em seguida a entidade **Contrato do projeto** e então a entidade **Cliente**.
 
-- **Grupo de impostos de item de etapa de preço fixo** é usado como o valor padrão no campo **Grupo de impostos de itens** para a etapa de cobrança. O contador pode revisar e modificar este valor na página **Transações na conta**. O sistema usa o valor da transação na conta ao criar uma linha de proposta de fatura do projeto.
- 
+- **Grupo de impostos de vendas de item de marco de preço fixo** é usado para padronizar o valor do campo **Grupo de impostos sobre vendas de item**.
 
 ### <a name="financial-dimensions"></a>Dimensões financeiras
 
@@ -131,7 +132,7 @@ A página **Formatar propostas de fatura** permite que as transações de agrupa
 
 O gerenciamento de impressão usa diferentes arquivos de relatório para imprimir, especificar destinos e personalizar o texto do rodapé da fatura. O gerenciamento de impressão pode ser configurado no nível do módulo, no entanto, essas configurações podem ser substituídas para um cliente, contrato ou proposta de fatura específica. Para acessar esta função na página **Proposta de fatura do projeto**, selecione **Impressão** > **Gerenciamento de impressão**.
 
-A configuração do gerenciamento de impressão aparece como uma exibição em árvore, onde cada nível de nó exibe os documentos disponíveis para ajuste. Você pode atribuir impressões personalizadas no nível do módulo, cliente, contrato ou documento da proposta de fatura. Para modificar a impressão do documento original, expanda o nó desejado e selecione **Item original**. No campo **Formato de relatório**, selecione o formato de relatório a ser usado para impressão. Você pode usar formatos de relatório personalizados usando [Estrutura de gerenciamento de documentos de negócios](/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
+A configuração do gerenciamento de impressão aparece como uma exibição em árvore, onde cada nível de nó exibe os documentos disponíveis para ajuste. Você pode atribuir impressões personalizadas no nível do módulo, cliente, contrato ou documento da proposta de fatura. Para modificar a impressão do documento original, expanda o nó desejado e selecione **Item original**. No campo **Formato de relatório**, selecione o formato de relatório a ser usado para impressão. Você pode usar formatos de relatório personalizados usando [Estrutura de gerenciamento de documentos de negócios](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/analytics/er-business-document-management).
 
 ## <a name="post-invoice-proposals"></a>Postar propostas de fatura
 
@@ -142,6 +143,3 @@ Para visualizar a fatura antes de postar, limpe a caixa de seleção **Postando*
 Em adição à página **Proposta de fatura**, as propostas de fatura também podem ser postadas executando o trabalho periódico, **Postar propostas de fatura**. Para encontrar este trabalho, vá para **Gerenciamento e contabilidade de projetos** > **Periódico** > **Faturas de projeto** > **Postar propostas de fatura**.
 
 Esta página mostra todas as propostas de fatura que estão prontas para postagem. Você pode programar a postagem de propostas de fatura selecionando **Lote**. Defina **Parâmetro de processamento em lote** como **Sim** e defina a recorrência do processamento em lote selecionando **Recorrência**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

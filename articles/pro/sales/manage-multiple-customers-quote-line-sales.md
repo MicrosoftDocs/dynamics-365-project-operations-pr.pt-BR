@@ -2,16 +2,18 @@
 title: Gerenciar vários clientes em linhas de cotação baseadas em projeto - lite
 description: Este tópico descreve como gerenciar vários clientes em linhas de cotação baseadas em projeto.
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d015e9107741fd496f7d3639731f33fcdcc9b9bdd5f501c9ad2617e37a707f35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7cab29693fc1447beba74dc6266367f13e48634d
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001687"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176462"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gerenciar vários clientes em linhas de cotação baseadas em projeto - lite
 
@@ -41,6 +43,3 @@ A tabela a seguir mostra os campos no registro do cliente da linha de cotação 
 Você pode editar as porcentagens de divisão do faturamento in-line. Quando as porcentagens de divisão do faturamento não totalizam 100%, ocorre um erro. Depois de editar as porcentagens de divisão do faturamento, atualize a página da linha de cotação para remover o erro.
 
 Use a ação distribuir uniformemente na subgrade dos clientes da linha de cotação para alocar divisões de faturamento para todos os clientes da linha de cotação. Se houver um fator de arredondamento, ele será adicionado ao cliente de arredondamento. Um dos clientes da linha de cotação é sempre marcado como o cliente de arredondamento, o que significa que o registro do cliente da linha de cotação tem o sinalizador de arredondamento definido como **Sim**. 
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

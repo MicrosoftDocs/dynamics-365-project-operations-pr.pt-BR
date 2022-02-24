@@ -2,16 +2,18 @@
 title: Criar uma estrutura de detalhamento de trabalho
 description: Este tópico explica como criar uma estrutura de detalhamento de trabalho (WBS), incluindo os controles básicos na nova interface de agendamento.
 author: ruhercul
-ms.date: 12/16/2021
+manager: tfehr
+ms.date: 01/07/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
+ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928601"
+ms.lasthandoff: 01/08/2021
+ms.locfileid: "4841301"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura de detalhamento de trabalho (WBS)
 
@@ -91,11 +93,9 @@ A tabela a seguir mostra atributos adicionais de cronograma.
 | Nome | Nome da tarefa. |
 | ID | A ID da tarefa na estrutura de detalhamento de trabalho (WBS). |
 
-Como administrador, você pode definir campos personalizados na entidade de tarefa. No entanto, os campos não podem ser exibidos na grade de agendamento. Para ver os campos personalizados, adicione-os à página de detalhes da **Tarefa do Projeto**.
-
 ## <a name="staffing-attributes"></a>Atributos de pessoal
 
-Os atributos de equipe são acessados pelo campo **Recursos** na agenda. Você pode procurar um recurso existente ou selecionar **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipe do projeto como um novo recurso.  Quando você pesquisa um recurso usando o seletor de recursos na grade de tarefas, exibição de quadro ou gantt, a pesquisa retorna membros da equipe de projeto existentes ou recursos reserváveis ativos.
+Os atributos de equipe são acessados pelo campo **Recursos** na agenda. Você pode procurar um recurso existente ou selecionar **Criar** e, no painel **Criação Rápida**, adicionar um membro da equipe do projeto como um novo recurso.
 
 Os campos **Função**, **Unidade de Recursos** e **Nome da Posição** são usados para descrever os requisitos de equipe para a tarefa. Esses atributos de equipe em conjunto com a agenda da tarefa são usados para encontrar recursos disponíveis para realização da tarefa.
 
@@ -116,28 +116,3 @@ O modo de tarefa não tem efeito em atualizações que são feitas nas datas de 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Acessibilidade e atalhos de teclado
 
 A grade **Agendar** é totalmente acessível e pode ser usada com leitores de tela como o Narrator, JAWS ou NVDA. Você pode se mover pela área da grade usando as teclas de seta (como no Microsoft Excel), pode usar a tecla Tab para avançar pelos elementos da interface de usuário interativa, bem como usar a tecla de seta para baixo, a tecla Enter ou a barra de espaços para selecionar e abrir os menus suspensos.
-
-## <a name="project-limitations"></a>Limitações do projeto 
-Você deve estar ciente das limitações a seguir se estiver usando a estrutura de detalhamento de trabalho no Project Operations. Esses limites se aplicam a projetos e tarefas. Para mais informações, veja [Limites e fronteiras do Project for the web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
-
-| **Campo**                                          |  **Limit**           |
-|----------------------------------------------------|----------------------|
-| Total máximo de tarefas para um projeto                  | 500                  |
-| Duração máxima total para um projeto               | 3.650 dias (10 anos) |
-| Total máximo de recursos para um projeto              | 150                  |
-| Total máximo de links (somente sucessor) para um projeto | 600                  |
-| Total máximo de campos personalizados para um projeto          | 10                   |
-| Máximo de itens da lista de verificação por tarefa                   | 20                   |
-
-**Limitações do projeto**
-
-| **Campo**                               |   **Limit**           |
-|-----------------------------------------|-----------------------|
-| Nível máximo de hierarquia                 | 10 níveis             |
-| Links máximos (sucessor + predecessor) | 20                    |
-| Duração máxima da tarefa folha           | 1250 dias             |
-| Duração máxima de uma tarefa de resumo      | 3.650 dias (10 anos)  |
-| Recursos máximos atribuídos a uma tarefa    | 20 recursos          |
-| Intervalo de datas com suporte para uma tarefa         | 1/1/2000 a 31/12/2149 |
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

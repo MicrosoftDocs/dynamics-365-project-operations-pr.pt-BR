@@ -2,9 +2,11 @@
 title: Criar estimativas em uma linha de cotação
 description: Este tópico fornece informações sobre como criar uma estimativa em uma linha de cotação para um projeto.
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d7e7df4830612f5a7c43adf37f75bdb623959ffe00fe219441d8e394ddecac3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996422"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122914"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>Criar estimativas em uma linha de cotação
 
@@ -28,7 +30,7 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 
 Em uma cotação baseada em projeto, você pode usar a entidade Detalhes da linha de cotação para estimar o trabalho que é necessário para entregar um projeto. Essa estimativa pode ser compartilhada com o cliente.
 
-As linhas de cotação baseadas em projeto não precisam ter qualquer detalhe da linha de cotação. Ou, elas podem ter muitos detalhes da linha de cotação. Os detalhes da linha de cotação são usados para estimar horas, despesas ou tarifas. O Dynamics 365 Project Operations não permite estimativas de material em detalhes da linha de cotação. Essas são chamadas de classes de transação. Os valores estimados de impostos também podem ser inseridos em uma classe de transação.
+As linhas de cotação baseadas em projeto não precisam ter qualquer detalhe da linha de cotação. Ou, elas podem ter muitos detalhes da linha de cotação. Os detalhes da linha de cotação são usados para estimar tempo, despesas ou tarifas. O Dynamics 365 Project Operations não permite estimativas de material em detalhes da linha de cotação. Essas são chamadas de classes de transação. Os valores estimados de impostos também podem ser inseridos em uma classe de transação.
 
 Além das classes de transação, os detalhes da linha de cotação têm um tipo de transação. Há dois tipos de transação para detalhes da linha de cotação, **Custo** e **Contrato de Projeto**.
 
@@ -86,6 +88,3 @@ Se você adicionou um campo personalizado nos detalhes da linha de cotação e q
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, **Atualizar Etapa**.
 8. Repita as etapas de 1 a 7 para o segundo plug-in.
 9. Feche a ferramenta PluginRegistrationTool.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

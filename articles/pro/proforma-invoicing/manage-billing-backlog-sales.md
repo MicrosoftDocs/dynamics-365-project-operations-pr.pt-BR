@@ -1,19 +1,21 @@
 ---
-title: Gerenciar lista de pendências de cobrança do projeto
-description: Este tópico fornece informações sobre as várias visualizações disponíveis para uso ao gerenciar o backlog de cobrança em projetos.
+title: Gerenciar a lista de pendências de cobrança- lite
+description: Este tópico fornece informações sobre as várias exibições disponíveis para uso ao gerenciar a lista de pendências de cobrança.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 27ef2ae90778394d15b979a13215c8f5af483cda0312682e9fc7256b8282b999
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0e3ca167fa53a6923727eff3e7c34c8706dc7455
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988277"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176956"
 ---
-# <a name="manage-project-billing-backlog"></a>Gerenciar lista de pendências de cobrança do projeto 
+# <a name="manage-the-billing-backlog---lite"></a>Gerenciar a lista de pendências de cobrança- lite
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
@@ -58,6 +60,3 @@ Dados reais não cobrados com um status **NTE (Limite Máximo)** de **Falhou** n
 Se as linhas de contrato de vários clientes tiverem um método de cobrança de horas e materiais, quando a hora e as despesas forem aprovadas, um dado real de vendas não cobradas será criado para cada cliente na linha do contrato de acordo com a divisão percentual de cobrança definida para cada um dos clientes. Na exibição **Lista de Pendências de Cobrança de Hora e Materiais**, você verá esses dados reais de vendas não cobradas específicos do cliente. Cada um desses registros de dados efetivos de vendas não cobradas pode ser marcado como **Pronto para Faturamento** separadamente desta exibição.
 
 Um dado real de vendas não cobradas que está em uma fatura de rascunho é mostrado nesta exibição com um status de cobrança **Fatura do Cliente Criada**. Quando a fatura de rascunho é confirmada, o status de cobrança neste registro é atualizado para **Fatura do Cliente**. Não atualize este valor de status usando código personalizado. O Project Operations não funciona corretamente quando esses valores de status são atualizados com código personalizado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,17 +2,19 @@
 title: Novidades em janeiro de 2021 – Project Operations para cenários baseados em recursos/sem estoque
 description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de janeiro de 2021 do Project Operations para cenários baseados em recursos/sem estoque.
 author: sigitac
+manager: tfehr
 ms.date: 01/13/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 9d54d5fed6e8ec1535ad798073ac8a1eec36e87d1dbba4cc4acd94d8bbdc5157
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24a6f3b49b9c67b7c2d97461ab0f23a9a704dbc7
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008077"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958885"
 ---
 # <a name="whats-new-january-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em janeiro de 2021 – Project Operations para cenários baseados em recursos/sem estoque
 
@@ -86,7 +88,4 @@ Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Proj
 
 ## <a name="regulatory-updates"></a>Atualizações regulatórias
 
-Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.

@@ -2,10 +2,12 @@
 title: Desativar uma dimensão de precificação
 description: Este tópico mostra como configurar dimensões de precificação na solução Project Service.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9f690dfdb40e962ef329f323716f3f755493805d764dbfaa2d4f9d042231cee7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: da0ac942579ba8d9b2258a011b8eeef8e64ba9c9
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006772"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147279"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>Desativar uma dimensão de precificação
 
@@ -32,19 +34,16 @@ Pode ser necessário analisar e atualizar sua estratégia de precificação de t
 
 Contudo, ao fazer isso, você receberá a mensagem de erro a seguir.
 
-![É provável que haja um erro no processo empresarial ao desativar uma dimensão de preço.](media/Business-Process-Error.png)
+![É provável que haja um erro no processo de negócios ao desativar uma dimensão de precificação](media/Business-Process-Error.png)
 
 
 Essa mensagem de erro indica que existem registros de preços configurados anteriormente para a dimensão que está sendo desativada. Todos os registros **Preço da Função** e **Markup de Preço da Função** que se referem a uma dimensão devem ser excluídos antes que a aplicabilidade da dimensão possa ser definida como **Não**. Esta regra se aplica às dimensões de precificação predefinidas e a quaisquer dimensões de precificação personalizadas que você possa ter criado. O motivo dessa validação é porque o Project Service tem uma restrição de que cada registro **Preço da Função** deve ter uma combinação exclusiva de dimensões. Por exemplo, em uma lista de preços chamada **US Cost Rates 2018**, você tem a seguinte linha **Preço da função**. 
 
 | Título padrão         | Unidades Organizacionais    |Unidade   |Preço  |Moeda  |
 | -----------------------|-------------|-------|-------|----------|
-| Engenheiro de sistemas|Contoso US|Hora| 100|USD|
-| Engenheiro de sistemas sênior|Contoso US|Hora| 150| USD|
+| Engenheiro de sistemas|Cabral EUA|Hour| 100|USD|
+| Engenheiro de sistemas sênior|Cabral EUA|Hour| 150| USD|
 
 
-Quando você desativa o **Título padrão** como a dimensão de precificação e o mecanismo de precificação do Project Service procura um preço, ele usa apenas o valor **Unidade Organizacional** no contexto de entrada. Se a **Unidade Organizacional** do contexto de entrada for “Contoso Estados Unidos”, o resultado será não determinado porque as duas linhas corresponderão. Para evitar esse cenário, ao criar registros **Preço da Função**, o Project Service valida que a combinação de dimensões é exclusiva. Se a dimensão for desativada após a criação dos registros **Preço da Função**, essa restrição poderá ser violada. Portanto, é necessário que, antes de desativar uma dimensão, você exclua todas as linhas **Preço da Função** e **Markup de Preço da Função** que tenham esse valor de dimensão preenchido.
+Quando você desativa o **Título padrão** como a dimensão de precificação e o mecanismo de precificação do Project Service procura um preço, ele usa apenas o valor **Unidade Organizacional** no contexto de entrada. Se a **Unidade Organizacional** do contexto de entrada for “Cabral US”, o resultado será não determinado porque as duas linhas corresponderão. Para evitar esse cenário, ao criar registros **Preço da Função**, o Project Service valida que a combinação de dimensões é exclusiva. Se a dimensão for desativada após a criação dos registros **Preço da Função**, essa restrição poderá ser violada. Portanto, é necessário que, antes de desativar uma dimensão, você exclua todas as linhas **Preço da Função** e **Markup de Preço da Função** que tenham esse valor de dimensão preenchido.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

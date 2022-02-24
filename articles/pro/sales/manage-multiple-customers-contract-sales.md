@@ -2,22 +2,24 @@
 title: Gerenciar vários clientes em contratos de projeto - lite
 description: Este tópico fornece informações sobre como gerenciar vários clientes em contratos de projeto.
 author: rumant
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b7010ef75cd71ecdf832abb889db4703baa18fce0adadf3893621c42002fcab9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b248dabdbd5239b140da7c99d3f38609facfe75e
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001732"
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181303"
 ---
 # <a name="manage-multiple-customers-on-project-contracts---lite"></a>Gerenciar vários clientes em contratos de projeto - lite
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Os contratos de projeto no Dynamics 365 Project Operations oferecem suporte ao cenário em que um contrato envolve vários clientes que estão financiando um negócio. A guia **Resumo** na página **Contrato do Projeto** inclui o campo **Cliente**. Este campo identifica o cliente principal do negócio. Outros clientes do negócio podem ser configurados na guia **Clientes** da página **Contrato do Projeto**.
+Os contratos de projeto no Dynamics 365 Project Operations dão suporte ao cenário em que um contrato contratual envolve vários clientes que estão financiando um negócio. A guia **Resumo** na página **Contrato do Projeto** inclui o campo **Cliente**. Este campo identifica o cliente principal do negócio. Outros clientes do negócio podem ser configurados na guia **Clientes** da página **Contrato do Projeto**.
 
 Todos os clientes do contrato listados no contrato do projeto padrão como clientes da linha do contrato em quaisquer novas linhas do contrato baseadas em projeto que são criadas para o contrato do projeto. As linhas de contrato baseadas em projeto existentes não herdam novos clientes de contrato à medida que novos registros são criados.
 
@@ -50,6 +52,3 @@ Um cliente do contrato pode ser criado, atualizado ou excluído da guia **Client
 As porcentagens de divisão de cobrança podem ser editadas usando a experiência de edição de grade em linha. Quando as porcentagens de divisão de cobrança não totalizarem 100%, você receberá um erro. Depois de editar as porcentagens de divisão de cobrança, atualize a página para ignorar o erro.
 
 Você também pode selecionar **Distribuir Uniformemente** na subgrade **Clientes do Contrato** para alocar divisões de cobrança uniformemente para todos os clientes do contrato. Se houver um fator de arredondamento, ele será adicionado ao cliente de arredondamento. Um dos clientes do contrato é sempre marcado como o cliente de **arredondamento**, o que significa que o registro do cliente do contrato tem o sinalizador de arredondamento definido como **Sim**. Normalmente, esse é o cliente principal do contrato, mas também pode ser alterado.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

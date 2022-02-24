@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 15540f524fb8fca8f69a2249f783289ba683cad7dabbf58ecbf620d147e5d491
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 2e6c60fe67aea908013077bde40c2faeabc2f39e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002947"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993132"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>Como posso personalizar o fluxo do processo empresarial Estágios do projeto?
 
@@ -60,11 +60,11 @@ Se a atualização não for uma opção, será possível personalizar o fluxo do
 1. Adicione mais estágios à configuração padrão, mantendo os nomes dos estágios em inglês para **Quote**, **Plan** e **Close**.
 
 
-![Captura de tela da adição de estágios à configuração padrão.](media/FAQ-Customize-BPF-1.png)
+![Captura de tela da adição de estágios à configuração padrão](media/FAQ-Customize-BPF-1.png)
  
 2. Crie seu próprio fluxo do processo empresarial e o torne o fluxo do processo empresarial principal para a entidade de projeto, permitindo que você tenha qualquer nome de estágio que quiser. Entretanto, se você quiser usar os mesmos estágios do projeto padrão, **Quote**, **Plan** e **Plan**, será necessário fazer algumas personalizações baseadas em seus nomes de estágios personalizados. A lógica mais complexa está no fechamento do projeto, que você ainda pode acionar por meio da desativação do registro do projeto.
 
-![Personalização do BPF.](media/FAQ-Customize-BPF-2.png)
+![Personalização de BPF](media/FAQ-Customize-BPF-2.png)
 
 ### <a name="additional-considerations-for-project-service-app-version-24430-or-earlier-on-platform-90"></a>Considerações adicionais para a versão 2.4.4.30 ou anterior do aplicativo Project Service na plataforma 9.0
 
@@ -80,11 +80,11 @@ Para criar seu próprio fluxo do processo empresarial para a entidade de projeto
 
 1. Vá para **Configurações** > **Centro de processos**. Não copie o fluxo do processo empresarial Estágios do projeto porque isso também copiará a lógica de negócios do Project Service.
 
-  ![Criar processo.](media/FAQ-Customize-BPF-3.png)
+  ![Criar processo](media/FAQ-Customize-BPF-3.png)
 
 2. Use o designer de processo para criar os nomes de estágios que quiser. Caso queira a mesma funcionalidade dos estágios padrão para **Quote**, **Plan** e **Close**, é necessário criá-la com base nos nomes dos estágios do fluxo do processo empresarial personalizado.
 
-   ![Captura de tela do designer de processo usado para personalizar o BPF.](media/FAQ-Customize-BPF-4.png) 
+   ![Captura de tela do designer de processo usado para personalizar o fluxo do processo empresarial](media/FAQ-Customize-BPF-4.png) 
 
 3. No designer de processo, clique em **Ordenar Fluxo do Processo** para tornar o fluxo do processo empresarial personalizado o fluxo do processo empresarial principal para a entidade de projeto ao movê-lo acima do fluxo do processo empresarial Estágios do projeto para o topo da lista.
 
@@ -95,15 +95,15 @@ Para criar seu próprio fluxo do processo empresarial para a entidade de projeto
 
 4. Adicione um novo campo personalizado à entidade de projeto para capturar as etapas personalizadas no fluxo do processo empresarial personalizado. Será necessário adicionar a lógica de negócios (plug-in/fluxo de trabalho) para atualizar esse campo quando o estágio no fluxo do processo empresarial personalizado for atualizado.
 
-   ![Captura de tela da personalização da entidade de projeto.](media/FAQ-Customize-BPF-6-720.png)
+   ![Captura de tela da personalização da entidade de projeto](media/FAQ-Customize-BPF-6-720.png)
 
 5. Modifique o gráfico **Projeto por estágio** para usar o novo campo personalizado para os estágios.
 
-   ![Captura de tela do uso do gráfico Projeto por estágio.](media/FAQ-Customize-BPF-7-720.png)
+   ![Captura de tela do uso do gráfico Projeto por estágio](media/FAQ-Customize-BPF-7-720.png)
 
 6. Modifique todas as exibições para a entidade de projeto para incluir o novo campo personalizado para os estágios.
 
-   ![Captura de tela das modificações de exibições na entidade de projeto.](media/FAQ-Customize-BPF-8-720.png)
+   ![Captura de tela das modificações de exibições na entidade de projeto](media/FAQ-Customize-BPF-8-720.png)
 
 
 

@@ -1,25 +1,29 @@
 ---
-title: Configurar a criação automática de fatura
-description: Este tópico fornece informações sobre como definir e configurar a criação automática de faturas pro forma.
+title: Configurar a criação automática de fatura - lite
+description: Este tópico fornece informações sobre a configuração da criação automática de faturas pro forma.
 author: rumant
-ms.date: 04/05/2021
+manager: Annbe
+ms.date: 10/13/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 1cce457fbc04ba9d3890d73439e6e7fd3db44d84a4498d5dc68ed82d362158b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0ce9cb9090c44762f370bf8d574d179077b6a821
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997502"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176552"
 ---
-# <a name="set-up-automatic-invoice-creation"></a>Configurar a criação automática de fatura 
+# <a name="configure-automatic-invoice-creation---lite"></a>Configurar a criação automática de fatura - lite
  
-_**Aplica-se a:** Implantação lite - gerenciar faturamento pro forma, Project Operations para cenários com base em recursos/sem estoque_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Você pode configurar a criação automática de fatura no Dynamics 365 Project Operations. O sistema cria um rascunho de fatura pro forma com base na agenda da fatura para cada contrato de projeto e linha de contrato. As programações de faturas são configuradas no nível da linha do contrato. Cada linha em um contrato pode ter uma agenda de fatura distinta ou a mesma agenda de fatura pode ser incluída em cada linha do contrato.
+Você pode configurar a criação automática de faturas no Dynamics 365 Project Operations. O sistema cria um rascunho de fatura pro forma com base na agenda da fatura para cada contrato de projeto e linha de contrato. As programações de faturas são configuradas no nível da linha do contrato. Cada linha em um contrato pode ter uma agenda de fatura distinta ou a mesma agenda de fatura pode ser incluída em cada linha do contrato.
 
-Quando você cria uma fatura, o sistema sempre cria pelo menos uma fatura por contrato de projeto. Em alguns casos, pode haver várias faturas criadas. Por exemplo, se o contrato tiver vários clientes, o mesmo número de faturas será criado como o número de clientes que têm transações faturáveis para faturar nesse contrato de projeto.
+Quando você cria uma fatura, o sistema sempre cria pelo menos uma fatura por contrato de projeto. Em alguns casos, pode haver várias faturas criadas.
+
+Por exemplo, se o contrato tiver vários clientes, o mesmo número de faturas será criado como o número de clientes que têm transações faturáveis para faturar nesse contrato de projeto.
 
 ## <a name="understand-how-transactions-are-included-on-an-invoice"></a>Entenda como as transações são incluídas em uma fatura 
 
@@ -87,6 +91,3 @@ O trabalho do processo em lote para criação de faturas é um trabalho recorren
 
 > [!NOTE]
 > O faturamento em lote no Project Operations só é executado para linhas de contrato de projeto configuradas por agendas de faturas. Uma linha de contrato com um método de cobrança de preço fixo deve ter marcos configurados. Uma linha de contrato do projeto com um método de cobrança de horas e de material precisará de uma configuração de agenda de faturas baseada em data.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

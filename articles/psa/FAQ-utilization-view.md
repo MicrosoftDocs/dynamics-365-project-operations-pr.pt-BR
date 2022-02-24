@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32dba5acd95c1d192556153240ebd51343112be53aa3db93e5e6f127c2d960e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007132"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992820"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Exibir horas trabalhadas passíveis de cobrança para recursos
 
@@ -29,7 +29,7 @@ ms.locfileid: "7007132"
  
 A **Exibição das Horas Trabalhadas** na página **Horas Trabalhadas do Recurso do Project Service** mostra as horas trabalhadas passíveis de cobrança de cada recurso reservável. Como a exibição é baseada no quadro de agendamento, você encontrará muitas funções iguais.
 
-> ![Captura de tela da exibição Horas trabalhadas.](media/FAQ-utilization-1.png)
+> ![Captura de tela da exibição Horas trabalhadas](media/FAQ-utilization-1.png)
  
 
 O cálculo das horas trabalhadas passíveis de cobrança funciona da seguinte maneira:
@@ -48,7 +48,7 @@ As horas trabalhadas de destino podem ser definidas na função padrão do recur
 2. Selecione um recurso para abrir o registro. 
 3. Na guia **Project Service**, você pode definir as horas trabalhadas de destino do recurso.
 
-> ![Captura de tela do uso da guia Project Service para definir as horas trabalhadas de destino.](media/FAQ-utilization-2.png)
+> ![Captura de tela do uso da guia Project Service para definir as horas trabalhadas de destino](media/FAQ-utilization-2.png)
  
 ## <a name="set-target-utilization-on-a-role"></a>Definir horas trabalhadas de destino em uma função
 
@@ -56,7 +56,7 @@ As horas trabalhadas de destino podem ser definidas na função padrão do recur
 2. Selecione uma função e abra o registro. 
 3. Defina as horas trabalhadas de destino para a função.
 
-> ![Captura de tela do uso de Funções de recursos para definir as horas trabalhadas de destino.](media/FAQ-utilization-3.png)
+> ![Captura de tela do uso de Funções de recursos para definir as horas trabalhadas de destino](media/FAQ-utilization-3.png)
  
 ## <a name="calculate-chargeable-utilization-for-a-resource"></a>Calcular horas trabalhadas passíveis de cobrança para um recurso
 

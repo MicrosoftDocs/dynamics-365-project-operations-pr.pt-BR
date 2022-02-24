@@ -2,6 +2,8 @@
 title: Custos e receita de projetos
 description: Este tópico fornece informações sobre como estimar custos e receita de projeto.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002542"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148314"
 ---
 # <a name="project-costs-and-revenue"></a>Custos e receita de projetos
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002542"
 
 As estimativas de projeto fornecem a visão financeira do trabalho estimado e programado na agenda do projeto. A guia **Estimativas** na página **Projetos** mostra o impacto de custo e receita do trabalho que você está planejando. Ela também fornece informações sobre muitas dimensões predefinidas. 
 
-> ![Guia Estimativas.](media/project-5.png)
+> ![Guia Estimativas](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>Os valores de custo e vendas do projeto
 
@@ -66,13 +68,13 @@ Se o sistema não encontrar um preço para a função, o preço de vendas na lin
 
 A guia **Estimativas** tem uma exibição de grade que mostra as linhas de estimativa. A grande inclui colunas para a unidade, o preço de custo total e o preço de vendas total, conforme mostrado na ilustração a seguir. 
 
-> ![Exibição de grade na guia Estimativas.](media/project-6.png)
+> ![Exibição de grade na guia Estimativas](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>Exibição de estimativas de projeto em fases de tempo
 
 A visão em fases de tempo das estimativas do projeto mostra os dados de estimativa da exibição de grade na linha do tempo, em uma escala de tempo selecionada por você. Por padrão, os dados da estimativa são dinamizados na dimensão **Função**.
 
-> ![Exibição em fases de tempo das estimativas do projeto.](media/project-7.png)
+> ![Exibição em fases de tempo das estimativas do projeto](media/project-7.png)
 
 ## <a name="allocating-estimated-effort-based-on-the-task-mode"></a>Alocando esforço estimado com base no modo de tarefa
 
@@ -95,6 +97,3 @@ Em ambas, na exibição de grade e na exibição em fases de tempo, você pode s
 ## <a name="expense-estimates"></a>Estimativas de despesas
 
 O botão **Adicionar uma Nova Estimativa de Despesa** na exibição de grade permite registrar as despesas que são incorridas no projeto, mas que não se relacionam diretamente à mão de obra. Você pode registrar as estimativas de despesa para uma tarefa específica ou para o projeto inteiro. Selecione as categorias de despesa e a data provisória quando você espera incorrer em despesa. Se a lista de preços de custo e a lista de preços de vendas associadas tiverem preços padrão (ou se as porcentagens de markup forem definidas para categorias de despesa), eles serão inseridos automaticamente na linha de estimativa quando ocorrer a associação.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Gerenciar listas de preços do projeto em contratos do projeto
 description: Este tópico fornece informações sobre como gerenciar listas de preços do projeto em contratos do projeto.
 author: rumant
+manager: Annbe
 ms.date: 03/30/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 824026d0620de809c0366c86c2d4d13fe83d4d1ddd4c0dc1cc2645ff712705d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ffc48782394995781535ae56142dc76afeb9a040
+ms.sourcegitcommit: 5fd529f2308edfe9322082313e6d50146df56aca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996467"
+ms.lasthandoff: 04/06/2021
+ms.locfileid: "5858549"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>Gerenciar listas de preços do projeto em contratos do projeto
 

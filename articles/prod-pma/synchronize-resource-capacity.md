@@ -2,9 +2,11 @@
 title: Sincronizar capacidade do recurso
 description: Este tópico fornece informações sobre como sincronizar a capacidade de um recurso entre calendários e projetos.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5f2e9b8e189be0594569e14ebc41c6ed452afd10aba34ea1397b3e3f66cd2e96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 006ebbfea42572f17663fab324a20a10321b78f0
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005602"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071406"
 ---
 # <a name="synchronize-resource-capacity"></a>Sincronizar capacidade do recurso
 
@@ -29,7 +31,7 @@ ms.locfileid: "7005602"
 
 Os processos de sincronização de recursos ajudam a garantir que as informações do calendário e do calendário base se encaixem no agendamento de recursos do projeto. Se o calendário for alterado, os processos farão as atualizações necessárias no agendamento dos recursos do projeto. Os processos também ajudam a melhorar o desempenho, porque as informações dos recursos do calendário são sincronizadas com antecedência. Portanto, as atualizações nas informações de agendamento de recursos ocorrem mais rapidamente. Recomendamos que você agende os processos em lote, em vez de um de cada vez. Caso contrário, existe o risco de alguém se esquecer das datas inclusivas da última sincronização das informações. Se não forem usadas datas inclusivas, podem ocorrer lacunas durante a sincronização de datas.
 
-![Sincronização de calendário.](./media/projectresourcing04-1024x471.jpg)
+![Sincronização de calendário](./media/projectresourcing04-1024x471.jpg)
 
 ## <a name="synchronize-resource-capacity-roll-ups"></a>Sincronizar acúmulos de capacidade dos recursos
 
@@ -46,7 +48,4 @@ O processo de sincronização foi projetado para sincronizar todas as informaç�
     | Data de Início  | Insira a data de início do processo de sincronização para os acúmulos de capacidade de recursos. |
     | Data de término    | Insira a data de término do processo de sincronização para os acúmulos de capacidade de recursos. |
 
-[![Processo de sincronização.](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![Processo de sincronização](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)

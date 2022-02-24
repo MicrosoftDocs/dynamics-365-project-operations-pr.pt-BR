@@ -2,6 +2,8 @@
 title: Criar um modelo de horas de trabalho
 description: Este tópico descreve como criar um modelo de horas de trabalho no Project Service.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987377"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981241"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>Criar um modelo de horário de trabalho (Project Service)
 
@@ -49,7 +51,7 @@ Para criar um modelo de calendário para sua organização, existem dois requisi
 
 1. Vá para **Recursos** \> **Recursos**.
 2. Crie um novo recurso para fazer referência no modelo de calendário ou selecione um recurso existente.
-3. Selecione a guia **Horas de Trabalho** do recurso e complete as instruções em [Definir horas de trabalho para um recurso](/dynamics365/field-service/set-work-hours-resource.md) para configurar as regras de calendário.
+3. Selecione a guia **Horas de Trabalho** do recurso e complete as instruções em [Definir horas de trabalho para um recurso](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) para configurar as regras de calendário.
 
 **Criar um novo modelo de calendário**
 

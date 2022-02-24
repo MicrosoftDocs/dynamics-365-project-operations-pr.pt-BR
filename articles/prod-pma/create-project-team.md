@@ -2,9 +2,11 @@
 title: Criar uma equipe de projeto
 description: Este tópico fornece informações sobre como criar e gerenciar equipes de projeto.
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1ab8ae045852a75a7a39a4eccfa86a114a34273581c98631975bcbfac5a7a343
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 121a007d91c2da4f3b9951901781757b8bcca8fe
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005782"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270844"
 ---
 # <a name="create-a-project-team"></a>Criar uma equipe de projeto
 
@@ -33,7 +35,7 @@ As configurações de exibição também podem ser personalizadas para exibir me
 
 O gerente de projeto pode selecionar uma função na página e, em seguida, se houver um recurso disponível que atenda ao requisito, selecionar para reservar um recurso para preencher a função. Observe que os recursos não precisam ser reservados nesse ponto do estágio de planejamento. Ao criar uma WBS, você pode substituir funções por recursos de equipe para o projeto. Se as funções forem substituídas por recursos de equipe na WBS, a configuração do recurso atualiza automaticamente o agendamento e a lista da equipe do projeto.
 
-[![Lista da equipe do projeto que inclui funções e recursos reais.](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
+[![Lista da equipe do projeto que inclui funções e recursos reais](./media/projectresourcing03-1024x368.jpg)](./media/projectresourcing03.jpg) 
 
 O gerente de projeto tem várias opções para reservar um recurso para um projeto, como **Capacidade restante**, **Capacidade total**, **Porcentagem de capacidade** e **Especificar horas**. Essas opções de reserva podem ser canceladas a qualquer momento se as atribuições de recursos forem alteradas. Dois tipos de reserva são compatíveis:
 

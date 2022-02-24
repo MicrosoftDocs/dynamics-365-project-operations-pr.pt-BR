@@ -2,6 +2,8 @@
 title: Andamento do projeto e consumo de custo
 description: Este tópico fornece informações sobre como rastrear o progresso do projeto e o consumo de custos.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 08/21/2020
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8bde19fbf1dd9f0c760455ecb7f7f2bd14a358d441bf024ec0cdefa42866f53e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0b69cee49e028b98bbb32e4a7e7aedf5479527dc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987152"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147999"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Andamento do projeto e consumo de custo
 
@@ -96,6 +98,3 @@ Os dados de acompanhamento nas exibições **Acompanhamento de esforço** e **Ac
 **Status geral do projeto** é um campo editável que mostra o status geral do projeto. Ele usa um código de cores, como verde, amarelo e vermelho, para indicar o aumento do risco. O campo **Comentários** permite ao gerente do projeto inserir comentários específicos sobre o status. O campo **Status atualizado em** não é editável e o valor é um carimbo de data/hora que indica quando o status foi atualizado pela última vez.
 
 Os campos **Desempenho da agenda** e **Desempenho do custo** são definidos a partir da data de acompanhamento. Quando a variação de agenda e de custo para o nó raiz na exibição **Acompanhamento de esforço** for positiva, você poderá definir esses campos como **Adiantado**. Quando a variação de agenda e de custo para o nó raiz for negativa, você poderá defini-los como **Atrasado**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

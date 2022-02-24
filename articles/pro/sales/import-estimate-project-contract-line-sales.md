@@ -2,16 +2,18 @@
 title: Importar uma estimativa para uma linha de contrato baseada em projeto - lite
 description: Este tópico fornece informações sobre como importar estimativas financeiras de um projeto para uma linha de contrato.
 author: rumant
+manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fb85d835789da82f22ae007addb6757ab3c166180992e4ce3a5c85606be6671d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b462af163fef1bfcbbc4f945df722d4e8a71fb1a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997232"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177452"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>Importar uma estimativa para uma linha de contrato baseada em projeto - lite
 
@@ -58,6 +60,3 @@ Quando o usuário selecionar a opção de resumir por **Classe de Transação**,
 | Tarefa A | Tarifa aérea | 1/10/2020 | 4 | 400 | 1600 |
 | Tarefa B | Hotel | 1/10/2020 | 4 | 200 | 800 |
 | Tarefa C | Hotel | 1/11/2020 | 2 | 200 | 400 |
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: Gerenciar contratos de projeto
 description: Este tópico fornece informações sobre a exibição de contratos baseados em projeto.
 author: rumant
+manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 448c5a7c4144387440b26c526f66acbbbe475ad533da9e00db0eb5d5e86be9e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 441fbc378a423334f45bc65658811ef238515393
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001822"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177317"
 ---
 # <a name="manage-project-contracts"></a>Gerenciar contratos de projeto
 
@@ -31,6 +33,3 @@ Uma lista de todos os contratos do projeto pode ser vista na página de listagem
 2. Selecione **Exibir seletor** (a seta suspensa ao lado do nome da exibição) para selecionar outras exibições filtradas. Você pode criar suas próprias exibições com critérios de filtro personalizados.
 
 Os contratos podem ser criados ou excluídos desta página de listagem ou de páginas de detalhes.
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]

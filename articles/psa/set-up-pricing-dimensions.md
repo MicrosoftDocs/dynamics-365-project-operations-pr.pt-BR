@@ -2,10 +2,12 @@
 title: Configuração de campos personalizados como dimensões de precificação
 description: Esse tópico fornece informações sobre a configuração de dimensões de preço personalizadas.
 author: Rumant
+manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/20/2018
 ms.topic: article
+ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -15,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7576f73240a7366175d7be39815583a5c9cf7187
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002317"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150339"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuração de campos personalizados como dimensões de precificação 
 
@@ -41,11 +43,11 @@ Para que um campo se torne uma dimensão de preço, ele deve:
 - Criado como um campo nas entidades **Preço da função** e **Markup de preço da função**. Para obter mais informações sobre esse procedimento, consulte [Adicionar campos personalizados para configuração de preço e entidades transacionais](field-references.md).
 - Criado como uma linha na tabela **Dimensão de preço**. Por exemplo, adicione as linhas de dimensão de preço conforme exibido no gráfico a seguir. 
 
-![Linhas de dimensões de preço baseadas em valor.](media/Amt-based-PD.png)
+![Linhas de dimensões de preço baseadas em valor](media/Amt-based-PD.png)
 
 Observe que as horas de trabalho do recurso (**msdyn_resourceworkhours**) foram adicionadas como uma dimensão baseada em markup e adicionadas à grade na guia **Dimensão de preço baseada em markup**.
 
-![Linhas de dimensões de preço baseadas em markup.](media/Markup-based-PD.png)
+![Linhas de dimensões de preço baseadas em markup](media/Markup-based-PD.png)
 
 > [!IMPORTANT]
 > Todas as alterações em dados de dimensões de preço nessa tabela, existentes ou novas, são propagadas na lógica de negócios de preço do Project Service somente após atualizar o cache. O tempo de atualização do cache pode demorar até 10 minutos. Permita que esse período considere alterações na lógica de padronização de preço que devem resultar de alterações nos dados da Dimensão de preço.
@@ -71,12 +73,12 @@ Há dois tipos de dimensões de preço:
   
 | Função        | Unidades Organizacionais    |Local de Trabalho      |Título padrão      |Horas de trabalho do recurso      |  Markup|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Índia|No local            |                    |Horas Extras                 |15     |
-|             | Contoso Índia|Local             |                    |Horas Extras                 |10     |
-|             | Contoso US   |Local             |                    |Horas Extras                 |20     |
+|             | Cabral India|No local            |                    |Horas Extras                 |15     |
+|             | Cabral India|Local             |                    |Horas Extras                 |10     |
+|             | Cabral EUA   |Local             |                    |Horas Extras                 |20     |
 
 
-Se um recurso da Contoso Índia cuja taxa base é USD 100 estiver trabalhando no local e registrar 8 horas de trabalho normal e 2 horas de hora extra, o mecanismo de preço do Project Service usará a taxa base de 100 para as 8 horas para registrar USD 800. Para as 2 horas extra, um markup de 15% será aplicado à taxa base de 100 para obter um preço unitário de USD 115 e registrará um custo total de USD 230.
+Se um recurso de Cabral India cuja taxa base é USD 100 estiver trabalhando no local e registrarem 8 horas de trabalho normal e 2 horas de hora extra, o mecanismo de preço do Project Service usará a taxa base de 100 para as 8 horas para registrar USD 800 Para as 2 horas extra, um markup de 15% será aplicado à taxa base de 100 para obter um preço unitário de USD 115 e registrará um custo total de USD 230.
 
 ### <a name="applicable-to-cost"></a>Aplicável ao Custo 
 Caso seja configurado como **Sim**, indica que o valor da dimensão do contexto de entrada deve ser usado para corresponder a **Preço da função** e **Markup do preço da função** ao recuperar as taxas de custo e markup.
@@ -92,6 +94,3 @@ Definir a prioridade da dimensão ajuda o processo de preço do Project Service 
 
 - **Prioridade de custo**: o valor de uma prioridade de custo da dimensão indicará o peso dessa dimensão ao compará-la à configuração dos preços de custo. O valor de **Prioridade de custo** deve ser exclusivo nas dimensões **Aplicável ao custo**.
 - **Prioridade de vendas**: o valor da prioridade de vendas da dimensão indicará o peso da dimensão ao compará-lo à configuração dos preços de vendas ou das taxas de faturamento. O valor de **Prioridade de vendas** deve ser exclusivo nas dimensões **Aplicável a vendas**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

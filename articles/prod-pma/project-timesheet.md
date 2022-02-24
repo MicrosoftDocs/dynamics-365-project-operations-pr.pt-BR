@@ -2,9 +2,11 @@
 title: Aplicativo móvel Folha de ponto do projeto
 description: Este tópico fornece informações sobre o aplicativo móvel Microsoft Dynamics 365 Project Timesheet. O aplicativo móvel Folha de ponto do projeto permite que os usuários enviem e aprovem folhas de ponto para projetos em seus dispositivos móveis.
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997187"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071601"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicativo móvel Folha de ponto do projeto
 
@@ -94,6 +96,3 @@ Clique em **Enviar** para enviar a planilha de horas para o fluxo de trabalho de
 ## <a name="review-timesheets"></a>Rever planilhas de horas
 
 Uma lista das planilhas de horas que precisam ser revisadas está disponível no menu. Essa opção estará disponível apenas se você tiver sido designado como um aprovador de fluxo de trabalho. Há suporte para aprovação de cabeçalho e linha. A aprovação de nível de linha oferece a capacidade de marcar uma ou mais linhas para aprovação. Depois de revisar as informações do quadro de horários, clique em **Aprovar**, **Delegar** ou **Retornar** para continuar o fluxo de trabalho.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

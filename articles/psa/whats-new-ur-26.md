@@ -2,6 +2,8 @@
 title: Novidades ou alterações na Versão de Atualização 26 do Project Service Automation V3
 description: Este tópico lista os recursos e as correções novas ou alteradas disponíveis na Versão de Atualização 26 do Project Service Automation V3.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/12/2021
 ms.topic: article
@@ -15,18 +17,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa526e97a366c01dae2547d79d0eda2fb204e07d0f6383b991165b9eecd836e9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 14fcccf5804e5da0926dbc69bdfa040229a7f068
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004252"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5143544"
 ---
 # <a name="project-service-automation-update-release-26-v3"></a>Versão de Atualização 26, do Project Service Automation V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse a página de soluções online do Centro de Administração do Dynamics 365 para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
+Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse a página de soluções online do Centro de Administração do Dynamics 365 para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 
 Este tópico lista os recursos e as correções novas ou alteradas do Project Service Automation Versão de Atualização 26, V3. Esta versão tem um número de compilação de V3.10.44.59 e está geralmente disponível por meio de uma atualização automática em dezembro de 2020.
 
@@ -72,6 +74,3 @@ Os seguintes problemas foram corrigidos:
 - Ao selecionar uma linha baseada em projeto na cotação ou contrato, o botão **Sugestão** só deve estar visível ao selecionar uma linha baseada em produto associada a um produto existente.
 - Divida privilégio **Create_Product** de privilégio **Create_ProjectContract**.
 - Excluir uma linha de fatura causa falha de referência nula em **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

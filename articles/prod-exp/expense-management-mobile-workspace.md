@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 0559f881aba2d0a9c65ad123a40803743fc7407bb0d87ac6e8280ee8e30d36b7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7eccf5cd234df6ca4fc4c83b581f6c4c22b3396f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001462"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993627"
 ---
 # <a name="expense-management-mobile-workspace"></a>Espaço de trabalho móvel do gerenciamento de despesas
 
@@ -100,7 +100,7 @@ Baixe e instale o aplicativo móvel Dynamics 365 Unified Ops.
 5. Depois de fazer login, os espaços de trabalho disponíveis para sua empresa são mostrados. Observe que se o administrador do sistema publicar uma nova área de trabalho posteriormente, você terá que atualizar a lista de áreas de trabalho móveis.
 
 
-[![Deslizar para atualizar.](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+[![Deslizar para atualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Capture um recibo usando o espaço de trabalho móvel Gerenciamento de despesas
 

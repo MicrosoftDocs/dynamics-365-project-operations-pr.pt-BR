@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 205a4fbe41637be12970041ff309c0a8d206db513987c4f64610e842183ed781
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: dc45bfd6fefaa51a4a540d694cb4ba07c5058a2a
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004797"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4069207"
 ---
 Habilitando o aplicativo Project Finder Mobile, você fornece aos usuários da organização visibilidade no projeto e capacidade de inscrever-se para o trabalho. Os usuários também podem trabalhar com o aplicativo Project Finder para exibir e atualizar suas habilidades. O aplicativo Project Finder Mobile é habilitado em Configuração dos Parâmetros do Project Service. Para isso, defina o valor dos atributos Requisitos de recurso visíveis aos recursos e Permitir atualização de habilidade por recurso para Sim. A alteração do valor desses atributos para Não desabilita essa funcionalidade.  
   

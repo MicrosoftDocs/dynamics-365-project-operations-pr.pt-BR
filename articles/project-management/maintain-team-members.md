@@ -2,16 +2,18 @@
 title: Manter membros da equipe
 description: Este tópico fornece informações sobre como reservar recursos nomeados para equipes de projeto e atribuí-los a tarefas.
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997052"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131509"
 ---
 # <a name="maintain-team-members"></a>Manter membros da equipe
 
@@ -40,6 +42,3 @@ Quando você faz uma seleção, o recurso é adicionado à equipe do projeto e a
 É possível usar o recurso de extensão da guia **Reconciliação** ou **Quadro de Agendamento** para reservar a capacidade do recurso para o projeto.
 
 Depois que um membro da equipe é reservado no projeto, você pode usar o recurso **Manter reservas** ou o **Quadro de agendamento** diretamente para gerenciar as reservas dele.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

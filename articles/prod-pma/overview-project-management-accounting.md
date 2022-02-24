@@ -2,26 +2,28 @@
 title: Visão geral de gerenciamento e contabilidade de projeto
 description: A funcionalidade de gerenciamento de projetos e da contabilidade pode ser usada em várias indústrias para proporcionar um serviço, para produzir um produto, ou para obter um resultado.
 author: Yowelle
+manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 634e35f7bd399d3d97659b4bd6f2f3a6dbd5839f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007492"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071571"
 ---
 # <a name="project-management-and-accounting-overview"></a>Visão geral de gerenciamento e contabilidade de projeto
 
@@ -34,14 +36,14 @@ Um projeto é um grupo de atividades que visa oferecer um serviço, produzir um 
 ## <a name="projects-across-industries"></a>Projetos em indústrias
 A funcionalidade de gerenciamento de projetos e de contabilidade pode ser usada em vários setores, conforme mostrado na ilustração.
 
-[![Projetos em indústrias.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projetos em indústrias](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Em um call center, um bilhete pode ser usado para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, como organizações de gerenciamento ou consulta técnica, ou agências de publicidade, referem-se a suas atividades como projetos. Em marketing, uma campanha representa um conjunto de trabalho que deve ser entregue. Na fabricação baseada em projeto, uma ordem de produção relaciona diversos trabalhos que devem ser feitos para gerar algumas mercadorias acabadas. Seja qual for o nome usado para eles, esses projetos envolvem recursos, agendamentos e custos, e a funcionalidade de gerenciamento de projetos e de contabilidade pode ajudar no planejamento, na execução e na análise desses projetos.
 
 ## <a name="project-phases"></a>Fases do projeto
 Embora o seguinte fluxo de processo destine-se a projetos externos ou projetos que são concluídos para um ou mais clientes, a funcionalidade também se aplica a projetos internos, apenas de custo. 
 
-![Três estágios de um projeto.](./media/3-stages-of-a-project.png) 
+![Três estágios de um projeto](./media/3-stages-of-a-project.png) 
 
 Conforme mostra a ilustração acima, o gerenciamento de projetos e de contabilidade pode ser dividido em três fases:
 
@@ -50,7 +52,7 @@ Conforme mostra a ilustração acima, o gerenciamento de projetos e de contabili
 3.  Analisar
 
 ## <a name="initiate-the-project"></a>Iniciar o projeto
-Durante a iniciação do projeto, ocorrem vários processos importantes. Você pode usar uma cotação de projeto para comunicar o trabalho, despesas e materiais estimados para o cliente. Você pode registrar as condições de cobrança, limites e os contratos em um contrato de projeto. Você pode usar uma estrutura de detalhamento de trabalho (WBS) para planejar e estimar o trabalho. É possível configurar previsões e orçamentos para orientar a execução do projeto. A ilustração a seguir exibe a estrutura de um projeto.[![estrutura do projeto.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durante a iniciação do projeto, ocorrem vários processos importantes. Você pode usar uma cotação de projeto para comunicar o trabalho, despesas e materiais estimados para o cliente. Você pode registrar as condições de cobrança, limites e os contratos em um contrato de projeto. Você pode usar uma estrutura de detalhamento de trabalho (WBS) para planejar e estimar o trabalho. É possível configurar previsões e orçamentos para orientar a execução do projeto. A ilustração a seguir exibe a estrutura de um projeto.[![estrutura do projeto](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Criar cotações de projeto
 
@@ -114,7 +116,7 @@ Você pode criar seis tipos de projetos no Finance. Cada tipo de projeto é conf
 
 ### <a name="assign-workers-categories-and-resources"></a>Atribuir funcionários, categorias, e recursos
 
-É possível agendar recursos de trabalhador com base nos requisitos e na agenda de um projeto ou nas habilidades e disponibilidade dos trabalhadores. Ao usar o agendamento de recursos, você pode implantar trabalhadores da sua organização de forma eficiente e efetiva. Você pode encontrar rapidamente os trabalhadores mais qualificados disponíveis para trabalhar no projeto. Você também pode ver facilmente como os trabalhadores podem ser utilizados de forma mais eficiente durante o projeto. 
+É possível agendar recursos do trabalhador com base nos requisitos e na agenda de um projeto ou nas habilidades e disponibilidade dos trabalhadores. Ao usar o agendamento de recursos, você pode implantar trabalhadores da sua organização de forma eficiente e efetiva. Você pode encontrar rapidamente os trabalhadores mais qualificados disponíveis para trabalhar no projeto. Você também pode ver facilmente como os trabalhadores podem ser utilizados de forma mais eficiente durante o projeto. 
 
 Veja a seguir algumas das formas que você pode usar a funcionalidade de programação de recurso:
 
@@ -126,7 +128,7 @@ Veja a seguir algumas das formas que você pode usar a funcionalidade de program
 -   Modifique as atribuições de recursos para diversas unidades de tempo, como dia, semana ou mês, a fim de otimizar como os trabalhadores são usados.
 
 ## <a name="execute-the-project"></a>Executar o projeto
-Durante a execução do projeto, os membros da equipe ou gestores registram o trabalho e as despesas que foram incorridas, usando quadros de horários, relatórios de despesas e outros documentos comerciais. Os gerentes de projeto têm as ferramentas que permitem monitorar o consumo dos valores orçados para o projeto. Os gerentes de projeto também podem solicitar, separar, ou obter materiais para projetos usando ordens de compra e outros documentos comerciais. As faturas são preparadas e aprovadas, de forma que os clientes possam ser cobrados pelo trabalho em andamento. Além disso, a receita é reconhecida durante esse processo para afetar as finanças da organização.
+Durante a execução do projeto, os membros da equipe ou gestores registram o trabalho e as despesas que foram incorridas, usando quadros de horários, relatórios de despesas, e outros documentos comerciais. Os gerentes de projeto têm as ferramentas que permitem monitorar o consumo dos valores orçados para o projeto. Os gerentes de projeto também podem solicitar, separar, ou obter materiais para projetos usando ordens de compra e outros documentos comerciais. As faturas são preparadas e aprovadas, de forma que os clientes possam ser cobrados pelo trabalho em andamento. Além disso, a receita é reconhecida durante esse processo para afetar as finanças da organização.
 
 ### <a name="manage-work-breakdown-structures"></a>Gerenciar estruturas de detalhamento de trabalho
 
@@ -178,7 +180,7 @@ A finalidade da ordem de compra determina quando ela é consumida e, portanto, q
 <td>Comprar itens de um fornecedor externo para consumo em um projeto. Você pode criar a ordem de compra das seguintes maneiras:
 <ul>
 <li>No próprio projeto. Nesse caso, o projeto já está definido para o pedido de compra.</li>
-<li>Navegando até o pedido de compra do projeto. Você deve selecionar o fornecedor e o projeto para o qual criar o pedido de compra.</li>
+<li>Navegando até o pedido de compra do projeto. Você deve selecionar o fornecedor e o projeto para os quais a ordem de compra será criada.</li>
 </ul></td>
 <td>Os itens são consumidos quando a fatura do fornecedor é atualizada.</td>
 </tr>
@@ -203,7 +205,7 @@ Você pode encomendar itens no estoque de uma empresa para o consumo em um proje
 
 A forma como você encomenda os itens depende de onde você está fazendo o pedido:
 
--   Para encomendar itens do estoque da empresa, você deve inserir a ordem como uma requisição de item. Se usar a página **Requisições de item**, você poderá configurar o requisito de forma que receba os itens como entregas parciais. Portanto, você pode adiar o consumo de uma quantidade de itens até que eles sejam necessários.
+-   Para encomendar itens do estoque da empresa, você deve inserir a ordem como uma requisição de item. Se usar a página **Requisições de item**, você poderá configurar o requisito de forma que receba os itens como entregas parciais. Portanto, você pode adiar o consumo de uma quantidade de itens até que eles sejam necessários.
 -   Para encomendar itens de um fornecedor externo, você deve criar a ordem como uma ordem de compra na página **Ordem de compra**.
 
 > [!NOTE] 
@@ -225,7 +227,7 @@ O tipo de projeto determina qual procedimento de faturamento deve ser aplicado. 
 Antes de criar uma fatura de cliente para um projeto, é possível criar uma fatura preliminar ou uma proposta de fatura. Em uma proposta de fatura, você pode selecionar as transações de projeto a serem incluídas em uma fatura de projeto. Você pode revisar os detalhes da fatura antes de lançar a fatura do projeto e enviá-la ao cliente ou a outra fonte de financiamento. 
 
 
-Para obter mais informações sobre como processar faturas de projeto, consulte [Faturamento de projeto](/dynamics365/finance/accounts-payable/project-invoicing).
+Para obter mais informações sobre como processar faturas de projeto, consulte [Faturamento de projeto](https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing).
 
 
 ### <a name="calculate-the-cost-to-complete-a-project"></a>Calcular o custo de conclusão de um projeto
@@ -298,7 +300,7 @@ Com base na sua configuração, é possível prever as entrada de caixa para um 
 -   **Data do projeto:** 5 de março de 2012.
 -   **Data da fatura:** 31 de março de 2012. Esta data é determinada com base na frequência da fatura. Neste exemplo, você pode definir a frequência da fatura para o mês atual. Portanto, todas as transações lançadas no mês de março são faturadas no último dia do mês.
 -   **Data de vencimento:** 14 de abril de 2012. Esta data é determinada com base nos termos do pagamento definidos para o projeto. Para este exemplo, você selecionou condições de pagamento de 14 dias. Sendo assim, 14 dias são adicionados à data da fatura para chegar em uma data de vencimento de 14 de abril de 2012.
--   **Data de pagamento de vendas estimado:** 27 de abril de 2012. Essa data é calculada adicionando-se o número de dias no campo **Dias de buffer gerais** na página **Gerenciamento de projeto e parâmetros de contabilidade** ao número de dias no campo **Dias do buffer individual** na página **Contratos de projeto** e, em seguida, adicionando-se o total ao número de dias no campo **Data de vencimento**. Neste exemplo, você inseriu **3** no campo **Dias de buffer gerais** e **10** no campo **Dias do buffer individual**. Sendo assim, 13 dias são adicionados à data de vencimento para chegar a uma data de pagamento de vendas esperada de 27 de abril de 2012.
+-   **Data de pagamento de vendas estimado:** 27 de abril de 2012. Essa data é calculada adicionando o número de dias no campo **Dias de buffer gerais** na página **Gerenciamento de projeto e parâmetros de contabilidade** ao número de dias no campo **Dias do buffer individual** na página **Contratos de projeto** e, em seguida, adicionando o total ao número de dias no campo **Data de vencimento**. Neste exemplo, você inseriu **3** no campo **Dias de buffer gerais** e **10** no campo **Dias do buffer individual**. Sendo assim, 13 dias são adicionados à data de vencimento para chegar a uma data de pagamento de vendas esperada de 27 de abril de 2012.
 
 Os dias de buffer geral podem substituir os dias de buffer ou podem ser adicionados aos dias de buffer individual:
 
@@ -309,7 +311,7 @@ Configure os dias do buffer individual no contrato de projeto. Os dias são calc
 
 #### <a name="actual-cash-inflow"></a>Entrada de caixa real
 
-A entrada de caixa real é semelhante à previsão, mas você pode iniciar os cálculos a partir da primeira data da fatura. Eis um exemplo:
+A entrada caixa real é semelhante à previsão, mas você pode iniciar os cálculos a partir da primeira data da fatura. Eis um exemplo:
 
 -   **Data da fatura:** 2 de março de 2012.
 -   **Data de vencimento:** 16 de março de 2012. As condições de pagamento são definidas para 14 dias.
@@ -369,7 +371,7 @@ Se **Orçamento restante** for selecionado como o método de controle de custos 
 -   **Orçamento restante** – O valor orçado original que ainda está disponível para a linha de custo selecionada. O valor do orçamento restante é calculado na página **Visualização da contabilidade**.
 -   **Custo total** – A soma dos valores de custo real, custo comprometido, e orçamento restante.
 
-Na página **Controle de custos**, na guia **Desvio**, você pode exibir uma comparação do custo total esperado com o orçamento original. Essa comparação mostra todas as diferenças entre esses valores. Consequentemente, você pode ver onde os dados não coincidem. Os valores dos desvios são calculados das seguintes formas:
+Na página **Controle de custos**, na guia **Desvio**, você pode exibir uma comparação do custo total esperado com o orçamento original. Essa comparação mostra todas as diferenças entre esses valores. Consequentemente, você pode ver onde os dados não coincidem. Os valores dos desvios são calculados das seguintes formas:
 
 -   **Orçamento original** – O valor orçado originalmente para a linha de custo selecionada. O valor do orçamento original é calculado na página **Visualização da contabilidade**.
 -   **Custo total** – A soma do custo real, do custo comprometido e do orçamento restante, conforme relatada na guia **Geral**.
@@ -379,7 +381,7 @@ Na página **Controle de custos**, na guia **Desvio**, você pode exibir uma com
 
 #### <a name="viewing-the-total-budgeted-amounts"></a>Exibindo os valores orçados totais
 
-Se **Orçamento total** for selecionado como o método de controle de custo na página **Parâmetros de gerenciamento e contabilidade de projetos**, a página **Controle de custos** calcula os custos reais e os custos totais do projeto para ajudar a detectar qualquer diferença entre os dois. Especificamente, na página **Controle de custos**, os valores nas colunas do painel inferior da guia **Geral** são calculados das seguintes formas:
+Se **Orçamento total** for selecionado como o método de controle de custo na página **Parâmetros de gerenciamento e contabilidade de projetos**, a página **Controle de custos** calcula os custos reais e os custos totais do projeto para ajudar a detectar qualquer diferença entre os dois. Especificamente, na página **Controle de custos**, os valores nas colunas do painel inferior da guia **Geral** são calculados das seguintes formas:
 
 -   **Custo total orçado** – O valor orçado total da linha de custo selecionada.
 -   **Custo real** – O valor total dos custos incorridos no projeto até o momento para as linhas de custo selecionadas.
@@ -396,7 +398,7 @@ Na página **Controle de custos**, na guia **Desvio**, você pode exibir a difer
 
 ### <a name="analyze-utilization"></a>Analisar utilização
 
-A taxa de utilização é o percentual de tempo que um trabalhador realiza trabalho produtivo ou faturável em um período específico. As horas faturáveis são as horas do trabalhador que pode ser cobrado para um cliente específico. 
+A taxa de utilização é o percentual de tempo que um trabalhador realiza trabalho produtivo ou faturável em um período específico. As horas faturáveis são as horas do trabalhador que pode ser cobrado para um cliente específico. 
 
 A taxa de utilização de um trabalhador é calculada dividindo o número de horas faturáveis pelo número de horas de trabalho em um período específico. Por exemplo, se um funcionário tem 30 horas faturáveis em um período e o número de horas de trabalho no mesmo período for 40, a taxa de utilização do trabalhador é 75%. 
 
@@ -438,6 +440,3 @@ Depois que o demonstrativo for calculado, você pode exibir as seguintes informa
 -   **Consumo** – Informações sobre o consumo de horas, itens, despesas, e de transações de folha de pagamento.
 -   **Fatura** – Informações sobre faturas e faturamento por conta.
 -   **Taxa horária** – Taxas horárias das horas lançadas nas contas de receita e custo.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

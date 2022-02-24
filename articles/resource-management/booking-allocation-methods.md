@@ -2,9 +2,11 @@
 title: Métodos de alocação de reserva
 description: Este tópico fornece informações sobre como os métodos de alocação de reserva funcionam no Project Operations.
 author: ruhercul
+manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 294cc39624723f9eb069aa36067a015c0b708f83a9e0183416655f9bd874fa9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004117"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121474"
 ---
 # <a name="booking-allocation-methods"></a>Métodos de alocação de reserva
 
@@ -79,6 +81,3 @@ Em resumo, os seguintes métodos de alocação levam a registro em excesso se o 
 - Distribuir Horas Uniformemente
 
 Ao usar um desses três métodos de alocação, você não será notificado que o recurso está com registros em excesso. Para corrigir a reserva em excesso, será preciso usar o Quadro de Agendamento.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

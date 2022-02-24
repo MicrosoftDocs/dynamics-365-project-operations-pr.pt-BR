@@ -1,10 +1,11 @@
 ---
 title: Home page de atualização
 description: Este tópico mostra onde encontrar informações importantes sobre os recursos novos e alterados no Dynamics 365 Project Service Automation e o processo de atualização para a versão mais recente.
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006727"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150069"
 ---
 # <a name="upgrade-home-page"></a>Home page de atualização
 
@@ -64,6 +65,3 @@ A partir de 1º de março de 2020, os clientes do Dynamics PSA não poderão mai
 
 > [!NOTE]
 > Para obter a melhor experiência ao usar versões mais antigas dos aplicativos Field Service e PSA, acesse a página **Configurações do sistema** e, no campo **Usar apenas a nova Interface Unificada (recomendado)**, selecione **Não**, já que essas versões não foram projetadas para serem carregadas corretamente na UCI. Depois de desativar a UCI, você pode abrir e executar essas versões do Field Service e PSA usando o cliente da Web antigo. 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

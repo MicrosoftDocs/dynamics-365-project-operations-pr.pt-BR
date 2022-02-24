@@ -2,9 +2,11 @@
 title: Configurar e usar pagamentos de fornecedor pagar-quando-pago
 description: Este tópico explica como criar termos de pagar-quando-pago (PWP) para que você possa liberar pagamentos parciais do fornecedor, com base nos pagamentos do cliente.
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008842"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071407"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>Configurar e usar pagamentos de fornecedor pagar-quando-pago
 
@@ -78,6 +80,3 @@ Quando um fornecedor conclui seu trabalho em um projeto e envia uma fatura para 
 2. Na página **Faturas do fornecedor com pagar quando pago**, no campo de pesquisa, insira valores para encontrar a fatura de fornecedor que deseja analisar e selecione **Pesquisar**.
 3. Na FastTab **Linhas de fatura de fornecedor**, selecione as linhas que você deseja alterar.
 4. Se as condições **Pagar quando pago** forem atendidas para a linha da fatura, selecione **Liberar pagamento do fornecedor**. A opção **Pagar quando pago** é desmarcada e o valor do campo **Pronto para pagamento** é alterado para **Sim**.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

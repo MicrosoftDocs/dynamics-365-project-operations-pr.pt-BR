@@ -2,17 +2,19 @@
 title: Integração de dados de instalação e configuração do Project Operations
 description: Este tópico fornece informações sobre como instalar e configurar mapas de gravação dupla do Project Operations.
 author: sigitac
+manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
+ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986522"
+ms.lasthandoff: 04/23/2021
+ms.locfileid: "5938946"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integração de dados de instalação e configuração do Project Operations
 
@@ -24,7 +26,7 @@ Este tópico fornece informações sobre a integração de gravação dupla do P
 
 Contratos de projeto, linhas de contrato e projetos são criados no Dataverse e sincronizados com aplicativos do Finance and Operations para contabilidade adicional. Os registros nessas entidades podem ser criados e excluídos apenas no Dataverse. No entanto, atributos contábeis, como padrões de grupo de impostos e dimensões financeiras, podem ser adicionados a esses registros em aplicativos do Finance and Operations.
 
-  ![Conceitos de integração do contrato de projeto.](./media/1ProjectContract.jpg)
+  ![Conceitos de integração do contrato de projeto](./media/1ProjectContract.jpg)
 
 Vendas de atividade potenciais, oportunidades e cotações são rastreadas no Dataverse e não são sincronizadas para aplicações do Finance and Operations porque não há contabilidade derivada associada a essa atividade.
 
@@ -51,7 +53,7 @@ As linhas do contrato do projeto podem ser revisadas pelo contador do projeto em
 
 As linhas do contrato do projeto que usam o método de cobrança de preço fixo são faturadas por meio de etapas de cobrança. As etapas de cobrança são sincronizadas para transações de conta de projeto em aplicativos do Finance and Operations usando o mapa de tabela **Etapas da linha do contrato de integração do Project Operations (msdyn\_contractlinescheduleofvalues)**.
 
-  ![Integração de etapas de cobrança.](./media/2Milestones.jpg)
+  ![Integração de etapas de cobrança](./media/2Milestones.jpg)
 
 O contador pode revisar transações de conta e ajustar os atributos contábeis para essas transações, acessando **Gerenciamento e contabilidade de projetos** > **Contratos de projeto** > **Manter** > **Transações na conta** ou **Gerenciamento e contabilidade de projetos** > **Todos os projetos** > **Manter** > **Transações na conta**.
 
@@ -61,13 +63,13 @@ Quando você cria pela primeira vez uma etapa de cobrança para determinada linh
 
 As tarefas do projeto são sincronizadas com aplicativos do Finance and Operations por meio do mapa de tabela **Tarefas do projeto (msdyn\_projecttasks)** apenas para fins de referência. Não há suporte a operações de criação, atualização e exclusão por meio de aplicativos do Finance and Operations.
 
-  ![Integração de tarefas de projeto.](./media/3Tasks.jpg)
+  ![Integração de tarefas de projeto](./media/3Tasks.jpg)
 
 ## <a name="project-resources"></a>Recursos de projeto
 
 A entidade **Funções de recursos do projeto** está sincronizada com aplicativos do Finance and Operations usando o mapa de tabela **Funções de recursos do projeto para todas as empresas (bookableresourcecategories)** apenas para fins de referência. Como funções de recursos no Dataverse não são específicas da empresa, o sistema cria automaticamente os respectivos registros de funções de recursos específicos da empresa em aplicativos do Finance and Operations para todas as entidades legais incluídas no escopo de integração de gravação dupla.
 
-![Integração de funções do recurso.](./media/5Resources.jpg)
+![Integração de funções do recurso](./media/5Resources.jpg)
 
 Recursos de projeto no Project Operations são mantidos no Dataverse e não são sincronizados com aplicativos do Finance and Operations.
 
@@ -75,6 +77,6 @@ Recursos de projeto no Project Operations são mantidos no Dataverse e não são
 
 As categorias de transação são mantidas no Dataverse e sincronizadas com aplicativos do Finance and Operations usando o mapa de tabela **Categorias de transação do projeto (msdyn\_transactioncategories)**. Após a sincronização do registro da categoria da transação, o sistema cria automaticamente quatro registros da categoria compartilhada. Cada registro corresponde a um tipo de transação em aplicativos do Finance and Operations e os vincula ao registro da categoria de transação.
 
-![Integração de categorias de transação.](./media/4TransactionCategories.jpg)
+![Integração de categorias de transação](./media/4TransactionCategories.jpg)
 
 O uso de categorias de transação para estimativas e dados reais exige que o contador do projeto ou administrador do sistema crie categorias de projeto correspondentes em cada entidade legal. Para obter mais informações, consulte [Configurar categorias de projeto](../project-accounting/configure-project-categories.md).
