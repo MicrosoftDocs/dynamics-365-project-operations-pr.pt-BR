@@ -2,8 +2,6 @@
 title: Modelos de projeto
 description: Este tópico fornece informações sobre como usar modelos de projeto para configuração rápida de projetos.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db42c9ea7280274cdc9cc90f1487f27e08f892e5
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 34df8ed9a8baff949097af1b95da56bfe9a4240c213896fafd5c7dcfcf580b6c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148044"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002497"
 ---
 # <a name="project-templates"></a>Modelos de projeto 
 
@@ -49,7 +47,7 @@ Há várias maneiras de criar um projeto com base em um modelo:
 
 - Ao criar um projeto com base em uma cotação, você pode selecionar um modelo de projeto na caixa de diálogo **Criação Rápida: Projeto**.
 
-> ![Caixa de diálogo Criação Rápida: Projeto](media/project-11.png)
+> ![Caixa de diálogo Criação Rápida: Projeto.](media/project-11.png)
 
 - Ao criar um projeto selecionando **Novo Projeto**, a página **Projeto** será exibida antes do salvamento do registro. No campo **Escolher um Modelo**, selecione um dos modelos de projeto predefinidos na organização.
 - Use **Criar Projeto com base em um Modelo** na página **Entidade de Modelo**.
@@ -69,3 +67,6 @@ Quando você copia as linhas de estimativas de projeto, as listas de preços sã
 ### <a name="copying-a-project-team"></a>Copiar uma equipe de projeto
 
 Quando uma equipe de projeto é copiada de um modelo de projeto para um projeto, os recursos genéricos são copiados, juntamente com as habilidades e proficiências definidas no modelo. As atribuições de recursos genéricos também são mantidas, pois estavam no modelo de projeto. Recursos nomeados não têm suporte em modelos de projeto.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

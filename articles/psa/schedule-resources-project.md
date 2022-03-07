@@ -2,8 +2,6 @@
 title: Agendar recursos para um projeto
 description: Como agendar recursos de um projeto no Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150429"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998132"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>Agendar recursos de um projeto (Project Service)
 
@@ -35,7 +33,7 @@ Você pode verificar a disponibilidade dos recursos para obter uma visão geral 
   
 O painel de agendamento mostra a lista de recursos e sua disponibilidade. Selecione um modo de exibição para exibir disponibilidade por **Horas**, **Dia**, **Semana** ou **Mês**.  
   
-Antes de usar o painel de agendamento, é importante configurá-lo. Para obter mais informações, consulte [Configurar o painel de agendamento (Field Service ou Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board).
+Antes de usar o painel de agendamento, é importante configurá-lo. Para obter mais informações, consulte [Configurar o painel de agendamento (Field Service ou Project Service Automation)](/dynamics365/field-service/configure-schedule-board).
   
 Se estiver usando uma versão mais antiga, para disponibilidade de recurso, consulte [Exibir a disponibilidade dos recursos](../psa/view-resource-availability.md).  
 
@@ -83,3 +81,6 @@ Se estiver usando uma versão mais antiga, para disponibilidade de recurso, cons
   
 ### <a name="additional-resources"></a>Recursos adicionais  
  [Guia do gerente de recursos](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

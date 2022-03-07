@@ -5,19 +5,19 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: babce9c64098a9c87072786d914d2340251a8986
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128269"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071548"
 ---
 # <a name="confirm-a-project-contract"></a>Confirmar um contrato de projeto
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
 
 Um contrato de projeto no Dynamics 365 Project Operations pode estar ativo com um motivo **Confirmado** ou fechado com um motivo **Perdido**. Quando você confirma um contrato de projeto, o status é atualizado de **Rascunho** para **Ativo** e a razão do status é **Confirmado**. Um contrato ativo ou fechado não pode ser editado ou reaberto. 
 

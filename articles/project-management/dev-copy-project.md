@@ -2,18 +2,16 @@
 title: Desenvolver modelos de projeto com Copiar Projeto
 description: Este tópico fornece informações sobre como criar modelos de projeto usando a ação personalizada Copiar Projeto.
 author: stsporen
-manager: Annbe
 ms.date: 01/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 87696b41db20e9ec70270c850d9acfe05df8cd84
-ms.sourcegitcommit: d5004acb6f1c257b30063c873896fdea92191e3b
+ms.openlocfilehash: 7a1f602e789e07014fd6c742940f52341ce6c672
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/22/2021
-ms.locfileid: "5044995"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6005642"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Desenvolver modelos de projeto com Copiar Projeto
 
@@ -44,7 +42,7 @@ Há três parâmetros de entrada:
 - **{"clearTeamsAndAssignments":true}**: o comportamento padrão do projeto para a Web e removerá todas as atribuições e membros da equipe.
 - **{"removeNamedResources":true}** o comportamento padrão do Project Operations e reverterá atribuições para recursos genéricos.
 
-Para obter mais padrões sobre ações, consulte [Usar ações da API Web](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+Para obter mais padrões sobre ações, consulte [Usar ações da API Web](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>Especificar campos a serem copiados 
 Quando a ação for chamada, **Copiar Projeto** verificará a visão do projeto **Copiar Colunas do Projeto** para determinar quais campos copiar quando o projeto for copiado.
@@ -112,3 +110,6 @@ O exemplo a seguir mostra como chamar a ação personalizada **CopyProject** com
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

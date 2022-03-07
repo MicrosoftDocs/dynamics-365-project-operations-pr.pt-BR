@@ -2,11 +2,9 @@
 title: Estágios do projeto
 description: Este tópico fornece informações sobre as etapas do projeto que estão disponíveis em Operações do projeto do Microsoft Dynamics.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: aa3d692a46165b01eafbd7619578cead8dd912d6
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 079c3d2d16cf802d2b9ecc779577e6e390d92ddc
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127459"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996912"
 ---
 # <a name="project-stages"></a>Estágios do projeto
 
@@ -63,3 +61,6 @@ Quando o trabalho no projeto estiver concluído, o gerente do projeto poderá at
 
 Quando todas as transações do projeto estiverem registradas, o gerente do projeto poderá atualizar o estágio para **Fechar**. Nesse momento, nenhuma transação pode ser registrada e o projeto é definido como somente leitura.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

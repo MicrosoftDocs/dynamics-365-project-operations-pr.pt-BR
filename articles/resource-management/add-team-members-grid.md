@@ -2,24 +2,22 @@
 title: Adicionar membros da equipe da grade de membros da equipe
 description: Este tópico fornece informações sobre como você pode gerenciar recursos de membros da equipe.
 author: ruhercul
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: de73dac28046ec98ed201e129be6511f894223fd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c4ff7792a9a99cbbe791a10dbc5157ffd51de285c02f23471532a09e7a55b031
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121519"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008392"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>Adicionar membros da equipe da grade de membros da equipe
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-O Dynamics 365 Project Operations inclui um painel de Gerente de recursos que fornece uma visão geral da demanda e da utilização do recurso em toda a organização. Você pode usar os gráficos desse painel para visualizar as seguintes informações:
+O Dynamics 365 Project Operations inclui um painel de Gerente de recursos que fornece uma visão geral visual da demanda e horas trabalhadas dos recursos em toda a organização. Você pode usar os gráficos desse painel para visualizar as seguintes informações:
 
 - **Demanda do recurso**: o gráfico **Solicitação de Recurso Ativa** mostra os recursos que foram enviados. Os recursos são agregados pela função ou pelo projeto.
 - **Demanda de recurso não enviada**: o gráfico **Demanda de Recurso Não Atribuída** mostra todos os requisitos de recurso que não foram enviados. Este gráfico ajuda os Gerenciadores de recursos a verem a demanda que não está confirmada e pode ser enviada por meio de uma solicitação de recurso.
@@ -200,3 +198,6 @@ Ao exibir tempo em níveis mais altos, as células na guia **Reconciliação** t
 Se você tiver atribuições de tarefa para um recurso, mas nenhuma reserva, na guia **Reconciliação** no formulário **Projetos**, selecione a falta de reserva e depois selecione **Estender Reserva**. A caixa de diálogo **Estender Reserva** aparece e mostra a reserva que é necessária para suprir a falta do recurso. A caixa de diálogo também mostra as reservas existentes do recurso em todos os projetos ou outras entidades que podem ser agendadas. Se você selecionar **OK** a fim de criar a reserva para o recurso, independentemente da disponibilidade desse recurso, é possível haver reservas em excesso.
 
 O Gerente de projeto ou o Gerente de recursos pode usar o Quadro de Agendamento para gerenciar situações em que um recurso é reservado em excesso além de sua capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

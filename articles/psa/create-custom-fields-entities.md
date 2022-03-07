@@ -2,12 +2,10 @@
 title: Criar campos e entidades personalizados
 description: Este tópico explica como criar conjuntos de opções e entidades em sua própria solução na plataforma Power Apps.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144849"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992417"
 ---
 # <a name="create-custom-fields-and-entities"></a>Criar campos e entidades personalizados 
 
@@ -45,7 +43,7 @@ Uma dimensão de preço pode ser um conjunto de opções ou uma entidade. Ambos 
 2. No Gerenciador de Soluções, no painel de navegação à esquerda, selecione **Entidades**.
 3. Clique em **Novo** para criar uma nova entidade denominada **Cargo Padrão**. Insira as informações necessárias restantes e clique em **Salvar**.
 
-> ![Definição da entidade de cargo padrão](media/Standard-Title-entity-definition.png)
+> ![Definição da entidade de cargo padrão.](media/Standard-Title-entity-definition.png)
 
 
 ### <a name="option-set-based-dimensions"></a>Dimensões baseadas em conjunto de opções 
@@ -56,9 +54,9 @@ Você pode criar duas dimensões baseadas em conjunto de opções. Use **Local d
 2. No Gerenciador de Soluções, no painel de navegação à esquerda, selecione **Conjuntos de Opções**. 
 3. Clique em **Novo** para criar um novo conjunto de opções, insira as informações necessárias restantes e clique em **Salvar**.
 
-> ![Dimensão de preço baseada em conjunto de opções chamada Local de Trabalho do Recurso ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![Dimensão de preço baseada em conjunto de opções chamada Local de Trabalho do Recurso.](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![Dimensão de preço baseada em conjunto de opções chamada Horas de Trabalho do Recurso ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![Dimensão de preço baseada em conjunto de opções chamada Horas de Trabalho do Recurso.](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>Criar dados para dimensões baseadas em entidade
@@ -70,6 +68,9 @@ Você pode criar dados para dimensões baseadas em entidade manualmente, ou usan
 3. Feche o formulário. 
 4. Repita as etapas de 1 a 3 para criar outro cargo padrão para "Engenheiro de Sistemas Sênior".
 
-> ![Dados de Exemplo para a entidade Cargo Padrão ](media/ST-data.png)
+> ![Dados de exemplo para a entidade Cargo Padrão.](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

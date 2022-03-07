@@ -2,11 +2,9 @@
 title: Desativar uma dimensão de precificação
 description: Este tópico fornece informações sobre como desativar dimensões de precificação.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 986fae72c6b44b3f76281aefb81ffdaa96f71ae7
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: 7b7c1d1b3363c0d158fcf6fda532822354b852a3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650035"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6004517"
 ---
 # <a name="turning-off-a-pricing-dimension"></a>Desativar uma dimensão de precificação
 
@@ -40,8 +38,11 @@ Essa mensagem de erro indica que existem registros de preços configurados anter
 
 | Título padrão         | Unidades Organizacionais    |Unidade   |Preço  |Moeda  |
 | -----------------------|-------------|-------|-------|----------|
-| Engenheiro de sistemas|Cabral EUA|Hour| 100|USD|
-| Engenheiro de sistemas sênior|Cabral EUA|Hour| 150| USD|
+| Engenheiro de sistemas|Contoso US|Hora| 100|USD|
+| Engenheiro de sistemas sênior|Contoso US|Hora| 150| USD|
 
 
-Quando você desativa **Cargo Padrão** como a dimensão de precificação e o mecanismo de precificação procura um preço, ele usa apenas o valor **Unidade Organizacional** do contexto de entrada. Se a **Unidade Organizacional** do contexto de entrada for “Cabral US”, o resultado será não determinado porque as duas linhas corresponderão. Para evitar esse cenário, ao criar registros **Preço da Função**, o sistema valida que a combinação de dimensões é exclusiva. Se a dimensão for desativada após a criação dos registros **Preço da Função**, essa restrição poderá ser violada. Portanto, é necessário que, antes de desativar uma dimensão, você exclua todas as linhas **Preço da Função** e **Markup de Preço da Função** que tenham esse valor de dimensão preenchido.
+Quando você desativa **Cargo Padrão** como a dimensão de precificação e o mecanismo de precificação procura um preço, ele usa apenas o valor **Unidade Organizacional** do contexto de entrada. Se a **Unidade Organizacional** do contexto de entrada for “Contoso Estados Unidos”, o resultado será não determinado porque as duas linhas corresponderão. Para evitar esse cenário, ao criar registros **Preço da Função**, o sistema valida que a combinação de dimensões é exclusiva. Se a dimensão for desativada após a criação dos registros **Preço da Função**, essa restrição poderá ser violada. Portanto, é necessário que, antes de desativar uma dimensão, você exclua todas as linhas **Preço da Função** e **Markup de Preço da Função** que tenham esse valor de dimensão preenchido.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

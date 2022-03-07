@@ -2,18 +2,16 @@
 title: Estimar vendas e custos do projeto quando um recurso reservável preenche várias funções em um projeto
 description: Este tópico explica como usar dimensões de preços para oferecer suporte a estimativas de preços e custos de um recurso que preenche várias funções em um projeto.
 author: rumant
-manager: tfehr
 ms.date: 11/16/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da17f0f58623128d51fda0f5529182cd37ea41b9
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: 28a67e79b03dfbc38e9786350c931838ef27891a3d26787fc0334e0572528228
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531355"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990122"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimar vendas e custos do projeto quando um recurso reservável preenche várias funções em um projeto 
 
@@ -106,3 +104,6 @@ Ao expandir a linha desse registro de membro de equipe, você pode ver atribuiç
 ### <a name="estimates-grid"></a>Grade Estimativas 
 
 Na grade **Estimativas**, as duas atribuições para o mesmo recurso têm preços diferentes. O preço da atribuição para o recurso na **Tarefa A** é definido usando-se o valor de atributo **Função** de **Líder de Consultoria**. O preço da atribuição para o mesmo recurso na **Tarefa B** foi estimado usando o valor do atributo **Função** de **Técnico de Rede**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Criar uma conta do cliente
 description: Como criar uma conta de cliente no Project Service
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb4ba934c444b3447f42c78b4dd1244185bb2f7e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 0dc328d1e0a2deba256dacb1697aee65e89055e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144804"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071434"
 ---
 # <a name="create-a-customer-account-project-service"></a>Criar uma conta de cliente (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

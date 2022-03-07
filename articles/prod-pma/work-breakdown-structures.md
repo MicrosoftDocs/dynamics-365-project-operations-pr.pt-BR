@@ -2,28 +2,26 @@
 title: Visão geral das estruturas de detalhamento de trabalho
 description: Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto. É uma hierarquia de tarefas que representa o entendimento da equipe do projeto da composição do trabalho, e do tamanho, custo e duração de cada componente ou tarefa.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 23861
+ms.custom: intro-internal
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 9d0cfcc27c69695fc6fe897e798b2831528833e6
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eddaf8a868845bde11c8bb7bc04f63777d628cf4
+ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071403"
+ms.lasthandoff: 07/07/2021
+ms.locfileid: "6369407"
 ---
 # <a name="work-breakdown-structures-overview"></a>Visão geral das estruturas de detalhamento de trabalho
 
@@ -316,3 +314,6 @@ Como alternativa, você pode corrigir erros de agendamento individualmente clica
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

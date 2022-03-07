@@ -2,18 +2,16 @@
 title: Visão geral da implantação do Project Operations para cenários baseados em estoque/produção
 description: Este tópico fornece informações sobre o tipo de implantação do Project Operations para cenários baseados em estoque/produção.
 author: rumant
-manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 7b2a606bc587b99c16d45b19689ba90b422c3c62
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365387"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999387"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Visão geral da implantação do Project Operations para cenários baseados em estoque/produção
 
@@ -43,3 +41,6 @@ Selecione este tipo de implantação para usar o Dynamics 365 Project Operations
 - Um mecanismo de taxa de câmbio e imposto sobre vendas de classe empresarial para gerar faturas de projetos voltadas para o cliente.
 - Um sistema de reconhecimento de receita e contabilidade de projetos em conformidade com as Normas Internacionais de Contabilidade (IFRS).
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

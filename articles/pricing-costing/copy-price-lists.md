@@ -2,18 +2,16 @@
 title: Copiar listas de preços
 description: Este tópico fornece informações sobre como copiar listas de preços no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67a69d521ac0a5632371138bd4fbb9dd00fe34ee
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 9e4f4eeda019f2af11a0d7a4469c41ee450eb03b
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181483"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001412"
 ---
 # <a name="copy-price-lists"></a>Copiar listas de preços
 
@@ -43,3 +41,6 @@ Para fazer uma cópia da lista de preços, conclua as etapas a seguir.
 1. Nas guias **Função**, **Categoria** e **Item da Lista de Preços** de uma lista de preços, é possível selecionar **Atualizar Preços** para aplicar uma marcação a todos os preços na subgrade. 
 2. Na página de diálogo aberta, insira uma marcação. Você também pode inserir uma porcentagem de marcação negativa para diminuir os preços em uma determinada porcentagem. 
 3. Selecione **OK** na página de diálogo e, em seguida, verifique se os preços na subgrade refletem as alterações feitas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

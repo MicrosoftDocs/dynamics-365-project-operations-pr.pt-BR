@@ -2,8 +2,6 @@
 title: Guia básico para cotação, preço e cobrança
 description: Este tópico fornece links para informações sobre cotação, cobrança e preço básicos no Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6873dfc1765beb61ebbdcb2a411a0c9979714cef
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149124"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985577"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guia básico para cotação, preço e cobrança
 
@@ -52,3 +50,6 @@ O link do PDF que estava neste tópico foi removido e o conteúdo foi movido par
 
 > [!NOTE]
 > Esse tópico será removido em uma atualização futura da documentação. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -5,19 +5,19 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: daa49cf8ba9ba005a16777f590c4c06d024de529
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123904"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071276"
 ---
 # <a name="define-resource-calendars"></a>Definir calendários de recurso
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
 
 Todos os recursos reserváveis que estiverem trabalhando em um projeto devem ter um calendário de horas de trabalho para definir sua disponibilidade. As horas de trabalho de um recurso podem ser definidas de duas formas: 
 

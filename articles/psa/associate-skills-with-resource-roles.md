@@ -2,8 +2,6 @@
 title: Associar as habilidades com as funções do recurso
 description: Como associar habilidades a funções de recursos no Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8386948d8ea2431385e6aed9165b4018c34bcaf0
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: dd3d20593f55feccaaf67eb0af9550d6e3289edfeeaf4001a56fd39dbb1e3c07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145299"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998582"
 ---
 # <a name="associate-skills-with-resource-roles-project-service"></a>Associar funções de recursos com habilidades (Project Service)
 
@@ -47,3 +45,6 @@ Ao adicionar funções de recursos, você provavelmente já associou algumas hab
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar recursos](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Criando um adiantamento ad hoc em um contrato
 description: Este tópico fornece informações sobre como criar um adiantamento em um contrato, conforme necessário.
 author: rumant
-manager: Annbe
 ms.date: 10/26/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 790a0281f72eff5f241d11da025b5b4af643a567
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: bceed1372dbaf523426a4c34da7152d77fe108240c8c3e4e1390c43b1cf536a4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4595925"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999122"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>Criando um adiantamento ad hoc em um contrato
 
@@ -39,3 +37,6 @@ Conclua as etapas a seguir para faturar o cliente por um adiantamento.
     | **Status da Fatura** | Esta é uma configuração de opção que indica se este adiantamento é adicionado a uma fatura de rascunho para este cliente. Os valores possíveis são:</br>- **Não pronto para faturamento**</br>- **Pronto para faturamento** | Quando um adiantamento ou pré-pagamento é marcado como **Pronto para faturamento**, ele é adicionado como uma hora da linha em uma fatura de rascunho. Apenas um adiantamento totalmente faturado pode ser usado para reconciliar os custos do projeto para o próximo período da fatura. |
 
 4. Selecione **Salvar e fechar** na caixa de diálogo de criação rápida para registrar o adiantamento ou o pré-pagamento.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

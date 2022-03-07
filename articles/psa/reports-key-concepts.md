@@ -2,8 +2,6 @@
 title: Conceitos básicos
 description: Este tópico fornece informações sobre os conceitos básicos de gerenciamento de recursos no Project Service Automation.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 75b2d2c520cc48eb59c266289ca2bdc1288f2920
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 8e56523a9a2fbe8bc07e6d46062f4e1c20e6d2fa2244b32ff53e96d898b0086c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147729"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995072"
 ---
 # <a name="key-concepts"></a>Conceitos básicos
 
@@ -48,3 +46,6 @@ A tabela a seguir define os conceitos básicos usados no aplicativo Dynamics 365
 | Contorno                    | Horas de tarefas, requisitos ou atribuições que são divididas em uma distribuição diária. Por exemplo, uma tarefa de 40 horas com duração de cinco dias pode ser dividida em oito horas por dia ao longo desse período. |
 | Exibição Reconciliação        | Uma exibição que mostra as reservas e atribuições de cada membro da equipe do projeto. Essa exibição permite ao gerente de projetos procurar ocorrências de não correspondência entre reservas e atribuições, além de executar ações corretivas caso elas existam. |
 | Horas de trabalho                 | Uma entidade que é usada para identificar a capacidade do recurso, além de horas de trabalho e de folga. Essa entidade também é conhecida como calendário de recursos. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

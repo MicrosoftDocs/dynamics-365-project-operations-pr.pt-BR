@@ -2,8 +2,6 @@
 title: Cotações e linhas da cotação
 description: Este tópico fornece informações sobre cotações e linhas da cotação.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 024a7cdb81340a077e839d92c4321c8b0051404b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c98708cf91f9c5d078f3a1d3d619c9ca93cffa3e6bbca34511947b602a1c678a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145094"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995432"
 ---
 # <a name="quotes-and-quote-lines"></a>Cotações e linhas da cotação
 
@@ -86,7 +84,7 @@ As organizações de serviço profissionais geralmente cotam e faturam seus clie
 
 Uma ou mais dessas classificações de transação podem ser associadas a cada linha de cotação. Depois que uma cotação é ganha, o mapeamento entre classificação de transação e linha de cotação é transferido para a linha de contrato.
  
-> ![Captura de tela dos tipos de transação de mapeamento para cotação e linhas de contrato](media/basic-guide-5.png)
+> ![Captura de tela dos tipos de transação de mapeamento para cotação e linhas de contrato.](media/basic-guide-5.png)
   
 Por exemplo, uma cotação pode conter as duas linhas de cotação seguintes: 
 - Trabalho de consultoria que usa um método de cobrança Tempo e material, onde classificações de transação de taxa e tempo são aplicáveis. Por exemplo, todas as transações de taxa e tempo para o projeto de exemplo **Implementação do Dynamics AX** são faturadas para o cliente com base no tempo e nos materiais que são usados. 
@@ -131,3 +129,6 @@ Para uma linha de cotação de preço fixo, você pode usar a grade **Agenda de 
 - Para criar etapas de cobrança que sejam igualmente divididas, selecione uma frequência de fatura, insira a data de início da cobrança na linha de cotação e selecione **Data de Conclusão Solicitada** para a cotação na seção **Resumo** do cabeçalho da cotação. Em seguida, selecione **Gerar Etapas Periódicas** para criar etapas igualmente divididas com base na frequência de fatura selecionada. 
 - Para criar uma etapa de cobrança de soma total, crie uma etapa e insira o valor da linha de cotação como o valor da etapa.
 - Para criar etapas de cobrança que sejam baseadas em tarefas específicas no plano de projeto, crie uma etapa e mapeie-a para o elemento de agenda do projeto na interface do usuário da etapa de cobrança.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

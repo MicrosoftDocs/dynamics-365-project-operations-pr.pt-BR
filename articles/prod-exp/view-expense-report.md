@@ -16,14 +16,16 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d86185b414a559694077783d1f89dc863112a252
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: b075b926585e27b8811f999e41dcb271277d360e
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271159"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071573"
 ---
 # <a name="view-an-expense-report-from-general-ledger-or-procurement-and-sourcing"></a>Exibir um relatório de despesas da Contabilidade ou de Aquisição e fornecimento
+
+[!include [banner](../includes/banner.md)]
 
 Quando você executa uma consulta para exibir as transações em Contabilidade ou Aquisição e fornecimento, a consulta pode retornar muitas informações. Portanto, você pode querer restringir sua pesquisa. Para obter as informações de que você precisa, você pode detalhar uma transação para ver o relatório de despesas em que ela apareceu.
 
@@ -32,6 +34,3 @@ Para relatórios de despesas, você pode fazer uma busca detalhada de uma transa
 Para fazer uma busca detalhada no relatório de despesas original em que uma transação apareceu, selecione a transação e, em seguida, selecione **Documento original**.
 
 Ao visualizar transações individuais, você também pode visualizar quaisquer dados adicionais anexados a uma transação. Por exemplo, para uma despesa de hotel detalhada, você pode ver uma lista detalhada de despesas, como acesso à Internet, chamadas telefônicas e serviço de quarto.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

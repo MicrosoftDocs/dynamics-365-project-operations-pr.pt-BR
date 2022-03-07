@@ -2,11 +2,9 @@
 title: Gerenciar listas de preços de projeto em uma cotação
 description: Este tópico fornece informações sobre a entidade Lista de preços do projeto.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 5fc8691984e22b2fa35e26b1a7d94cc56c25c26d
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8cfabf98f1a38823c777b6e388fbbb65d02877e3cd433069dd3845c292f2b277
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177182"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003892"
 ---
 # <a name="manage-project-price-lists-on-a-quote"></a>Gerenciar listas de preços de projeto em uma cotação
 
@@ -120,3 +118,6 @@ Assim como as taxas de cobrança, as taxas de custo para recursos humanos també
     1. A lista de preços de custo que é anexada à unidade organizacional.
     2. A lista de preços de custo que é anexada aos parâmetros do Project Operations. Uma vez que as listas de preços de custo em muitas moedas diferentes podem ser anexadas aos parâmetros, a correspondência de moeda é concluída entre a moeda da unidade organizacional da contratação do projeto, o contrato ou cotação e a moeda da lista de preços de custo.
     3. Para despesas, os métodos de precificação a preço de custo e markup sobre custo não se aplicam às listas de preços de custo. Mesmo que esses métodos de precificação sejam usados nas linhas da lista de preços de custo para configurar custos da categoria de transação, o sistema os ignora, e nenhum preço de custo padrão é inserido.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Criar cotações de projetos a partir de oportunidades
 description: Este tópico fornece informações sobre como criar uma cotação de projeto a partir de uma projeto.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118099"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999617"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>Criar cotações de projetos a partir de oportunidades
 
@@ -56,3 +54,6 @@ Uma cotação existente pode ser vinculada a uma Oportunidade. Conclua as etapas
    Ao mover uma oportunidade para este estágio, você pode selecionar esta cotação em uma lista de cotações associadas a esta oportunidade. Selecionar esta cotação indica que você está avançando com ela.
 
    Todas as outras cotações associadas à Oportunidade ainda estarão disponíveis e ativas até que uma delas seja ganha. Você pode mover o processo de vendas de volta para o estágio anterior **Qualificar** e escolha outra citação para seguir em frente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

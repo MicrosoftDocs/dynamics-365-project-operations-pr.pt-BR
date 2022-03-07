@@ -2,11 +2,9 @@
 title: Gerenciar delegação
 description: Este tópico fornece informações sobre como um delegado de despesas pode criar e gerenciar relatórios de despesas para outro funcionário.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122689"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997772"
 ---
 # <a name="manage-delegation"></a>Gerenciar delegação
 Um delegado de despesas pode criar e gerenciar relatórios de despesas para outro funcionário.
@@ -39,3 +37,6 @@ Se a chave de gerenciamento de recursos **Habilitar página de lista de delegado
 Um delegado pode filtrar e pesquisar rapidamente os relatórios de despesas existentes que foram delegados a ele. O delegado também pode criar rapidamente um novo relatório de despesas para outros usuários, selecionando **Novo relatório de despesas**.
 
 Os delegados podem criar e gerenciar relatórios de despesas para outros funcionários acessando **Gerenciamento de despesas** > **Minhas despesas** > **Relatório de despesas** e selecionando **Abrir as despesas de outro usuário**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

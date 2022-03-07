@@ -2,8 +2,6 @@
 title: Novidades ou alterações no Ciclo de Acesso Antecipado 1 de 2021 do Project Service Automation, V3
 description: Este tópico lista os recursos e as correções disponíveis no Ciclo de Acesso Antecipado 1 de 2021 do Project Service Automation, V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 01/29/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3895f06c6a401f200cf832940ef85eaa8d66fbb2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 9439aefda275e9c6256215fa6e82e13f693e61a0dd9b2c68b8e5273eeac4d64b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151149"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999797"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-early-access-wave-1-2021-v3"></a>Novidades ou alterações no Ciclo de Acesso Antecipado 1 de 2021 do Project Service Automation, V3
 
@@ -30,7 +28,7 @@ ms.locfileid: "5151149"
 
 ## <a name="project-service-automation-early-access-wave-1-2021-v3"></a>Ciclo de Acesso Antecipado 1 de 2021 do Project Service Automation, V3
 
-Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse a página de soluções online do Centro de Administração do Dynamics 365 para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse a página de soluções online do Centro de Administração do Dynamics 365 para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
 Este tópico lista os recursos e as correções novos ou alterados no Ciclo de Acesso Antecipado 1 de 2021 do Project Service Automation, V3. Esta versão tem um número de compilação de V3.10.49.3 e está geralmente disponível por meio de uma atualização automática em fevereiro de 2021.
 
@@ -43,3 +41,6 @@ Os seguintes problemas foram corrigidos:
 
 - As datas de término são preenchidas automaticamente quando uma entrada de tempo é criada se a duração for nula.
 - Os usuários podem alterar a tarefa em uma entrada de hora que foi aprovada ou enviada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,10 +2,9 @@
 title: O que é o Dynamics 365 Project Service Automation?
 description: Introdução e visão geral do Project Service
 author: stsporen
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 9/23/2019
 ms.topic: article
 ms.author: ruhercul
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a78d8a2085821d6ba44750cfdba909c2c38b42ff
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150519"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000247"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>O que é o Dynamics 365 Project Service Automation?
 
@@ -47,10 +46,10 @@ Além disso, para ajudá-lo a monitorar e controlar custos de seu trabalho basea
 ## <a name="whats-new-in-psa"></a>Novidades do PSA
 A equipe está animada de anunciar nossas atualizações mais recentes! Incluindo melhorias na interface de usuário, corrigindo bugs e adicionando novos recursos e funcionalidades importantes. Você pediu; nós atendemos.
 
-Dê uma olhada nas [Notas de Versão de outubro de 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) para ver nossas mais novas adições e melhorias.
+Dê uma olhada nas [Notas de Versão de outubro de 2019](/dynamics365-release-plan/2019wave2/index) para ver nossas mais novas adições e melhorias.
 
 ### <a name="in-development"></a>Em desenvolvimento
-Para ver o que planejamos para o futuro próximo, acesse o [plano da onda 1 da versão de 2020 do Dynamics 365](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index).
+Para ver o que planejamos para o futuro próximo, acesse o [plano da onda 1 da versão de 2020 do Dynamics 365](/dynamics365-release-plan/2020wave1/index).
 
 ## <a name="get-help-with-psa-version-3x"></a>Obter ajuda com a versão 3.x do PSA
 Procurando por recursos para ajudá-lo a planejar sua implementação? Veja essas diretrizes que você pode baixar.
@@ -83,6 +82,9 @@ Procurando por recursos para ajudá-lo a planejar sua implementação? Veja essa
  [Notas para desenvolvedores (versão 2.x do aplicativo)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
 
  ## <a name="watch-a-2-minute-overview-video"></a>Assista a um vídeo de visão geral de 2 minutos
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo")](https://go.microsoft.com/fwlink/p/?LinkId=799457)
+ <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo."](https://go.microsoft.com/fwlink/p/?LinkId=799457)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: fd29a3fc9c873d46dd66a05ad100c7515177d6cd
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 04c97429ab8ac769dd22b4127432d80de8fde937
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130924"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275569"
 ---
 # <a name="default-price-lists"></a>Listas de preços padrão
 
@@ -21,7 +21,7 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 
 ## <a name="sales-price-lists"></a>Listas de preços de venda
 
-Cada cotação de projeto e contrato no Dynamics 365 Project Operations contém uma lista de preços de venda padrão. 
+Todos os contratos e cotações do projeto no Dynamics 365 Project Operations contêm uma lista de preços de venda padrão. 
 
 ### <a name="price-list-default-on-project-quotes"></a>Lista de preços padrão em cotações do projeto
 O sistema conclui o seguinte processo para determinar a lista de preços a ser padronizada em uma cotação de projeto:
@@ -57,3 +57,6 @@ As listas de preços de custo não são padronizadas para entidades no Project O
 5. Em seguida, o sistema verifica a data efetiva das listas de preços que correspondem à data da estimativa de entrada ou linha real. 
 6. Se houver várias listas de preços em vigor para a data na estimativa de entrada ou real, a lista de preços recém-criada será selecionada.
 7. Se não houver listas de preços de custo anexadas aos parâmetros do projeto que correspondam à moeda e à data efetiva, o sistema padronizará a taxa de custo como zero (0) na estimativa de entrada ou linha real.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

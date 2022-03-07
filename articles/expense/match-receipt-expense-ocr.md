@@ -1,5 +1,5 @@
 ---
-title: Capturar um recibo usando OCR
+title: Comparar um recibo com uma despesa usando OCR
 description: Este tópico fornece informações sobre o processamento de reconhecimento óptico de caracteres (OCR) para recibos.
 author: suvaidya
 manager: AnnBe
@@ -15,14 +15,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499837"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124309"
 ---
-# <a name="capture-a-receipt-using-ocr"></a>Capturar um recibo usando OCR
+# <a name="match-a-receipt-to-an-expense-using-ocr"></a>Comparar um recibo com uma despesa usando OCR
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
@@ -94,6 +94,3 @@ Atualmente, há suporte para os Estados Unidos.
 O departamento de finanças entrará em contato com Serviços Cognitivos para extrair dados do campo. Os Serviços Cognitivos manterão uma cópia do seu recibo por até 24 horas durante o processamento. Após a conclusão do processamento, os Serviços Cognitivos removerão o recibo. Os recibos ainda estão armazenados em Finanças.
 
 Para obter mais informações, consulte [Habilite a compreensão do recibo com o novo recurso de Reconhecimento de Formulários](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/).
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

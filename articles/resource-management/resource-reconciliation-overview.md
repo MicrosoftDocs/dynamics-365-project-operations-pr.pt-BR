@@ -2,11 +2,9 @@
 title: Visão geral da reconciliação de recurso
 description: Este tópico fornece informações que ajudarão você a garantir que as reservas de recursos e atribuições para projetos estejam alinhadas.
 author: ruhercul
-manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
-ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
+ms.openlocfilehash: be171063c21318f517a37f3088e3f577fd4b6715
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/12/2021
-ms.locfileid: "4849610"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000827"
 ---
 # <a name="resource-reconciliation-overview"></a>Visão geral da reconciliação de recurso
 
@@ -48,3 +46,6 @@ Se você tiver atribuições de tarefa para um recurso, mas nenhuma reserva, na 
 Reservas que são criadas por meio da ação **Estender reserva** são associadas ao requisito principal do projeto. Quando uma extensão é iniciada, o requisito específico que deve ser estendido não pode ser determinado, porque o recurso pode estar associado a mais de um requisito para o projeto.
 
 O gerente de projeto ou o gerente de recursos pode usar o quadro de agendamento para gerenciar situações em que um recurso é reservado em excesso além de sua capacidade.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

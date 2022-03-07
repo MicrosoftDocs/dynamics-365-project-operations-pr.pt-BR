@@ -2,8 +2,6 @@
 title: Configurar Project Service Automation
 description: Etapas para configurar Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ec5381f91b1fe5198bd93ac8d6015b1fea38738d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: de95d7b271d876285ac5f4ecbc595390141d9e126ce101779652828581c1f613
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146919"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998537"
 ---
 # <a name="configure-project-service"></a>Configurar Project Service
 
@@ -58,3 +56,6 @@ Antes de usar os recursos de automatização do [!INCLUDE[pn_project_service_aut
  [Guia do gerente de projeto](../psa/project-manager-guide.md)   
  [Guia do gerente de recursos](../psa/resource-manager-guide.md)   
  [Guid de tempo, despesas e colaboração](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

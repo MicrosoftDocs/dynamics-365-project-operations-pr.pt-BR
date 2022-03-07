@@ -2,18 +2,16 @@
 title: Determinar o tipo de implantação
 description: Este tópico fornece informações para ajudar a determinar o tipo de implantação correto do Project Operations para a sua empresa.
 author: stsporen
-manager: Annbe
 ms.date: 03/15/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 1aae04230104d27db2f62db8e674697fd83460ac
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948090"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994622"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o tipo de implantação
 

@@ -3,7 +3,7 @@ title: Novidades ou alterações na Versão de Atualização 15 do Project Servi
 description: Este tópico inclui informações sobre o que há de novo e o que foi alterado na Versão da Atualização 15 do Project Service Automation V3.
 author: ruhercul
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom: dyn365-projectservice
 ms.date: 01/27/2020
 ms.topic: article
@@ -17,16 +17,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0ec6746c0d3a1a03ee56440c73d044df844046f8
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6112e4874025e528a2bb583cf215fd9eff681534
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143949"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071385"
 ---
 # <a name="project-service-automation-update-release-15-v3"></a>Versão de Atualização 15, do Project Service Automation V3
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 Temos o orgulho de anunciar a versão mais recente do aplicativo Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e vá para a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
 

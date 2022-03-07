@@ -2,8 +2,6 @@
 title: Preço do catálogo de produtos
 description: Este tópico fornece informações sobre como funciona o preço do catálogo de produtos no Dynamics 365 Project Service Automation (PSA).
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/07/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3fb9b51d58cbe3b0db6dad902461b90ac04cc42f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 59e05a55d41573b96785a2f41a7d5d822f6b515fb55edddea5ef1862b7694a1b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151194"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7000157"
 ---
 # <a name="product-catalog-pricing"></a>Preço do catálogo de produtos 
 
@@ -46,7 +44,7 @@ O preço de custo das linhas do catálogo de produtos pode ser alterado entre co
 
 O PSA dá suporte a várias opções de arredondamento quando os preços são configurados como uma função de preço de lista, custo padrão ou custo atual. Além de aproveitar vários métodos de precificação e opções de arredondamento, você pode associar listas de descontos a itens da lista de preços. 
 
-> ![Adicionando produtos de um catálogo a diferentes listas de preços](media/basic-guide-16.png)
+> ![Adicionando produtos de um catálogo a diferentes listas de preços.](media/basic-guide-16.png)
 
 Quando você cria uma nova lista de preços personalizada para uma cotação selecionando **Criar Preço Personalizado** na página **Cotação do Projeto**, o PSA faz uma cópia da lista de preços e o campo **Entidade** no cabeçalho da nova lista de preços é definido como **Entidade de Vendas**. O nome da nova lista de preços é acrescentada com o nome da cotação e um carimbo de data/hora. Você também pode usar o nome da nova lista de preços e o nome da cotação em fluxos de trabalho personalizados para disparar revisão adicional e aprovações para cotações que usam preço personalizado.
 
@@ -64,3 +62,6 @@ As entidades Oportunidade, Cotação e Contrato de Projeto usam a ordem a seguir
 Por padrão, o campo **Produto** na linha de cotação lista todos os produtos ativos na lista de preços de produto da cotação. Se um produto foi inativado, ou se for um produto em rascunho, ele não será listado, mesmo se estiver na lista de preços. 
 
 As linhas do catálogo de produtos são adicionadas como linhas da fatura na primeira fatura que é criada para um contrato de projeto. Em uma fatura de rascunho, essas linhas de fatura podem ser excluídas. Nesse caso, as linhas aparecerão em uma fatura subsequente até que sejam faturadas, ou até que a fatura seja enviada ao cliente. No PSA, não é possível faturar uma quantidade parcial de uma linha de fatura do produto. Quando as linhas de produto do contrato do projeto são faturadas, dados reais são criados. No entanto, esses dados reais não são vinculados à entidade de projeto relacionada. Em outras palavras, as linhas de contrato do projeto baseadas em produto são independentes de qualquer uso baseado em projeto. O PSA não rastreia o consumo de material em projetos.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

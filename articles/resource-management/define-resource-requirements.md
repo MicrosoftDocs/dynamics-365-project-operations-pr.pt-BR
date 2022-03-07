@@ -2,22 +2,20 @@
 title: Definir requisitos de recurso
 description: Este tópico fornece informações sobre como definir as informações de requisitos de recursos.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 0fe030610424e84c823ae454542f2609a0b206033ab549619865e2c649cce113
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071323"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990257"
 ---
 # <a name="define-resource-requirements"></a>Definir requisitos de recurso
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Os requisitos de recursos são definidos pelo Gerente de projeto para estabelecer os recursos necessários para executar o trabalho no projeto. Execute as etapas a seguir para definir um requisito de recurso.
 
@@ -26,3 +24,5 @@ Os requisitos de recursos são definidos pelo Gerente de projeto para estabelece
 3.  Na guia **Membro da Equipe**, selecione o membro da equipe e depois selecione **Gerar Requisito**.
 
 Para obter informações sobre como modificar o requisito de recurso, consulte [Atualizar detalhes do Requisito de recurso](define-resource-requirements.md) para modificar o requisito de recurso.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Faturar um honorário ou adiantamento
 description: Este tópico fornece informações sobre como faturar um honorário ou adiantamento no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 12bf3822227badcf8c83d84d6aef6c0fdc7a972a
-ms.sourcegitcommit: 250270409412ba4cad95fbd4c345a80d3d2b3e53
+ms.openlocfilehash: 25c0c979056d89d44a1bd67dbfdcb180d897de65eaf3374cec0a2dc73c4e3568
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/21/2020
-ms.locfileid: "4596178"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6997457"
 ---
 # <a name="invoice-a-retainer-or-an-advance"></a>Faturar um honorário ou adiantamento
 
@@ -51,3 +49,6 @@ Isso pode ser visto na grade **Honorários e Adiantamentos Aplicados** na págin
 | Valor Usado | Grade **Honorários e Adiantamentos Aplicados** na página **Fatura do Projeto**  | Este campo somente leitura fornece o valor calculado que resume quanto do honorário ou adiantamento foi usado. | Este campo pode ser exibido para o cliente na fatura impressa para indicar o valor deste honorário ou adiantamento que já foi usado. |
 | Valor Ampliado | Grade **Honorários e Adiantamentos Aplicados** na página **Fatura do Projeto**  | Este campo editável fornece o valor do honorário ou adiantamento que está sendo usado nesta fatura do projeto. Este valor não pode ser superior ao que está disponível no adiantamento. O sistema calcula automaticamente isso como a diferença entre os campos **Valor** e **Quantidade Usada** na grade. Você pode diminuir esse valor para usar menos do que o disponível, mas não pode aumentar o valor para usar mais do que está disponível. | Este campo pode ser exibido para o cliente na fatura impressa para indicar o valor deste honorário ou adiantamento que está sendo usado na fatura. |
 | Valor do Saldo dos Honorários. | Grade **Honorários e Adiantamentos Aplicados** na página **Fatura do Projeto**  | Este campo somente leitura fornece o valor de quanto restará do honorário ou adiantamento após a confirmação da fatura. | Este campo pode ser exibido para o cliente na fatura impressa para indicar o valor que restará deste honorário ou adiantamento após a confirmação ou o pagamento da fatura. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Membros da equipe de projeto
 description: Este tópico fornece informações sobre como trabalhar com informações, atributos e agendamento dos membros da equipe do projeto.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3985febf62a520619e05bbb9a307195009e4b100
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 273736219aff9c2ed4ffa8cf616d6ea656bd7294
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4127414"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010907"
 ---
 # <a name="project-team-members"></a>Membros da equipe de projeto
 
@@ -60,3 +58,6 @@ Na grade de membros da equipe, as seguintes ações podem ser realizadas:
 
 - **Novo**: além de adicionar recursos diretamente da agenda, os gerentes de projeto podem adicionar novos membros da equipe nomeados ou genéricos na grade de membros da equipe.
 - **Excluir**: ao selecionar um ou mais membros da equipe, o gerente de projeto pode excluir recursos que não participarão mais do projeto. Excluir um membro da equipe também excluirá todas as atribuições de recursos associadas e cancelará todas as reservas existentes.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

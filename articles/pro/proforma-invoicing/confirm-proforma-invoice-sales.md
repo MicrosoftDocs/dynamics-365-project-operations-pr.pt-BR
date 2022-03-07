@@ -1,26 +1,24 @@
 ---
-title: Confirmar uma fatura pro forma (lite)
-description: Este tópico fornece informações sobre a confirmação de faturas pro forma no Project Operations.
+title: Confirmar uma fatura pro forma do projeto
+description: Este tópico fornece informações sobre como confirmar faturas de projeto pro forma no Project Operations.
 author: rumant
-manager: Annbe
-ms.date: 10/13/2020
+ms.date: 04/05/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 02b671e4ad327b2448529d7119211613f3a9cb27
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 37efb4923cbf9696ff85dfcd6dee9aac6badd68ed74a515e5ea5598aacfa3a83
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4176507"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992957"
 ---
-# <a name="confirm-a-proforma-invoice---lite"></a>Confirmar uma fatura pro forma (lite)
+# <a name="confirm-a-proforma-project-invoice"></a>Confirmar uma fatura pro forma do projeto 
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 
-Depois que uma fatura pro forma é confirmada, o status da fatura do projeto é atualizado para **Confirmada**. Quando uma fatura é confirmada, ela se torna somente leitura. A partir de agora, a fatura só poderá ser corrigida se houver correções ou créditos iniciados pelo cliente ou se a fatura estiver marcada como paga.
+Depois que uma fatura pro forma é confirmada, o status da fatura do projeto é atualizado para **Confirmada**. Quando uma fatura é confirmada, ela se torna somente leitura. A partir deste momento, a fatura só poderá ser corrigida se houver correções ou créditos iniciados pelo cliente.
 
 A tabela a seguir lista os reais criados pelo sistema. Esses reais são criados quando certas operações são executadas no rascunho da fatora de projeto antes de ser confirmada.
 
@@ -231,6 +229,70 @@ Uma nova venda não cobrada real que é cobrada pela quantidade e o valor no det
         <tr>
             <td width="216" rowspan="2" valign="top">
                 <p>
+Faturar uma transação de material sem quaisquer edições na fatura de rascunho.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Um retorno de vendas não faturadas para a quantidade e o valor na aprovação de uso de material original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+As vendas reais faturadas para a quantidade e o valor na aprovação de uso de material original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+Faturar uma transação de material editada para reduzir a quantidade.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Um retorno de vendas não faturadas para a quantidade e o valor na aprovação de tempo.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uma nova venda não cobrada real que é cobrada pela quantidade e o valor no detalhe da linha da fatura editada, um estorno da venda não cobrada real e uma venda cobrada real equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uma nova venda não cobrada real que não é cobrada pela quantidade e o valor restantes após a dedução dos números corrigidos no detalhe da linha da fatura editada, um estorno da venda não cobrada real e uma venda cobrada real equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+Faturar uma transação de material editada para aumentar a quantidade.
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+Um retorno de vendas não faturadas para a quantidade e o valor na aprovação de uso de material original.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+Uma nova venda não cobrada real que é cobrada pela quantidade e o valor no detalhe da linha da fatura editada, um estorno da venda não cobrada real e uma venda cobrada real equivalente.
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
 Faturamento de um valor.
                 </p>
             </td>
@@ -273,3 +335,6 @@ Uma venda cobrada real para a linha de produto com a quantidade e o valor proven
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

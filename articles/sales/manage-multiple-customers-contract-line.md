@@ -2,18 +2,16 @@
 title: Gerenciar vários clientes em linhas de contrato baseadas em projeto
 description: Este tópico fornece informações sobre como trabalhar com linhas de contrato e contratos que contêm vários clientes.
 author: rumant
-manager: Annbe
 ms.date: 10/22/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 71081775ab45167bc1bff1979f7856a2a2a91385
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 25ce50251380d1ca136a81268c74a0675928011dc2eefaee21df83cdd62845a9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181888"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992102"
 ---
 # <a name="manage-multiple-customers-on-project-based-contract-lines"></a>Gerenciar vários clientes em linhas de contrato baseadas em projeto
 
@@ -44,3 +42,6 @@ Abaixo estão os campos no registro de linha de cliente Contrato de uma linha de
 As porcentagens de divisão de cobrança podem ser editadas na grade. Quando as porcentagens de divisão de cobrança não totalizarem 100%, ocorrerá um erro. Depois de editar as porcentagens de divisão de cobrança, atualize a página para remover o erro.
 
 Você também pode tentar selecionar **Distribuir Uniformemente** na subgrade do cliente da linha de contrato. Essa ação aloca uniformemente divisões de cobrança para todos os clientes de linha de contrato. Se houver fator de arredondamento, ele será adicionado ao cliente de arredondamento. Um cliente de linha de contrato é sempre marcado como o cliente de **Arredondamento** com o sinalizador **Arredondamento** definido como **Sim**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

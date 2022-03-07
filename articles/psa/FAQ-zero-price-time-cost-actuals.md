@@ -2,6 +2,8 @@
 title: Por que o preço padrão está sendo definido como zero em dados reais de custo de tempo?
 description: Solução de problemas do preço padrão definido como zero em dados reais de custo de tempo.
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/21/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ffe915a48f088bde457121a323325ba490c24e45
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 65f2bc773a376800928cc3746691061d8e290f74
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5993042"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285784"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-time-cost-actuals"></a>Por que o preço padrão está sendo definido como zero em dados reais de custo de tempo?
 

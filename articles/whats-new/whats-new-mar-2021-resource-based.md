@@ -2,19 +2,17 @@
 title: Novidades em março de 2021 – Project Operations para cenários baseados em recursos/sem estoque
 description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de março de 2021 do Project Operations para cenários baseados em recursos/sem estoque.
 author: sigitac
-manager: tfehr
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d114ee64bd26d3271a1c72a7404c0f7035c2b61
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948045"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006322"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em março de 2021 – Project Operations para cenários baseados em recursos/sem estoque
 

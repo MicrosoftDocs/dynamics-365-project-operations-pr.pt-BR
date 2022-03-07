@@ -2,18 +2,16 @@
 title: Linhas de oportunidade baseadas em projeto
 description: Este tópico fornece informações sobre como trabalhar com linhas de oportunidade baseadas em projeto.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0ede474e3d8830b420dc5b183f14327206c10288
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 04e091a58f72a99fb17f37b95f9cac2b4476757b79965177854423361f416d51
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181933"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996332"
 ---
 # <a name="project-based-opportunity-lines"></a>Linhas de oportunidade baseadas em projeto
 
@@ -33,3 +31,6 @@ Veja abaixo os campos em uma linha de oportunidade baseada em projeto:
 | Nome | Guia Geral | Este é um campo de texto editável que pode ser usado para fornecer uma identidade curta a este item de linha | Este valor é transferido para a linha de cotação quando você cria uma cotação a partir desta oportunidade |
 | Orçamento do Cliente | Guia Geral | Este campo de moeda editável pode ser usado para rastrear o valor que o cliente deseja gastar neste item de linha. | Este valor é transferido para o campo correspondente na linha de cotação quando você cria uma cotação a partir desta oportunidade |
 | Método de Cobrança | Guia Geral | Este campo editável possui os valores a seguir:</br>- Hora e Material</br>- Preço Fixo | Este valor é transportado para o campo correspondente na linha de cotação quando você cria uma cotação a partir desta oportunidade. Depois que a linha de cotação é criada, o campo é bloqueado e não pode ser alterado. Atribua este valor de campo com a maior precisão possível. Se você precisar alterar o valor deste campo na linha de cotação, exclua e recrie a linha de cotação. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

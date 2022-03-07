@@ -2,11 +2,9 @@
 title: Concessões do projeto
 description: Este tópico explica como criar ou modificar uma concessão.
 author: RadhikaRS
-manager: AnnBe
 ms.date: 04/22/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 89801696d6a2924d78c85f6e9b4281409222dbb0
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c58a051b8129cadbde491751a946b75a75cb85118c7f0c7d25a06d322ffea596
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071609"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995747"
 ---
 # <a name="project-grants"></a>Concessões do projeto
 
@@ -79,3 +77,6 @@ Você pode criar uma concessão inserindo todos os detalhes em um novo registro 
 2. Selecione a concessão a ser modificada.
 3. No Painel de Ações, na guia **Concessão**, no grupo **Manter**, selecione **Editar**.
 4. Revise os detalhes da concessão e faça as alterações necessárias.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Configurar moedas e taxas de câmbio
 description: Como configurar moedas e taxas de câmbio no Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c6bc200cc24bca2b3358149903a8341dd65f031d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: abcf5e42cbe8ef6e84bb5a97d18b584d9cafb9e6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150384"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008387"
 ---
 # <a name="set-up-currencies-and-exchange-rates-project-service"></a>Configurar moedas e taxas de câmbio (Project Service)
 
@@ -43,3 +41,6 @@ Para criar cotações e faturar seus clientes em [!INCLUDE[pn_project_service_au
   
 ### <a name="see-also"></a>Consulte também  
  [Configurar Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

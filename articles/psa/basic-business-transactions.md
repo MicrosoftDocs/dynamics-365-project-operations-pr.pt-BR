@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3a8506effc453280177d74f94dcf9310e310c098
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 68506142c5cd046806bc085f297ac928b0c94440
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149889"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5291200"
 ---
 # <a name="business-transactions"></a>Transações comerciais
 
@@ -149,3 +149,6 @@ A tabela a seguir mostra os registros na entidade Conexão da transação para o
 | Correção do Valor de Rascunho       | GUID de Transação da Linha da Fatura | Substituição          | msdyn_invoicelinetransaction | GUID de Vendas Cobradas            | Original           | msdyn_actual       |
 | Confirmar Correção da Fatura     | GUID da Reversão de Vendas Cobradas    | Reversão          | msdyn_actual                 | GUID de Vendas Cobradas            | Original           | msdyn_actual       |
 | GUID de Valor Real de Novas Vendas Não Cobradas | Substituição                     | msdyn_actual       | GUID de Vendas Cobradas            | Original                     | msdyn_actual       |                    |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,19 +2,17 @@
 title: Linhas de oportunidade baseadas em produto - lite
 description: Este tópico fornece informações sobre itens de linha de oportunidade baseados em produto no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4f8da5258a1dd0aa4229654c0e1e222b8cf3a21a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 132bfa8418e255cf65c247e55cd45fbaf58d243cb34368fd07bc4ade11bb243e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272599"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989672"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>Linhas de oportunidade baseadas em produto - lite
 
@@ -22,7 +20,7 @@ _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 As linhas de oportunidade baseadas em produto são itens de linha na Oportunidade. Esses itens de linha distintos estão na eventual fatura fornecida ao cliente. A fatura não inclui qualquer outro serviço. O gasto e o consumo associados não são controlados nas tarefas de qualquer projeto relacionado.
 
-As linhas baseadas em produtos podem ser itens de catálogo ou produtos escritos. A maior parte da funcionalidade nas linhas baseadas no produto de uma Oportunidade segue a funcionalidade fornecida pelo aplicativo Dynamics 365 Sales. Para obter mais informações sobre linhas de oportunidade baseadas em produtos, consulte [Adicione produtos a uma oportunidade](https://docs.microsoft.com/dynamics365/sales-enterprise/add-products-opportunity).
+As linhas baseadas em produtos podem ser itens de catálogo ou produtos escritos. A maior parte da funcionalidade nas linhas baseadas no produto de uma Oportunidade segue a funcionalidade fornecida pelo aplicativo Dynamics 365 Sales. Para obter mais informações sobre linhas de oportunidade baseadas em produtos, consulte [Adicione produtos a uma oportunidade](/dynamics365/sales-enterprise/add-products-opportunity).
 
 **Orçamento do cliente** é um conceito específico para linhas de oportunidade baseadas em projeto. O campo **Orçamento do cliente** rastreia o valor que o cliente está disposto a pagar pelo item.
 

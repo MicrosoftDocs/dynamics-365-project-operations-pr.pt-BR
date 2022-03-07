@@ -3,24 +3,21 @@ title: Provisionar um novo ambiente
 description: Este tópico fornece informações sobre como provisionar um novo ambiente do Project Operations.
 author: sigitac
 manager: Annbe
-ms.date: 12/11/2020
+ms.date: 10/07/2020
 ms.topic: article
-ms.prod: ''
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 09af2a7693c45d1d0b9c75420d018cc50d2cc0fa
-ms.sourcegitcommit: 04c446746aad97fc3f4c3d441983c586b918a3a6
+ms.openlocfilehash: a43b947207b6d4276ef27ec996713bf3883e7906
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/11/2020
-ms.locfileid: "4727776"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071315"
 ---
 # <a name="provision-a-new-environment"></a>Provisionar um novo ambiente
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Este tópico fornece informações sobre como provisionar um novo ambiente do Dynamics 365 Project Operations para cenários baseados em recursos/sem estoque.
 
@@ -61,15 +58,17 @@ Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do
 
 ![Consentimento de Implantação](./media/2DeploymentConsent.png)
 
-7. Opcional - Aplique dados de demonstração ao ambiente. Vá para **Configurações avançadas**, selecione **Personalizar a configuração do banco de dados SQL** e defina **Especificar um conjunto de dados para o banco de dados do aplicativo** como **Demonstração**.
-
-8. Preencha os campos obrigatórios restantes no assistente e confirme a implantação. O tempo para provisionar o ambiente varia de acordo com o tipo de ambiente. O provisionamento pode levar até seis horas.
+7. Preencha os campos obrigatórios restantes no assistente e confirme a implantação. O tempo de provisionamento do ambiente varia de acordo com o tipo de ambiente. O provisionamento pode levar até seis horas.
 
   Depois que a implantação for concluída com sucesso, o ambiente será exibido como **Implantado**.
 
-9. Para confirmar que o ambiente foi implantado com sucesso, selecione **Entrar** e faça login no ambiente para confirmar.
+8. Para confirmar se o ambiente foi implantado com sucesso, selecione **Logon** e faça logon no ambiente para confirmar.
 
 ![Detalhes do ambiente do ](./media/3EnvironmentDetails.png)
+
+## <a name="apply-project-operations-finance-demo-data-optional-step"></a>Aplicar no Project Operations os dados de demonstração do Finance (etapa opcional)
+
+Aplique no Project Operations os dados de demonstração do Finance ao ambiente hospedado na nuvem da versão de serviço 10.0.13, conforme descrito [neste artigo](resource-apply-finance-demo-data.md).
 
 ## <a name="apply-updates-to-the-finance-environment"></a>Aplicar atualizações ao ambiente do Finance
 
@@ -121,7 +120,7 @@ A manutenção do ambiente levará algum tempo. Após a conclusão, o ambiente r
 
 ![Aplicar Soluções](./media/13ApplySolutions.png)
 
-5. Selecione ambas as soluções, **Mapa de entidade de gravação dupla do Dynamics 365 Finance and Operations** e **Mapas de entidades de gravação dupla do Dynamics 365 Project Operations** e selecione **Aplicar**.
+5. Selecione ambas as soluções, **Mapa de Entidades de Gravação Dupla do Dynamics 365 Finance and Operations** e **Mapas de Entidades de Gravação Dupla do Dynamics 365 Project Operations** e selecione **Aplicar**.
 
 ![Confirmar Soluções](./media/14ConfirmSolutions.png)
 
@@ -151,21 +150,6 @@ A atualização levará aproximadamente 20 minutos. Você receberá um alerta qu
 
 ![Atualizar Confirmação](./media/19RefreshConfirmation.png)
 
-## <a name="update-security-settings-on-project-operations-on-dataverse"></a>Atualizar as configurações de segurança nas Project Operations no Dataverse
-
-1. Vá para o Project Operations no seu ambiente do Dataverse. 
-2. Vá para **Configurações** > **Segurança** > **Direitos de Acesso**. 
-3. Na página **Direitos de acesso**, na lista de direitos, selecione **usuário de aplicativo de gravação dupla** e selecione a guia **Entidades personalizadas**.  
-4. Verifique se o direito tem permissões para **Ler** e **Anexar a** para:
-      
-      - **Tipo da taxa de câmbio de moeda**
-      - **Tabela de contas**
-      - **Calendário fiscal**
-      - **Razão**
-
-5. Depois que o direito de acesso for atualizado, vá para **Configurações** > **Segurança** > **Equipes** e selecione a equipe padrão na exibição de equipe **Proprietário de empresa local**.
-6. Selecione **Gerenciar funções** e verifique se o privilégio de segurança **usuário de aplicativo de gravação dupla** está aplicado a essa equipe.
-
 ## <a name="run-project-operations-dual-write-maps"></a>Executar Mapas de Gravação Dupla do Project Operations
 
 1. Em seu projeto do LCS, acesse a página **Detalhes do ambiente**.
@@ -175,8 +159,7 @@ A atualização levará aproximadamente 20 minutos. Você receberá um alerta qu
 | **Mapa de Entidade** | **Atualizar entidade** | **Sincronização inicial** | **Mestre para sincronização inicial** | **Executar pré-requisitos** | **Sincronização inicial dos pré-requisitos** |
 | --- | --- | --- | --- | --- | --- |
 | **Funções de Recursos do Projeto para Todas as Empresas (bookableresourcecategories)** | No | Sim | Common Data Service | No | N/A |
-| **Entidades legais (cdm\_companies)** | No | Sim | Aplicativos do Finance and Operations | No | N/A |
-| **Contabilidade (msdyn_ledgers)** | No | Sim | Aplicativos do Finance and Operations | Sim | Sim, aplicativos do Finance and Operations |
+| **Entidades legais (cdm\_companies)** | No | Sim | Aplicativos Finance and Operations | No | N/A |
 | **Valores reais da integração do Project Operations (msdyn\_actuals)** | No | No | N/A | Sim | No |
 | **Linhas de contrato do projeto (salesorderdetails)** | No | No | N/A | No | No |
 | **Entidade de integração para relacionamentos de transações do projeto (msdyn\_transactionconnections)** | No | No | N/A | No | N/A |
@@ -202,10 +185,4 @@ Para executar um mapa com pré-requisitos, habilite o botão de alternância **E
 
 ![Todos os Mapas em Execução](./media/22AllMapsRunning.png)
 
-
-## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>Aplicar dados de configuração no CDS para o Project Operations (opcional)
-
-Se você aplicou dados de demonstração ao ambiente do Finance, consulte [Configurar e aplicar dados de configuração no Common Data Service para Project Operations](resource-apply-pro-setup-config-data.md) para aplicar dados de demonstração ao ambiente CDS.
-
-
-Seu ambiente do Project Operations agora está provisionado e configurado. 
+Seu ambiente do Project Operations agora está provisionado e configurado.

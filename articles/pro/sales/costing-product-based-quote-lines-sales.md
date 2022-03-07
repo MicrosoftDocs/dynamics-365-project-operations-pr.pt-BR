@@ -2,25 +2,23 @@
 title: Linhas de custos de cotação baseadas em produto
 description: Este tópico fornece informações sobre como aplicar um preço de custo a uma linha de cotação baseada em produto.
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d21ab159294cac66ffeb8abcf0943b4babd7b360
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d9c03fa1a8f43cc110565efbafd7f5aba69f65f96bec7f15f2bd492123f639c7
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118909"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001867"
 ---
 # <a name="costing-product-based-quote-lines"></a>Linhas de custos de cotação baseadas em produto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 
-As linhas de cotação baseadas em produto no Dynamics 365 Project Operations também têm um campo **Preço de Custo**. Esse campo é usado para rastrear o preço de custo do produto na linha de cotação e para cálculos de lucratividade posteriores.
+Linhas de cotação com base em produto no Dynamics 365 Project Operations também têm um campo **Preço de Custo**. Esse campo é usado para rastrear o preço de custo do produto na linha de cotação e para cálculos de lucratividade posteriores.
 
 Quando uma linha de cotação baseada em produto é criada para um produto de catálogo, o custo da linha de cotação baseada em produto assume o padrão do campo **Custo padrão** no catálogo de produtos. O campo de custo padrão no catálogo de produtos é configurado na moeda base da Organização. O custo unitário padrão na linha de cotação baseada em produto é convertido para a moeda de venda na cotação.
 
@@ -33,3 +31,6 @@ Por exemplo:
 A Fabrikam Robotics está instalando braços robóticos nas linhas de montagem da A Datum Corporation. A Fabrikam fornece serviços de instalação, mas os braços robóticos são adquiridos da robótica da Trey. Se a instalação de braços robóticos na A Datum Corporation abrir uma nova vertical de indústria para os braços robóticos da Trey, a Trey poderá oferecer um desconto especial referente a esse negócio à Fabrikam.
 
 Nesse caso, a Fabrikam criará uma linha de cotação baseada em produto para Braços Robóticos e inserirá um custo especial por unidade para essa cotação. Esse custo é diferente do custo padrão de Braços Robóticos da Trey.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

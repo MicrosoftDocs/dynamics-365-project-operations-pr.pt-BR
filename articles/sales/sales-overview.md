@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177587"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277369"
 ---
 # <a name="sales-process-overview"></a>Visão geral do processo de vendas
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Os processos de vendas que são usados em uma organização baseada em projeto diferem dos processos de vendas que são usados em uma organização baseada em produto. Isso ocorre porque os ciclos de vendas de organizações baseadas em projeto são mais longos e exigem técnicas de estimativa personalizadas para analisar e criar cotações para cada negociação. O Dynamics 365 Project Operations usa algumas das seguintes funcionalidades utilizadas em um processo de vendas:
+Os processos de vendas que são usados em uma organização baseada em projeto diferem dos processos de vendas que são usados em uma organização baseada em produto. Isso ocorre porque os ciclos de vendas de organizações baseadas em projeto são mais longos e exigem técnicas de estimativa personalizadas para analisar e criar cotações para cada negociação. O Dynamics 365 Project Operations utiliza algumas das seguintes funcionalidades usadas em um processo de vendas:
 
 - Um registro de Cliente Potencial é usado para rastrear o processo de vendas.
 - Os clientes potenciais qualificados são rastreados como oportunidades.
@@ -63,3 +63,6 @@ No Project Operations, não é possível rastrear revisões realizadas em uma co
 
 ## <a name="track-comments-and-approvals-of-quotes-and-project-contracts"></a>Rastrear comentários e aprovações de cotações e contratos de projeto
 Você pode gerenciar a revisão e aprovação de cotações e contratos de projeto usando postagens e murais de registro. Sua organização pode criar fluxos de trabalho e plug-ins personalizados para atribuir, redirecionar, escalonar e gerenciar notificações de revisão e a aprovação de itens de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

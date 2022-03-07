@@ -2,8 +2,6 @@
 title: Novidades ou alterações na Versão de Atualização 12 do Project Service Automation V3
 description: Este tópico inclui informações sobre o que há de novo e o que foi alterado na Versão da Atualização 12 do Project Service Automation V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: daf0e6c7a4b1b953cb808cfefab74475c47d3996
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f05488a652f7a699aaa5d8e644eae38d7083f404d3c461cdaabd1915b1a710a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143814"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004477"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Versão de Atualização 12, do Project Service Automation V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Temos o orgulho de anunciar a versão mais recente do aplicativo Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e vá para a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Temos o orgulho de anunciar a versão mais recente do aplicativo Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e vá para a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
 Este tópico lista os recursos e as correções novas ou alteradas para o Project Service Automation V3, Versão de Atualização 12. Esta versão tem um número de compilação da V3.10.2.34 e está geralmente disponível por meio de uma atualização automática em outubro de 2019.
 
@@ -61,3 +59,6 @@ Este tópico lista os recursos e as correções novas ou alteradas para o Projec
     - Corrigido: IDs de objeto duplicados encontrados no formulário do **Contrato principal**.
     - Corrigido: A lógica foi atualizada para tornar a guia **Análise de cotação** visível para exibir a configuração de metadados da guia.
     - Corrigido: Data contábil no registro real agora é gerada com base na data da entrada de hora/despesa e não da data da aprovação.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

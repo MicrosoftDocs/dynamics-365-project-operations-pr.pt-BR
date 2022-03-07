@@ -2,18 +2,16 @@
 title: Gerenciar vários clientes em uma cotação de projeto
 description: Este tópico fornece informações sobre como trabalhar em cotações que envolvem vários clientes que financiarão o projeto.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 67e927962feb248aa7f07a69463b433e1ec89761
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: eef3e8754cdfdb810ffd5283976445edbb126b51e20d5b51d603d2ba9e2c02c9
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181978"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991967"
 ---
 # <a name="manage-multiple-customers-on-a-project-quote"></a>Gerenciar vários clientes em uma cotação de projeto
 
@@ -23,7 +21,7 @@ As cotações de projeto viabilizam o cenário em que a proposta envolve vários
 
 Todos os clientes de cotação na guia **Clientes** do padrão de cotação do projeto como clientes da linha de cotação em qualquer **nova** linha de cotação baseada em projeto criada para a cotação. Quaisquer linhas de cotação baseadas em projeto existentes não herdam novos registros de cliente de cotação criados depois delas.
 
-É possível adicionar, atualizar ou excluir clientes de cotação e clientes de linha de cotação a qualquer momento antes de a cotação ser ganha. Um cliente válido na cotação deve ser configurado como um cliente na empresa proprietária ou pessoa jurídica na página **Clientes**. Pessoas jurídicas são estabelecidas no módulo **Gestão e contabilidade de projetos** de Dynamics 365 Project Operations e são disponibilizados como Empresas nos módulos **Vendas e entrega de projetos** de Project Operations.
+É possível adicionar, atualizar ou excluir clientes de cotação e clientes de linha de cotação a qualquer momento antes de a cotação ser ganha. Um cliente válido na cotação deve ser configurado como um cliente na empresa proprietária ou pessoa jurídica na página **Clientes**. As entidades legais são configuradas no módulo **Gerenciamento e contabilidade de projeto** do Dynamics 365 Project Operations e estão disponíveis como Empresas nos módulos **Vendas do Projeto e Entrega** do Project Operations.
 
 ## <a name="concept-of-a-primary-customer"></a>Conceito de cliente principal
 
@@ -51,3 +49,6 @@ Um cliente de cotação pode ser criado, atualizado ou excluído na guia **Clien
 Você pode editar as porcentagens de divisão de cobrança usando a experiência de edição de grade em linha. Quando as porcentagens de divisão do cobrança não totalizam 100%, ocorre um erro. Depois de atualizar as porcentagens de divisão de cobrança, atualize a página para remover o erro.
 
 Você também pode tentar selecionar **Distribuir Uniformemente** na subgrade dos clientes de cotação. Esta ação aloca divisões de cobrança para todos os clientes da cotação. Se houver qualquer fator de arredondamento, ele será adicionado ao cliente de arredondamento. Um dos clientes da cotação é sempre marcado como o cliente de arredondamento. Isso significa que o registro do cliente da cotação tem o sinalizador **Arredondamento** definido como **Sim**. Normalmente, este é o cliente principal da cotação, mas isso pode ser alterado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

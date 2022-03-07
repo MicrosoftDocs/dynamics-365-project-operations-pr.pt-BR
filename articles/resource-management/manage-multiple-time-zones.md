@@ -2,18 +2,16 @@
 title: Gerenciar fusos horários
 description: Quando um projeto é criado, seu fuso horário é baseado no fuso horário definido no modelo de hora de trabalho aplicado.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1480d68105be1041e791de567b180178b330d71e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119809"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997722"
 ---
 # <a name="manage-time-zones"></a>Gerenciar fusos horários
 
@@ -68,3 +66,6 @@ Depois que a funcionalidade de reserva estendida tiver sido usada para cada recu
 Observe que uma análise mais detalhada dos detalhes das reservas mostra diferenças na hora de início das reservas. As reservas não começam antes da hora de início do contorno da atribuição nem antes da hora de início disponível do recurso.
 
 ![Novas reservas de recursos no quadro de horários](media/reconcile-assignments-12.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

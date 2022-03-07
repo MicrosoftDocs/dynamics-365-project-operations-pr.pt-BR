@@ -2,8 +2,6 @@
 title: Estimativas
 description: Este tópico fornece informações sobre estimativas no Dynamics 365 Project Service Automation.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 1/31/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2fa81067ad6e7c291b9ad9468db051e8f6187da9
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: ebb59d2b38bf99aed15206646e77c74003aba2a92a6d8d262e6e7b2017285ed3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5151419"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992372"
 ---
 # <a name="estimates"></a>Estimativas
 
@@ -85,24 +83,27 @@ Se você adicionou um campo personalizado nos detalhes da linha de cotação e q
 1. Abra PluginRegistrationTool e conecte-se à sua instância online
 2. Selecione **Pesquisar** e procure o plug-in a ser atualizado.
 
-    ![Caixa de diálogo Árvore de Pesquisa](media/basic-guide-19.png)
+    ![Caixa de diálogo Árvore de Pesquisa.](media/basic-guide-19.png)
 
 3. Selecione o plug-in e, em seguida, na página principal, escolha **Selecionar**.
 4. Selecione a etapa do plug-in a ser atualizado, clique com o botão direito do mouse e selecione **Atualizar**.
 
-    ![Selecionando uma etapa no plug-in](media/basic-guide-20.png)
+    ![Selecionando uma etapa no plug-in.](media/basic-guide-20.png)
 
 5. Na caixa de diálogo **Atualizar Etapa Existente**, no campo **Filtrando Atributos**, selecione o botão de reticências (**...**):
  
-    ![Caixa de diálogo Atualizar Etapa Existente](media/basic-guide-21.png)
+    ![Caixa de diálogo Atualizar Etapa Existente.](media/basic-guide-21.png)
 
 6. Na caixa de diálogo **Selecionar Atributos**, marque as caixas de seleção de atributos personalizados.
 
-    ![Caixa de diálogo Selecionar Atributos](media/basic-guide-22.png)
+    ![Caixa de diálogo Selecionar Atributos.](media/basic-guide-22.png)
 
 7. Selecione **OK** para fechar a caixa de diálogo e, em seguida, **Atualizar Etapa**.
  
-    ![Botão Atualizar Etapa](media/basic-guide-23.png)
+    ![Botão Atualizar Etapa.](media/basic-guide-23.png)
 
 8. Repita as etapas de 1 a 7 para o segundo plug-in.
 9. Feche a ferramenta PluginRegistrationTool.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

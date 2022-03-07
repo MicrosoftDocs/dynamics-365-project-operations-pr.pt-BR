@@ -2,8 +2,6 @@
 title: Estimativas e projetos de vendas
 description: Este tópico fornece informações sobre como aproveitar a agenda e as estimativas no processo de vendas.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148359"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995162"
 ---
 # <a name="sales-estimates-and-projects"></a>Estimativas e projetos de vendas
 
@@ -37,11 +35,11 @@ Durante o processo de vendas, você pode criar estimativas de vendas vinculando 
 
 Quando você cria uma linha de cotação baseada em projeto, é possível criar um novo projeto ou associar um projeto existente na página **Linha de Cotação**. 
 
-> ![Formulário de linha de cotação](media/project-8.png)
+> ![Formulário de linha de cotação.](media/project-8.png)
  
 Quando você cria um novo projeto com base nos detalhes da linha de cotação, é possível aproveitar os modelos do projeto. Os modelos do projeto são projetos modelo que representam planos de projeto padrão e estimativas financeiras que são típicas em uma organização. Eles também representam cópias de planos de projeto e estimativas de projetos passados.
 
-> ![Detalhes da linha de cotação](media/project-9.png)
+> ![Detalhes da Linha de Cotação.](media/project-9.png)
   
 Quando você cria o projeto com base na cotação, o projeto é automaticamente associado à linha de cotação.
 
@@ -54,3 +52,6 @@ Você pode definir as estimativas de agenda e esforço de trabalho usando os cam
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>Importando estimativas de um projeto em uma cotação
 
 Após definição de estimativas do projeto, você pode importá-las na linha de cotação. Na página **Detalhes da Linha de Cotação**, selecione na faixa de opções **Importar de estimativas** para resumir as estimativas do projeto por tipo de transação, função ou nível da tarefa.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Novidades ou alterações no Hotfix da Versão de Atualização 28.5 do Project Service Automation V3
 description: Este tópico lista os recursos e as correções que estão disponíveis no Hotfix da Versão de Atualização 28.5 do Project Service Automation V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/03/2021
 ms.topic: article
@@ -17,12 +15,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49693becc1b18d6e966d6c5b94397d82587aeb0d
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 2e97ce97cd9d8178c293089bd131683278bee4a9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948525"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010592"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-285-v3"></a>Novidades ou alterações na Versão de Atualização 28.5 do Project Service Automation V3
 

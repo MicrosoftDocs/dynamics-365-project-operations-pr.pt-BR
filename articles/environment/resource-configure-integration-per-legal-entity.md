@@ -2,24 +2,22 @@
 title: Configurar a integração do Project Operations por entidade legal
 description: Este tópico fornece informações sobre como configurar a integração por entidade legal no Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122869"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999392"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurar a integração do Project Operations por entidade legal 
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Este tópico mostra as etapas necessárias para configurar o Dynamics 365 Project Operations por entidade legal.
+Este tópico orienta você ao longo das etapas necessárias para configurar o Dynamics 365 Project Operations por entidade legal.
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Habilitar teclas de função no Dynamics 365 Finance
 
@@ -51,3 +49,6 @@ Cada entidade legal que usa o Project Operations no Dynamics 365 Customer Engage
   - **Padrões de tipo de cobrança**: o Project Operations usa um conjunto fixo de padrões de tipo de cobrança que deve ser mapeado para as propriedades de linha Finance. Crie um registro para cada tipo de cobrança: **Não especificado**, **Passível de Cobrança**, **Não Passível de Cobrança**, **Complementar** e **Não disponível**.
   - **Padrões de categoria de projeto**: selecione as categorias de projeto padrão a serem usadas para cada tipo de transação. Esses padrões serão usados no **Diário de integração de operações do projeto** e em estimativas onde nenhuma categoria de transação é especificada para o projeto real.
   - **Previsões**: selecione o modelo de previsão a ser usado para estimativas de tempo e despesas.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

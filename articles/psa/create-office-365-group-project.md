@@ -2,8 +2,6 @@
 title: Criar um Grupo do Office 365 para um projeto
 description: Como criar um Grupo do Office 365 no Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 8fc01ffc48d185055fd9a70da12dbb4333b90b96
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 88ae5eb298e802fdcff24bae378e406d1bc478a63ea37e5bc5d477d137826877
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144759"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004972"
 ---
 # <a name="create-an-office-365-group-for-a-project-project-service"></a>Criar um Grupo do Office 365 para um projeto (Project Service)
 
@@ -43,3 +41,6 @@ Forneça um espaço onde os membros da equipe de um projeto possam colaborar em 
   
 ### <a name="see-also"></a>Consulte também  
  [Guia do gerente de projeto](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Atendimento a requisitos de recursos genéricos
 description: Este tópico fornece informações sobre como reservar recursos nomeados para um requisito de recurso genérico.
 author: ruhercul
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3c4d02fd589d4a5d39380688852377f57fceb05b
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4ff8f74fdaeac9757af8df4803e58a006ebb9fe21a460cf0ffcb35f1a4d6308f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4130293"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008257"
 ---
 # <a name="generic-resource-requirement-fulfillment"></a>Atendimento a requisitos de recursos genéricos
 
@@ -39,3 +37,6 @@ Este é um exemplo de quando vários recursos nomeados são necessários para at
 A principal diferença neste cenário é que o recurso genérico permanece na equipe atribuída à tarefa e os membros da equipe de recurso nomeados reservados não são atribuídos como parte da posição. O gerente de projeto pode atribuir o trabalho conforme apropriado aos recursos nomeados. A exibição **Reconciliação** pode ajudar um gerente de projeto na divisão de reservas entre vários recursos para atribuições de tarefa. Isso não é feito automaticamente porque em qualquer cenário mais complicado do que o exemplo simples acima, como quando você tem um pacote de tarefas compondo o requisito ou a intenção de como o gerente de projeto deseja atribuir, isso precisa ser pressuposto pelo sistema. Como o sistema não pode entender a intenção, é provável que as suposições sejam diferentes das pretensões e um resultado incorreto ou imprevisível seja obtido. O resultado previsível é que o recurso genérico permaneça atribuído até que o gerente de projeto crie atribuições deliberadamente, com a ajuda da exibição **Reconciliação**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

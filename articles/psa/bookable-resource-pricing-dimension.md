@@ -2,12 +2,10 @@
 title: Usar recurso reservável como uma dimensão de preço
 description: Este tópico fornece informações sobre como usar um recurso reservável como uma dimensão de preço.
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d9b25a768f892d83c09d37ce76291d6c8e75b1be
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: c551673708ae2d965979136e92326be98252304a601964c1fbc52a329c592712
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144984"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988952"
 ---
 # <a name="use-bookable-resource-as-a-pricing-dimension"></a>Usar recurso reservável como uma dimensão de preço
 
@@ -64,15 +62,18 @@ Para recurso reservável, a entidade **Membros da Equipe do Projeto** tem um nom
 1. Para isso, clique duas vezes na linha da grade **Dimensões de Preço** para abrir a página da dimensão de **msdyn_bookableresource**.
 2. Na página da dimensão, na guia **Relacionado**, clique em **Nomes de Campos da Dimensão de Preço**.
 
- ![Guia Nomes de campos da dimensão de preço](media/PD-fieldname.png)
+ ![Guia Nomes de campos da dimensão de preço.](media/PD-fieldname.png)
 
 4. Na exibição associada que é aberta, clique em **Adicionar Novo Nome de Campo da Dimensão de Preço**.
 
- ![Adicionar Novos Nomes de Campo da Dimensão de Preço](media/Add-NewPD-fieldname.png)
+ ![Adicionar Novos Nomes de Campo da Dimensão de Preço.](media/Add-NewPD-fieldname.png)
 
 
 Isso abre a página **Novo nome de campo da dimensão de preço** para **msdyn_bookableresource**. 
 
-5. Adicione **msdyn_projectteam** ao campo **Nome Lógico da Entidade** e **msdyn_bookableresourceid** ao campo **Nome do Campo**. Salve o registro.
+5. Adicione **msdyn_projectteam** ao campo **Nome Lógico da Entidade** e **msdyn_bookableresourceid** ao campo **Nome do Campo**. Salvar o registro.
 
- ![Formulário Novo nome de campo da dimensão de preço](media/PD-fieldname-Added.png)
+ ![Formulário Novo nome de campo da dimensão de preço.](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,7 +2,7 @@
 title: Considerações sobre atualização para a estrutura de detalhamento de trabalho
 description: Este tópico fornece informações sobre a atualização da estrutura de detalhamento de trabalho do Project Service Automation 2.x para 3.x.
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,17 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149529"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071510"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considerações sobre atualização para a estrutura de detalhamento de trabalho
-
-[!include [banner](../includes/psa-now-project-operations.md)]
-
 Este tópico fornece informações sobre a atualização da estrutura de detalhamento de trabalho do Project Service Automation 2.x para 3.x. Este tópico define o estado íntegro de um projeto no Project Service Automation (PSA) necessário para uma atualização bem-sucedida. Há também informações sobre as condições de bloqueio comuns que causarão falhas na atualização. Para obter mais informações sobre como definir tarefas do projeto e suas funções em uma agenda do projeto, consulte [Agendas de projeto](project-creating.md).
 
 ## <a name="key-entities"></a>Entidades principais

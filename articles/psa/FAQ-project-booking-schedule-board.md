@@ -2,6 +2,8 @@
 title: Criar uma reserva de projeto no Quadro de Agendamento
 description: Este tópico fornece informações sobre como criar uma reserva de projeto no quadro de agendamento.
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992952"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071445"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Criar uma reserva de projeto no Quadro de Agendamento
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 É possível reservar um recurso em um projeto diretamente na guia **Equipe** do projeto ou gerando um requisito de recurso em uma atribuição de membro da equipe genérico e, em seguida, atendendo ao requisito com um membro da equipe de projeto.
 
@@ -41,7 +41,7 @@ Você também pode reservar um recurso em um projeto diretamente no Quadro de Ag
 
 É possível criar um recurso genérico e atribuí-lo a uma ou várias tarefas em um projeto. Em seguida, você pode gerar um requisito de recurso de um membro da equipe genérico. 
 
-1.  No Quadro de Agendamento, esse recurso será exibido na guia **Requisitos em Aberto**. Talvez seja necessário usar filtros de coluna na grade se você tiver muitos requisitos em aberto. 
+1.  No Quadro de Agendamento, esse recurso será exibido na guia **Requisitos em Aberto** . Talvez seja necessário usar filtros de coluna na grade se você tiver muitos requisitos em aberto. 
 
     ![Guia Abrir Requisitos no painel Agendar](media/FAQ-Project-Booking-Schedule-Board-1.png "Captura de tela da tabela de reservas e atribuições")
 
@@ -89,6 +89,3 @@ Complete as etapas a seguir para fazer uma reserva de um novo requisito de recur
 
 4. Agora que o recurso está reservado, é preciso atribuir tarefas manualmente.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

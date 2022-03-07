@@ -2,18 +2,16 @@
 title: Diárias
 description: Este tópico fornece informações sobre as regras de diária usadas no gerenciamento de despesas.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 8d723b49e9556401c364b323cf58eaaf44906275
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 192164094231fa2da47806cd9c2ccaba8321c83a1464fc8724fa0d0a7618660f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128494"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986387"
 ---
 # <a name="per-diems"></a>Diárias
 
@@ -31,3 +29,6 @@ Uma diária é um subsídio pago a um funcionário que viaja a trabalho. No gere
     
 ## <a name="submit-expenses-using-per-diem"></a>Enviar despesas usando diária
 Para enviar despesas usando diárias, use a categoria de despesas **Diárias** ao criar um relatório de despesas. Digite o **Data inicial de diária**, **Data final de diária** e o **Local da diária**. O valor será calculado com base nas taxas de diária para o local selecionado e a redução de refeição será calculada com base nos níveis de taxas de diárias.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -3,7 +3,7 @@ title: Personalizar entrada de hora semanal
 description: Este tópico fornece informações sobre como implementar regras de negócios personalizadas que são compatíveis com as práticas de uma organização.
 author: stsporen
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149619"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071515"
 ---
 # <a name="customize-weekly-time-entry"></a>Personalizar entrada de hora semanal 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -36,7 +34,7 @@ No Microsoft Dynamics 365 Project Service Automation versão 3.3, a Microsoft in
 A entrada de hora e a nova grade de hora semanal são acessadas por meio do mapa do site. A experiência de entrada de hora personalizada não extensível que fazia parte das versões anteriores do PSA foi substituída pela grade de entrada de hora semanal extensível e também por uma experiência alternativa na grade e no calendário somente leitura. Por causa dessa alteração, os usuários podem inserir a hora em valores semanais.
 
 ## <a name="page-layout"></a>Layout de página
-A nova grade de entrada de hora semanal é um controle personalizado que possui uma barra de ferramentas e duas seções principais, **Dimensões** e **Duração**. A barra de ferramentas inclui um botão que se aplica somente a esse controle personalizado para a grade de entrada de hora. Por outro lado, os botões no Painel de Ações, na parte superior da página, se aplicam aos três tipos de controles compatíveis com a entrada de hora: o controle de entrada de hora semanal, o controle somente leitura e o controle de calendário.
+A nova grade de entrada de hora semanal é um controle personalizado que possui uma barra de ferramentas e duas seções principais, **Dimensões** e **Duração**. A barra de ferramentas inclui um botão que se aplica somente a esse controle personalizado para a grade de entrada de hora. Por outro lado, os botões no Painel de Ação, na parte superior da página, se aplicam aos três tipos de controles compatíveis com a entrada de hora: o controle de entrada de hora semanal, o controle somente leitura e o controle de calendário.
 
 ### <a name="dimensions"></a>Dimensões
 A seção **Dimensões** mostra, como títulos de colunas, todas as dimensões em que o tempo pode ser inserido. As seguintes dimensões têm suporte predefinido:

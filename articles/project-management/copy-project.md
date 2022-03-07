@@ -2,30 +2,29 @@
 title: Copiar um projeto
 description: Este tópico fornece informações sobre copiar projetos no Dynamics 365 Project Operations.
 author: ruhercul
-manager: AnnBe
-ms.date: 02/22/2021
+ms.date: 05/21/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: af1942e81691d9e13fdcbbf68599c1a8a4004582
-ms.sourcegitcommit: 24528bb9c0ef8898077cb3bc672daa211c0e73aa
+ms.openlocfilehash: fe76f59b315fd0f46b25e1d116acde1f6b2864d1753e01d6311ea93ae7d116fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5479505"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007177"
 ---
 # <a name="copy-a-project"></a>Copiar um projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Com o Dynamics 365 Project Operations, você pode criar projetos rapidamente selecionando **Copiar Projeto** no formulário **Projetos**. Para copiar um projeto, abra o projeto que deseja copiar e selecione **Copiar projeto**. A ação copiará:
+Com o Dynamics 365 Project Operations, você pode criar projetos rapidamente selecionando **Copiar Projeto** no formulário **Projetos**. Para copiar um projeto, abra o projeto que deseja copiar e selecione **Copiar projeto**. A ação copiará o seguinte:
 
-- Propriedades do projeto (a data de início estimada é copiada do projeto de origem)
-- A Estrutura de detalhamento de trabalho
+- Propriedades do projeto 
+- Estrutura de detalhamento de trabalho
 - Membros da equipe de projeto
 - Estimativas do projeto
 - Estimativas de despesas do projeto
+- Estimativas de material do projeto
 
 ## <a name="project-properties"></a>Propriedades do projeto
 
@@ -42,11 +41,15 @@ Quando o projeto é copiado, os valores nos seguintes campos são copiados:
 - Status Geral do Projeto
 - Comentários
 - Estimativas
-- Data de Início Estimada
-- Data de Término
+- Data de Início Estimada: é a data em que o projeto é criado a partir da cópia.
+- Data de Término Estimada: esta data é ajustada com base na data de início do novo projeto que foi feito a partir da cópia.
 - Esforço (Horas)
 - Custo Estimado da Mão de Obra
 - Custo Estimado da Despesa
+- Custo Estimado dos Materiais
+
+> [!NOTE]
+> Copiar projeto é uma operação de execução prolongada. Os registros do projeto, seus atributos relevantes e muitas entidades relacionadas também são copiados. Devido à natureza de execução prolongada da operação, após o início da cópia, a página do projeto de destino é bloqueada para edição até que a operação de cópia seja concluída.
 
 ## <a name="work-breakdown-structure"></a>Estrutura de detalhamento de trabalho
 
@@ -58,7 +61,7 @@ Quando uma equipe de projeto for copiada do projeto de origem, os recursos gené
 
 ## <a name="estimates"></a>Estimativas
 
-Quando o projeto é copiado, as linhas de estimativa de recursos e de despesas são copiadas do projeto de origem. 
+Quando o projeto é copiado, as linhas de estimativa de recursos, despesas e materiais são copiadas do projeto de origem. 
 
 Para obter informações sobre como acessar programaticamente Copiar Projeto, consulte [Desenvolver modelos de projeto com Copiar Projeto](dev-copy-project.md).
 

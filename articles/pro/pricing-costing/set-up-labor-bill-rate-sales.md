@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: cf53f6909ed5fb9b143197118c799b9803699171
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 733b7c83de8137aba6c084d5f03a2a4cf076a16c
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181160"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5274399"
 ---
 # <a name="set-up-labor-bill-rates---lite"></a>Configurar taxas de cobrança de mão de obra - lite
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Cada lista de preços tem um conjunto de preços de função, ou taxas de mão de obra, que são efetivos para o contexto e data efetiva incluídos no cabeçalho da lista de preços. Taxas de cobrança por hora no Dynamics 365 Project Operations podem ser configuradas em apenas uma moeda, que é a moeda no cabeçalho da lista de preços.
+Cada lista de preços tem um conjunto de preços de função, ou taxas de mão de obra, que são efetivos para o contexto e data efetiva incluídos no cabeçalho da lista de preços. As taxas de cobrança por hora no Dynamics 365 Project Operations podem ser configuradas em apenas uma moeda, que é a moeda no cabeçalho da Lista de preços.
 
 1. Para configurar taxas de cobrança de mão de obra para uma lista de preços de venda, crie uma lista de preços com base no cabeçalho da lista de preços. 
 2. Na guia **Preços da Função**, na sub-grade, selecione **+ Preço da nova função**. 
@@ -55,3 +55,6 @@ Por exemplo, um desenvolvedor da Fabrikam India que trabalha em um projeto nos E
     | Developer | Fabrikam US | US$ 150 |
 
 3. Anexe a lista de preços de venda **Taxas de cobrança da Fabrikam US** à lista de preços do projeto do contrato de projeto ou a uma determinada conta.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

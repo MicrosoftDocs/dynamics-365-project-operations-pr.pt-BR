@@ -2,18 +2,16 @@
 title: Configurar listas de preços
 description: Este tópico fornece informações sobre como configurar listas de preços de venda e de custo.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 000c22944b187b6250f2e982d73020028093fde6
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 227e9a6f0ce6fd3fa1c2b0bd9afa014a3ec4f9758ead0dfb408156535692575c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180178"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009472"
 ---
 # <a name="set-up-price-lists"></a>Configurar listas de preços
 
@@ -40,3 +38,6 @@ A tabela a seguir inclui os campos na guia **Geral** de uma lista de preços que
 | Moeda | Guia **Geral** e formulários de **Criação Rápida** | Este campo é usado para definir a moeda como padrão em cada função, categoria ou linha de item da lista de preços relacionada a essa lista de preços. | Nas listas de preços de **Vendas**, as funções, categorias ou linhas do item da lista de preços não podem ser criadas em outra moeda. Nas listas de preços de **Custo**, é possível criar uma linha de preço de função em qualquer moeda. A moeda definida aqui é usada como padrão. A configuração do usuário relacionada aos preços da função pode substituir esse valor para permitir a configuração da taxa de custo de mão de obra em qualquer moeda. As taxas de custo da categoria e os custos do item da lista de preços podem ser configurados apenas na moeda definida aqui. |
 | Unidade de Tempo | Guia **Geral** e formulários de **Criação Rápida** | Este campo é usado para definir a unidade de tempo como padrão em cada linha de função relacionada a essa lista de preços. | O valor deste campo é usado apenas na configuração de preço da função relacionada. Nas listas de preços de **Custo** e **Vendas**, é possível criar uma linha de preço de função em qualquer unidade de tempo. A unidade de tempo definida aqui é usada como padrão. A configuração do usuário relacionada aos preços da função pode substituir esse valor para permitir a configuração da taxa de custo e de cobrança de mão de obra em qualquer unidade de tempo. |
 | Descrição | Guia **Geral** e formulários de **Criação Rápida** | Este campo permite fornecer uma descrição de várias linhas da lista de preços. | Esse campo é mostrado nas exibições **Associadas** na lista de preços em várias entidades que possuem listas de preços relacionadas. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

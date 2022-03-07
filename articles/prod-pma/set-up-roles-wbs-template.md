@@ -2,11 +2,9 @@
 title: Configurar funções em modelos de estrutura de detalhamento de trabalho
 description: Este tópico fornece informações sobre como configurar informações de função em modelos de estrutura de detalhamento de trabalho.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 143f1094c653fb7ac0e026b7875aa162a3eb83f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: c84015c46f0a8c9d3d48be1b995d4bdd7fd8ee25b240f455bbe2031f42adc0f5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071408"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008887"
 ---
 # <a name="set-up-roles-on-work-breakdown-structure-templates"></a>Configurar funções em modelos de estrutura de detalhamento de trabalho
 
@@ -91,7 +89,7 @@ Outras opções foram adicionadas à WBS para usar melhor a funcionalidade de re
 
 4. Defina as datas e o esforço (horas), conforme mostrado na ilustração a seguir.
 
-    [![Definir as datas e o esforço](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
+    [![Definindo as datas e o esforço.](./media/projectresourcing10.jpg)](./media/projectresourcing10.jpg)
 
 5. Selecione a linha de tarefa **Iniciando** e, em seguida, no campo **Função**, selecione **Gerente de projeto sênior**.
 6. Selecione **Publicar**.
@@ -107,3 +105,6 @@ Outras opções foram adicionadas à WBS para usar melhor a funcionalidade de re
     > Você não recebe um aviso de que o recurso especificado agora é o 2, porque o número de recursos permanece 1.
 
 14. Na página **Estrutura de detalhamento de trabalho**, valide a atribuição de recursos na WBS e selecione **Salvar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Editar reservas
 description: Este tópico fornece informações sobre como atualizar e fazer alterações nas reservas.
 author: ruhercul
-manager: Annbe
 ms.date: 11/12/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 3980df0608c387d47ad68bbf2e816d408f1c2cf0
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 89e6b6ea258dff4ae2e592c58d6e0a61bf7d8e35
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841300"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002358"
 ---
 # <a name="edit-bookings"></a>Editar reservas
 
@@ -33,3 +31,6 @@ Na grade **Membro da equipe**, um gerente de projeto pode destacar um recurso es
 ## <a name="schedule-board"></a>Quadro de Agendamento
 
 No **Quadro de agendamento**, o gerente de recursos tem uma visão de portfólio de todas as reservas em uma organização. Nessa exibição, o gerente de recursos pode estender, encurtar ou mover as reservas existentes semelhantes aos recursos oferecidos em **Manter reservas**. O gerente de recursos também pode substituir os recursos existentes alocados para uma reserva específica clicando com o botão direito na reserva e selecionando **Substituir recurso**. Os gerentes de recursos também podem editar os contornos das reservas existentes clicando com o botão direito na reserva e selecionando **Editar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

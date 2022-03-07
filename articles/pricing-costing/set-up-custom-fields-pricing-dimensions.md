@@ -2,11 +2,9 @@
 title: Configurar campos personalizados como dimensões de preço
 description: Este tópico fornece informações sobre como configurar dimensões de precificação usando campos personalizados.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 744c561d023d7ef5ed79947e69f2de8a3902fb41
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: e40f0336d98cd8452642eb582c4d9daf2304ceb2532ef75ce9d03a0fa4bd8e8b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650181"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003577"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de preço
 
@@ -44,11 +42,11 @@ Para que um campo se torne uma dimensão de preço, ele deve:
 
 - Criado como uma linha na tabela **Dimensão de preço**. Por exemplo, adicione as linhas de dimensão de preço conforme exibido no gráfico a seguir. 
 
-![Linhas de dimensões de preço baseadas em valor](media/Amt-based-PD.png)
+![Linhas de dimensões de preço baseadas em valor.](media/Amt-based-PD.png)
 
 As Horas de Trabalho do Recurso (**msdyn_resourceworkhours**) foram adicionadas como uma dimensão baseada em markup e adicionadas à grade na guia **Dimensão de Precificação Baseada em Markup**.
 
-![Linhas de dimensões de preço baseadas em markup](media/Markup-based-PD.png)
+![Linhas de dimensões de preço baseadas em markup.](media/Markup-based-PD.png)
 
 
 > [!IMPORTANT]
@@ -75,12 +73,12 @@ Há dois tipos de dimensões de preço:
   
 | Função        | Unidades Organizacionais    |Local de Trabalho      |Título padrão      |Horas de trabalho do recurso      |  Markup|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Cabral India|No local            |                    |Horas Extras                 |15     |
-|             | Cabral India|Local             |                    |Horas Extras                 |10     |
-|             | Cabral EUA   |Local             |                    |Horas Extras                 |20     |
+|             | Contoso Índia|No local            |                    |Horas Extras                 |15     |
+|             | Contoso Índia|Local             |                    |Horas Extras                 |10     |
+|             | Contoso US   |Local             |                    |Horas Extras                 |20     |
 
 
-Se um recurso da Contoso India cuja taxa base é USD 100 estiver trabalhando no local e registrar 8 horas de trabalho normal e 2 horas extra na entrada de hora, o mecanismo de precificação usará a taxa base de 100 para as 8 horas para registrar USD 800. Para as 2 horas extra, um markup de 15% será aplicado à taxa base de 100 para obter um preço unitário de USD 115 e registrará um custo total de USD 230.
+Se um recurso da Contoso Índia cuja taxa base é USD 100 estiver trabalhando no local e registrar 8 horas de trabalho normal e 2 horas de hora extra, o mecanismo de preço do Project Service usará a taxa base de 100 para as 8 horas para registrar USD 800. Para as 2 horas extra, um markup de 15% será aplicado à taxa base de 100 para obter um preço unitário de USD 115 e registrará um custo total de USD 230.
 
 ### <a name="applicable-to-cost"></a>Aplicável ao Custo 
 Caso seja configurado como **Sim**, indica que o valor da dimensão do contexto de entrada deve ser usado para corresponder a **Preço da função** e **Markup do preço da função** ao recuperar as taxas de custo e markup.
@@ -96,3 +94,6 @@ Definir a prioridade da dimensão ajuda a precificação a gerar um preço mesmo
 
 - **Prioridade de custo**: o valor de uma prioridade de custo da dimensão indicará o peso dessa dimensão ao compará-la à configuração dos preços de custo. O valor de **Prioridade de custo** deve ser exclusivo nas dimensões **Aplicável ao custo**.
 - **Prioridade de vendas**: o valor da prioridade de vendas da dimensão indicará o peso da dimensão ao compará-lo à configuração dos preços de vendas ou das taxas de faturamento. O valor de **Prioridade de vendas** deve ser exclusivo nas dimensões **Aplicável a vendas**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

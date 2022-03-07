@@ -2,8 +2,6 @@
 title: Cotação, preço e cobrança avançados
 description: Este tópico inclui informações sobre cotação, cobrança e preço no Project Service Automation.
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ef2698b52bd5a89a10ff0be6aff3d98e6917e95c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4e589c83b8d9b0946f331b5ad03f4946fcddf6813a1529fb65d9b86f8ebf3a07
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149169"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985622"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>Guia de cotação avançado, preço e cobrança
 
@@ -52,3 +50,6 @@ O link do PDF que estava neste tópico foi removido e o conteúdo foi movido par
 
 > [!NOTE]
 > Esse tópico será removido em uma atualização futura da documentação. 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

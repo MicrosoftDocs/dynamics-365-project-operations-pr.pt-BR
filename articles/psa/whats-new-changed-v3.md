@@ -1,8 +1,6 @@
 ---
 title: Novidades ou alterações no Project Service Automation versão 3
 description: Este tópico inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6ce4c549b04716d466efa262dbc6a4abf28ea9eb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: afce9cd2d4b3920dc5de5d3deab8920a7f51f275a73918a84db300739b1b4feb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150654"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987062"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novidades ou alterações no Project Service Automation versão 3
 
@@ -38,7 +36,7 @@ Este tópico inclui informações sobre as alterações feitas na UI (interface 
 ## <a name="project-scheduling"></a>Agendamento de projetos
 O agendamento de projetos, que era conhecido como WBS (estrutura de detalhamento de trabalho) nas versões anteriores, foi renomeado para Agendar, e pode ser acessado clicando na guia **Agendar**. 
 
-![Agendamento de projetos](media/psa-schedule-01.png)
+![Agendamento de projetos.](media/psa-schedule-01.png)
 
 A agenda agora tem uma nova superfície de interação moderna e acessível. No entanto, o mecanismo de agendamento subjacente do Project Service Automation não foi alterado. Os botões de controle na faixa de opções da grade da agenda permitem interagir com a agenda de maneira semelhante à versão anterior do Project Service Automation. Outras alterações à agenda incluem:
 
@@ -97,22 +95,22 @@ Ao mover o agendamento de um projeto existente, ocorre o seguinte:
 ## <a name="estimates"></a>Estimativas
 As estimativas foram divididas em duas guias, **Atribuição de recurso** e **Estimativas**. A guia **Atribuição de recurso** contém as estimativas de esforço e mostra as atribuições do recurso para as tarefas em uma exibição em fases de tempo. Você pode editar as estimativas com base no que foi gerado pelo mecanismo de agendamento.
 
-![Guia de atribuições de recursos mostrando estimativas de esforço e atribuições do recurso para as tarefas](media/resource-assignments-tab-02.png)
+![Guia Atribuições de recursos mostrando estimativas de esforço e atribuições do recurso para as tarefas.](media/resource-assignments-tab-02.png)
 
 A guia **Estimativas** mostra os valores de custo e vendas das atribuições do recurso. Os valores são somente leitura. Agora, a definição de custo e preço de vendas é derivada das atribuições do membro da equipe na agenda. Isso significa que, se houver uma tarefa sem nenhuma atribuição, ela será exibida sob o bucket não atribuído. Isso também significa que, sem **função**, que é uma dimensão de precificação padrão, não haverá nenhuma estimativa de custo ou vendas se houver um cliente ou um contrato/uma cotação associado ao projeto. 
 
-![Guia Estimativas exibindo valores de custo e vendas](media/estimates-tab-03.png)
+![Guia Estimativas mostrando valores de custo e venda.](media/estimates-tab-03.png)
   
 A categoria também tem suporte em tarefas na exibição de agenda. O agrupamento por categoria na exibição em fases de tempo das estimativas fornecerá uma experiência melhor, especialmente quando você tiver estimativas de despesa em seu projeto. As estimativas de despesa são inseridas usando uma grade em uma guia separada. 
 
 As estimativas de despesa podem ser inseridas na grade da guia **Estimativas de despesas**. 
 
-![Guia Estimativas de despesas exibindo a grade de estimativas de despesas](media/expense-estimates-tab-04.png)
+![Guia Estimativas de despesas mostrando a grade de estimativas de despesas.](media/expense-estimates-tab-04.png)
 
 ## <a name="resource-management"></a>Gerenciamento de recursos
 No Project Service Automation versão 3, com a nova interface do usuário Cliente Unificado e as alterações nos relacionamentos entre reservas e atribuições, a definição da equipe de um projeto com recursos genéricos ou reais foi alterada significativamente em comparação às versões 2 e 1. Entretanto, os conceitos de recursos reserváveis, **real** e **genérico**, permanecem iguais, assim como os membros da equipe, os requisitos, as atribuições e as reservas.   
 
-![Usando o seletor de recursos](media/resource-management-05.png)
+![Usando o seletor de recursos.](media/resource-management-05.png)
 
 ### <a name="assign-a-real-bookable-resource"></a>Atribuir um recurso reservável real 
 No Project Service Automation versão 3, as reservas e as atribuições de tarefas não estão tão interligadas quanto nas versões anteriores do Project Service Automation. Você pode usar a grade de equipe para reservar um membro da equipe **real**, de modo semelhante ao mercado.
@@ -138,7 +136,7 @@ Quando um requisito é atendido com vários recursos, o recurso genérico perman
 ### <a name="reconciliation"></a>Reconciliação
 A guia **Reconciliação** mostra as reservas e todas as atribuições de cada membro da equipe do projeto. A exibição mostra as horas em células que podem representar pontos no tempo, desde meses até dias. Essa exibição permite que os gerentes de projeto reconciliem as reservas dos membros da equipe e suas atribuições para a equipe do projeto. Isso é útil porque as reservas e as atribuições de tarefa não estão rigidamente combinadas, o que permite uma maior flexibilidade ao planejar um projeto. 
 
-![Guia Reconciliação mostrando as reservas e as atribuições dos membros da equipe do projeto](media/resource-reconciliation-tab-06.png)
+![Guia Reconciliação mostrando as reservas e as atribuições dos membros da equipe do projeto.](media/resource-reconciliation-tab-06.png)
 
 Para cada recurso, a exibição calcula a diferença entre as reservas de um membro da equipe e o valor acumulado das atribuições de tarefas desse membro e exibe as duas diferenças a seguir, que podem ocorrer com reservas e atribuições em um projeto: 
 
@@ -153,19 +151,19 @@ Esta seção inclui informações sobre as mudanças de tempo, despesas e aprova
 ### <a name="landing-page"></a>Página de aterrissagem
 A experiência de entrada de hora personalizada não extensível foi preterida na versão 3. Em vez disso, agora há uma experiência de grade nativa extensível e acessível. Você pode acessar a funcionalidade de entrada de hora usando o mapa do site à esquerda. Com essa mudança, você não poderá mais inserir horas para uma semana de uma só vez. Em vez disso, deverá criar uma entrada de hora para cada dia na grade. Após a criação de algumas entradas de tempo, os usuários poderão criar entradas de tempo em massa com a função **Copiar** explicada mais adiante neste tópico. 
 
-![Página de aterrissagem de entrada de hora](media/time-entry-landing-page-07.png)
+![Página de aterrissagem de entrada de hora.](media/time-entry-landing-page-07.png)
  
 ### <a name="create-new-time-entries"></a>Criar novas entradas de hora 
 Clique em **Novo** na faixa de opções para abrir uma página de criação rápida de entrada de hora, na qual você deve inserir a duração em minutos, horas ou dias. Para fazer isso, basta começar a digitar h, m ou d juntamente com a quantidade.  
 
-![Criação rápida de entrada de hora](media/quick-create-time-entry-08.png)
+![Criação rápida de entrada de hora.](media/quick-create-time-entry-08.png)
 
 Os campos de pesquisa são apoiados por exibições do sistema. Por exemplo, depois de inserir informações sobre o projeto, o campo **Tarefa do projeto** é definido, por padrão, com a exibição de **Minhas tarefas de projeto abertas**. Para criar entradas de hora para as tarefas que não foram atribuídas ao usuário, clique em **Alterar exibição** na pesquisa e selecione **Todas as tarefas de projeto ativas**. Depois de a entrada de hora ser criada e exibida na grade, você pode editar todos os valores de linha diretamente na grade.  
 
 ### <a name="bulk-createcopy"></a>Criar/copiar em massa 
 Após criar algumas entradas de hora, é possível usar a funcionalidade de cópia para criar entradas de hora adicionais em massa. Clique em **Copiar** para abrir a caixa de diálogo **Copiar**. Em **Do período: Data de Início**, defina o intervalo de datas do qual os períodos de tempo devem ser copiados. Em **Até o período: Data de Início**, especifique a data em que as entradas devem ser criadas. Clique em **Copiar** para copiar as entradas de hora no dia da semana correspondente indicado em **Até o período**. Por exemplo, a entrada de hora de segunda-feira da semana passada será copiada na segunda-feira da semana indicada em **Até o período**. 
 
-![Copiar entradas de hora em massa](media/bulk-copy-time-entry-09.png)
+![Copiar entradas de hora em massa.](media/bulk-copy-time-entry-09.png)
  
 ### <a name="import-data"></a>Importar dados 
 As atribuições e o Exchange seguem o mesmo padrão da interface do usuário, o que permite que o usuário especifique o intervalo de datas quando as reservas precisam ser importadas. Dessa maneira, você deve selecionar explicitamente as reservas que devem ser copiadas nas entradas de hora de **Rascunho**. Na versão 3, não é mais possível ver o padrão de entradas de hora **Sugerido** na grade e no calendário.  
@@ -181,7 +179,7 @@ Na versão 3, deixamos o controle de calendário personalizado e passamos a usar
 
 **Capturar dados em campos personalizados de entradas de hora e despesa e propagá-los por entidades que suportam o fluxo de envio e aprovação** - O processamento típico de entradas de hora é exibido no diagrama a seguir.
 
-![Processo de fluxo de entrada de tempo](media/process-time-entries-10.png)
+![Processo de fluxo de entrada de tempo.](media/process-time-entries-10.png)
 
 Se os requisitos de negócios estipularem que as entidades de hora e despesa devem capturar as dimensões de preço personalizadas e propagar os valores definidos por um recurso de hora e entrada na dimensão de preço personalizada para todas as entidades na imagem anterior, consulte [Configurar campos personalizados como dimensões de preço](set-up-pricing-dimensions.md).
 
@@ -238,7 +236,7 @@ Nas versões 1 e 2, a configuração de encargos para funções e categorias de 
 
 A partir da versão 3, a configuração de opções de encargos por função e categoria de despesa será feita no nível da linha de cotação ou contrato. A configuração de preços é separada da configuração de encargos. É possível encontrar **Funções passíveis de cobrança** e **Categorias passíveis de cobrança** como guias das páginas **Linha de cotação** e **Linha de contrato** sem ter de usar a navegação superior.
 
-![Funções passíveis de cobrança](media/chargeable-12.png)
+![Funções passíveis de cobrança.](media/chargeable-12.png)
  
 A configuração de Funções passíveis de cobrança e Categorias passíveis de cobrança também utiliza o controle de grade editável pronto para uso. Para cada função e cada categoria, as opções com suporte para o tipo de cobrança durante a fase de cotação e contratação permanecem inalteradas em relação às versões anteriores como **Passível de cobrança** e **Não passível de cobrança**. **Complementar** não é um tipo suportado durante a fase de cotação ou contratação. **Complementar** tem suporte apenas durante a aprovação de horas ou despesas.  
  
@@ -249,11 +247,14 @@ A partir da versão 3, a criação e o uso de uma lista de preços de projeto pe
   
 A imagem a seguir é anterior à criação das listas de preços personalizadas.
 
-![Antes das listas de preços personalizadas](media/before-custom-price-lists-13.png)
+![Antes das listas de preços personalizadas.](media/before-custom-price-lists-13.png)
 
 A imagem a seguir é posterior à criação das listas de preços personalizadas.
 
-![Depois das listas de preços personalizadas](media/after-custom-price-lists-14.png)
+![Depois das listas de preços personalizadas.](media/after-custom-price-lists-14.png)
 
 > [!NOTE]
 > Um pequeno atraso pode ocorrer entre você clicar em **Criar precificação personalizada** e a lista de preços personalizada ser criada. É recomendável atualizar a grade, em vez de clicar várias vezes. Uma lista de preços personalizada será criada se o nome da lista de preços associada tiver o nome da cotação ou o nome do contrato do projeto anexado a ele.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

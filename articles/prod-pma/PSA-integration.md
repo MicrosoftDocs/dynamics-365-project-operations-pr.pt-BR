@@ -17,17 +17,16 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 41d2eace497f4291022da0775cca7cda7d600df7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1e1a963bccefd1552aab6e42d3b2d1dc63a82e8f
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5271069"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4071569"
 ---
 # <a name="project-service-automation-overview"></a>Visão geral do Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 A solução de integração do Project Service Automation ao Finance usa o recurso de integração de dados para sincronizar dados entre instâncias do Dynamics 365 Finance e do Dynamics 365 Project Service Automation por meio do Common Data Service. Os modelos de integração disponíveis com o recurso de integração de dados permitem transferir fluxo de projeto, contratos de projetos, linhas de contrato de projetos, etapas da linha de contrato de projeto, tarefas de projeto, categorias de transação de despesas, estimativa de horas e estimativa de despesas do Project Service Automation para o Finance.
 
@@ -75,6 +74,3 @@ Para usar a solução de integração Project Service Automation to Finance, voc
 ## <a name="install-the-project-service-automation-to-finance-integration-solution-in-your-project-service-automation-instance"></a>Instale a solução de integração do Project Service Automation para o Finance em sua instância do Project Service Automation
 
 Baixe a solução de integração de Project Service Automation to Finance em [Centro de Download da Microsoft ](https://www.microsoft.com/download/details.aspx?id=57016) e siga as instruções que acompanham a solução.
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

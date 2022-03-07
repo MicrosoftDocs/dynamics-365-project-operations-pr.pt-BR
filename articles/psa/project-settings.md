@@ -2,8 +2,6 @@
 title: Configurações do projeto
 description: Este tópico fornece informações sobre configurações de gerenciamento do projeto.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ca5fc63d56ddd84871949e38f421bcdfe38d478e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5f6fec091c50f35589e333fce4b3a296dd736d10dd2f56b6c11209a55b493836
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148134"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996917"
 ---
 # <a name="project-settings"></a>Configurações do projeto
 
@@ -49,7 +47,7 @@ Para criar uma agenda de projeto, crie um modelo de calendário de projeto que d
   - Agenda de Trabalho para Um Dia
   - Folga
 
-> ![Configurar opções](media/project-13.png)
+> ![Configurar opções.](media/project-13.png)
 
 4. Selecione **Nova Agenda Semanal** e defina as opções para essa agenda de recurso. Você pode definir uma agenda semanal recorrente, parâmetros de hora diários, feriados comerciais e muito mais.
 5. Defina um intervalo de datas, selecione **Salvar** e clique em **Fechar**. 
@@ -68,3 +66,6 @@ Cada organização deve configurar essas funções na página **Categorias de Re
 ## <a name="price-lists"></a>Listas de preços
 
 As listas de preços permitem definir preços de custo e vendas para funções do recurso, categorias de despesa, produtos e outros elementos em uma organização. Antes de definir estimativas financeiras para o trabalho que deve ser entregue para um projeto, você deve criar uma listas de preços de custo e vendas de apoio. Na seção de parâmetros, você também deve configurar uma lista de preços de custo e vendas padrão que se aplica a todos os projetos que são criados na organização. Na página **Parâmetros do Projeto Ativos**, certifique-se de configurar uma lista de preços de custo e vendas padrão.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

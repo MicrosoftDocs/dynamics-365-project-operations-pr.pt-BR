@@ -2,11 +2,9 @@
 title: Configurar integração do cartão de crédito
 description: Este tópico explica como trabalhar com transações de cartão de crédito relacionadas a despesas.
 author: suvaidya
-manager: AnnBe
-ms.date: 04/02/2021
+ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 49c8f2369a8be41fbc04c74bdb6b565b4f4b7b79
+ms.sourcegitcommit: 9f26cf8bb640af1eb9f7f0872805965d7ffcb9d3
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866669"
+ms.lasthandoff: 11/19/2021
+ms.locfileid: "7826242"
 ---
 # <a name="set-up-credit-card-integration"></a>Configurar integração do cartão de crédito
 
@@ -32,12 +30,12 @@ As transações de cartão de crédito relacionadas a despesas podem ser configu
 
 Para importar transações de cartão de crédito, siga estas etapas:
 
-1. Na página **Transações de cartão de crédito**, selecione **Importar transações**. Se você estiver abrindo o gerenciamento de dados pela primeira vez, o sistema deverá atualizar a lista de entidades de dados para que seja possível continuar.
+1. Na página **Transações de cartão de crédito**, selecione **Importar transações**. Se estiver abrindo o gerenciamento de dados pela primeira vez, o sistema deverá atualizar a lista de entidades de dados para que você possa continuar.
 2. No campo **Nome**, insira uma descrição exclusiva para o trabalho de importação.
 3. No campo **Formato de dados de origem**, selecione o formato do arquivo que contém as transações de cartão de crédito a serem importadas.
 4. Selecione **Carregar** e, em seguida, localize e selecione o arquivo a ser importado.
 5. Depois que o arquivo for carregado, valide o mapeamento do arquivo de transações de cartão de crédito e as colunas da entidade de dados transações de cartão de crédito selecionando o link **Exibir mapa** no bloco. Se houver erros de mapeamento ou se você precisar alterá-lo, faça as alterações na guia **Visualização de mapeamento** ou na guia **Detalhes de mapeamento**.
-6. Para automatizar as transações de cartão de crédito, selecione **Criar trabalho de dados recorrente**. Você pode configurar a recorrência que define a frequência com que as transações de cartão de crédito devem ser importadas. Ao concluir, selecione **OK**.
+6. Para automatizar as transações de cartão de crédito, selecione **Criar trabalho de dados recorrente**. Você pode configurar a recorrência que define a frequência com que as transações de cartão de crédito devem ser importadas. Ao terminar, selecione **OK**.
 7. Para importar o arquivo selecionado agora, selecione **Importar**.
 8. Se ocorrerem erros durante a importação, você poderá visualizar o log de execução ou os dados de preparo para ver os erros que devem ser corrigidos para ajudar a garantir uma importação bem-sucedida.
 
@@ -52,10 +50,18 @@ Selecione uma ou mais transações de cartão de crédito e, em seguida, selecio
 
 ## <a name="delete-credit-card-transactions"></a>Excluir transações de cartão de crédito 
 
-Às vezes, depois que as transações de cartão de crédito são importadas, talvez seja preciso excluir certas transações. Isso pode ocorrer porque as transações são duplicadas ou porque os dados podem não ser precisos. Os administradores podem usar o recurso **"Excluir transações de cartão de crédito"** para selecionar e excluir transações de cartão de crédito que **não são anexadas** a um relatório de despesas. 
+Às vezes, depois que as transações de cartão de crédito são importadas, talvez seja preciso excluir certas transações. Isso pode ocorrer porque as transações são duplicadas ou porque os dados não são precisos. Os administradores podem usar o recurso **"Excluir transações de cartão de crédito"** para selecionar e excluir transações de cartão de crédito que **não são anexadas** a um relatório de despesas. 
 
 1. Acesse **Tarefas periódicas** > **Excluir transações de cartão de crédito**.
 2. Selecione **Filtro** e forneça informações para identificar os registros a serem incluídos.
 3. Selecione **OK** para excluir os registros. 
+
+## <a name="storing-credit-card-numbers"></a>Armazenar números de cartão de crédito
+
+Três opções estão disponíveis para armazenar números de cartão de crédito. Os números de cartão de crédito são armazenados na página **Parâmetros de gerenciamento de despesas**.
+
+- **Impedir a entrada do número do cartão**: os números de cartão de crédito não são armazenados.
+- **Números de cartão de hash (armazena os quatro últimos dígitos)**: os últimos quatro dígitos dos números do cartão de crédito são armazenados em um formato criptografado.
+- **Números de cartão da loja**: os números de cartão de crédito são armazenados em um formato não criptografado. Esta opção não está em conformidade com o padrão de segurança de dados (DSS) do Setor de Cartões de Pagamento (PCI). Portanto, para manter sua organização em conformidade com as regulamentações PCI DSS, os administradores da organização devem optar por não armazenar números de cartão de crédito ou armazenar números de cartão hash.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: Gerenciar estimativas de receita
 description: Este tópico fornece informações sobre como trabalhar com estimativas de receita para projetos.
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: e3cbaff18d8bd4d6f6a7577bba25b3e843b1757e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531351"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013833"
 ---
 # <a name="manage-revenue-estimates"></a>Gerenciar estimativas de receita
 
@@ -90,3 +88,6 @@ A estimativa mudará o status para **Eliminado**.
 Use esta página para reverter todas as eliminações com uma data de estimativa especificada e com um status de estimativa de **Eliminado**. O status da transação será alterado depois que você selecionar os campos apropriados.
 
 Isso também alterará automaticamente o status do projeto para **Em andamento** se o estágio do projeto estiver definido como concluído. O status da estimativa do período do projeto será aletrado de volta para **Lançado**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

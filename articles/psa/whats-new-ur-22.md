@@ -2,8 +2,6 @@
 title: Novidades ou alterações na Versão de Atualização 22 do Project Service Automation V3
 description: Este tópico lista os recursos e as correções novas ou alteradas disponíveis na Versão de Atualização 22 do Project Service Automation V3.
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
 ms.topic: article
@@ -17,18 +15,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: db4cbb9f9daadcb1911325f8bee987d5e480e1cf
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6a5109b1ffedfce99fc50c035bcbe5810abcf3b71f88679b47561d69daa9f3ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150969"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7004297"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Versão de Atualização 22, do Project Service Automation V3
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse a página de soluções online do Centro de Administração do Dynamics 365 para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).
+Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse a página de soluções online do Centro de Administração do Dynamics 365 para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
 Este tópico lista os recursos e as correções novas ou alteradas para o Project Service Automation V3, Versão de Atualização 22. Esta versão apresenta o número de compilação V 3.10.33.48 e está disponível para o público em geral por meio de uma atualização automática em junho de 2020.
 
@@ -72,3 +70,6 @@ Os seguintes problemas foram corrigidos:
 - Fechar a cotação como ganha não direciona para o contrato criado se um Fluxo do Processo Empresarial anexado à cotação estiver no estágio final.
 - A reversão de **Vendas Não Cobradas** está vinculada ao custo original quando uma entrada de hora é recuperada.
 - Depois de selecionar o botão **Confirmar**, o status da fatura não é alterado para **Confirmado** a menos que a fatura seja atualizada.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

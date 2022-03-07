@@ -2,6 +2,8 @@
 title: Exibir horas trabalhadas passíveis de cobrança para recursos
 description: Este tópico fornece informações sobre a exibição de horas trabalhadas do recurso.
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: a1d1db532c65b2a13f3cf4e1281a5987490b96df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992820"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122149"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>Exibir horas trabalhadas passíveis de cobrança para recursos
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 A **Exibição das Horas Trabalhadas** na página **Horas Trabalhadas do Recurso do Project Service** mostra as horas trabalhadas passíveis de cobrança de cada recurso reservável. Como a exibição é baseada no quadro de agendamento, você encontrará muitas funções iguais.
 
@@ -99,6 +99,3 @@ Se você não está vendo as horas trabalhadas passíveis de cobrança, veja a s
   - A função na linha de contrato de projeto dando suporte ao projeto foi definida como não passível de cobrança.
   - O projeto não tem uma linha de contrato associada.
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

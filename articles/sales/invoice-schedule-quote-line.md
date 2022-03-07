@@ -2,18 +2,16 @@
 title: Agendamentos de fatura em linhas de cotação baseada em projeto
 description: Este tópico fornece informações sobre a criação de programações de faturas e marcos para linhas de cotação.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2b69742915fe79ee59e7fdcf317000cea79c5929
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4180808"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988592"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Agendamentos de fatura em linhas de cotação baseada em projeto
 
@@ -68,3 +66,6 @@ Abra a linha de cotação de preço fixo para a qual você precisa criar um marc
 | Status da fatura | Criação rápida | Quando um marco é criado, este status é sempre definido como **Não está pronto para faturamento**. | Isso é propagado para o marco da linha do contrato do projeto e para a fatura. |
 | Valor da Linha | Criação rápida | Quantidade ou valor da etapa que será faturada ao cliente. | Isso é propagado para o marco da linha do contrato do projeto e para a fatura. |
 | Imposto | Criação rápida | Valor do imposto que será aplicado ao marco. | Isso é propagado para o marco da linha do contrato do projeto e para a fatura. |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -6,12 +6,12 @@ ms.date: 08/05/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 29b38ec9124502e4283b71d13434b1e0420bc413
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 10ebe0fcc86b4652ac01e28108361df1f768b61d
+ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547230"
+ms.lasthandoff: 08/13/2021
+ms.locfileid: "7323852"
 ---
 # <a name="subcontract-lines-for-time"></a>Linhas de subcontrato para hora
 
@@ -30,22 +30,23 @@ Para criar uma linha de subcontrato para tempo no Project Operations, conclua as
 
   A tabela a seguir fornece informações sobre os campos na página **Linha de subcontrato** e na página **Criação Rápida**.
 
-| **Campo** | **Descrição** | **Impacto funcional** |
-| --- | --- | --- |
-| Name | Nome da linha do subcontrato para ajudar na identificação. | Isso será exibido como a primeira coluna em todas as pesquisas baseadas em linhas de subcontrato. |
-| Descrição | Uma breve descrição dos serviços que estão sendo adquiridos na linha de subcontrato. |Nenhum(a) |
-| Tipo de Linha |   Esse campo tem um valor padrão **Baseado em quantidade**.| Nenhum(a) |
-| Método de Cobrança | Este é um conjunto de opções que representa os dois principais modelos de contratação com suporte do Project Operations: **Preço Fixo** e **Tempo e Material**. | Com base no método de cobrança selecionado, uma agenda de faturamento baseada em etapas é disponibilizada para linhas de subcontrato com o método de cobrança Preço Fixo. |
-| Classe da Transação | O valor padrão é **Tempo**. | Isso indica que a linha de subcontrato está sendo usada para registrar uma compra de tempo do subcontratado. |
-| Função | Selecione a função dos recursos subcontratados dos quais o tempo está sendo comprado. | A função dos recursos subcontratados determina o custo da compra. |
-| Data de Início Solicitada | Insira a data em que os recursos subcontratados devem começar a trabalhar. | Isso é usado para escolher uma lista de preços de projeto nas listas de preços de projeto anexadas ao subcontrato. O custo da função na linha do subcontrato vem dessa lista de preços. |
-| Término solicitado | Insira a data de término da atribuição do recurso subcontratado. | Isso será usado para mostrar avisos quando um gerente de projeto estiver utilizando a capacidade para requisitos de recursos que ocorrem após essa data. |
-| Quantidade Encomendada | Insira o número de horas da função que está sendo comprada do fornecedor. | Isso será usado para mostrar avisos quando um gerente de projeto estiver extrapolando essa capacidade para requisitos de recursos. |
-| Grupo de Unidades | O valor padrão é **Grupo de unidades de tempo**, o qual não pode ser alterado. | Nenhum(a)|
-| Unidade | O padrão para este campo é a unidade básica de horas do **Grupo de unidades de tempo**. Você pode alterar esse valor para comprar qualquer unidade do **Grupo de unidades de tempo**, como dia ou semana. | A combinação de **Função** e **Unidade** será usada como o padrão ou será calculada para o preço unitário da linha do subcontrato. |
-| Preço Unitário | O preço unitário padrão usa a combinação de **Função** e **Unidade** da lista de preços do projeto, aplicável para a **Data de Início Solicitada** da linha do subcontrato. | Quando a lista de preços de projeto aplicável tiver o preço configurado em uma unidade diferente da unidade na linha de subcontratação, o sistema usará a conversão de unidade para calcular o preço por unidade. |
-| Subtotal |    Este é um campo somente leitura calculado como Quantidade x Preço unitário, se os valores de quantidade e preço unitário forem inseridos. Se a quantidade, o preço unitário ou ambos estiverem em branco, você poderá inserir um valor no campo. | Nenhum(a)|
-| Imposto sobre Vendas |   Insira o valor do imposto sobre venda. |Nenhum(a) |
-| Valor Total | O valor total da linha de subcontrato, incluindo impostos. Esse campo é calculado como Subtotal + Imposto.|Nenhum(a) |
+| **Campo** | **Descrição** |
+| --- | --- |
+| Name | O nome da linha de subcontrato. |
+| Descrição | Uma breve descrição dos serviços que estão sendo adquiridos na linha de subcontrato. | 
+| Tipo de Linha | Esse campo é um valor padrão.  |
+| Método de Cobrança | Selecione o método de cobrança. Com base no método de cobrança da linha de subcontrato referenciado, uma agenda de fatura com base em marcos está disponível para o método de cobrança Preço Fixo. |
+| Classe da Transação | Esse campo é um valor padrão que indica se a linha de subcontrato está sendo usada para registrar uma compra de tempo do subcontratado. |
+| Função | A função dos recursos de subcontrato cujo tempo está sendo comprado. A função atribuída aos recursos do subcontrato determina o custo da compra. |
+| Data de Início Solicitada | A data em que os recursos do subcontratado são necessários para começar a trabalhar. O início solicitado é usado para escolher uma lista de preços das listas de preços de projeto anexadas ao subcontrato. O custo da função na linha de subcontrato então terá o padrão saído da lista de preços. |
+| Término solicitado | A data em que termina a atribuição dos recursos do subcontratado. Essa data é usada para mostrar avisos quando um Gerente de Projeto está utilizando essa capacidade para requisitos de recursos que ocorrem após essa data. |
+| Quantidade Encomendada | O número de Horas de função compradas do fornecedor. Esse valor é usado para mostrar avisos quando um Gerente de Projeto está ultrapassando essa capacidade para requisitos de recursos. |
+| Grupo de Unidades | O valor padrão desse campo é o grupo Unidade de tempo e não pode ser alterado.  |
+| Unidade | O padrão desse campo é a unidade básica de horas do grupo Unidade de tempo. Você pode alterar esse valor para comprar qualquer grupo Unidade de tempo, como dia ou semana. A combinação de Função e Unidade é usada para calcular o preço unitário para a linha de subcontrato. |
+| Preço Unitário | O preço unitário tem com padrão a combinação de Função e Unidade da lista de preços de projeto aplicável para a data de início solicitada da linha de subcontrato. Quando a lista de preços de projeto aplicável tiver o preço configurado em uma unidade diferente da unidade na linha de subcontratação, o sistema usará a conversão de unidade para calcular o preço por unidade. |
+| Subtotal | Esse é um campo somente leitura que será calculado automaticamente como **Quantidade x Preço unitário** caso os valores de quantidade e preço unitário sejam inseridos. Se a quantidade, o preço unitário ou ambos estiverem em branco, você poderá inserir um valor no campo. |
+| Imposto sobre Vendas |  Insira o valor do imposto sobre venda. |
+| Valor Total | O valor total da linha de subcontrato após a inclusão dos impostos. |
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
