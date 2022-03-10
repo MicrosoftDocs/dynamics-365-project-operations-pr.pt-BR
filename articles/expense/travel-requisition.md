@@ -2,18 +2,16 @@
 title: Requisições de viagem
 description: Este tópico fornece informações sobre requisições de viagem.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 46a678ac4486c99f11d74dbac07dedd08364cb2f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f00b5ca2142c4ba5cb523773f1f6dd8f0a055f6f6d474bc2b8e5f775ca0fc739
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123679"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6994532"
 ---
 # <a name="travel-requisitions"></a>Requisições de viagem
 
@@ -56,3 +54,6 @@ Selecione a requisição de viagem que deseja aprovar e, em seguida, selecione *
 
 > [!NOTE]
 > Quando você mapeia um relatório de despesas para uma requisição de viagem aprovada, o valor da transação não pode ser maior do que o valor autorizado. 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

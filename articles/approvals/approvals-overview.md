@@ -2,51 +2,53 @@
 title: Visão geral de aprovações
 description: Este tópico fornece informações sobre como trabalhar com aprovações em Project Operations.
 author: stsporen
-manager: Annbe
-ms.date: 10/05/2020
+ms.date: 03/31/2021
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.custom: intro-internal
+ms.openlocfilehash: d77c62455c346d6d427d71af4b01d62b5132a2377c2c1a0a64f56fb313219c46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071288"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991697"
 ---
 # <a name="approvals-overview"></a>Visão geral de aprovações
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Os envios de Tempo e Despesa passam por um fluxo de trabalho de aprovação. Depois que as entradas forem aprovadas, as transações serão registradas em dados reais ou as horas serão reservadas na agenda.
+Tempo, despesas e uso de material são enviados por um fluxo de trabalho de aprovação. Depois que as entradas forem aprovadas, as transações serão registradas em dados reais ou as horas serão reservadas na agenda.
 
 ## <a name="approvals-workflow"></a>Fluxo de trabalho de aprovações
-Ao criar e enviar uma entrada de hora ou de despesa, é criada uma entrada de aprovação. O Aprovador do projeto ou o gerente revisa e aprova a entrada. Se a entrada estiver relacionada a um projeto, após a aprovação, os dados reais serão criados. Isso permite que o custo e a cobrança sejam rastreados. 
+Ao criar e enviar uma entrada de tempo, despesa ou uso de material, é criado um registro de aprovação. O aprovador ou gerente do projeto avalia e aprova a entrada. Se a entrada estiver relacionada a um projeto, os dados reais serão criados quando ele for aprovado. Isso permite que o custo e a cobrança sejam rastreados.
 
 ## <a name="approve-an-entry"></a>Aprovar uma entrada
-O formulário **Aprovações** permite alternar entre diferentes exibições para que você possa exibir os diferentes tipos de aprovações.
+A página **Aprovações** permite alternar entre exibições diferentes para permitir a exibição de diferentes tipos de aprovações.
   
-1. Vá para o formulário **Aprovações** e selecione **Despesas**, **Hora** ou **Recuperações**.
+1. Acesse a página **Aprovações** e selecione **Despesas**, **Hora**, **Uso de Material** ou **Recalls**.
 2. Revise cada aprovação e selecione aquelas que deseja aprovar.
 3. Selecione **Aprovar** para aprovar as entradas selecionadas.
-O sistema processará essas entradas e criará dados reais ou uma reserva.
+O sistema processa essas entradas e cria dados reais.
 
 ## <a name="reject-an-entry"></a>Rejeitar uma entrada
 Como Aprovador do projeto, talvez seja necessário enviar uma entrada de volta para um usuário para correção.
   
-1. Vá para o formulário **Aprovações** e selecione a entrada que deseja rejeitar. 
+1. Acesse a página **Aprovações** e selecione a entrada a ser rejeitada. 
 2. Selecione **Rejeitar**.
-3. Opcional – Adicione um comentário na caixa de diálogo **Rejeitar Comentários** para informar o usuário o motivo pelo qual a entrada está sendo rejeitada.
+3. Opcional, adicione um comentário na caixa de diálogo **Comentários de Rejeição** para informar ao usuário de que a entrada está sendo rejeitada.
 4. Selecione **OK**. A entrada será devolvida para o usuário.
   
-## <a name="recall-entries"></a>Recuperar entradas
-Em algum momento, talvez seja necessário recuperar uma entrada enviada. Se a entrada não tiver sido aprovada, ela será devolvida imediatamente. No entanto, uma entrada aprovada poderá ter um impacto material. O Aprovador do projeto deve aprovar a recuperação para reverter a transação em Dados reais.
+## <a name="cancel-approval"></a>Cancelar aprovação
+Em alguns casos, pode ser necessário cancelar uma entrada aprovada anteriormente. O cancelamento de uma entrada aprovada anteriormente terá um impacto financeiro. 
+
+## <a name="approving-recall-requests"></a>Aprovar solicitações de recuperação
+Em alguns casos, um consultor pode precisar recuperar uma entrada aprovada anteriormente. O cancelamento de uma entrada aprovada anteriormente terá um impacto financeiro. O aprovador do projeto deve aprovar a recuperação para reverter a transação em Dados reais.
 
 ## <a name="specify-project-approvers"></a>Especificar Aprovadores de projeto
 Cada projeto tem vários membros da equipe do projeto. Você pode especificar quais membros da equipe também são Aprovadores de projeto.
 
-1. Vá para o formulário **Projetos** e abra o projeto da lista.
+1. Acesse a página **Projetos** e abra o projeto da lista.
 2. Na guia **Equipe**, selecione o membro da equipe que será um Aprovador do projeto e selecione **Editar**.
 3. Defina o campo **Aprovador do projeto** como **Sim**.
 4. Selecione **Salvar**.
@@ -59,3 +61,6 @@ Cada projeto tem vários membros da equipe do projeto. Você pode especificar qu
 3. Selecione **Salvar**.
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

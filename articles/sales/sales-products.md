@@ -2,11 +2,9 @@
 title: Produtos
 description: Este tópico fornece informações sobre o catálogo de produtos que você pode usar para fornecer informações aos clientes sobre os produtos e preços que sua organização oferece.
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 606d44b64e5e1cd92ff3ab057a9cce408f972574
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 085b7e4d9274f8c8d94d7a84109cfa782acf3dbb9241bfd25ecb8c2f329e1bb8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277414"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986837"
 ---
 # <a name="products"></a>Produtos
 

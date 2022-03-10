@@ -2,18 +2,16 @@
 title: Versões do mapa de gravação dupla do Project Operations
 description: Este tópico fornece a lista de mapas de gravação dupla necessárias para o Dynamics 365 Project Operations.
 author: sigitac
-manager: Annbe
 ms.date: 04/22/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fa0342985f2c860cd3cb3f686f0dcaa59d8cfd41
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5938944"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547095"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versões do mapa de gravação dupla do Project Operations
 
@@ -34,40 +32,40 @@ Os mapas a seguir são pré-requisitos necessários para a solução Project Ope
 
 1. Na lista de mapas, selecione o mapa Razão **(msdyn\_ledgers)** com todos os pré-requisitos e marque a caixa de seleção **Sincronização inicial**. No campo **Mestre para sincronização inicial**, selecione **aplicativos do Finance and Operations** para o mapa do razão e todos os mapas de pré-requisito. Selecione **Executar**.
 
-![Sincronização de mapa de razão](media/DW6.png)
+![Sincronização do mapa do razão.](media/DW6.png)
 
-1. Siga as mesmas etapas para todos os mapas de tabela restantes listados na tabela acima. Não marque a caixa de seleção **Sincronização inicial** ao executar esses mapas.
+2. Siga as mesmas etapas para todos os mapas de tabela restantes listados na tabela acima. Não marque a caixa de seleção **Sincronização inicial** ao executar esses mapas.
 
 ## <a name="project-operations-dual-write-maps"></a>Mapas de gravação dupla do Project Operations
 
-Os mapas a seguir são necessários para uma solução Project Operations.
+Os mapas a seguir são necessários para uma solução Project Operations. As versões de mapas de gravação dupla estão listadas a partir da atualização do Project Operations de maio de 2021, versão 4.10.0.186.
 
 | **Mapa de entidade** | **Última versão** | **Sincronização inicial** |
 | --- | --- | --- |
 | Entidade de integração para relacionamentos de transações do projeto (msdyn\_transactionconnections) | 1.0.0.0 | Não é necessário para provisionamento. |
 | Cabeçalhos de contrato de projeto (ordens de venda) | 1.0.0.1 | Não é necessário para provisionamento. |
 | Linhas de contrato do projeto (salesorderdetails) | 1.0.0.0 | Não é necessário para provisionamento. |
-| Fonte de financiamento do projeto (msdyn_projectcontractsplitbillingrules) | 1.0.0.1 | Não é necessário para provisionamento. |
+| Fonte de financiamento do projeto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Não é necessário para provisionamento. |
 | Tabela de integração do Project Operations para estimativas de material (msdyn\_estimateslines) | 1.0.0.0 | Não é necessário para provisionamento. |
-| Propostas de fatura do projeto V2 (faturas) | 1.0.0.2 | Não é necessário para provisionamento. |
+| Propostas de fatura do projeto V2 (faturas) | 1.0.0.3 | Não é necessário para provisionamento. |
 | Valores reais da integração do Project Operations (msdyn_actuals) | 1.0.0.14 | Não é necessário para provisionamento. |
-| Etapas da linha do contrato de integração do Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | Não é necessário para provisionamento. |
-| Entidade de integração do Project Operations para estimativas de despesas (msdyn_estimateslines) | 1.0.0.2 | Não é necessário para provisionamento. |
+| Marcos de linha de contrato de integração do Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Não é necessário para provisionamento. |
+| Entidade de integração do Project Operations para estimativas de despesas (msdyn_estimatelines) | 1.0.0.2 | Não é necessário para provisionamento. |
 | Entidade de integração do Project Operations para estimativas de horas (msdyn_resourceassignments) | 1.0.0.5 | Não é necessário para provisionamento. |
-| Entidade de exportação de categorias de despesas do projeto de integração do Project Operations (msdyn_expensecategories) | 1.0.0.2 | Não é necessário para provisionamento. |
+| Entidade de exportação de categorias de despesas do projeto de integração do Project Operations (msdyn_expensecategories) | 1.0.0.1 | Não é necessário para provisionamento. |
 | Entidade de exportação de despesas do projeto de integração do Project Operations (msdyn_expenses) | 1.0.0.2 | Não é necessário para provisionamento. |
 | Entidade de exportação de fatura de fornecedor do projeto de integração do Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | Não é necessário para provisionamento. |
-| Entidade de exportação de linha de fatura de fornecedor do projeto de integração do Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.0 | Não é necessário para provisionamento. |
+| Entidade de exportação de linha de fatura de fornecedor do projeto de integração do Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.1 | Não é necessário para provisionamento. |
 | Funções de recursos do projeto para todas as empresas (bookableresourcecategories) | 1.0.0.1 | Requer uma sincronização inicial para o mapa da tabela para sincronizar funções de recurso de gerente de projeto e membro de equipe que são preenchidas no ambiente do Dynamics 365 Dataverse durante o provisionamento. O Dataverse é a principal fonte para a sincronização inicial. |
 | Tarefas do projeto (msdyn_projecttasks) | 1.0.0.4 | Não é necessário para provisionamento. |
 | Categorias de transação do projeto (msdyn_transactioncategories) | 1.0.0.0 | Não é necessário para provisionamento. |
-| Projetos V2 (msdyn_projects) | 1.0.0.1 | Não é necessário para provisionamento. |
+| Projetos V2 (msdyn_projects) | 1.0.0.2 | Não é necessário para provisionamento. |
 
 Conclua as etapas a seguir para executar os mapas listados.
 
 1. Habilite as funções de recurso do projeto para o mapa da tabela **todas as empresas (bookableresourcecategories)**, pois este mapa exige a sincronização inicial. No campo **Mestre para sincronização inicial**, selecione **Common Data Service**. 
 
- ![Sincronização de mapa de tabela de função de recurso](media/6ResourceInitialSync.jpg)
+ ![Sincronização do mapa de tabela de função de recurso.](media/6ResourceInitialSync.jpg)
 
  Espere até que o status do mapa seja **Em execução** antes de passar para a próxima etapa.
 

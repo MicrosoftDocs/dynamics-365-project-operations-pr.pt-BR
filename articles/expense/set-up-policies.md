@@ -2,11 +2,9 @@
 title: Definir políticas de despesas
 description: Você pode definir políticas de despesas que seus funcionários devem seguir ao inserir e enviar relatórios de despesas e requisições de viagem.
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128404"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986342"
 ---
 # <a name="define-expense-policies"></a>Definir políticas de despesas
 
@@ -53,3 +51,6 @@ Veja a seguir algumas sugestões que podem ajudá-lo na criação de novas polí
 ## <a name="when-to-evaluate-policies"></a>Quando avaliar as políticas
 
 Nos parâmetros de gerenciamento de despesas, você pode escolher avaliar as políticas de gerenciamento de despesas quando uma linha for salva ou quando um relatório de despesas for enviado. Se você optar por avaliar quando uma linha for salva, os usuários terão uma visibilidade antecipada do que precisam fazer para preencher o relatório de despesas de uma vez. Caso contrário, você pode atrasar a avaliação da política e economizar tempo validando no final, durante o envio para o fluxo de trabalho.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

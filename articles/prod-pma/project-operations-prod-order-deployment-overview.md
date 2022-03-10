@@ -6,12 +6,13 @@ ms.date: 11/02/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7b2a606bc587b99c16d45b19689ba90b422c3c62
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 06775a41b17fab5cd7a72d6cfbb92cb7608b6cc2411eb96bd67513e1de10ad63
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999387"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009067"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Visão geral da implantação do Project Operations para cenários baseados em estoque/produção
 

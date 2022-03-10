@@ -2,19 +2,17 @@
 title: Novidades em dezembro de 2020 – Project Operations para cenários baseados em recursos/não estocados
 description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de dezembro de 2020 do Project Operations para cenários baseados em recursos/não estocados.
 author: sigitac
-manager: tfehr
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f80922877f3d3d0e1149c2aa690f881bcf927b11
-ms.sourcegitcommit: 5791f6347e800fc4f6c76e7460947cb6824edebe
+ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/08/2020
-ms.locfileid: "4700666"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984857"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em dezembro de 2020 – Project Operations para cenários baseados em recursos/não estocados
 
@@ -24,6 +22,8 @@ Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Proj
 
 - Project Operations no ambiente do Dataverse versão 4.5.0.134
 - Gerenciamento e contabilidade de projeto no ambiente do Dynamics 365 Finance versão 10.0.15
+
+Para obter mais informações sobre como atualizar esta versão, consulte [Atualizar Project Operations no ambiente do Finance](ur5-nonstocked-installation.md).
 
 ## <a name="features-included-in-this-release"></a>Os recursos incluídos nesta versão
 Os seguintes recursos estão incluídos nesta versão:
@@ -106,4 +106,7 @@ Os seguintes recursos estão incluídos nesta versão:
 | Viagens e despesas                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | O fluxo de trabalho de publicação automática do relatório de despesas foi concluído, mas a fatura não foi lançada                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Atualizações regulatórias
-Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
+Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

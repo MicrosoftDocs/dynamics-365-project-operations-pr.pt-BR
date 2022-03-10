@@ -2,12 +2,10 @@
 title: Alterações de entidade, controle e interface de usuário (Project Service Automation 3.x)
 description: Este tópico descreve alterações de solução para o Microsoft Dynamics Project Service Automation 3.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/15/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa80f459260f30360e78a1e7bcc00706dbc0b5a4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 86b51e58189a62f15a5ded039e9265733a0d9d4a7c7bf8d18ac46aadf1d2a931
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284884"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987332"
 ---
 # <a name="entity-control-and-user-interface-changes-project-service-automation-3x"></a>Alterações de entidade, controle e interface de usuário (Project Service Automation 3.x)
 

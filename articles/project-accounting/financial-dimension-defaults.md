@@ -2,18 +2,16 @@
 title: Padrões de dimensão financeira
 description: Este tópico fornece informações sobre como configurar padrões de dimensão financeira.
 author: sigitac
-manager: Annbe
-ms.date: 10/26/2020
+ms.date: 12/14/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 03b9a9028c1610b191db9c1bfb0163adc88bdf3e
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 8c1eb71d13ca7fc59118d15fef7ac914577b3b0e
+ms.sourcegitcommit: fe5610464fdb5be756aa6a6a5b3c9a991dea0ed8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642349"
+ms.lasthandoff: 12/15/2021
+ms.locfileid: "7922924"
 ---
 # <a name="financial-dimension-defaults"></a>Padrões de dimensão financeira
 
@@ -21,7 +19,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-O Dynamics 365 Project Operations usa a estrutura de [Dimensões financeiras](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) no Dynamics 365 Finance para fornecer insights adicionais sobre transações de contabilidade e do razão auxiliar do projeto.
+O Dynamics 365 Project Operations usa a estrutura de [Dimensões financeiras](/dynamics365/finance/general-ledger/financial-dimensions) no Dynamics 365 Finance para fornecer insights adicionais sobre transações de contabilidade e do razão auxiliar do projeto.
 
 As dimensões financeiras padrão podem ser definidas em um cliente, fonte de financiamento do projeto, etapa, linha de contrato do projeto ou projeto.
 
@@ -62,3 +60,15 @@ Projetos são criados e mantidos no CDS. Atributos de contabilidade para projeto
 4. Defina os padrões de dimensão financeira. Observe que dimensões financeiras são padronizadas a partir da conta do cliente. Se o projeto estiver associado a uma linha de contrato com vários clientes de contrato de projeto, o cliente principal será usado para dimensões financeiras padrão.
 
 As dimensões financeiras padrão do projeto são usadas para definir padrões de linha de diário para transações de hora, despesas e taxas no **Diário de Integração de Operações do Projeto** e nas linhas de fatura do projeto relacionado.
+
+## <a name="apply-financial-dimensions-for-project-time-entries"></a>Aplicar dimensões financeiras para entradas de tempo do projeto
+Para aplicar dimensões financeiras para entradas de tempo do projeto, observe que o valor de dimensão padrão é baseado na seguinte ordem:
+
+1. Recurso
+2. Project
+3. Fonte de financiamento
+
+Por exemplo, se a dimensão padrão for especificada em um recurso, ela será aplicada sobre um padrão especificado no projeto. Da mesma forma, uma dimensão de projeto padrão será aplicada sobre o padrão especificado na fonte de financiamento.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

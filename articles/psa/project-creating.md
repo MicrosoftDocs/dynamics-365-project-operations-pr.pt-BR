@@ -2,8 +2,6 @@
 title: Agendas de projeto
 description: Esse tópico fornece informações sobre como criar uma agenda.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 192fbe7f26a2bd060ffe9bc0b1eea50b9431bca4696e3da1d94bf53158e026a6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071463"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998402"
 ---
 # <a name="project-schedules"></a>Agendas de projeto 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -94,7 +94,7 @@ A grade **Agendar** é totalmente acessível e pode ser usada com leitores de te
 
 O nome de uma tarefa descreve o trabalho que deve ser concluído. No PSA, os atributos associados a uma tarefa descrevem a agenda da tarefa e seus requisitos de equipe.
 
-> ![Atributos da tarefa](media/project-2.png)
+> ![Atributos da tarefa.](media/project-2.png)
  
 ### <a name="schedule-attributes"></a>Atributos da agenda
 
@@ -147,3 +147,6 @@ Por padrão, se uma tarefa de nó folha não tiver predecessores, sua data de in
 ### <a name="manual-scheduling"></a>Agendamento manual
 
 Se as regras de agendamento automático não atenderem aos seus requisitos, você poderá definir o modo de tarefa como **Agendado Manualmente**. Essa configuração faz com que o mecanismo de agendamento pare de calcular os valores de outros atributos de agendamento. Independentemente do modo da tarefa, se você definir predecessoras em tarefas, você sempre afetará a data de início da tarefa dependente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

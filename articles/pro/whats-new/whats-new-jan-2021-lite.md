@@ -2,19 +2,17 @@
 title: Novidades em janeiro de 2021 – implantação lite do Project Operations
 description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de janeiro de 2021 da implantação lite do Project Operations.
 author: sigitac
-manager: tfehr
 ms.date: 01/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 28035a26529c9eb7e5a805c4e47c1958e30436bb
-ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
+ms.openlocfilehash: d275bacd13b2ec896a40cafab3434200dca537d7d108cfc46370b01b67c98aa2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/13/2021
-ms.locfileid: "4958884"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009247"
 ---
 # <a name="whats-new-january-2021---project-operations-lite-deployment"></a>Novidades em janeiro de 2021 – implantação lite do Project Operations
 
@@ -41,3 +39,6 @@ Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Proj
 | **Gerenciamento de Oportunidades** | 2040713 | O erro de script que ocorre ao criar uma fatura de um contrato e instalar o Field Service foi corrigido. |
 | **Planejamento e acompanhamento de projeto** | 2090202 | As regras de negócios marcadas que não são mais usadas como **Preterida**. |
 | **Tempo e Despesa** | 2091249 | Os controles foram reduzidos para que os usuários não possam alterar a tarefa em uma entrada de tempo enviada ou aprovada. |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: Perguntas frequentes sobre gerenciamento de recursos
 description: Este tópico fornece respostas às perguntas frequentes sobre gerenciamento de recursos.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 395aa57d73e5d4a0c9c827c79bf4e7ef229c3981
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071639"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002362"
 ---
 # <a name="resource-management-faq"></a>Perguntas frequentes sobre gerenciamento de recursos
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -52,3 +52,6 @@ Depois de reservar os recursos, selecione **Manter Reservas** para fazer quaisqu
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>Qual é a diferença entre uma atribuição e uma reserva?
 
 As atribuições são a atribuição de recursos a tarefas do projeto na agenda do projeto. Os recursos podem ser reais ou genéricos. As reservas são a alocação fixa ou flexível de recursos para um projeto. As reservas fixas consomem a capacidade de um recurso. O ideal é que, para recursos reais, as reservas e atribuições sejam correspondentes, pois elas não diferem. No entanto, o PSA não impõe essa correspondência. A exibição Reconciliação mostra a um gerente de projetos os locais em que as reservas e atribuições de um recurso não correspondem.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

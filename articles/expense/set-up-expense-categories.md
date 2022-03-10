@@ -2,18 +2,16 @@
 title: Configurar categorias de despesa
 description: Este tópico fornece informações sobre como configurar categorias de despesas e categorias compartilhadas para relatórios de despesas.
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: f051d70f3dfe3b241dc0a206c0cdfda000f87c76
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071318"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993092"
 ---
 # <a name="set-up-expense-categories"></a>Configurar categorias de despesa
 
@@ -61,3 +59,6 @@ Antes de iniciar o processo de configuração, as seguintes decisões deverão s
 
     - Alguma das subcategorias foi excluída da recuperação de impostos?
     - Qual é o grupo de impostos do item das subcategorias?
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

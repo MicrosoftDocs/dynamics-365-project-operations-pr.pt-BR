@@ -2,20 +2,18 @@
 title: Configurações de contrato do projeto - lite
 description: Este tópico fornece informações sobre os campos que afetam as linhas de contrato e as informações sobre o contrato resumidas em todos os itens de linha.
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 870a583a4f7c9ed461207f65f267b529580cf02b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7ade6c122827274f926803140f5db32442114c7aefd18d410da65270f345fde4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272464"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995927"
 ---
-# <a name="project-contract-settings---lite"></a>Configurações de contrato do projeto - lite
+# <a name="header-details-for-project-contracts"></a>Detalhes do cabeçalho para contratos de projeto
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 

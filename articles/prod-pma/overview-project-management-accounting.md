@@ -2,28 +2,26 @@
 title: Visão geral de gerenciamento e contabilidade de projeto
 description: A funcionalidade de gerenciamento de projetos e da contabilidade pode ser usada em várias indústrias para proporcionar um serviço, para produzir um produto, ou para obter um resultado.
 author: Yowelle
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2f6ceabe1809cc94357a31f1d57c445593f0f788
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950430"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007492"
 ---
 # <a name="project-management-and-accounting-overview"></a>Visão geral de gerenciamento e contabilidade de projeto
 
@@ -36,14 +34,14 @@ Um projeto é um grupo de atividades que visa oferecer um serviço, produzir um 
 ## <a name="projects-across-industries"></a>Projetos em indústrias
 A funcionalidade de gerenciamento de projetos e de contabilidade pode ser usada em vários setores, conforme mostrado na ilustração.
 
-[![Projetos em indústrias](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+[![Projetos em indústrias.](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Em um call center, um bilhete pode ser usado para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, como organizações de gerenciamento ou consulta técnica, ou agências de publicidade, referem-se a suas atividades como projetos. Em marketing, uma campanha representa um conjunto de trabalho que deve ser entregue. Na fabricação baseada em projeto, uma ordem de produção relaciona diversos trabalhos que devem ser feitos para gerar algumas mercadorias acabadas. Seja qual for o nome usado para eles, esses projetos envolvem recursos, agendamentos e custos, e a funcionalidade de gerenciamento de projetos e de contabilidade pode ajudar no planejamento, na execução e na análise desses projetos.
 
 ## <a name="project-phases"></a>Fases do projeto
 Embora o seguinte fluxo de processo destine-se a projetos externos ou projetos que são concluídos para um ou mais clientes, a funcionalidade também se aplica a projetos internos, apenas de custo. 
 
-![Três estágios de um projeto](./media/3-stages-of-a-project.png) 
+![Três estágios de um projeto.](./media/3-stages-of-a-project.png) 
 
 Conforme mostra a ilustração acima, o gerenciamento de projetos e de contabilidade pode ser dividido em três fases:
 
@@ -52,7 +50,7 @@ Conforme mostra a ilustração acima, o gerenciamento de projetos e de contabili
 3.  Analisar
 
 ## <a name="initiate-the-project"></a>Iniciar o projeto
-Durante a iniciação do projeto, ocorrem vários processos importantes. Você pode usar uma cotação de projeto para comunicar o trabalho, despesas e materiais estimados para o cliente. Você pode registrar as condições de cobrança, limites e os contratos em um contrato de projeto. Você pode usar uma estrutura de detalhamento de trabalho (WBS) para planejar e estimar o trabalho. É possível configurar previsões e orçamentos para orientar a execução do projeto. A ilustração a seguir exibe a estrutura de um projeto.[![estrutura do projeto](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+Durante a iniciação do projeto, ocorrem vários processos importantes. Você pode usar uma cotação de projeto para comunicar o trabalho, despesas e materiais estimados para o cliente. Você pode registrar as condições de cobrança, limites e os contratos em um contrato de projeto. Você pode usar uma estrutura de detalhamento de trabalho (WBS) para planejar e estimar o trabalho. É possível configurar previsões e orçamentos para orientar a execução do projeto. A ilustração a seguir exibe a estrutura de um projeto.[![estrutura do projeto.](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
 
 ### <a name="create-project-quotations"></a>Criar cotações de projeto
 

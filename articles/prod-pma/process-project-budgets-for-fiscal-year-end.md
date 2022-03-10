@@ -2,11 +2,9 @@
 title: Transferir orçamentos de projetos no fim do ano fiscal
 description: Este artigo fornece informações sobre como transferir os valores de orçamento restantes para os anos futuros e criar detalhes do registro de orçamento.
 author: Yowelle
-manager: AnnBe
 ms.date: 03/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 26e013ab99e9a0aeafe25916715ce0ee024df3f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 74b2831a19688636f5c4863036adf7043c80d49829737b56c131abb6998d6cb3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071561"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007357"
 ---
 # <a name="transfer-project-budgets-at-fiscal-year-end"></a>Transferir orçamentos de projetos no fim do ano fiscal
 
@@ -98,3 +96,6 @@ Ao processar os valores restantes do orçamento, você pode criar transações n
 5. Para cada projeto que você deseja processar, selecione a opção no início da linha para o projeto. 
 6. Selecione **Processo** para transferir os valores de orçamento restantes dos projetos selecionados para o ano fiscal selecionado.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

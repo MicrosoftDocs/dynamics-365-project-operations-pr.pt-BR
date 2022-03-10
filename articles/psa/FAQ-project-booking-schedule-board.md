@@ -2,8 +2,6 @@
 title: Criar uma reserva de projeto no Quadro de Agendamento
 description: Este tópico fornece informações sobre como criar uma reserva de projeto no quadro de agendamento.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,14 +16,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57fbc71681015fca73cdda4bc7d392f6be4289f3
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071445"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987602"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>Criar uma reserva de projeto no Quadro de Agendamento
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 É possível reservar um recurso em um projeto diretamente na guia **Equipe** do projeto ou gerando um requisito de recurso em uma atribuição de membro da equipe genérico e, em seguida, atendendo ao requisito com um membro da equipe de projeto.
 
@@ -41,9 +41,9 @@ Você também pode reservar um recurso em um projeto diretamente no Quadro de Ag
 
 É possível criar um recurso genérico e atribuí-lo a uma ou várias tarefas em um projeto. Em seguida, você pode gerar um requisito de recurso de um membro da equipe genérico. 
 
-1.  No Quadro de Agendamento, esse recurso será exibido na guia **Requisitos em Aberto** . Talvez seja necessário usar filtros de coluna na grade se você tiver muitos requisitos em aberto. 
+1.  No Quadro de Agendamento, esse recurso será exibido na guia **Requisitos em Aberto**. Talvez seja necessário usar filtros de coluna na grade se você tiver muitos requisitos em aberto. 
 
-    ![Guia Abrir Requisitos no painel Agendar](media/FAQ-Project-Booking-Schedule-Board-1.png "Captura de tela da tabela de reservas e atribuições")
+    ![Guia Abrir Requisitos no painel Agendar.](media/FAQ-Project-Booking-Schedule-Board-1.png "Captura de tela da tabela de reservas e atribuições")
 
 2. Selecione o requisito. A guia **Localizar Disponibilidade** aparecerá na parte superior da linha selecionada.
  
@@ -53,7 +53,7 @@ Você também pode reservar um recurso em um projeto diretamente no Quadro de Ag
 
     A seleção de **Reservar** reserva o recurso na equipe de projeto.
 
-![Painel Criar Reserva de Recursos](media/FAQ-Project-Booking-Schedule-Board-6.png "")
+![Painel Criar Reserva de Recursos.](media/FAQ-Project-Booking-Schedule-Board-6.png "")
  
 
 ## <a name="book-from-the-primary-requirement"></a>Fazer reserva no Requisito principal
@@ -62,7 +62,7 @@ A criação de um projeto no Project Service cria automaticamente um requisito d
 
 1. Para reservar um recurso com o Requisito Principal, no Quadro de Agendamento, selecione a guia **Projeto**. Talvez seja necessário usar o filtro de coluna na coluna **Projeto** se você tiver muitos projetos.
 
-   ![Filtros de coluna no painel Agendar](media/FAQ-Project-Booking-Schedule-Board-2.png "Captura de tela da tabela de reservas e atribuições")
+   ![Filtros de coluna no painel Agendar.](media/FAQ-Project-Booking-Schedule-Board-2.png "Captura de tela da tabela de reservas e atribuições")
 
 2. Selecione o requisito que tem somente o nome do projeto como seu nome e uma duração de zero (0).
 
@@ -89,3 +89,6 @@ Complete as etapas a seguir para fazer uma reserva de um novo requisito de recur
 
 4. Agora que o recurso está reservado, é preciso atribuir tarefas manualmente.
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

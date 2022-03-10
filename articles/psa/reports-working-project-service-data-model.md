@@ -2,8 +2,6 @@
 title: Trabalhar com o modelo de dados do Project Service Automation
 description: Este tópico fornece informações sobre como trabalhar com o modelo de dados.
 author: ruhercul
-manager: kfend
-ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,16 +16,19 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 375850b893b7afead8371824606b422d3f36c36de4da908fdf76666bd1b415ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071613"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002407"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Trabalhar com o modelo de dados do Project Service Automation
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 O Dynamics 365 Project Service Automation estende outras entidades de aplicativos e introduz suas próprias entidades no modelo de dados do Common Data Service. Este tópico descreve algumas das entidades que você encontrará em cenários típicos de criação de relatórios no PSA.
 
@@ -52,7 +53,7 @@ Além disso, o PSA adiciona novas entidades relacionadas à cotação ao modelo 
 
 Outras entidades que o PSA adiciona a cotações são **Lista de Preços do Projeto da Linha de Cotação**, **Categoria de Recurso da Linha de Cotação** e **Categoria de Transação da Linha de Cotação**.
 
-![Diagrama mostrando cotação, linha de cotação e relacionamentos do projeto](media/PS-Reporting-image2.png "Diagrama mostrando cotação, linha de cotação e relacionamentos do projeto")
+![Diagrama mostrando cotação, linha de cotação e relacionamentos do projeto.](media/PS-Reporting-image2.png "Diagrama mostrando cotação, linha de cotação e relacionamentos do projeto")
 
 ## <a name="reporting-on-project-contracts"></a>Relatar contratos de projetos
 
@@ -68,7 +69,7 @@ Além disso, o PSA adiciona novas entidades que foram criadas para contratos de 
 
 Outras entidades que o PSA adiciona a contratos são **Lista de Preços de Projeto da Linha de Contrato do Projeto**, **Categoria de Recurso da Linha de Contrato do Projeto** e **Categoria de Transação da Linha de Contrato do Projeto**.
 
-![Diagrama mostrando ordem, linha da ordem e relacionamentos do projeto](media/PS-Reporting-image3.png "Diagrama mostrando ordem, linha da ordem e relacionamentos do projeto")
+![Diagrama mostrando ordem, linha da ordem e relacionamentos do projeto.](media/PS-Reporting-image3.png "Diagrama mostrando ordem, linha da ordem e relacionamentos do projeto")
 
 ## <a name="reporting-on-projects"></a>Relatar projetos
 
@@ -80,18 +81,18 @@ A entidade **Projetos** e suas entidades relacionadas são exclusivas ao PSA. **
 - **Requisito de Recurso** – Esta entidade contém os requisitos para quaisquer membros genéricos da equipe de recurso.
 - **Estimativa** e **Linha de estimativa** – Estas entidades têm um relacionamento cabeçalho/linha e contêm estimativas de despesas para o projeto. As estimativas de tarefas são armazenadas na entidade **Estimativa de Recursos**.
 
-![Diagrama mostrando requisito de recurso e relacionamentos do projeto](media/PS-Reporting-image4.png "Diagrama mostrando requisito de recurso e relacionamentos do projeto")
+![Diagrama mostrando requisito de recurso e relacionamentos do projeto.](media/PS-Reporting-image4.png "Diagrama mostrando requisito de recurso e relacionamentos do projeto")
 
 ## <a name="reporting-on-resources"></a>Relatar recursos
 
-Os recursos de projeto usam as entidades de **Recurso Reservável** do Universal Resource Scheduling (URS) que são compartilhadas com outros aplicativos, como o Microsoft Dynamics 365 Field Service. Veja uma lista das entidades que talvez você precise usar ao relatar recursos de projeto:
+Os recursos de projeto usam as entidades de **Recurso Reservável** do Universal Resource Scheduling (URS) compartilhados com outros aplicativos, como o Microsoft Dynamics 365 Field Service. Veja uma lista das entidades que talvez você precise usar ao relatar recursos de projeto:
 
 - **Recurso Reservável** – Esta entidade representa o usuário, contato, recurso genérico, conta, grupo ou equipamento que é usado na equipe do projeto.
 - **Características de Recursos Reserváveis** – Esta entidade inclui as habilidades, certificações ou formação acadêmica do recurso. As características podem ter valores de classificação que são definidos pelo modelo de classificação.
 - **Categoria de Recurso Reservável** – Esta entidade representa a função do recurso reservável.
 - **Reservas de Recursos Reserváveis** – Esta entidade representa o tempo reservado em projetos para o recurso. Cada reserva tem uma entidade de cabeçalho e entidades de linha, e cada linha tem um status que representa o status da reserva.
 
-![Diagrama mostrando relacionamentos de características de recursos reserváveis](media/PS-Reporting-image5.png "Diagrama mostrando relacionamentos de características de recursos reserváveis")
+![Diagrama mostrando relacionamentos de características de recursos reserváveis.](media/PS-Reporting-image5.png "Diagrama mostrando relacionamentos de características de recursos reserváveis")
 
 ## <a name="reporting-on-actual-transactions"></a>Relatar transações reais
 
@@ -119,4 +120,7 @@ Ao trabalhar com a entidade **Real**, é importante compreender quais transaçõ
 
 A entidade **Origem da Transação** registra a origem do registro **Real**, e a entidade **Conexão da Transação** registra os registros relacionados do registro **Real**. Além disso, o registro **Real** contém referências a projeto, contrato de projeto (ordem), recurso reservável e cliente.
 
-![Diagrama mostrando a conexão da transação, a origem e os relacionamentos reais](media/PS-Reporting-image6.png "Diagrama mostrando a conexão da transação, a origem e os relacionamentos reais")
+![Diagrama mostrando a conexão da transação, a origem e os relacionamentos reais.](media/PS-Reporting-image6.png "Diagrama mostrando a conexão da transação, a origem e os relacionamentos reais")
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

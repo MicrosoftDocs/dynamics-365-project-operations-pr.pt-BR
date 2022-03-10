@@ -1,8 +1,6 @@
 ---
 title: Enviar solicitação de recurso
 description: Esse tópico fornece informações sobre o envio de uma solicitação para um recurso do projeto.
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149709"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6984948"
 ---
 # <a name="submitting-a-resource-request"></a>Enviar solicitação de recurso
 
@@ -36,8 +34,11 @@ Você pode enviar um requisito de recurso gerado como uma solicitação de recur
 1. No Project Service Automation (PSA), na página **Projetos**, clique na guia **Equipe** para visualizar uma lista de recursos reserváveis. 
 2. Selecione o recurso genérico com um requisito de recurso da lista e clique em **Enviar solicitação**.
 
-![Enviar solicitação de recurso](media/RM-how-to-18.png)
+![Enviando uma solicitação de recurso.](media/RM-how-to-18.png)
 
 O status da solicitação do membro da equipe genérico será alterado para **Enviado**.
 
 Após a solicitação ser aprovada pelo gerenciador de recursos, o recurso genérico será substituído por um recurso nomeado se o gerenciador de recurso aprovar a solicitação com a reserva de um recurso indicado. Caso contrário, o recurso genérico permanecerá na equipe e o status de solicitação será alterado para **Precisa de revisão**, se o gerenciador de recurso tiver proposto um recurso nomeado.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

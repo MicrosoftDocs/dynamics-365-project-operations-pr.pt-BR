@@ -2,8 +2,6 @@
 title: Exibir e enviar faturas
 description: Como exibir e enviar faturas no Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55e94386ec086e369ec4e9df9f94572580d72325
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fef14421431f8a597d7593d857d0878a15aa4aa0ce603fb1ed8614903a8f6104
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281194"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996647"
 ---
 # <a name="view-and-send-invoices-project-service"></a>Exibir e enviar faturas (Project Service)
 

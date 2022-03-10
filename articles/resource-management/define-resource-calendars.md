@@ -2,22 +2,20 @@
 title: Definir calendários de recurso
 description: Este tópico fornece informações sobre como definir os calendários de horas de trabalho para recursos no Project Operations.
 author: ruhercul
-manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: ab39d7e5dc2d8c01ed49ca0f1a4d1691aaf15637
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: ff10da57fd0767b00282537b241d5d16d95feca8741a620a277306bd8aa53ce5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071276"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990302"
 ---
 # <a name="define-resource-calendars"></a>Definir calendários de recurso
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pró-forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Todos os recursos reserváveis que estiverem trabalhando em um projeto devem ter um calendário de horas de trabalho para definir sua disponibilidade. As horas de trabalho de um recurso podem ser definidas de duas formas: 
 
@@ -43,3 +41,6 @@ Todos os recursos reserváveis que estiverem trabalhando em um projeto devem ter
 2. Na visualização de grade, selecione até 25 **Recursos Reserváveis** para atualizar.
 3. Selecione **Definir Calendário** e uma caixa de diálogo exibirá uma lista de modelos de horas de trabalho disponíveis.
 4. Selecione o modelo que deseja usar e depois selecione **Aplicar**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

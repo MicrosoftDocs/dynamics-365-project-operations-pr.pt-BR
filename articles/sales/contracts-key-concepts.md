@@ -2,20 +2,18 @@
 title: Contratos de projeto - Principais conceitos
 description: Este tópico fornece informações sobre como os principais conceitos de contratos de projeto no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 43ee08d5dd9d7ea956bcec5302d4788059a8f617
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278629"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986927"
 ---
-# <a name="project-contracts---key-concepts"></a>Contratos de projeto - Principais conceitos
+# <a name="concepts-unique-to-project-based-contracts"></a>Conceitos exclusivos de Contratos baseados em Projeto
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 

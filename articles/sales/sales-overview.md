@@ -2,18 +2,17 @@
 title: Visão geral do processo de vendas
 description: Este tópico fornece informações sobre os processos de vendas básicos.
 author: rumant
-manager: Annbe
 ms.date: 10/29/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 8300887e7c5fbd78343d16d191775a67e43138e2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.custom: intro-internal
+ms.openlocfilehash: 3bda8a11d0cb6fe97a3daa640bf95717ef9913000e6b1a28a0a27a35527dbf6f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277369"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991832"
 ---
 # <a name="sales-process-overview"></a>Visão geral do processo de vendas
 

@@ -2,8 +2,6 @@
 title: Transações comerciais
 description: Este tópico fornece informações sobre transações comerciais.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 68506142c5cd046806bc085f297ac928b0c94440
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 28555f29e65c11255c8966f3d4b900512aa01c30fef0a9cef3a3794edaf92a0b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291200"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987512"
 ---
 # <a name="business-transactions"></a>Transações comerciais
 
@@ -90,7 +88,7 @@ Juntas, as entidades Origem da transação e Conexão da transação ajudam voc�
 
 O exemplo a seguir mostra o processamento típico de entradas de tempo em um ciclo de vida de projeto do PSA.
 
-> ![Processando entradas de tempo em um ciclo de vida do Project Service](media/basic-guide-17.png)
+> ![Processando entradas de tempo em um ciclo de vida do Project Service.](media/basic-guide-17.png)
  
 1. O envio de uma entrada de tempo causa a criação de duas linhas de diário: um para custo e outro para vendas não cobradas.
 2. A aprovação eventual da entrada de tempo causa a criação de dois dados reais: um para custo e outro para vendas não cobradas.

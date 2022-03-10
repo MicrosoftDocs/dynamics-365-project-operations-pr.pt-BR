@@ -2,11 +2,9 @@
 title: Implementar campos personalizados para o aplicativo móvel Microsoft Dynamics 365 Project Timesheet no iOS e Android
 description: Este tópico fornece padrões comuns para usar extensões para implementar campos personalizados.
 author: Yowelle
-manager: AnnBe
 ms.date: 05/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9f19a6d069c4f825be8515a6d26739c50d3b064698fc1872ede07a4e74ee4dcb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270979"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005737"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>Implementar campos personalizados para o aplicativo móvel Microsoft Dynamics 365 Project Timesheet no iOS e Android
 
@@ -54,7 +52,7 @@ A propriedade **FieldBaseType** no objeto **TsTimesheetCustom** determina o tipo
 | Valor de tipos | Digitar              | Anotações |
 |-------------|-------------------|-------|
 | 0           | Cadeia de Caracteres (e Enumeração) | O campo é exibido como um campo de texto. |
-| 0           | Integer           | O valor é exibido como um número sem casas decimais. |
+| 1           | Integer           | O valor é exibido como um número sem casas decimais. |
 | 2           | Real              | O valor é exibido como um número com casas decimais.<p>Para mostrar o valor real como uma moeda no aplicativo, use a propriedade **fieldExtenededType**. Você pode usar a propriedade **numberOfDecimals** para definir o número de casas decimais exibidas.</p> |
 | 3           | Data              | Os formatos de data são definidos pela configuração **formato de data, hora e número** do usuário, que está especificada em **Preferência de idioma e país/região** em **Opções do usuário**. |
 | 4           | Boolean           | |
@@ -155,13 +153,13 @@ Para campos do tipo **Data**, essa propriedade passa o valor de data do campo en
 
 Abaixo encontra-se uma captura de tela do aplicativo móvel de uma criação de entrada de folha de ponto. Ela mostra os campos prontos para uso e um campo personalizado na seção "Entrada de horas" chamado "Cadeia de caracteres de teste" com um valor de enumeração de "Segunda opção" já definido.
 
-![Campo Cadeia de caracteres de teste no aplicativo](media/timesheet-entry.jpg)
+![Campo Cadeia de caracteres de teste no aplicativo.](media/timesheet-entry.jpg)
 
 
 
 Abaixo encontra-se uma captura de tela do usuário do aplicativo móvel selecionando uma das opções de enumeração disponíveis para o campo personalizado "Cadeia de caracteres de teste".  As duas opções são "Primeira opção" e Segunda opção", exibidas como botões de opção. A segunda opção está selecionada.
 
-![Botões de opção para o campo personalizado Cadeia de caracteres de teste](media/enum-option.jpg)
+![Botões de opção para o campo personalizado Cadeia de caracteres de teste.](media/enum-option.jpg)
 
 
 
@@ -173,7 +171,7 @@ Observe que os campos personalizados não têm nenhum registro de banco de dados
 
 Abaixo encontra-se uma captura de tela do Visual Studio da árvore de objetos do aplicativo. Ela mostra uma extensão da tabela TSTimesheetLine com o campo TestLineString adicionado como um campo personalizado.
 
-![Cadeia de caracteres de linha](media/b6756b4a3fc5298093327a088a7710fd.png)
+![Cadeia de caracteres de linha.](media/b6756b4a3fc5298093327a088a7710fd.png)
 
 ### <a name="use-chain-of-command-on-the-buildcustomfieldlist-method-of-the-tstimesheetsettings-class-to-show-a-field-in-the-timesheet-entry-section"></a>Usar a cadeia de comando no método buildCustomFieldList da classe TSTimesheetSettings para mostrar um campo na seção de entrada de folha de ponto
 
@@ -319,11 +317,11 @@ final class TSTimesheetEntryService_Extension
 
 Abaixo encontra-se uma captura de tela do aplicativo móvel de um usuário exibindo uma folha de ponto. O botão "Mais informações" foi selecionado no canto superior direito para mostrar a opção "Exibir mais detalhes".  
 
-![Comando Exibir mais detalhes](media/show-more.png)
+![Comando Exibir mais detalhes.](media/show-more.png)
 
 Abaixo encontra-se uma captura de tela do aplicativo móvel exibindo a seção "Mais" de uma folha de ponto. Um campo personalizado chamado "Taxa de utilização desta folha de ponto (campo personalizado calculado) foi adicionado à seção do cabeçalho da folha de ponto. Um valor somente leitura de "0,667" é definido no campo personalizado.
 
-![Seção Mais](media/more-section.jpg)
+![Seção Mais.](media/more-section.jpg)
 
 ### <a name="extend-the-tstimesheettable-table-so-that-it-has-a-custom-field"></a>Estender a tabela TSTimesheetTable para que ela tenha um campo personalizado
 
@@ -416,7 +414,7 @@ A lógica existente para a funcionalidade de folha de ponto no nível do banco d
 
 Nos parâmetros do projeto, você pode tornar campos prontos para uso em somente leitura ou em campos ocultos no aplicativo móvel. Defina as opções na seção **Folhas de ponto móveis** na guia **Folhas de ponto** da página **Parâmetros de gerenciamento e contabilidade de projeto**.
 
-![Parâmetros do projeto](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
+![Parâmetros do projeto.](media/5753b8ecccd1d8bb2b002dd538b3f762.png)
 
 ### <a name="changing-the-activities-that-are-available-for-selection-via-extensions"></a>Alterar as atividades disponíveis para seleção por meio de extensões
 

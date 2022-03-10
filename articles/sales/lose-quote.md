@@ -2,18 +2,16 @@
 title: Copiar cotações baseadas em projeto
 description: Este tópico fornece informações sobre como copiar cotações baseadas em projeto no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e4e70ed1451c1076f72ef5d7200b918c626ab23c
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: 247f9d33bc2e7b0bcbeae8114bb436ed237efce660d0840e58d536d2a290639e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181798"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992147"
 ---
 # <a name="copy-project-based-quotes"></a>Copiar cotações baseadas em projeto
 
@@ -45,3 +43,6 @@ Quando você seleciona **OK** na página da caixa de diálogo, o sistema cria um
 > - Referência do projeto nas linhas de orçamento baseadas no projeto - Informações sobre o orçamento do cliente
 >
 >Como essas informações são muito específicas para cada cotação, esses campos e registros não são copiados. Linhas de cotação para projetos e produtos, estimativas nos detalhes da linha de cotação e valores que não devem ser excedidos no nível de cotação são copiados. Os padrões de preço e taxa de custo dependem da opção **Preços de cópia** selecionada na página de diálogo **Parâmetros de cópia**.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

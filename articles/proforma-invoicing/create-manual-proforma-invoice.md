@@ -1,42 +1,25 @@
 ---
-title: Crie uma fatura pró-forma manual
-description: Este tópico fornece informações sobre como criar uma fatura pró-forma.
+title: Faturas pro-forma
+description: Este tópico fornece informações sobre faturas pro-forma no Project Operations.
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 203b8a057d8ef3b699b20c4303061e622d2a3acd
-ms.sourcegitcommit: 3a0c18823a7ad23df5aa3de272779313abe56c82
+ms.author: rumant
+ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2020
-ms.locfileid: "4071658"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995612"
 ---
-# <a name="create-a-manual-proforma-invoice"></a>Crie uma fatura pró-forma manual
+# <a name="proforma-invoices"></a>Faturas pro-forma
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-O faturamento fornece aos gerentes de projeto um segundo nível de aprovação antes da criação de faturas para clientes. O primeiro nível de aprovação é concluído quando as entradas de tempo e despesa que os membros da equipe do projeto enviam são aprovadas.
+O faturamento pro-forma fornece aos gerentes de projeto um segundo nível de aprovação antes da criação das faturas para os clientes. O primeiro nível de aprovação é concluído quando as entradas de tempo, despesa e material que os membros da equipe do projeto enviam são aprovadas. As faturas pró-forma confirmadas estão disponíveis no módulo Contabilidade do Projeto do Project Operations. Os contadores do projeto podem realizar atualizações adicionais, como imposto sobre vendas, contabilidade e layout da fatura.
 
-O Dynamics 365 Project Operations não foi desenvolvido para gerar faturas voltadas para o cliente pelos seguintes motivos:
-
-- Ele não contém informações de imposto.
-- Ele não pode converter outras moedas na moeda de faturamento usando taxas de câmbio configuradas corretamente.
-- Ele não pode formatar faturas corretamente para que possam ser impressas.
-
-Você pode usar um sistema financeiro ou contábil para criar faturas voltadas para o cliente que usa as informações das propostas de fatura geradas.
 
 ## <a name="creating-project-invoices"></a>Criar faturas de projeto
 
@@ -50,7 +33,7 @@ Siga esta etapa a fim de criar uma fatura para um contrato de projeto específic
 
 - Na página de lista **Contratos de Projeto**, abra um contrato de projeto e selecione **Criar Fatura**.
 
-    Uma fatura é gerada para todas as transações do contrato de projeto selecionado que tem um status de **Pronto para Faturar**. Essas transações incluem tempo, despesas, etapas e linhas de contrato baseadas em produto.
+    Uma fatura é gerada para todas as transações do contrato de projeto selecionado que tem um status de **Pronto para Faturar**. Essas transações incluem tempo, despesas, materiais, marcos e outras linhas de diário de vendas não faturadas.
 
 Siga estas etapas para criar faturas em massa.
 
@@ -60,7 +43,7 @@ Siga estas etapas para criar faturas em massa.
 
 2. Selecione **OK** para fechar a caixa da mensagem.
 
-    Uma fatura é gerada para todas as transações em uma linha de contrato com um status de **Pronto para Faturar**. Essas transações incluem tempo, despesas, etapas e linhas de contrato baseadas em produto.
+    Uma fatura é gerada para todas as transações em uma linha de contrato com um status de **Pronto para Faturar**. Essas transações incluem tempo, despesas, materiais, marcos e outras linhas de diário de vendas não faturadas.
 
 3. Para exibir as faturas que são geradas, vá para **Vendas** \> **Cobrança** \> **Faturas**. Você verá uma fatura para cada contrato de projeto.
 
@@ -93,11 +76,10 @@ O trabalho do processo em lote para criação de faturas é um trabalho recorren
  
 ### <a name="edit-a-draft-invoice"></a>Editar uma fatura de rascunho
 
-Quando você cria um rascunho da fatura do projeto, todas as transações de vendas não cobradas que foram criadas quando as entradas de tempo e despesa foram aprovadas são reunidas na fatura. É possível fazer os seguintes ajustes enquanto a fatura estiver em um estágio de rascunho:
+Quando você cria um rascunho de fatura de projeto, todas as transações de vendas não faturadas que foram criadas quando as entradas de tempo, despesas e uso de material foram aprovadas são reunidas na fatura. É possível fazer os seguintes ajustes enquanto a fatura estiver em um estágio de rascunho:
 
 - Excluir ou editar detalhes da linha da fatura.
 - Editar e ajustar a quantidade e o tipo de cobrança.
-- Adicionar diretamente tempo, despesa e tarifas como transações na fatura. Você pode usar esse recurso se a linha da fatura for mapeada para uma linha de contrato que permite essas classes de transação.
 
 Selecione **Confirmar** para confirmar uma fatura. A ação Confirmar é uma ação unidirecional. Quando você seleciona **Confirmar**, o sistema torna a fatura somente leitura e cria dados reais de vendas cobradas de cada detalhe de linha de fatura para cada linha de fatura. Se os detalhes da linha da fatura fizerem referência a dados reais de vendas não cobradas, o sistema também reverterá os dados reais de vendas não cobradas. (Todos os detalhes da linha da fatura que foram criados de uma entrada de tempo ou despesa farão referência a dados reais de vendas não cobradas.) Os sistemas de integração de contabilidade podem usar essa reversão para reverter o WIP (trabalho em andamento) do projeto para fins de contabilidade.
 
@@ -111,3 +93,6 @@ Quando você confirma uma fatura corretiva, os dados reais de vendas cobradas or
 
 - Dados reais de vendas cobradas por seis horas.
 - Dados reais de vendas não cobradas pelas duas horas restantes. Essa transação pode ser cobrada posteriormente ou marcada como não passível de cobrança, dependendo das negociações com o cliente.
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

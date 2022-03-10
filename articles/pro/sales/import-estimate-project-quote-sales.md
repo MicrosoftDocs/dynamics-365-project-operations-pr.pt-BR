@@ -2,22 +2,20 @@
 title: Importar estimativas de um projeto para uma linha de cotação baseada em projeto - lite
 description: Este tópico fornece informações sobre como importar estimativas de um projeto para uma linha de cotação.
 author: rumant
-manager: Annbe
 ms.date: 10/09/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 607ccaeb61b12458f8b0e9d7230c000e7ff0501a
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: a5ac7827f3499aafb63f6bc0b8580ca52e883f272464532bd353170a12b3ae55
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4177722"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986117"
 ---
-# <a name="import-estimates-for-a-project-to-a-project-based-quote-line---lite"></a>Importar estimativas de um projeto para uma linha de cotação baseada em projeto - lite
+# <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>Importar estimativas de um projeto para uma linha de cotação baseada em projeto 
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** Implantação lite - gerenciar faturamento pro forma, Project Operations para cenários com base em recursos/sem estoque_
 
 Se um projeto for criado durante o estágio de pré-vendas, você pode optar por importar a estimativa financeira do projeto para a linha de cotação baseada no projeto.
 
@@ -30,7 +28,7 @@ Se um projeto for criado durante o estágio de pré-vendas, você pode optar por
   - **Função** 
   - **Tarefa do projeto**
 
-Com base em sua seleção, a estimativa do projeto para todas as classes de transação incluídas nesta linha de cotação é copiada. Para verificar quais classes de transação estão incluídas, selecione a guia **Geral** na linha de cotação baseada no projeto e verifique os valores de **Incluir Hora**, **Incluir Despesas** e **Incluir Taxas**.  Para verificar quais tarefas estão incluídas, selecione a guia **Tarefas Passíveis de Cobrança** na linha de cotação.
+Com base em sua seleção, a estimativa do projeto para todas as classes de transação incluídas nesta linha de cotação é copiada. Para verificar quais classes de transação estão incluídas, selecione a guia **Geral** na linha de cotação baseada em projeto e verifique os valores de **Incluir Hora**, **Incluir Despesas**, **Incluir Materiais** e **Incluir Taxas**.  Para verificar quais tarefas estão incluídas, selecione a guia **Tarefas Passíveis de Cobrança** na linha de cotação.
 
 Dependendo das tarefas associadas e classes de transação incluídas, as estimativas para essas combinações de tarefa e classe de transação são importadas para a linha de cotação.
 
@@ -68,3 +66,6 @@ Quando o usuário selecionar a opção de resumir por Classe de transação, Cat
 | Tarefa A | Tarifa aérea | 1/10/2020 | 4 | 400 | 1600 |
 | Tarefa B | Hotel | 1/10/2020 | 4 | 200 | 800 |
 | Tarefa C | Hotel | 1/11/2020 | 2 | 200 | 400 |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

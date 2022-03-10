@@ -2,17 +2,17 @@
 title: Novidades de outubro de 2021 – Project Operations para cenários baseados em recursos/não estocados
 description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de outubro de 2021 do Project Operations para cenários baseados em recursos/não estocados.
 author: sigitac
-ms.date: 10/05/2021
+ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5eb663f8b7450e4b7add6717aa717050ae94d571
-ms.sourcegitcommit: 6d9fc4dc851814664bf71729904ab4bedd85fe70
+ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
+ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/06/2021
-ms.locfileid: "7606720"
+ms.lasthandoff: 11/04/2021
+ms.locfileid: "7753278"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de outubro de 2021 – Project Operations para cenários baseados em recursos/não estocados
 

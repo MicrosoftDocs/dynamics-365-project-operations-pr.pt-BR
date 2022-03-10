@@ -2,28 +2,26 @@
 title: Página inicial de recursos do projeto
 description: Este tópico fornece informações sobre a alocação de recursos para projetos.
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 82022
+ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071414"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007312"
 ---
 # <a name="project-resourcing-home-page"></a>Página inicial de recursos do projeto
 
@@ -40,7 +38,7 @@ Um desafio para gerentes de projeto e de recursos durante o estágio de planejam
 - Estimar o número de recursos necessários para todo o ciclo de vida de um projeto.
 - Elaborar uma estrutura de detalhamento de trabalho (WBS) usando as atribuições iniciais de recursos.
 
-[![Ciclo de vida do projeto](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
+[![Ciclo de vida do projeto.](./media/projectresourcing02-1024x812.jpg)](./media/projectresourcing02.jpg)
 
 À medida que continua o planejamento do projeto, os recursos planejados podem ser substituídos por pessoas da equipe. O gerente de projeto também pode voltar e atualizar as reservas de recursos durante qualquer estágio do projeto.
 
@@ -50,8 +48,11 @@ Os tópicos a seguir fornecem informações sobre as tarefas que precisam ser co
 - [Gerenciar as competências dos recursos](manage-resource-competencies.md)
 - [Criar um novo projeto](create-new-project.md)
 - [Configurar o preço baseado em função](set-up-role-based-pricing.md)
-- [Criar uma equipe de projeto](create-project-team.md)
+- [Criar uma equipe do projeto](create-project-team.md)
 - [Sincronizar capacidade do recurso](synchronize-resource-capacity.md)
 - [Desempenho de agendamento de recursos do projeto](project-scheduling-performance.md)
 - [Configurar funções em modelos de estrutura de detalhamento de trabalho](set-up-roles-wbs-template.md)
 - [Preenchimento de recursos para recursos planejados](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

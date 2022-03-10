@@ -2,28 +2,26 @@
 title: Visão geral do gerenciamento de despesas
 description: Este tópico fornece informações gerais sobre o gerenciamento de despesas e links para recursos adicionais. Você pode usar o gerenciamento de despesas para criar um fluxo de trabalho integrado onde pode armazenar informações de métodos de pagamento, importar transações de cartão de crédito e controlar o dinheiro que os funcionários gastam quando estão sujeitos a despesas para o seu negócio.
 author: ShylaThompson
-manager: AnnBe
 ms.date: 07/25/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: roschlom
 ms.search.scope: Core, Operations
-ms.custom: 15001
+ms.custom: intro-internal
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 2db1c2cd34a2b99ac8e0cc88c34bac804bbafdb6
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: b069b5101c0b093bea5ddb7c02d4e0f5fedd09b7ae051dca96f620b164c17fd3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949755"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001417"
 ---
 # <a name="expense-management-overview"></a>Visão geral do gerenciamento de despesas
 

@@ -2,18 +2,16 @@
 title: Copiar contratos de projeto - lite
 description: Este tópico fornece informações sobre como copiar contratos de projetos no Project Operations.
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4137fc400c7fdd8fecd9d8349bf7f57f3470b51f
-ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.openlocfilehash: d5c45c6f1631d9e20bd0416410c7fe24a11623da425c8e2a633b085fbfabdd79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/31/2020
-ms.locfileid: "4181393"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006007"
 ---
 # <a name="copy-project-contracts---lite"></a>Copiar contratos de projeto - lite
 
@@ -45,3 +43,6 @@ As seguintes informações não são copiadas da **Origem** para o **Contrato de
   - Informações de orçamento do cliente
 
 Como essas informações são específicas para cada contrato, esses campos e registros não são copiados. Linhas de contrato para projetos e produtos, estimativas em detalhes da linha de contrato e valores que não devem ser excedidos no nível de contrato são copiados. Os padrões de preço e taxa de custo dependem da seleção no campo **Preços de cópia** na página de diálogo **Parâmetros de Cópia**.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

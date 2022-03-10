@@ -1,23 +1,21 @@
 ---
-title: Gerenciando unidades complexas, como por usuário, por mês para linhas de cotação baseadas em produto
+title: Gerenciar unidades complexas, como por usuário, por mês para linhas de cotação baseadas em produto - lite
 description: Este tópico fornece informações sobre como gerenciar unidades complexas para linhas de cotação baseadas em projeto.
 author: rumant
-manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 741230e69302138cce8f7379f520f7178e1c80af
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: d53dde1d3b2705c5b0283f989d0e2eebfdcb5a0eb5f91cf4bf48e9c07aba79d1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989762"
 ---
-# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines"></a>Gerenciando unidades complexas, como por usuário, por mês para linhas de cotação baseadas em produto
+# <a name="managing-complex-units-such-as-per-user-per-month-for-product-based-quote-lines---lite"></a>Gerenciar unidades complexas, como por usuário, por mês para linhas de cotação baseadas em produto - lite
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pró-forma_
+_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
 O Dynamics 365 Project Operations usa fatores de quantidade para dar suporte a produtos baseados em assinatura. Para produtos baseados em assinatura, a quantidade na linha de contrato do projeto ou da cotação é expressada como o número de meses do usuário.
 
@@ -45,3 +43,6 @@ Para criar fatores de quantidade a partir das propriedades do produto, siga esta
 6. Salve e feche o formulário. Repita essas etapas para todas as propriedades a serem usadas para calcular a quantidade da linha de cotação baseada no produto.
 
 Quando você criar uma linha de cotação baseada em produto para um produto, a quantidade da linha de cotação será bloqueada. A quantidade será calculada como um produto dos valores de propriedade que você inseriu para essa linha de cotação.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

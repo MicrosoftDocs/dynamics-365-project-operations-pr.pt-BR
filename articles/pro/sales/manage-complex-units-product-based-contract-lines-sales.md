@@ -2,18 +2,16 @@
 title: Gerenciar unidades complexas para linhas de contrato baseadas em produtos - lite
 description: Este tópico fornece informações sobre o suporte à venda de produtos baseados em assinatura.
 author: rumant
-manager: Annbe
 ms.date: 10/28/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 029d2aa4fd20fc036a34ae6136fe12454f3b7703
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 6bd4e11bf96d9f7d77c77fe081fde02b421c3139915150480a8d1a4d812887f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273319"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003352"
 ---
 # <a name="manage-complex-units-for-product-based-contract-lines---lite"></a>Gerenciar unidades complexas para linhas de contrato baseadas em produtos - lite
 

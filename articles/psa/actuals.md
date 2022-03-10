@@ -2,10 +2,9 @@
 title: Visão geral dos dados reais
 description: Este tópico fornece informações sobre dados reais do projeto.
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
+- intro-internal
 ms.date: 08/03/2020
 ms.topic: article
 ms.author: rumant
@@ -18,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c4a3424bed704243dfb5524fa541c3fcc0899e57
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 15c8d26fcf4eb9fda8a4fe4ce085ea3becdc2c76f11525357b75f59e18fd6017
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285604"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992462"
 ---
 # <a name="actuals-overview"></a>Visão geral dos dados reais
 
@@ -33,7 +32,7 @@ ms.locfileid: "5285604"
 
 Os dados reais são o volume de trabalho que foi concluído em um projeto. Os dados reais do projeto podem ser rastreados para seus documentos de origem. Esses documentos de origem incluem hora, despesa e entradas de diário, além de faturas.
 
-![Como os dados reais do projeto são rastreados para documentos de origem](media/basic-guide-18.png)
+![Como os dados reais do projeto são rastreados para documentos de origem.](media/basic-guide-18.png)
 
 ## <a name="submitting-a-time-entry"></a>Enviando uma entrada de hora
 

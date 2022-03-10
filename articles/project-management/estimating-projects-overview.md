@@ -6,12 +6,13 @@ ms.date: 03/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 488b61ee1e81aac47fa92fff141f17b023e4f1c0
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.custom: intro-internal
+ms.openlocfilehash: 74b2499cc706e03658cadeb088df154100051cbc7cce386b2e4d50dbdb5c197f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6002582"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989177"
 ---
 # <a name="financial-estimation-concepts"></a>Conceitos de estimativa financeira
 

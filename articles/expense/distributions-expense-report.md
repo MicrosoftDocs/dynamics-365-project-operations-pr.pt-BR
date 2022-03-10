@@ -2,18 +2,16 @@
 title: Distribuições em um relatório de despesa
 description: Ao inserir despesas em um relatório de despesas, você pode distribuí-las em vários projetos, entidades legais ou contas em sua organização.
 author: suvaidya
-manager: AnnBe
 ms.date: 10/10/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: a1fa7383e7715fe57380de0a006ccc4e020bb5a5
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 396fd201949663d93d90f6609e5b97f646f7942cde002c91482fa7dc26c394ae
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071309"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006232"
 ---
 # <a name="distributions-on-an-expense-report"></a>Distribuições em um relatório de despesa
 
@@ -30,3 +28,6 @@ Como a Nancy trabalhou em dois projetos separados enquanto estava em Frankfurt, 
 | Passagem de trem   | DKK 578              | DKK 405                         | DKK 173                         |
 | Hotel        | EUR 725              | EUR 557                         | EUR 168                         |
 | Refeições        | EUR 346              | EUR 284                         | EUR 62                          |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

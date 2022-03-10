@@ -2,12 +2,10 @@
 title: Adicionar novos formulários de entidade personalizada (Project Service Automation 2.x)
 description: Este tópico fornece informações sobre como adicionar formulários da entidade personalizada para oportunidades, cotações, ordens ou faturas no Dynamics 365 Project Service Automation 2.x.
 author: makk
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/14/2019
 ms.topic: article
-ms.service: business-applications
 ms.author: makk
 audience: admin
 search.audienceType:
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 57d4b9aad433af6d3e73369c76f2793f349c6965
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e59e343887ef59ee28bee13346a0c9bf3ad7df27346e2a4f3f02a1e5c08c060f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4071622"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995207"
 ---
 # <a name="add-new-custom-entity-forms-project-service-automation-2x"></a>Adicionar novos formulários de entidade personalizada (Project Service Automation 2.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 ## <a name="type-field"></a>Campo Tipo 
 
@@ -57,7 +57,7 @@ Siga estas etapas para criar uma versão personalizada do formulário **Informa�
     - Exporte o formulário **Informações do Meu Projeto** como parte de uma solução não gerenciada e pesquise o valor **formId** no arquivo customization.xml da solução exportada.
     - Abra o formulário **Informações do Meu Projeto** no editor de formulários e procure o GUID (identificador global exclusivo) ao lado do parâmetro **fromId** na URL, conforme mostrado na ilustração a seguir.
 
-    ![O valor formId do novo formulário na URL](media/how-to-add-custom-forms-in-v2.0.png)
+    ![O valor formId do novo formulário na URL.](media/how-to-add-custom-forms-in-v2.0.png)
 
 5. Crie um mapeamento **msdyn\_ordertype** para o valor **formId** editando o recurso da Web msdyn\_/SalesDocument/PSSalesDocumentCustomFormIds.js. Remova o código do recurso e substitua-o pelo código a seguir.
 
@@ -94,3 +94,6 @@ Siga estas etapas para criar uma versão personalizada do formulário **Informa�
     ```
 
 6. Salve e publique as personalizações.
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
