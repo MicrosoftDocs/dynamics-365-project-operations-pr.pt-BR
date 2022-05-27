@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre cotações do projeto.
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0ccf669fb47585e13e24921f2aeee383b33dd9c5f882e82220a906f9b73bfcc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001507"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579568"
 ---
 # <a name="manage-project-quotes"></a>Gerenciar cotações de projeto
 
@@ -31,6 +31,9 @@ Uma lista de todas as cotações do projeto pode ser vista na página de listage
 2. Use **Exibir Seletor** para selecionar outras exibições filtradas das cotações. Usando critérios de filtro personalizados, você pode configurar suas próprias exibições e opções de navegação.
 
 As cotações podem ser criadas ou excluídas desta página de listagem ou de páginas de detalhes.
+
+ > [!NOTE]
+ > As cotações que têm projetos, tarefas, estimativas, diários e/ou dados reais associados a elas não podem ser excluídas. Além disso, quando uma cotação é fechada como Ganha ou Perdida, não pode mais ser excluída ou modificada. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

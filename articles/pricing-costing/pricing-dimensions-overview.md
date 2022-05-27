@@ -3,17 +3,16 @@ title: Visão geral das dimensões de precificação
 description: Esse tópico fornece informações sobre as dimensões de precificação no Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001957"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579201"
 ---
 # <a name="pricing-dimensions-overview"></a>Visão geral das dimensões de precificação
 
@@ -60,16 +59,16 @@ O exemplo a seguir mostra taxas de cobrança que são configuradas com base na f
 
 | Função        | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolvedor   | Contoso US  |Hora | 200|USD     |
-| Desenvolvedor   | Contoso Índia |Hora|   112|USD     |
+| Desenvolvedor   | Cabral EUA  |Hour | 200|USD     |
+| Desenvolvedor   | Cabral India |Hour|   112|USD     |
 
 
 **Taxas de custo de exemplo**
 
 | Faixa Salarial     | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hora | 145|USD     |
-| My company_Band2 | Contoso Índia |Hora|   67|USD     |
+| My company_Band1 | Cabral EUA  |Hour | 145|USD     |
+| My company_Band2 | Cabral India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

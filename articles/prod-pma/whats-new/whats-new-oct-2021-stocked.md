@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/17/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 449cab5880c29cf110c9c5a266cbb4b102b5fc83
-ms.sourcegitcommit: 2e4483d5b88213a9f33109f7adb989108521327d
+ms.openlocfilehash: 03491ccab855e48819fccf4c9d2b584fd87cb4ba
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/17/2021
-ms.locfileid: "7818462"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576026"
 ---
 # <a name="whats-new-or-changed-in-project-operations-october-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações no Project Operations, outubro de 2021 para cenários baseados em estoque/produção
 
@@ -80,6 +80,6 @@ Este tópico se aplica aos seguintes componentes e versões do Microsoft Dynamic
 
 ### <a name="regulatory-updates"></a>Atualizações regulatórias
 
-Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no Microsoft Dynamics Lifecycle Services (LCS) e usar a ferramenta de pesquisa de problemas para exibir as atualizações regulamentares planejadas. A pesquisa de problemas permite pesquisar por país ou região, tipo de recurso e versão.
+Para obter informações sobre atualizações regulatórias de aplicativos de finanças e operações, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no Microsoft Dynamics Lifecycle Services (LCS) e usar a ferramenta de pesquisa de problemas para exibir as atualizações regulamentares planejadas. A pesquisa de problemas permite pesquisar por país ou região, tipo de recurso e versão.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

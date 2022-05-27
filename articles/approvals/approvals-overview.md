@@ -3,16 +3,15 @@ title: Visão geral de aprovações
 description: Este tópico fornece informações sobre como trabalhar com aprovações em Project Operations.
 author: stsporen
 ms.date: 03/31/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.custom: intro-internal
-ms.openlocfilehash: d77c62455c346d6d427d71af4b01d62b5132a2377c2c1a0a64f56fb313219c46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 735cd820011a4badb83dbf6540ffe9c49f960ca1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991697"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576164"
 ---
 # <a name="approvals-overview"></a>Visão geral de aprovações
 

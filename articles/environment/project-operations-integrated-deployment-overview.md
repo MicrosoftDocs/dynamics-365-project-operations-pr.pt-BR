@@ -3,16 +3,15 @@ title: Visão geral da implantação do Project Operations para cenários basead
 description: Este tópico fornece informações sobre o tipo de implantação do Project Operations para cenários baseados em recursos/sem estoque.
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009697"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575107"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Visão geral da implantação do Project Operations para cenários baseados em recursos/sem estoque
 
@@ -32,7 +31,7 @@ O tipo de implantação Dynamics 365 Project Operations para cenários baseados 
 - Reconhecimento de receita do projeto
 - Extensibilidade através do Power Platform
 
-Este tipo de implantação fornece uma extensão para a funcionalidade fornecida pelos aplicativos Dynamics 365 Finance e Dynamics 365 Supply Chain Management.
+Esse tipo de implantação fornece uma extensão para a funcionalidade oferecida pelos aplicativos do Dynamics 365 Finance e do Dynamics 365 Supply Chain Management.
 
 Esta implantação deve ser escolhida, a expectativa do Project Operations é usar todo o ciclo de vida do projeto, que inclui os seguintes requisitos:
 

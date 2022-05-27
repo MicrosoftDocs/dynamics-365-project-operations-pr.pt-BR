@@ -1,25 +1,25 @@
 ---
 title: Atualizar o Project Operations em seu ambiente do Finance
-description: Este tópico fornece informações sobre como atualizar o Project Operations no seu ambiente do Dynamics 365 Finance.
+description: Este tópico fornece informações sobre como atualizar o Project Operations em seu ambiente do Dynamics 365 Finance.
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986747"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579909"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Atualizar o Project Operations em seu ambiente do Finance
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
 
-Este tópico fornece informações sobre como atualizar o Dynamics 365 Project Operations no seu ambiente do Dynamics 365 Finance. Existem três procedimentos necessários para atualizar o Project Operations para a Atualização 5 (UR5):
+Este tópico fornece informações sobre como atualizar o Dynamics 365 Project Operations em seu ambiente do Dynamics 365 Finance. Existem três procedimentos necessários para atualizar o Project Operations para a Atualização 5 (UR5):
 
 - [Importar o pacote para o seu projeto de versão preliminar](#import)
 - [Aplicar a atualização](#apply)
@@ -119,7 +119,7 @@ As seguintes atualizações para os privilégios de segurança para entidades s�
 4. Na página **Versão do mapa de tabela**, aplique uma nova versão do mapa a cada uma das três entidades.
 5. Na página **Gravação dupla**, selecione executar para reiniciar os mapas.
 6. Na lista de mapas, selecione o mapa **Razão (msdyn_ledgers)** com todos os pré-requisitos e marque a caixa de seleção **Sincronização inicial**. 
-7. No campo **Mestre para sincronização inicial**, selecione **Aplicativos Finance and Operations** e então selecione **Executar**.
+7. No campo **Mestre para sincronização inicial**, selecione **Aplicativosde Finanças e Operações** e **Executar**.
  
  ![Sincronização do mapa do razão.](media/DW6.png)
  

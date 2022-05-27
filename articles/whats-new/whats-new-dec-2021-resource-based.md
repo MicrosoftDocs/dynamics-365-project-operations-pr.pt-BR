@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/09/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c4869f3ab06ec80d620ec51bb4f0429412cd4d00
-ms.sourcegitcommit: 9d20e7738cce195d344f5925a115741a1ce3ca36
+ms.openlocfilehash: 0fc3f524b7b240170822f0b246559e15985f4b0f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/21/2021
-ms.locfileid: "7943009"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579798"
 ---
 # <a name="whats-new-december-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em dezembro de 2021 – Project Operations para cenários baseados em recursos/não estocados
 
@@ -20,7 +20,7 @@ ms.locfileid: "7943009"
 
 Este tópico se aplica aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
-- Project Operations em uma versão 4.27.0.195, 4.27.0.242 do ambiente do Dataverse
+- Project Operations em um ambiente do Dataverse versão 4.27.0.195, 4.27.0.242, 4.27.0.244
 - Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.23
 
 ## <a name="features-included-in-this-release"></a>Os recursos incluídos nesta versão
@@ -48,7 +48,7 @@ Se você encontrar um problema ao iniciar o mapa, siga as instruções na seçã
 | Tempo e Despesa | 2468188 | Corrigido o problema com o texto de registro excedendo o comprimento máximo no atributo **notetext** da entidade **Anotação**. |
 | Cobrança e preço | 2488698 | Atualizada a mensagem de erro que aparece quando a configuração do ambiente está ausente nos registros da entidade Razão que são preenchidos no Finance. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Visão geral de gerenciamento e contabilidade de projeto no Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gerenciamento e contabilidade de projetos no Dynamics 365 Finance
 
 | **Área do recurso** | **Número de referência** | **Atualização de qualidade** |
 | --- | --- | --- |

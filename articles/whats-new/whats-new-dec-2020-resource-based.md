@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: dd4047c2f1ed89d668882e4a1e162f3df8e452cf1ed6b85e34e6290b33e53814
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6984857"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579844"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em dezembro de 2020 – Project Operations para cenários baseados em recursos/não estocados
 
@@ -21,7 +21,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Project Operations no ambiente do Dataverse versão 4.5.0.134
-- Gerenciamento e contabilidade de projeto no ambiente do Dynamics 365 Finance versão 10.0.15
+- Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.15
 
 Para obter mais informações sobre como atualizar esta versão, consulte [Atualizar Project Operations no ambiente do Finance](ur5-nonstocked-installation.md).
 
@@ -61,12 +61,12 @@ Os seguintes recursos estão incluídos nesta versão:
 | Planejamento e acompanhamento de projeto | 2057197          | Não há suporte à estimativa de cópia de linha com referência de tarefa                                                                                                     |
 | Planejamento e acompanhamento de projeto | 2060687          | O aviso de fuso horário agora desaparece após um período específico                                                                                                      |
 | Gerenciamento de recursos           | 1832887          | A ID da categoria de recurso padrão precisa ser estática para garantir carregamentos de dados repetíveis para ambientes do Dataverse e do Finance                                                 |
-| Tempo e despesa              | 2081793          | **Nome da categoria de despesas** deve ser mapeado para o campo **Descrição da categoria de despesas** em aplicativos do Finance and Operations                                                  |
+| Tempo e despesa              | 2081793          | O **Nome da categoria de despesa** deve ser mapeado para o campo **Descrição da categoria de despesa** em aplicativos de finanças e operações                                                  |
 | Tempo e despesa              | 2034882          | O botão **Novo** é exibido duas vezes na barra de comando para entradas de tempo quando o Dynamics 365 Field Service é instalado                                          |
 | Tempo e despesa              | 2056028          | Atualize a página **Edição de Hora** para incluir a linha de tempo                                                                                                              |
 | Tempo e despesa              | 1983747          | O gráfico de entrada de tempo mostra dados adicionais                                                                                                                   |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Visão geral de gerenciamento e contabilidade de projeto no Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gerenciamento e contabilidade de projetos no Dynamics 365 Finance
 
 | Área do recurso                        | Número de referência | Atualização de qualidade                                                                                                                                                                                                                                                   |
 |-------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -106,7 +106,7 @@ Os seguintes recursos estão incluídos nesta versão:
 | Viagens e despesas                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | O fluxo de trabalho de publicação automática do relatório de despesas foi concluído, mas a fatura não foi lançada                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>Atualizações regulatórias
-Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
+Para obter informações sobre atualizações regulatórias de aplicativos de finanças e operações, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

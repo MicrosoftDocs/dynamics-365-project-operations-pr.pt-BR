@@ -2,16 +2,16 @@
 title: Configurar taxas de custo e de vendas para materiais
 description: Este tópico fornece informações sobre como configurar as taxas de custo e de vendas para materiais usados em projetos.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 03/21/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c80317ac56c4e1ed465273ea6d0a7c65f1f5830c349a9b8d5b6f7f8d92424c7b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b1b679f15662d922804deefb6372adcdf4d4839
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999167"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8576854"
 ---
 # <a name="set-up-cost-and-sales-rates-for-materials"></a>Configurar taxas de custo e de vendas para materiais
 
@@ -25,6 +25,9 @@ Para configurar as taxas de custo e de vendas de produtos, conclua as etapas a s
 2. Em **Itens da lista de preços**, no menu de subgrade, selecione **Novo item da lista de preços**. 
 3. Na página **Criação Rápida**, insira o produto e a unidade para os quais você está criando o novo preço.
 
-Para obter mais informações sobre como definir preços para itens do catálogo, consulte [Configuração de preços para produtos](/dynamics365/sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) e [Precisão decimal em moeda e preços](/dynamics365/sales-enterprise/decimal-precision-currency-pricing.md).
+Para obter mais informações sobre como definir preços para itens de catálogo, consulte [Definir preços de produtos com listas de preços e itens da lista de preços](/dynamics365/sales/create-price-lists-price-list-items-define-pricing-products) e [Precisão decimal em moeda e preço](/dynamics365/sales/decimal-precision-currency-pricing).
+> [!NOTE]
+> O Dynamics 365 Project Operations não oferece suporte a todos os métodos de precificação de produtos do Dynamics 365 Sales. O único método de precificação com suporte para produtos a serem usados em projetos é *Valor da moeda*.
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
