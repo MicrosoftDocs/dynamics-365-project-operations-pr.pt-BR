@@ -3,7 +3,7 @@ title: Atualizar do Project Service Automation para o Project Operations
 description: Este tópico fornece uma visão geral do processo de atualização do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Project Operations.
 author: ruhercul
 ms.custom: dyn365-projectservice
-ms.date: 01/05/2022
+ms.date: 01/13/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -15,12 +15,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9363fd5a06b6b1ba023961b03228e13a53a82002
-ms.sourcegitcommit: 5789766efae1e0cb513ea533e4f9ac1e553158a5
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
+ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 01/10/2022
-ms.locfileid: "7952831"
+ms.lasthandoff: 04/21/2022
+ms.locfileid: "8626706"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Atualizar do Project Service Automation para o Project Operations
 
@@ -28,7 +29,7 @@ Estamos felizes em anunciar a primeira de três fases para atualização do Micr
 
 O programa de entrega da atualização será dividido em três fases.
 
-| Entrega da atualização | Fase 1 (janeiro de 2022) | Fase 2 (ciclo de abril de 2022) | Fase 3 (ciclo de abril de 2022) |
+| Entrega da atualização | Fase 1 (janeiro de 2022) | Fase 2 (ciclo de abril de 2022) | Fase 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nenhuma dependência da estrutura de detalhamento de trabalho (WBS) para projetos | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | A WBS dentro dos limites atualmente suportados do Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -38,11 +39,11 @@ O programa de entrega da atualização será dividido em três fases.
 
 Como parte do processo de atualização, adicionamos logs de atualização ao mapa do site, para que os administradores possam diagnosticar falhas com mais facilidade. Além da nova interface, novas regras de validação serão adicionadas para garantir a integridade dos dados após uma atualização. As validações a seguir serão adicionadas ao processo de atualização.
 
-| Validações | Fase 1 (janeiro de 2022) | Fase 2 (ciclo de abril de 2022) | Fase 3 (ciclo de abril de 2022) |
+| Validações | Fase 1 (janeiro de 2022) | Fase 2 (ciclo de abril de 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | A WBS será validada em relação a violações comuns de integridade de dados (por exemplo, atribuições de recursos associadas à mesma tarefa pai, mas com projetos pai diferentes). | | :heavy_check_mark: | :heavy_check_mark: |
 | A WBS será validada em relação aos [limites conhecidos do Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |
-| A WBS será validada em relação aos limites conhecidos do Project Desktop Client. | | :heavy_check_mark: | :heavy_check_mark: |
+| A WBS será validada em relação aos limites conhecidos do Project Desktop Client. | |  | :heavy_check_mark: |
 | Recursos reserváveis e calendários de projetos serão avaliados em relação a exceções comuns de regras de calendário incompatíveis. | | :heavy_check_mark: | :heavy_check_mark: |
 
 Na fase 2, os clientes que atualizarem para o Project Operations terão seus projetos existentes atualizados para uma experiência somente leitura para planejamento de projetos. Nessa experiência somente leitura, a WBS completa ficará visível na grade de rastreamento. Para editar a WBS, os gerentes de projeto podem selecionar **Converter** na página principal **Projetos**. Um processo em segundo plano atualizará o projeto para que ele dê suporte à nova experiência de agendamento de projeto do Project for the Web. Esta fase é apropriada para clientes que possuem projetos que se enquadram nos [limites conhecidos do Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries).
@@ -56,7 +57,7 @@ Para ser elegível para a atualização da fase 1, o cliente deve atender aos se
 - O ambiente de destino não deve conter nenhum registro na entidade **msdyn_projecttask**.
 - As licenças válidas do Project Operations devem ser atribuídas a todos os usuários ativos do cliente. 
 - O cliente deve validar o processo de atualização em pelo menos um ambiente de não produção que tenha um conjunto de dados representativo alinhado aos dados de produção.
-- O ambiente de destino deve ser atualizado na Versão de Atualização 38 do Project Service Automation ou posterior.
+- O ambiente de destino deve ser atualizado para a Versão de atualização 41 do Project Service Automation (3.10.62.162) ou posterior.
 
 Os pré-requisitos para a fase 2 e fase 3 serão atualizados à medida que as datas de disponibilidade geral se aproximarem.
 
@@ -72,14 +73,14 @@ Aqui estão algumas coisas a serem observadas:
 
 - A importação pode falhar devido a dependências ausentes. Em outras palavras, as personalizações fazem referência a campos ou outros componentes que foram removidos no Project Operations. Nesse caso, remova essas dependências do ambiente de desenvolvimento.
 - Se suas soluções gerenciadas e não gerenciadas incluem componentes que não são personalizados, remova esses componentes da solução. Por exemplo, ao personalizar a entidade **Projeto**, adicione apenas o cabeçalho da entidade à solução. Não adicione todos os campos. Se você adicionou todos os subcomponentes anteriormente, talvez seja necessário criar manualmente uma solução e adicionar componentes relevantes a ela.
-- Formulários e exibições podem não parecer inesperados. Em algumas circunstâncias, se você personalizou qualquer um dos formulários ou exibições prontos para uso, as personalizações podem impedir que novas atualizações no Project Operations entrem em vigor. Para identificar esses problemas, recomendamos que você faça uma revisão lado a lado de uma instalação limpa do Project Operations e uma instalação do Project Operations que inclua suas personalizações. Compare os formulários mais usados em sua empresa para confirmar se sua versão do formulário ainda faz sentido e não está faltando algo na versão limpa do formulário. Faça o mesmo tipo de revisão lado a lado para todas as exibições que você personalizou.
+- Formulários e visualizações podem não aparecer como esperado. Em algumas circunstâncias, se você personalizou qualquer um dos formulários ou exibições prontos para uso, as personalizações podem impedir que novas atualizações no Project Operations entrem em vigor. Para identificar esses problemas, recomendamos que você faça uma revisão lado a lado de uma instalação limpa do Project Operations e uma instalação do Project Operations que inclua suas personalizações. Compare os formulários mais usados em sua empresa para confirmar se sua versão do formulário ainda faz sentido e não está faltando algo na versão limpa do formulário. Faça o mesmo tipo de revisão lado a lado para todas as exibições que você personalizou.
 - A lógica de negócios pode falhar no tempo de execução. Como as referências a campos em seus plug-ins não são validadas no momento da importação, a lógica de negócios pode falhar em razão de referências a campos que não existem mais e você pode receber uma mensagem de erro semelhante ao exemplo a seguir: "A entidade 'Project' não contém atributo com Nome = 'msdyn_plannedhours' e NameMapping = 'Logical'." Nesse caso, modifique suas personalizações para que usem os novos campos. Se você usar classes de proxy geradas automaticamente e referências de tipo forte em sua lógica de plug-in, considere regenerar esses proxies a partir de uma instalação limpa. Dessa forma, você pode identificar facilmente todos os locais onde seus plug-ins dependem de campos obsoletos.
 
 Depois de atualizar suas personalizações para importar o Project Operations de forma limpa, vá para as próximas etapas.
 
-## <a name="end-to-end-testing-in-lower-environments"></a>Testes de ponta a ponta em ambientes inferiores
+## <a name="end-to-end-testing-in-development-environments"></a>Testes de ponta a ponta em ambientes de desenvolvimento
 
-### <a name="run-the-upgrade-in-production"></a>Executar a atualização em produção
+### <a name="initiate-upgrade"></a>Iniciar a atualização 
 
 1. No centro de administração da Power Platform, localize e selecione seu ambiente. Em seguida, nos aplicativos, localize e selecione **Dynamics 365 Project Operations**.
 2. Selecione **Instalar** para iniciar a atualização. O centro de administração da Power Platform apresentará essa instalação como uma nova instalação. Contudo, a presença de uma versão anterior do Project Service Automation será detectada e a instalação existente será atualizada.
@@ -93,6 +94,10 @@ Depois de atualizar suas personalizações para importar o Project Operations de
 4. Acesse **Configurações** \> **Soluções** e selecione desinstalar a solução **Componentes Preteridos do Project Operations**.
 
     Esta solução é uma solução temporária que mantém o modelo de dados existente e os componentes presentes durante a atualização. Ao remover esta solução, você remove todos os campos e componentes que não são mais usados. Dessa forma, você ajuda a simplificar a interface e facilita a integração e a extensão.
+    
+### <a name="validate-common-scenarios"></a>Validar cenários comuns
+
+Ao validar suas personalizações específicas, recomendamos que você também revise os processos empresariais com suporte nos aplicativos. Esses processos empresariais incluem, mas não se limitam à criação de entidades de vendas, como cotações e contratos, e à criação de projetos que incluem WBSs e aprovação de dados reais.
 
 ## <a name="major-changes-between-project-service-automation-and-project-operations"></a>Principais mudanças entre o Project Service Automation e o Project Operations
 
@@ -119,7 +124,7 @@ Como parte dos investimentos contínuos no Project Operations, vários novos rec
 | Source                                                 | Target                                                    | Status                  |
 |--------------------------------------------------------|-----------------------------------------------------------|-------------------------|
 | Project Service Automation                             | Implantação do Project Operations Lite                        | Compatível               |
-| Gerenciamento e contabilidade do projeto do Dynamics 365 Finance | Implantação do Project Operations Lite                        | Não compatível atualmente |
+| Gerenciamento e Contabilidade do Projeto do Dynamics 365 Finance | Implantação do Project Operations Lite                        | Não compatível atualmente |
 | Gerenciamento e contabilidade do projeto do Finance              | Project Operations para cenários baseados em recursos/itens sem estoque     | Não compatível atualmente |
 | Gerenciamento e contabilidade do projeto do Finance              | Project Operations para cenários de pedido baseado em estoque/produção | Não compatível atualmente |
 | Project Service Automation 3.x                         | Project Operations para cenários baseados em recursos/itens sem estoque     | Não compatível atualmente |

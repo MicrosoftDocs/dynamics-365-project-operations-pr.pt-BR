@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989537"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683892"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espaço de trabalho móvel de entrada de hora de projeto
 
@@ -45,7 +44,7 @@ Especificamente, no espaço de trabalho móvel **Entrada de tempo do projeto**, 
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos diferem, com base na versão do Microsoft Dynamics 365 que foi implantado para sua organização.
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Pré-requisitos se você usar Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>Pré-requisitos se você usa o Dynamics 365 Finance
 Se o Finance foi implantado para sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Entrada de tempo do projeto**. Para obter instruções, veja [Publicar um espaço de trabalho móvel](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar a versão 1611 com atualização de plataforma 3 ou posterior

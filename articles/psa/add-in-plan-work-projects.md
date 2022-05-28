@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: c9628fcaf40f33d75f70ae15e37f422e65337d2c51d0d803178f8bcdfe10c7bd
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993857"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727990"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>Planejar seu trabalho no Microsoft Project com o suplemento do Project Service
 
@@ -40,7 +41,7 @@ Você pode instalar o [!INCLUDE[pn_ms_dyn_365_psa_for_ms_project](../includes/pn
 ## <a name="download-and-install-the-add-in"></a>Baixar e instalar o suplemento  
  Prepare suas informações de suplemento do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Você precisará dessas informações para se conectar do [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ao [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  No Centro de Download, você pode baixar o suplemento para a versão compatível do Project Service, [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) ou [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  No Centro de Download, você pode baixar o suplemento para a versão compatível do Project Service, [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) ou [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Selecione o link para download.  
 

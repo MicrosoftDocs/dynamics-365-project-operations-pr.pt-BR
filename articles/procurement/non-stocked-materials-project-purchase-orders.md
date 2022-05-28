@@ -5,28 +5,29 @@ author: sigitac
 ms.date: 09/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6e0307ad6474feef96fc8080877eccbbbc7259db
-ms.sourcegitcommit: 2d96345fb3afc3b174530285f95271b5ccbdea03
+ms.openlocfilehash: 2aa8fb94e2f9cbf91182f3f169339284d3eb9f44
+ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/29/2021
-ms.locfileid: "7563008"
+ms.lasthandoff: 04/18/2022
+ms.locfileid: "8612689"
 ---
-# <a name="order-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Peça materiais não estocados para um projeto usando ordens de compra do projeto
+# <a name="order-procurement-categories-or-non-stocked-materials-for-a-project-using-project-purchase-orders"></a>Solicitar categorias de compras ou materiais sem estoque para um projeto usando ordens de compra do projeto
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-O departamento de compras da sua organização pode usar [ordens de compra](/dynamics365/supply-chain/procurement/purchase-order-overview) para rastrear ordens de produtos e serviços. As ordens de compra de materiais não estocados podem ser atribuídas a um projeto. O faturamento dessas ordens de compra registra o custo no projeto.
+O departamento de compras da sua organização pode usar [ordens de compra](/dynamics365/supply-chain/procurement/purchase-order-overview) para rastrear ordens de produtos e serviços. Ordens de compra para categorias de compras ou materiais sem estoque podem ser atribuídas a um projeto. O faturamento dessas ordens de compra registra o custo no projeto.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 Conclua as etapas a seguir para habilitar a funcionalidade de ordens de compra do projeto.
 
-1. No Dynamics 365 Finance, acesse o espaço de trabalho **Gerenciamento de Recursos**.
+1. No Dynamics 365 Finance, vá para o espaço de trabalho **Gerenciamento de recursos**.
 2. Na lista de recursos, encontre e selecione o recurso **Habilitar ordens de compra no Project Operations para cenários baseados em recursos/não estocados**.
 3. Selecione **Habilitar**.
 4. Configure materiais não estocados e faturas de fornecedores pendentes, conforme descrito em [Configurar materiais não estocados e faturas de fornecedores pendentes](configure-materials-nonstocked.md).
+5. Configure categorias de compras conforme descrito em [Usar categorias de compras com ordens de compra do projeto e faturas de fornecedor pendentes](configure-procurement-categories.md).
 
 ## <a name="create-a-project-purchase-order-from-the-project-purchase-order-list"></a>Crie uma ordem de compra do projeto a partir da lista de ordens de compra do projeto
 
@@ -34,12 +35,12 @@ Conclua as etapas a seguir para habilitar a funcionalidade de ordens de compra d
 2. No Painel de Ações, na guia **Gerenciar**, no grupo **Novo**, selecione **Tarefa de item** > **Ordem de compra**.
 3. Na página **Criar ordem de compra**, selecione o fornecedor ao qual deseja fazer a ordem de compra, insira outras informações conforme apropriado e selecione **OK**.
 4. Na página **Ordem de compra**, na grade **Linhas da ordem de compra**, selecione **Adicionar linha**.
-5. Insira um número de item, quantidade, unidade, preço unitário e outras informações conforme apropriado.
+5. Insira um número de item ou quantidade de compra, quantidade, unidade, preço unitário e outras informações conforme apropriado.
 
     > [!NOTE]
-    > Somente itens e serviços não estocados podem ser usados com ordens de compra do projeto. Não há suporte a itens estocados e categorias de compras.
+    > Somente categorias de compras, itens sem estoque e serviços podem ser usados com ordens de compra do projeto. Itens em estoque não são aceitos.
 
-6. Continue a adicionar itens conforme necessário e confirme a ordem de compra.
+6. Continue a adicionar itens ou categorias de compras conforme necessário e confirme a ordem de compra.
 
     É possível registrar os recebimentos de produtos e serviços criando e lançando um recebimento de produto.
 

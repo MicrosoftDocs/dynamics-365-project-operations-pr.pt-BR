@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1c88f3b4747005bee0d68d0e8a4314c01ffdaf34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7008032"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600866"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em julho de 2021 – Project Operations para cenários baseados em recursos/sem estoque
 
@@ -21,7 +21,7 @@ ms.locfileid: "7008032"
 Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
    - Project Operations na versão 4.12.0.148 ou 4.12.0.152 do ambiente do Microsoft Dataverse.
-   - Gerenciamento e contabilidade de projeto no ambiente do Dynamics 365 Finance versão 10.0.20.
+   - Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.20.
 
 ## <a name="features-included-in-this-release"></a>Os recursos incluídos nesta versão
 
@@ -80,7 +80,7 @@ Se você encontrar um problema ao iniciar o mapa, siga as instruções na seçã
 | Geral                       | 2253682              | A solução de gravação dupla do Project Operations não deve ser instalada quando a solução principal de gravação dupla é instalado em um ambiente sem a solução de orquestração de gravação dupla.                                                |
 | Geral                       | 2316420              | O provisionamento principal do Project service falhará se a unidade de negócios do usuário do aplicativo for alterada.                                                                                                                     |
 | Geral                       | 2376405              | Foi corrigido o problema da atualização controlada pelo editor (A atualização de qualidade está disponível na versão 4.12.0.152)                                                                                                                     |
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Visão geral de gerenciamento e contabilidade de projeto no Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gerenciamento e contabilidade de projetos no Dynamics 365 Finance
 
 | Área do recurso                      | Número de referência | Atualização de qualidade                                                                                                                                                                                                                                                                                                                |
 |-----------------------------------|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -3,25 +3,23 @@ title: Visão geral dos aplicativos móveis do projeto
 description: Este tópico fornece informações gerais sobre os aplicativos relacionados a horas de projeto para o Microsoft Dynamics 365 Project Timesheet, Entrada de hora de projeto e Minhas folhas de ponto/Folhas de ponto disponíveis em um dispositivo móvel.
 author: Yowelle
 ms.date: 05/28/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 742bfc7bbf90feea638d5b5759f5aa7541d14c87ed96c3ad6f074684696e0c73
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 35ac2fa52f488d38be4b647ae8a3babe2b117f79
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005647"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685389"
 ---
 # <a name="project-mobile-applications-overview"></a>Visão geral dos aplicativos móveis do projeto
 
@@ -31,15 +29,15 @@ Três aplicativos móveis relacionados a horas de projeto estão disponíveis pa
 
 ## <a name="project-timesheet-mobile-app"></a>Aplicativo móvel Project Timesheet
 
-O aplicativo móvel Dynamics 365 Project Timesheet permite que os usuários enviem e aprovem folhas de ponto para projetos em seus dispositivos móveis. Esse aplicativo móvel mostra a funcionalidade da folha de ponto na área de gerenciamento e contabilidade de projeto do Dynamics 365 Finance. Ele ajuda a melhorar a produtividade e a eficiência do usuário e também ajuda na entrada e aprovação oportuna das folhas de ponto do projeto.
+O aplicativo móvel Dynamics 365 Project Timesheet permite que os usuários enviem e aprovem folhas de ponto para projetos em seus dispositivos móveis. Esse aplicativo móvel revela a funcionalidade de folha de ponto na área Gerenciamento e contabilidade de projeto do Dynamics 365 Finance. Ele ajuda a melhorar a produtividade e a eficiência do usuário e também ajuda na entrada e aprovação oportuna das folhas de ponto do projeto.
 
 ## <a name="project-time-entry-workspace"></a>Espaço de trabalho Entrada de hora de projeto
 
-O espaço de trabalho Entrada de hora de projeto permite que os usuários insiram e salvem as horas relacionadas um projeto. No entanto, ele não permite que os usuários enviem ou aprovem folhas de ponto do projeto. Ele pode ser usado apenas para entrada de horas. Esse espaço de trabalho móvel deve ser usado junto com o aplicativo móvel Finance and Operations.
+O espaço de trabalho Entrada de hora de projeto permite que os usuários insiram e salvem as horas relacionadas um projeto. No entanto, ele não permite que os usuários enviem ou aprovem folhas de ponto do projeto. Ele pode ser usado apenas para entrada de horas. Este espaço de trabalho móvel deve ser usado junto com o aplicativo móvel Finance and Operations.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Minhas folhas de ponto/Folhas de ponto para minha análise
 
-Minhas folhas de ponto (otimizado para celular) e Folhas de ponto para minha análise (otimizado para celular) constituem uma solução que permite aos funcionários criar, enviar e aprovar folhas de ponto do projeto em um dispositivo móvel. Os funcionários podem acessar a funcionalidade do Finance por meio da URL do aplicativo. Essa solução não requer o aplicativo móvel Finance and Operations.
+Minhas folhas de ponto (otimizado para celular) e Folhas de ponto para minha análise (otimizado para celular) constituem uma solução que permite aos funcionários criar, enviar e aprovar folhas de ponto do projeto em um dispositivo móvel. Os funcionários podem acessar a funcionalidade do Finance por meio da URL do aplicativo. Esta solução não exige o aplicativo móvel Finance and Operations.
 
 ## <a name="for-more-information"></a>Para obter mais informações
 

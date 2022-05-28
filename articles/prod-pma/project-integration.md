@@ -8,26 +8,25 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 8ef34bc984510f23ab77cc1710c06abbcf80f721703685d696fea28eeaddd732
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d2994195ba916ac7a128e8bdd53bea6acb7bd0ba
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988007"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684950"
 ---
 # <a name="microsoft-project-client-integration"></a>Integração com o Microsoft Project Client
 
 [!include [banner](../includes/banner.md)]
 
-O planejamento e a manutenção da agenda de um projeto podem ser complexos; portanto, os gerentes de projeto precisam usar ferramentas que os ajudem a gerenciar essa tarefa. A integração com o Microsoft Project Client fornece suporte para abrir e gerenciar uma estrutura de detalhamento de trabalho do projeto. O gerente de projeto pode publicar quaisquer alterações de volta na estrutura de detalhamento de trabalho do projeto do Dynamics 365 Finance.
+O planejamento e a manutenção da agenda de um projeto podem ser complexos; portanto, os gerentes de projeto precisam usar ferramentas que os ajudem a gerenciar essa tarefa. A integração com o Microsoft Project Client fornece suporte para abrir e gerenciar uma estrutura de detalhamento de trabalho do projeto. O gerente do projeto pode publicar as alterações novamente na estrutura de detalhamento de trabalho do projeto do Dynamics 365 Finance.
 
 > [!NOTE]
 > Se estiver usando a atualização de julho (versão 10.0.4), você deverá instalar o KB 4054797 e 4055884.
@@ -40,7 +39,7 @@ Para habilitar a integração com o Microsoft Project Client, um suplemento do M
 •   Clique em **Abrir** e, em seguida, em **Executar** quando solicitado.
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>Abrir e editar um rascunho existente da estrutura de detalhamento de trabalho no Microsoft Project Client
-Se um projeto no Dynamics 365 Finance já tiver uma estrutura de detalhamento de trabalho criada, ela poderá ser aberta no aplicativo Microsoft Project Client, caso esteja no status de rascunho. Para abrir na página **Projeto**, clique no link **Abrir no Microsoft Project** na guia **Planejar**. Essa página também pode ser aberta no aplicativo Microsoft Project Client clicando em **Abrir** na guia **Microsoft Dynamics 365**. Selecione **Entidade legal** e **Projeto** na lista.
+Se um projeto no Dynamics 365 Finance já tiver uma estrutura de detalhamento de trabalho criada, ela poderá ser aberta no aplicativo Microsoft Project Client, se tiver status de rascunho. Para abrir na página **Projeto**, clique no link **Abrir no Microsoft Project** na guia **Planejar**. Essa página também pode ser aberta no aplicativo Microsoft Project Client clicando em **Abrir** na guia **Microsoft Dynamics 365**. Selecione **Entidade legal** e **Projeto** na lista.
 
 > [!NOTE]
 > Se você estiver usando o Internet Explorer como navegador, precisará clicar em **Salvar** para abrir manualmente a partir do local em que o arquivo foi baixado. Ou clique em **Salvar e abrir** para abrir o arquivo no Microsoft Project Client. Não mude o nome do arquivo ao salvá-lo.

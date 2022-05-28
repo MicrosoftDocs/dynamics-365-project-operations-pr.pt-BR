@@ -1,24 +1,23 @@
 ---
 title: Processamento de recibo de despesas
-description: Este tópico fornece informações sobre o processamento de reconhecimento óptico de caracteres (OCR) para recibos. Esse recurso foi projetado para melhorar a experiência do usuário ao criar relatórios de despesas no Microsoft Dynamics 365 Finance.
+description: Este tópico fornece informações sobre o processamento de reconhecimento óptico de caracteres (OCR) para recibos. Esse recurso foi desenvolvido para melhorar a experiência do usuário quando relatórios de despesas são criados no Microsoft Dynamics 365 Finance.
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001372"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684306"
 ---
 # <a name="expense-receipt-processing"></a>Processamento de recibo de despesas
 
@@ -51,7 +50,7 @@ Para criar uma despesa ou comparar uma despesa de um recibo, faça o seguinte:
 
 Este recurso funciona em combinação com o recurso **Relatórios de despesas reinventados** para ajudar a simplificar a experiência de despesas. Este recurso está disponível apenas para ambientes Nível 2+, que são Área restrita e Produção.
 
-Para usar esses recursos avançados de despesas, instale o suplemento Expense Management Service para o Microsoft Dynamics 365 Finance e ative os recursos em sua instância. Você pode acessar o suplemento do seu projeto no Microsoft Dynamics Lifecycle Services (LCS).
+Para usar esses recursos avançados de despesa, instale o suplemento Serviço de Gerenciamento de Despesas para o Microsoft Dynamics 365 Finance e ative os recursos na instância. Você pode acessar o suplemento do seu projeto no Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Entre no LCS e abra o ambiente desejado.
 2. Vá para **Detalhes completos**.

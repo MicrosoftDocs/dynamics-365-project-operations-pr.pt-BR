@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005287"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727944"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>Usar o Suplemento do Project Service Automation para planejar seu trabalho no Microsoft Project
 
@@ -40,7 +41,7 @@ Com o [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)
 ## <a name="download-and-install-the-add-in"></a>Baixar e instalar o suplemento  
  Prepare suas informações de suplemento do [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Você precisará dessas informações para se conectar do [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ao [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)].  
 
-1.  No Centro de Download, você pode baixar o suplemento para a versão compatível do Project Service, [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) ou [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
+1.  No Centro de Download, você pode baixar o suplemento para a versão compatível do Project Service, [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) ou [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956).  
 
 2.  Clique no link do download.  
 
@@ -87,9 +88,8 @@ Após a conclusão do seu planejamento de projeto, o próximo passo é importar 
 
 O projeto será importado para a [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. Os preços e o processo de geração de equipe serão aplicados. Abra o projeto no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] para verificar se a equipe, as estimativas de projeto e a estrutura de detalhamento de trabalho foram gerados. A seguinte tabela mostra onde encontrar os resultados:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Gráfico de Gantt**   | Importa na tela [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Estrutura de Detalhamento de Trabalho**. |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Planilha de Recursos** |   Importa na tela [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Membros da Equipe do Projeto**.   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **Uso**    |    Importa para a tela [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **Estimativas do Projeto**.     |

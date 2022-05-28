@@ -4,14 +4,14 @@ description: Esse tópico fornece informações sobre como criar soluções para
 author: Rumant
 ms.date: 11/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 82593d3d00b008c1922d70c508bc77624aeb46b3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992192"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601096"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>Criar uma solução para dimensões de precificação personalizadas
 
@@ -23,7 +23,7 @@ ms.locfileid: "6992192"
 ## <a name="create-a-solution-for-custom-pricing-dimensions"></a>Criar uma solução para dimensões de precificação personalizadas
 
 1.  Selecione **Configurações** > **Soluções** e selecione **Nova**.
-2.  Nomeie a solução *dimensões de precificação de <your organization name>*.
+2.  Nomeie a solução *dimensões de precificação de \<your organization name\>*.
 3. Insira as informações necessárias restantes e selecione **Salvar**.
 
   ![Criação de uma solução de dimensão de precificação personalizada.](./media/Creation-of-custom-pricing-dimension-solution.png)

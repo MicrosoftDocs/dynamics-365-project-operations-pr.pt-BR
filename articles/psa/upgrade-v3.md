@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b29ef5d6d2c1c97658d79bbbe82e5893adeafe4d20354e90058dde79b67cb716
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: c37c30b7c694cec8c07b68492d935128881e6317
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000067"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601740"
 ---
 # <a name="upgrade-considerations---psa-version-2x-or-1x-to-version-3"></a>Considerações de atualização - PSA versão 2.x ou 1.x para a versão 3
 
@@ -81,15 +82,15 @@ Antes de iniciar a atualização, é recomendável gerar novamente a equipe para
 
 Para as tarefas atribuídas a membros da equipe genéricos que foram gerados usando **Gerar equipe**, a atualização irá manter o recurso genérico na equipe e, também, a atribuição a esse membro da equipe genérico. Recomendamos que você gere o requisito de recurso para o membro da equipe genérico após a atualização, mas antes de reservar ou enviar uma solicitação de recurso. Isso preservará todas as atribuições de unidade organizacional dos membros da equipe genéricos que forem diferentes da unidade organizacional de contratação do projeto.
 
-Por exemplo, no Projeto Z, a unidade organizacional de contratação Contoso Estados Unidos. No plano do projeto, as tarefas de teste na fase de implementação receberam a função de Consultor Técnico e a unidade organizacional atribuída é Contoso Índia.
+Por exemplo, no projeto Projeto Z, a unidade organizacional de contratação é a unidade Cabral US. No plano de projeto, a função Consultor Técnico foi atribuída às tarefas de teste da fase de implementação, e a unidade organizacional atribuída é a unidade Cabral India.
 
 ![Atribuição de organização na fase de implementação.](media/org-unit-assignment-09.png)
 
-Após a fase de implementação, a tarefa de teste de integração é atribuída à função Consultor Técnico, mas a organização é definida como Contoso Estados Unidos.  
+Após a fase de implementação, a tarefa de teste de integração é atribuída à função Consultor Técnico, mas a organização é definida como Cabral US.  
 
 ![Atribuição de organização da tarefa de teste de integração.](media/org-unit-generate-team-10.png)
 
-Ao gerar uma equipe para o projeto, dois membros da equipe genéricos são criados devido às unidades organizacionais diferentes nas tarefas. O consultor técnico 1 receberá as tarefas da Contoso Índia e o consultor técnico 2 receberá as tarefas da Contoso Estados Unidos.  
+Ao gerar uma equipe para o projeto, dois membros da equipe genéricos são criados devido às unidades organizacionais diferentes nas tarefas. As tarefas da unidade Cabral India serão atribuídas ao Consultor técnico 1 e o Consultor técnico 2 receberá as tarefas da unidade Cabral US.  
 
 ![Membros genéricos da equipe gerados.](media/org-unit-assignments-multiple-resources-11.png)
 
@@ -104,7 +105,7 @@ Você pode ver a unidade organizacional no modo de exibição de estimativas.
  
 Quando a atualização é concluída, a unidade organizacional na tarefa de linha que corresponde ao membro da equipe genérico é adicionada a esse membro e a tarefa de linha é removida. Por isso, recomendamos que, antes de atualizar, você gere a equipe em cada projeto que contém recursos genéricos, ou gere-a novamente.
 
-Para as tarefas atribuídas a uma função com uma unidade organizacional diferente daquela do projeto de contratação e sem uma equipe gerada, a atualização criará um membro da equipe genérico para a função, mas usará a unidade de contratação do projeto para a unidade organizacional do membro da equipe. Voltando ao exemplo do Projeto Z, a unidade organizacional de contratação da Contoso Reino Unido e as tarefas de teste do plano do projeto na fase de implementação receberam a função Consultor técnico com a unidade organizacional atribuída à Contoso Índia. A tarefa de teste de integração concluída após a fase de implementação foi atribuída à função Consultor Técnico. A unidade organizacional é a Contoso Estados Unidos e uma equipe não foi gerada. A atualização criará um membro da equipe genérico, um Consultor técnico que possui as horas atribuídas das três tarefas e uma unidade organizacional da unidade da Contoso Estados Unidos, a unidade organizacional de contratação do projeto.   
+Para as tarefas atribuídas a uma função com uma unidade organizacional diferente daquela do projeto de contratação e sem uma equipe gerada, a atualização criará um membro da equipe genérico para a função, mas usará a unidade de contratação do projeto para a unidade organizacional do membro da equipe. Voltando ao exemplo do Projeto Z, a função Consultor Técnico foi atribuída à unidade organizacional de contratação Cabral US e às tarefas de teste de plano do projeto na fase de implementação com a unidade organizacional atribuída à Cabral India. A tarefa de teste de integração concluída após a fase de implementação foi atribuída à função Consultor Técnico. A unidade organizacional é a unidade Cabral US e uma equipe não foi gerada. A atualização criará um membro da equipe genérico, um Consultor técnico que possui as horas atribuídas das três tarefas e uma unidade organizacional da unidade Cabral US, a unidade organizacional de contratação do projeto.   
  
 Alteração no padrão de unidades organizacionais de recursos diferentes em membros de equipe não gerados é o motivo pelo qual recomendamos que você gere novamente a equipe em cada projeto que contém recursos genéricos antes da atualização, de modo que as atribuições da unidade organizacional não sejam perdidas.
 

@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007312"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684858"
 ---
 # <a name="project-resourcing-home-page"></a>Página inicial de recursos do projeto
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007312"
 
 Este tópico fornece informações sobre a alocação de recursos para projetos.
 
-Um desafio para gerentes de projeto e de recursos durante o estágio de planejamento do projeto é a alocação de recursos, em que eles devem determinar e reservar o recurso correto para trabalhar em um projeto. No Dynamics 365 Finance, a funcionalidade de alocação de recursos para projetos permite definir funções que são tratadas como recursos temporários que podem ser reservados para um compromisso específico ou parte de um compromisso. Esse tipo de alocação de recursos permite que os gerentes de projeto e de recursos concluam as seguintes tarefas:
+Um desafio para gerentes de projeto e de recursos durante o estágio de planejamento do projeto é a alocação de recursos, em que eles devem determinar e reservar o recurso correto para trabalhar em um projeto. No Dynamics 365 Finance, as funcionalidades de alocação de recursos para projetos permitem que você defina funções que são tratadas como recursos temporários que podem ser reservados para uma participação específica ou parte de uma participação. Esse tipo de alocação de recursos permite que os gerentes de projeto e de recursos concluam as seguintes tarefas:
 
 - Definir uma função que tenha as competências necessárias, para que seja fácil corresponder os recursos.
 - Usar funções para definir uma agenda de compromissos inicial baseada em recursos reservados.

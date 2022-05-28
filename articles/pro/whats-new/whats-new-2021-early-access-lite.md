@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a201e3e4333b8892eea72387222d64e18b74d71b
-ms.sourcegitcommit: 80aa1e8070f0cb4992ac408fc05bdffe47cee931
+ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/13/2021
-ms.locfileid: "7323897"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723662"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>O que há de novo no acesso antecipado do ciclo 2 de 2021 - Implantação lite do Project Operations
 
@@ -26,7 +26,7 @@ A versão só será aplicada quando um ambiente tiver [optado pelo Acesso Anteci
 
 ## <a name="features-included-in-this-release"></a>Os recursos incluídos nesta versão
 
-[Gerenciamento de subcontratos](../subcontracting/subcontracting_EA_scope.md) - esse recurso fornece melhor visibilidade e controle sobre todos os aspectos do trabalho em um projeto. A versão preliminar do gerenciamento de subcontratos inclui os seguintes recursos:
+[Gerenciamento de subcontratos](/dynamics365/project-operations/pro/subcontracting/managing-subcontracts-overview) - esse recurso fornece melhor visibilidade e controle sobre todos os aspectos do trabalho em um projeto. A versão preliminar do gerenciamento de subcontratos inclui os seguintes recursos:
 
   - Um gerente de projeto pode criar um subcontrato com um fornecedor. Por padrão, as listas de preços anexadas ao registro do fornecedor são usadas para o subcontrato. A conta do fornecedor tem um tipo de relacionamento de **Fornecedor** ou **Provedor**.
   - Um gerente de projeto pode discriminar todas as compras como itens de linha no subcontrato. As linhas do subcontrato podem ser por tempo, despesas ou produtos. A classe de transação da linha de subcontrato determina para que serve a linha.

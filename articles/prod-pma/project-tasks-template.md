@@ -1,32 +1,31 @@
 ---
 title: Sincronizar tarefas de projetos diretamente do Project Service Automation para o Finance and Operations
-description: Este tópico descreve o modelo e a tarefa subjacente usada para sincronizar tarefas de projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+description: Este tópico descreve o modelo e a tarefa subjacente usada para sincronizar tarefas de projetos diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992777"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683136"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar tarefas de projetos diretamente do Project Service Automation para o Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve o modelo e a tarefa subjacente usada para sincronizar tarefas de projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+Este tópico descreve o modelo e a tarefa subjacente usada para sincronizar tarefas de projetos diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 
 > [!NOTE]
 > - A integração de tarefas de projeto, as categorias de transação de despesas, as estimativas de horas, as estimativas de despesas e o bloqueio de funcionalidades estão disponíveis na versão 8.0.
@@ -68,11 +67,11 @@ Antes de que as tarefas de projeto possam ser realizadas, você deve sincronizar
 
 ## <a name="power-query"></a>Power Query
 
-Você deverá usar o Microsoft Power Query para Excel para filtrar dados se essa condição for atendida:
+Use o Microsoft Power Query para Excel para filtrar dados se esta condição for atendida:
 
 - Você tem registros específicos de recursos em uma tarefa de projeto.
 
-Se você precisar usar o Power Query, siga esta diretriz:
+Se precisar usar o Power Query, siga esta diretriz:
 
 - O modelo de tarefas do projeto (PSA para Fin e Ops) tem um filtro padrão que exclui registros específicos de recursos de uma tarefa do projeto, definindo o filtro em **IsLineTask** como **Falso**. Se você criar seu próprio modelo, deverá adicionar esse filtro.
 

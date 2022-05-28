@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre a criação de programaç�
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0d07596b299d71b229487faf80a09e368059575ea37095d2c82d35561d009c96
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b443a353c98fe5c7475d8a95c99abe01cd00987
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988592"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8601050"
 ---
 # <a name="invoice-schedules-on-project-based-quote-lines"></a>Agendamentos de fatura em linhas de cotação baseada em projeto
 
