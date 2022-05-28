@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre como criar faturas interco
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7d32d7a0b96daf9a2a48e16d62de8319636737740601481b85ee887948e31110
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9448cb29adb4206efaabe3f313a1f619cd32b9be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989224"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591482"
 ---
 # <a name="create-intercompany-customer-and-vendor-invoices"></a>Criar faturas intercompanhia de clientes e fornecedores
 
@@ -27,7 +27,7 @@ Use este procedimento para criar manualmente uma fatura de cliente intercompanhi
 
 As etapas a seguir devem ser executadas na entidade legal mutuante. 
 
-1. No Dynamics 365 Finance, vá para **Gerenciamento e contabilidade de projeto** > **Faturas do projeto** > **Faturas de cliente intercompanhia**. Na página de lista **Faturas de cliente intercompanhia**, no Painel de Ações, selecione **Novo**.
+1. No Dynamics 365 Finance, acesse **Gerenciamento e contabilidade de projeto** > **Faturas de projeto** > **Faturas de cliente intercompanhia**. Na página de lista **Faturas de cliente intercompanhia**, no Painel de Ações, selecione **Novo**.
 2. Na página **Criar fatura intercompanhia**, no campo **Entidade legal**, selecione uma entidade legal de empréstimo.
 3. Opcional: insira um contrato de projeto e número de projeto específicos.
 4. Limite a pesquisa selecionando um intervalo de datas. Insira datas específicas nos campos **Data de início** e **Data de término**. Somente as transações intercompanhia lançadas dentro desse intervalo de datas são exibidas nos resultados da pesquisa.

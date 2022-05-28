@@ -2,76 +2,80 @@
 title: Desenvolver modelos de projeto com Copiar Projeto
 description: Este tópico fornece informações sobre como criar modelos de projeto usando a ação personalizada Copiar Projeto.
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989225"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590884"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>Desenvolver modelos de projeto com Copiar Projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 O Dynamics 365 Project Operations oferece suporte à possibilidade de copiar um projeto e reverter quaisquer atribuições de volta aos recursos genéricos que representam a função. Os clientes podem usar essa funcionalidade para criar modelos básicos de projeto.
 
 Quando você seleciona **Copiar Projeto**, o status do projeto de destino é atualizado. Usar **Razão do Status** para determinar quando a ação de cópia está concluída. Selecionar **Copiar Projeto** também atualizará a data de início do projeto para a data de início atual se nenhuma data-alvo for detectada na entidade do projeto de destino.
 
-## <a name="copy-project-custom-action"></a>Ação personalizada Copiar Projeto 
+## <a name="copy-project-custom-action"></a>Ação personalizada Copiar Projeto
 
-### <a name="name"></a>Nome 
+### <a name="name"></a>Name 
 
-**msdyn_CopyProjectV2**
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>Parâmetros de entrada
+
 Há três parâmetros de entrada:
 
-| Parâmetro          | Digitar   | Valores                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | Cadeia de Caracteres | **{"removeNamedResources":true}** ou **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | Referência da Entidade | Projeto de Origem |
-| Destino             | Referência da Entidade | Projeto de Destino |
+- **ReplaceNamedResources** ou **ClearTeamsAndAssignments** – Defina somente uma das opções. Não defina ambas.
 
+    - **\{"ReplaceNamedResources":true\}** – O comportamento padrão do Project Operations. Todos os recursos nomeados são substituídos por recursos genéricos.
+    - **\{"ClearTeamsAndAssignments":true\}** – O comportamento padrão do Project for the Web. Todas as atribuições e os membros de equipe são removidos.
 
-- **{"clearTeamsAndAssignments":true}**: o comportamento padrão do projeto para a Web e removerá todas as atribuições e membros da equipe.
-- **{"removeNamedResources":true}** o comportamento padrão do Project Operations e reverterá atribuições para recursos genéricos.
+- **SourceProject** – A referência de entidade do projeto de origem para cópia. Esse parâmetro não pode ser nulo.
+- **Target** – A referência de entidade do projeto de destino para cópia. Esse parâmetro não pode ser nulo.
 
-Para obter mais padrões sobre ações, consulte [Usar ações da API Web](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+A tabela a seguir traz um resumo dos três parâmetros.
 
-## <a name="specify-fields-to-copy"></a>Especificar campos a serem copiados 
+| Parâmetro                | Type             | Valor                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Boolean          | **True** ou **False** |
+| ClearTeamsAndAssignments | Boolean          | **True** ou **False** |
+| SourceProject            | Referência da Entidade | O projeto de origem    |
+| Target                   | Referência da Entidade | O projeto de destino    |
+
+Para obter mais padrões sobre ações, consulte [Usar ações da API Web](/powerapps/developer/common-data-service/webapi/use-web-api-actions).
+
+### <a name="validations"></a>Validações
+
+As validações a seguir são feitas.
+
+1. Null verifica e recupera os projetos de origem e de destino para confirmar a existência dos dois na organização.
+2. O sistema valida se o projeto de destino é válido para cópia verificando as seguintes condições:
+
+    - Não há atividade anterior no projeto (inclusive a seleção da guia **Tarefas**) e o projeto é recém-criado.
+    - Não há cópia anterior, nenhuma importação foi solicitada no projeto e o projeto não tem o status **Falha**.
+
+3. A operação não é chamada usando HTTP.
+
+## <a name="specify-fields-to-copy"></a>Especificar campos a serem copiados
+
 Quando a ação for chamada, **Copiar Projeto** verificará a visão do projeto **Copiar Colunas do Projeto** para determinar quais campos copiar quando o projeto for copiado.
 
-
 ### <a name="example"></a>Exemplo
-O exemplo a seguir mostra como chamar a ação personalizada **CopyProject** com o conjunto de parâmetros **removeNamedResources**.
+
+O exemplo a seguir mostra como chamar a ação personalizada **CopyProjectV3** com o conjunto de parâmetros **removeNamedResources**.
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ O exemplo a seguir mostra como chamar a ação personalizada **CopyProject** com
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

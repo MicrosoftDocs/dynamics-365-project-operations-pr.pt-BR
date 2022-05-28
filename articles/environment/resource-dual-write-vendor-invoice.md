@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986477"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591161"
 ---
 # <a name="vendor-invoice-integration"></a>Integração de faturas de fornecedores
 
@@ -34,7 +34,7 @@ No Project Operations, as faturas de fornecedor relativas ao projeto são postad
      > [!NOTE]
      > Detalhes da fatura do fornecedor no Dataverse não são editáveis.
 
-Razão auxiliar de imposto, razão auxiliar de fornecedor e outras postagens financeiras são registradas conforme aplicável no Dynamics 365 Finance quando a fatura do fornecedor é postada.
+O razão auxiliar de impostos, o razão auxiliar de fornecedores e outros lançamentos financeiros são registrados conforme aplicável no Dynamics 365 Finance quando a fatura do fornecedor é lançada.
 
 ![Integração de faturas de fornecedores.](media/DW7VendorInvoice.png)
 

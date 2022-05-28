@@ -4,14 +4,14 @@ description: Este tópico fornece informações e exemplos sobre como configurar
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 09bbd1bf640cc86b16afb8c2b824329b92f833df836e9313491d57a2f1646440
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994037"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591574"
 ---
 # <a name="configure-intercompany-invoicing"></a>Configurar faturamento intercompanhia
 
@@ -21,11 +21,11 @@ Execute as seguintes etapas para configurar o faturamento intercompanhia de proj
 
 ## <a name="example-configure-intercompany-invoicing"></a>Exemplo: configurar faturamento intercompanhia
 
-No exemplo a seguir, a Contoso Robotics USA (USPM) é a entidade legal que toma o empréstimo e a Contoso Robotics UK (GBPM) é a entidade legal que empresta. 
+No exemplo a seguir, a Contoso Robotics USA (USPM) é a entidade legal que toma o empréstimo e a Contoso Robotics UK (GBPM) é a entidade legal que faz o empréstimo. 
 
 1. **Configure a contabilidade intercompanhia entre entidades legais**. Cada par de entidades jurídicas de empréstimo deve ser configurado na página de [Contabilidade intercompanhia](/dynamics365/finance/general-ledger/intercompany-accounting-setup) da Contabilidade.
     
-    1. No Dynamics 365 Finance, vá para **Contabilidade** > **Configuração de lançamento** > **Contabilidade intercompanhia**. Crie um registro com as seguintes informações:
+    1. No Dynamics 365 Finance, acesse **Contabilidade** > **Configuração de lançamento** > **Contabilidade intercompanhia**. Crie um registro com as seguintes informações:
 
         - **Empresa de origem** = **GBPM**
         - **Empresa de destino** = **USPM**
@@ -35,13 +35,13 @@ No exemplo a seguir, a Contoso Robotics USA (USPM) é a entidade legal que toma 
      1. No Finance, selecione a entidade legal **GBPM**.
      2. Vá para **Contas a receber** > **Cliente** > **Todos os clientes**. Crie um registro para a entidade legal, **USPM**.
      3. Expanda **Nome**, filtre os registros por **Tipo** e selecione **Entidades legais**. 
-     4. Encontre e selecione o registro do cliente para **Contoso Robotics USA (USPM)**.
+     4. Localize e selecione o registro do cliente da **Contoso Robotics USA (USPM)**.
      5. Selecione **Usar correspondência**. 
      6. Selecione o grupo de clientes **50 - Clientes intercompanhia** e salve o registro.
      7. Selecione a entidade legal **USPM**.
      8. Vá para **Contas a pagar** > **Fornecedores** > **Todos os fornecedores**. Crie um registro para a entidade legal, **GBPM**.
      9. Expanda **Nome**, filtre registros por **Tipo** e selecione **Entidades legais**. 
-     10. Encontre e selecione o registro do cliente para **Contoso Robotics UK (GBPM)**.
+     10. Localize e selecione o registro do cliente da **Contoso Robotics UK (GBPM)**.
      11. Selecione **Usar correspondência**, selecione o grupo de fornecedores e salve o registro.
      12. No registro do fornecedor, selecione **Geral** > **Configuração** > **Intercompanhia**.
      13. Na guia **Relação comercial**, defina **Ativo** como **Sim**.
@@ -80,19 +80,19 @@ No exemplo a seguir, a Contoso Robotics USA (USPM) é a entidade legal que toma 
 
 5. **Configurar preços de transferência para mão de obra**. Os preços de transferência intercompanhia são configurados no Project Operations em Dataverse. Configurar [taxas de custo de mão de obra](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) e [taxas de cobrança de mão de obra](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) para faturamento intercompanhia. O preço de transferência não é compatível com transações de despesas intercompanhia. O preço de venda da unidade interorganizacional sempre será definido com o mesmo valor que o preço de custo da unidade de recursos.
 
-      O custo do recurso do desenvolvedor na Contoso Robotics UK é de 88 GBP por hora. A Contoso Robotics UK cobrará USD 120 da Contoso Robotics USA por cada hora de funcionamento deste recurso em projetos nos EUA. A Contoso Robotics USA cobrará USD 200 do cliente Adventure Works pelo trabalho realizado pelo recurso de desenvolvedor da Contoso Robotics UK.
+      O custo do recurso do desenvolvedor na Contoso Robotics UK é de 88 GBP por hora. A Contoso Robotics UK cobrará da Contoso Robotics USA 120 USD por hora trabalhada por esse recurso em projetos nos EUA. A Contoso Robotics USA cobrará do cliente Adventure Works 200 USD pelo trabalho realizado pelo recurso de desenvolvedor da Contoso Robotics UK.
 
-      1. Em Project Operations no Dataverse, vá para **Venda** > **Listas de preços**. Crie uma nova lista de preços de custo denominada **Taxas de custo da Contoso Robotics UK**. 
+      1. Em Project Operations no Dataverse, vá para **Venda** > **Listas de preços**. Crie uma lista de preços de custo denominada **Taxas de custo da Contoso Robotics UK**. 
       2. Na lista de preços de custo, crie um registro com as seguintes informações:
          - **Função** = **Desenvolvedor**
          - **Custo** = **88 GBP**
-      3. Acesse **Configurações** > **Unidades organizacionais** e anexe esta lista de preços de custo à unidade organizacional da **Contoso Robotics UK**.
+      3. Vá para **Configurações** > **Unidades organizacionais** e anexe essa lista de preços de custo à unidade organizacional **Contoso Robotics UK**.
       4. Vá para **Vendas** > **Listas de preços**. Crie uma lista de preços de custo denominada **Taxas de custo da Contoso Robotics USA**. 
       5. Na lista de preços de custo, crie um registro com as seguintes informações:
           - **Função** = **Desenvolvedor**
           - **Empresa de recursos** = **Contoso Robotics UK**
           - **Custo** = **120 USD**
-      6. Acesse **Configurações** > **Unidades organizacionais** e anexe a lista de preços de custo **Taxas de custo da Contoso Robotics USA** à unidade organizacional da **Contoso Robotics USA**.
+      6. Vá para **Configurações** > **Unidades organizacionais** e anexe a lista de preços de custo das **taxas de custo da Contoso Robotics USA** à unidade organizacional **Contoso Robotics USA**.
       7. Vá para **Vendas** > **Listas de preços**. Crie uma lista de preços de vendas denominada **Taxas de fatura do Adventure Works**. 
       8. Na lista de preços de venda, crie um registro com as seguintes informações:
           - **Função** = **Desenvolvedor**

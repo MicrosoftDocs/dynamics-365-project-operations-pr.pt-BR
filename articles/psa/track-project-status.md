@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 32e5867a773206aaed532645302b7f7cc789d5074f9acdb3bbb95acf8492d25e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 58274886a9f9ce6ae49c64c1d7ac491e29c7d06c
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996692"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593368"
 ---
 # <a name="track-a-projects-status-project-service"></a>Rastrear o status de um projeto (Project Service)
 
@@ -33,14 +34,13 @@ Use os recursos do [!INCLUDE[pn_dyn_365_project_service_auto](../includes/pn-dyn
 
 À medida que o compromisso evolui, os estágios do projeto são atualizados para refletir o estágio do compromisso:  
 
-
-|              |                                                                                                                                                                                                                                                                                                  |
-|--------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|   **Novo**    | Ao criar um projeto, o estágio é definido como **Novo**. Se o projeto foi criado partir de um modelo, neste estágio, o projeto pode ter um cronograma, estimativas e dados da equipe. Caso contrário, será a estrutura de tópicos do projeto, e você precisará inserir manualmente o restante dos componentes do projeto. |
-|  **Cotação**   |      Ao associar um projeto a uma cotação ou criar um projeto a partir de uma cotação, o estágio do projeto é definido como **Cotação**, e a hora de início e de término estimadas são também atualizadas. Quando o projeto está no estágio de cotação, os detalhes da cotação são exibidos na guia **Vendas** na página **Projeto**.      |
-|   **Plano**   |                                     Quando você vence uma cotação associada a um projeto, e quando o compromisso evolui para o estágio de contrato, o estágio do projeto é atualizado para **Plano**. Os detalhes do contrato são exibidos na guia **Vendas** na página **Projeto**.                                      |
-| **Concluir** |                    Quando o trabalho do projeto é concluído, você pode mudar o estágio para **Concluído**. Quando o estágio do projeto é definido como concluído, entende-se que o trabalho foi 100% concluído, mas que o projeto será mantido aberto para o registro de horas ou entradas de despesas pendentes.                     |
-|  **Fechar**   |           Quando todas as transações tiverem sido registradas no projeto e nada mais precisar ser registrado, você poderá definir manualmente o estágio como **Fechado**. Quando o projeto é definido como **Fechado**, não é possível registrar mais nenhuma transação nele, e ele será usado apenas para leitura.           |
+| Tarefa | Description | 
+|------------|----------|
+| **New** | Ao criar um projeto, o estágio é definido como **Novo**. Se o projeto foi criado partir de um modelo, neste estágio, o projeto pode ter um cronograma, estimativas e dados da equipe. Caso contrário, será a estrutura de tópicos do projeto, e você precisará inserir manualmente o restante dos componentes do projeto. |
+| **Cotação** |  Ao associar um projeto a uma cotação ou criar um projeto a partir de uma cotação, o estágio do projeto é definido como **Cotação**, e as datas de início e de término estimadas também são atualizadas. Quando o projeto está no estágio de cotação, os detalhes da cotação são exibidos na guia **Vendas** na página **Projeto**. |
+| **Plano** |  Quando você vence uma cotação associada a um projeto, e quando o compromisso evolui para o estágio de contrato, o estágio do projeto é atualizado para **Plano**. Os detalhes do contrato são exibidos na guia **Vendas** na página **Projeto**. |
+| **Concluir** | Quando o trabalho do projeto é concluído, você pode mudar o estágio para **Concluído**. Quando o estágio do projeto é definido como concluído, entende-se que o trabalho foi 100% concluído, mas que o projeto será mantido aberto para o registro de horas ou entradas de despesas pendentes. |
+| **Fechar** | Quando todas as transações tiverem sido registradas no projeto e nada mais precisar ser registrado, você poderá definir manualmente o estágio como **Fechado**. Quando o projeto é definido como **Fechado**, não é possível registrar mais nenhuma transação nele, e ele será usado apenas para leitura. |
 
 ## <a name="to-track-a-projects-status"></a>Para acompanhar o status de um projeto  
 

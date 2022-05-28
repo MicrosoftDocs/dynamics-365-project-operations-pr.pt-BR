@@ -4,25 +4,25 @@ description: Este tópico fornece informações sobre como acessar o Project Ope
 author: sigitac
 ms.date: 10/28/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 15533febe12f970bb35ccb4cdceedce251d1f837bfb59ffcd10e633eec1a3a92
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 50afe2c0e247cb9d9c5f970810fa917d002ae1d0
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994577"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591850"
 ---
 # <a name="navigate-project-operations"></a>Navegar no Project Operations
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 O Dynamics 365 Project Operations para cenários de recursos/sem estoque consiste em dois componentes: 
 
  - **Project Operations no ambiente do Common Data Service (CDS)**: este componente abrange recursos e processos da oportunidade ao faturamento pro forma. 
- - **Gerenciamento e contabilidade de projeto no ambiente do Dynamics 365 Finance**: este componente abrange os recursos de gerenciamento de despesas, contabilidade de projetos e reconhecimento de receitas. 
+ - **Gerenciamento e contabilidade de projeto no ambiente do Dynamics 365 Finance**: este componente cobre recursos de gerenciamento de despesas, contabilidade de projetos e reconhecimento de receita. 
 
 Depois de provisionar o Project Operations, conforme descrito neste tópico, a página **Detalhes do ambiente** do Lifecycle Services (LCS) fornece acesso fácil a ambos os componentes do Project Operations.  
 

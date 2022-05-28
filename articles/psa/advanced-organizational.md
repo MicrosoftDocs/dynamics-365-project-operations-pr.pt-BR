@@ -1,5 +1,5 @@
 ---
-title: Unidades organizacionais
+title: Unidades organizacionais avançadas
 description: Este tópico fornece informações sobre unidades organizacionais no Dynamics 365 Project Service Automation.
 author: rumant
 ms.custom:
@@ -16,14 +16,15 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: dccb01e5d1c032039cac980061d93b443ef0f9e1296cdd2d8efd7b1bf7338ce0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 80208be7be56d0b09354c45cd2afd96958daf985
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005062"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589412"
 ---
-# <a name="organizational-units"></a>Unidades organizacionais 
+# <a name="about-organizational-units"></a>Sobre unidades organizacionais 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -77,14 +78,14 @@ Ao implementar o Dynamics 365, otimize a autorização de segurança para a hier
 
 #### <a name="example-of-organizational-units-and-business-units"></a>Exemplos de unidades organizacionais e unidades de negócios
 
-A Contoso, Ltd. tem uma próspera prática de tecnologia Microsoft. Joaquim e Julia são desenvolvedores de C\#, mas Julia está nos Estados Unidos, enquanto Joaquim está na Índia. A maioria das participações em projetos requer recursos das unidades da Contoso Índia e Contoso EUA, e Joaquim e Julia exigem o mesmo nível de acesso de segurança a projetos nessa área prática. No entanto, o custo dos desenvolvedores da Contoso Índia é consideravelmente diferente do custo dos desenvolvedores da Contoso EUA.
+A unidade Cabral, Ltd. tem uma próspera prática de tecnologia Microsoft. Joaquim e Julia são desenvolvedores de C\#, mas Julia está nos Estados Unidos, enquanto Joaquim está na Índia. A maioria das participações em projetos requer recursos das unidades Cabral India e Cabral US, e Joaquim e Julia exigem o mesmo nível de acesso de segurança a projetos nessa área prática. No entanto, o custo dos desenvolvedores da unidade Cabral India é consideravelmente diferente do custo dos desenvolvedores da unidade Cabral US.
 
 Veja a seguir uma maneira excelente de projetar esse cenário usando o Dynamics 365 e o PSA.
 
 1. Crie a prática de tecnologia Microsoft como uma unidade de negócios e associe Joaquim e Julia a ela. Dessa maneira, você ajuda a garantir que ambos os funcionários tenham o mesmo nível de acesso de segurança a quaisquer projetos nessa área prática. Ambos poderão verificar o andamento e relatar o tempo, as despesas e as atualizações de tarefa. 
 2. Crie duas unidades organizacionais para ajudar a garantir que o custo para o projeto seja refletido corretamente. 
-3. Associe Julia à Contoso EUA e Joaquim à Contoso Índia.
-4. Atribua listas de preços de custo adequadas a ambas as unidades organizacionais. Dessa forma, você ajuda a garantir que os custos que são gravados no projeto para Joaquim e Julia reflitam precisamente a diferença em custos entre a Contoso EUA e a Contoso Índia.
+3. Associe Julia à unidade Cabral US, bem como Joaquim à unidade Cabral India.
+4. Atribua listas de preços de custo adequadas a ambas as unidades organizacionais. Dessa forma, você ajuda a garantir que os custos que são gravados no projeto para Joaquim e Julia reflitam precisamente a diferença em custos entre a unidade Cabral US e a unidade Cabral India.
 
 ### <a name="are-organizational-units-related-to-sales-territories-in-dynamics-365"></a>As unidades organizacionais estão relacionadas às regiões de vendas no Dynamics 365?
 
@@ -94,11 +95,11 @@ Uma unidade organizacional é um grupo ou uma divisão interna na empresa que ra
 
 #### <a name="example-of-organizational-units-and-sales-territories"></a>Exemplo de unidades organizacionais e regiões de vendas
 
-A Contoso, Ltd. tem dois centros de desenvolvimento: Contoso EUA e Contoso Índia. Os custos de recursos são consideravelmente diferentes entre esses dois centros de desenvolvimento.
+A unidade Cabral, Ltd. tem dois centros de desenvolvimento: Cabral US e Cabral India. Os custos de recursos são consideravelmente diferentes entre esses dois centros de desenvolvimento.
 
-A Contoso vende seus serviços de TI em muitos mercados internacionais, como América Latina, América do Norte, Pacífico Asiático, Europa Ocidental e Oriente Médio. As taxas de cobrança para as mesmas funções de projeto podem variar amplamente nesses mercados.
+A unidade Cabral vende seus serviços de TI em muitos mercados internacionais, como América Latina, América do Norte, Pacífico Asiático, Europa Ocidental e Oriente Médio. As taxas de cobrança para as mesmas funções de projeto podem variar amplamente nesses mercados.
 
-A Contoso EUA e a Contoso Índia devem ser configuradas como unidades organizacionais, e cada unidade deve ter sua própria lista de preços de custo. Pacífico Asiático, América Latina, América do Norte, Europa Ocidental e o Oriente Médio devem ser configurados como regiões de vendas e cada região deve ter sua própria lista de preços de vendas.
+A unidade Cabral US e a unidade Cabral India devem ser configuradas como unidades organizacionais, e cada unidade deve ter sua própria lista de preços de custo. Pacífico Asiático, América Latina, América do Norte, Europa Ocidental e o Oriente Médio devem ser configurados como regiões de vendas e cada região deve ter sua própria lista de preços de vendas.
 
 ### <a name="why-is-there-a-restriction-on-the-association-of-price-lists-with-organizational-units"></a>Por que há uma limitação na associação de listas de preços às unidades organizacionais? 
 
@@ -122,7 +123,7 @@ Nº Na versão atual do PSA, as unidades organizacionais não são hierárquicas
 Quando você tem uma hierarquia complexa de centros de custos, divisões, escritórios de cobrança, etc., configure os nós folha dessa hierarquia como unidades organizacionais distintas.
 O seguinte exemplo mostra uma hierarquia comum:
 
-**ContosoÍndia**
+**Cabral India**
 
   - Prática SAP 
 
@@ -134,7 +135,7 @@ O seguinte exemplo mostra uma hierarquia comum:
     - Consultores técnicos
     - Consultores funcionais 
     
-**Contoso EUA**
+**Cabral EUA**
 
  - Prática SAP 
 
@@ -147,14 +148,14 @@ O seguinte exemplo mostra uma hierarquia comum:
     - Consultores funcionais 
  
 Se sua hierarquia for semelhante, você deverá configurá-la como uma lista plana, como mostrado aqui:
-- Contoso Índia - Prática SAP – Consultores Técnicos 
-- Contoso Índia - Prática SAP – Consultores Funcionais       
-- Contoso Índia – Prática de Tecnologia Microsoft – Consultores Funcionais 
-- Contoso Índia – Prática de Tecnologia Microsoft – Consultores Funcionais 
-- Contoso Estados Unidos - Prática SAP – Consultores Técnicos  
-- Contoso EUA - Prática SAP – Consultores Funcionais  
-- Contoso EUA – Prática de Tecnologia Microsoft – Consultores Técnicos 
-- Contoso EUA – Prática de Tecnologia Microsoft – Consultores Funcionais
+- Cabral India – Prática SAP – Consultores técnicos 
+- Cabral India – Prática SAP – Consultores funcionais       
+- Cabral India – Prática de tecnologia Microsoft – Consultores funcionais 
+- Cabral India – Prática de tecnologia Microsoft – Consultores funcionais 
+- Cabral US – Prática SAP – Consultores técnicos  
+- Cabral US – Prática SAP – Consultores funcionais  
+- Cabral US – Prática de tecnologia Microsoft – Consultores técnicos 
+- Cabral US – Prática de tecnologia Microsoft – Consultores funcionais
 
 ### <a name="were-a-small-professional-services-company-that-operates-as-only-one-division-how-can-we-best-use-the-organizational-unit-concept-in-the-current-version-of-psa"></a>Somos uma pequena empresa de serviços profissionais que opera apenas como uma divisão. Como podemos usar melhor o conceito de unidade organizacional na versão atual do PSA?
 

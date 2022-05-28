@@ -15,12 +15,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9503b6528f91f86cc1ebe1c7ed6111171e74c4a3cbf83b3f68810c3ee5efdd28
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002317"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591896"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuração de campos personalizados como dimensões de precificação 
 
@@ -71,12 +72,12 @@ Há dois tipos de dimensões de preço:
   
 | Função        | Unidades Organizacionais    |Local de Trabalho      |Título padrão      |Horas de trabalho do recurso      |  Markup|
 | ------------|-------------|-------------------|--------------------|-------------------------|--------:|
-|             | Contoso Índia|No local            |                    |Horas Extras                 |15     |
-|             | Contoso Índia|Local             |                    |Horas Extras                 |10     |
-|             | Contoso US   |Local             |                    |Horas Extras                 |20     |
+|             | Cabral India|No local            |                    |Horas Extras                 |15     |
+|             | Cabral India|Local             |                    |Horas Extras                 |10     |
+|             | Cabral EUA   |Local             |                    |Horas Extras                 |20     |
 
 
-Se um recurso da Contoso Índia cuja taxa base é USD 100 estiver trabalhando no local e registrar 8 horas de trabalho normal e 2 horas de hora extra, o mecanismo de preço do Project Service usará a taxa base de 100 para as 8 horas para registrar USD 800. Para as 2 horas extra, um markup de 15% será aplicado à taxa base de 100 para obter um preço unitário de USD 115 e registrará um custo total de USD 230.
+Se um recurso de Cabral India cuja taxa base é USD 100 estiver trabalhando no local e registrarem 8 horas de trabalho normal e 2 horas de hora extra, o mecanismo de preço do Project Service usará a taxa base de 100 para as 8 horas para registrar USD 800 Para as 2 horas extra, um markup de 15% será aplicado à taxa base de 100 para obter um preço unitário de USD 115 e registrará um custo total de USD 230.
 
 ### <a name="applicable-to-cost"></a>Aplicável ao Custo 
 Caso seja configurado como **Sim**, indica que o valor da dimensão do contexto de entrada deve ser usado para corresponder a **Preço da função** e **Markup do preço da função** ao recuperar as taxas de custo e markup.

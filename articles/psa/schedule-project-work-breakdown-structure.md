@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 896f19746bde1ba6cf2acd6d558137f4271a5cd99424043053eefe128d3b4250
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 24e13642ac1fb9e90daab6d8aa9b16ed9c2defbf
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996782"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587342"
 ---
 # <a name="schedule-a-project-with-a-work-breakdown-structure-project-service"></a>Agendar um projeto com uma estrutura de detalhamento de trabalho (Project Service)
 
@@ -63,7 +64,7 @@ O cronograma de um projeto comunica o trabalho que precisa ser executado, os rec
 ## <a name="task-types"></a>Tipos de tarefa  
 Você usará os seguintes tipos de tarefa para criar a estrutura de detalhamento de trabalho:  
 
-| | | 
+| Tarefa | Description | 
 |---------------------------------------|-----------------------------------------------------------------| 
 | **Nó raiz do projeto** | A tarefa resumo de nível superior do projeto. Todas as outras tarefas do projeto são criadas nele. O nome da tarefa raiz é o nome do projeto. O esforço, as datas e a duração do nó raiz são baseados nos valores da hierarquia abaixo deles. Você não pode editar as propriedades do nó raiz ou excluir o nó raiz. | 
 | **Tarefas de contêiner ou resumo** | A tarefa resumo é uma tarefa que contém subtarefas abaixo nela. Uma tarefa resumo não tem nenhum esforço de trabalho nem custo próprio. Seus esforços e custo de trabalho são o valor acumulado de suas subtarefas. Você pode alterar o nome de uma tarefa resumo, mas não pode alterar o esforço, as datas ou a duração, pois esses valores são calculados automaticamente. A exclusão de uma tarefa resumo excluirá a tarefa e todas as suas subtarefas.|  
