@@ -4,14 +4,14 @@ description: Este tópico explica como criar uma estrutura de detalhamento de tr
 author: ruhercul
 ms.date: 12/16/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3b8162d256aa145301fc64bee9682caa8737496f
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: cdc1ffdd1f53f65627b511582e52ca27fa53c127
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928601"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597784"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura de detalhamento de trabalho (WBS)
 
@@ -124,7 +124,7 @@ Você deve estar ciente das limitações a seguir se estiver usando a estrutura 
 |----------------------------------------------------|----------------------|
 | Total máximo de tarefas para um projeto                  | 500                  |
 | Duração máxima total para um projeto               | 3.650 dias (10 anos) |
-| Total máximo de recursos para um projeto              | 150                  |
+| Total máximo de recursos para um projeto              | 300                  |
 | Total máximo de links (somente sucessor) para um projeto | 600                  |
 | Total máximo de campos personalizados para um projeto          | 10                   |
 | Máximo de itens da lista de verificação por tarefa                   | 20                   |

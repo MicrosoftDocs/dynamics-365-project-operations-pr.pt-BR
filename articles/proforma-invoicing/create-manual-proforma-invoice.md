@@ -5,14 +5,14 @@ author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2050a313fe530065341410d60801b13eb958cb32ae24eb4a0a71ab7ea5061881
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e20ea17691c592493a790fb38451b35db03416be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995612"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600038"
 ---
 # <a name="proforma-invoices"></a>Faturas pro-forma
 
@@ -82,6 +82,9 @@ Quando você cria um rascunho de fatura de projeto, todas as transações de ven
 - Editar e ajustar a quantidade e o tipo de cobrança.
 
 Selecione **Confirmar** para confirmar uma fatura. A ação Confirmar é uma ação unidirecional. Quando você seleciona **Confirmar**, o sistema torna a fatura somente leitura e cria dados reais de vendas cobradas de cada detalhe de linha de fatura para cada linha de fatura. Se os detalhes da linha da fatura fizerem referência a dados reais de vendas não cobradas, o sistema também reverterá os dados reais de vendas não cobradas. (Todos os detalhes da linha da fatura que foram criados de uma entrada de tempo ou despesa farão referência a dados reais de vendas não cobradas.) Os sistemas de integração de contabilidade podem usar essa reversão para reverter o WIP (trabalho em andamento) do projeto para fins de contabilidade.
+
+> [!NOTE]
+> Não é possível editar nem excluir faturas pro forma confirmadas e os registros relacionados, como linhas de fatura e detalhes de linha de fatura. 
 
 ### <a name="correct-a-confirmed-invoice"></a>Corrigir uma fatura confirmada
 

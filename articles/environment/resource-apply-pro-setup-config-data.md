@@ -4,27 +4,27 @@ description: Este tópico fornece informações sobre a configuração e aplica�
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6fb91de30a2414fa7dd8dba47b28cf4824948565
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986612"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594702"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>Configurar e aplicar dados de configuração no Common Data Service 
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
 Antes de começar a configurar os dados no Common Data Service (CDS), os seguintes pré-requisitos devem ser atendidos:
 
-1.  Provisione um ambiente CDS e um ambiente do Dynamics 365 Finance para o Project Operations.
-2.  As informações de pessoa jurídica do Dynamics 365 Finance são compartilhadas no ambiente CDS. Isso significa que a entidade **Empresa** no CDS tem os seguintes registros da empresa:
+1.  Provisione um ambiente de CDS e um ambiente do Dynamics 365 Finance para o Project Operations.
+2.  As informações da entidade legal do Dynamics 365 Finance são compartilhadas com o ambiente de CDS. Isso significa que a entidade **Empresa** no CDS tem os seguintes registros da empresa:
   - THPM
   - USPM
   - GBPM
@@ -37,7 +37,7 @@ Antes de começar a configurar os dados no Common Data Service (CDS), os seguint
 
 ![Migração de configuração.](./media/1ConfigurationMigration.png)
 
-4. Na página 2 do Assistente CMT, selecione **Microsoft 365** como o **Tipo de Implantação**.
+4. Na página 2 do assistente CMT, selecione **Microsoft 365** como **Tipo de implantação**.
 5. Marque as caixas de seleção **Exibir uma lista de organizações disponíveis** e **Mostrar avançado**.
 6. Selecione a região do seu locatário, insira suas credenciais e selecione **Logon**.
 

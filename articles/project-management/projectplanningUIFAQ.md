@@ -2,17 +2,17 @@
 title: Solucionar problemas de trabalho na grade de Tarefas
 description: Este tópico fornece informações de solução de problemas necessárias ao trabalhar na grade de Tarefas.
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547185"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596404"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemas de trabalho na grade de Tarefas 
 
@@ -70,6 +70,9 @@ O Project Operations exige que um parâmetro do projeto faça referência ao Pon
       | Project Operations                   | type=2             |
 
 4. Remova o campo da página **Parâmetros do projeto**.
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigação 3: entrar em project.microsoft.com
+No navegador Microsoft Edge, abra uma nova guia, vá para project.microsoft.com e entre com a mesma função de usuário que você está usando para acessar o Project Operations.
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problema: o projeto não carrega e a IU está travada no botão giratório
 

@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre como criar transações in
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce3a45e5a09b7ac5b5663cf9983e3bed7bf7e0d3fedede2e4524c51069a800b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 88e5658c9087fdb19adce1c23bc5cad0ad0fa434
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005467"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599946"
 ---
 # <a name="create-intercompany-transactions"></a>Criar transações intercompanhia
 
@@ -30,14 +30,14 @@ Quando uma transação intercompanhia é aprovada, as transações reais a segui
 
 O custo, o custo da unidade de recursos e os preços e a moeda de transação de vendas entre unidades organizacionais são derivados da **unidade organizacional**. É importante lembrar disso ao decidir como estruturar empresas e unidades organizacionais em sua implementação.
 
-Quando você cria oportunidades, cotações, contratos de projeto e registros de projetos, o sistema verifica se a moeda da unidade de contratação corresponde à moeda contábil da empresa contratante. Quando elas não são iguais, não é possível criar esses registros. A moeda da unidade organizacional é definida no Dynamics 365 Project Operations acessando **Dataverse** > **Configurações** > **Unidades organizacionais**. A moeda contábil de uma empresa é definida no Dynamics 365 Finance acessando **Contabilidade** > **Configuração do razão** > **Razão**. A moeda é sincronizada com seu ambiente do Dataverse usando o mapa de Gravação Dupla do Razão.
+Quando você cria oportunidades, cotações, contratos de projeto e registros de projetos, o sistema verifica se a moeda da unidade de contratação corresponde à moeda contábil da empresa contratante. Quando elas não são iguais, não é possível criar esses registros. A moeda da unidade organizacional é definida no Dynamics 365 Project Operations acessando **Dataverse** > **Configurações** > **Unidades organizacionais**. Para definir a moeda contábil de uma empresa no Dynamics 365 Finance, acesse **Contabilidade** > **Configuração do razão** > **Razão**. A moeda é sincronizada com seu ambiente do Dataverse usando o mapa de Gravação Dupla do Razão.
 
 O sistema cria custos de unidade de recursos e vendas reais entre unidades organizacionais nas seguintes situações:
 
   - Quando a unidade de recursos difere da unidade contratante
   - Quando a empresa de recursos difere da empresa contratante
 
-No entanto, somente as transações que tenham uma empresa de recursos diferente da empresa contratante serão transferidas para o ambiente do Dynamics 365 Finance para contabilidade adicional.
+No entanto, apenas as transações que tiverem uma empresa de recursos diferente da empresa contratante serão transferidas para o ambiente do Dynamics 365 Finance para outras operações de contabilidade.
 
 A contabilidade dos valores reais do projeto é registrada no diário de integração do Project Operations no Finance. O sistema cria as linhas de diário a seguir.
 
@@ -60,7 +60,7 @@ Marcela Teles, desenvolvedora empregada na GBPM, registra 10 horas de trabalho e
     4. Defina a moeda como **USD**.
     5. Salve o registro.
 3. Acesse **Vendas** > **Contratos do Projeto** e crie um contrato de projeto para a Adventure Works.
-    1. Defina a empresa proprietária como **USPM** e a unidade contratante como **Contoso Robotics US**.
+    1. Defina a empresa proprietária como **USPM** e a unidade de contratação como **Contoso Robotics US**.
     2. Selecione Adventure Works como o cliente.
     3. Selecione uma lista de preços de produtos e salve o registro.
     4. Na guia **Linhas de Contrato**, crie uma linha de contrato. Defina um nome e selecione **Tempo e Material** como o método de cobrança.

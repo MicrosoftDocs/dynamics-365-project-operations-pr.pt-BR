@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: a6e971ff0477d5a9cb8652541095538b9f9039c0870362077218df609871ed4f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7de9f660bf38629bb2af4e0fb1ebf815f5e525e2
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990932"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8595576"
 ---
 # <a name="why-is-the-price-defaulting-to-zero-on-expense-cost-actuals"></a>Por que o preço padrão está sendo definido como zero nos dados reais de custo de despesas
 

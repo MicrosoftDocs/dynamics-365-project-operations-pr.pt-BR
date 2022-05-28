@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753278"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598474"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de outubro de 2021 – Project Operations para cenários baseados em recursos/não estocados
 
@@ -21,7 +21,7 @@ ms.locfileid: "7753278"
 Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
    - Project Operations na versão 4.25.0.91 do ambiente do Microsoft Dataverse
-   - Gerenciamento e contabilidade de projeto no ambiente do Dynamics 365 Finance versão 10.0.21
+   - Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.21
 
 ## <a name="features-included-in-this-release"></a>Os recursos incluídos nesta versão
 
@@ -49,7 +49,7 @@ Se você encontrar um problema ao iniciar o mapa, siga as instruções na seçã
 | Cobrança e preço | 2338357 | A moeda no registro de uso de material deverá usar como padrão a moeda do projeto quando o projeto for selecionado. |
 | Horas e despesas | 2414777 | Deve ser possível cancelar uma aprovação quando a entrada de despesas ou horas tiver mais de uma aprovação de projeto associada. |
 
-### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Visão geral de gerenciamento e contabilidade de projeto no Dynamics 365 Finance
+### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>Gerenciamento e contabilidade de projetos no Dynamics 365 Finance
 
 | Área do recurso | Número de referência | Atualização de qualidade |
 | --- | --- | --- |

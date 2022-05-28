@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992687"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597048"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>Novidades ou alterações no Project Operations de julho de 2021 para cenários baseados em estoque/produção
 
@@ -20,7 +20,7 @@ _**Aplicável a:** Project Operations para cenários baseados em estoque/produç
 
 Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
-- Gerenciamento e contabilidade de projeto no ambiente do Dynamics 365 Finance versão 10.0.20
+- Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.20
  
 ### <a name="quality-updates"></a>Atualizações de qualidade
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Proj
 | Viagens e Despesas                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | A ferramenta **Redefinir o status do documento de despesas** deve redefinir o status do relatório de despesas para **Rascunho** se o fluxo de trabalho não foi encontrado. 
 
 ### <a name="regulatory-updates"></a>Atualizações regulatórias
-Para obter informações sobre atualizações regulatórias do Finance and Operations, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no Lifecycle Services (LCS) e visualizar as atualizações regulamentares planejadas usando a ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
+Para obter informações sobre atualizações regulatórias de aplicativos de finanças e operações, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no Lifecycle Services (LCS) e visualizar as atualizações regulamentares planejadas usando a ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -16,12 +16,13 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998447"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593598"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de preço e custo
 
@@ -66,16 +67,16 @@ O exemplo a seguir mostra taxas de cobrança que são configuradas com base na f
 
 | Função        | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ------------|-------------|----------|----------:|----------|
-| Desenvolvedor   | Contoso US  |Hora | 200|USD     |
-| Desenvolvedor   | Contoso Índia |Hora|   112|USD     |
+| Desenvolvedor   | Cabral EUA  |Hour | 200|USD     |
+| Desenvolvedor   | Cabral India |Hour|   112|USD     |
 
 
 **Taxas de custo de exemplo**
 
 | Faixa Salarial     | Unidades Organizacionais    |Unidade      |Preço      |Moeda  |
 | ----------------|-------------|----------|----------:|----------|
-| My company_Band1 | Contoso US  |Hora | 145|USD     |
-| My company_Band2 | Contoso Índia |Hora|   67|USD     |
+| My company_Band1 | Cabral EUA  |Hour | 145|USD     |
+| My company_Band2 | Cabral India |Hour|   67|USD     |
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

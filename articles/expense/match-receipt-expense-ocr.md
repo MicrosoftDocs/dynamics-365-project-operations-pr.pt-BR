@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798026"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596266"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>Capturar um recibo usando OCR
 
@@ -52,7 +52,7 @@ Para criar uma despesa ou comparar uma despesa de um recibo, execute as etapas a
 
 ## <a name="installation"></a>Instalação
 
-Para usar esses recursos avançados de despesas, instale o suplemento Expense Management Service para o Microsoft Dynamics 365 Finance e ative os recursos em sua instância. Você pode acessar o suplemento do seu projeto no Microsoft Dynamics Lifecycle Services (LCS).
+Para usar esses recursos avançados de despesa, instale o suplemento Serviço de Gerenciamento de Despesas para o Microsoft Dynamics 365 Finance e ative os recursos na instância. Você pode acessar o suplemento do seu projeto no Microsoft Dynamics Lifecycle Services (LCS).
 
 1. Entre no LCS e abra o ambiente desejado.
 2. Vá para **Detalhes completos**.

@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928647"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594794"
 ---
 # <a name="provision-a-new-environment"></a>Provisionar um novo ambiente
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tópico fornece informações sobre como provisionar um novo ambiente do Dynamics 365 Project Operations para cenários baseados em recursos/sem estoque.
 
@@ -34,7 +34,7 @@ Use as etapas a seguir para habilitar o fluxo de provisionamento automatizado do
 
 ## <a name="provision-a-project-operations-environment"></a>Provisionar um ambiente do Project Operations
 
-1. Abra uma nova implantação de [ambiente de demonstração](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ou [área restrita/ambiente de produção](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) do Dynamics 365 Finance. 
+1. Abra uma nova implantação do Dynamics 365 Finance [ambiente de demonstração](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) ou [área restrita/ambiente de produção](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure). 
 2. Siga o assistente de **Provisionamento de ambiente**. 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Poderá ser necessário aplicar atualizações de qualidade ao seu ambiente do F
 
     ![Aplicar soluções.](./media/13ApplySolutions.png)
 
-5. Selecione ambas as soluções, **Mapa de entidade de gravação dupla do Dynamics 365 Finance and Operations** e **Mapas de entidades de gravação dupla do Dynamics 365 Project Operations** e selecione **Aplicar**.
+5. Selecione as duas soluções, **Mapas de Entidade para Gravação Dupla do Dynamics 365 Finance and Operations** e **Mapas de Entidade para Gravação Dupla do Dynamics 365 Project Operations**. Em seguida, selecione **Aplicar**.
 
     ![Confirmar soluções.](./media/14ConfirmSolutions.png)
 

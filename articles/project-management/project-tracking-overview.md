@@ -2,17 +2,16 @@
 title: Acompanhamento do esforço do projeto
 description: Este tópico fornece informações sobre como acompanhar o esforço do projeto e o progresso do trabalho.
 author: ruhercul
-ms.date: 03/22/2021
-ms.topic: article
-ms.reviewer: kfend
+ms.date: 02/15/2022
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.custom: intro-internal
-ms.openlocfilehash: 0df357eaf662816107fbc1777ebae030c93bd199756e78a1c3d59155dc64d38f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993947"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8593782"
 ---
 # <a name="project-effort-tracking"></a>Acompanhamento do esforço do projeto
 
@@ -46,7 +45,8 @@ O esforço em tarefas de resumo ou de contêiner pode ser reprojetado. Os gerent
 - A nova EAT em cada uma das tarefas individuais até as tarefas de nó folha é calculada. 
 - As tarefas filho afetadas até os nós folha têm a porcentagem de esforço restante e progresso recalculadas com base no valor da EAC. Isso resulta em uma nova projeção da variação de esforço da tarefa. 
 - As EATs das tarefas de resumo até o nó raiz são recalculadas.
-
+- O esforço aprovado em uma tarefa de resumo é a soma do esforço aprovado em todas as tarefas filhas mais o esforço aprovado na tarefa de resumo.
+- O esforço restante na tarefa de resumo é a soma do esforço restante em todas as tarefas filhas menos o esforço aprovado na tarefa de resumo.
 
 ## <a name="project-status-summary"></a>Resumo de status do projeto
 
