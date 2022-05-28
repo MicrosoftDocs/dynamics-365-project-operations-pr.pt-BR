@@ -4,20 +4,20 @@ description: Este tópico fornece informações sobre como definir ou estimar ma
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1717abb8f37acb7ab5f4e24b9323b3d958b40b13d7da44c0bbfa88eea28b99ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 089158666dc8fd09cd5d2b615715ed8aaff5575a
+ms.sourcegitcommit: e6090e1fef5f475a3cd56b78b6abca29f90da8f5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992597"
+ms.lasthandoff: 05/10/2022
+ms.locfileid: "8737288"
 ---
 # <a name="financial-estimates-for-materials-on-projects"></a>Estimativas financeiras para materiais em projetos
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-O Dynamics 365 Project Operations permite que os gerentes de Projeto definam custos de materiais baseadas em projeto para cada projeto ou tarefa. Cada estimativa de material pode ser associada a uma tarefa específica do projeto. As despesas são categorizadas em diferentes categorias de despesas, que são definidas no nível organizacional. O preço e o custo de cada categoria de despesas são definidos na lista de preços. 
+O Dynamics 365 Project Operations permite que os gerentes de Projeto definam custos de materiais baseadas em projeto para cada projeto ou tarefa. Cada estimativa de material pode ser associada a uma tarefa específica do projeto. Os materiais usados em projetos podem ser produtos fora do catálogo ou produtos do catálogo de produtos. Para cada combinação de produto e unidade, um preço pode ser definido nas listas de preços do projeto para vendas e nas listas de preços do projeto para custo.  
 
 Conclua as etapas a seguir para visualizar, adicionar ou excluir uma estimativa de material do projeto.
 
@@ -31,12 +31,12 @@ A tabela a seguir fornece informações sobre os campos na página **Linha de Es
 | --- | --- | --- |
 | Tarefa | Uma lista de tarefas no projeto. Isso inclui tarefas de resumo e nó folha. | Quando você seleciona uma tarefa para uma linha de estimativa de material, o custo de material estimado e as vendas de material estimadas para uma tarefa são afetados. Se este campo for deixado em branco, a estimativa de material será rastreada e resumida apenas no nível do projeto. |
 | Selecionar Produto |  É possível especificar se a linha de estimativa é para um produto existente (catálogo) ou um produto fora do catálogo. | Este campo determina se você seleciona um produto do catálogo ou fora do catálogo do produto. |
-| Produto | O ID do produto do catálogo de produtos. Quando você seleciona uma ID de produto o valor no campo **Selecionar Produto** é atualizado automaticamente para **Produto existente**. A ID é usada para recuperar os preços de custo e venda da lista de preços. | Não há impacto posterior para este campo. |
-| Descrição do Produto Fora do Catálogo | Um campo de texto para escrever o nome do produto. Este campo deve ser usado quando **Fora do catálogo** é selecionado no campo **Selecionar Produto**.| Não há impacto posterior para este campo. |
-| Data de Início | A data prevista em que se espera que o material seja usado. | Não há impacto posterior para este campo. |
-| Grupo de unidades | O valor padrão neste campo é obtido do grupo de unidades padrão no produto do catálogo. Você pode atualizar este campo para selecionar outro grupo de unidades. | Não há impacto posterior para este campo. |
+| Produto | O ID do produto do catálogo de produtos. Quando você seleciona uma ID de produto o valor no campo **Selecionar Produto** é atualizado automaticamente para **Produto existente**. A ID é usada para recuperar os preços de custo e venda da lista de preços. | Não há impacto posterior para esse campo. |
+| Descrição do Produto Fora do Catálogo | Um campo de texto para escrever o nome do produto. Este campo deve ser usado quando **Fora do catálogo** é selecionado no campo **Selecionar Produto**.| Não há impacto posterior para esse campo. |
+| Data de Início | A data prevista em que se espera que o material seja usado. | Não há impacto posterior para esse campo. |
+| Grupo de unidades | O valor padrão neste campo é obtido do grupo de unidades padrão no produto do catálogo. Você pode atualizar este campo para selecionar outro grupo de unidades. | Não há impacto posterior para esse campo. |
 | Unidade | O valor padrão neste campo é derivado da unidade padrão do produto selecionado. Você pode atualizar este campo para selecionar outra unidade. | Alterar a unidade resulta em um preço e custo unitário padrão diferente. |
-| Quantidade | A quantidade estimada do produto que será utilizada no projeto. | Não há impacto posterior para este campo. |
+| Quantidade | A quantidade estimada do produto que será utilizada no projeto. | Não há impacto posterior para esse campo. |
 | Custo Unitário | O custo unitário da combinação de produto e unidade selecionados, conforme configurado na lista de preços de custo aplicável. | O custo unitário é sempre mostrado na moeda de custo do projeto. Se não houver configuração de custo unitário para a configuração de produto e unidade na lista de preços, o custo unitário padrão será de 0,00. |
 | Preço Unitário | O preço da combinação de produto e unidade selecionados, conforme configurado na lista de preços de vendas aplicável. | O preço unitário é sempre mostrado na moeda de vendas do projeto. Se não houver configuração de preço unitário para a configuração de produto e unidade na lista de preços, o preço unitário padrão será de 0,00.|
 | Custo Total | O valor do custo que é calculado como quantidade\*custo unitário.| O valor de custo é sempre mostrado na moeda de custo do projeto. |
