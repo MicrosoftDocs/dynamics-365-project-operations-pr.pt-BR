@@ -4,26 +4,26 @@ description: Este tópico fornece informações sobre como os principais conceit
 author: rumant
 ms.date: 10/07/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ce84984f873e6336a6d065f0aa7a72f1474404a84d3dbb614c09d58bff66d83d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: f87a29893ca3d9bec6fbd07dded66a282ff597c3
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986927"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582926"
 ---
 # <a name="concepts-unique-to-project-based-contracts"></a>Conceitos exclusivos de Contratos baseados em Projeto
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 Este tópico fornece os principais conceitos que você deve conhecer antes de começar a usar os contratos do Projeto no Dynamics 365 Project Operations.
 
 ## <a name="owning-company"></a>Empresa Proprietária
 
-A empresa proprietária é a entidade legal do módulo **Gerenciamento e contabilidade de projeto** para o Project Operations do Dynamics 365 Finance. A empresa proprietária representa a entidade legal que será responsável pelo custo e receita acumulados de um negócio.
+A empresa proprietária é a entidade legal do módulo **Gerenciamento e contabilidade de projeto** do Project Operations do Dynamics 365 Finance. A empresa proprietária representa a entidade legal que será responsável pelo custo e receita acumulados de um negócio.
 
 ## <a name="contracting-unit"></a>Unidade de Contratação
 

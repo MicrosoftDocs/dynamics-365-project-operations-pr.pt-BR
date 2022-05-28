@@ -4,20 +4,20 @@ description: Esse tópico fornece informações sobre o modelo de segurança no 
 author: stsporen
 ms.date: 10/01/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 2f283771921504dc29ddcc26ca659d4e151598840339bd8c1a857e8bf5dde9ed
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8ba220097589655381ac1da5d4d926605c3ae672
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991472"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585732"
 ---
 # <a name="security-model"></a>Modelo de Segurança
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 O Microsoft Dynamics 365 Project Operations contém um modelo de segurança exclusivo que permite um modelo de segurança de negócios baseado em funções que colabora com Grupos do Microsoft Office. 
 
@@ -70,7 +70,7 @@ Conforme o modelo de colaboração de grupo do Office evolui, serão adicionadas
 
 Para obter mais informações, consulte [Segurança no Common Data Service](/power-platform/admin/wp-security).
 
-## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Project Operations e segurança do Microsoft Dynamics 365 Finance
+## <a name="project-operations-and-microsoft-dynamics-365-finance-security"></a>Segurança do Project Operations e do Microsoft Dynamics 365 Finance
 O Project Operations inclui as seguintes funções:
 
 - Gerente de projeto

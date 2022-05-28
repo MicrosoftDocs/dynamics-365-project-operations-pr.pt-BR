@@ -2,16 +2,16 @@
 title: Estendendo entradas de hora
 description: Este tópico fornece informações sobre como os desenvolvedores podem estender o controle de entrada de hora.
 author: stsporen
-ms.date: 10/08/2020
+ms.date: 01/27/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: c36a47b09e6012925a047f81318e89167d5c506facaae8d72b0bb6e8e267a7d5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 6b91aecd76950d2bd37192d634c80ea98d08034e
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993317"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582972"
 ---
 # <a name="extending-time-entries"></a>Estendendo entradas de hora
 
@@ -43,7 +43,7 @@ As entradas de hora são uma entidade principal usada em vários cenários. No c
 
 
 ### <a name="time-entries-and-the-time-source-entity"></a>Entradas de hora e a Entidade de fonte de hora
-Cada entrada de hora está associada a um registro de fonte de hora. Esse registro determina como e quais aplicativos devem processar a entrada de hora.
+Cada entrada de hora está associada a um registro de fonte de hora. Este registro determina quais aplicativos devem processar a entrada de hora e como.
 
 As entradas de hora são sempre um bloco contíguo de tempo com início, fim e duração vinculados.
 
@@ -55,7 +55,7 @@ A lógica automaticamente atualizará o registro de entrada de hora nas seguinte
     - **msdyn_end**
     - **msdyn_duration**
 
-- Os campos **msdyn_start** e **msdyn_end** se ajustam ao fuso horário automaticamente.
+- Os campos **msdyn_start** e **msdyn_end** reconhecem o fuso horário.
 - Entradas de hora criadas apenas com **msdyn_date** e **msdyn_duration** especificados começarão à meia-noite. Os campos **msdyn_start** e **msdyn_end** serão atualizados de acordo.
 
 #### <a name="time-entry-types"></a>Tipos de entrada de hora
@@ -72,73 +72,63 @@ Os registros de entrada de hora têm um tipo associado que define o comportament
 |Férias   | 192,350,002|
 
 
-
 ## <a name="customize-the-weekly-time-entry-control"></a><a name="customize"></a>Personalizar o controle de entrada de Hora semanal
 Os desenvolvedores podem incluir campos e pesquisas adicionais a outras entidades, além de implementar regras de negócios para oferecer suporte a cenários de negócios.
 
 ### <a name="add-custom-fields-with-lookups-to-other-entities"></a>Adicionar campos personalizados com pesquisas a outras entidades
 Existem três etapas principais para adicionar um campo personalizado à grade de entrada de hora semanal.
 
-1. Adicione o campo personalizado à caixa de diálogo de criação rápida.
+1. Adicione o campo personalizado à caixa de diálogo **Criação rápida**.
 2. Configure a grade para mostrar o campo personalizado.
-3. Inclua o campo personalizado no fluxo de tarefas de edição de linha ou no fluxo de tarefas de edição de células.
+3. Adicione o campo personalizado à página **Edição de linha** ou **Edição da entrada de hora**, conforme apropriado.
 
-Verifique se o novo campo tem as validações necessárias no fluxo de tarefas de edição de linha ou célula. Como parte dessa etapa, bloqueie o campo, com base no status da entrada de hora.
+Certifique-se de que o novo campo tem as validações necessárias na página **Edição de linha** ou **Edição da entrada de hora**. Como parte dessa tarefa, bloqueie o campo com base no status da entrada de hora.
 
-### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Adicionar o campo personalizado à caixa de diálogo de criação rápida
-Adicione o campo personalizado à caixa de diálogo **Criação Rápida de Entrada de Hora**. Quando as estradas de hora são adicionadas, um valor pode ser inserido selecionando **Novo**.
+Quando você adiciona um campo personalizado à grade **Entrada de hora** e, em seguida, cria entradas de hora diretamente nela, o campo personalizado para essas entradas é definido automaticamente para corresponder à linha. 
+
+### <a name="add-the-custom-field-to-the-quick-create-dialog-box"></a>Adicionar o campo personalizado à caixa de diálogo Criação rápida
+Adicione o campo personalizado à caixa de diálogo **Criação rápida: Criar entrada de hora**. Os usuários poderão inserir um valor adicionando as entradas de hora ao selecionar **Novo**.
 
 ### <a name="configure-the-grid-to-show-the-custom-field"></a>Configurar a grade para mostrar o campo personalizado
-Existem duas maneiras de adicionar um campo personalizado à grade de entrada de hora semanal:
+Existem duas maneiras de adicionar um campo personalizado à grade **Entrada de tempo semanal**.
 
-  - Personalizar uma exibição e adicionar um campo personalizado
-  - Criar uma entrada de hora personalizada padrão 
+- Personalize a exibição **Minhas Entradas de Hora Semanais** e adicione o campo personalizado a ela. Você pode especificar a posição e o tamanho do campo personalizado na grade editando as propriedades na exibição.
+- Crie uma nova exibição de entrada de hora personalizada e configure-a como a exibição padrão. Essa exibição deve conter os campos **Descrição** e **Comentários externos**, além das colunas que você deseja ter na grade. Você pode especificar a posição, o tamanho e a ordem de classificação padrão da grade editando as propriedades na exibição. Em seguida, configure o controle personalizado dessa exibição para que seja um controle **Grade de Entrada de Hora**. Adicione o controle à exibição e selecione-o para **Web**, **Telefone** e **Tablet**. Em seguida, configure os parâmetros para a grade **Entrada de tempo semanal**. Defina o campo **Data de início** como **msdyn\_date**, o campo **Duração** como **msdyn\_duration** e o campo **Status** como **msdyn\_entrystatus**. O campo **Lista de Status somente Leitura** está definido como **192350002 (Aprovada)**, **192350003 (Enviada)** ou **192350004 (Recuperação Solicitada)**.
 
+### <a name="add-the-custom-field-to-the-appropriate-edit-page"></a>Adicionar o campo personalizado à página de edição apropriada
+As páginas usadas para editar uma entrada de hora ou uma linha de entradas de hora podem ser encontradas em **Formulários**. O botão **Editar entrada** na grade abre a página **Editar entrada** e o botão **Editar linha** abre a página **Edição de linha**. Você pode editar essas páginas para que incluam campos personalizados.
 
-#### <a name="customize-a-view-and-add-a-custom-field"></a>Personalizar uma exibição e adicionar um campo personalizado
+Ambas as opções removem alguma filtragem predefinida em entidades **Projeto** e **Tarefa do Projeto** para que todas as exibições de pesquisa das entidades fiquem visíveis. Com a predefinição, apenas as exibições de pesquisa relevantes são visíveis.
 
-Personalize a exibição **Minhas Entradas de Hora Semanais** e adicione o campo personalizado a ela. Você pode escolher a posição e o tamanho do campo personalizado na grade, editando as propriedades na exibição.
+Você deve determinar a página apropriada para o campo personalizado. Provavelmente, se você adicionou o campo à grade, ele deve estar na página **Edição de linha** usada para campos que se aplicam a toda a linha de entradas de hora. Se o campo personalizado tiver um valor exclusivo na linha todos os dias (por exemplo, se for um campo personalizado para hora de término), ele deverá estar na página **Edição da entrada de hora**.
 
-#### <a name="create-a-new-default-custom-time-entry"></a>Criar uma entrada de hora personalizada padrão
-
-Essa exibição deve conter os campos **Descrição** e **Comentários Externos**, além das colunas que você deseja ter na grade. 
-
-1. Escolha a posição, o tamanho e a ordem de classificação padrão da grade editando essas propriedades na exibição. 
-2. Configure o controle personalizado dessa exibição para que seja um controle **Grade de Entrada de Hora**. 
-3. Adicione esse controle à exibição e selecione-o para Web, telefone e tablet. 
-4. Configure os parâmetros para a grade de entrada de hora semanal. 
-5. Defina o campo **Data de Início** como **msdyn_date**, defina o campo **Duração** como **msdyn_duration** e defina o campo **Status** como **msdyn_entrystatus**. 
-6. Para a exibição padrão, o campo **Lista de status somente leitura** está definido como **192350002,192350003,192350004**. O campo **Fluxo de Tarefas de Edição de Linha** está definido como **msdyn_timeentryrowedit**. O campo **Fluxo de Tarefas de Edição de Célula** está definido como **msdyn_timeentryedit**. 
-7. Você pode personalizar esses campos para adicionar ou remover o status somente leitura ou usar uma experiência baseada em tarefas (TBX) diferente para edição de linhas ou células. Esses campos agora estão limitados a um valor estático.
-
-
-> [!NOTE] 
-> Ambas as opções removerão alguma filtragem predefinida nas entidades **Projeto** e **Tarefa do Projeto** para que todas as exibições de pesquisa das entidades fiquem visíveis. Com a predefinição, apenas as exibições de pesquisa relevantes são visíveis.
-
-Determine o fluxo de tarefas apropriado para o campo personalizado. Se você adicionou o campo na grade, ele deve estar no fluxo de tarefas de edição de linha que é usado para campos que se aplicam a toda a linha de entradas de hora. Se o campo personalizado tiver um valor exclusivo todos os dias, como um campo personalizado para **Hora de término**, ele deverá estar no fluxo de tarefas de edição de célula.
-
-Para adicionar o campo personalizado a um fluxo de tarefas, arraste um elemento **Campo** para a posição apropriada na página e defina as propriedades do campo. Defina a propriedade **Fonte** como **Entrada de Hora** e defina a propriedade **Campo de Dados** como o campo personalizado. A propriedade **Campo** especifica o nome para exibição na página de TBX. Selecione **Aplicar** para salvar as alterações no campo e depois selecione **Atualizar** para salvar as alterações na página.
-
-Para usar uma nova página de TBX personalizada, crie um processo. Defina a categoria como **Fluxo do Processo Empresarial**, defina a entidade como **Entrada de Hora** e defina o tipo de processo de negócios como **Executar processo como fluxo de tarefas**. Em **Propriedades**, a propriedade **Nome da página** deve ser definida como o nome para exibição da página. Adicione todos os campos relevantes à página de TBX. Salve e ative o processo. Atualize a propriedade de controle personalizado para o fluxo de tarefas relevante para o valor de **Nome** no processo.
+Para adicionar o campo personalizado a uma página, arraste um elemento **Campo** para a posição apropriada na página e defina as propriedades.
 
 ### <a name="add-new-option-set-values"></a>Adicionar novos valores do conjunto de opções
-Para adicionar valores do conjunto de opções a um campo predefinido, abra a página de edição do campo e, em **Tipo**, selecione **Editar** ao lado do conjunto de opções. Adicione uma nova opção que tenha um rótulo e cor personalizados. Se você deseja adicionar um novo status de entrada de hora, o campo predefinido é denominado **Status da Entrada**, não **Status**.
+Para adicionar valores de conjunto de opções a um campo predefinido, siga estas etapas.
+
+1. Abra a página de edição do campo e, em **Tipo**, selecione **Editar** ao lado do conjunto de opções.
+2. Adicione uma nova opção que tenha um rótulo e cor personalizados. Se você quer adicionar um novo status de entrada de hora, o campo predefinido é chamado **Status da Entrada**.
 
 ### <a name="designate-a-new-time-entry-status-as-read-only"></a>Designar um novo status de entrada de hora como somente leitura
-Para designar um novo status de entrada de hora como somente leitura, adicione o novo valor de entrada de hora à propriedade **Lista de Status somente Leitura**. A parte editável da grade de entrada de hora será bloqueada para as linhas que têm o novo status.
-Em seguida, adicione regras de negócios para bloquear todos os campos nas páginas de TBX **Edição da Linha de Entrada de Hora** e **Edição da Entrada de Hora**. É possível acessar as regras de negócios dessas páginas, abrindo o editor de fluxo do processo empresarial da página e selecionando **Regras de Negócios**. Você pode adicionar o novo status à condição nas regras de negócios existentes ou adicionar uma nova regra de negócios para o novo status.
+Para designar um novo status de entrada de hora como somente leitura, adicione o novo valor de entrada de hora à propriedade **Lista de Status somente Leitura**. Você deve adicionar o número, não o rótulo. Agora, a parte editável da grade de entrada de hora será bloqueada para as linhas que têm o novo status. Para definir a propriedade **Lista de Status somente Leitura** de forma diferente para diferentes exibições **Entrada de Hora**, adicione a grade **Entrada de hora** na seção **Controles personalizados** de uma exibição e configure os parâmetros conforme apropriado.
+
+Em seguida, adicione regras de negócios para bloquear todos os campos nas páginas **Edição de Linha** e **Edição da entrada de hora**. Para acessar as regras de negócios dessas páginas, abra o editor de formulário de cada página e selecione **Regras de negócios**. Você pode adicionar o novo status à condição nas regras de negócios existentes ou adicionar uma nova regra de negócios para o novo status.
 
 ### <a name="add-custom-validation-rules"></a>Adicionar regras de validação personalizadas
-Há dois tipos de regras de validação que você pode adicionar à experiência da grade de entrada de hora semanal:
+Você pode adicionar dois tipos de regras de validação para a experiência em grade **Entrada de tempo semanal**:
 
-- Regras de negócios do lado do cliente que funcionam em caixas de diálogo de criação rápida e em páginas de TBX.
-- Validações de plug-in do lado do servidor que se aplicam a todas as atualizações de entrada de hora.
+- Regras de negócios do lado do cliente que funcionam em páginas
+- Validações de plug-in do lado do servidor que se aplicam a todas as atualizações de entrada de hora
 
-#### <a name="business-rules"></a>Regras de negócios
-Use regras de negócios para bloquear e desbloquear campos, inserir valores padrão nos campos e definir validações que requerem informações apenas do registro de entrada de hora atual. Você pode acessar as regras de negócios para uma página de TBX, abrindo o editor de fluxo do processo empresarial da página e selecionando **Regras de Negócios**. Você pode editar as regras de negócios existentes ou adicionar uma nova regra de negócios. Para validações ainda mais personalizadas, você pode usar uma regra de negócios para executar o JavaScript.
+#### <a name="client-side-business-rules"></a>Regras de negócios do lado do cliente
+Use regras de negócios para bloquear e desbloquear campos, inserir valores padrão nos campos e definir validações que requerem informações apenas do registro de entrada de hora atual. Para acessar as regras de negócios de uma página, abra o editor de formulário e selecione **Regras de negócios**. Você pode editar as regras de negócios existentes ou adicionar uma nova regra de negócios.
 
-#### <a name="plug-in-validations"></a>Validações de plug-in
-Use validações de plug-in para validações que exijam mais contexto do que o disponível em um registro de entrada de hora único ou para as validações que deseja executar nas atualizações em linha na grade. Para concluir a validação, crie um plug-in personalizado na entidade **Entrada de Hora**.
+#### <a name="server-side-plug-in-validations"></a>Validações de plug-in do lado do servidor
+Você deve usar validações de plug-in para quaisquer validações que exijam mais contexto do que o disponível em um registro de entrada de hora único. Você também deve usá-las para quaisquer validações que deseja executar em atualizações em linha na grade. Para concluir as validações, crie um plug-in personalizado na entidade **Entrada de Hora**.
+
+### <a name="limits"></a>Limites
+No momento, o limite de tamanho da grade **Entrada de hora** é de 500 linhas. Se houver mais de 500 linhas, as linhas em excesso não serão exibidas. Não é possível aumentar esse limite de tamanho.
 
 ### <a name="copying-time-entries"></a>Copiar entradas de hora
 Use a exibição **Copiar Colunas de Entrada de Hora** para definir a lista de campos a serem copiados durante a entrada de hora. **Data** e **Duração** são campos obrigatórios e não devem ser removidos da exibição.

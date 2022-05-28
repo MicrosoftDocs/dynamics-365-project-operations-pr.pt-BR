@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 09/12/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 842ea95892fa4f7a29a778cfd2c33a66e84f676c
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: 06f23630ef0205394f376e5bb93a29ae8a9eab15
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547140"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582880"
 ---
 # <a name="whats-new-september-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades de setembro de 2021 – Project Operations para cenários baseados em recursos/não estocados
 
@@ -21,7 +21,7 @@ ms.locfileid: "7547140"
 Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
    - Project Operations na versão 4.14.0.99 do ambiente do Microsoft Dataverse.
-   - Gerenciamento e contabilidade de projeto no ambiente do Dynamics 365 Finance versão 10.0.20.
+   - Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.20.
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Atualizações dos mapas de gravação dupla do Project Operations
 
@@ -45,7 +45,7 @@ Se você encontrar um problema ao iniciar o mapa, siga as instruções na seçã
 | Cobrança e preço | 2385802 | Corrigido o erro que ocorre com horas reais negativas quando os totais do projeto são atualizados. |
 | Cobrança e preço | 2389675 | Aprimorado o comportamento de confirmação de fatura proforma. A entidade de trabalhos de longa execução deve levar em consideração a atividade necessária para gravar os resultados de confirmação para a contabilidade. |
 
-### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Visão geral de gerenciamento e contabilidade de projeto no Dynamics 365 Finance
+### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>Gerenciamento e contabilidade de projetos no Dynamics 365 Finance
 
 | Área do recurso | Número de referência | Atualização de qualidade |
 | --- | --- | --- |

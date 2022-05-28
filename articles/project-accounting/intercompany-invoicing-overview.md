@@ -3,16 +3,15 @@ title: Visão geral de faturamento intercompanhia
 description: Este tópico fornece informações e exemplos sobre como o faturamento intercompanhia de projetos.
 author: sigitac
 ms.date: 11/19/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b7bb4384657c71552390bbc3d60f3c5d0e4136b4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005377"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8586238"
 ---
 # <a name="intercompany-invoicing-overview"></a>Visão geral de faturamento intercompanhia
 
@@ -20,7 +19,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 Sua organização pode ter várias divisões, subsidiárias e outras entidades legais que transferem produtos e serviços de outros projetos entre si. A entidade legal que fornece o serviço ou produto é chamada de *entidade legal que faz o empréstimo*. A entidade legal que recebe o serviço ou produto é chamada de *entidade legal que toma o empréstimo*.
 
-A ilustração a seguir mostra um cenário típico em que duas entidades legais, Contoso Robotics EUA (a entidade legal que toma o empréstimo) e Contoso Robotics Reino Unido (a entidade legal do empréstimo) compartilha recursos para entregar um projeto para o cliente, Adventure works. Para este cenário, a Contoso Robotics USA é contratada para entregar o trabalho à Adventure Works.
+A ilustração a seguir mostra um cenário típico em que duas entidades legais, a Contoso Robotics USA (a entidade legal que toma o empréstimo) e a Contoso Robotics UK (a entidade legal que faz o empréstimo) compartilham recursos para entregar um projeto para o cliente, a Adventure works. Neste cenário, a Contoso Robotics USA é contratada para entregar o trabalho à Adventure Works.
 
 ![Faturamento intercompanhia.](./media/IntercompanyScenario.png) 
 

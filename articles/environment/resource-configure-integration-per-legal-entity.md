@@ -4,14 +4,14 @@ description: Este tópico fornece informações sobre como configurar a integra�
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999392"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585824"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>Configurar a integração do Project Operations por entidade legal 
 
@@ -19,11 +19,11 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 Este tópico orienta você ao longo das etapas necessárias para configurar o Dynamics 365 Project Operations por entidade legal.
 
-## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Habilitar teclas de função no Dynamics 365 Finance
+## <a name="enable-feature-keys-in-dynamics-365-finance"></a>Habilitar as chaves de recurso no Dynamics 365 Finance
 
 Conclua as etapas a seguir para habilitar os recursos necessários.
 
-1. No Dynamics 365 Finance, acesse o espaço de trabalho **Gerenciamento de Recursos**.
+1. No Dynamics 365 Finance, vá para o espaço de trabalho **Gerenciamento de recursos**.
 2. Na **Lista de recursos**, encontre e ative os seguintes recursos:
   
     - **Habilitar várias linhas de contrato para um projeto**
@@ -34,10 +34,10 @@ Conclua as etapas a seguir para habilitar os recursos necessários.
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>Definir o cenário de implantação do Project Operations para uma entidade legal
 
-Você pode habilitar o Project Operations no Dynamics 365 Customer Engagement em um nível de entidade legal. Você pode ter uma entidade legal usando o Project Operations no Dynamics 365 Customer Engagement para cenários baseados em recursos/sem estoque. No mesmo ambiente, você pode ter outra entidade legal usando o Project Operations para cenários com estoque/ordem de produção.
+Você pode habilitar o Project Operations no Dynamics 365 Customer Engagement em nível de entidade legal. Você pode ter uma entidade legal usando o Project Operations no Dynamics 365 Customer Engagement para cenários baseados em recursos/sem estoque. No mesmo ambiente, você pode ter outra entidade legal usando o Project Operations para cenários com estoque/ordem de produção.
 
-1. No Dynamics 365 Finance, acesse **Gerenciamento e contabilidade de projeto** > **Configuração** > **Parâmetros globais de gerenciamento e contabilidade de projeto**.
-2. Na lista de entidades legais disponíveis, selecione as entidades onde várias linhas de contrato e recursos do Project Operations no Dynamics 365 Customer Engagement serão habilitados. Deixe desmarcadas as entidades legais que usarão o Project Operations para cenários com estoque/ordem de produção.
+1. No Dynamics 365 Finance, vá para **Gerenciamento e contabilidade de projeto** > **Configuração** > **Parâmetros globais de gerenciamento e contabilidade de projetos**.
+2. Na lista de entidades legais disponíveis, selecione entidades nas quais várias linhas de contrato e recursos do Project Operations no Dynamics 365 Customer Engagement serão habilitados. Deixe desmarcadas as entidades legais que usarão o Project Operations para cenários com estoque/ordem de produção.
 
 > [!NOTE]
 > Uma entidade legal pode ser selecionada apenas se não tiver nenhum projeto existente.

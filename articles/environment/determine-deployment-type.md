@@ -4,14 +4,14 @@ description: Este tópico fornece informações para ajudar a determinar o tipo 
 author: stsporen
 ms.date: 03/15/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 4be8e69c5b6ff1ed65e9484a9b427bb428f7ff3e6dc597c615d5586da52867ef
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 280578b2710a0bccd1973b51b062fef7a2997780
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994622"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584122"
 ---
 # <a name="determine-your-deployment-type"></a>Determinar o tipo de implantação
 
@@ -25,7 +25,7 @@ _**Aplica-se a:** operações de projeto para cenários baseados em recursos/nã
 ## <a name="existing-customers-of-dynamics-using-dynamics-365-project-service-automation"></a>Clientes existentes de Dynamics usando Dynamics 365 Project Service Automation
 O Project Operations inclui as funcionalidades fornecidas com o Project Service Automation. Um caminho de atualização será lançado para esses clientes no ciclo de lançamentos 1 de 2021.
 
-## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes existentes do Dynamics 365 Finance usando o Gerenciamento e contabilidade de projeto 
+## <a name="existing-customers-of-dynamics-365-finance-using-project-management-and-accounting"></a>Clientes do Dynamics 365 Finance que usam Gerenciamento e contabilidade de projeto 
 
 Os clientes existentes do Finance que usam a funcionalidade de gerenciamento e contabilidade de projeto podem continuar usando-a da mesma forma. Consulte [Project Operations para cenários de pedido baseado em estoque/produção](#pma).
 
@@ -42,9 +42,9 @@ Nosso [Questionário de implantação](https://aka.ms/provisionprojectoperations
 - [Project Operations para cenários baseados em recursos/itens sem estoque](#integrated)
 - [Project Operations para cenários de pedido baseado em estoque/produção](#pma)
 
-O Project Operations oferece suporte a cenários com estoque/ordem de produção e cenários baseados em recursos/sem estoque no mesmo ambiente por meio de configurações no nível de entidade legal. Por exemplo, Contoso pode usar os recursos em estoque/ordem de produção em sua fábrica nos EUA (entidade legal = Contoso Fabricação nos Estados Unidos). Contoso pode usar os recursos não estocados/sem estoque na instalação de atendimento Contoso Robotics Arms no Reino Unido (entidade legal = Contoso Robotics - Reino Unido).
+O Project Operations oferece suporte a cenários com estoque/ordem de produção e cenários baseados em recursos/sem estoque no mesmo ambiente por meio de configurações no nível de entidade legal. Por exemplo, a Contoso pode usar os recursos de pedido baseado em estoque/produção em instalações de manufatura nos EUA (entidade legal = Contoso Manufacturing Estados Unidos). A Contoso pode usar os recursos não estocados/baseados em recursos em instalações de serviço da Contoso Robotics Arms no Reino Unido (entidade legal = Contoso Robotics Reino Unido).
 
-### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implantação lite – gerenciar faturamento pro forma
+### <a name="lite-deployment---deal-to-proforma-invoicing"></a><a  name="lite"></a>Implantação lite - gerenciar faturamento pro forma
 
 A implantação lite inclui as seguintes funcionalidades:
 

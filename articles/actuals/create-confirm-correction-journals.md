@@ -6,29 +6,25 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.custom: ''
 ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
+ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f12cdba286a9e29e2c4eb4041effbe779cba65f3562684d625b21bc3bae809d6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c15db854e3d130150ad7afc707a126b37c57f62d
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986702"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582789"
 ---
 # <a name="create-and-confirm-correction-journals"></a>Criar e confirmar diários de correção
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Ocasionalmente, uma entrada de hora ou de despesa pode ser inserida incorretamente. Por exemplo, um consultor pode selecionar a data erada ao criar uma entrada de hora ou pode transpor os números ao inserir uma despesa. Se um consultor não puder atualizar as entradas enviadas, um administrador pode corrigir a entrada de um projeto diretamente.
-
-Para concluir os procedimentos neste tópico, será necessário ter permissões de Administrador.
+Às vezes, uma entrada de hora ou despesa pode ser inserida incorretamente. Por exemplo, um consultor pode selecionar a data errada ao criar uma entrada de hora ou selecionar o projeto errado ao inserir uma despesa. Se um consultor não conseguir atualizar as entradas enviadas, um administrador de back-end poderá corrigir os dados reais de um projeto diretamente.
 
 ## <a name="correct-approved-time-entries"></a>Corrigir entradas de hora aprovadas     
 
@@ -46,8 +42,8 @@ Siga as etapas para corrigir uma ou várias entradas de hora de um projeto.
 
 6. Selecione **Versão Prévia**. Na caixa de diálogo, selecione **OK**. Na guia **Linhas do diário**, é possível visualizar uma lista dos dados reais originais relacionados às entradas de hora selecionadas que foram revertidas e as linhas correspondentes corrigidas que foram criadas. Se forem necessárias correções adicionais, repita as etapas 5 e 6. 
 
-> [!NOTE]
-> Todos os dados reais corrigidos terão os mesmos valores selecionados na seção **Novos valores para Entradas de Hora**.
+    > [!NOTE]
+    > Todos os dados reais corrigidos terão os mesmos valores selecionados na seção **Novos valores para Entradas de Hora**.
 
 7. Se as correções aparecerem conforme o esperado, selecione **Confirmar**. Na caixa de diálogo, selecione **OK**.
 
@@ -55,12 +51,10 @@ Siga as etapas para corrigir uma ou várias entradas de hora de um projeto.
 
 9. Na página **Projetos**, na guia **Dados Reais**, exiba as alterações feitas. 
 
-> [!NOTE]
-> Se a guia **Dados Reais** não estiver visível, selecione **Relacionados** > **Dados Reais**.  
+    > [!NOTE]
+    > Se a guia **Dados Reais** não estiver visível, selecione **Relacionados** > **Dados Reais**.  
 
 10. Na lista **Exibição Associada de Dados Reais**, é possível ver que as entradas de hora originais que foram revertidas ainda estão listadas, assim como as entradas de hora corrigidas correspondentes. 
-
-Por exemplo, no gráfico a seguir, há dois itens de linha com uma quantidade igual a 8,00 com débitos listados na coluna Valor. Além disso, há dois itens de linha com uma quantidade igual a -8,00 que mostram quantidades creditadas na coluna Valor. Essas correções definem a quantidade como zero.
 
  
 ## <a name="correct-approved-expense-entries"></a>Corrigir entradas de despesa aprovadas
@@ -79,14 +73,30 @@ Siga as etapas para corrigir uma ou mais entradas de despesa.
 
 6. Se os valores das correções aparecerem conforme o esperado, selecione **Confirmar**. Na caixa de diálogo, selecione **OK**. Se os valores não estiverem sendo exibidos conforme o esperado, selecione **Cancelar** para voltar para a lista de **Despesas Aprovadas**. Repita as etapas 2 a 5. 
 
-> [!NOTE]
-> Os dados reais corrigidos terão os mesmos valores selecionados na seção **Novos valores para Despesas**.
+7. Depois de confirmar o diário de correção, retorne ao(s) projeto(s) que você atualizou para ver as alterações.
 
-7. Depois de confirmar o diário de correção, navegue de volta até os projetos atualizados para exibir as alterações.  
-
-8. Na página do projeto, na guia **Dados Reais**, revise a **Exibição Associada de Dados Reais**. As entradas originais e as entradas corrigidas serão listadas. O gráfico a seguir mostra os valores de entrada de despesa originais e os valores de entrada de despesa correspondentes corrigidos. 
+8. Na guia **Dados reais** da página do projeto, revise a lista **Exibição Associada de Dados Reais**. As entradas originais e as entradas corrigidas serão listadas.
 
 
+## <a name="correct-approved-material-usage-logs"></a>Corrigir os logs aprovados de uso de material
+
+Realize as etapas a seguir para corrigir uma ou mais entradas de log de uso de material.
+
+1. Na área **Vendas**, no painel de navegação esquerdo, em **Transações**, selecione **Dados reais**.
+
+2. Na lista **Dados reais**, use filtros de coluna para selecionar a classe de transação **Material** de modo que sejam mostrados apenas os dados reais de material. Use outros filtros de coluna para limitar ainda mais os dados reais mostrados. Depois de encontrar o conjunto desejado de dados reais, selecione os dados reais e selecione **Corrigir entradas**. Um novo diário de correção é criado automaticamente e o tipo **Correção de uso do material** é atribuído.
+
+3. Na página **Novo Diário**, no campo **Descrição**, digite uma descrição da correção. Depois, na guia **Correção de Uso do Material**, na seção **Novos Valores para Materiais**, selecione os campos de dados para corrigir as linhas de materiais selecionadas. Por exemplo, você pode atribuir o material a outro projeto ou corrigir o produto, a data do material ou o subcontrato.
+
+4. Selecione **Versão Prévia**. Depois, na próxima caixa de diálogo, selecione **OK**.
+
+5. Na guia **Linhas do diário**, verifique as correções. Você pode visualizar uma lista dos dados reais originais relacionados às entradas de material selecionadas que foram revertidos e as linhas correspondentes corrigidas que foram criadas.
+
+6. Se os valores das correções aparecerem conforme o esperado, selecione **Confirmar**. Depois, na próxima caixa de diálogo, selecione **OK**. Se os valores não forem os esperados, selecione **Cancelar** para voltar à lista **Dados reais**. Em seguida, repita as etapas 2 a 5.
+
+7. Depois de confirmar o diário de correção, retorne ao(s) projeto(s) que você atualizou para ver as alterações.
+
+8. Na guia **Dados reais** da página do projeto, revise a lista **Exibição Associada de Dados Reais**. As entradas originais e as entradas corrigidas serão listadas.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
