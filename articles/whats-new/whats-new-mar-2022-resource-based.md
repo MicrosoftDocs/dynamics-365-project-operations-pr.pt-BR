@@ -1,24 +1,24 @@
 ---
 title: Novidades em março de 2022 – Project Operations para cenários baseados em recursos/sem estoque
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de março de 2022 do Project Operations para cenários baseados em recursos/sem estoque.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de março de 2022 do Project Operations para cenários baseados em recursos/sem estoque.
 author: sigitac
 ms.date: 03/31/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: afd5149cda909b5367e7f12382423179d7e19267
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 986d0652ed502873085259fef5ad40aba99c278d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600728"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910892"
 ---
 # <a name="whats-new-march-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em março de 2022 – Project Operations para cenários baseados em recursos/sem estoque
 
 *Aplicável A: Project Operations para cenários baseados em recursos/sem estoque*
 
-Este tópico se aplica aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
+Este artigo se aplica aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
 - Project Operations em um ambiente do Dataverse versão 4.30.0.99
 - Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.25
@@ -91,11 +91,11 @@ Se você encontrar um problema ao iniciar o mapa, siga as instruções na seçã
 
 ## <a name="removed-and-deprecated-features"></a>Recursos removidos e preteridos
 
-O tópico [Recursos removidos ou preteridos no Project Operations](removed-depreciated-features-project.md) descreve recursos que foram removidos ou preteridos no Dynamics 365 Project Operations.
+O artigo [Recursos removidos ou preteridos no Project Operations](removed-depreciated-features-project.md) descreve recursos que foram removidos ou preteridos no Dynamics 365 Project Operations.
 
 - Um recurso removido não está mais disponível no produto.
 - Um recurso preterido não está em desenvolvimento ativo e poderá ser removido em uma atualização futura.
 
-Um anúncio de preterimento será exibido no tópico [Recursos removidos ou preteridos no Project Operations](removed-depreciated-features-project.md) 12 meses antes da remoção de qualquer recurso do produto.
+Um anúncio de preterimento será exibido no artigo [Recursos removidos ou preteridos no Project Operations](removed-depreciated-features-project.md) 12 meses antes da remoção de qualquer recurso do produto.
 
 Para as alterações interruptivas que afetam somente o tempo de compilação, mas são compatíveis binárias com ambientes de área restrita e de produção, o tempo de preterimento será inferior a 12 meses. Normalmente, essas alterações são atualizações funcionais que precisam ser feitas no compilador.

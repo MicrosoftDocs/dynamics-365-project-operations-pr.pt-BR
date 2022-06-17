@@ -1,18 +1,18 @@
 ---
 title: Integração de faturas de fornecedores
-description: Este tópico fornece informações sobre a integração de faturas de fornecedores no Project Operations.
+description: Este artigo fornece informações sobre a integração de faturas de fornecedores no Project Operations.
 author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d1e41638b6fe827e9e577860a78a84a9948053e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591161"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912042"
 ---
 # <a name="vendor-invoice-integration"></a>Integração de faturas de fornecedores
 
@@ -21,7 +21,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 Compras relacionadas ao projeto no Dynamics 365 Project Operations podem ser gravadas acessando **Contas a pagar** > **Faturas** > **Faturas de fornecedor pendentes** e usando um documento de fatura de fornecedor pendente. Para obter mais informações, consulte [Comprar materiais não estocados usando uma fatura de fornecedor pendente](../procurement/pending-vendor-invoices.md).
 
 > [!IMPORTANT]
-> Antes de usar a funcionalidade descrita neste tópico, revise e aplique as configurações necessárias. Para obter mais informações, consulte [Habilitar materiais não estocados e faturas de fornecedores pendentes](../procurement/configure-materials-nonstocked.md).
+> Antes de usar a funcionalidade descrita neste artigo, revise e aplique as configurações necessárias. Para obter mais informações, consulte [Habilitar materiais não estocados e faturas de fornecedores pendentes](../procurement/configure-materials-nonstocked.md).
 
 No Project Operations, as faturas de fornecedor relativas ao projeto são postadas usando regras especiais de postagem:
 

@@ -1,6 +1,6 @@
 ---
 title: Visão geral do Project Service Automation
-description: Este tópico fornece informações sobre a solução de integração do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+description: Este artigo fornece informações sobre a solução de integração do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 author: ruhercul
 ms.date: 07/25/2019
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 96fdb31b7b1d4f33cb565cf902039f72a3f90fd7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685502"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929568"
 ---
 # <a name="project-service-automation-overview"></a>Visão geral do Project Service Automation
 

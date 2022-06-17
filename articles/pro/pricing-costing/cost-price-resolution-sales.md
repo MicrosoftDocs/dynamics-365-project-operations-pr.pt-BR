@@ -1,18 +1,18 @@
 ---
 title: Resolver preços de custo em estimativas e dados reais do projeto
-description: Este tópico fornece informações sobre como resolver preços de custo em estimativas de projeto e em dados reais.
+description: Este artigo fornece informações sobre como preços de custo em estimativas e dados reais do projeto são resolvidos.
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 94aa1a62ad17fdeb3da8499585ac704b5db75701
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586468"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917516"
 ---
 # <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Resolver preços de custo em estimativas e dados reais do projeto 
 

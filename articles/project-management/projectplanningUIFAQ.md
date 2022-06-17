@@ -1,25 +1,25 @@
 ---
 title: Solucionar problemas de trabalho na grade de Tarefas
-description: Este tópico fornece informações de solução de problemas necessárias ao trabalhar na grade de Tarefas.
+description: Este artigo apresenta informações sobre a solução de problemas necessárias ao trabalhar na grade de tarefas
 author: ruhercul
 ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596404"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911030"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemas de trabalho na grade de Tarefas 
 
 
 _**Aplicável a:** Project Operations para cenários baseados em recursos/sem estoque, Implantação leve – para realizar o faturamento, Project for the Web_
 
-A grade de Tarefas utilizada pelo Dynamics 365 Project Operations é um iframe hospedado no Microsoft Dataverse. Como resultado desse uso, requisitos específicos devem ser atendidos para garantir que a autenticação e a autorização estejam funcionando corretamente. Este tópico descreve os problemas comuns que podem impactar a capacidade de renderizar a grade ou gerenciar tarefas na estrutura de detalhamento de trabalho (WBS).
+A grade de Tarefas utilizada pelo Dynamics 365 Project Operations é um iframe hospedado no Microsoft Dataverse. Como resultado desse uso, requisitos específicos devem ser atendidos para garantir que a autenticação e a autorização estejam funcionando corretamente. Este artigo descreve os problemas comuns que podem impactar a capacidade de renderizar a grade ou gerenciar tarefas na estrutura de detalhamento de trabalho (WBS).
 
 Problemas comuns incluem:
 

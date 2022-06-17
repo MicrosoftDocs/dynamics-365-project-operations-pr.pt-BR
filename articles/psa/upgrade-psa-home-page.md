@@ -1,6 +1,6 @@
 ---
 title: Home page de atualização
-description: Este tópico mostra onde encontrar informações importantes sobre os recursos novos e alterados no Dynamics 365 Project Service Automation e o processo de atualização para a versão mais recente.
+description: Este artigo mostra onde encontrar informações importantes sobre os recursos novos e alterados no Dynamics 365 Project Service Automation e o processo de atualização para a versão mais recente.
 ms.prod: ''
 ms.custom:
 - dyn365-projectservice
@@ -19,12 +19,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 337bb2d13eae7cc971b801a3c9662a7a1769909f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5dcf41af31a60b952ce82c08e3c082490d59d4f6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591359"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926624"
 ---
 # <a name="upgrade-home-page"></a>Home page de atualização
 
@@ -48,14 +48,14 @@ Anteriormente, os clientes que possuem uma instância do PSA versão 2.xe precis
 Antes de iniciar o processo de atualização, recomendamos que você conclua as seguintes tarefas:
 
 - Verifique se o Dynamics 365 Field Service e o Project Service Automation estão instalados na instância identificada. Se as duas soluções estiverem instaladas, planeje atualizar as duas antes de retomar o uso regular da instância.
-- Analise cuidadosamente os seguintes tópicos. A conscientização e o reconhecimento das alterações entre as versões ajudarão você no processo de atualização. Esses tópicos fornecem informações sobre as principais alterações no PSA, juntamente com considerações e recomendações para planejar sua atualização para a versão 3.x.
+- Analise cuidadosamente os artigos a seguir. A conscientização e o reconhecimento das alterações entre as versões ajudarão você no processo de atualização. Estes artigos fornecem informações sobre as principais alterações no PSA, junto com considerações e recomendações para planejar a atualização para a versão 3.x.
 
     - [Novidades ou alterações no Project Service Automation versão 3](whats-new-changed-v3.md)
     - [Considerações sobre atualização - Project Service Automation versão 2.x ou 1.x para a versão 3](upgrade-v3.md)
 
 - Atualize sua instância de área restrita para avaliar as alterações em sua implementação antes de atualizar sua instância de produção.
 
-Depois de analisar os tópicos mencionados anteriormente e estar pronto para atualizar para o PSA versão 3.x ou a versão baseada em UCI, envie uma solicitação ao suporte da Microsoft para disponibilizar a atualização no Centro de Administração. Em sua solicitação, forneça os detalhes da sua instância.
+Depois de analisar os artigos mencionados antes e estar pronto para atualizar para o PSA versão 3.x ou a versão baseada em UCI, envie uma solicitação ao suporte da Microsoft para disponibilizar a atualização no Centro de Administração. Em sua solicitação, forneça os detalhes da sua instância.
 
 ## <a name="older-versions-of-psa-psa-version-2x-in-a-newly-created-instance"></a>Versões mais antigas do PSA (PSA versão 2.x) em uma instância recém-criada
 

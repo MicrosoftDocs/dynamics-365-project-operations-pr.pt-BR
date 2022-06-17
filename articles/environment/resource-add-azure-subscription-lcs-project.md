@@ -1,23 +1,23 @@
 ---
 title: Adicionar uma subscrição do Azure a um projeto do LCS
-description: Este tópico fornece informações sobre como conectar sua subscrição do Azure a um projeto do LCS.
+description: Este artigo fornece informações sobre como conectar sua assinatura do Azure a um projeto LCS.
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 839c510838b0bccb718b8ca8a4f71a1c46e7ea3f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 64ee8cfa7394a08c3d588c0e8f4a73185d9496cf
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595898"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912134"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adicionar uma subscrição do Azure a um projeto do LCS
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Ambientes hospedados em nuvem devem ser implantados usando uma subscrição existente do Azure. Este tópico explica como conectar sua subscrição existente do Azure a um projeto do LCS. 
+Ambientes hospedados em nuvem devem ser implantados usando uma subscrição existente do Azure. Este artigo explica como conectar sua assinatura existente do Azure a um projeto LCS. 
 
 ## <a name="grant-admin-consent"></a>Conceder consentimento do administrador
 
@@ -59,7 +59,7 @@ A autorização agora está concluída.
 2. Insira sua ID da assinatura do Azure. Você pode encontrar sua ID da assinatura do Azure no [portal do Azure](https://ms.portal.azure.com/), em **Configurações** no canto inferior esquerdo da tela.
 3. No campo **Configurar para usar o Azure Resource Manager**, selecione **Sim**.
 4. Certifique-se de que o Domínio de Locatário do AAD de Subscrição do Azure corresponda à subscrição do Azure proprietária do domínio que você está usando e selecione **Avançar**.
-5. Na tela **Configuração do Microsoft Azure**, selecione **Avançar** para confirmar. Se ocorrer um erro nessa tela, volte para a seção [Fornecer ao Dynamics Deployment Services acesso à sua subscrição do Azure](#provide) neste tópico e certifique-se de ter concluído todas as etapas.
+5. Na tela **Configuração do Microsoft Azure**, selecione **Avançar** para confirmar. Se você receber um erro nesta tela, volte para a seção [Fornecer acesso aos Serviços de Implantação do Dynamics à assinatura do Azure](#provide) neste artigo e certifique-se de ter concluído todas as etapas.
 6. Baixe o Certificado de Gerenciamento do Azure para uma pasta local em seu computador. Peça ao administrador de assinatura do Azure para carregar o certificado no Portal de Gerenciamento do Azure selecionando a assinatura e acessando **Configurações** > **Certificados de Gerenciamento**. Este certificado permite que o LCS se comunique com o Azure em seu nome. Você poderá pular essa etapa se seu usuário tiver acesso à subscrição.
 7. Selecione **Avançar**.
 8. Selecione a região do Azure para implantar e selecione um data center próximo ao local onde você planeja usar este sistema.

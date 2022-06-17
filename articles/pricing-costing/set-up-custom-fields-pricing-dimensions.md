@@ -1,6 +1,6 @@
 ---
 title: Configurar campos personalizados como dimensões de preço
-description: Este tópico fornece informações sobre como configurar dimensões de precificação usando campos personalizados.
+description: Este artigo fornece informações sobre como configurar dimensões de preço usando campos personalizados.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c65d6bf64d8a81759239f2a31f3a68953181c8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0c0c43e483ebcb016747e533d685f13fd5dd8700
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599394"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917562"
 ---
 # <a name="set-up-custom-fields-as-pricing-dimensions"></a>Configurar campos personalizados como dimensões de preço
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Antes de começar, este tópico presume que você concluiu os procedimentos nos tópicos [Criar campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md) e [Adicionar campos personalizados obrigatórios a entidades transacionais e de configuração de preço](add-custom-fields-price-setup-transactional-entities.md). Se você não concluiu esses procedimentos, volte e conclua-os e retorne a este tópico. 
+Antes de começar, este artigo supõe que os procedimentos nos artigos foram concluídos, [Criar campos personalizados e entidades](create-custom-fields-entities-pricing-dimensions.md) e [Adicionar campos personalizados para configuração de preço e entidades transacionais](add-custom-fields-price-setup-transactional-entities.md). Se você não concluiu esses procedimentos, volte e conclua-os e retorne a este artigo. 
 
-Esse tópico fornece informações sobre a configuração de dimensões de preço personalizadas. Na página **Parâmetros**, a guia **Dimensões de Precificação Baseadas em Valor** mostra os registros nas entidades de dimensões de precificação. Por padrão, há duas linhas na grade desta guia:
+Esse artigo fornece informações sobre a configuração de dimensões de preço personalizadas. Na página **Parâmetros**, a guia **Dimensões de Precificação Baseadas em Valor** mostra os registros nas entidades de dimensões de precificação. Por padrão, há duas linhas na grade desta guia:
 
 - **msdyn_resourcecategory** (Função)
 - **msdyn_OrganizationalUnit** (Unidade Organizacional)

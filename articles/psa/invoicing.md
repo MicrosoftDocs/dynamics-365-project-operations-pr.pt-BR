@@ -1,6 +1,6 @@
 ---
 title: Faturando no Project Service Automation
-description: Este tópico fornece informações sobre faturamento.
+description: Este artigo fornece informações sobre faturamento.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 84134778225bfce1126ccf70b32e0c82c4ccc3fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fa036dda6514449b04e1416bde2cd9c21fc558b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579292"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926808"
 ---
 # <a name="invoicing-in-project-service-automation"></a>Faturando no Project Service Automation
 
@@ -94,7 +94,7 @@ Quando **ProcessRunner** termina de ser executado, ele chama **ProcessRunCaller*
 O trabalho do processo em lote para criação de faturas é um trabalho recorrente. Se esse processo em lote for executado muitas vezes, várias instâncias do trabalho serão criadas e causarão erros. Portanto, você deve iniciar o processo em lote apenas uma vez, assim como deve reiniciá-lo apenas se a execução for interrompida.
 
 > [!NOTE]
-> O faturamento em lote no Project Service Automation é executado somente para linhas de contrato do projeto que são configuradas por agendas de fatura. Uma linha de contrato com um método de cobrança de preço fixo deve ter marcos configurados. Uma linha de contrato do projeto com um método de cobrança de horas e de material precisará de uma configuração de agenda de faturas baseada em data. As informações sobre a configuração de frequências de faturamento no contexto de um projeto que é baseado em uma linha de cotação são fornecidas no tópico [Cotações e linhas de cotação](basic-quote-lines.md#invoice-schedule). O mesmo se aplica a um projeto baseado em linha de contrato.      
+> O faturamento em lote no Project Service Automation é executado somente para linhas de contrato do projeto que são configuradas por agendas de fatura. Uma linha de contrato com um método de cobrança de preço fixo deve ter marcos configurados. Uma linha de contrato do projeto com um método de cobrança de horas e de material precisará de uma configuração de agenda de faturas baseada em data. Informações sobre a configuração de frequências de faturamento no contexto de um projeto baseado em uma linha de cotação são fornecidas no artigo, [Cotações e linhas de cotação](basic-quote-lines.md#invoice-schedule). O mesmo se aplica a um projeto baseado em linha de contrato.      
  
 ### <a name="edit-a-draft-psa-invoice"></a>Editar uma fatura de rascunho do PSA
 

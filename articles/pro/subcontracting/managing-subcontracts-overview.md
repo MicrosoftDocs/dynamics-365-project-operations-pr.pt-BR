@@ -1,17 +1,17 @@
 ---
 title: Gerenciamento de subcontratos no Project Operations
-description: Este tópico fornece uma visão geral do processo de gerenciamento de subcontratos de ponta a ponta, geralmente em organizações baseadas em projeto.
+description: Este artigo fornece uma visão geral do processo de gerenciamento de subcontratos de ponta a ponta normalmente em organizações baseadas em projetos.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d595e948b7be9a6822827f4841e737d3c0e1476b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8f5e025b5f741935494349fb1bdfd3a19bacb5e1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593000"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911490"
 ---
 # <a name="subcontract-management-in-project-operations"></a>Gerenciamento de subcontratos no Project Operations
 
@@ -19,7 +19,7 @@ ms.locfileid: "8593000"
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Este tópico fornece uma visão geral do processo de gerenciamento de subcontratos de ponta a ponta, geralmente em organizações baseadas em projeto. A subcontratação de serviços geralmente segue o fluxo do processo empresarial mostrado no diagrama a seguir.
+Este artigo fornece uma visão geral do processo de gerenciamento de subcontratos de ponta a ponta em organizações baseadas em projetos. A subcontratação de serviços geralmente segue o fluxo do processo empresarial mostrado no diagrama a seguir.
 
 ![Fluxo do processo de subcontratação](../media/SubcontractingProcessFlow.png)
 

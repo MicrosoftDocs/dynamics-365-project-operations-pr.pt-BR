@@ -1,17 +1,17 @@
 ---
 title: Usar Categoria da Transação como uma dimensão de precificação
-description: Este tópico fornece informações sobre o campo Categoria de Transação como uma dimensão de precificação.
+description: Este artigo fornece informações sobre como usar o campo Categoria de Transação como uma dimensão de preço.
 author: rumant
 ms.date: 11/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a7fe9bfc87db992252f8ef3f0f688e7426cafebb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 648933299616a683b19bbe2f1231caac779bd1f8
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591114"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911680"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>Usar Categoria da Transação como uma dimensão de precificação
 
@@ -19,20 +19,20 @@ ms.locfileid: "8591114"
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 
-Este tópico explica como usar o campo **Categoria de Transação** como uma dimensão de precificação. 
+Este artigo explica como usar o campo **Categoria de Transação** como uma dimensão de preço. 
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Antes de concluir os procedimentos neste tópico, você deve ter uma nova solução de dimensão de preços para sua organização. Se você ainda não criou uma, consulte [Criar campos e entidades personalizadas como dimensões de preços](create-custom-fields-entities-pricing-dimensions.md).
+Antes de concluir os procedimentos deste artigo, você deve ter uma nova solução de dimensão de preços para sua organização. Se você ainda não criou uma, consulte [Criar campos e entidades personalizadas como dimensões de preços](create-custom-fields-entities-pricing-dimensions.md).
 
 ## <a name="add-the-transaction-category-field-to-forms-and-views"></a>Adicionar o campo Categoria de Transação a formulários e exibições
 Para tornar o campo **Categoria de Transação** visível na solução de dimensão de preços, você precisa adicionar o campo a todos os formulários e exibições como uma entidade.
 
 A tabela a seguir lista todos os formulários e exibições prontos para uso, por entidade. Você também precisará adicionar o novo campo a formulários ou exibições adicionais em entidades personalizadas.
 
-|  Entity        | Formulários     |Modos de exibição        |
+|  Entidade        | Formulários     |Modos de exibição        |
 | ------------------------------|---------------------------------|----------------------------------|
-|  Preço da Função| Informação |- Preços de Categorias de Recursos Ativos<br> - Preço de Categoria de Recurso Associado |
-|  Markup de Preço da Função| Informação|- Markup de Preço de Função Ativo<br>- Markup de Preço de Função Associado |
+|  Preço da Função| Informações |- Preços de Categorias de Recursos Ativos<br> - Preço de Categoria de Recurso Associado |
+|  Markup de Preço da Função| Informações|- Markup de Preço de Função Ativo<br>- Markup de Preço de Função Associado |
 |  Detalhe da Linha de Cotação|- Informações do Projeto<br>- Criação Rápida do ProJeto| - Detalhe da Linha de Cotação Ativa<br>- Detalhes da Linha de Cotação Combinada<br>- Detalhe da Linha de Cotação Associada |
 |  Detalhe da Linha de Contrato do Projeto|- Informações do Projeto<br>- Criação Rápida do ProJeto|- Detalhes da Linha de Contrato Combinada<br>- Detalhes da Linha de Contrato Ativa<br>- Detalhe da Linha de Contrato Associada |
 |  Tarefa do Projeto|- Informações<br>- Novo Formulário| &nbsp; |

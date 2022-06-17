@@ -1,6 +1,6 @@
 ---
 title: Adicionar campos personalizados a entidades transacionais e de configuração de preço
-description: Este tópico fornece informações sobre como adicionar campos personalizados às entidades transacionais e de configuração de preço.
+description: Este artigo fornece informações sobre como adicionar campos personalizados às entidades transacionais e de configuração de preço.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cb4a99b10e5d0c79e80bcd46d2f60ccdab4487aa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b666d1767306b9833fba36c6ed2c59a633c5fdf0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596864"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920460"
 ---
 # <a name="add-custom-fields-to-price-setup-and-transactional-entities"></a>Adicionar campos personalizados a entidades transacionais e de configuração de preço 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Este tópico pressupõe que você concluiu os procedimentos do tópico [Criar campos e entidades personalizados](create-custom-fields-entities.md). Se você não concluiu esses procedimentos, volte e conclua-os e retorne a este tópico. 
+Este artigo pressupõe que você concluiu os procedimentos do artigo [Criar campos e entidades personalizados](create-custom-fields-entities.md). Se você não concluiu esses procedimentos, volte e conclua-os e retorne a este artigo. 
 
-Neste tópico, os procedimentos mostrarão como adicionar as referências de campo personalizadas necessárias às entidades e aos elementos da interface do usuário, como formulários e exibições.
+Neste artigo, os procedimentos mostrarão como adicionar as referências de campo personalizadas necessárias às entidades e aos elementos da interface do usuário, como formulários e exibições.
 
 ## <a name="add-custom-pricing-dimension-fields"></a>Adicionar campos personalizados de dimensão de preço 
 Depois que campos e entidades personalizados tiverem sido criados, a próxima etapa será conscientizar entidades transacionais e de configuração de preço sobre todos os conjuntos de opções e entidades personalizadas criando campos de referência. De acordo com o que a lista de dimensões de preço incluir, dimensões de conjunto de opções ou dimensões de entidade, ou ambas, siga somente as etapas em **Dimensões de preço personalizadas baseadas em conjunto de opções** ou **Dimensões de preço personalizadas baseadas em entidade**, ou em ambas, respectivamente.

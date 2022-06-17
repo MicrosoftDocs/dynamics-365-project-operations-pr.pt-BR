@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações na Versão de Atualização 33 do Project Service Automation V3
-description: Este tópico lista os recursos e as correções novas ou alteradas disponíveis na Versão de Atualização 33 do Project Service Automation V3.
+description: Este artigo lista os recursos e as correções disponíveis na atualização do Project Service Automation versão 33, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 06/30/2021
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 063290526c25e7073137fc88408be6a61d2d20ac
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d9c282e8b95b111ce71fb441e4dbb2d04f904e0f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601464"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915400"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-update-release-33-v3"></a>Novidades ou alterações na Versão de Atualização 33 do Project Service Automation V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8601464"
 
 Temos o prazer de anunciar a atualização mais recente do aplicativo Microsoft Dynamics 365 Project Service Automation. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. É compatível com o Dynamics 365 9.x. Para atualizar para esta versão, visite o Centro de Administração para a página de soluções online do Dynamics 365 e instale a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
-Este tópico lista os recursos e as correções novas ou alteradas para o Project Service Automation V3, Versão de Atualização 33. Esta versão tem um número de compilação de V3.10.54.98 e geralmente fica disponível por meio de uma atualização automática em julho de 2021.
+Este artigo lista os recursos e as correções novos ou alterados na atualização do Project Service Automation versão 33, V3. Esta versão tem um número de compilação de V3.10.54.98 e geralmente fica disponível por meio de uma atualização automática em julho de 2021.
 
 ## <a name="update-release-33"></a>Versão de Atualização 33
 

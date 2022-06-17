@@ -1,18 +1,18 @@
 ---
 title: Visão geral das dimensões de precificação
-description: Esse tópico fornece informações sobre as dimensões de precificação no Dynamics 365 Project Operations.
+description: Este artigo fornece informações sobre as dimensões de preço no Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/30/2020
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5f1fa83b52c3812f26e3ab75a8b08ebd40d82aa8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 294dcff8e9717aaa3a0459daf87cb7d608c96106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918022"
 ---
 # <a name="pricing-dimensions-overview"></a>Visão geral das dimensões de precificação
 
@@ -34,7 +34,7 @@ O Dynamics 365 Project Operations apresenta um conjunto padrão de dimensões de
 
 ![Captura de tela dos parâmetros do Project Service com "Aplicável às Vendas" em destaque.](media/PS-OOB-parameters.png)
 
-Se precisar precificar ou colocar custo para seus recursos usando atributos adicionais, você poderá criar campos, entidades e dimensões personalizados. Para obter mais informações, consulte os seguintes tópicos. 
+Se precisar precificar ou colocar custo para seus recursos usando atributos adicionais, você poderá criar campos, entidades e dimensões personalizados. Para obter mais informações, consulte os artigos a seguir. 
   
   > [!NOTE]
   > Os procedimentos devem ser concluídos na ordem em que estão listados.

@@ -1,24 +1,24 @@
 ---
 title: O que há de novo no acesso antecipado do ciclo 2 de 2021 - Implantação lite do Project Operations
-description: Este tópico fornece informações sobre os recursos disponíveis na versão de acesso antecipado do ciclo 2 de 2021 da implantação lite do Project Operations.
+description: Este artigo fornece informações sobre os recursos disponíveis na versão de acesso antecipado do ciclo 2 de 2021 da implantação do Project Operations lite.
 author: sigitac
 ms.date: 08/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 7b5f3528e4b4e615b8e7f24bfd3702746fd584c9
-ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
+ms.openlocfilehash: d245868c8bd9ff332707a81c074d6c7ae3649378
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/06/2022
-ms.locfileid: "8723662"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924094"
 ---
 # <a name="whats-new-2021-wave-2-early-access---project-operations-lite-deployment"></a>O que há de novo no acesso antecipado do ciclo 2 de 2021 - Implantação lite do Project Operations
 
 _Aplica-se a: Implantação lite – gerenciar faturamento pro forma_
 
-Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
   - Project Operations no ambiente do Dataverse versão 4.23.0.4
 

@@ -1,6 +1,6 @@
 ---
 title: Guia básico para cotação, preço e cobrança
-description: Este tópico fornece links para informações sobre cotação, cobrança e preço básicos no Project Service Automation.
+description: Este artigo fornece links para informações sobre cotação, cobrança e preço básicos no Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592218"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910748"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>Guia básico para cotação, preço e cobrança
 
@@ -32,7 +32,7 @@ ms.locfileid: "8592218"
 
 A capacidade de encontrar recursos certos no momento certo, reservar esses recursos em projetos e mantê-los em utilização ajuda as organizações a atingir metas de receita e de satisfação do cliente. 
 
-O link do PDF que estava neste tópico foi removido e o conteúdo foi movido para os seguintes tópicos:
+O link do PDF que estava neste artigo foi removido e o conteúdo foi movido para os seguintes artigos:
 
 - [Cotação, preço e cobrança](../quote-bill-price.md)
 - [Processos de vendas](../basic-sales-process.md)
@@ -50,7 +50,7 @@ O link do PDF que estava neste tópico foi removido e o conteúdo foi movido par
 - [Registrando dados reais](../advanced-actuals.md)
 
 > [!NOTE]
-> Esse tópico será removido em uma atualização futura da documentação. 
+> Este artigo será removido em uma atualização futura da documentação. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

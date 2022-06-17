@@ -1,6 +1,6 @@
 ---
 title: Considerações sobre atualização para a estrutura de detalhamento de trabalho
-description: Este tópico fornece informações sobre a atualização da estrutura de detalhamento de trabalho do Project Service Automation 2.x para 3.x.
+description: Este artigo fornece informações sobre a atualização da estrutura de detalhamento de trabalho do Project Service Automation 2.x para 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913100"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>Considerações sobre atualização para a estrutura de detalhamento de trabalho
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Este tópico fornece informações sobre a atualização da estrutura de detalhamento de trabalho do Project Service Automation 2.x para 3.x. Este tópico define o estado íntegro de um projeto no Project Service Automation (PSA) necessário para uma atualização bem-sucedida. Há também informações sobre as condições de bloqueio comuns que causarão falhas na atualização. Para obter mais informações sobre como definir tarefas do projeto e suas funções em uma agenda do projeto, consulte [Agendas de projeto](project-creating.md).
+Este artigo fornece informações sobre a atualização da estrutura de detalhamento de trabalho do Project Service Automation 2.x para 3.x. Este artigo define o estado íntegro de um projeto no Project Service Automation (PSA) necessário para uma atualização bem-sucedida. Há também informações sobre as condições de bloqueio comuns que causarão falhas na atualização. Para obter mais informações sobre como definir tarefas do projeto e suas funções em uma agenda do projeto, consulte [Agendas de projeto](project-creating.md).
 
 ## <a name="key-entities"></a>Entidades principais
 Para uma estrutura de detalhamento de trabalho precisa que já esteja carregada com recursos, são necessárias as seguintes entidades:

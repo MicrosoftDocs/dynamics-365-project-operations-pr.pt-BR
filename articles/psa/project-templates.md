@@ -1,6 +1,6 @@
 ---
 title: Modelos de projeto
-description: Este tópico fornece informações sobre como usar modelos de projeto para configuração rápida de projetos.
+description: Este artigo fornece informações sobre como usar modelos de projeto para configuração rápida de projetos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: aff6fc5bb855fe1e9007933fdc1a88eb020da0ad
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 03cccf8f0201d82db57e52dc1175fcf9a7812a53
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586008"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930856"
 ---
 # <a name="project-templates"></a>Modelos de projeto 
 

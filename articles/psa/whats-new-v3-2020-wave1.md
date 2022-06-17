@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Project Service Automation versão 3.x, onda 1 2020
-description: Este tópico inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3 onda 1 2020.
+description: Este artigo inclui informações sobre o que há de novo e o que foi alterado no ciclo 1 de 2020 do Project Service Automation versão 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577866"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928602"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>Novidades ou alterações no Project Service Automation versão 3.x onda 1 2020
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-O tópico destaca as principais considerações de atualização ao passar para a versão mais recente do Project Service Automation (PSA) versão 3.x onda 1 2020.
+O artigo destaca as principais considerações de atualização ao migrar para a versão mais recente do ciclo 1 de 2020 do Project Service Automation (PSA) versão 3.x.
 
 ## <a name="time-entry"></a>Entrada de tempo
 A experiência de entrada de hora foi estendida para fornecer recursos para estender a entrada de hora em mais cenários de clientes. Isso inclui a capacidade de adicionar tipos de entrada, que agora acionam um comportamento específico com base no nome do esquema de campo **Configurações de Entrada de Hora**, exibido como **Fonte de Tempo**. Uma nova solução, chamada Tempo, Despesa, Status e Aprovações (TESA) foi adicionada para oferecer suporte a essa funcionalidade.

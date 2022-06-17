@@ -1,6 +1,6 @@
 ---
 title: Visão geral das requisições de viagem
-description: Este tópico fornece informações sobre requisições de viagem. Uma requisição de viagem documenta as despesas de viagem planejadas.
+description: Este artigo fornece informações sobre requisições de viagem. Uma requisição de viagem documenta as despesas de viagem planejadas.
 author: saraschi2
 ms.date: 02/23/2018
 ms.topic: overview
@@ -13,12 +13,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cd4502459214f010a800dece74285b721642cd8e
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fd317947688daeae251fe22bda1218f244b2aa9a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927360"
 ---
 # <a name="travel-requisitions-overview"></a>Visão geral das requisições de viagem
 

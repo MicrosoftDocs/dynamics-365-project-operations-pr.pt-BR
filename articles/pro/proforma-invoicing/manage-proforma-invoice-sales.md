@@ -1,17 +1,17 @@
 ---
 title: Gerenciar uma fatura pro forma do projeto
-description: Este tópico fornece informações sobre como trabalhar com faturas de projeto pro forma.
+description: Este artigo fornece informações sobre como trabalhar com faturas pro forma do projeto.
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 359f17fb5510b13de97d2349dcbc91d11b48e0f9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7253b2f8beefb970c573279b1873070219edce08
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582604"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922990"
 ---
 # <a name="manage-a-proforma-project-invoice"></a>Gerenciar uma fatura pro forma do projeto 
 

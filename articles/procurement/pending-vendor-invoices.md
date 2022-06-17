@@ -1,18 +1,18 @@
 ---
 title: Comprar materiais sem estoque ou categorias de compras usando uma fatura de fornecedor pendente
-description: Este tópico explica como registrar faturas de fornecedores pendentes.
+description: Este artigo explica como registrar faturas de fornecedores pendentes.
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e81f7a54e304ae6fc9a9f2637124579b6e7b54e9
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: b1c05755f6759e90e031a11261f15a2c4b6b716e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612643"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921978"
 ---
 # <a name="purchase-non-stocked-materials-or-procurement-categories-using-a-pending-vendor-invoice"></a>Comprar materiais sem estoque ou categorias de compras usando uma fatura de fornecedor pendente
 
@@ -23,7 +23,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 Por exemplo, a Contoso Robotics US está executando um projeto de renovação de equipamentos e precisa de licenças de software. Essas licenças são adquiridas de um fornecedor terceirizado.  Usando o Dynamics 365 Finance, o funcionário de contas a pagar registra um documento de fatura de fornecedor pendente e atribui os custos de licença diretamente ao projeto de renovação de equipamentos. 
 
 > [!IMPORTANT]
-> Antes de usar a funcionalidade descrita neste tópico, revise e aplique as configurações necessárias. Para obter mais informações, consulte [Habilitar materiais sem estoque e faturas de fornecedor pendentes](configure-materials-nonstocked.md) e [Usar categorias de compras com ordens de compra do projeto e faturas de fornecedor pendentes](configure-procurement-categories.md)
+> Antes de usar a funcionalidade descrita neste artigo, revise e aplique as configurações necessárias. Para obter mais informações, consulte [Habilitar materiais sem estoque e faturas de fornecedor pendentes](configure-materials-nonstocked.md) e [Usar categorias de compras com ordens de compra do projeto e faturas de fornecedor pendentes](configure-procurement-categories.md)
 
 ## <a name="post-a-project-related-pending-vendor-invoice"></a>Publicar uma fatura de fornecedor pendente relacionada ao projeto 
 

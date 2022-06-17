@@ -1,17 +1,17 @@
 ---
 title: Gerenciamento de fornecedores e de listas de preços de compra no Project Operations
-description: Este tópico fornece informações para criar e manter dados de fornecedores e listas de preços de compra para subcontratação.
+description: Este artigo fornece informações que o ajudarão a criar e manter dados de fornecedores e listas de preços de compra para subcontratação.
 author: rumant
 ms.date: 08/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 9c76d5ca45e03167f0ccfd2c1c7013f91fef0f86
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6840ffcbc510fe6385dd3fdaf881e9700c4fdd18
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576716"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914112"
 ---
 # <a name="vendor-and-purchase-price-list-management-in-project-operations"></a>Gerenciamento de fornecedores e de listas de preços de compra no Project Operations
 
@@ -34,7 +34,7 @@ Por padrão, os seguintes campos e conceitos em um registro de fornecedor são u
     > [!NOTE]
     > Por padrão, o contato principal do fornecedor é usado como o gerente de contas do fornecedor do subcontrato.
 
-- Currency
+- Moeda
 - Listas de preços de compra atuais
 
 ## <a name="purchase-price-lists-in-project-operations"></a>Listas de preços de compra no Project Operations

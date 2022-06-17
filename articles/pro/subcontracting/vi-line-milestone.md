@@ -1,17 +1,17 @@
 ---
 title: Linhas da fatura de fornecedor para etapas
-description: Este tópico explica como criar linhas da fatura de fornecedor para etapas em um subcontrato.
+description: Este artigo explica como criar linhas da fatura de fornecedor para etapas em um subcontrato.
 author: rumant
 ms.date: 03/25/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 4fa11e2a4f459016b3ce141b03fe97e55c9a2759
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 212d68c32e712ac2349d1670f9e799bcc5144148
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590608"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931316"
 ---
 # <a name="vendor-invoice-lines-for-milestones"></a>Linhas da fatura de fornecedor para etapas
 
@@ -34,7 +34,7 @@ A tabela a seguir apresenta informações sobre os campos nas linhas da fatura d
 | Data da transação | A data em que o dado real de custo da linha da fatura de fornecedor será registrado no projeto. | Nenhum |
 | Classe da transação | Selecione **Etapa** para registrar uma fatura de fornecedor para uma etapa concluída que foi definida em uma linha de subcontrato. | Nenhum |
 | Etapa | Selecione a etapa definida na linha de subcontrato relacionada marcada como **Pronto para Faturamento**. | É possível selecionar as etapas da linha de subcontrato com status **Pronto para faturamento** em uma linha da fatura de fornecedor. |
-| Project | O nome do projeto no qual os serviços que estão sendo faturados foram usados. | Este campo é obrigatório e não pode ficar em branco. |
+| Projeto | O nome do projeto no qual os serviços que estão sendo faturados foram usados. | Este campo é obrigatório e não pode ficar em branco. |
 | Tarefa | O nome da tarefa do projeto na qual os serviços que estão sendo faturados foram usados. Este campo estará disponível somente se houver um projeto selecionado. A seleção de uma tarefa do projeto é opcional. | Se este campo estiver em branco, o gerente de projeto poderá corresponder a linha da fatura de fornecedor com a classe de transações na linha de subcontrato relacionada registrada em qualquer tarefa do projeto. Se a linha da fatura de fornecedor não fizer referência a uma linha de subcontrato e esse campo ficar em branco, o dado real de custo criado pela linha da fatura de fornecedor não será vinculado a nenhum valor real de vendas não faturado. Nesse caso, se o faturamento baseado em tarefas estiver configurado, talvez não seja possível faturar os custos para o cliente final. |
 | Valor do marco | Insira o valor da etapa definida na linha de subcontrato que está pronta para ser faturada. | Nenhum |
 | Imposto sobre vendas | Insira o valor do imposto sobre venda. | Nenhum |

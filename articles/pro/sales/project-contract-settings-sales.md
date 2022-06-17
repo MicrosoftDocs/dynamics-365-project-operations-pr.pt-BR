@@ -1,23 +1,23 @@
 ---
 title: Configurações de contrato do projeto - lite
-description: Este tópico fornece informações sobre os campos que afetam as linhas de contrato e as informações sobre o contrato resumidas em todos os itens de linha.
+description: Este artigo fornece informações sobre os campos que afetam as linhas do contrato e as informações sobre o contrato resumidas em todos os itens de linha.
 author: rumant
 ms.date: 03/08/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 638bd11926c2b470c0da92d67350e8da56cb1997
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6123cbc028cf49cc198173697969f415b0789256
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586376"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917056"
 ---
 # <a name="header-details-for-project-contracts"></a>Detalhes do cabeçalho para contratos de projeto
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Este tópico fornece informações sobre os campos que se aplicam a todo o contrato do projeto, incluindo configurações que afetam todas as linhas de contrato. As informações sobre o contrato resumidas em todos os itens de linha para direcionar os KPIs do contrato do projeto também estão incluídas.
+Este artigo fornece informações sobre campos que se aplicam a todo o contrato do projeto, incluindo configurações que afetam todas as linhas do contrato. As informações sobre o contrato resumidas em todos os itens de linha para direcionar os KPIs do contrato do projeto também estão incluídas.
 
 A tabela a seguir lista os campos em um contrato de projeto que são exclusivos do Dynamics 365 Project Operations ou que tenham algumas alterações importantes no comportamento das ordens de venda do Dynamics 365 Sales.
 

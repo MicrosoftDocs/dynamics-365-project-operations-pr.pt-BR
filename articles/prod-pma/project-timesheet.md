@@ -1,6 +1,6 @@
 ---
 title: Aplicativo móvel Folha de ponto do projeto
-description: Este tópico fornece informações sobre o aplicativo móvel Microsoft Dynamics 365 Project Timesheet. O aplicativo móvel Folha de ponto do projeto permite que os usuários enviem e aprovem folhas de ponto para projetos em seus dispositivos móveis.
+description: Este artigo fornece informações sobre o aplicativo móvel do Microsoft Dynamics 365 Project Timesheet. O aplicativo móvel Folha de ponto do projeto permite que os usuários enviem e aprovem folhas de ponto para projetos em seus dispositivos móveis.
 author: abruer
 ms.date: 04/08/2019
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 6f4be64f595371334e4065b60ca1a81232b333f7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683113"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923956"
 ---
 # <a name="project-timesheet-mobile-application"></a>Aplicativo móvel Folha de ponto do projeto
 
 [!include [banner](../includes/banner.md)]
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 O aplicativo móvel Microsoft Dynamics 365 Project Timesheet permite que os usuários enviem e aprovem folhas de ponto para projetos em seus dispositivos móveis (iPhone ou Android). Esse aplicativo móvel revela a funcionalidade de folha de ponto que reside na área Gerenciamento e contabilidade de projeto do Dynamics 365 Finance, melhorando a produtividade e a eficiência do usuário e permitindo a rápida entrada e aprovação de folhas de ponto de projetos.
 

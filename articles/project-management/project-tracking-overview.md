@@ -1,23 +1,23 @@
 ---
-title: Acompanhamento do esforço do projeto
-description: Este tópico fornece informações sobre como acompanhar o esforço do projeto e o progresso do trabalho.
+title: Rastreamento do esforço do projeto
+description: Este artigo fornece informações sobre como rastrear o esforço do projeto e o progresso do trabalho.
 author: ruhercul
 ms.date: 02/15/2022
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 037118714cf01ba2fb91cdd94345495d12ccb645
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c41dbc138f6fc92a9586de173ba5dfc89c7e44e3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593782"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929246"
 ---
-# <a name="project-effort-tracking"></a>Acompanhamento do esforço do projeto
+# <a name="project-effort-tracking"></a>Rastreamento do esforço do projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-A necessidade de acompanhar o progresso em relação a uma agenda varia por setor. Alguns setores fazem o acompanhamento em um nível granular, enquanto outros o fazem em um nível superior. Este tópico mostra como fazer agendamentos para atender aos requisitos da sua organização.
+A necessidade de acompanhar o progresso em relação a uma agenda varia por setor. Alguns setores fazem o acompanhamento em um nível granular, enquanto outros o fazem em um nível superior. Este artigo mostra como fazer agendamentos para atender aos requisitos da sua organização.
 
 ## <a name="effort-tracking-view"></a>Exibição de Acompanhamento de Esforço
 

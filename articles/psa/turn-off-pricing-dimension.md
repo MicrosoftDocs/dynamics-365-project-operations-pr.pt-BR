@@ -1,6 +1,6 @@
 ---
-title: Desativar uma dimensão de precificação
-description: Este tópico mostra como configurar dimensões de precificação na solução Project Service.
+title: Desativar uma dimensão de preço
+description: Este artigo mostra como configurar dimensões de preço na solução Project Service.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,14 +16,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f308104246efe671d2001e660aa8c0ab9ef44c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 81c3cfaad8dc8d057985b509f20c3ba31de45e3b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581684"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913146"
 ---
-# <a name="turn-off-a-pricing-dimension"></a>Desativar uma dimensão de precificação
+# <a name="turn-off-a-pricing-dimension"></a>Desativar uma dimensão de preço
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -40,8 +40,8 @@ Essa mensagem de erro indica que existem registros de preços configurados anter
 
 | Título padrão         | Unidades Organizacionais    |Unidade   |Preço  |Moeda  |
 | -----------------------|-------------|-------|-------|----------|
-| Engenheiro de sistemas|Cabral EUA|Hour| 100|USD|
-| Engenheiro de sistemas sênior|Cabral EUA|Hour| 150| USD|
+| Engenheiro de sistemas|Contoso EUA|Hora| 100|USD|
+| Engenheiro de sistemas sênior|Contoso EUA|Hora| 150| USD|
 
 
 Quando você desativa o **Título padrão** como a dimensão de precificação e o mecanismo de precificação do Project Service procura um preço, ele usa apenas o valor **Unidade Organizacional** no contexto de entrada. Se a **Unidade Organizacional** do contexto de entrada for “Cabral US”, o resultado será não determinado porque as duas linhas corresponderão. Para evitar esse cenário, ao criar registros **Preço da Função**, o Project Service valida que a combinação de dimensões é exclusiva. Se a dimensão for desativada após a criação dos registros **Preço da Função**, essa restrição poderá ser violada. Portanto, é necessário que, antes de desativar uma dimensão, você exclua todas as linhas **Preço da Função** e **Markup de Preço da Função** que tenham esse valor de dimensão preenchido.

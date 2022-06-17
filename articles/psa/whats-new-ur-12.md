@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações na Versão de Atualização 12 do Project Service Automation V3
-description: Este tópico inclui informações sobre o que há de novo e o que foi alterado na Versão da Atualização 12 do Project Service Automation V3.
+description: Este artigo inclui informações sobre novidades na atualização do Project Service Automation versão 12, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 02/04/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2712cc671e9868bc4b3b143a2067da4381102eda
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 28539b2e1331c8509e40aaf771f4d88d6f54e022
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577406"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922576"
 ---
 # <a name="project-service-automation-update-release-12-v3"></a>Versão de Atualização 12, do Project Service Automation V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8577406"
 
 Temos o orgulho de anunciar a versão mais recente do aplicativo Dynamics 365 Project Service Automation (PSA). Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e vá para a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
-Este tópico lista os recursos e as correções novas ou alteradas para o Project Service Automation V3, Versão de Atualização 12. Esta versão tem um número de compilação da V3.10.2.34 e está geralmente disponível por meio de uma atualização automática em outubro de 2019.
+Este artigo lista os recursos e as correções novos ou alterados na atualização do Project Service Automation versão 12, V3. Esta versão tem um número de compilação da V3.10.2.34 e está geralmente disponível por meio de uma atualização automática em outubro de 2019.
 
 ## <a name="update-release-12"></a>Versão de Atualização 12
 

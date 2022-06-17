@@ -1,17 +1,17 @@
 ---
 title: Modos de agendamento
-description: Este tópico fornece informações sobre os modos de agendamento.
+description: Este artigo fornece informações sobre modos de agendamento.
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588400"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923634"
 ---
 # <a name="scheduling-modes"></a>Modos de agendamento
 
@@ -38,7 +38,7 @@ Ao definir o modo de agendamento de um projeto, você está definindo um desses 
 | Tarefa de esforço fixo    | A duração é recalculada. | As unidades são recalculadas.    | A duração é recalculada. |
 | Tarefa de duração fixa  | O esforço é recalculado.   | O esforço é recalculado.    | As unidades são recalculadas.   |
 
-Para obter mais informações sobre as implicações de um determinado modo, consulte [Alterar o tipo de tarefa para um agendamento mais preciso](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). No tópico, o termo **Trabalho** é usado em vez de **Esforço**.
+Para obter mais informações sobre as implicações de um determinado modo, consulte [Alterar o tipo de tarefa para um agendamento mais preciso](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72). No artigo, o termo **Trabalho** é usado em vez de **Esforço**.
 
 ## <a name="change-the-organizations-scheduling-mode"></a>Alterar o modo de agendamento da organização
 

@@ -1,22 +1,22 @@
 ---
 title: Novidades em fevereiro de 2021 – implantação lite do Project Operations
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de fevereiro de 2021 da implantação lite do Project Operations.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de fevereiro de 2021 da implantação do Project Operations lite.
 author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 139494962562aaaf005e116f02bcd41db58eea27
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 329bc31ad4c0958fe60e73b257e6b4c262bb60f9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574600"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914020"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>Novidades em fevereiro de 2021 – implantação lite do Project Operations
 
-Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
   - Project Operations no ambiente do Dataverse versão 4.7.0.95
 

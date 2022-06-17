@@ -1,6 +1,6 @@
 ---
 title: Espaço de trabalho móvel de entrada de hora de projeto
-description: Esse tópico fornece informações sobre o espaço de trabalho móvel da entrada de hora de projeto. Este espaço de trabalho permite que os usuários entrem e economizem tempo em um projeto usando seu dispositivo móvel.
+description: Este artigo fornece informações sobre o espaço de trabalho móvel de entrada de tempo do projeto. Este espaço de trabalho permite que os usuários entrem e economizem tempo em um projeto usando seu dispositivo móvel.
 author: Yowelle
 ms.date: 12/01/2017
 ms.topic: article
@@ -15,22 +15,22 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919521"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espaço de trabalho móvel de entrada de hora de projeto
 
 [!include [banner](../includes/banner.md)]
 
-Esse tópico fornece informações sobre o espaço de trabalho móvel da **entrada de hora de projeto**. Este espaço de trabalho permite que os usuários entrem e economizem tempo em um projeto usando seu dispositivo móvel.
+Este artigo fornece informações sobre o espaço de trabalho móvel de **Entrada de tempo do projeto**. Este espaço de trabalho permite que os usuários entrem e economizem tempo em um projeto usando seu dispositivo móvel.
 
 Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Dynamics 365 Unified Ops. 
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 Como parte de seu trabalho diário, os recursos do projeto costumam estar no local ou em viagem. O espaço de trabalho móvel **Entrada de tempo do projeto** permite que os usuários insiram seu tempo faturável ou não faturável em um projeto no dispositivo móvel de sua escolha. Portanto, os recursos do projeto podem registrar entradas de tempo a qualquer hora e em qualquer lugar. Eles também podem ver as entradas de tempo que já foram registradas. 
 
 Especificamente, no espaço de trabalho móvel **Entrada de tempo do projeto**, os usuários podem executar estas tarefas:

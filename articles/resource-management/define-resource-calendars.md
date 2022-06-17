@@ -1,17 +1,17 @@
 ---
 title: Definir calendários de recurso
-description: Este tópico fornece informações sobre como definir os calendários de horas de trabalho para recursos no Project Operations.
+description: Este artigo fornece informações sobre como definir os calendários de horas de trabalho para recursos no Project Operations.
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 58247bece5d424c07fc8f864ec6e541d6ac3fb37
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f032f956f0e87e5ddd16fc222c2750cb01c5716f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593276"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922392"
 ---
 # <a name="define-resource-calendars"></a>Definir calendários de recurso
 

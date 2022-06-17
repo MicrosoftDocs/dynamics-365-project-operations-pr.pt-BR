@@ -1,6 +1,6 @@
 ---
-title: Guia de Relatórios
-description: Este tópico fornece links para informações sobre relatórios.
+title: Guia de relatórios
+description: Este artigo fornece links para informações sobre relatórios.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,14 +17,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577544"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919172"
 ---
-# <a name="reporting-guide"></a>Guia de Relatórios
+# <a name="reporting-guide"></a>Guia de relatórios
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577544"
 
 Os métodos e as tecnologias de relatório neste aplicativo podem ajudar você a determinar a integridade dos seus projetos e identificar quando executar ações corretivas. 
 
-O link do PDF que estava neste tópico foi removido e o conteúdo foi movido para os seguintes tópicos:
+O link do PDF que estava neste artigo foi removido e o conteúdo foi movido para os seguintes artigos:
 
 - [Home page de relatórios](../reports-reporting-dynamics-365-project-service.md)
 - [Painéis](../reports-dashboards.md)
 - [Trabalhar com o modelo de dados do Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> Esse tópico será removido em uma atualização futura da documentação. 
+> Este artigo será removido em uma atualização futura da documentação. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

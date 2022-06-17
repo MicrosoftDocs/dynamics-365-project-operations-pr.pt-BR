@@ -1,17 +1,17 @@
 ---
 title: Verificação de faturas de fornecedores com valores reais aprovados
-description: Este tópico explica como o Microsoft Dynamics 365 Project Operations permite que gerentes de projeto verifiquem as faturas de fornecedores com os valores reais que foram aprovados conforme os contratados realizavam o trabalho e registravam as horas, e as despesas e materiais que foram usados pelos membros da equipe de projeto.
+description: Este artigo explica como o Microsoft Dynamics 365 Project Operations permite que gerentes de projeto verifiquem as faturas de fornecedores com os valores reais que foram aprovados conforme os contratados realizavam o trabalho e registravam as horas, e as despesas e materiais que foram usados pelos membros da equipe de projeto.
 author: rumant
 ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3350a51bde2872036b79a789fae23ea6790fb21a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585456"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914204"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>Verificação de faturas de fornecedores com valores reais aprovados
 
@@ -58,7 +58,7 @@ Durante o processo de correspondência, será possível estabelecer um vínculo 
     - Contrato de projeto
     - Linha de contrato do projeto
     - Classe da transação
-    - Project
+    - Projeto
     - Tarefa
     - Categoria de recurso
     - Categoria da transação

@@ -1,6 +1,6 @@
 ---
 title: Home page de recursos para projetos
-description: Este tópico fornece informações sobre funcionalidades de gerenciamento de recursos no Project Service Automation (PSA) for Dynamics 365.
+description: Este artigo fornece informações sobre funcionalidades de gerenciamento de recursos no Project Service Automation (PSA) for Dynamics 365.
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ec114f6dc04b493e30fcaae0d50616108c695f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14328ba1af46eca3a8996d330180d888987b7966
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599808"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925244"
 ---
 # <a name="resourcing-projects-home-page"></a>Home page de recursos para projetos
 
@@ -46,7 +46,7 @@ Os recursos são o ativo mais importante de uma organização baseada em serviç
 - Manter um repositório de habilidades e proficiência.
 
 
-Você pode fornecer ao seu projeto uma equipe de recursos genéricos ou nomeados no PSA. É possível usar vários métodos para adicionar e atribuir membros da equipe e gerenciar suas reservas e atribuições. Para obter informações adicionais, consulte os tópicos a seguir:
+Você pode fornecer ao seu projeto uma equipe de recursos genéricos ou nomeados no PSA. É possível usar vários métodos para adicionar e atribuir membros da equipe e gerenciar suas reservas e atribuições. Para obter informações adicionais, consulte os seguintes artigos:
 
 - [Reservar recursos reserváveis nomeados para uma equipe de projeto e atribuir tarefas a eles](assign-named-bookable-resource.md)
 - [Atribuir recursos reserváveis genéricos a uma tarefa e gerar requisitos de recursos](assign-generic-bookable-resource.md)

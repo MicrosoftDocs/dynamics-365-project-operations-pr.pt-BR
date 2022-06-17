@@ -1,6 +1,6 @@
 ---
 title: Estimar vendas e custos do projeto quando um recurso reservável preencher várias funções para um projeto
-description: Este tópico fornece informações sobre como as dimensões de preços podem ser usadas para oferecer suporte a preços e custos de um recurso que preenche várias funções em um projeto.
+description: Este artigo fornece informações sobre como usar dimensões de preços para dar suporte a preços e custos para um recurso que preenche várias funções em um projeto.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: f8b84de740a3d610e49acea8fa13885b977b440c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5adaa7b83aae69c15aa268e723417172f1b56f42
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8590700"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916136"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-for-a-project"></a>Estimar vendas e custos do projeto quando um recurso reservável preencher várias funções para um projeto 
 

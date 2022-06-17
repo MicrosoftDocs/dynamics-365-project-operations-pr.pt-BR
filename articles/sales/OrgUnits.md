@@ -1,6 +1,6 @@
 ---
 title: Unidades organizacionais
-description: Este tópico descreve o conceito de unidades organizacionais e explica como criar e manter unidades organizacionais no Microsoft Dynamics 365 Project Operations.
+description: Este artigo descreve o conceito de unidades organizacionais e explica como criar e manter unidades organizacionais no Microsoft Dynamics 365 Project Operations.
 author: rumant
 ms.date: 1/31/2022
 ms.topic: article
@@ -15,12 +15,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 9a8c503dc6286f40c80ed9b7a8a04974ff7e50b4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a20a37b61db68d70869a11e10bef5d30c422b1eb
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581362"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921610"
 ---
 # <a name="organizational-units-overview"></a>Visão geral de unidades organizacionais
 

@@ -1,23 +1,23 @@
 ---
 title: Novidades em novembro de 2020 – Project Operations para cenários baseados em recursos/sem estoque
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de novembro de 2020 do Project Operations para cenários baseados em recursos/sem estoque.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de novembro de 2020 do Project Operations para cenários baseados em recursos/sem estoque.
 author: sigitac
 ms.date: 10/30/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b76ebbff1cc2720e699334601d425879f2d20770
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b98c968a040c14f4d11c350885e2cbb984596c48
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600360"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923404"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em novembro de 2020 – Project Operations para cenários baseados em recursos/sem estoque
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Project Operations no ambiente do CDS versão 4.4.0.70
 - Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.14

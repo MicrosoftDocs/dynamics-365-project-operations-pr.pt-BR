@@ -1,6 +1,6 @@
 ---
 title: Criar contratos avançados para cobrança baseada no andamento
-description: Este tópico explica como criar contratos de projeto para que você possa gerar faturas para clientes, com base em uma porcentagem do trabalho concluído.
+description: Este artigo explica como criar contratos de projeto para que você possa gerar faturas para clientes com base em uma porcentagem de trabalho concluído.
 author: RadhikaRS
 ms.date: 03/26/2020
 ms.topic: article
@@ -15,19 +15,19 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: bdafc2ed2398054d8b0bf42bdd96dfe0eccee93b
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 26fe072b8241c7fdc96629f534e33a8fe53d3164
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913652"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>Criar contratos avançados para cobrança baseada no andamento
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como criar contratos de projeto para que você possa criar faturas para clientes, com base em uma porcentagem do trabalho concluído. Os valores da fatura são calculados automaticamente para as categorias de orçamento de trabalho que você configurou para um projeto. O tempo da fatura é definido quando você negocia o contrato do projeto com o cliente.
+Este artigo explica como criar contratos de projeto para que você possa criar faturas para clientes com base em uma porcentagem de trabalho concluído. Os valores da fatura são calculados automaticamente para as categorias de orçamento de trabalho que você configurou para um projeto. O tempo da fatura é definido quando você negocia o contrato do projeto com o cliente.
 
-Use os procedimentos neste tópico para configurar um contrato, um projeto associado e as regras de cobrança que calculam os valores das faturas para as categorias de orçamento de trabalho que você configurou para o projeto.
+Use os procedimentos neste artigo para configurar um contrato, um projeto associado e as regras de cobrança que calculam os valores da fatura para as categorias de orçamento do trabalho configuradas para o projeto.
 
 Depois de criar o contrato e o projeto, você pode configurar os detalhes do projeto. Por exemplo, você pode definir atividades e atribuir trabalhadores ao projeto.
 

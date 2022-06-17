@@ -1,6 +1,6 @@
 ---
 title: Home page de gerenciamento de recursos
-description: Este tópico fornece informações sobre como gerenciar recursos.
+description: Este artigo fornece informações sobre como gerenciar recursos.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578740"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913238"
 ---
 # <a name="resource-management-home-page"></a>Home page de gerenciamento de recursos
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578740"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Os recursos são o ativo mais importante de uma organização baseada em serviço. A capacidade de encontrar e reservar os recursos adequados necessários e de mantê-los em utilização ajuda a organização a atingir metas de receita e objetivos de satisfação do cliente. Os tópicos a seguir se concentram nas funcionalidades de gerenciamento de recursos do Dynamics 365 Project Service Automation:
+Os recursos são o ativo mais importante de uma organização baseada em serviço. A capacidade de encontrar e reservar os recursos adequados necessários e de mantê-los em utilização ajuda a organização a atingir metas de receita e objetivos de satisfação do cliente. Os seguintes artigos focam as funcionalidades de gerenciamento de recursos do Dynamics 365 Project Service Automation:
 
 - [Gerenciar recursos](manage-resources.md)
 - [Conceitos básicos](reports-key-concepts.md)

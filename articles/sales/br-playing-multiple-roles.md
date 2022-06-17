@@ -1,17 +1,17 @@
 ---
 title: Estimar vendas e custos do projeto quando um recurso reservável preenche várias funções em um projeto
-description: Este tópico explica como usar dimensões de preços para oferecer suporte a estimativas de preços e custos de um recurso que preenche várias funções em um projeto.
+description: Este artigo explica como usar dimensões de preços para dar suporte a estimativas de preços e custos para um recurso que preenche várias funções em um projeto.
 author: rumant
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2cc632d43bfcbdd23c1d06ff5203385bccf9926d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9bb59537aaa75d9003925bec37642a2fa7c9ca22
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589136"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923450"
 ---
 # <a name="estimate-project-sales-and-costs-when-a-bookable-resource-fills-multiple-roles-on-a-project"></a>Estimar vendas e custos do projeto quando um recurso reservável preenche várias funções em um projeto 
 

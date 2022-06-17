@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações na Versão de Atualização 18 do Project Service Automation V3
-description: Este tópico lista os recursos e as correções novas ou alteradas disponíveis na Versão de Atualização 18 do Project Service Automation V3.
+description: Este artigo lista os recursos e as correções disponíveis na atualização do Project Service Automation versão 18, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 04/27/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8c76672e63fc4b01d5c6f8cce2831782b9c22326
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e8d423c550d9aa09c9cbb7d4f7c277c43bbe10ae
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598750"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918850"
 ---
 # <a name="project-service-automation-update-release-18-v3"></a>Versão de Atualização 18, do Project Service Automation V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8598750"
 
 Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
-Este tópico lista os recursos e as correções novas ou alteradas para o Project Service Automation V3, Versão de Atualização 18. Esta versão apresenta o número de build V3.10.8.12 e geralmente está disponível por meio de uma atualização automática de abril de 2020.
+Este artigo lista os recursos e as correções novos ou alterados na atualização do Project Service Automation versão 18, V3. Esta versão apresenta o número de build V3.10.8.12 e geralmente está disponível por meio de uma atualização automática de abril de 2020.
 
 ## <a name="update-release-18"></a>Versão de Atualização 18
 

@@ -1,33 +1,33 @@
 ---
 title: Atualizar atributos de plug-in com novas dimensões de preço
-description: Este tópico fornece informações sobre como atualizar atributos de plug-in para dimensões de preço.
+description: Este artigo fornece informações sobre como atualizar atributos de plug-in para dimensões de preço.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b3b441b9ea0418e10db80a86613b2c41ea2c4673
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2ae502fea533d9f199ef5ee1cc85b623f08cbd84
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575014"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920000"
 ---
 # <a name="update-plug-in-attributes-with-new-pricing-dimensions"></a>Atualizar atributos de plug-in com novas dimensões de preço
 
-Este tópico fornece informações sobre como atualizar atributos de plug-in para dimensões de preço.
+Este artigo fornece informações sobre como atualizar atributos de plug-in para dimensões de preço.
 
 > [!NOTE]
-> Este tópico se aplica apenas aos recursos de cotação e contrato no Dynamics 365 Project Operations.
+> Este artigo é aplicável apenas aos recursos de cotação e contrato no Dynamics 365 Project Operations.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Antes de concluir as etapas neste tópico, você concluir os procedimentos nos seguintes tópicos:
+Antes de concluir as etapas deste artigo, você deve ter concluído os procedimentos nos seguintes artigos:
 
   - [Criar campos e entidades personalizados](create-custom-fields-entities-pricing-dimensions.md) 
   - [Adicionar campos personalizados a entidades transacionais e de configuração de preço ](add-custom-fields-price-setup-transactional-entities.md)
   - [Configurar campos personalizados como dimensões de preço](set-up-custom-fields-pricing-dimensions.md). 
   
-Se você não concluiu esses procedimentos, conclua-os e retorne a este tópico.
+Se você não concluiu esses procedimentos, conclua-os e retorne a este artigo.
 
 ## <a name="register-a-plug-in"></a>Registrar um plug-in
 Quando um detalhe de linha de cotação é criado na página **Linha de Cotação** para uma linha de cotação de projeto, o sistema cria duas linhas de estimativa. Uma linha é para o custo da estimativa e a outra linha é para as vendas. O mesmo se aplica às linhas de contrato do projeto.

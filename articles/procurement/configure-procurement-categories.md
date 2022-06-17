@@ -1,18 +1,18 @@
 ---
 title: Usar categorias de compras com ordens de compra do projeto e faturas de fornecedor pendentes
-description: Este tópico descreve como configurar categorias de compras que podem ser usadas com ordens de compra do projeto e faturas de fornecedor pendentes.
+description: Este artigo descreve como configurar categorias de compras que podem ser usadas com ordens de compra do projeto e faturas de fornecedor pendentes.
 author: sigitac
 ms.date: 04/07/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee68d7906cb0c887c19a32363ec7fda547cb74bd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: 7d774631a4712de9b29ddedfee2ea3fc4a2d436f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8613239"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927406"
 ---
 # <a name="use-procurement-categories-with-project-purchase-orders-and-pending-vendor-invoices"></a>Usar categorias de compras com ordens de compra do projeto e faturas de fornecedor pendentes
 
@@ -47,7 +47,7 @@ Siga estas etapas para mapear categorias de projeto para categorias de compras n
 
 1. Acesse **Compras e fornecimento > \> Categorias de compras**.
 1. Selecione **Editar hierarquia de categoria**.
-1. Selecione o nó de hierarquia de categoria desejado e, na guia **Atribuir categorias de projeto**, associe o nó à categoria de projeto da categoria **Hora**, Despesa ou **Projeto de Item** (isto é, a categoria **Tempo Padrão** ou **Despesa Padrão**).
+1. Selecione o nó de hierarquia de categoria desejado e, na guia **Atribuir categorias de projeto**, associe o nó à categoria de projeto da categoria **Hora**, **Despesa** ou **Projeto de Item** (isto é, a categoria **Tempo Padrão** ou **Despesa Padrão**).
 1. Selecione **Salvar**.
 1. Feche a página.
 

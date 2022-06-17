@@ -1,24 +1,24 @@
 ---
 title: Integração do gerenciamento de despesas
-description: Este tópico fornece informações sobre a integração de relatórios de despesas no Project Operations usando a gravação dupla.
+description: Este artigo fornece informações sobre a integração do relatório de despesas no Project Operations usando a gravação dupla.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585778"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924600"
 ---
 # <a name="expense-management-integration"></a>Integração do gerenciamento de despesas
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Este tópico fornece informações sobre a integração de relatórios de despesas no Project Operations [implantação de despesa total](../expense/expense-overview.md) usando a gravação dupla.
+Este artigo fornece informações sobre a integração de relatórios de despesas no Project Operations [implantação de despesa total](../expense/expense-overview.md) usando a gravação dupla.
 
 ## <a name="expense-categories"></a>Categorias de despesa
 

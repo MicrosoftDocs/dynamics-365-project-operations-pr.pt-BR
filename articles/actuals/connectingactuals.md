@@ -1,17 +1,17 @@
 ---
 title: Conexões de transação – Vincular dados reais de diferentes tipos de transação
-description: Este tópico explica como uma conexão de transação é usada para vincular dados reais de diferentes tipos para ajudar a rastrear a lucratividade, a lista de pendências de cobrança e os cálculos de receita cobrada versus não cobrada.
+description: Este artigo explica como uma conexão de transação é usada para vincular dados reais de diferentes tipos para ajudar a rastrear a lucratividade, a lista de pendências de cobrança e os cálculos de receita cobrada versus não cobrada.
 author: rumant
 ms.date: 03/25/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e8d75a69e27619e6a21f0fe61e2c656e94017b0
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19a78336099f54c5d6b36a963a90b9fd77e3d0af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580764"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926072"
 ---
 # <a name="transaction-connections---link-actuals-of-different-transaction-types"></a>Conexões de transação – Vincular dados reais de diferentes tipos de transação
 

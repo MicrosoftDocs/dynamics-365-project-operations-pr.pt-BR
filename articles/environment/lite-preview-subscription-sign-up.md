@@ -1,21 +1,21 @@
 ---
-title: Inscrever-se em uma assinatura de versão preliminar - lite
-description: Este tópico fornece informações sobre como assinar e implantar a implantação simplificada do Project Operations - transação para faturamento pro forma.
+title: Inscreva-se para obter uma assinatura de versão preliminar – lite
+description: Este artigo fornece informações sobre como inscrever-se e implantar o Project Operations lite - gerenciar faturamento pro forma.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587986"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921242"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>Inscreva-se para obter uma assinatura de versão preliminar – lite 
 
-Este tópico explica como assinar a oferta de avaliação e implementar a implantação lite do Dynamics 365 Project Operations - lidar com o faturamento pró-forma.
+Este artigo explica como inscrever-se na oferta de avaliação e implantar o Dynamics 365 Project Operations lite - gerenciar faturamento pro forma.
 
 > [!NOTE]
 > Este processo mudará nas próximas versões de Project Operations.
@@ -50,7 +50,7 @@ Antes de começar, verifique se está conectado a um navegador com a conta de tr
 
 ## <a name="create-a-new-dataverse-environment"></a>Criar um novo ambiente do Dataverse
 
-1. Provisione um novo ambiente de implantação do Project Operations Dataverse seguindo instruções no tópico, [modelo de implantação do Dataverse](lite-deployment.md). Ao selecionar o tipo de ambiente, utilize **Avaliação (baseado em assinatura)**.
+1. Provisione um novo ambiente de implantação do Project Operations Dataverse, seguindo as instruções no artigo, [Modelo de implantação do Dataverse](lite-deployment.md). Ao selecionar o tipo de ambiente, utilize **Avaliação (baseado em assinatura)**.
 
   ![Novo ambiente.](./media/19CreateEnvironment.png)
 
@@ -65,7 +65,7 @@ Antes de começar, verifique se está conectado a um navegador com a conta de tr
 
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>Instalar uma configuração CDS e configurar dados de demonstração
 
-Instale a configuração do CDS e defina os dados de demonstração seguindo as instruções no tópico, [Aplicar instalação de demonstração e dados de configuração](lite-apply-demo-setup-config-data.md).
+Instale a configuração do CDS e configure dados de demonstração seguindo as instruções no artigo, [Aplicar configuração de demonstração e dados de configuração](lite-apply-demo-setup-config-data.md).
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

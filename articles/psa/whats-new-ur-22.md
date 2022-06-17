@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações na Versão de Atualização 22 do Project Service Automation V3
-description: Este tópico lista os recursos e as correções novas ou alteradas disponíveis na Versão de Atualização 22 do Project Service Automation V3.
+description: Este artigo lista os recursos e as correções disponíveis na atualização do Project Service Automation versão 22, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 07/28/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2718509a21c76c12427ec1d78e287df2274f4d72
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 733ee6e0d3583f21d0f58f9651920be3e3fd8cb0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588768"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930626"
 ---
 # <a name="project-service-automation-update-release-22-v3"></a>Versão de Atualização 22, do Project Service Automation V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8588768"
 
 Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade. Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse a página de soluções online do Centro de Administração do Dynamics 365 para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
-Este tópico lista os recursos e as correções novas ou alteradas para o Project Service Automation V3, Versão de Atualização 22. Esta versão apresenta o número de compilação V 3.10.33.48 e está disponível para o público em geral por meio de uma atualização automática em junho de 2020.
+Este artigo lista os recursos e as correções novos ou alterados na atualização do Project Service Automation versão 22, V3. Esta versão apresenta o número de compilação V 3.10.33.48 e está disponível para o público em geral por meio de uma atualização automática em junho de 2020.
 
 ## <a name="update-release-22"></a>Versão de Atualização 22
 

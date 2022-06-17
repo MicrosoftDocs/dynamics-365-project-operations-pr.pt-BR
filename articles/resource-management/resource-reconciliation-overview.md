@@ -1,6 +1,6 @@
 ---
 title: Visão geral da reconciliação de recurso
-description: Este tópico fornece informações que ajudarão você a garantir que as reservas de recursos e atribuições para projetos estejam alinhadas.
+description: Este artigo fornece informações que ajudarão você a garantir que as reservas e atribuições de recursos para projetos estejam alinhadas.
 author: ruhercul
 ms.date: 01/08/2021
 ms.topic: overview
@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0574a0402bc6b34ab82bbc223aeb3a0ffcc9df9c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eaad9187f08be810d730f5a8ca6411ecee85bbc4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580028"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926302"
 ---
 # <a name="resource-reconciliation-overview"></a>Visão geral da reconciliação de recurso
 

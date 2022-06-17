@@ -1,6 +1,6 @@
 ---
 title: Calendário de entrada de hora
-description: Esse tópico fornece informações sobre como usar o calendário de entrada de hora.
+description: Esse artigo fornece informações sobre como usar o calendário de entrada de hora.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: fae112be462bfd1b216a18da1691c39981fe61b6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f206a7ff39e7d6919c618f5f2064e45975bfb0db
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574324"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915768"
 ---
 # <a name="time-entry-calendar"></a>Calendário de entrada de hora
 
@@ -38,7 +38,7 @@ O Dynamics 365 Project Service Automation oferece uma nova experiência extensí
 
 O calendário não é compatível com ações em itens de calendário individuais, além de não ser possível selecionar um ou mais itens do calendário para enviar ou excluir. Em vez disso, selecione um item do calendário para abrir a página de entidade **Entrada de hora**, na qual é possível concluir as ações obrigatórias.
 
-## <a name="extensibility"></a>Extensibilidade do 
+## <a name="extensibility"></a>Extensibilidade
 
 Na página **Entradas de hora** com a grade de entrada de hora, é possível adicionar campos personalizados, configurar campos de pesquisa e criar exibições personalizadas. Também é possível configurar a lógica de negócios baseada nos valores selecionados ou inseridos nos campos personalizados.
 

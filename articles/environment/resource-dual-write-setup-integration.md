@@ -1,24 +1,24 @@
 ---
 title: Integração de dados de instalação e configuração do Project Operations
-description: Este tópico fornece informações sobre como instalar e configurar mapas de gravação dupla do Project Operations.
+description: Este artigo fornece informações sobre como configurar e aplicar mapas de gravação dupla no Project Operations.
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586882"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914526"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>Integração de dados de instalação e configuração do Project Operations
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Este tópico fornece informações sobre a integração de gravação dupla do Project Operations para entidades de instalação e configuração.
+Este artigo fornece informações sobre a integração de gravação dupla no Project Operations para configuração e entidades de configuração.
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>Contratos de projeto, linhas de contrato e projetos
 

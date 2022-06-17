@@ -1,17 +1,17 @@
 ---
 title: Transições de estado em um subcontrato
-description: Este tópico explica as transições de estado em um subcontrato no Microsoft Dynamics 365 Project Operations conforme o subcontrato é criado, executado e fechado.
+description: Este artigo explica as transições de estado em um subcontrato no Microsoft Dynamics 365 Project Operations conforme o subcontrato é criado, executado e fechado.
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c9533d046398c708c55467e6b1a25acf6abade3e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b41e3d44a17c51778dd850c7d4a48351a5d44554
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579154"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919724"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>Transições de estado em um subcontrato 
 
@@ -19,7 +19,7 @@ ms.locfileid: "8579154"
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Este tópico explica as transições de estado em um subcontrato no Microsoft Dynamics 365 Project Operations. Cada estado é representado como rascunho, confirmado, fechado ou cancelado. A imagem a seguir representa as transições de estado.
+Este artigo explica as transições de estado em um subcontrato no Microsoft Dynamics 365 Project Operations. Cada estado é representado como rascunho, confirmado, fechado ou cancelado. A imagem a seguir representa as transições de estado.
 
 ![Modelo de estado de subcontrato](../media/SubconStates.png)  
 

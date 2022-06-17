@@ -1,21 +1,21 @@
 ---
 title: Gerenciar vários clientes em contratos de projeto
-description: Este tópico fornece informações sobre como gerenciar vários clientes em um contrato de projeto.
+description: Este artigo fornece informações sobre como gerenciar vários clientes em um contrato de projeto.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: bf8b0d313b2b07924d730fe8923b05559bbcc244
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591298"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928326"
 ---
 # <a name="manage-multiple-customers-on-project-contracts"></a>Gerenciar vários clientes em contratos de projeto
 
-Este tópico fornece informações sobre como gerenciar vários clientes em um contrato de projeto. Você pode usar um contrato de projeto quando um acordo contratual para vários clientes é necessário para financiar um negócio. Na página **Contrato do Projeto**, a guia **Resumo** inclui informações sobre o cliente principal de um negócio. Outros clientes que participam do negócio podem ser adicionados à guia **Clientes**.
+Este artigo fornece informações sobre como gerenciar vários clientes em um contrato de projeto. Você pode usar um contrato de projeto quando um acordo contratual para vários clientes é necessário para financiar um negócio. Na página **Contrato do Projeto**, a guia **Resumo** inclui informações sobre o cliente principal de um negócio. Outros clientes que participam do negócio podem ser adicionados à guia **Clientes**.
 
 Todos os clientes do contrato na guia **Clientes** do contrato do projeto serão usados por padrão como clientes da linha do contrato em quaisquer novas linhas do contrato baseadas no projeto criadas para o contrato do projeto. As linhas de contrato baseadas no projeto existentes não herdarão novos registros de clientes de contrato que forem criados posteriormente.
 

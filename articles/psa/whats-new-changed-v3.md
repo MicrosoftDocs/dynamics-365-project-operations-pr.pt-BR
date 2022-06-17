@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações no Project Service Automation versão 3
-description: Este tópico inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3.
+description: Este artigo inclui informações sobre o que há de novo e o que foi alterado no Project Service Automation versão 3.
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 15925cb88cc413f9a23a25e89ddd29668e9171de
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8d076e270f426131119eab097e7f359c228edb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581638"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926578"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3"></a>Novidades ou alterações no Project Service Automation versão 3
 
@@ -32,7 +32,7 @@ ms.locfileid: "8581638"
 
 
 
-Este tópico inclui informações sobre as alterações feitas na UI (interface do usuário), nas funcionalidades e na terminologia do Project Service Automation entre as versões 2 ou 1 e a versão 3.
+Este artigo inclui informações sobre as alterações feitas na UI (interface do usuário), nas funcionalidades e na terminologia do Project Service Automation entre a versão 2 ou 1 e a versão 3.
 
 ## <a name="project-scheduling"></a>Agendamento de projetos
 O agendamento de projetos, que era conhecido como WBS (estrutura de detalhamento de trabalho) nas versões anteriores, foi renomeado para Agendar, e pode ser acessado clicando na guia **Agendar**. 
@@ -150,7 +150,7 @@ Quando você tem atribuições de tarefas para um recurso, mas nenhuma reserva (
 Esta seção inclui informações sobre as mudanças de tempo, despesas e aprovações no Project Service Automation versão 3. Como parte da solução Dynamics 365 Project Service Automation, o recurso **Entrada de hora** foi atualizado para aproveitar a estrutura da Interface Unificada. Isso permite a entrega de uma interface de usuário consistente e uniforme que segue um design responsivo para uma exibição ideal em qualquer tamanho de tela ou dispositivo. 
 
 ### <a name="landing-page"></a>Página de aterrissagem
-A experiência de entrada de hora personalizada não extensível foi preterida na versão 3. Em vez disso, agora há uma experiência de grade nativa extensível e acessível. Você pode acessar a funcionalidade de entrada de hora usando o mapa do site à esquerda. Com essa mudança, você não poderá mais inserir horas para uma semana de uma só vez. Em vez disso, deverá criar uma entrada de hora para cada dia na grade. Após a criação de algumas entradas de tempo, os usuários poderão criar entradas de tempo em massa com a função **Copiar** explicada mais adiante neste tópico. 
+A experiência de entrada de hora personalizada não extensível foi preterida na versão 3. Em vez disso, agora há uma experiência de grade nativa extensível e acessível. Você pode acessar a funcionalidade de entrada de hora usando o mapa do site à esquerda. Com essa mudança, você não poderá mais inserir horas para uma semana de uma só vez. Em vez disso, deverá criar uma entrada de hora para cada dia na grade. Após a criação de algumas entradas de tempo, os usuários poderão criar entradas de tempo em massa com a função **Copiar** explicada mais adiante neste artigo. 
 
 ![Página de aterrissagem de entrada de hora.](media/time-entry-landing-page-07.png)
  

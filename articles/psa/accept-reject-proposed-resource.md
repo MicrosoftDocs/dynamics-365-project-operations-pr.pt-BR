@@ -1,6 +1,6 @@
 ---
 title: Aceitar ou rejeitar um recurso de projeto proposto
-description: Este tópico fornece informações sobre como aprovar ou rejeitar um recurso de projeto proposto.
+description: Este artigo fornece informações sobre como aprovar ou rejeitar um recurso de projeto proposto.
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8337ed19764e62cf2e095ec2f51d325caf92e6fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 94c3f9f960adc7c348b19e23a11bc05bd60e0b56
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599118"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916182"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>Aceitar ou rejeitar um recurso de projeto proposto
 
@@ -30,7 +30,7 @@ ms.locfileid: "8599118"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-Este tópico fornece informações sobre como aprovar ou rejeitar um recurso de projeto proposto.
+Este artigo fornece informações sobre como aprovar ou rejeitar um recurso de projeto proposto.
 
 Quando um gerente de recursos propõe um recurso nomeado para preencher a solicitação de recurso genérico para um projeto, o campo **Status da Solicitação** para membro da equipe genérico será atualizado para **Precisa de Revisão**. A solicitação será enviada ao gerente de projeto para aprovação ou rejeição.
 

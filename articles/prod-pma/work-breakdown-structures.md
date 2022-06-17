@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f1e69d7cc97e3a7a59bdba387282fe19d12f5780
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7f1a77c6e4e5f0926ff7afe1066f9a0cf7cdfb51
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683344"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920644"
 ---
 # <a name="work-breakdown-structures-overview"></a>Visão geral das estruturas de detalhamento de trabalho
 
@@ -35,7 +35,7 @@ O nível de detalhe em uma WBS depende do nível de precisão necessário nas es
 
 Em contraste, projetos em empresas como mídia e propaganda, software e infraestrutura de TI tendem a ser diferente e a produtividade é relativa à experiência e competência do indivíduo realizando a tarefa. Portanto, essas empresas usam uma WBS para obter uma aproximação do tamanho de um projeto, não para rastrear o progresso desse projeto em detalhe. 
 
-Criar uma WBS é um processo intenso, geralmente realizado em um longo período, e requer colaboração e informações de muitas pessoas. Este tópico descreve como você pode usar os aprimoramentos da WBS para atender aos seus requisitos de estimativa e rastreamento.
+Criar uma WBS é um processo intenso, geralmente realizado em um longo período, e requer colaboração e informações de muitas pessoas. Este artigo descreve como você pode usar aprimoramentos de WBS para atender os requisitos de estimativas e acompanhamento.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Pré-requisitos para criar uma WBS
 Para criar uma WBS, você deve ser capaz de criar uma agenda de trabalho e estimar o custo do trabalho.
@@ -166,7 +166,7 @@ Finanças tem três visões para a WBS de um projeto: a visão de planejamento, 
 
 ### <a name="planning-view"></a>Visão de planejamento
 
-A visualização de Planejamento exibe a estimativa planejada ou de linha de base da programação e as informações de custo. Embora não haja recursos para rastrear a versão e a linha de base para uma WBS do projeto, os valores nesta exibição têm a intenção de representar a versão da linha de base. As seções Estimativa de cronograma e Estimativa de custo deste tópico descrevem essa visão e como ela é usada para criar uma WBS.
+A visualização de Planejamento exibe a estimativa planejada ou de linha de base da programação e as informações de custo. Embora não haja recursos para rastrear a versão e a linha de base para uma WBS do projeto, os valores nesta exibição têm a intenção de representar a versão da linha de base. As seções Estimativa da agenda e Estimativa de custo deste artigo descrevem essa exibição e como ela é utilizada para criar uma WBS.
 
 ### <a name="effort-tracking-view"></a>Exibição de Acompanhamento de Esforço
 

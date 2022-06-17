@@ -1,24 +1,24 @@
 ---
 title: Integração de estimativas e dados reais do projeto
-description: Este tópico fornece informações sobre a integração de gravação dupla do Project Operations para estimativas e dados reais do projeto.
+description: Este artigo fornece informações sobre a integração de gravação dupla no Project Operations para estimativas e dados reais de projetos.
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577176"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914572"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integração de estimativas e dados reais do projeto
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Este tópico fornece informações sobre a integração de gravação dupla do Project Operations para estimativas e dados reais do projeto.
+Este artigo fornece informações sobre a integração de gravação dupla no Project Operations para estimativas e dados reais de projetos.
 
 ## <a name="project-estimates"></a>Estimativas do projeto
 

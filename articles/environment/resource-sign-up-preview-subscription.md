@@ -1,17 +1,17 @@
 ---
 title: Inscreva-se para obter subscrições de versão preliminar do Project Operations para cenários de recursos/sem estoque
-description: Este tópico fornece informações sobre como subscrever e implantar o Project Operations para cenários baseados em recursos/sem estoque.
+description: Este artigo fornece informações sobre como inscrever-se em e implantar o Project Operations para cenários baseados em recursos/sem estoque.
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575796"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920092"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>Inscreva-se para obter subscrições de versão preliminar do Project Operations para cenários de recursos/sem estoque
 
@@ -19,7 +19,7 @@ _**Aplicável A:** Project Operations para cenários baseados em recursos/sem es
 
 
 
-Este tópico explica como assinar a oferta de avaliação e implantar o ambiente do Project Operations para cenários baseados em recursos/itens sem estoque.
+Este artigo explica como inscrever-se na oferta de avaliação e implantar o ambiente Project Operations para cenários baseados em recursos/sem estoque.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 - O usuário que implementa a versão preliminar precisa ter direitos de administrador global no Locatário do Azure. Você pode criar um inquilino durante o primeiro resgate da oferta. 
@@ -60,19 +60,19 @@ Vá para [Avaliação de Versão Preliminar do Dynamics 365 for Finance](https:/
 
 ## <a name="start-a-new-project-in-lcs"></a>Iniciar um novo projeto no LCS
 
-Criar um novo projeto do LCS conforme descrito no tópico [Iniciar novo projeto no LCS](create-lcs-project.md)
+Crie um novo projeto LCS conforme descrito no artigo, [Iniciar um novo projeto no LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>Adicionar uma subscrição do Azure a um projeto do LCS
 
-Para concluir essa tarefa, siga as etapas no tópico [Adicionar uma subscrição do Azure ao projeto do LCS](resource-add-azure-subscription-lcs-project.md).
+Para concluir esta tarefa, siga as etapas do artigo, [Adicionar uma assinatura do Azure ao projeto LCS](resource-add-azure-subscription-lcs-project.md).
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>Implantar um ambiente de demonstração do Finance com o Project Operations para cenários de recursos/sem estoque
 
-Siga as orientações no tópico [Provisionar um novo ambiente](resource-provision-new-environment.md) para concluir a implantação. Use o tipo de implantação [ambiente de demonstração](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para a versão preliminar. 
+Siga as orientações do artigo, [Provisionar um novo ambiente](resource-provision-new-environment.md) para concluir a implantação. Use o tipo de implantação [ambiente de demonstração](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) para a versão preliminar. 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>Instalar dados de configuração do CDS
 
-Instale os dados de configuração do CDS conforme descrito no tópico [Configurar e aplicar dados de configuração no Common Data Service](resource-apply-pro-setup-config-data.md).
+Instale os dados de configuração do CDS conforme descrito no artigo, [Configurar e aplicar dados de configuração no arquivo Common Data Service](resource-apply-pro-setup-config-data.md).
 Conclua esta etapa somente depois que o ambiente de demonstração do Finance for implantado e os dados de demonstração estiverem prontos.
 
 

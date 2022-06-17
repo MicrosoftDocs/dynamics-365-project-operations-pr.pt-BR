@@ -1,6 +1,6 @@
 ---
 title: Home page de cotação, preço e cobrança
-description: Este tópico fornece informações sobre cotação, preço e cobrança.
+description: Este artigo fornece informações sobre cotação, preço e cobrança.
 author: rumant
 ms.author: rumant
 ms.custom:
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ef63d48703059bac8cadf3b12ecb025ae103d44d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581086"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926716"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>Home page de cotação, preço e cobrança
 
@@ -33,7 +33,7 @@ ms.locfileid: "8581086"
 
 Cotação, preço e cobrança são recursos usados por organizações de pequeno e grande porte. Ao compreender como esses recursos funcionam no aplicativo, as organizações podem personalizar configurações com mais facilidade.
 
-Os tópicos a seguir fornecem mais informações sobre as funcionalidades de cotação, preço e cobrança no PSA:
+Os seguintes artigos fornecem mais informações sobre as funcionalidades de cotação, preço e cobrança no PSA:
 
 - [Processo de vendas](basic-sales-process.md)
 - [Linhas de cotação](basic-quote-lines.md)

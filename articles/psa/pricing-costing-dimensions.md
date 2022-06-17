@@ -1,6 +1,6 @@
 ---
 title: Home page de dimensões de preço e custo
-description: Este tópico fornece uma visão geral das dimensões de preço.
+description: Este artigo fornece uma visão geral de dimensões de preço.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7dbee508cea074a8c443506d280a1b52eb698202
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 88c77d90bccaa5f10e8f75d60ae121d699bc0976
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593598"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925428"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>Home page de dimensões de preço e custo
 
@@ -47,7 +47,7 @@ O PSA apresenta um conjunto padrão de dimensões de preço. É possível exibi-
 > [!IMPORTANT]
 > Se você vem usando os campos prontos para uso da função e da unidade organizacional como dimensões de preço antes da versão 3 do PSA, não haverá qualquer mudança significativa. Você pode continuar usando o Project Service normalmente. 
 
-Se precisar precificar ou colocar custo para seus recursos usando atributos adicionais, você poderá criar campos, entidades e dimensões personalizados. Para obter mais informações, consulte os tópicos a seguir. No entanto, observe que você deve concluir os procedimento na ordem lista abaixo:
+Se precisar precificar ou colocar custo para seus recursos usando atributos adicionais, você poderá criar campos, entidades e dimensões personalizados. Para obter mais informações, consulte os artigos a seguir. No entanto, observe que você deve concluir os procedimentos na ordem listada abaixo:
 
 - [Criar campos e entidades personalizados](create-custom-fields-entities.md)
 - [Adicionar campos personalizados a entidades transacionais e de configuração de preço](field-references.md)

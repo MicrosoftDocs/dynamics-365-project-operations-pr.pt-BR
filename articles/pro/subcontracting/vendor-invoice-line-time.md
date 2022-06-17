@@ -1,17 +1,17 @@
 ---
 title: Linhas da fatura de fornecedor para tempo
-description: Este tópico explica como registrar linhas da fatura de fornecedor para custos de tempo que subcontratados inserem.
+description: Este artigo explica como registrar linhas da fatura de fornecedor para custos de tempo que subcontratados inserem.
 author: rumant
 ms.date: 03/15/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ac598dff7b0b4a29ac0397a31130ada3b197fe44
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0b81d2884580e9054457906627c1f9101f435524
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597186"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927518"
 ---
 # <a name="vendor-invoice-lines-for-time"></a>Linhas da fatura de fornecedor para tempo
 
@@ -25,15 +25,15 @@ As linhas da fatura do fornecedor para tempo podem ou não fazer referência a u
 
 A tabela a seguir apresenta informações sobre os campos nas linhas da fatura de fornecedor para tempo.
 
-| Campo | Description | Impacto funcional |
+| Campo | Descrição | Impacto funcional |
 | --- | --- | --- |
-| Name | O nome da linha da fatura de fornecedor para ajudar na identificação. | Esse nome será exibido como a primeira coluna em todas as pesquisas baseadas em linhas da fatura de fornecedor. |
-| Description | Uma breve descrição dos serviços que estão sendo faturados pelo fornecedor na linha da fatura de fornecedor. | Nenhum |
+| Nome | O nome da linha da fatura de fornecedor para ajudar na identificação. | Esse nome será exibido como a primeira coluna em todas as pesquisas baseadas em linhas da fatura de fornecedor. |
+| Descrição | Uma breve descrição dos serviços que estão sendo faturados pelo fornecedor na linha da fatura de fornecedor. | Nenhum |
 | Subcontrato | O subcontrato em que os serviços foram pedidos originalmente. | Quando um subcontrato for selecionado para a fatura de fornecedor, todas as linhas da fatura de fornecedor herdarão essa seleção. Uma fatura de fornecedor não pode ter linhas da fatura de fornecedor que fazem referência a subcontratos diferentes. |
 | Linha de subcontrato | A linha de subcontrato em que os serviços foram pedidos. A lista de linhas de subcontrato que podem ser selecionadas é limitada às linhas do subcontrato selecionado. | Quando uma linha de subcontrato é selecionada em uma linha da fatura de fornecedor para tempo, os valores padrão dos campos **Projeto**, **Função** e **Recurso reservável** são inseridos a partir dos campos correspondentes na linha de subcontrato. Se a linha de subcontrato selecionada tiver valores nos campos **Projeto**, **Função** e **Reservável**, os valores dos campos correspondentes na linha da fatura de fornecedor não podem diferir desses valores. |
 | Data da transação | A data em que o dado real de custo da linha da fatura de fornecedor será registrado no projeto. | Nenhum |
 | Classe da transação | O valor padrão é **Tempo**. | O valor **Tempo** indica que a linha da fatura de fornecedor está sendo usada para registrar o valor da fatura de tempo do subcontratado. |
-| Project | O nome do projeto no qual os serviços que estão sendo faturados foram usados. | Este campo é obrigatório e não pode ficar em branco. |
+| Projeto | O nome do projeto no qual os serviços que estão sendo faturados foram usados. | Este campo é obrigatório e não pode ficar em branco. |
 | Tarefa | O nome da tarefa do projeto na qual os serviços que estão sendo faturados foram usados. Este campo estará disponível somente se houver um projeto selecionado. A seleção de uma tarefa do projeto é opcional. | Se este campo estiver em branco, o gerente de projeto poderá corresponder a linha da fatura de fornecedor com o tempo registrado pelos recursos subcontratados em qualquer tarefa do projeto. Se a linha da fatura de fornecedor não fizer referência a uma linha de subcontrato e esse campo ficar em branco, o dado real de custo criado pela linha da fatura de fornecedor não será vinculado a nenhum valor real de vendas não faturado. Nesse caso, se o faturamento baseado em tarefas estiver configurado, talvez não seja possível faturar os custos para o cliente final. |
 | Função | A função dos recursos subcontratados cujo tempo está sendo faturado. | Este campo especifica a função desempenhada pelos recursos subcontratados cujo tempo é faturado na fatura do fornecedor. |
 | Recurso reservável | O nome do subcontratado cujo tempo está sendo faturado. A seleção de um recurso reservável é opcional. | Se este campo estiver em branco, o gerente de projeto poderá corresponder a linha da fatura de fornecedor com o tempo registrado por qualquer recurso que pertence ao fornecedor na linha da fatura de fornecedor. |

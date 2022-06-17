@@ -1,6 +1,6 @@
 ---
 title: Desativar listas de preços
-description: Este tópico explica como desativar ou remover listas de preços antigas ou não utilizadas.
+description: Este artigo explica como desativar ou remover listas de preços não utilizadas ou antigas.
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Professional Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ab790764f7a99118fd42bc76934105389173ff88
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 56bd498d2cb892bdf0c7514d0918e3873098b8d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596869"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924370"
 ---
 # <a name="deactivate-price-lists"></a>Desativar listas de preços 
 

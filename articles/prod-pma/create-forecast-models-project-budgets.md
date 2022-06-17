@@ -1,6 +1,6 @@
 ---
 title: Criar modelos de previsão para orçamentos de projeto
-description: Este tópico descreve como criar um modelo de previsão para os orçamentos restantes.
+description: Este artigo descreve como criar um modelo de previsão para orçamentos restantes.
 author: Yowelle
 ms.date: 04/24/2020
 ms.topic: article
@@ -15,18 +15,18 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 992dd74524ae6a7c329612a125d60bebfcbe7dd2
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: e6b1419c41124d2062595f7346efb7538e50ee33
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683616"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916688"
 ---
 # <a name="create-forecast-models-for-project-budgets"></a>Criar modelos de previsão para orçamentos de projeto 
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve como criar um modelo de previsão para os orçamentos restantes. Um projeto sujeito a controle de orçamento usa dois tipos de orçamento: original e restante. Ao criar um orçamento de projeto, você deverá especificar os modelos de previsão de orçamento original e restante que foram criados na página **Modelos de previsão**. Os orçamentos do projeto com base nos modelos especificados são criados quando você compromete o orçamento do projeto.
+Este artigo descreve como criar um modelo de previsão para orçamentos restantes. Um projeto sujeito a controle de orçamento usa dois tipos de orçamento: original e restante. Ao criar um orçamento de projeto, você deverá especificar os modelos de previsão de orçamento original e restante que foram criados na página **Modelos de previsão**. Os orçamentos do projeto com base nos modelos especificados são criados quando você compromete o orçamento do projeto.
 
 > [!NOTE]
 > Um modelo de previsão usado para controle de orçamento não pode ter um submodelo ou ser usado como um submodelo.

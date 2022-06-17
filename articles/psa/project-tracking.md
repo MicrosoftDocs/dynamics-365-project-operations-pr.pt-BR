@@ -1,6 +1,6 @@
 ---
 title: Andamento do projeto e consumo de custo
-description: Este tópico fornece informações sobre como rastrear o progresso do projeto e o consumo de custos.
+description: Este artigo fornece informações sobre como rastrear o consumo de custo e o progresso do projeto.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 56b78aa70f23a9a723f008973678bb29c4bbce1d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: afcac5e6fbb7ed8a5a5f7f5876c6035b59eebcc2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575244"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921748"
 ---
 # <a name="project-progress-and-cost-consumption"></a>Andamento do projeto e consumo de custo
 
@@ -30,9 +30,9 @@ ms.locfileid: "8575244"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-A necessidade de acompanhar o progresso em relação a uma agenda varia por setor. Alguns setores fazem o acompanhamento em um nível granular, enquanto outros o fazem em um nível superior. Este tópico mostra como fazer agendamentos para atender aos requisitos da sua organização.
+A necessidade de acompanhar o progresso em relação a uma agenda varia por setor. Alguns setores fazem o acompanhamento em um nível granular, enquanto outros o fazem em um nível superior. Este artigo mostra como fazer agendamentos para atender aos requisitos da sua organização.
 
-## <a name="effort-tracking-view"></a>Exibição de Acompanhamento de Esforço
+## <a name="effort-tracking-view"></a>Exibição de Rastreamento de Esforço
 
 A exibição **Acompanhamento de esforço** acompanha o progresso de tarefas na agenda. Compara as horas de esforço reais gastas em uma tarefa com as horas de esforço planejado da tarefa. O Project Service Automation usa as fórmulas a seguir para calcular as métricas de acompanhamento:
 

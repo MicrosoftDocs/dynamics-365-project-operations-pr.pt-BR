@@ -1,6 +1,6 @@
 ---
 title: Configuração de campos personalizados como dimensões de precificação
-description: Esse tópico fornece informações sobre a configuração de dimensões de preço personalizadas.
+description: Esse artigo fornece informações sobre a configuração de dimensões de preço personalizadas.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,20 +16,20 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 91ec6d502a44771e7e03b67cc2be40c527fff355
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 14d27b53b42744d47e298bf5a926c1262dbf44d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591896"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922583"
 ---
 # <a name="setting-up-custom-fields-as-pricing-dimensions"></a>Configuração de campos personalizados como dimensões de precificação 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-Antes de começar, esse tópico presume que os procedimentos nos tópicos foram concluídos, [Criar campos personalizados e entidades](create-custom-fields-entities.md) e [Adicionar campos personalizados para configuração de preço e entidades transacionais](field-references.md). Se você não concluiu esses procedimentos, volte e conclua-os e retorne a este tópico. 
+Antes de começar, este artigo supõe que os procedimentos nos tópicos foram concluídos, [Criar campos personalizados e entidades](create-custom-fields-entities.md) e [Adicionar campos personalizados para configuração de preço e entidades transacionais](field-references.md). Se você não concluiu esses procedimentos, volte e conclua-os e retorne a este artigo. 
 
-Esse tópico fornece informações sobre a configuração de dimensões de preço personalizadas. Na interface da Web do Project Service, na página **Parâmetros**, a guia **Dimensões de preço baseadas em valor** exibe os registros nas entidades de dimensão de preço. Por padrão, a instalação de Project Service cria 2 linhas na grade nessa tabela:
+Esse artigo fornece informações sobre a configuração de dimensões de preço personalizadas. Na interface da Web do Project Service, na página **Parâmetros**, a guia **Dimensões de preço baseadas em valor** exibe os registros nas entidades de dimensão de preço. Por padrão, a instalação de Project Service cria 2 linhas na grade nessa tabela:
 
 - **msdyn_resourcecategory** (Função)
 - **msdyn_OrganizationalUnit** (Unidade Organizacional)

@@ -1,19 +1,19 @@
 ---
-title: Acompanhamento de vendas do projeto
-description: Este tópico fornece informações sobre como o Project Operations rastreia o progresso em relação à receita de mão de obra em um projeto.
+title: Rastreamento de vendas do projeto
+description: Este artigo fornece informações sobre como o Project Operations rastreia o progresso em relação à receita de mão de obra em um projeto.
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fff5fa6b12dddd780eb6bf77edca85a3a0c0629c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ce61acf95ee5e9ac10047406c9d4a5c9b1f92aad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583432"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911260"
 ---
-# <a name="project-sales-tracking"></a>Acompanhamento de vendas do projeto
+# <a name="project-sales-tracking"></a>Rastreamento de vendas do projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 

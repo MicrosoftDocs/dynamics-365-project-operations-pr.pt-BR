@@ -1,6 +1,6 @@
 ---
 title: Sincronizar estimativas do projeto diretamente do Project Service Automation para o Finance and Operations
-description: Este tópico descreve os modelos e as tarefas subjacentes usadas para sincronizar estimativas de horas do projeto e estimativas de despesas do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+description: Este artigo descreve os modelos e as tarefas subjacentes usadas para sincronizar estimativas de horas do projeto e estimativas de despesas do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 47de3556034227e072d14dc93908edec42cec93c
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: fb39a377a51b09f04564b4fe8527e34f0ea12682
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684582"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920828"
 ---
 # <a name="synchronize-project-estimates-directly-from-project-service-automation-to-finance-and-operations"></a>Sincronizar estimativas do projeto diretamente do Project Service Automation para o Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve os modelos e as tarefas subjacentes usadas para sincronizar estimativas de horas do projeto e estimativas de despesas do projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+Este artigo descreve os modelos e as tarefas subjacentes usadas para sincronizar estimativas de horas do projeto e estimativas de despesas do projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 
 > [!NOTE]
 > - Integração de tarefas do projeto, categorias de transações de despesas, estimativas de horas, estimativas de despesas e bloqueio de funcionalidade estão disponíveis na versão 8.0.

@@ -1,6 +1,6 @@
 ---
 title: Trabalhar com o modelo de dados do Project Service Automation
-description: Este tópico fornece informações sobre como trabalhar com o modelo de dados.
+description: Este artigo fornece informações sobre como trabalhar com o modelo de dados.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: e0849e5b2ab144814fe5310b11a758475ef56ef5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 67932eea78048c09f5f836d1330f412466622c6a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587526"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926670"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>Trabalhar com o modelo de dados do Project Service Automation
 
@@ -31,7 +31,7 @@ ms.locfileid: "8587526"
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
 
-O Dynamics 365 Project Service Automation estende outras entidades de aplicativos e introduz suas próprias entidades no modelo de dados do Common Data Service. Este tópico descreve algumas das entidades que você encontrará em cenários típicos de criação de relatórios no PSA.
+O Dynamics 365 Project Service Automation estende outras entidades de aplicativos e introduz suas próprias entidades no modelo de dados do Common Data Service. Este artigo descreve algumas das entidades encontradas em cenários típicos de criação de relatórios no PSA.
 
 ## <a name="reporting-on-opportunities"></a>Relatar oportunidades
 

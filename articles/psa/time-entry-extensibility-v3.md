@@ -1,6 +1,6 @@
 ---
 title: Personalizar entrada de hora semanal
-description: Este tópico fornece informações sobre como implementar regras de negócios personalizadas que são compatíveis com as práticas de uma organização.
+description: Este artigo fornece informações sobre como implementar regras de negócios personalizadas que são compatíveis com as práticas de uma organização.
 author: stsporen
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1cc32a1d8776f4adaa0031154aba6bd6733b7f7d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bdc8df4050d895504fa126e2ee55fcd3b4de123f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581040"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918942"
 ---
 # <a name="customize-weekly-time-entry"></a>Personalizar entrada de hora semanal 
 
@@ -43,10 +43,10 @@ A seção **Dimensões** mostra, como títulos de colunas, todas as dimensões e
 - Projeto
 - Tarefa do Projeto
 - Função
-- Digite
+- Tipo
 - Status da Entrada
 
-A seção **Dimensões** não permite a edição em linha. Esta seção é apoiada por uma exibição que permite que campos personalizados sejam adicionados à grade de entrada de hora semanal. Para obter informações sobre como adicionar campos personalizados, consulte a seção "Extensibilidade" posteriormente neste tópico.
+A seção **Dimensões** não permite a edição em linha. Esta seção é apoiada por uma exibição que permite que campos personalizados sejam adicionados à grade de entrada de hora semanal. Para obter informações sobre como adicionar campos personalizados, consulte a seção "Extensibilidade" mais adiante neste artigo.
 
 ### <a name="duration"></a>Duração
 A seção Duração mostra os dias da semana como cabeçalhos de colunas. Esta seção permite a edição em linha. Após a criação de uma linha de entrada de hora com dimensões apropriadas, os usuários podem inserir rapidamente, em linha, a quantidade de tempo que passaram nessas dimensões.

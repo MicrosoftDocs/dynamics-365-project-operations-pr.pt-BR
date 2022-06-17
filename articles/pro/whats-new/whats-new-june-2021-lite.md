@@ -1,24 +1,24 @@
 ---
 title: O que há de novo em junho de 2021 - Implantação lite do Project Operations
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de junho de 2021 da implantação lite do Project Operations.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de junho de 2021 da implantação lite do Project Operations.
 author: sigitac
 ms.date: 06/10/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 06ea83152e4f601ef842a0f8d975c16c2be95612
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 16fffb06ebb72ac25982374bff27a015eccfae1b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583892"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913928"
 ---
 # <a name="whats-new-june-2021---project-operations-lite-deployment"></a>O que há de novo em junho de 2021 - Implantação lite do Project Operations
 
 _Aplica-se a: Implantação lite – gerenciar faturamento pro forma_
 
-Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
   - Project Operations na versão 4.11.0.156 ou 4.11.0.164 do ambiente do Dataverse.
 

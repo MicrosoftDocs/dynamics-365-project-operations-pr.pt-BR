@@ -1,18 +1,18 @@
 ---
 title: Integração de gravação dupla do Project Operations
-description: Este tópico fornece uma visão geral da integração de gravação dupla do Project Operations.
+description: Este artigo fornece uma visão geral da integração de gravação dupla do Project Operations.
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9b57b8bab9a6821e71a16b191804af21ae5d0b5a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d365a036f96ff4f7b14107b43e8c6b70df0b5362
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582742"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927958"
 ---
 # <a name="project-operations-dual-write-integration-overview"></a>Visão geral de integração de gravação dupla do Project Operations
 

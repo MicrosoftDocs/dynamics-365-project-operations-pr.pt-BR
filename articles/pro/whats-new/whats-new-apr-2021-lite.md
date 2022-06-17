@@ -1,24 +1,24 @@
 ---
 title: Novidades em abril de 2021 - implantação lite do Project Operations
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de abril de 2021 de implantação lite do Project Operations.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de abril de 2021 da implantação do Project Operations lite.
 author: sigitac
 ms.date: 04/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 10d9498636d8c5f72b7544be4ec30f399d5e0311
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 987eeaf2e57659a6facae6b0a3688f15992e8bb9
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598106"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931225"
 ---
 # <a name="whats-new-april-2021---project-operations-lite-deployment"></a>Novidades em abril de 2021 - implantação lite do Project Operations
 
 _Aplica-se a: Implantação lite – gerenciar faturamento pro forma_
 
-Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
   - Project Operations no ambiente do Dataverse versão 4.9.0.221 
 

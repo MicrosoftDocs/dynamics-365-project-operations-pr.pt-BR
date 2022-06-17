@@ -1,6 +1,6 @@
 ---
 title: Correções em massa de valores criados por entradas de hora e despesa aprovadas
-description: Este tópico explica como um administrador pode realizar correções separadamente ou em massa a entradas de hora e despesa aprovadas anteriormente se o faturamento não tiver sido concluído.
+description: Este artigo explica como um administrador poderá fazer correções individuais ou em massa em entradas de tempo ou despesas pré-aprovadas se a cobrança não for concluída.
 author: rumant
 ms.date: 04/02/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 82c9b38e4c79511fe3b6abfcb973fff8b56f1522
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683343"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916275"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>Correções em massa de valores criados por entradas de hora e despesa aprovadas
 
@@ -28,7 +28,7 @@ ms.locfileid: "8683343"
 
 Ocasionalmente, uma entrada de hora ou de despesa pode ser inserida incorretamente. Por exemplo, um consultor pode selecionar a data erada ao criar uma entrada de hora ou pode transpor os números ao inserir uma despesa. Se um consultor não puder atualizar as entradas enviadas, um administrador pode corrigir a entrada de um projeto diretamente.
 
-Para concluir os procedimentos neste tópico, será necessário ter permissões de Administrador.
+Para concluir os procedimentos deste artigo, você precisará de permissões de administrador.
 
 ## <a name="correct-approved-time-entries"></a>Corrigir entradas de hora aprovadas     
 

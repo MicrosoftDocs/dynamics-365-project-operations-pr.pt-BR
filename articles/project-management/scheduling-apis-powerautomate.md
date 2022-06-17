@@ -1,25 +1,25 @@
 ---
 title: Usar APIs de agendamento de projetos com o Power Automate
-description: Este tópico fornece um fluxo de amostra que usa as interfaces de programação de aplicativo (APIs) de agendamento de projetos.
+description: Este artigo fornece um fluxo de exemplo que usa as interfaces de programação de aplicativo (APIs) de agendamento de projetos.
 author: ruhercul
 ms.date: 01/26/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9708226b0955cfa6c405b9616c14765f9ebc21f7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2527375ff3f3d631f3bb3de1458abb3b8838db54
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8597692"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916320"
 ---
 # <a name="use-project-schedule-apis-with-power-automate"></a>Usar APIs de agendamento de projetos com o Power Automate
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Este tópico descreve um fluxo de amostra que mostra como criar um plano de projeto completo usando o Microsoft Power Automate, como criar um Conjunto de Operações e como atualizar uma entidade. O exemplo demonstra como criar um projeto, um membro da equipe do projeto, Conjuntos de Operações, tarefas do projeto e atribuições de recursos. Este tópico também explica como atualizar uma entidade e executar um Conjunto de Operações.
+Este artigo descreve um fluxo de exemplo que mostra como criar um plano de projeto completo usando o Microsoft Power Automate, como criar um Conjunto de Operações e como atualizar uma entidade. O exemplo demonstra como criar um projeto, um membro da equipe do projeto, Conjuntos de Operações, tarefas do projeto e atribuições de recursos. Este artigo também explica como atualizar uma entidade e executar um Conjunto de Operações.
 
-Veja a seguir uma lista completa das etapas documentadas no fluxo de amostra neste tópico:
+Esta é uma lista completa das etapas documentadas no fluxo de exemplo neste artigo:
 
 1. [Criar um gatilho do PowerApps](#1)
 2. [Criar um projeto](#2)
@@ -40,7 +40,7 @@ Veja a seguir uma lista completa das etapas documentadas no fluxo de amostra nes
 
 ## <a name="assumptions"></a>Suposições
 
-Este tópico pressupõe que você tenha conhecimento básico da plataforma Dataverse, de fluxos da nuvem e da interface de programação de aplicativo (API) de agendamento de projetos. Para obter mais informações, consulte a seção [Referências](#references) mais adiante neste tópico.
+Este artigo pressupõe que você tenha conhecimento básico da plataforma Dataverse, de fluxos da nuvem e da interface de programação de aplicativo (API) de agendamento de projetos. Para obter mais informações, consulte a seção [Referências](#references) mais adiante neste artigo.
 
 ## <a name="create-a-flow"></a>Criar um fluxo
 
@@ -65,7 +65,7 @@ Siga estas etapas para criar um [fluxo com reconhecimento de solução](/power-a
 1. Na página **Soluções**, selecione a solução que você criou e selecione **Novo**.
 2. No painel esquerdo, selecione **Fluxos da nuvem** \> **Automação** \> **Fluxo da nuvem** \> **Instantâneo**.
 3. No campo **Nome do fluxo**, insira **Fluxo de Demonstração da API de Agendamento**.
-4. Na lista **Escolher como disparar este fluxo**, selecione **Power Apps**. Quando você cria um gatilho do Power Apps, a lógica depende de você como autor. Neste tópico, deixe os parâmetros de entrada em branco para fins de teste.
+4. Na lista **Escolher como disparar este fluxo**, selecione **Power Apps**. Quando você cria um gatilho do Power Apps, a lógica depende de você como autor. Neste artigo, deixe os parâmetros de entrada em branco para fins de teste.
 5. Selecione **Criar**.
 
 ## <a name="step-2-create-a-project"></a><a id="2"></a>Etapa 2: criar um projeto

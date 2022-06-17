@@ -1,6 +1,6 @@
 ---
 title: Cotações - principais conceitos
-description: Este tópico fornece informações sobre as cotações e cotações de vendas disponíveis no Project Operations.
+description: Este artigo fornece informações sobre cotações do projeto e de vendas disponíveis no Project Operations.
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: fbaed6a0967ce4ef4eec572de9e2a7da95c3cbd9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c0598b9ec276741f1f62e0cfc1717a3fd622cd7c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579890"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912502"
 ---
 # <a name="concepts-unique-to-project-based-quotes"></a>Conceitos exclusivos de Cotações baseadas em projeto
 
@@ -35,7 +35,7 @@ No Dynamics 365 Project Operations, há dois tipos de cotação: projeto e venda
 - **Campos e conceitos**: uma cotação de vendas não inclui alguns campos e conceitos que são incluídos em uma cotação de projeto. Os campos incluem **Unidade de Contratação**, **Gerente de Contas** e **Nome do Contato para Cobrança**.  
 - **Tipo**: as cotações de vendas e de projeto também são identificadas pelo campo baseado no conjunto de opções chamado **Tipo**. Para uma cotação de vendas, esse campo tem o valor **Com base no item**. Para uma cotação de projeto, ele tem o valor **Com base no trabalho**.
 
-Este tópico foca os detalhes das cotações de projeto.
+Este artigo foca os detalhes de cotações de projeto.
 
 Uma cotação de projeto no Project Operations pode ter vários itens de linha ou linhas de cotação. Na verdade, uma cotação de projeto tem duas grades para itens de linha. Uma grade é para linhas baseadas no projeto que permitem estimativas detalhadas. A outra grade é para linhas baseadas no produto que usam um preço unitário simples e abordagem baseada em quantidade.
 

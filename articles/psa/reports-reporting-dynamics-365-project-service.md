@@ -1,6 +1,6 @@
 ---
 title: Home page de relatórios
-description: Este tópico fornece informações sobre relatórios no Dynamics 365 Project Service Automation.
+description: Este artigo fornece informações sobre relatórios no Dynamics 365 Project Service Automation.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595944"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921656"
 ---
 # <a name="reporting-home-page"></a>Home page de relatórios
 
@@ -47,7 +47,7 @@ Juntos, o Microsoft Power BI e o Dynamics 365 oferecem uma maneira poderosa de t
 
 
 ## <a name="additional-resources"></a>Recursos adicionais
-Para obter mais informações sobre relatórios no PSA, consulte os seguintes tópicos:
+Para obter mais informações sobre relatórios no PSA, consulte os seguintes artigos:
 
 - [Trabalhar com o modelo de dados do Project Service](reports-working-project-service-data-model.md)
 - [Painéis](reports-dashboards.md)

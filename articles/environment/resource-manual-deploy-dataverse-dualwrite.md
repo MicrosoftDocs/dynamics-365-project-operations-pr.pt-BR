@@ -1,31 +1,31 @@
 ---
-title: Implantar manualmente o aplicativo Dataverse do Project Operations com suporte à gravação dupla
-description: Este tópico explica como implantar manualmente o aplicativo Dataverse do Project Operations para que ele suporte gravação dupla.
+title: Implantar manualmente o aplicativo Project Operations no Dataverse com suporte à gravação dupla
+description: Este artigo explica como implantar manualmente o aplicativo Project Operations no Dataverse para que dê suporte à gravação dupla.
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591206"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911996"
 ---
-# <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Implantar manualmente o aplicativo Dataverse do Project Operations com suporte à gravação dupla
+# <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>Implantar manualmente o aplicativo Project Operations no Dataverse com suporte à gravação dupla
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Este tópico explica como implantar manualmente o Microsoft Dynamics 365 Project Operations no Microsoft Dataverse, de forma que ele suporte gravação dupla. O Project Operations detecta a configuração do ambiente e adiciona suporte adicional para gravação dupla, se os pré-requisitos forem atendidos.
+Este artigo explica como implantar manualmente o Microsoft Dynamics 365 Project Operations no Microsoft Dataverse para que seja compatível com gravação dupla. O Project Operations detecta a configuração do ambiente e adiciona suporte adicional para gravação dupla, se os pré-requisitos forem atendidos.
 
-Durante a implantação por meio do Microsoft Dynamics Lifecycle Services (LCS), se você seguiu as instruções neste tópico, poderá pular a implantação da integração do Microsoft Power Platform (anteriormente conhecido como o ambiente do Common Data Service).
+Durante a implantação por meio do Microsoft Dynamics Lifecycle Services (LCS), se você seguiu as instruções deste artigo, poderá ignorar a implantação da integração do Microsoft Power Platform (antes conhecida como o ambiente Common Data Service).
 
-O processo de implantação do Project Operations no Dataverse para que seja compatível com gravação dupla tem quatro etapas principais:
+O processo de implantação do Project Operations no Dataverse para que dê suporte à gravação dupla tem quatro etapas principais:
 
-1. [Criar um novo ambiente no Dataverse que suporta gravação dupla](#create).
+1. [Criar um novo ambiente no Dataverse com suporte à gravação dupla](#create).
 2. [Adicionar pré-requisitos de gravação dupla ao ambiente](#prerequisites).
-3. [Adicionar o aplicativo Dataverse do Project Operations](#dataverse).
+3. [Adicionar o aplicativo Project Operations no Dataverse](#dataverse).
 4. [Vincular seus ambientes](#link).
 
 ## <a name="create-a-new-environment-in-dataverse-that-supports-dual-write"></a><a name="create"></a>Criar um novo ambiente no Dataverse que suporta gravação dupla

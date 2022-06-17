@@ -1,6 +1,6 @@
 ---
-title: Espaço de trabalho móvel do gerenciamento de despesas
-description: Esse tópico fornece informações sobre o espaço de trabalho móvel Gerenciamento de despesas. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesas usando um recibo anexado, além de criar e gerenciar relatórios de despesas.
+title: Espaço de trabalho móvel de gerenciamento de despesas
+description: Este artigo fornece informações sobre o espaço de trabalho móvel de gerenciamento de despesas. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesas usando um recibo anexado, além de criar e gerenciar relatórios de despesas.
 author: suvaidya
 ms.date: 12/01/2017
 ms.topic: article
@@ -12,22 +12,22 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: d5309b55ed146d21d7a42e0b40add9ee346d48aa
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: aba8073fcf788f94bbcc622ab963426d230e9999
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8682788"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920874"
 ---
-# <a name="expense-management-mobile-workspace"></a>Espaço de trabalho móvel do gerenciamento de despesas
+# <a name="expense-management-mobile-workspace"></a>Espaço de trabalho móvel de gerenciamento de despesas
 
-Esse tópico fornece informações sobre o espaço de trabalho móvel **Gerenciamento de despesas**. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesas usando um recibo anexado, além de criar e gerenciar relatórios de despesas. Além disso, os aprovadores podem usar o espaço de trabalho móvel **Gerenciamento de despesas** para exibir relatórios de despesas atribuídos a eles e aprovar ou rejeitar esses relatórios de despesas.
+Este artigo fornece informações sobre o espaço de trabalho móvel de **gerenciamento de despesas**. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesas usando um recibo anexado, além de criar e gerenciar relatórios de despesas. Além disso, os aprovadores podem usar o espaço de trabalho móvel **Gerenciamento de despesas** para exibir relatórios de despesas atribuídos a eles e aprovar ou rejeitar esses relatórios de despesas.
 
 
 Esse espaço de trabalho móvel deve ser usado com o aplicativo móvel Dynamics 365 Unified Ops.
 
 
-## <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão geral
 
 Muitas organizações exigem que uma cópia de um recibo seja anexada a um relatório de despesas relacionadas a viagens ou negócios que um funcionário envia para reembolso. O espaço de trabalho móvel **Gerenciamento de despesas** permite que os usuários criem rapidamente novas linhas de despesas no dispositivo móvel de sua escolha, usando uma foto anexada de um recibo. Como alternativa, os usuários podem tirar uma foto de um recibo e depois anexá-la a um relatório de despesas. Os funcionários também podem criar e gerenciar relatórios de despesas e, em seguida, enviá-los para aprovação e reembolso usando o dispositivo móvel.
 

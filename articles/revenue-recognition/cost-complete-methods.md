@@ -1,23 +1,23 @@
 ---
 title: Custo para concluir métodos
-description: Este tópico fornece informações sobre os métodos usados para calcular o custo para concluir um projeto.
+description: Este artigo fornece informações sobre os métodos usados para calcular o custo para concluir um projeto.
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 244afa919e5fbc16be8f905acce2e2354c7da974
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 39c10673afd04ad7d4a94a01211c2f9d335a02c2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601648"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920276"
 ---
 # <a name="cost-to-complete-methods"></a>Custo para concluir métodos
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Este tópico fornece informações sobre os métodos usados para calcular o custo para concluir um projeto. Existem vários métodos que você pode usar para calcular o custo para concluir um projeto. 
+Este artigo fornece informações sobre os métodos usados para calcular o custo para concluir um projeto. Existem vários métodos que você pode usar para calcular o custo para concluir um projeto. 
 
 Ao criar uma estimativa para um projeto, na página **Criar estimativa**, no campo **Custo para concluir o método**, é possível selecionar um dos seguintes custos para concluir o método.
 

@@ -1,6 +1,6 @@
 ---
 title: Criar soluções personalizadas para dimensões de preço
-description: Este tópico explica como criar uma solução personalizada ao criar dimensões de preço personalizadas.
+description: Este artigo explica como criar uma solução personalizada ao criar dimensões de preço personalizadas.
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 7a15c5fc45ada4394dcb8e3dc2b477cb2a0bb8c6
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0df6728634b169c8a1a128aba1555d79fee5719f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592264"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929016"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>Criar soluções personalizadas para dimensões de preço
 

@@ -1,17 +1,17 @@
 ---
 title: Implantar o Project Operations - lite
-description: Este tópico fornece informações sobre como instalar a implantação simplificada do Project Operations - transação para faturamento pro forma.
+description: Este artigo fornece informações sobre como instalar a implantação do Project Operations lite - gerenciar faturamento pro forma.
 author: stsporen
 ms.date: 02/28/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: e33506504665f2e7ef7ad48469082f9f64a2a44b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 86293b725e86db3d4b8bdaf5810b16b7c670e8a3
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580718"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930304"
 ---
 # <a name="deploy-project-operations---lite"></a>Implantar o Project Operations - lite
 

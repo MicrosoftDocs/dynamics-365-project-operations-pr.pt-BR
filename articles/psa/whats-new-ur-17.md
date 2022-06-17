@@ -1,6 +1,6 @@
 ---
 title: Novidades ou alterações na Versão de Atualização 17 do Project Service Automation V3
-description: Este tópico lista os recursos e as correções novas ou alteradas disponíveis na Versão de Atualização 17 do Project Service Automation V3.
+description: Este artigo lista os recursos e as correções disponíveis na atualização do Project Service Automation versão 17, V3.
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 03/06/2020
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 70749646f5b67db3cf868a6d9a83c14dc490793a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c8486ef689f0d8ab014c2248fc6e5d0fddc937e7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585077"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915676"
 ---
 # <a name="project-service-automation-update-release-17-v3"></a>Versão de Atualização 17, do Project Service Automation V3
 
@@ -29,7 +29,7 @@ ms.locfileid: "8585077"
 
 Temos o prazer de anunciar a atualização mais recente do Project Service Automation para Dynamics 365. Esta versão inclui algumas melhorias importantes na qualidade, no desempenho e na usabilidade.  Esta versão é compatível com o Dynamics 365 9.x. Para atualizar para esta versão, acesse o Centro de Administração do Dynamics 365 online e a página de soluções para instalar a atualização. Para obter mais informações, consulte [Instalar, atualizar ou remover uma solução preferencial](/power-platform/admin/install-remove-preferred-solution).
 
-Este tópico lista os recursos e as correções novas ou alteradas para o PSA V3, Versão de Atualização 17. Esta versão tem um número de compilação V3.10.6.34 e está geralmente disponível por meio de uma atualização automática desde março de 2020.
+Este artigo lista os recursos e as correções novos ou alterados na atualização do PSA versão 17, V3. Esta versão tem um número de compilação V3.10.6.34 e está geralmente disponível por meio de uma atualização automática desde março de 2020.
 
 
 ## <a name="update-release-17"></a>Versão de Atualização 17

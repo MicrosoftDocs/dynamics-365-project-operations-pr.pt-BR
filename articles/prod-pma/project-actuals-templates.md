@@ -1,6 +1,6 @@
 ---
 title: Sincronize valores reais do projeto do Project Service Automation diretamente para o diário de integração do projeto para lançamento no Finance and Operations
-description: Este tópico descreve os modelos e as tarefas subjacentes usadas para sincronizar valores reais do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Finance and Operations.
+description: Este artigo descreve os modelos e as tarefas subjacentes usadas para sincronizar dados reais do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Finance and Operations.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683524"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929476"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronize valores reais do projeto do Project Service Automation diretamente para o diário de integração do projeto para lançamento no Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve os modelos e as tarefas subjacentes usadas para sincronizar valores reais do projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+Este artigo descreve os modelos e as tarefas subjacentes usadas para sincronizar dados reais do projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
 
 O modelo sincroniza as transações do Project Service Automation com uma tabela de preparo no Finance. Após a sincronização ser concluída, é **necessário** importar os dados da tabela de preparo para o diário de integração.
 

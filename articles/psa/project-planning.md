@@ -1,6 +1,6 @@
 ---
 title: Home page de planejamento do projeto
-description: Este tópico fornece informações sobre planejamento do projeto.
+description: Este artigo fornece informações sobre planejamento do projeto.
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ef893b78ca3a421e22dbbabdce7a0a18d4b9abd
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: f6309a2eecd0f6c7d38f2d88120300eb342be629
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919034"
 ---
 # <a name="project-planning-home-page"></a>Home page de planejamento do projeto
 
@@ -43,7 +43,7 @@ As ferramentas de gerenciamento de projeto no PSA ajudam a executar projetos com
 - Prever os requisitos de recurso para projetos que estão no pipeline.
 - Entregar projetos com êxito acompanhando o progresso e o consumo do custo.
 
-Os seguintes tópicos fornecem informações que ajudarão os gerentes de projeto a fazer estimativas de trabalho, fazer estimativas de custos do projeto e prever requisitos de recurso usando as ferramentas que são aceitas no PSA:
+Os seguintes artigos fornecem informações que ajudarão os gerentes de projeto a fazer estimativas de trabalho e de custos do projeto, e prever requisitos de recurso usando as ferramentas que são aceitas no PSA:
 
 - [Criando um cronograma](project-creating.md)
 - [Estimando custos e receita do projeto](project-estimating.md)

@@ -1,24 +1,24 @@
 ---
 title: Recursos removidos ou preteridos no Dynamics 365 Project Operations
-description: Este tópico descreve recursos que foram removidos ou que estão planejados para remoção do Dynamics 365 Project Operations.
+description: Este artigo descreve recursos que foram removidos ou que estão planejados para remoção do Dynamics 365 Project Operations.
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601556"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921472"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>Recursos removidos ou preteridos no Dynamics 365 Project Operations
 
 _**Aplica-se a:** Project Operations para cenários baseados em recursos/não estocados, implantação Lite - fatura de acordo com pro forma e Project Operations para cenários baseados em estoque/produção__
 
-Este tópico descreve recursos que foram removidos ou que estão planejados para remoção do Dynamics 365 Project Operations.
+Este artigo descreve recursos que foram removidos ou que estão planejados para remoção do Dynamics 365 Project Operations.
 
 - Um recurso *removido* não está mais disponível no produto.
 - Um recurso *preterido* não está em desenvolvimento ativo e pode ser removido em uma atualização futura.
