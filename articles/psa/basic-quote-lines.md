@@ -1,6 +1,6 @@
 ---
 title: Cotações e linhas da cotação
-description: Este tópico fornece informações sobre cotações e linhas da cotação.
+description: Este artigo fornece informações sobre cotações e linhas da cotação.
 author: rumant
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 4ff0a221b9d9ee1176f4e6c996613e33a6ca5e84
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4c59f018adc7ee439fd77a819e2fb7620941e958
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599026"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933340"
 ---
 # <a name="quotes-and-quote-lines"></a>Cotações e linhas da cotação
 
@@ -39,7 +39,7 @@ No Dynamics 365 Project Service Automation, há dois tipos de cotação: de proj
 - Uma cotação de vendas não inclui alguns campos e conceitos que são incluídos em uma cotação de projeto. Os campos incluem **Unidade de Contratação**, **Gerente de Contas** e **Nome do Contato para Cobrança**.  
 - As cotações de vendas e cotações de projeto também são identificadas por um campo baseado no conjunto de opções chamado **Tipo**. Para uma cotação de vendas, esse campo tem o valor **Com base no item**. Para uma cotação de projeto, ele tem o valor **Com base no trabalho**.
 
-Este tópico vai se concentrar nos detalhes das cotações de projeto.
+Este artigo focará os detalhes de cotações de projeto.
 
 Uma cotação de projeto no PSA pode ter vários itens de linha ou linhas de cotação. Na verdade, uma cotação de projeto tem duas grades para itens de linha. Uma grade é para linhas baseadas no projeto que permitem estimativas detalhadas. A outra grade é para linhas baseadas no produto que usam um preço unitário simples e abordagem baseada em quantidade.
 

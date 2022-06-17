@@ -1,6 +1,6 @@
 ---
-title: Planejamento e acompanhamento de projeto
-description: Este tópico fornece um link para informações sobre planejamento e acompanhamento no Project Service Automation.
+title: Planejamento e rastreamento de projeto
+description: Este artigo fornece um link para informações sobre planejamento e rastreamento no Project Service Automation.
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,14 +17,14 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589872"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933248"
 ---
-# <a name="project-planning-and-tracking"></a>Planejamento e acompanhamento de projeto
+# <a name="project-planning-and-tracking"></a>Planejamento e rastreamento de projeto
 
 [!include [banner](../../includes/psa-now-project-operations.md)]
 
@@ -32,7 +32,7 @@ ms.locfileid: "8589872"
 
 O aplicativo Project Service ajuda as organizações de serviço a identificar oportunidades, enviar lances, fechar acordos contratuais, gerenciar recursos, acompanhar despesas e tempo, faturar clientes e entregar projetos dentro do prazo e orçamento. 
 
-O link do PDF que estava neste tópico foi removido e o conteúdo foi movido para os seguintes tópicos:
+O link do PDF que estava neste artigo foi removido e o conteúdo foi movido para os seguintes artigos:
 
 - [Agendas de projeto](../project-creating.md)
 - [Custos e receita do projeto](../project-estimating.md)
@@ -43,7 +43,7 @@ O link do PDF que estava neste tópico foi removido e o conteúdo foi movido par
 - [Configurações do projeto](../project-settings.md)
 
 > [!NOTE]
-> Esse tópico será removido em uma atualização futura da documentação. 
+> Este artigo será removido em uma atualização futura da documentação. 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

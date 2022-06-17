@@ -1,6 +1,6 @@
 ---
-title: Postar relatórios de despesa
-description: Este tópico explica como postar relatórios de despesas.
+title: Postar relatórios de despesas
+description: Este artigo explica como postar relatórios de despesas.
 author: suvaidya
 ms.date: 09/09/2020
 ms.topic: article
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d19945e1626885574ef6ab702f9207d3d9708c94
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934490"
 ---
-# <a name="post-expense-reports"></a>Postar relatórios de despesa
+# <a name="post-expense-reports"></a>Postar relatórios de despesas
 
 Depois que um relatório de despesas tiver sido aprovado e transferido para o diário geral, ele pode ser postado. Quando você posta um relatório de despesas, as despesas elegíveis para recuperação do imposto sobre valor agregado (IVA) são identificadas. A tarefa de verificar e recuperar pagamentos de IVA é atribuída ao funcionário que é responsável por verificar o relatório de despesas.
 

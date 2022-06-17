@@ -1,17 +1,17 @@
 ---
 title: Inscrever-se para avaliações do Project Operations
-description: Esse tópico fornece informações sobre como implantar uma avaliação do Dynamics 365 Project Operations.
+description: Este artigo fornece informações sobre como implantar uma avaliação do Dynamics 365 Project Operations.
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584260"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959386"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrever-se para avaliações do Project Operations 
 
@@ -19,9 +19,9 @@ _**Aplica-se a:** Project Operations para cenários baseados em recursos/não es
 
 
 
-Este tópico explica como assinar a oferta de parceiro de versão preliminar e implementar um ambiente do Dynamics 365 Project Operations.
+Este artigo explica como assinar a oferta de parceiro de visualização e implantar um ambiente do Dynamics 365 Project Operations.
 
-Com a nova avaliação do Project Operations, você poderá implantar automaticamente qualquer um dos três cenários de implantação com suporte ao preencher um questionário que recomendará a melhor abordagem de implantação. Este tópico fornece informações sobre como:
+Com a nova avaliação do Project Operations, você poderá implantar automaticamente qualquer um dos três cenários de implantação com suporte ao preencher um questionário que recomendará a melhor abordagem de implantação. Este artigo fornece informações sobre como:
 
 - Resgatar sua oferta de avaliação.
 - Iniciar o provisionamento.
@@ -89,7 +89,8 @@ Antes de começar, entre em um navegador com a conta de trabalho do usuário no 
 4.  Selecione a respectiva URL do Microsoft Dataverse e as URLs dos aplicativos de finanças e operações para validar a implantação.
 
 ## <a name="configuring-dual-write"></a>Configuração da gravação dupla
-- Para configurar funções de segurança para gravação dupla, consulte [Atualizar as configurações de segurança no Project Operations no Dataverse](resource-provision-new-environment.md).
+- Para configurar funções de segurança para gravação dupla, consulte [Atualizar as configurações de segurança no Project Operations no Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
+- Para acessar a configuração de gravação dupla, navegue até a instância do Finance and Operations e, depois, até **Gerenciamento de Dados** > **Gravação Dupla**.
 - Para configurar mapas de gravação dupla, consulte [Executar mapas de gravação dupla do Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuir licenças

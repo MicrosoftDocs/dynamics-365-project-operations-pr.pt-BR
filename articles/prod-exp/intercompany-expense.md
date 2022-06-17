@@ -1,6 +1,6 @@
 ---
 title: Despesas intercompanhia
-description: Este tópico fornece informações sobre como usar despesas entre empresas para atribuir as despesas de um funcionário à entidade legal para a qual o trabalho foi executado.
+description: Este artigo fornece informações sobre como usar despesas intercompanhia para atribuir despesas de um trabalhador à entidade legal para a qual o trabalho foi realizado.
 author: suvaidya
 ms.date: 07/08/2021
 ms.topic: article
@@ -13,20 +13,20 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6788a590879bd839ebb9dedc45895dc047cc9f15
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 1c58fb1510c9ba75bc81a4dc07b91f1b6a60355d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684215"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932374"
 ---
-# <a name="intercompany-expenses"></a>Despesas entre empresas
+# <a name="intercompany-expenses"></a>Despesas intercompanhia
 
 Um trabalhador que é empregado por uma entidade legal em uma organização pode executar trabalho para outra entidade legal na mesma organização. Você pode usar despesas entre empresas para atribuir as despesas de um funcionário à entidade legal para a qual o trabalho foi executado. A entidade legal que emprega o trabalhador é chamada de entidade legal que concede empréstimo. A entidade legal para a qual o trabalhador incorre em despesas é chamada de entidade legal que contrai empréstimo. 
 
 Para que um funcionário possa criar e enviar despesas entre empresas, você deve habilitar as linhas de despesas entre empresas. Na entidade legal de empréstimo, na página **Parâmetros de gerenciamento de despesas**, selecione **Permitir linhas de despesas entre empresas**. 
 
-## <a name="tax-posting-for-intercompany-expenses"></a>Lançamento de imposto para despesas entre empresas
+## <a name="tax-posting-for-intercompany-expenses"></a>Lançamento de imposto para despesas intercompanhia
 
 [!include [banner](../includes/banner.md)]
 

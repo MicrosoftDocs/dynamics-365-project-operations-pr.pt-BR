@@ -1,24 +1,24 @@
 ---
 title: Criar atribuições de recursos
-description: Este tópico fornece informações sobre como criar atribuições de recursos genéricos e nomeados.
+description: Este artigo fornece informações sobre como criar atribuições de recursos genéricos e nomeados.
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 2b918392fbcde1071aa52ffa7834938be1acd383
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31404fc35d72acb9ad791ef8a755f23108f528ad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576532"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933478"
 ---
 # <a name="create-resource-assignments"></a>Criar atribuições de recursos
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 
-Uma atribuição de recurso é a associação direta de um membro da equipe do projeto a uma tarefa de nó folha. Este tópico fornece informações sobre as formas diferentes para atribuir recursos.
+Uma atribuição de recurso é a associação direta de um membro da equipe do projeto a uma tarefa de nó folha. Este artigo fornece informações sobre as diferentes formas de atribuir recursos.
 
 ## <a name="create-a-generic-team-member-through-task-assignment"></a>Criar um membro da equipe genérico por meio da atribuição de tarefa
 

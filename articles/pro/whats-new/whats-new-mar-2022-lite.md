@@ -1,24 +1,24 @@
 ---
 title: Novidades em março de 2022 – implantação lite do Project Operations
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de março de 2022 da implantação lite do Project Operations.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de março de 2022 da implantação lite do Project Operations.
 author: sigitac
 ms.date: 03/18/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8a83491da1d312406dfb36f5ad214c307c15cfbf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 321d59568bfd33bb00a1500afe514fbecf9a0250
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583736"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934214"
 ---
 # <a name="whats-new-march-2022---project-operations-lite-deployment"></a>Novidades em março de 2022 – implantação lite do Project Operations
 
 _Aplica-se a: Implantação lite – gerenciar faturamento pro forma_
 
-Este tópico se aplica aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
+Este artigo se aplica aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
 - Project Operations em um ambiente do Dataverse versão 4.30.0.99
 
@@ -51,9 +51,9 @@ Este tópico se aplica aos seguintes componentes e versões do Microsoft Dynamic
 
 ## <a name="removed-and-deprecated-features"></a>Recursos removidos e preteridos
 
-O tópico [Recursos removidos ou preteridos no Project Operations](../../whats-new/removed-depreciated-features-project.md) descreve recursos que foram removidos ou preteridos no Dynamics 365 Project Operations.
+O artigo [Recursos removidos ou preteridos no Project Operations](../../whats-new/removed-depreciated-features-project.md) descreve recursos que foram removidos ou preteridos no Dynamics 365 Project Operations.
 
 - Um recurso removido não está mais disponível no produto.
 - Um recurso preterido não está em desenvolvimento ativo e poderá ser removido em uma atualização futura.
 
-Um anúncio de preterimento será exibido no tópico [Recursos removidos ou preteridos no Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 meses antes da remoção de qualquer recurso do produto.
+Um anúncio de preterimento será exibido no artigo [Recursos removidos ou preteridos no Project Operations](../../whats-new/removed-depreciated-features-project.md) 12 meses antes da remoção de qualquer recurso do produto.

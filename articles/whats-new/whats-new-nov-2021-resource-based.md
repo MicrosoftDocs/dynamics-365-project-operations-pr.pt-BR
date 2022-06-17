@@ -1,24 +1,24 @@
 ---
 title: Novidades em novembro de 2021 – Project Operations para cenários baseados em recursos/sem estoque
-description: Este tópico fornece informações sobre as atualizações de qualidade que estão disponíveis na versão de novembro de 2021 do Project Operations para cenários baseados em recursos/não estocados.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de novembro de 2021 do Project Operations para cenários baseados em recursos/sem estoque.
 author: sigitac
 ms.date: 11/09/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 730f9f051c62f44734f2d7915517baf439b1a0b8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b58965f728321cc30d4e476b0dacf621fdec71
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584858"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932880"
 ---
 # <a name="whats-new-november-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em novembro de 2021 – Project Operations para cenários baseados em recursos/sem estoque
 
 *Aplicável A: Project Operations para cenários baseados em recursos/sem estoque*
 
-Este tópico se aplica aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
+Este artigo se aplica aos seguintes componentes e versões do Microsoft Dynamics 365 Project Operations:
 
 - Project Operations em uma versão 4.26.0.145, 4.26.0.148, 4.26.0.150, 4.26.0.155 do ambiente do Dataverse
 - Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.22

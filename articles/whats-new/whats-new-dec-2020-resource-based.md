@@ -1,24 +1,24 @@
 ---
 title: Novidades em dezembro de 2020 – Project Operations para cenários baseados em recursos/não estocados
-description: Este tópico fornece informações sobre as atualizações de qualidade disponíveis na versão de dezembro de 2020 do Project Operations para cenários baseados em recursos/não estocados.
+description: Este artigo fornece informações sobre as atualizações de qualidade disponíveis na versão de dezembro de 2020 do Project Operations para cenários baseados em recursos/sem estoque.
 author: sigitac
 ms.date: 12/04/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 766e2815d2a07708ace91a0ff5308e0195ff0edc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579844"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933018"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em dezembro de 2020 – Project Operations para cenários baseados em recursos/não estocados
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Este tópico se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
+Este artigo se aplica aos seguintes componentes e versões do Dynamics 365 Project Operations:
 
 - Project Operations no ambiente do Dataverse versão 4.5.0.134
 - Gerenciamento e contabilidade de projetos em um ambiente do Dynamics 365 Finance versão 10.0.15

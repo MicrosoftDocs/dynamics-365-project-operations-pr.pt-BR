@@ -1,6 +1,6 @@
 ---
 title: Eliminar um estimativa de projeto
-description: Este tópico fornece informações sobre como eliminar uma estimativa do projeto após sua conclusão.
+description: Este artigo fornece informações sobre como eliminar uma estimativa de projeto após sua conclusão.
 author: Yowelle
 ms.date: 05/26/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 267b5ffab7ef3a6776c31100deea81fb523752b6
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: de54659f9e69daf1566f86bec16436c19eeacf49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684076"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932190"
 ---
 # <a name="eliminate-a-project-estimate"></a>Eliminar um estimativa de projeto
 

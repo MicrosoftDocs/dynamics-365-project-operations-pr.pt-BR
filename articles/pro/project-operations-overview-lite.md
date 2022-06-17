@@ -1,17 +1,17 @@
 ---
 title: Visão geral da implantação lite
-description: Este tópico fornece informações sobre a implantação Lite do Dynamics 365 Project Operations.
+description: Este artigo fornece informações sobre a implantação Lite do Dynamics 365 Project Operations.
 author: rumant
 ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7e7f5de70b1a050039509c40d1378302392f2ec9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2019d3e178167a0bcded5707a6dfe1fa1631794b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574949"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932696"
 ---
 # <a name="lite-deployment-overview"></a>Visão geral da implantação lite
 
