@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: dc8f65aec6f2328ccef5f9591a0f4d9c792b0d8f
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914572"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029066"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>Integração de estimativas e dados reais do projeto
 
@@ -22,7 +22,7 @@ Este artigo fornece informações sobre a integração de gravação dupla no Pr
 
 ## <a name="project-estimates"></a>Estimativas do projeto
 
-As estimativas de mão de obra, despesas e materiais do projeto são criadas e mantidas no Microsoft Dataverse e sincronizadas com os aplicativos de finanças e operações para fins contábeis. Não há suporte para as operações de criação, atualização e exclusão nos aplicativos de finanças e operações.
+As estimativas de mão de obra, despesas e materiais do projeto são criadas e mantidas no Microsoft Dataverse e sincronizadas com os aplicativos de finanças e operações para fins de contabilidade. Não há suporte às operações de criação, atualização e exclusão nos aplicativos de finanças e operações.
 
 A criação de estimativas exige uma configuração de contabilidade válida para o projeto. Os projetos associados a linhas de contrato devem ter um perfil de custo e receita de projeto válido definido nas regras de perfil de custo e receita do projeto. Para obter mais informações, consulte [Configure a contabilidade para projetos faturáveis](../project-accounting/configure-accounting-billable-projects.md#configure-project-cost-and-revenue-profile-rules).
 
@@ -48,7 +48,7 @@ Para revisar a previsão de registros de despesas em aplicativos de finanças e 
 
 ## <a name="material-estimates"></a>Estimativas de material
 
-As estimativas de material são criadas pelo gerente de projeto na guia **Estimativas de material** na página **Detalhes do Projeto** no Dataverse. Os registros de estimativa de material são armazenados na entidade **Linha de Estimativa** no Dataverse. Esses registros de estimativas têm a classe de transação **Material** e são sincronizados com registros de previsão de itens em aplicativos de finanças e operações usando a **Tabela de integração do Project para estimativas de materiais (msdyn\_estimatelines)**.
+As estimativas de material são criadas pelo gerente de projeto na guia **Estimativas de material** na página **Detalhes do Projeto** no Dataverse. Os registros de estimativa de material são armazenados na entidade **Linha de Estimativa** no Dataverse. Esses registros de estimativas têm a classe de transação **Material** e são sincronizados com registros de previsão de itens em aplicativos de finanças e operações usando a **Tabela de integração de projeto para estimativas de materiais (msdyn\_estimatelines)**.
 
    ![Integração de estimativas de material.](./Media/DW4MaterialEstimates.png)
 
@@ -64,7 +64,7 @@ Os dados reais do projeto são criados no Dataverse, com base em tempo, despesas
 
 O mapa de tabela **Dados reais de integração do Project Operations** sincroniza todos os registros da entidade **Dados Reais** no Dataverse, com o atributo **Ignorar Sincronização (apenas para uso interno)** definido como **Falso**. Este valor de atributo é definido no Dataverse automaticamente quando o registro é criado. Exemplos em que este atributo é definido como **Verdadeiro**:
 
-  - Dados reais de custo do projeto para transações intercompanhia. Para obter mais informações, consulte [Criar transações intercompanhia](../project-accounting/create-intercompany-transactions.md). Esses registros são ignorados porque o sistema recria o custo real do projeto nos aplicativos de finanças e operações quando a fatura DE fornecedor intercompanhia é lançada.
+  - Dados reais de custo do projeto para transações intercompanhia. Para obter mais informações, consulte [Criar transações intercompanhia](../project-accounting/create-intercompany-transactions.md). Esses registros são ignorados porque o sistema recria o custo real do projeto nos aplicativos de finanças e operações quando a fatura de fornecedor intercompanhia é lançada.
   - Registros negativos de vendas não cobradas criados quando a fatura pro forma é confirmada. Esses registros são ignorados porque a razão auxiliar do projeto nos aplicativos de finanças e operações não reverte o registro de vendas não faturadas no faturamento, mas altera o status para totalmente faturado.
 
 O mapa da tabela de gravação dupla sincroniza os registros de dados reais com a tabela de preparo, **ProjCDSActualsImport**. Esses registros são processados pelo processo periódico **Importar da tabela de preparo** ao criar linhas de diário de integração do Project Operations e linhas de proposta de fatura do projeto. Para obter mais informações, consulte [Diário de integração no Project Operations](../project-accounting/project-operations-integration-journal.md).

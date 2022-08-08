@@ -6,12 +6,12 @@ ms.date: 10/15/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 67f71aa045dc3c9dd513462709db79436c971b7b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8f19f8476ed2b7958f0ba90d135bda483d05c923
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911215"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028188"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>Novidades em novembro de 2020 – Project Operations para cenários baseados em estoque/produção
 
@@ -23,7 +23,7 @@ Para obter mais informações sobre as correções incluídas nesta atualizaçã
 
 ## <a name="regulatory-updates"></a>Atualizações regulatórias
 
-Para obter informações sobre atualizações regulatórias de aplicativos do Dynamics 365 Finance and Operations, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
+Para obter informações sobre atualizações regulatórias de aplicativos de finanças e operações do Dynamics 365, consulte [Atualizações regulatórias](/dynamics365/finance/localizations/regulatory-updates). Você também pode entrar no LCS e exibir as atualizações regulatórias planejadas usando a Ferramenta de pesquisa de problemas. A pesquisa de problemas permite pesquisar por país, tipo de recurso e versão.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

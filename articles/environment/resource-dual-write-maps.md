@@ -2,16 +2,16 @@
 title: Versões do mapa de gravação dupla do Project Operations
 description: Este artigo fornece a lista de mapas de gravação dupla necessários para o Dynamics 365 Project Operations.
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959382"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112415"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>Versões do mapa de gravação dupla do Project Operations
 
@@ -30,7 +30,7 @@ Os mapas a seguir são pré-requisitos necessários para a solução Project Ope
 | Clientes V3 (contas) | Não é necessário para provisionamento. |
 | Fornecedores V2 (msdyn_vendors) | Não é necessário para provisionamento. |
 
-1. Na lista de mapas, selecione o mapa Razão **(msdyn\_ledgers)** com todos os pré-requisitos e marque a caixa de seleção **Sincronização inicial**. No campo **Mestre para sincronização inicial**, selecione **Aplicativos de Finanças e Operações** para o mapa do razão e todos os mapas de pré-requisitos. Selecione **Executar**.
+1. Na lista de mapas, selecione o mapa Razão **(msdyn\_ledgers)** com todos os pré-requisitos e marque a caixa de seleção **Sincronização inicial**. No campo **Mestre para sincronização inicial**, selecione **Aplicativos de finanças e operações** para o mapa do razão e todos os mapas de pré-requisitos. Selecione **Executar**.
 
 ![Sincronização do mapa do razão.](media/DW6.png)
 
@@ -46,7 +46,7 @@ Os mapas a seguir são necessários para uma solução Project Operations. As ve
 | Cabeçalhos de contrato de projeto (ordens de venda) | 1.0.0.1 | Não é necessário para provisionamento. ||
 | Linhas de contrato do projeto (salesorderdetails) | 1.0.0.0 | Não é necessário para provisionamento. ||
 | Fonte de financiamento do projeto (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | Não é necessário para provisionamento. ||
-| Tabela de integração do Project Operations para estimativas de material (msdyn\_estimateslines) | 1.0.0.0 | Não é necessário para provisionamento. ||
+| Tabela de integração de projeto para estimativas de material (msdyn\_estimateslines) | 1.0.0.0 | Não é necessário para provisionamento. ||
 | Propostas de fatura do projeto V2 (faturas) | 1.0.0.3 | Não é necessário para provisionamento. ||
 | Valores reais da integração do Project Operations (msdyn_actuals) | 1.0.0.14 | Não é necessário para provisionamento. ||
 | Marcos de linha de contrato de integração do Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | Não é necessário para provisionamento. ||

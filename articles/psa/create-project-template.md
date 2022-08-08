@@ -4,7 +4,7 @@ description: Como criar um modelo de projeto no Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
-ms.date: 8/03/2018
+ms.date: 07/19/2022
 ms.topic: article
 ms.author: ruhercul
 audience: Admin
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 127b6e43a15f19a42791e78b55865ab11ca50c7a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8159e0390441e5029f9beb0228cffcbc4d683479
+ms.sourcegitcommit: 278740b352f1ed9618ee5c79597c8f449984d6f4
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598980"
+ms.lasthandoff: 07/19/2022
+ms.locfileid: "9177411"
 ---
 # <a name="create-a-project-template-project-service"></a>Criar um modelo de projeto (Project Service)
 
@@ -35,14 +35,21 @@ Os modelos de projeto economizam seu tempo se a empresa tiver lances regulares e
 ## <a name="components-of-project-template"></a>Componentes do modelo do projeto
  Um modelo do projeto tem três componentes:  
   
-- **Estrutura de detalhamento de trabalho**: Uma estrutura de detalhamento de trabalho em um modelo do projeto com o mesmo conjunto de funções do projeto. Você pode criar uma hierarquia da tarefa de encarregar-se de funções que defina uma agenda de dependências e exiba os dados contidos no Gantt. A estrutura de detalhamento de trabalho nos modelos de projetos também oferece suporte a modos de tarefa para cada tarefa. Não há um modelo diferente entre um modelo de projeto e de um projeto para criar a agenda de trabalho.  
+- **Estrutura de detalhamento de trabalho**: Uma estrutura de detalhamento de trabalho em um modelo do projeto com o mesmo conjunto de funções do projeto. Você pode criar uma hierarquia de tarefa, associar funções à tarefa, definir atributos da agenda, configurar dependências e exibir todos os dados contidos no Gantt. A estrutura de detalhamento de trabalho nos modelos de projeto também oferece suporte a modos de tarefa para cada tarefa. Não há um modelo diferente entre um modelo de projeto e de um projeto para criar uma agenda de trabalho.  
   
 - **Estimativas e cotações de projeto**: Estimativas de projeto nos modelos funcionam do mesmo jeito que nos projetos, exceto nas listas de preço para padronizar os preços de custo e vendas como sempre o custo de padrão e listas de preço de vendas definidos no [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]. O restante da funcionalidade é o mesmo do projeto.  
   
 - **Criação da equipe de projeto**: ao criar uma equipe de projeto para um modelo de projeto, você não pode reservar um recurso nomeado em um modelo. Você pode usar **Gerencia a equipe de projeto** na estrutura de detalhamento de trabalho para gerar um conjunto genéricos de recursos. Também é possível especificar proficiências e habilidades e obrigatórios genéricas de recursos. Não é possível fazer um recurso genérico para reservar um recurso do projeto em modelos.  
-  
+
+## <a name="create-a-project-template-from-an-existing-project"></a>Criar um modelo de projeto a partir de um projeto existente
+Você pode criar um modelo de projeto de uma das seguintes maneiras:
+
+- **Estrutura de detalhamento de trabalho**: uma estrutura de detalhamento de trabalho em um modelo derivado de um projeto copiará todas as tarefas e dependências. As atribuições criadas serão baseadas nos membros genéricos da equipe que serão adicionados à equipe do projeto quando o modelo de projeto for criado.
+- **Estimativas do projeto**: quando um modelo de projeto é criado a partir de um projeto existente, as estimativas do projeto de origem são copiadas para o modelo de projeto.
+- **Membros da equipe do projeto**: quando um modelo é criado a partir de um projeto existente, todos os membros da equipe nomeados são substituídos pelo recurso genérico da organização. Todos os nomes e funções dos cargos são mantidos.
+
 ## <a name="create-a-project-from-a-template"></a>Criar Projeto a Partir do Modelo  
- Você pode criar um modelo do projeto de uma das seguintes maneiras:  
+ Você pode criar um modelo do projeto das seguintes maneiras:  
   
 -   Ao criar um projeto com base na cotação, você poderá escolher um modelo de projeto no formulário de criação rápida de projeto.  
   

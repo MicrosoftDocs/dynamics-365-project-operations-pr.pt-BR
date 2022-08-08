@@ -1,6 +1,6 @@
 ---
-title: Sincronize valores reais do projeto do Project Service Automation diretamente para o diário de integração do projeto para lançamento no Finance and Operations
-description: Este artigo descreve os modelos e as tarefas subjacentes usadas para sincronizar dados reais do projeto diretamente do Microsoft Dynamics 365 Project Service Automation para o Finance and Operations.
+title: Sincronize dados reais do projeto do Project Service Automation diretamente para o diário de integração do projeto para lançamento em finanças e operações
+description: Este artigo descreve os modelos e as tarefas subjacentes usadas para sincronizar dados reais do projeto diretamente do Microsoft Dynamics 365 Project Service Automation com finanças e operações.
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929476"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028964"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronize valores reais do projeto do Project Service Automation diretamente para o diário de integração do projeto para lançamento no Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>Sincronize dados reais do projeto do Project Service Automation diretamente para o diário de integração do projeto para lançamento em finanças e operações
 
 [!include[banner](../includes/banner.md)]
 
-Este artigo descreve os modelos e as tarefas subjacentes usadas para sincronizar dados reais do projeto diretamente do Dynamics 365 Project Service Automation para o Dynamics 365 Finance.
+Este artigo descreve os modelos e as tarefas subjacentes usadas para sincronizar dados reais do projeto diretamente do Dynamics 365 Project Service Automation com o Dynamics 365 Finance.
 
 O modelo sincroniza as transações do Project Service Automation com uma tabela de preparo no Finance. Após a sincronização ser concluída, é **necessário** importar os dados da tabela de preparo para o diário de integração.
 
@@ -41,7 +41,7 @@ A solução de integração do Project Service Automation ao Finance usa o recur
 
 A ilustração a seguir mostra como os dados são sincronizados entre o Project Service Automation e o Finance.
 
-[![Fluxo de dados da integração do Project Service Automation com o Finance and Operations.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![Fluxo de dados da integração do Project Service Automation com finanças e operações.](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>Dados reais de projeto do Project Service Automation
 
@@ -49,7 +49,7 @@ A ilustração a seguir mostra como os dados são sincronizados entre o Project 
 
 Para acessar os modelos disponíveis, no centro de administração do Microsoft Power Apps, selecione **Projetos** e, em seguida, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
 
-O seguinte modelo e as tarefas subjacentes são usados para sincronizar os dados reais de projeto do Project Service Automation para o Finance:
+O seguinte modelo e as tarefas subjacentes são usados para sincronizar os dados reais de projeto do Project Service Automation com o Finance:
 
 - **Nome do modelo na Integração de dados:** dados reais do Projeto (PSA para Fin e Ops)
 - **Nome das tarefas no projeto:**

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: a163e32dae0231b5d71d1de2dbb473593b989164
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 50388bd024fdf2de0d28e49ef07a01b03c6b88f0
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8919521"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029654"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>Espaço de trabalho móvel de entrada de hora de projeto
 
@@ -82,7 +82,7 @@ Se a versão 1611 com atualização da plataforma 3 ou posterior foi implantada 
 
 ## <a name="download-and-install-the-mobile-app"></a>Baixe e instale o aplicativo móvel
 
-Baixe e instale o aplicativo móvel Finance and Operations:
+Baixe e instale o aplicativo móvel de finanças e operações:
 
 -   [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)

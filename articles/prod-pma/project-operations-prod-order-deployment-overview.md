@@ -6,12 +6,12 @@ ms.date: 11/02/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fb5bf99b6a46e285d03bdbaa9a3acd9d4bbe70f0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 379fdc7de161e3795100ee932fefed88811ba84e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922760"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028780"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Visão geral da implantação do Project Operations para cenários baseados em estoque/produção
 
@@ -22,7 +22,7 @@ Este tipo de implantação possui os seguintes recursos para empresas baseadas e
 
 - Planejamento do projeto usando as [Estruturas de detalhamento de trabalho](work-breakdown-structures.md)
 - Aquisição e consumo de estoque estocado para projetos
-- Gerenciamento de vendas baseadas em projetos usando o módulo **Vendas e marketing** em aplicativos de finanças e operações do Dynamics 365
+- Gerenciando vendas baseadas em projetos usando o módulo **Vendas e marketing** em aplicativos de finanças e operações do Dynamics 365
 - Preços e custos de projetos usando as configurações de taxa de custo e de taxa de cobrança em aplicativos de finanças e operações
 - Gerenciamento de recursos de projetos em aplicativos de finanças e operações
 - Andamento do projeto e rastreamento de tempo em aplicativos de finanças e operações

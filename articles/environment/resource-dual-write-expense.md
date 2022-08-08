@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e11f1cfd714212691146eed59bcfb5b5facd750c
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924600"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029195"
 ---
 # <a name="expense-management-integration"></a>Integração do gerenciamento de despesas
 
@@ -26,7 +26,7 @@ Em uma implantação de despesa total, as categorias de despesa são criadas e m
 
 1. No Microsoft Dataverse, crie uma categoria **Transação**. A integração de gravação dupla sincronizará essa categoria de transação com os aplicativos de finanças e operações. Para obter mais informações, consulte [Configurar categorias de projeto](/dynamics365/project-operations/project-accounting/configure-project-categories) e [Configuração do Project Operations e integração de dados de configuração](resource-dual-write-setup-integration.md). Como resultado dessa integração, o sistema cria quatro registros de categoria compartilhados nos aplicativos de finanças e operações
 2. No Finance, acesse **Gerenciamento de despesas** > **Configuração** > **Categorias compartilhadas** e selecione uma categoria compartilhada com uma classe de transação **Despesa**. Defina o parâmetro **Pode ser usado em Despesa** como **Verdadeiro** e defina o tipo de despesa a ser usado.
-3. Usando este registro de categoria compartilhada, crie uma nova categoria de despesas acessando **Gerenciamento de despesas** > **Configuração** > **Categorias de despesas** e selecione **Novo**. Quando o registro é salvo, a gravação dupla usa o mapa da tabela, **Entidade de exportação de categorias de despesas de projeto de integração do Project Operations (msdyn\_expensecategories)** para sincronizar esse registro para o Dataverse.
+3. Usando este registro de categoria compartilhada, crie uma nova categoria de despesas acessando **Gerenciamento de despesas** > **Configuração** > **Categorias de despesas** e selecione **Novo**. Quando o registro é salvo, a gravação dupla usa o mapa da tabela, **Entidade de exportação de categorias de despesas de projeto de integração do Project Operations (msdyn\_expensecategories)** para sincronizar esse registro com o Dataverse.
 
   ![Integração de categorias de despesas.](./media/DW6ExpenseCategories.png)
 

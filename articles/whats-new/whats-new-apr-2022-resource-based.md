@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5ea1c96d64309990962f431b1c72ae47bf445bfa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 999006b2c2fe2b31d6e47910a3f1a55cab415f0e
+ms.sourcegitcommit: 5c971b15295046b3c92ff6638dd1352129f1c390
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912364"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9110870"
 ---
 # <a name="whats-new-april-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em abril de 2022 – Project Operations para cenários baseados em recurso/sem estoque
 
@@ -25,7 +25,7 @@ Este artigo se aplica aos seguintes componentes e versões do Microsoft Dynamics
 
 ## <a name="features-included-in-this-release"></a>Os recursos incluídos nesta versão
 
-As categorias de compras podem ser usadas em ordens de compra do projeto e faturas de fornecedor pendentes. Para obter mais informações, consulte [Usar categorias de compras com ordens de compra do projeto e faturas de fornecedor pendentes](configure-procurement-categories.md).
+As categorias de compras podem ser usadas em ordens de compra do projeto e faturas de fornecedor pendentes. Para obter mais informações, consulte [Usar categorias de compras com ordens de compra do projeto e faturas de fornecedor pendentes](../procurement/configure-procurement-categories.md).
 
 ## <a name="project-operations-dual-write-maps-updates"></a>Atualizações dos mapas de gravação dupla do Project Operations
 

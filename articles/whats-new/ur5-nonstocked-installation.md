@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: aedfd815521054d58944496500aa03a27be9267b
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912456"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9030021"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>Atualizar o Project Operations em seu ambiente do Finance
 
@@ -119,7 +119,7 @@ As seguintes atualizações para os privilégios de segurança para entidades s�
 4. Na página **Versão do mapa de tabela**, aplique uma nova versão do mapa a cada uma das três entidades.
 5. Na página **Gravação dupla**, selecione executar para reiniciar os mapas.
 6. Na lista de mapas, selecione o mapa **Razão (msdyn_ledgers)** com todos os pré-requisitos e marque a caixa de seleção **Sincronização inicial**. 
-7. No campo **Mestre para sincronização inicial**, selecione **Aplicativosde Finanças e Operações** e **Executar**.
+7. No campo **Mestre para sincronização inicial**, selecione **Aplicativos de finanças e Operações** e **Executar**.
  
  ![Sincronização do mapa do razão.](media/DW6.png)
  

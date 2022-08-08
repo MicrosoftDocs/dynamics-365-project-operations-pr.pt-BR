@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 8eb5d2e31f8d3506fc07332cf78efda979c46206
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2b2cf628e6b6f4744cc0ee9deee2a92528a2410d
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933018"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029700"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em dezembro de 2020 – Project Operations para cenários baseados em recursos/não estocados
 
@@ -61,7 +61,7 @@ Os seguintes recursos estão incluídos nesta versão:
 | Planejamento e acompanhamento de projeto | 2057197          | Não há suporte à estimativa de cópia de linha com referência de tarefa                                                                                                     |
 | Planejamento e acompanhamento de projeto | 2060687          | O aviso de fuso horário agora desaparece após um período específico                                                                                                      |
 | Gerenciamento de recursos           | 1832887          | A ID da categoria de recurso padrão precisa ser estática para garantir carregamentos de dados repetíveis para ambientes do Dataverse e do Finance                                                 |
-| Tempo e despesa              | 2081793          | O **Nome da categoria de despesa** deve ser mapeado para o campo **Descrição da categoria de despesa** em aplicativos de finanças e operações                                                  |
+| Tempo e despesa              | 2081793          | O **Nome da categoria de despesa** deve ser mapeado para o campo **Descrição da categoria de despesa** nos aplicativos de finanças e operações                                                  |
 | Tempo e despesa              | 2034882          | O botão **Novo** é exibido duas vezes na barra de comando para entradas de tempo quando o Dynamics 365 Field Service é instalado                                          |
 | Tempo e despesa              | 2056028          | Atualize a página **Edição de Hora** para incluir a linha de tempo                                                                                                              |
 | Tempo e despesa              | 1983747          | O gráfico de entrada de tempo mostra dados adicionais                                                                                                                   |

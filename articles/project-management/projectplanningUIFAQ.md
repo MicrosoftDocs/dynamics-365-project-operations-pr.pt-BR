@@ -2,24 +2,24 @@
 title: Solucionar problemas de trabalho na grade de Tarefas
 description: Este artigo apresenta informações sobre a solução de problemas necessárias ao trabalhar na grade de tarefas
 author: ruhercul
-ms.date: 04/05/2022
+ms.date: 07/22/2022
 ms.topic: article
 ms.product: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e6ab4f34fe3f6732f7bef252f298671e07a3c3ca
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 208ed55abf4cdf0ad2b035bd923e183ff3cae660
+ms.sourcegitcommit: e91136d3335ee03db660529eccacd48907774453
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911030"
+ms.lasthandoff: 07/22/2022
+ms.locfileid: "9188217"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>Solucionar problemas de trabalho na grade de Tarefas 
 
 
 _**Aplicável a:** Project Operations para cenários baseados em recursos/sem estoque, Implantação leve – para realizar o faturamento, Project for the Web_
 
-A grade de Tarefas utilizada pelo Dynamics 365 Project Operations é um iframe hospedado no Microsoft Dataverse. Como resultado desse uso, requisitos específicos devem ser atendidos para garantir que a autenticação e a autorização estejam funcionando corretamente. Este artigo descreve os problemas comuns que podem impactar a capacidade de renderizar a grade ou gerenciar tarefas na estrutura de detalhamento de trabalho (WBS).
+A grade de Tarefas usada pelo Dynamics 365 Project Operations é um iframe hospedado no Microsoft Dataverse. Como resultado desse uso, requisitos específicos devem ser atendidos para garantir que a autenticação e a autorização estejam funcionando corretamente. Este artigo descreve os problemas comuns que podem impactar a capacidade de renderizar a grade ou gerenciar tarefas na estrutura de detalhamento de trabalho (WBS).
 
 Problemas comuns incluem:
 
@@ -72,13 +72,16 @@ O Project Operations exige que um parâmetro do projeto faça referência ao Pon
 4. Remova o campo da página **Parâmetros do projeto**.
 
 ### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>Mitigação 3: entrar em project.microsoft.com
-No navegador Microsoft Edge, abra uma nova guia, vá para project.microsoft.com e entre com a mesma função de usuário que você está usando para acessar o Project Operations.
+
+No navegador , abra uma nova guia, vá para project.microsoft.com e entre com a mesma função de usuário que você está usando para acessar o Project Operations. É importante que somente um usuário esteja conectado a um produto da Microsoft no navegador. A mensagem de erro "login.microsoftonline.com recusou-se a conectar" ocorre com mais frequência quando mais de um usuário está conectado, conforme mostrado na ilustração a seguir.
+
+![Escolha uma página de conexão de conta mostrando que dois usuários estão conectados.](media/MULTIPLE_USERS_LOGGED_IN.png)
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>Problema: o projeto não carrega e a IU está travada no botão giratório
 
-Para fins de autenticação, os pop-ups devem ser ativados para que a grade de Tarefas seja carregada. Se os pop-ups não estiverem ativados, a tela ficará travada no botão giratório de carregamento. O gráfico a seguir mostra o URL com um rótulo pop-up bloqueado na barra de endereços, o que faz o botão giratório travar ao tentar carregar a página. 
+Para fins de autenticação, os pop-ups devem ser ativados para que a grade de Tarefas seja carregada. Se os pop-ups não estiverem ativados, a tela ficará travada no botão giratório de carregamento. O gráfico a seguir mostra a URL com um rótulo pop-up bloqueado na barra de endereços, o que faz com que o controle giratório fica travado ao tentar carregar a página. 
 
-   ![Botão giratório e bloco pop-up travados.](media/popupsblocked.png)
+   ![Co ntrole giratório travado e pop-up bloqueado.](media/popupsblocked.png)
 
 ### <a name="mitigation-1-enable-pop-ups"></a>Mitigação 1: habilitar pop-ups
 
@@ -112,7 +115,7 @@ Como alternativa, você pode concluir estas etapas.
 
 ## <a name="issue-3-administration-of-privileges-for-project-for-the-web"></a>Problema 3: administração de privilégios do Project for the Web
 
-O Project Operations conta com um serviço de agendamento externo. O serviço requer que um usuário tenha várias funções atribuídas que lhe permita ler e escrever para entidades relacionadas à WBS. Essas entidades incluem tarefas de projeto, atribuições de recursos e dependências de tarefas. Se um usuário não puder renderizar a WBS ao navegar para a guia **Tarefas**, poderá ser porque a opção **Projeto** não foi ativada para o **Project Operations**. Um usuário pode receber um erro de direito de acesso ou um erro relacionado a uma negação de acesso.
+O Project Operations conta com um serviço de agendamento externo. O serviço requer que um usuário tenha várias funções atribuídas que permitam ler e gravar em entidades relacionadas à WBS. Essas entidades incluem tarefas de projeto, atribuições de recursos e dependências de tarefas. Se um usuário não puder renderizar a WBS ao navegar até a guia **Tarefas**, é provável que a opção **Projeto** não tenha sido ativada para o **Project Operations**. Um usuário pode receber um erro de direito de acesso ou um erro relacionado a uma negação de acesso.
 
 ### <a name="mitigation-1-validate-the-application-user-and-end-user-security-roles"></a>Mitigação 1: valide o usuário do aplicativo e o direito de acesso de usuário final
 

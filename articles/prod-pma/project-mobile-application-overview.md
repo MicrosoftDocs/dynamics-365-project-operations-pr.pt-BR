@@ -14,12 +14,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: ecd6bded5fcf834ea14f7aca1ff11a1ede162877
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b4ed85123c92a60c6b6308fda3d9ef2f6693a0dd
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922852"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028872"
 ---
 # <a name="project-mobile-applications-overview"></a>Visão geral dos aplicativos móveis do projeto
 
@@ -33,11 +33,11 @@ O aplicativo móvel Dynamics 365 Project Timesheet permite que os usuários envi
 
 ## <a name="project-time-entry-workspace"></a>Espaço de trabalho Entrada de hora de projeto
 
-O espaço de trabalho Entrada de hora de projeto permite que os usuários insiram e salvem as horas relacionadas um projeto. No entanto, ele não permite que os usuários enviem ou aprovem folhas de ponto do projeto. Ele pode ser usado apenas para entrada de horas. Este espaço de trabalho móvel deve ser usado junto com o aplicativo móvel Finance and Operations.
+O espaço de trabalho Entrada de hora de projeto permite que os usuários insiram e salvem as horas relacionadas um projeto. No entanto, ele não permite que os usuários enviem ou aprovem folhas de ponto do projeto. Ele pode ser usado apenas para entrada de horas. Este espaço de trabalho móvel deve ser usado junto com o aplicativo móvel de finanças e operações.
 
 ## <a name="my-timesheetstimesheets-for-my-review"></a>Minhas folhas de ponto/Folhas de ponto para minha análise
 
-Minhas folhas de ponto (otimizado para celular) e Folhas de ponto para minha análise (otimizado para celular) constituem uma solução que permite aos funcionários criar, enviar e aprovar folhas de ponto do projeto em um dispositivo móvel. Os funcionários podem acessar a funcionalidade do Finance por meio da URL do aplicativo. Esta solução não exige o aplicativo móvel Finance and Operations.
+Minhas folhas de ponto (otimizado para celular) e Folhas de ponto para minha análise (otimizado para celular) constituem uma solução que permite aos funcionários criar, enviar e aprovar folhas de ponto do projeto em um dispositivo móvel. Os funcionários podem acessar a funcionalidade do Finance por meio da URL do aplicativo. Esta solução não exige o aplicativo móvel de finanças e operações.
 
 ## <a name="for-more-information"></a>Para obter mais informações
 

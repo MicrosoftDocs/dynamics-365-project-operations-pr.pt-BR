@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959386"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029286"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrever-se para avaliações do Project Operations 
 
@@ -90,7 +90,7 @@ Antes de começar, entre em um navegador com a conta de trabalho do usuário no 
 
 ## <a name="configuring-dual-write"></a>Configuração da gravação dupla
 - Para configurar funções de segurança para gravação dupla, consulte [Atualizar as configurações de segurança no Project Operations no Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse).
-- Para acessar a configuração de gravação dupla, navegue até a instância do Finance and Operations e, depois, até **Gerenciamento de Dados** > **Gravação Dupla**.
+- Para acessar a configuração de gravação dupla, navegue até a instância de finanças e operações e, depois, até **Gerenciamento de Dados** > **Gravação Dupla**.
 - Para configurar mapas de gravação dupla, consulte [Executar mapas de gravação dupla do Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps).
 
 ## <a name="assign-licenses"></a>Atribuir licenças

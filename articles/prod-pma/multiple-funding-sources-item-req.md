@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931178"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028459"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>Requisições de itens para contratos de projeto com várias fontes de financiamento
 
@@ -33,7 +33,7 @@ A Contoso ganhou um contrato de renovação de equipamento com dois de seus clie
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
-- O Microsoft Dynamics 365 Finance and Operations **versão 10.0.27 ou posterior** é necessário para usar requisições de itens que tenham várias contas de fatura.
+- O Microsoft Dynamics 365 Finance **versão 10.0.27 ou posterior** é necessário para usar requisições de itens que tenham várias contas de fatura.
 - O administrador do sistema deve habilitar o recurso **Permitir requisições de itens com várias fontes de financiamento para cenários baseados em estoque/produção do Project Operations** no espaço de trabalho **Gerenciamento de recursos**.
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>Configurar as regras de padronização da conta de fatura

@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 2a5b5159ceb8aa5b29dffad59517bc11fbf16871
+ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924830"
+ms.lasthandoff: 07/21/2022
+ms.locfileid: "9183960"
 ---
 # <a name="review-proposed-resources"></a>Revisar recursos propostos
 
@@ -40,8 +40,8 @@ Para revisar os recursos propostos, siga estas etapas:
     As seguintes atualizações de status ocorrem:
 
     - Na página **Assistente de Agendamento**, os indicadores de status são atualizados para indicar que a reserva é proposta, não fixa.
-    - Na solicitação de recurso, o status é alterado para **Precisa de Revisão**.
-    - Na guia **Equipe** do projeto, o valor **Status de Solicitação** do membro genérico da equipe é alterado para **Precisa de Revisão**.
+    - Na solicitação de recurso, o revisor da solicitação deve alterar o status para **Precisa de Revisão**.
+    - Na guia **Equipe** do projeto, o valor **Status de Solicitação** do membro genérico da equipe é alterado automaticamente para **Precisa de Revisão**.
 
 O gerente de projetos pode aceitar ou rejeitar a proposta.
 

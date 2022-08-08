@@ -6,12 +6,12 @@ ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9689bbaf4c4f88ad9f746c3f98676f97e634ab6c
+ms.sourcegitcommit: 5e1f549a2e55a87351b2979e3aff402ed35487e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8930120"
+ms.lasthandoff: 06/29/2022
+ms.locfileid: "9064264"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>Configurar quilometragem usando níveis de taxa de quilometragem
 
@@ -50,5 +50,15 @@ O recurso **Cálculo do valor da Quilometragem para vários níveis de quilometr
 
 Depois de ativar o recurso, redefina os níveis de quilometragem para refletir corretamente o valor do campo **Quantidade**. 
 
+## <a name="enable-the-mileage-totals-calculation-by-fiscal-year-feature"></a>Ative o cálculo de totais de milhagem pelo recurso ano fiscal
+
+O recurso **Cálculo de totais de milhagem por ano fiscal** permite uma nova configuração nos parâmetros de gerenciamento de despesas que executa cálculos de totais de milhagem por ano fiscal em vez de ano civil. Conclua as etapas a seguir para ativar esse recurso.
+
+1. Vá para **Configurações** > **Gerenciamento de Recursos**.
+1. Na lista, localize e selecione **Cálculo de totais de milhagem por ano fiscal** e, em seguida, selecione **Ativar agora**.
+1. Acesse **Gerenciamento de despesas** > **Configuração** > **Geral** > **Parâmetros de gerenciamento de despesas**.
+1. Na página **Parâmetros de gerenciamento de despesas**, localize e habilite **Usar ano fiscal para os totais de milhagem**.
+
+Depois que você habilitar **Usar ano fiscal para os totais de milhagem**, os totais de milhagem serão calculados por ano fiscal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

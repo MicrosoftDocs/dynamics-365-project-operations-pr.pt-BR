@@ -2,22 +2,22 @@
 title: Diário de integração no Project Operations
 description: Este artigo fornece informações sobre como trabalhar com o diário de integração no Project Operations.
 author: sigitac
-ms.date: 10/27/2020
+ms.date: 06/29/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
+ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8923864"
+ms.lasthandoff: 07/01/2022
+ms.locfileid: "9106261"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diário de integração no Project Operations
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-As entradas de hora e despesas criam transações **Reais** que representam a visão operacional do trabalho concluído em um projeto. O Dynamics 365 Project Operations fornece aos contadores uma ferramenta para revisar as transações e ajustar os atributos de contabilidade, conforme necessário. Após a revisão e os ajustes serem concluídos, as transações são lançadas na subconta do Projeto e na Contabilidade. Um contador pode executar essas atividades usando o diário **Integração do Project Operations** (**Dynamics 365 Finance** > **Gerenciamento e contabilidade de projeto** > **Diários** > **Diário de Integração do Project Operations**).
+As entradas de horas, despesas e materiais criam transações **Reais** que representam a visão operacional do trabalho concluído em um projeto. O Dynamics 365 Project Operations fornece aos contadores uma ferramenta para revisar as transações e ajustar os atributos de contabilidade, conforme necessário. Após a revisão e os ajustes serem concluídos, as transações são lançadas na subconta do Projeto e na Contabilidade. Um contador pode executar essas atividades usando o diário **Integração do Project Operations** (**Dynamics 365 Finance** > **Gerenciamento e contabilidade de projeto** > **Diários** > **Diário de Integração do Project Operations**).
 
 ![Fluxo diário de integração.](./media/IntegrationJournal.png)
 
@@ -50,9 +50,21 @@ Apenas os seguintes atributos de contabilidade podem ser atualizados nas linhas 
 - **Grupo de impostos de vendas de faturamento** e **Grupo de impostos de vendas de item de faturamento**
 - **Dimensões financeiras** (usando a ação **Distribuir valores**)
 
-As linhas do diário de integração podem ser excluídas, no entanto, quaisquer linhas não publicadas serão inseridas no diário novamente após você executar novamente o processo periódico **Importar da tabela de preparo**.
+A integração das linha do diário podem ser excluídas. No entanto, quaisquer linhas não lançadas serão inseridas no diário novamente depois que você executar novamente o processo periódico **Importar de preparo**.
+
+### <a name="post-the-project-operations-integration-journal"></a>Lançar diário de integração do Project Operations
 
 Quando você lança o diário de integração, uma subconta do projeto e transações do razão geral são criadas. Eles são usadas no faturamento de clientes downstream, reconhecimento de receita e relatórios financeiros.
 
+O diário de integração do Project Operations selecionado pode ser lançado usando a opção **Lançar** na página do diário de integração do Project Operations. Todos os diários podem ser lançados automaticamente executando um processo em **Periódicos** > **Integração do Project Operations** > **Lançar diário de integração do Project Operations**.
+
+O lançamento pode ser realizado interativamente ou em lote. Observe que todos os diários com mais de 100 linhas serão lançados automaticamente em um lote. Para um melhor desempenho quando lançamentos com muitas linhas forem feitos em um lote, ative o recurso **Lançar diário de integração do Project Operations usando várias tarefas em lote** no espaço de trabalho **Gerenciamento de recursos**. 
+
+#### <a name="transfer-all-lines-that-have-posting-errors-to-a-new-journal"></a>Transferir todas as linhas com erros de lançamento para um novo diário
+
+> [!NOTE]
+> Para usar essa funcionalidade, habilite o recurso **Transferir todas as linhas com erros de lançamento para um novo diário de integração do Project Operations** no espaço de trabalho **Gerenciamento de recursos**.
+
+Durante o lançamento no diário de integração do Project Operations, o sistema validará todas as linhas no diário. O sistema lança todas as linhas sem erros e cria um novo diário para todas as linhas com erros de lançamento. Para revisar os diários com linhas de erro de lançamento, acesse **Gerenciamento de projetos e contabilidade** > **Diários** > **Diário de integração do Project Operations** e filtre os diários usando o campo **Diário original**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

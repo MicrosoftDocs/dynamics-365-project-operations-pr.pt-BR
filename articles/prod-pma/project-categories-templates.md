@@ -1,5 +1,5 @@
 ---
-title: Sincronize categorias de despesa do projeto entre o Finance and Operations e o Project Service Automation
+title: Sincronize categorias de despesa do projeto entre finanças e operações e o Project Service Automation
 description: Este artigo descreve os modelos e as tarefas subjacentes usadas para sincronizar categorias de despesa do projeto entre o Microsoft Dynamics 365 Finance e o Dynamics 365 Project Service Automation.
 author: Yowelle
 ms.date: 07/20/2018
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8eba7defb93bd880db4b0e8fe425d07312cf5cb9
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927222"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028918"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronize categorias de despesa do projeto entre o Finance and Operations e o Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>Sincronize categorias de despesa do projeto entre finanças e operações e o Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
@@ -63,7 +63,7 @@ A ilustração a seguir mostra como os dados são sincronizados entre o Project 
 
 Para acessar o modelo, no centro de administração do Microsoft Power Apps, selecione **Projetos** e, em seguida, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
 
-O seguinte modelo e a tarefa subjacente são usados para sincronizar as categorias de despesas de projeto do Finance para o Project Service Automation:
+O seguinte modelo e a tarefa subjacente são usados para sincronizar as categorias de despesas de projeto do Finance com o Project Service Automation:
 
 - **Nome do modelo na Integração de dados:** categorias de transação de despesas do Projeto (Fin e Ops para PSA)
 - **Nome da tarefa raiz no projeto:** sincronizar categorias com o PSA
@@ -98,7 +98,7 @@ A ilustração a seguir mostra um exemplo do mapeamento de tarefas do modelo na 
 
 ### <a name="template-and-task"></a>Modelo e tarefa
 
-O seguinte modelo e a tarefa subjacente são usados para sincronizar as categorias de despesas de projeto do Project Service Automation para o Project Service Automation:
+O seguinte modelo e a tarefa subjacente são usados para sincronizar as categorias de despesas de projeto do Project Service Automation com o Project Service Automation:
 
 - **Nome do modelo na Integração de dados:** categorias de transação de despesas do Projeto (PSA para Fin e Ops)
 - **Nome da tarefa raiz no projeto:** sincronizar categorias com o Fin Ops
