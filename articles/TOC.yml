@@ -56,16 +56,18 @@
               href: environment/resource-dual-write-project-invoice.md
             - name: Integração do gerenciamento de despesas
               href: environment/resource-dual-write-expense.md
-            - name: Integração de faturas de fornecedores
+            - name: Integração da fatura de fornecedor
               href: environment/resource-dual-write-vendor-invoice.md
         - name: Desinstalar o Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
-        - name: Julho de 2022 – Project Operations para cenários baseados em recursos/sem estoque
-          href: whats-new/whats-new-july-2022-resource-based.md
-        - name: Arquivos
+        - name: Agosto de 2022 – Project Operations para cenários baseados em recursos/sem estoque
+          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: Arquivar
           items:
+            - name: Julho de 2022 – Project Operations para cenários baseados em recursos/sem estoque
+              href: whats-new/whats-new-july-2022-resource-based.md
             - name: Junho de 2022 – Project Operations para cenários baseados em recursos/sem estoque
               href: whats-new/whats-new-june-2022-resource-based.md
             - name: Maio de 2022 – Project Operations para cenários baseados em recursos/sem estoque
@@ -384,6 +386,42 @@
           items:
             - name: Visão geral da utilização de recurso
               href: resource-management/resource-utilization-overview.md
+    - name: Gerenciamento de Subcontratos
+      items:
+        - name: Gerenciamento de subcontratos no Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: Principais conceitos na subcontratação
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: Gerenciando fornecedores e listas de preços de projetos
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: Subcontratados como recursos reserváveis
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: Detalhes do cabeçalho para subcontratos
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: Linhas de subcontrato para hora
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: Linhas de subcontrato para categorias de despesa
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: Linhas de subcontrato para produtos
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: Recursos de linha de subcontratado
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: Etapas da linha de subcontrato
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: Subcontratando membros da equipe do projeto
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: Opções de subcontratação de membros da equipe do projeto
+          href: pro/subcontracting/subcon-options.md
+        - name: Estimativa de custo de atribuições de recursos subcontratados
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: Configurar o Quadro de Agendamento para mostrar os trabalhadores contratados e a capacidade subcontratada
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: Recrutando trabalhadores contratados e capacidade subcontratada para um projeto
+          href: pro/subcontracting/staffing-cw.md
+        - name: 'Registrando hora, despesas e uso de material para componentes subcontratados'
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: Transições de estado em um subcontrato
+          href: pro/subcontracting/subcon-states.md
     - name: Hora
       items:
         - name: Visão geral de hora
@@ -580,7 +618,9 @@
       items:
         - name: Migrar cobranças por etapa totalmente faturadas durante substituição
           href: advanced-configuration/migrating-invoiced-milestones.md
-    - name: Atualizar
+        - name: Sincronizar Status do Projeto para impedir a entrada em projetos fechados
+          href: advanced-configuration/sync-project-status.md
+    - name: Upgrade
       items:
         - name: Considerações de atualização para aprovações modernas
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -610,10 +650,12 @@
           href: environment/security-model.md
     - name: Novidades
       items:
-        - name: Novidades em julho de 2022 – implantação lite
-          href: pro/whats-new/whats-new-july-2022-lite.md
-        - name: Arquivos
+        - name: Novidades em agosto de 2022 – implantação lite
+          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: Arquivar
           items:
+            - name: Novidades em julho de 2022 – implantação lite
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novidades em junho de 2022 – implantação lite
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: Novidades no acesso antecipado do ciclo 2 de 2021 – implantação lite
@@ -1080,7 +1122,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configurar automação de fatura do projeto
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Atualizar
+    - name: Upgrade
       items:
         - name: Considerações de atualização para aprovações modernas
           href: upgrade/upgrade-considerations-modern-approvals.md
@@ -1116,7 +1158,7 @@
       items:
         - name: Novidades em julho de 2022 – Project Operations para cenários baseados em produção/em estoque
           href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
-        - name: Arquivos
+        - name: Arquivar
           items:
             - name: Novidades em junho de 2022 – Project Operations para cenários baseados em produção/em estoque
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
