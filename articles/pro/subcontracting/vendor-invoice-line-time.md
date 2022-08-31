@@ -6,16 +6,14 @@ ms.date: 03/15/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0b81d2884580e9054457906627c1f9101f435524
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f28af3ad76d456dddcfd8e85d968cecb773f8fc
+ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927518"
+ms.lasthandoff: 08/11/2022
+ms.locfileid: "9261998"
 ---
 # <a name="vendor-invoice-lines-for-time"></a>Linhas da fatura de fornecedor para tempo
-
-[!include [banner](../../includes/dataverse-preview.md)]
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
@@ -28,7 +26,7 @@ A tabela a seguir apresenta informações sobre os campos nas linhas da fatura d
 | Campo | Descrição | Impacto funcional |
 | --- | --- | --- |
 | Nome | O nome da linha da fatura de fornecedor para ajudar na identificação. | Esse nome será exibido como a primeira coluna em todas as pesquisas baseadas em linhas da fatura de fornecedor. |
-| Descrição | Uma breve descrição dos serviços que estão sendo faturados pelo fornecedor na linha da fatura de fornecedor. | Nenhum |
+| Description | Uma breve descrição dos serviços que estão sendo faturados pelo fornecedor na linha da fatura de fornecedor. | Nenhum |
 | Subcontrato | O subcontrato em que os serviços foram pedidos originalmente. | Quando um subcontrato for selecionado para a fatura de fornecedor, todas as linhas da fatura de fornecedor herdarão essa seleção. Uma fatura de fornecedor não pode ter linhas da fatura de fornecedor que fazem referência a subcontratos diferentes. |
 | Linha de subcontrato | A linha de subcontrato em que os serviços foram pedidos. A lista de linhas de subcontrato que podem ser selecionadas é limitada às linhas do subcontrato selecionado. | Quando uma linha de subcontrato é selecionada em uma linha da fatura de fornecedor para tempo, os valores padrão dos campos **Projeto**, **Função** e **Recurso reservável** são inseridos a partir dos campos correspondentes na linha de subcontrato. Se a linha de subcontrato selecionada tiver valores nos campos **Projeto**, **Função** e **Reservável**, os valores dos campos correspondentes na linha da fatura de fornecedor não podem diferir desses valores. |
 | Data da transação | A data em que o dado real de custo da linha da fatura de fornecedor será registrado no projeto. | Nenhum |
