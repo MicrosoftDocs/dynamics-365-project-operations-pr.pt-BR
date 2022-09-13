@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9347995"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403842"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em agosto de 2022 – Project Operations para cenários baseados em recursos/sem estoque
 
@@ -38,6 +38,11 @@ Se você encontrar um problema ao iniciar o mapa, siga as instruções na seçã
 | Área do recurso | Número de referência | Atualização de qualidade |
 | --- | --- | --- |
 | Gerenciamento de oportunidades | 2762089 | Tratamento de erros ao fechar o contrato como perdido se o salvamento automático estiver desabilitado na organização.|
+|Planejamento e acompanhamento de projeto | 2767841 | A telemetria atualiza os cenários de criação ou atualização da entidade do projeto.|
+|Cobrança e preço | 2771072 | Tratamento de exceção de referência nula durante a cotação vencedora.|
+|Cobrança e preço | 2844181 |Falha ao obter uma ID de correlação e bloquear a criação de uma fatura.|
+|Cobrança e preço | 2852836 | Faltam dados reais intercompanhia para Despesas intercompanhia criadas e aprovadas em CE.|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>Gerenciamento e contabilidade de projeto no Finance
 

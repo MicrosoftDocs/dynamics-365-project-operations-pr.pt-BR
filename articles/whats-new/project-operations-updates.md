@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a08bffa2e353f2ed1b9f3b0c27e2ed1e30731012
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: ba33afd955170797bc43ae84d8baa9e2a04c5918
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295864"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409921"
 ---
 # <a name="project-operations-updates"></a>Atualizações do Project Operations
 
@@ -36,7 +36,7 @@ O Dynamics 365 Project Operations consiste em dois componentes:
 
 | Project Operations no ambiente do Dataverse | Gerenciamento e contabilidade de projeto em ambientes de aplicativos de finanças e operações | 
 | --- | --- |
-| 4.45.0.53 | 10.0.28 |
+| 4.45.0.53 | 10.0.29 |
 
 Para o cenário de recursos/sem estoque do Project Operations, é recomendável usar a gravação dupla do Orchestration versão 2.3.1.15 ou superior.
 
@@ -47,24 +47,24 @@ As atualizações para Project Operations no ambiente do Dataverse estão dispon
 | Estação | Região | Número da versão atual | Atualizações automáticas para implantação Lite | Atualizações automáticas para implantação de Recursos/sem estoque | Número da próxima versão | Próxima versão disponível ao público |
 |-----------|-----------------------|-----------------|--------------------|---------------------|---------------------|---------------------|
 | Estação 1 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Primeira Versão         |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 26 de agosto de 2022       |
+|   &nbsp;  | Primeira Versão         |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 09 de setembro de 2022      |
 | Estação 2 |   &nbsp;              |    &nbsp;       | &nbsp;             |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Sul         |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 02 de setembro de 2022       |
-|   &nbsp;  | Canadá                |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 02 de setembro de 2022       |
-|   &nbsp;  | Índia                 |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 02 de setembro de 2022       |
-|   &nbsp;  | França                |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 02 de setembro de 2022       |
-|   &nbsp;  | África do Sul          |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 02 de setembro de 2022       |
-|   &nbsp;  | Suíça           |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 02 de setembro de 2022       |
+|   &nbsp;  | América do Sul         |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | Canadá                |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | Índia                 |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | França                |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | África do Sul          |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | Suíça           |  4.45.0.53      | Concluída           | Concluída            | TBD                 | 09 de setembro de 2022       |
 | Estação 3 |      &nbsp;           |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Japão                 |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
-|   &nbsp;  | Pacífico Asiático          |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
-|   &nbsp;  | Grã-Bretanha         |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
-|   &nbsp;  | Oceania               |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
-|   &nbsp;  | Emirados Árabes Unidos  |  4.44.0.22      | Concluída      | Concluída       | 4.45.0.53                 | 19 de agosto de 2022       |
+|   &nbsp;  | Japão                 |  4.45.0.53      | Concluída      | Concluída       | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | Pacífico Asiático          |  4.45.0.53      | Concluída      | Concluída       | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | Grã-Bretanha         |  4.45.0.53      | Concluída      | Concluída       | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | Oceania               |  4.45.0.53      | Concluída      | Concluída       | TBD                 | 09 de setembro de 2022       |
+|   &nbsp;  | Emirados Árabes Unidos  |  4.45.0.53      | Concluída      | Concluída       | TBD                 | 09 de setembro de 2022       |
 | Estação 4 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | Europa                |  4.44.0.22      | Concluída           | Concluída            | 4.45.0.53           | 26 de agosto de 2022       |
+|   &nbsp;  | Europa                |  4.45.0.53      | Concluída           | Concluída            | TBD           | 16 de setembro de 2022       |
 | Estação 5 |     &nbsp;            |     &nbsp;      |     &nbsp;         |      &nbsp;         |      &nbsp;         |      &nbsp;         |
-|   &nbsp;  | América do Norte         |  4.44.0.22      | Concluída           | Concluída            | 4.45.0.53           | 02 de setembro de 2022       |
+|   &nbsp;  | América do Norte         |  4.45.0.53      | Concluída           | Concluída            | TBD           | 16 de setembro de 2022       |
 
 ## <a name="release-schedule-for-project-management-and-accounting-in-the-finance-and-operations-apps-environment"></a>Agenda de lançamento do Gerenciamento e contabilidade de projeto no ambiente de aplicativos de finanças e operações
 

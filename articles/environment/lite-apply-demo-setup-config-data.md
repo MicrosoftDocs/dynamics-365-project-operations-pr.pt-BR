@@ -6,12 +6,12 @@ ms.date: 01/27/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 68e504dd031596b295b1383a8e81621744cae8d2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 9a3a99c326b7ebbdfa859c3298b35e910af0eb2a
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8922300"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9409963"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>Aplicar configuração de demonstração e dados de configuração para o Project Operations - lite 
 
@@ -21,7 +21,7 @@ _**Fazer implantação do Project Operations Lite - gerenciar faturamento pro fo
 
 ## <a name="prerequisites"></a>Pré-requisitos
 
-Antes de iniciar a configuração, você deve ter um ambiente do Common Data Service (CDS) provisionado para o Dynamics 365 Project Operations.
+Antes de iniciar a configuração, é necessário ter um ambiente do Dataverse provisionado para o Dynamics 365 Project Operations.
 
 
 ## <a name="instructions"></a>Instruções

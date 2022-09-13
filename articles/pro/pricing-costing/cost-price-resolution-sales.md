@@ -1,45 +1,85 @@
 ---
-title: Resolver preços de custo em estimativas e dados reais do projeto
-description: Este artigo fornece informações sobre como preços de custo em estimativas e dados reais do projeto são resolvidos.
+title: Determinar as taxas de custo para estimativas de projeto e dados reais
+description: Este artigo fornece informações sobre como as taxas de custo para estimativas e dados reais do projeto são determinadas.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/01/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c278d8994389145c6dbee7574d2354724d985722
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917516"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410084"
 ---
-# <a name="resolve-cost-prices-on-project-estimates-and-actuals"></a>Resolver preços de custo em estimativas e dados reais do projeto 
+# <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determinar as taxas de custo para estimativas de projeto e dados reais
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Para resolver os preços de custo e a lista de preços de custo para estimativas e reais, o sistema usa as informações dos campos **Data**, **Moeda** e **Unidade de Contratação** do projeto relacionado. Depois que a lista de preços de custo é resolvida, o aplicativo resolve a taxa de custo.
+Para determinar a lista de preços de custo e as taxas de custo nos contextos de estimativa e dados reais, o sistema usa as informações nos campos **Data**, **Moeda** e **Unidade de Contratação** do projeto relacionado.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-time"></a>Como resolver taxas de custo em linhas reais e estimadas para Tempo
+## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinar taxas de custo em contextos de estimativa e dados reais para Tempo
 
-As linhas de estimativa de Tempo referem-se aos detalhes da linha de contrato e cotação para tempo e atribuições de recursos em um projeto.
+Contexto de estimativa para **Tempo** refere-se a:
 
-Depois que uma lista de preços de custo é resolvida, os campos **Função** e **Unidade de Recursos** na linha de estimativa para Tempo são comparados com as linhas de preço da função na lista de preços. Essa correspondência pressupõe que você está usando as dimensões de preço padrão para custo de mão de obra. Se você tiver configurado o sistema para corresponder aos campos em vez de, ou além de **Função** e **Unidade de Recursos**, uma combinação diferente será usada para recuperar uma linha de preço de função correspondente. Se o aplicativo encontrar uma linha de preço de função que tenha uma taxa de custo para a combinação **Função** e **Unidade de Recursos**, essa será a taxa de custo padrão. Se o aplicativo não corresponder aos valores de **Função** e **Unidade de Recursos**, então irá recuperar as linhas de preço da função com uma função correspondente, mas os valores nulos da **Unidade de Recursos**. Depois de ter um registro de preço de função correspondente, a taxa de custo terá como padrão desse registro. 
+- Detalhes da linha de cotação para **Tempo**.
+- Detalhes da linha de contrato para **Tempo**.
+- Atribuições de recursos em um projeto.
+
+Contexto de dados reais para **Tempo** refere-se a:
+
+- Linhas do diário de entrada e correção para **Tempo**.
+- Linhas de diário criadas quando uma entrada de tempo é enviada.
+
+Depois que uma lista de preços de custo é determinada, o sistema conclui as etapas a seguir para inserir a taxa de custo padrão.
+
+1. O sistema compara a combinação dos campos **Função** e **Unidade de Recursos** no contexto de estimativa ou dados reais para **Tempo** com as linhas de preço de função na lista de preços. Essa correspondência pressupõe que você está usando as dimensões de preço padrão para custo de mão de obra. Se você configurou o sistema para corresponder a campos diferentes ou além de **Função** e **Unidade de Recursos**, uma combinação diferente será usada para recuperar uma linha de preço de função correspondente.
+1. Se o sistema encontrar uma linha de preço de função que tenha uma taxa de custo para a combinação **Função** e **Unidade de Recursos**, essa taxa de custo será usada como a taxa de custo padrão.
+1. Se o sistema não corresponder aos valores **Função** e **Unidade de Recursos**, ele recuperará as linhas de preço da função que têm valores correspondentes para o campo **Função**, mas valores nulos para o campo **Unidade de Recursos**. Depois que o sistema tiver um registro de preço de função correspondente, a taxa de custo desse registro será usada como a taxa de custo padrão.
 
 > [!NOTE]
-> Se você configurar uma priorização diferente de **Função** e **Unidade de Recursos**, ou se tiver outras dimensões com prioridade mais alta, esse comportamento será devidamente alterado. O sistema recupera registros de preço de função com valores que correspondem a cada um dos valores de dimensão de precificação em ordem de prioridade com linhas que possuem valores nulos para as dimensões que vêm por último.
+> Se você configurar uma priorização diferente dos campos **Função** e **Unidade de Recursos** ou se tiver outras dimensões com prioridade mais alta, o comportamento anterior será devidamente alterado. O sistema recupera registros de preço de função que possuem valores que correspondem a cada valor de dimensão de preço em ordem de prioridade. As linhas que têm valores nulos para essas dimensões vêm por último.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Como resolver taxas de custo em linhas reais e estimadas para Despesa
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-expense"></a>Determinar taxas de custo em linhas de dados reais e estimativa para Despesa
 
-As linhas de estimativa para Despesa referem-se aos detalhes da cotação e da linha de contrato para despesas e as linhas de estimativa de despesa em um projeto.
+Contexto de estimativa para **Despesa** refere-se a:
 
-Depois que uma lista de preços de custo é resolvida, o sistema usa uma combinação dos campos **Categoria** e **Unidade** na linha de estimativa de despesas para combinar com as linhas do **Preço da categoria** na lista de preços resolvida. Se o sistema encontrar uma linha de preço de categoria que tenha uma taxa de custo para a combinação dos campos **Categoria** e **Unidade**, a taxa de custo terá o padrão. Se o sistema não puder corresponder aos valores **Categoria** e **Unidade**, ou se conseguir encontrar uma linha de preço de categoria correspondente, mas o método de precificação não for **Preço por unidade**, a taxa de custo será padronizada como zero (0).
+- Detalhes da linha de cotação para **Despesa**.
+- Detalhes da linha de contrato para **Despesa**.
+- Estimativas de despesas em um projeto.
 
-## <a name="resolving-cost-rates-on-actual-and-estimate-lines-for-material"></a>Resolver taxas de custo em dados reais e linhas de estimativa para Material
+Contexto real para **Despesa** refere-se a:
 
-As linhas de estimativa de material referem-se aos detalhes da linha de orçamento e contrato para materiais e as linhas de estimativa de material em um projeto.
+- Linhas do diário de entrada e correção para **Despesa**.
+- Linhas de diário criadas quando uma entrada de despesa é enviada.
 
-Depois que uma lista de preços de custo é resolvida, o sistema usa uma combinação dos campos **Produtos** e **Unidade** na linha de estimativa para uma estimativa de material para combinar com as linhas de **Itens da Lista de Preços** na lista de preços resolvida. Se o sistema encontrar uma linha de preço de produto que tenha uma taxa de custo para a combinação de campo **Produto** e **Unidade**, a taxa de custo é padronizada. Se o sistema não pode corresponder aos valores **Produto** e **Unidade**, ou se for capaz de encontrar uma linha de item de lista de preços correspondente, mas o método de precificação é baseado no Custo padrão ou Custo atual e nenhum é definido no produto, o custo unitário é padronizado para zero.
+Depois que uma lista de preços de custo é determinada, o sistema conclui as etapas a seguir para inserir a taxa de custo padrão.
 
+1. O sistema compara a combinação dos campos **Categoria** e **Unidade** no contexto de estimativa ou dados reais para **Despesa** com as linhas de preço de categoria na lista de preços.
+1. Se o sistema encontrar uma linha de preço de categoria que tenha uma taxa de custo para a combinação de **Categoria** e **Unidade**, essa taxa de custo será usada como a taxa de custo padrão.
+1. Se o sistema não corresponder aos valores **Categoria** e **Unidade**, o preço será definido como **0** (zero) por padrão.
+1. No contexto de estimativa, se o sistema puder encontrar uma linha de preço de categoria correspondente, mas o método de precificação for diferente de **Preço por Unidade**, a taxa de custo será definida como **0** (zero) por padrão.
+
+## <a name="determining-cost-rates-on-actual-and-estimate-lines-for-material"></a>Determinar taxas de custo em linhas de dados reais e estimativa para material
+
+Contexto de estimativa para **Material** refere-se a:
+
+- Detalhes da linha de cotação para **Material**.
+- Detalhes da linha de contrato para **Material**.
+- Estimativas de materiais em um projeto.
+
+Contexto real para **Material** refere-se a:
+
+- Linhas do diário de entrada e correção para **Material**.
+- Linhas de diário criadas quando um registro de uso de material é enviado.
+
+Depois que uma lista de preços de custo é determinada, o sistema conclui as etapas a seguir para inserir a taxa de custo padrão.
+
+1. O sistema usa a combinação dos campos **Produto** e **Unidade** no contexto de estimativa ou dados reais para **Material** com as linhas de item da lista de preços na lista de preços.
+1. Se o sistema encontrar uma linha de item da lista de preços que tenha uma taxa de custo para a combinação de **Produto** e **Unidade**, essa taxa de custo será usada como a taxa de custo padrão.
+1. Se o sistema não corresponder aos valores de **Produto** e **Unidade**, o custo unitário será definido como **0** (zero) por padrão.
+1. No contexto de estimativa ou dados reais, se o sistema encontrar uma linha de item da lista de preços correspondente, mas o método de precificação for diferente de **Preço por Unidade**, o custo unitário será definido como **0** (zero) por padrão. Esse comportamento ocorre porque o Project Operations oferece suporte apenas ao método de precificação **Valor da moeda** para materiais usados em um projeto.
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

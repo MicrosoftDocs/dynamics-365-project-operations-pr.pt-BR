@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: cbee9281d2fae485a3ebcd38bb884a2b2322f8d1
-ms.sourcegitcommit: 66e376675e6df8efc86fa84ec24e9aad6a980304
+ms.openlocfilehash: e63b29741dbaa400a2176ff8b4c35c6d64dfeab4
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/21/2022
-ms.locfileid: "9183870"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403937"
 ---
 # <a name="whats-new-july-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>Novidades em julho de 2022 – Project Operations para cenários baseados em recursos/sem estoque
 
@@ -45,6 +45,12 @@ Se você encontrar um problema ao iniciar o mapa, siga as instruções na seçã
 | Cobrança e preço | 2675880 | Impedir que um projeto seja vinculado a uma linha de contrato que não seja baseada em trabalho. |
 | Cobrança e preço | 2664396 | Se uma lista de preços de cotação for salva sem uma cotação, deve haver um erro informando que a cotação não pode estar vazia. |
 | Cobrança e preço | 2184019 | A guia **Cobrança Baseada em Tarefas** não deve ser exibida para projetos que não tenham contrato ou cotação de apoio. |
+| Tempo e Despesa | 2754459 | Quando o fluxo da nuvem de agendamento recorrente estiver inativo, mostre o banner e ignore o processamento assíncrono. |
+| Cobrança e preço | 2724391 | A exceção errada é lançada quando a regra de cobrança dividida do contrato do projeto não possui um valor do cliente. |
+| Cobrança e preço | 2708638 | O registro não foi encontrado durante a pesquisa de grade em Usos de materiais e Aprovações para usos de materiais.|
+| Cobrança e preço | 2686977 | Impedir a validação da linha da fatura durante a criação da fatura. |
+| Cobrança e preço | 2683032 | A cópia de funções e categorias passíveis de cobrança não ultrapassa 5.000 registros.|
+| Cobrança e preço | 2673363 | A porcentagem de consumo de custo no projeto é corrompida quando existem estimativas e dados reais de esforço e despesas para um projeto. |
 
 ### <a name="project-management-and-accounting-in-finance"></a>Gerenciamento e contabilidade de projeto no Finance
 
