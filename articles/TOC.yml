@@ -232,6 +232,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Substituir listas de preços de vendas do projeto
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar substituições com data de efetivação para preços específicos em uma lista de preços
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar preços de custo para estimativas e dados reais
               href: pricing-costing/cost-price-resolution.md
             - name: Determinar preços de venda para estimativas e dados reais
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: Solicitar bens e serviços para projetos usando ordens de compra do projeto
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: Faturas de fornecedores para subcontratos no Dataverse
+          items:
+            - name: Criar faturas do fornecedor
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: Verificação de faturas de fornecedor com dados reais aprovados
+              href: pro/subcontracting/VI-Verification.md
+            - name: Confirmar faturas de fornecedor do projeto
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: Retenção de fornecedor
           items:
             - name: Visão geral da retenção de fornecedor
@@ -844,6 +854,8 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: Substituir listas de preços de vendas do projeto
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: Configurar substituições com data de efetivação para preços específicos em uma lista de preços
+              href: pricing-costing/dateffective_price_overrides.md
             - name: Determinar preços de custo em estimativas e dados reais de projetos
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: Determinar preços de venda para estimativas e dados reais de projetos
