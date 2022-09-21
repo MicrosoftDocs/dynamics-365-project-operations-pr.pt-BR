@@ -1,68 +1,95 @@
 ---
-title: Resolver preços de venda para estimativas e dados reais
-description: Este artigo fornece informações sobre como resolver taxas de vendas para estimativas e dados reais.
+title: Determinar preços de vendas para estimativas e dados reais baseados em projetos
+description: Este artigo fornece informações sobre como os preços de venda para estimativas e dados reais baseados em projetos são determinados.
 author: rumant
-ms.date: 04/07/2021
+ms.date: 09/12/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee750b93a5be7be09ed76942c7c235f8c811e8bb
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f0b95c651983230cbf340f2c06089a287b2c8a10
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911812"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475355"
 ---
-# <a name="resolve-sales-prices-for-estimates-and-actuals"></a>Resolver preços de venda para estimativas e dados reais
+#  <a name="determine-sales-prices-for-project-based-estimates-and-actuals"></a>Determinar preços de vendas para estimativas e dados reais baseados em projetos
 
 _**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-Quando os preços de vendas em estimativas e dados reais forem resolvidos no Dynamics 365 Project Operations, o sistema primeiro usará a data e a moeda da cotação ou contrato do projeto relacionado para resolver a lista de preços de venda. Depois que a lista de preços de venda é resolvida, o sistema resolve a taxa de vendas ou cobrança.
+Para determinar os preços de venda em estimativas e dados reais no Microsoft Dynamics 365 Project Operations, o sistema primeiro usa a data e a moeda no contexto de estimativa de entrada ou dados reais para determinar a lista de preços de venda. No contexto real especificamente, o sistema usa o campo **Data da transação** para determinar qual lista de preços é aplicável. O valor **Data da transação** da estimativa recebida ou dado real é comparado com os valores **Início Efetivo (Independente de Fuso Horário)** e **Fim Efetivo (Independente de Fuso Horário)** na lista de preços. Depois que a lista de preços de venda é determinada, o sistema determina a taxa de vendas ou cobrança.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-time"></a>Resolver as taxas de venda em linhas reais e estimadas para tempo
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Determinar as taxas de venda em linhas de dados reais e estimativas para Tempo
 
-No Project Operations, as linhas de estimativa de tempo são usadas para denotar a linha de cotação e os detalhes da linha de contrato de tempo e as atribuições de recursos no projeto.
+Contexto de estimativa para **Tempo** refere-se a:
 
-Depois que uma lista de preços para vendas é resolvida, o sistema conclui as seguintes etapas para padronizar a taxa de cobrança.
+- Detalhes da linha de cotação para **Tempo**.
+- Detalhes da linha de contrato para **Tempo**.
+- Atribuições de recursos em um projeto.
 
-1. O sistema usa os campos **Função**, **Empresa de Recursos** e **Unidade de Recursos** na linha de estimativa para tempo para corresponder às linhas de preço da função na lista de preços resolvidos. Essa correspondência pressupõe que as dimensões de precificação prontas para uso para taxas de cobrança estão sendo usadas. Se você configurou o preço com base em qualquer outro campo em vez de, ou além de **Função**, **Empresa de Recursos** e **Unidade de Recursos**, essa é a combinação que será usada para recuperar uma linha de preço de função correspondente.
-2. Se o sistema encontrar uma linha de preço de função que tenha uma taxa de cobrança para a combinação dos campos **Função**, **Empresa de Recursos** e **Unidade de Recursos**, essa taxa de cobrança assumirá o padrão.
-3. Se o sistema não corresponder aos valores de campo **Função**, **Empresa de Recursos** e **Unidade de Recursos**, ele recuperará as linhas de preço da função com uma função correspondente, mas os valores nulos da **Unidade de Recursos**. Depois que o sistema encontrar um registro de preço de função correspondente, ele assumirá como padrão a taxa de cobrança desse registro. Essa correspondência pressupõe uma configuração pronta para uso para a prioridade relativa de **Função** em comparação a **Unidade de Recursos** como uma dimensão de preço de venda.
+Contexto de dados reais para **Tempo** refere-se a:
+
+- Linhas do diário de entrada e correção para **Tempo**.
+- Linhas de diário criadas quando uma entrada de tempo é enviada.
+- Detalhes da linha de fatura para **Tempo**. 
+
+Depois que uma lista de preços para vendas é determinada, o sistema conclui as etapas a seguir para inserir a taxa de faturamento padrão.
+
+1. O sistema compara a combinação dos campos **Função**, **Empresa de Recursos** e **Unidade de Recursos** no contexto de estimativa ou dados reais para **Tempo** com as linhas de preço de função na lista de preços. Essa correspondência pressupõe que você esteja usando as dimensões de preços prontas para uso para taxas de cobrança. Se você configurou o preço para que seja baseado em campos diferentes ou além de **Função**, **Empresa de Recursos** e **Unidade de Recursos**, essa combinação de campos será usada para recuperar uma linha de preço de função correspondente.
+1. Se o sistema encontrar uma linha de preço de função que tenha uma taxa de cobrança para a combinação **Função**, **Empresa de Recursos** e **Unidade de Recursos**, essa taxa de cobrança é usada como a taxa de cobrança padrão.
 
 > [!NOTE]
-> Se você configurou uma priorização diferente de **Função**, **Empresa de Recursos** e **Unidade de Recursos**, ou se tiver outras dimensões com prioridade mais alta, esse comportamento será devidamente alterado. O sistema recupera registros de preço de função com valores que correspondem a cada um dos valores de dimensão de precificação em ordem de prioridade com linhas que possuem valores nulos para as dimensões que vêm por último.
+> Se você configurar uma priorização diferente dos campos **Função**, **Empresa de Recursos** e **Unidade de Recursos**, ou se tiver outras dimensões com prioridade mais alta, o comportamento anterior será alterado de acordo. O sistema recupera registros de preço de função que possuem valores que correspondem a cada valor de dimensão de preço em ordem de prioridade. As linhas que têm valores nulos para essas dimensões vêm por último.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Resolver as taxas de venda em linhas reais e estimadas para despesa
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-expense"></a>Determinar as taxas de vendas em linhas de dados reais e estimativas para Despesa
 
-No Project Operations, as linhas de estimativa de despesa são usadas para denotar a linha de cotação e os detalhes da linha de contrato para as despesas e linhas de estimativa de despesas no projeto.
+Contexto de estimativa para **Despesa** refere-se a:
 
-Depois que uma lista de preços para vendas é resolvida, o sistema conclui as seguintes etapas para padronizar o preço de venda unitário.
+- Detalhes da linha de cotação para **Despesa**.
+- Detalhes da linha de contrato para **Despesa**.
+- Linhas de estimativas de despesas em um projeto.
 
-1. O sistema usa a combinação de campos **Categoria** e **Unidade** na linha de estimativa de despesas para corresponder às linhas de preço da categoria na lista de preços que foi resolvida.
-2. Se o sistema encontrar uma linha de preço de categoria que tenha uma taxa de venda para a combinação dos campos **Categoria** e **Unidade**, essa taxa de venda assumirá o padrão.
-3. Se o sistema encontrar uma linha de preço de categoria correspondente, o método de precificação pode ser usado para definir o preço de venda padrão. A tabela a seguir mostra o comportamento padrão do preço de despesa no Project Operations.
+Contexto real para **Despesa** refere-se a:
+
+- Linhas do diário de entrada e correção para **Despesa**.
+- Linhas de diário criadas quando uma entrada de despesa é enviada.
+- Detalhes da linha de fatura para **Despesa**. 
+
+Depois que uma lista de preços para vendas é determinada, o sistema conclui as etapas a seguir para inserir o preço de venda unitário padrão.
+
+1. O sistema compara a combinação dos campos **Categoria** e **Unidade** na linha de estimativa para **Despesa** com as linhas de preço da categoria na lista de preços.
+1. Se o sistema encontrar uma linha de preço de categoria que tenha uma taxa de venda para a combinação de **Categoria** e **Unidade**, essa taxa de vendas será usada como a taxa de vendas padrão.
+1. Se o sistema encontrar uma linha de preço de categoria correspondente, o método de precificação pode ser usado para inserir o preço de venda padrão. A tabela a seguir mostra o comportamento padrão para preços de despesas no Project Operations.
 
     | Contexto | Método de precificação | Preço padrão |
     | --- | --- | --- |
-    | Estimativa | Preço por unidade | Com base na linha de preço da categoria |
-    | &nbsp; | A preço de custo | 0.00 |
-    | &nbsp; | Markup sobre custo | 0.00 |
-    | Real | Preço por unidade | Com base na linha de preço da categoria |
-    | &nbsp; | A preço de custo | Com base no custo real relacionado |
-    | &nbsp; | Markup sobre custo | Aplicar uma marcação conforme definido pela linha de preço da categoria na taxa de custo unitário do custo real relacionado |
+    | Estimativa | Preço por unidade | Com base na linha de preço da categoria. |
+    |        | A preço de custo | 0.00 |
+    |        | Markup sobre custo | 0.00 |
+    | Real | Preço por unidade | Com base na linha de preço da categoria. |
+    |        | A preço de custo | Com base no custo real relacionado. |
+    |        | Markup sobre custo | Um markup é aplicado, conforme definido pela linha de preço da categoria, à taxa de custo unitário do custo real relacionado. |
 
-4. Se o sistema não corresponder aos valores de campo **Categoria** e **Unidade**, a taxa de venda será zero (0) como padrão.
+1. Se o sistema não corresponder aos valores **Categoria** e **Unidade**, a taxa de vendas será definida como **0** (zero) por padrão.
 
-## <a name="resolve-sales-rates-on-actual-and-estimate-lines-for-material"></a>Resolver taxas de vendas em dados reais e linhas de estimativa para material
+## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-material"></a>Determinar taxas de vendas em linhas de dados reais e estimativa para Material
 
-Em Project Operations, as linhas de estimativa de material são usadas para denotar a linha de cotação e os detalhes da linha de contrato para materiais e as linhas de estimativa de material no projeto.
+Contexto de estimativa para **Material** refere-se a:
 
-Depois que uma lista de preços para vendas é resolvida, o sistema conclui as seguintes etapas para padronizar o preço de venda unitário.
+- Detalhes da linha de cotação para **Material**.
+- Detalhes da linha de contrato para **Material**.
+- Linhas de estimativa de materiais em um projeto.
 
-1. O sistema usa a combinação de campos **Produto** e **Unidade** na linha de estimativa para o material corresponder às linhas de item da lista de preços na lista de preços que foi resolvida.
-2. Se o sistema encontrar uma linha de item da lista de preços com uma taxa de vendas para a combinação de campos **Produto** e **Unidade** e o método de precificação for **Valor da moeda**, o preço de venda especificado na linha da lista de preços será usado.
-3. Se os valores dos campos **Produto** e **Unidade** não coincidirem, o padrão da taxa de vendas será zero.
+Contexto real para **Material** refere-se a:
 
+- Linhas do diário de entrada e correção para **Material**.
+- Linhas de diário criadas quando um registro de uso de material é enviado.
+- Detalhes da linha de fatura para **Material**. 
 
+Depois que uma lista de preços para vendas é determinada, o sistema conclui as etapas a seguir para inserir o preço de venda unitário padrão.
+
+1. O sistema compara a combinação dos campos **Produto** e **Unidade** na linha de estimativa para **Material** com as linhas de item da lista de preços na lista de preços.
+1. Se o sistema encontrar uma linha de item da lista de preços com uma taxa de vendas para a combinação de **Produto** e **Unidade** e se o método de precificação for **Valor da moeda**, o preço de venda especificado na linha da lista de preços será usado. 
+1. Se os valores dos campos **Produtos** e **Unidade** não corresponderem ou se o método de precificação for diferente de **Valor da moeda**, a taxa de vendas será definida como **0** (zero) por padrão. Esse comportamento ocorre porque o Project Operations oferece suporte apenas ao método de precificação **Valor da moeda** para materiais usados em um projeto.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

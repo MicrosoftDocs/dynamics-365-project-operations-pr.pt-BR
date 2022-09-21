@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 43ea29aeafb62f3ecd69b316f2c0a5b791707da5
+ms.sourcegitcommit: bc21fbe8547534d2644269f873eb05d509840f23
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230208"
+ms.lasthandoff: 09/08/2022
+ms.locfileid: "9446021"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Atualizar do Project Service Automation para o Project Operations
 
@@ -29,7 +29,7 @@ Estamos felizes em anunciar a primeira de três fases para atualização do Micr
 
 O programa de entrega da atualização será dividido em três fases.
 
-| Entrega da atualização | Fase 1 (janeiro de 2022) | Fase 2 (ciclo de abril de 2022) | Fase 3  |
+| Entrega da atualização | Fase 1 (janeiro de 2022) | Fase 2 (novembro de 2022) | Fase 3 (ciclo de abril de 2023)  |
 |------------------|------------------------|---------------------------|---------------------------|
 | Nenhuma dependência da estrutura de detalhamento de trabalho (WBS) para projetos | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | A WBS dentro dos limites atualmente suportados do Project Operations | | :heavy_check_mark: | :heavy_check_mark: |
@@ -39,7 +39,7 @@ O programa de entrega da atualização será dividido em três fases.
 
 Como parte do processo de atualização, adicionamos logs de atualização ao mapa do site, para que os administradores possam diagnosticar falhas com mais facilidade. Além da nova interface, novas regras de validação serão adicionadas para garantir a integridade dos dados após uma atualização. As validações a seguir serão adicionadas ao processo de atualização.
 
-| Validações | Fase 1 (janeiro de 2022) | Fase 2 (ciclo de abril de 2022) | Fase 3  |
+| Validações | Fase 1 (janeiro de 2022) | Fase 2 (novembro de 2022) | Fase 3  |
 |-------------|------------------------|---------------------------|---------------------------|
 | A WBS será validada em relação a violações comuns de integridade de dados (por exemplo, atribuições de recursos associadas à mesma tarefa pai, mas com projetos pai diferentes). | | :heavy_check_mark: | :heavy_check_mark: |
 | A WBS será validada em relação aos [limites conhecidos do Project for the Web](/project-for-the-web/project-for-the-web-limits-and-boundaries). | | :heavy_check_mark: | :heavy_check_mark: |

@@ -6,18 +6,18 @@ ms.date: 09/01/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 6504302578d1eb3d00c717ea93cd4c4212acb4e7
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: 1288a571d50604ee400db9c16822719d0649628b
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410080"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475170"
 ---
 # <a name="determine-sales-prices-for-project-estimates-and-actuals"></a>Determinar preços de venda para estimativas de projeto e dados reais
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Para determinar os preços de venda em estimativas e dados reais no Microsoft Dynamics 365 Project Operations, o sistema primeiro usa a data e a moeda no contexto de estimativa de entrada ou dados reais para determinar a lista de preços de venda. No contexto real especificamente, o sistema usa o campo **Data da transação** para determinar qual lista de preços é aplicável. Depois que a lista de preços de venda é determinada, o sistema determina a taxa de vendas ou cobrança.
+Para determinar os preços de venda em estimativas e dados reais no Microsoft Dynamics 365 Project Operations, o sistema primeiro usa a data e a moeda no contexto de estimativa de entrada ou dados reais para determinar a lista de preços de venda. No contexto real especificamente, o sistema usa o campo **Data da transação** para determinar qual lista de preços é aplicável. O valor **Data da transação** da estimativa recebida ou dado real é comparado com os valores **Início Efetivo (Independente de Fuso Horário)** e **Fim Efetivo (Independente de Fuso Horário)** na lista de preços. Depois que a lista de preços de venda é determinada, o sistema determina a taxa de vendas ou cobrança.
 
 ## <a name="determining-sales-rates-on-actual-and-estimate-lines-for-time"></a>Determinar as taxas de venda em linhas de dados reais e estimativas para Tempo
 

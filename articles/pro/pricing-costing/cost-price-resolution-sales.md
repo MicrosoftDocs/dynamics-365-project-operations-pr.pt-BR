@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c7dd264ebbd1da9b2f42d2284fb38988a09aa03f
-ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
+ms.openlocfilehash: c2295174df1ce766c6d1304f4e9c55d32d5c4775
+ms.sourcegitcommit: 60a34a00e2237b377c6f777612cebcd6380b05e1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/07/2022
-ms.locfileid: "9410084"
+ms.lasthandoff: 09/13/2022
+ms.locfileid: "9475216"
 ---
 # <a name="determine-cost-rates-for-project-estimates-and-actuals"></a>Determinar as taxas de custo para estimativas de projeto e dados reais
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-Para determinar a lista de preços de custo e as taxas de custo nos contextos de estimativa e dados reais, o sistema usa as informações nos campos **Data**, **Moeda** e **Unidade de Contratação** do projeto relacionado.
+Para determinar as taxas de custo em estimativas e dados reais no Microsoft Dynamics 365 Project Operations, o sistema primeiro usa a data e a moeda no contexto de estimativa de entrada ou dados reais para determinar a lista de preços de custo. No contexto real especificamente, o sistema usa o campo **Data da transação** para determinar qual lista de preços é aplicável. O valor **Data da transação** da estimativa recebida ou dado real é comparado com os valores **Início Efetivo (Independente de Fuso Horário)** e **Fim Efetivo (Independente de Fuso Horário)** na lista de preços. Após a determinação da lista de preços de custo, o sistema indica a taxa de custo. 
 
 ## <a name="determining-cost-rates-in-estimate-and-actual-contexts-for-time"></a>Determinar taxas de custo em contextos de estimativa e dados reais para Tempo
 
