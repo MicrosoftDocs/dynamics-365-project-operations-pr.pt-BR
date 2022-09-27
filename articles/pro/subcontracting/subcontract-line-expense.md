@@ -2,20 +2,20 @@
 title: Linhas de subcontrato para categorias de despesa
 description: Este artigo explica como registrar linhas de subcontrato para despesas e usar os campos para registrar a compra de tempo de fornecedores.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7166642abc2187a53f7019639df6f0d7124f4765
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: ba1241ce40b7c5b488e278e8f1b8e9f352f45dc8
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261826"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522593"
 ---
 #  <a name="subcontract-lines-for-expense-categories"></a>Linhas de subcontrato para categorias de despesa
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Um subcontrato no Dynamics 365 Project Operations pode ter uma linha para categorias de despesas. As linhas de subcontrato para categorias de despesa permitem que um Gerente de Projeto compre categorias de serviços ou produtos de fornecedores que podem ser cobrados de um projeto.
 

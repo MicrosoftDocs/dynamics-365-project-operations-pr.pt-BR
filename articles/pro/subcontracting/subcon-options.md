@@ -2,20 +2,20 @@
 title: Opções de subcontratação para membros da equipe do projeto
 description: Este artigo explica as opções de subcontratação para membros da equipe do projeto no Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5e0955d58365a4ecbe1c053882736f196758816e
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 046b5d38ef7e433d02e3eac2e858a3333e941c45
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261591"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522264"
 ---
 # <a name="subcontracting-options-for-project-team-members"></a>Opções de subcontratação para membros da equipe do projeto
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 No Microsoft Dynamics 365 Project Operations, é possível avaliar as opções de subcontratação disponíveis para um ou mais membros da equipe do projeto. As opções de subcontratação disponíveis permitem:
 

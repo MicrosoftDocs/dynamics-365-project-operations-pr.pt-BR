@@ -2,20 +2,20 @@
 title: Etapas da linha de subcontrato
 description: Este artigo explica como criar e manter uma programação de fatura baseada em etapas para um subcontrato com um fornecedor.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2fe26f5ba3c7bbc689c83a2ba67d444a09a264d5
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 431a57adf82c79f72d44886636183d48e0931f53
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261779"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522405"
 ---
 # <a name="subcontract-line-milestones"></a>Etapas da linha de subcontrato
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 No Dynamics 365 Project Operations, uma linha de subcontrato com um método de cobrança de preço fixo pode especificar uma agenda de fatura baseada em marcos com o fornecedor.
 

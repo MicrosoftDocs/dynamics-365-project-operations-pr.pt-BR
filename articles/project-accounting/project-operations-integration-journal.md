@@ -2,16 +2,16 @@
 title: Diário de integração no Project Operations
 description: Este artigo fornece informações sobre como trabalhar com o diário de integração no Project Operations.
 author: sigitac
-ms.date: 06/29/2022
+ms.date: 09/22/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d6f1709c4bf44cfd45516d9ac74b30d4817bb653
-ms.sourcegitcommit: a5a1d81d2fe0a6f684e79859fcddf45e913d76bc
+ms.openlocfilehash: e947fe895a1caa9c9ea092597957a859cd8d61c9
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 07/01/2022
-ms.locfileid: "9106261"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541063"
 ---
 # <a name="integration-journal-in-project-operations"></a>Diário de integração no Project Operations
 
@@ -65,6 +65,12 @@ O lançamento pode ser realizado interativamente ou em lote. Observe que todos o
 > [!NOTE]
 > Para usar essa funcionalidade, habilite o recurso **Transferir todas as linhas com erros de lançamento para um novo diário de integração do Project Operations** no espaço de trabalho **Gerenciamento de recursos**.
 
-Durante o lançamento no diário de integração do Project Operations, o sistema validará todas as linhas no diário. O sistema lança todas as linhas sem erros e cria um novo diário para todas as linhas com erros de lançamento. Para revisar os diários com linhas de erro de lançamento, acesse **Gerenciamento de projetos e contabilidade** > **Diários** > **Diário de integração do Project Operations** e filtre os diários usando o campo **Diário original**.
+Esse recurso ajuda a melhorar a experiência com o diário de integração do Project Operations. Quando habilitado, os problemas de tempo de gravação dupla e os problemas de configuração não impedem mais a publicação de diários válidos. Durante o lançamento no diário de integração do Project Operations, o sistema validará todas as linhas no diário. Ele lança todas as linhas sem erros e cria um novo diário para todas as linhas com erros de lançamento.
+
+Para revisar os diários que tenham linhas de erro de lançamento, acesse **Gerenciamento de projetos e contabilidade** \> **Diários** \> **Diário de integração do Project Operations** e filtre a lista de diários usando o campo **Diário original**. A ilustração a seguir mostra um exemplo em que os diários na página **Diário de integração do Project Operations** foram filtradas dessa forma.
+
+![O diário original mostrado na página Diário de integração do Project Operations.](./media/transferLines-originalJournal.png)
+
+Se um trabalho em lote periódico estiver configurado para lançar o diário de integração, o lançamento será tentado novamente e os diários serão lançados se o problema de tempo tiver sido corrigido. Quaisquer diários restantes devem ser investigados manualmente revisando os logs e tomando as medidas necessárias.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

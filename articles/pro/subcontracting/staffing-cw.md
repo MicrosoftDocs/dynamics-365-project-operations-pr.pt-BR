@@ -2,20 +2,20 @@
 title: Recrutando trabalhadores contratados e capacidade subcontratada para um projeto
 description: Este artigo explica como os requisitos do projeto podem ser atendidos usando trabalhadores contratados ou capacidade subcontratada no Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8edb053467ef200ca3e051e2fd78106734318389
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 30e16efeed93ab4568eac57fb3ed46067a08524d
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261240"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522421"
 ---
 # <a name="staffing-a-project-with-contract-workers-and-subcontracted-capacity"></a>Recrutando trabalhadores contratados e capacidade subcontratada para um projeto
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Os membros genéricos da equipe do projeto podem ter funcionários ou trabalhadores contratados. Ao criar um projeto com trabalhadores contratados, você pode limitar suas opções de contratação a trabalhadores contratados específicos atribuídos a uma linha de subcontrato. 
 

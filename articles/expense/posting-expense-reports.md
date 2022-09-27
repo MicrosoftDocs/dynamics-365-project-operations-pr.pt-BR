@@ -1,8 +1,8 @@
 ---
 title: Postar relatórios de despesas
 description: Este artigo explica como postar relatórios de despesas.
-author: suvaidya
-ms.date: 09/09/2020
+author: ramagadu
+ms.date: 08/12/2022
 ms.topic: article
 ms.prod: ''
 ms.search.form: ''
@@ -13,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: d0ae4559a08553236158a663513401cb38cbe28f
+ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8934490"
+ms.lasthandoff: 09/16/2022
+ms.locfileid: "9524855"
 ---
 # <a name="post-expense-reports"></a>Postar relatórios de despesas
 
@@ -30,5 +30,15 @@ Para postar um relatório de despesas, na página **Relatórios de despesas apro
 
 Você também pode postar todos os relatórios de despesas na lista ao mesmo tempo. Selecione todos os relatórios de despesas e, em seguida, selecione **Postar**.
 
+## <a name="enable-the-ability-to-post-expense-liability-in-vendor-currency-for-cash-payment-method-feature"></a>Habilitar o recurso Possibilidade de lançar o passivo de despesas na moeda do fornecedor para a forma de pagamento à vista
+
+O recurso **Possibilidade de lançar o passivo de despesas na moeda do fornecedor para a forma de pagamento à vista** permite que os relatórios de despesas sejam lançados na moeda do fornecedor para a forma de pagamento à vista.
+
+Atualmente, quando você envia despesas em dinheiro, os relatórios de despesas são lançados na moeda contábil. Devido à conversão de valor entre a moeda da transação, a moeda contábil e a moeda do fornecedor, um valor incorreto será pago aos fornecedores se a data da transação da despesa e a data do pagamento real tiverem taxas de câmbio diferentes.
+
+Esse recurso garantirá que o saldo do fornecedor seja registrado na moeda do fornecedor quando o relatório de despesas for lançado.
+
+1. Acesse **Workspaces** \> **Gerenciamento de Recursos**.
+2. Na lista, encontre e selecione **Possibilidade de lançar o passivo de despesas na moeda do fornecedor para a forma de pagamento à vista** e, em seguida, selecione **Habilitar agora**.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

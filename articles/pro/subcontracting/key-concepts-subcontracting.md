@@ -2,21 +2,21 @@
 title: Principais conceitos na subcontratação
 description: Este artigo explica alguns conceitos-chave que se aplicam à subcontratação no Microsoft Dynamics 365 Project Operations.
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262155"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522734"
 ---
 # <a name="key-concepts-in-subcontracting"></a>Principais conceitos na subcontratação
 
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 O artigo explica alguns conceitos-chave que você deve conhecer antes de começar a usar a funcionalidade de subcontratação no Microsoft Dynamics 365 Project Operations.
 

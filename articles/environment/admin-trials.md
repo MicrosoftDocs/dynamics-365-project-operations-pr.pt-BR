@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 60790d83d5fcc8c75fef8eac2877d1ca14a761f2
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029286"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9527965"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>Inscrever-se para avaliações do Project Operations 
 
@@ -112,7 +112,7 @@ Você precisará de acesso administrativo ao Portal do Microsoft 365 da sua orga
 Os recursos a seguir fornecerão orientações úteis quando você iniciar sua jornada com o Project Operations:
 
 - [Série de vídeos - Visão geral do Project Operations, detalhes e roteiro dos recursos](https://youtube.com/playlist?list=PLcakwueIHoT_LJ3Fr1tHnkPk5lioqE6uH)
-- [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
+- [Dynamics 365 Project Operations](/training/modules/examine-dynamics-365-project-operations/)
 - [Determinar o tipo de implantação](determine-deployment-type.md)
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes

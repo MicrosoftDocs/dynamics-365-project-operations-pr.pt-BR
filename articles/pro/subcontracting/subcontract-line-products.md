@@ -2,20 +2,20 @@
 title: Linhas de subcontrato para produtos
 description: Este artigo explica como registrar linhas de subcontrato para produtos e usar os vários campos para registrar compras de produtos de fornecedores.
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262091"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522828"
 ---
 # <a name="subcontract-lines-for-products"></a>Linhas de subcontrato para produtos
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
 Um subcontrato no Dynamics 365 Project Operations pode ter uma linha de subcontrato para produtos. Essas linhas permitem que um Gerente de Projeto compre produtos de fornecedores que ele poderá usar nas tarefas do projeto.
 
