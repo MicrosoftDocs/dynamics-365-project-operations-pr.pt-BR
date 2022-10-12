@@ -62,10 +62,12 @@
           href: environment/uninstall-project-operations.md
     - name: Novidades
       items:
-        - name: Agosto de 2022 – Project Operations para cenários baseados em recursos/sem estoque
-          href: whats-new/whats-new-aug-2022-resource-based.md
-        - name: Arquivar
+        - name: Setembro de 2022 – Project Operations para cenários baseados em recursos/sem estoque
+          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: Arquivos
           items:
+            - name: Agosto de 2022 – Project Operations para cenários baseados em recursos/sem estoque
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: Julho de 2022 – Project Operations para cenários baseados em recursos/sem estoque
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: Junho de 2022 – Project Operations para cenários baseados em recursos/sem estoque
@@ -110,7 +112,7 @@
       items:
         - name: Visão geral do processo de vendas do projeto
           href: sales/sales-overview.md
-        - name: Configurar
+        - name: Configuração
           items:
             - name: Produtos
               href: sales/sales-products.md
@@ -668,10 +670,12 @@
           href: environment/security-model.md
     - name: Novidades
       items:
-        - name: Novidades em agosto de 2022 – implantação lite
-          href: pro/whats-new/whats-new-aug-2022-lite.md
-        - name: Arquivar
+        - name: Novidades em setembro de 2022 – implantação lite
+          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: Arquivos
           items:
+            - name: Novidades em agosto de 2022 – implantação lite
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: Novidades em julho de 2022 – implantação lite
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: Novidades em junho de 2022 – implantação lite
@@ -718,7 +722,7 @@
       items:
         - name: Visão geral do processo de vendas do projeto
           href: sales/sales-overview.md
-        - name: Configurar
+        - name: Configuração
           items:
             - name: Produtos
               href: sales/sales-products.md
@@ -1180,10 +1184,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: Novidades
       items:
-        - name: Novidades em julho de 2022 – Project Operations para cenários baseados em produção/em estoque
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
-        - name: Arquivar
+        - name: Novidades em setembro de 2022 – Project Operations para cenários baseados em produção/em estoque
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: Arquivos
           items:
+            - name: Novidades em julho de 2022 – Project Operations para cenários baseados em produção/em estoque
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: Novidades em junho de 2022 – Project Operations para cenários baseados em produção/em estoque
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: Novidades em outubro de 2021 – Project Operations para cenários baseados em produção/em estoque
@@ -1436,6 +1442,10 @@
       items:
         - name: Agenda de Lançamento da Atualização do Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'Novidades ou alterações na versão de Atualização 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'Novidades ou alterações na versão de Atualização 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'Novidades ou alterações na versão de Atualização 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'Novidades ou alterações na versão de Atualização 43, V3'

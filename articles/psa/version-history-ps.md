@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295817"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621927"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>Agenda de lançamento da atualização do Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295817"
 
 | Solução  | Última versão |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Suplemento do Project Service Automation para desktop                | 3.60          |
 
 Para obter informações sobre atualizações do Project Service, consulte os [Planos de Lançamento do Dynamics 365](/dynamics365/release-plans/). 
@@ -45,30 +45,30 @@ Para obter informações sobre atualizações do Project Service, consulte os [P
 | Estação  | Região | Versão atual | Próxima versão |  Data agendada
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>Estação 1</strong> | |  |  | |
-| | <i>Primeira Versão</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 26 de agosto de 2022
+| | <i>Primeira Versão</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 07 de outubro de 2022
 |<strong>Estação 2</strong> | |  |  | |
-| | <i>América do Sul</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembro de 2022
-| | <i>Canadá</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembro de 2022
-| | <i>Índia</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembro de 2022
-| | <i>França</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembro de 2022
-| | <i>África do Sul</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembro de 2022
-| | <i>Alemanha</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembro de 2022
-| | <i>Suíça</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembro de 2022
-| | <i>Coreia do Sul</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembro de 2022
-| | <i>Noruega</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 de setembro de 2022
+| | <i>América do Sul</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 de outubro de 2022
+| | <i>Canadá</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 de outubro de 2022
+| | <i>Índia</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 de outubro de 2022
+| | <i>França</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 de outubro de 2022
+| | <i>África do Sul</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 de outubro de 2022
+| | <i>Alemanha</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 de outubro de 2022
+| | <i>Suíça</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 de outubro de 2022
+| | <i>Coreia do Sul</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 de outubro de 2022
+| | <i>Noruega</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 de outubro de 2022
 |<strong>Estação 3</strong> | |  |  | |
-| | <i>Japão</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembro de 2022
-| | <i>Pacífico Asiático</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembro de 2022
-| | <i>Grã-Bretanha</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembro de 2022
-| | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembro de 2022
-| | <i>Emirados Árabes Unidos</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 de setembro de 2022
+| | <i>Japão</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 de outubro de 2022
+| | <i>Pacífico Asiático</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 de outubro de 2022
+| | <i>Grã-Bretanha</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 de outubro de 2022
+| | <i>Oceana</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 de outubro de 2022
+| | <i>Emirados Árabes Unidos</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 de outubro de 2022
 |<strong>Estação 4</strong> | |  |  | |
-| | <i>Europa</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16 de setembro de 2022
+| | <i>Europa</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 de outubro de 2022
 |<strong>Estação 5</strong> | |  |  | |
-| | <i>América do Norte</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23 de setembro de 2022
+| | <i>América do Norte</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04 de novembro de 2022
 |<strong>Estação 6</strong> | |  |  | |
-| | <i>Nuvem da Comunidade Governamental</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21 de setembro de 2022
-| | <i>Grupos de Escala Dedicados</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30 de setembro de 2022
+| | <i>Nuvem da Comunidade Governamental</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02 de novembro de 2022
+| | <i>Grupos de Escala Dedicados</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11 de novembro de 2022
 
 
 
