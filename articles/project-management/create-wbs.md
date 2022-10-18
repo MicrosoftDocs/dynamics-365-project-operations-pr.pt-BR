@@ -6,12 +6,12 @@ ms.date: 12/16/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a947c0a44464bfad6c3bd74b0cb4fb8128924859
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 19d2dfeff39fd3c5edd5124c27134a9fe360e4d1
+ms.sourcegitcommit: 8f4841387deea2998589b7365c3373585a16cb0e
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8932052"
+ms.lasthandoff: 10/12/2022
+ms.locfileid: "9655174"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>Criar uma estrutura de detalhamento de trabalho (WBS)
 
@@ -112,6 +112,18 @@ O campo **Categoria** mantém os valores que indicam um tipo mais amplo de traba
 Você pode usar a agenda no Project Operations para criar relacionamentos antecessores entre as tarefas. O campo **Antecessor** usa um ou mais valores para indicar as tarefas das quais uma tarefa depende. Quando os valores antecessores são atribuídos a uma tarefa, a tarefa pode ser iniciada apenas depois que todas as tarefas predecessoras tiverem sido concluídas. Devido à dependência, a data de início planejada da tarefa é redefinida para a data quando as tarefas predecessoras são concluídas.
 
 O modo de tarefa não tem efeito em atualizações que são feitas nas datas de início e término das tarefas predecessoras/dependentes.
+
+## <a name="understanding-the-impacts-of-duration-resource-calendars-and-project-calendars-on-tasks"></a>Compreender os impactos da duração, calendários de recursos e calendários de projetos nas tarefas
+A duração de uma tarefa é definida como o número de horas de trabalho entre a hora de início da data de início e a hora de término da data de término da tarefa.   O Project for the web define as unidades de medida de duração da seguinte forma:
+
+| **Medida de Duração** | **Quantidade**|
+|----------------------------------------------------|----------------------|
+| Horas por dia | 8 |
+| Horas por semana |  40 |
+| Dias por mês |  20 |
+
+As tarefas não atribuídas são agendadas usando o calendário do projeto. No entanto, na atribuição inicial do recurso, o agendamento de uma tarefa é atualizado para que respeite o calendário do recurso. Alterações subsequentes em uma tarefa que tenha uma atribuição serão regidas pelo [modo de agendamento](scheduling-modes.md) do projeto. Para saber mais sobre a influência dos calendários nas tarefas, consulte [Calendários de Recursos no Project for the Web](https://techcommunity.microsoft.com/t5/project-blog/resource-calendars-in-project-for-the-web/ba-p/3269686) e [ Horários de Início das Tarefas e seus Projetos!](https://techcommunity.microsoft.com/t5/project-blog/task-start-times-amp-your-projects/ba-p/3269665)
+
 
 ## <a name="accessibility-and-keyboard-shortcuts"></a>Acessibilidade e atalhos de teclado
 
