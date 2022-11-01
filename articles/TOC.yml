@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: Como posso personalizar o fluxo do processo empresarial dos Estágios do Projeto?
               href: psa/FAQ-customize-bpf.md
-            - name: Considerações sobre atualização para a estrutura de detalhamento de trabalho
-              href: psa/upgrade-considerations-tasks.md
         - name: White papers
           href: psa/white-papers.md
         - name: Guia do administrador
