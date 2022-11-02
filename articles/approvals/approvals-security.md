@@ -6,12 +6,12 @@ ms.date: 08/29/2022
 ms.topic: security
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: bc33f63f66bdcf1470e5d9386cfc3661774436fd
-ms.sourcegitcommit: b2d05f898daa552179d67fdf4c060c93a9c66bd1
+ms.openlocfilehash: 0dcadaa142bf46e4c54f160759602ac749022108
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 09/16/2022
-ms.locfileid: "9525352"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709383"
 ---
 # <a name="security-and-approvals"></a>Segurança e aprovações
 
@@ -33,6 +33,6 @@ Para aprovar entradas que não são de projeto, você deve ser o gerente do reme
 > [!NOTE]
 > O recurso dos [Conjuntos de aprovação](approval-sets.md) precisa ser habilitado para você poder usar a funcionalidade do Administrador do Aprovador do Projeto.
 
-O direito de acesso do **Administrador do Aprovador do Projeto** permite que os usuários ignorem políticas e aprovem entradas em todos os projetos. A atribuição dessa função ignora a lógica de validação que exige a associação à equipe e a marcação como aprovador. É necessário ter acesso às entidades relacionadas, como **Projeto**. Esse acesso pode ser atribuído por alguém com a função **Gerente de projeto**.
+O direito de acesso do **Administrador do Aprovador do Projeto** permite que os usuários ignorem políticas e aprovem entradas em todos os projetos. A atribuição dessa função ignora a lógica de validação que exige a associação à equipe e a marcação como aprovador. Você deve ter acesso às tabelas relacionadas relevantes, como **Projeto**, por meio de direitos de acesso atribuídos a você.
 
 O contexto de usuário do SISTEMA ignora as validações da mesma forma que o direito de acesso de Administrador do Aprovador do Projeto.
