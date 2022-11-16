@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
-ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
+ms.openlocfilehash: ac2435c99f3aa9b2a6cdb08d7ce5f6628e7f6ac4
+ms.sourcegitcommit: bea5f9b4066277344add1da3a1567ed56a0cfd31
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 10/20/2022
-ms.locfileid: "9709430"
+ms.lasthandoff: 11/02/2022
+ms.locfileid: "9736652"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>Atualizar do Project Service Automation para o Project Operations
 
@@ -97,7 +97,7 @@ Depois de atualizar suas personalizações para importar o Project Operations de
     Dependendo da quantidade de dados no ambiente, a atualização pode levar várias horas. A equipe principal que está gerenciando a atualização deve planejar adequadamente e executar a atualização fora do horário comercial. Em alguns casos, se o volume de dados for grande, a atualização deve ser executada durante o fim de semana. A decisão sobre o agendamento deve ser baseada nos resultados dos testes em ambientes inferiores.
 
 3. Atualize soluções personalizadas quando apropriado. Nesse momento, implante todas as alterações feitas em suas personalizações na seção [Teste e refatoração de personalizações](#testing-and-refactoring-customizations) deste artigo.
-4. Acesse **Configurações** \> **Soluções** e selecione desinstalar a solução **Componentes Preteridos do Project Operations**.
+4. Acesse **make.powerapps.com**, selecione seu ambiente no menu suspenso na parte superior direita do portal, selecione **Soluções** no menu esquerdo, selecione a solução **Componentes Preteridos do Project Operations** e **Desinstalar**.
 
     Esta solução é uma solução temporária que mantém o modelo de dados existente e os componentes presentes durante a atualização. Ao remover esta solução, você remove todos os campos e componentes que não são mais usados. Dessa forma, você ajuda a simplificar a interface e facilita a integração e a extensão.
     
