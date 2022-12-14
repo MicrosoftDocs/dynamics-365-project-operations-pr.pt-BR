@@ -1,21 +1,21 @@
 ---
-title: Estimando uma linha de cotação baseada no projeto
-description: Este artigo fornece informações sobre como criar uma estimativa em uma linha de cotação baseada em projeto.
+title: Estimar uma linha de cotação do projeto
+description: Este artigo fornece informações sobre como criar uma estimativa em uma linha de cotação de projeto.
 author: rumant
 ms.date: 04/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2a8aa2971431cd1f2082c8fc80db1438be185f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: bac3a3fa2d14c857edfb469a005406c346c8dbf6
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914342"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825973"
 ---
-# <a name="estimating-a-project-based-quote-line"></a>Estimando uma linha de cotação baseada no projeto
+# <a name="estimate-a-project-quote-line"></a>Estimar uma linha de cotação do projeto
 
-_**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
+_**Aplica-se a:** Implantação lite - gerenciar faturamento pro forma, Project Operations para cenários com base em recursos/sem estoque_
 
 Uma linha de cotação baseada no projeto contém detalhes que ajudam a estimar o custo e a receita potencial do trabalho envolvido para entregar a linha de cotação.
 
@@ -24,7 +24,7 @@ Para estimar uma linha de cotação baseada no projeto, na linha de cotação ba
 - Criar manualmente a estimativa diretamente na linha de cotação usando os detalhes da linha de cotação. 
 - Criar um projeto e um plano de projeto e, em seguida, associe o projeto e as tarefas no projeto à linha de cotação. O processo de importação das estimativas no plano do projeto para a linha de cotação com base nas informações fornecidas será habilitado.
 
-## <a name="create-estimates-directly-on-a-project-based-quote-line"></a>Criar estimativas diretamente em uma linha de cotação baseada no projeto
+## <a name="create-estimates-directly-on-a-project-quote-line"></a>Criar estimativas diretamente em uma linha de cotação de projeto
 
 Para criar uma estimativa em uma linha de cotação baseada no projeto, selecione a guia **Detalhe da Linha de Cotação**. O item de linha que você criar nesta guia resumirá o valor cotado para esta linha de cotação. 
 
@@ -68,8 +68,7 @@ A moeda no detalhe da linha de cotação para os padrões de custo da lista de p
 
 Os cálculos de lucratividade convertem o valor dos detalhes da linha de cotação para custos e vendas na moeda base do ambiente para relatar a margem estimada geral da cotação.
 
-> [!OBSERVAÇÃO
-> > Erros de arredondamento de moeda e margens alteradas podem ocorrer devido à falta de taxas de câmbio efetivas de data. Use esses cálculos apenas nos contratos do projeto, pois são aproximações e não são estatutários reais ou outros relatórios que exigem maior precisão de arredondamento e consciência da data efetiva para as taxas de câmbio.
+> [OBSERVAÇÃO: erros de arredondamento de moeda e margens alteradas podem ocorrer devido à falta de taxas de câmbio efetivas de data. Use esses cálculos apenas nos contratos do projeto, pois são aproximações e não são estatutários reais ou outros relatórios que exigem maior precisão de arredondamento e consciência da data efetiva para as taxas de câmbio.
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
