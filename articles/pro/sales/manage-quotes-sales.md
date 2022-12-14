@@ -6,12 +6,12 @@ ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 79da23d83133241204eaad44e39e64c5c6a1591d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8911628"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9826067"
 ---
 # <a name="manage-project-quotes"></a>Gerenciar cotações de projeto
 
@@ -23,7 +23,7 @@ No Dynamics 365 Project Operations, as cotações do projeto visam ajudar a cria
   - Detalhes da linha de cotação que identificam e estimam o trabalho para cada componente de alto nível ou linha de cotação. As estimativas de agenda ou data e os aspectos financeiros do trabalho são vinculados a essa linha de cotação.
   - Modelos de contratação e componentes cobráveis são configurados para cada linha de cotação. Essa configuração ajuda a estimar a distribuição de receita, gastos e lucratividade para cada linha de cotação e a cotação geral.
 
-## <a name="view-all-project-based-quotes"></a>Exibir todas as cotações baseadas em projeto
+## <a name="view-all-project-quotes"></a>Exibir todas as cotações de projeto
 
 Uma lista de todas as cotações do projeto pode ser vista na página de listagem **Cotações**. 
 

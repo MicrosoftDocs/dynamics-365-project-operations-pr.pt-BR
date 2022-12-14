@@ -1,23 +1,23 @@
 ---
-title: Gerenciar vários clientes em linhas de cotação baseadas em projeto - lite
-description: Este artigo descreve como gerenciar vários clientes em linhas de cotação baseadas em projeto,
+title: Gerenciar vários clientes em linhas de cotação de projeto
+description: Este artigo descreve como gerenciar vários clientes em linhas de cotação de projeto.
 author: rumant
 ms.date: 10/06/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fbd0c17de3de8dc4cd84860851fb5837b86586cd
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 70007499ea61e7d81df071cc6d003896d721555b
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8927774"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824424"
 ---
-# <a name="manage-multiple-customers-on-project-based-quote-lines---lite"></a>Gerenciar vários clientes em linhas de cotação baseadas em projeto - lite
+# <a name="manage-multiple-customers-on-project-quote-lines"></a>Gerenciar vários clientes em linhas de cotação de projeto
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-As linhas de cotação baseadas em projeto suportam cenários em que cada linha de cotação tem uma lista de clientes que estão pagando por ela. Esta lista de clientes na linha de cotação baseada em projeto pode ser igual à lista de clientes na cotação. Você também pode alterar a lista de clientes para ser diferente. Quando uma cotação de projeto é ganha, a lista de clientes na linha de cotação baseada em projeto é copiada para a linha de contrato baseada em projeto correspondente para criar o contrato de projeto eventual. Os clientes na cotação baseada em projeto são copiados para o contrato do projeto.
+As linhas de cotação de projeto oferecem suporte a cenários em que cada linha de cotação tem uma lista de clientes que estão pagando por ela. Esta lista de clientes na linha de cotação baseada em projeto pode ser igual à lista de clientes na cotação. Você também pode alterar a lista de clientes para ser diferente. Quando uma cotação de projeto é ganha, a lista de clientes na linha de cotação baseada em projeto é copiada para a linha de contrato baseada em projeto correspondente para criar o contrato de projeto eventual. Os clientes na cotação baseada em projeto são copiados para o contrato do projeto.
 
 Quando você fatura o eventual contrato do projeto, a lista de clientes na linha do contrato com base no projeto tem prioridade sobre a lista no contrato do projeto. A lista de clientes no contrato de projeto é usada apenas para padrões em novas linhas de contrato de projeto.
 

@@ -1,19 +1,19 @@
 ---
-title: Gerenciar oportunidades baseadas em projetos
+title: Gerenciar oportunidades de projeto
 description: Este artigo fornece informações sobre como trabalhar com oportunidades relacionadas a projetos.
 author: rumant
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 29e5a2c91186021eee9bb23aba3d42228fcd9381
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 56eba38476dd5b49f0043eee5d411d51f9bf56b8
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8933202"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825262"
 ---
-# <a name="manage-project-based-opportunities"></a>Gerenciar oportunidades baseadas em projetos
+# <a name="manage-project-opportunities"></a>Gerenciar oportunidades de projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 

@@ -1,29 +1,29 @@
 ---
-title: Linhas de oportunidade baseadas no projeto - lite
+title: Linhas de oportunidade do projeto
 description: Este artigo fornece informações sobre linhas de oportunidade baseadas no projeto. (Pro)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b5a8fc32ca903d7da2e090137bed358b364902a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: e4f67bd9b7d51559e2942e9005b8f5f9187b1f78
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914250"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824941"
 ---
-# <a name="project-based-opportunity-lines---lite"></a>Linhas de oportunidade baseadas no projeto - lite
+# <a name="project-opportunity-lines"></a>Linhas de oportunidade do projeto 
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-As linhas de oportunidade baseadas em projeto estão disponíveis apenas em oportunidades baseadas em projeto. Os registros de oportunidade baseados em projeto têm o valor do campo **Tipo** definido como **Baseado em trabalho**.
+As linhas de oportunidade do projeto estão disponíveis apenas em oportunidades baseadas em projeto. Os registros de oportunidade baseados em projeto têm o valor do campo **Tipo** definido como **Baseado em trabalho**.
 
-Linhas de oportunidade baseadas em projeto são os itens de linha que serão entregues ao cliente por meio de um projeto. No entanto, não é possível vincular um projeto a uma linha de oportunidade baseada em projeto. Os projetos podem ser vinculados a itens de linha do estágio **Cotação** em diante porque normalmente a oportunidade está em um estágio inicial no ciclo de vida de uma transação. A determinação de quantos projetos serão usados para entregar o trabalho para o cliente é uma decisão tomada posteriormente na fase de vendas. Você pode usar a fase de oportunidade para identificar os componentes discretos de entrega para o cliente. As decisões a respeito do número real de projetos usados para entregar esses componentes podem ser postergadas até que mais informações sejam conhecidas sobre o trabalho em si.
+Linhas de oportunidade do projeto são os itens de linha que serão entregues ao cliente por meio de um projeto. No entanto, não é possível vincular um projeto a uma linha de oportunidade baseada em projeto. Os projetos podem ser vinculados a itens de linha do estágio **Cotação** em diante porque normalmente a oportunidade está em um estágio inicial no ciclo de vida de uma transação. A determinação de quantos projetos serão usados para entregar o trabalho para o cliente é uma decisão tomada posteriormente na fase de vendas. Você pode usar a fase de oportunidade para identificar os componentes discretos de entrega para o cliente. As decisões a respeito do número real de projetos usados para entregar esses componentes podem ser postergadas até que mais informações sejam conhecidas sobre o trabalho em si.
 
-Veja abaixo os campos em uma linha de oportunidade baseada em projeto:
+Veja abaixo os campos em uma linha de oportunidade do projeto:
 
-| **Campo** | **Local** | **Descrição** | **Impacto a jusante** |
+| **Campo** | **Location** | **Descrição** | **Impacto a jusante** |
 | --- | --- | --- | --- |
 | Tipo de Produto | Guia geral (oculta) | É possível selecionar uma das seguintes opções:</br>- Serviço baseado em projeto (disponível somente quando o Dynamics 365 Project Operations está instalado)</br>- Produto (disponível apenas quando o Project Operations e o Dynamics 365 Sales estão instalados) | O valor deste campo é definido como **Serviço baseado em projeto** ao criar uma linha de oportunidade baseada em projeto a partir da grade de linhas baseadas em projeto na Oportunidade. <br> Se você alterar ou substituir este valor, a funcionalidade do projeto não será habilitada nos itens de linha baseados em projeto. |
 | Oportunidade | Guia Geral | Este campo é somente leitura e faz referência ao Registro de oportunidade pai ao qual este item de linha pertence. | Não há impacto a jusante deste campo. |

@@ -1,32 +1,32 @@
 ---
-title: Estimar uma linha de contrato baseada no projeto - lite
+title: Estimar uma linha de contrato do projeto
 description: Este artigo fornece informações sobre como estimar uma linha de contrato baseada em projeto.
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8b4379cc5822d08b55623f0f3d4d49791af90927
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 86872aa58067f55243fa19dc865971f76660f594
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914388"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824753"
 ---
-# <a name="estimate-a-projectbased-contract-line---lite"></a>Estimar uma linha de contrato baseada no projeto - lite
+# <a name="estimate-a-project-contract-line"></a>Estimar uma linha de contrato do projeto
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-No Dynamics 365 Project Operations, uma linha de contrato baseada em projeto tem detalhes que ajudam a estimar o custo e a receita potencial do trabalho envolvido para fornecer a linha de contrato.
+No Dynamics 365 Project Operations, uma linha de contrato do projeto tem detalhes que ajudam a estimar o custo e a receita potencial do trabalho envolvido para fornecer a linha de contrato.
 
-Para estimar uma linha de contrato baseada no projeto, vá para a guia **Detalhe da Linha de Contrato** na **Linha de Contrato** baseada no projeto.  Existem duas maneiras de criar uma estimativa em uma linha de contrato baseada em projeto:
+Para estimar uma linha de contrato do projeto, vá para a guia **Detalhe da Linha de Contrato** na **Linha de Contrato** baseada no projeto.  Existem duas maneiras de criar uma estimativa em uma linha de contrato baseada em projeto:
 
    - Crie uma estimativa diretamente na linha do contrato, adicionando manualmente os detalhes da linha do contrato.
    - Crie um projeto e um plano de projeto e, em seguida, associe o projeto e as tarefas à linha de contrato do projeto. Isso permite o processo pelo qual você pode importar a estimativa do plano do projeto para a linha do contrato baseada nos componentes incluídos na linha do contrato.
 
 ## <a name="create-an-estimation-directly-on-a-projectbased-contract-line"></a>Criar uma estimativa diretamente em uma linha de contrato baseada em projeto
 
-Para criar uma estimativa diretamente em uma linha de contrato baseada em projeto, siga estas etapas:
+Para criar uma estimativa diretamente em uma linha de contrato do projeto, siga estas etapas:
 
 1. Vá para a linha do contrato e selecione a guia **Detalhe da Linha de Contrato**. As linhas que você cria nesta guia são resumidas e exibidas como o **Valor Contratado** por esta **Linha de Contrato**. 
 2. Na subgrade **Detalhes da Linha do Contrato**, selecione **+ Novo Detalhe de Linha de Contrato**. Um controle deslizante de criação rápida é aberto. Os seguintes campos estão disponíveis na página **Detalhes da Linha de Contrato**.

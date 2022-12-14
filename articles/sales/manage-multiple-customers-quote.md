@@ -1,23 +1,23 @@
 ---
-title: Gerenciar vários clientes em uma cotação de projeto
+title: Gerenciar vários clientes em uma cotação baseada em projeto
 description: Este artigo fornece informações sobre como trabalhar em cotações que envolvem vários clientes que financiarão o projeto.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 16cd07527fddd093748a18c1f7c900c8b32be85d
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7b9c82ababdb9a588a0d28cae60a49d0594378d9
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928188"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825134"
 ---
-# <a name="manage-multiple-customers-on-a-project-quote"></a>Gerenciar vários clientes em uma cotação de projeto
+# <a name="manage-multiple-customers-on-a-project-based-quote"></a>Gerenciar vários clientes em uma cotação baseada em projeto
 
-_**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
+_**Aplicável A:** Project Operations para cenários baseados em recursos/sem estoque_
 
-As cotações de projeto viabilizam o cenário em que a proposta envolve vários clientes que financiarão o negócio. A guia **Resumo** da cotação tem o campo **Cliente potencial**, que identifica o cliente principal da oferta. Outros clientes do negócio podem ser configurados na guia **Clientes** da cotação do projeto.
+As cotações baseadas em projeto viabilizam o cenário em que a proposta envolve vários clientes que financiarão o negócio. A guia **Resumo** da cotação tem o campo **Cliente potencial**, que identifica o cliente principal da oferta. Outros clientes do negócio podem ser configurados na guia **Clientes** da cotação do projeto.
 
 Todos os clientes de cotação na guia **Clientes** do padrão de cotação do projeto como clientes da linha de cotação em qualquer **nova** linha de cotação baseada em projeto criada para a cotação. Quaisquer linhas de cotação baseadas em projeto existentes não herdam novos registros de cliente de cotação criados depois delas.
 

@@ -1,23 +1,23 @@
 ---
-title: Mapear projetos e tarefas para uma linha de cotação baseada em projeto
-description: Este artigo fornece informações sobre como mapear projetos e tarefas para uma linha de tarefas baseadas em projeto.
+title: Mapear projetos e tarefas para linhas de cotação de projeto
+description: Este artigo fornece informações sobre como mapear projetos e tarefas para linhas de cotação de projeto.
 author: rumant
 ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 8971a334bd19f0ef106f88034a1abbb3c338de22
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b276e7fb6ec8b98188c9396aca5092d19848afcc
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917148"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824194"
 ---
-# <a name="map-projects-and-tasks-to-a-project-based-quote-line"></a>Mapear projetos e tarefas para uma linha de cotação baseada em projeto
+# <a name="map-projects-and-tasks-to-project-quote-lines"></a>Mapear projetos e tarefas para linhas de cotação de projeto
 
 _**Aplica-se a:** operações de projeto para cenários baseados em recursos/não estocados, implantação Lite - transação para faturamento pro forma_
 
-Em linhas de cotação baseadas em projeto, você pode mapear as tarefas específicas de um projeto que já está associado a uma linha de cotação.
+Em linhas de cotação de projeto, você pode mapear as tarefas específicas de um projeto que já está associado a uma linha de cotação.
 
 Quando você mapeia tarefas para uma linha de cotação, os seguintes itens definidos na linha de cotação só se aplicam a essas tarefas:
 

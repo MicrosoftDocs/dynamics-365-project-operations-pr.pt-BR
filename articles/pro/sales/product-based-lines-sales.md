@@ -1,24 +1,24 @@
 ---
-title: Linhas de oportunidade baseadas em produto - lite
-description: Este artigo fornece informações sobre itens de linha de oportunidade baseados em produto no Project Operations.
+title: Linhas de oportunidade do produto
+description: Este artigo fornece informações sobre itens de oportunidade do produto no Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2e19b371c6e821aecce38d64392db9c027b17106
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 22dd55854f6ab6014021fb073ebed8d4d8b7b4c7
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8917102"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824989"
 ---
-# <a name="product-based-opportunity-lines---lite"></a>Linhas de oportunidade baseadas em produto - lite
+# <a name="product-opportunity-lines"></a>Linhas de oportunidade do produto
 
 _**Aplica-se a:** Implantação leve - gerenciar faturamento pro forma_
 
-As linhas de oportunidade baseadas em produto são itens de linha na Oportunidade. Esses itens de linha distintos estão na eventual fatura fornecida ao cliente. A fatura não inclui qualquer outro serviço. O gasto e o consumo associados não são controlados nas tarefas de qualquer projeto relacionado.
+Linhas de oportunidade de produto são itens de linha na oportunidade que não fazem referência a um projeto. Esses itens de linha distintos estão na eventual fatura fornecida ao cliente. A fatura não inclui qualquer outro serviço. O gasto e o consumo associados não são controlados nas tarefas de qualquer projeto relacionado.
 
 As linhas baseadas em produtos podem ser itens de catálogo ou produtos escritos. A maior parte da funcionalidade nas linhas baseadas no produto de uma Oportunidade segue a funcionalidade fornecida pelo aplicativo Dynamics 365 Sales. Para obter mais informações sobre linhas de oportunidade baseadas em produtos, consulte [Adicione produtos a uma oportunidade](/dynamics365/sales-enterprise/add-products-opportunity).
 

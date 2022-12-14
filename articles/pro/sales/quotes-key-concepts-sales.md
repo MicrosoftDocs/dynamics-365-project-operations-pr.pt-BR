@@ -1,17 +1,17 @@
 ---
-title: Cotações - Conceitos-chave - lite
+title: Conceitos exclusivos de Cotações de projeto
 description: Este artigo fornece informações sobre como usar cotações do projeto no Project Operations.
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a8c2f009b7a0bebbf6a49bf942dd19f97205072e
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7f0a33f1d7d77f3b5aebfdcf8e6aeb14072cd596
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8916964"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825879"
 ---
 # <a name="concepts-unique-to-project-quotes"></a>Conceitos exclusivos de Cotações de projeto
 
@@ -82,9 +82,13 @@ Os agendamentos de faturas são específicos para cada linha de cotação e tamb
 
 As cotações do Project Operations são baseadas nas cotações do Dynamics 365 Sales. No entanto, você precisa estar ciente de algumas diferenças importantes na funcionalidade:
 
-- As ações **Revisar** e **Ativar** não são compatíveis.
+
 - As cotações do Project Operations têm dois tipos diferentes de linhas. Uma é para projetos e a outra é para produtos.
 - As cotações do Project Operations têm seu próprio formulário e elementos de interface do usuário, regras de negócios, lógica de negócios em plug-ins e scripts do lado do cliente que as tornam exclusivas das cotações do Sales.
+- As cotações de vendas permitem anexar vários pedidos a uma cotação de vendas. No Project Operations, apenas um contrato de projeto pode ser anexado a uma cotação de projeto.
+- Quando você ganha uma cotação de venda, a oportunidade relacionada pode permanecer aberta. Depois que uma cotação de projeto é ganha, a oportunidade relacionada é fechada.
+- Uma cotação de vendas não inclui alguns campos e conceitos incluídos em uma cotação de projeto. Os campos incluem **Unidade de Contratação**, **Gerente de Contas** e **Nome do Contato para Cobrança**.  
+- **Tipo**: as cotações de vendas e de projeto também são identificadas pelo campo baseado no conjunto de opções chamado **Tipo**. Para uma cotação de vendas, esse campo tem o valor **Com base no item**. Para uma cotação de projeto, ele tem o valor **Com base no trabalho**.
 
 Por esses motivos, não é recomendável usar uma cotação do Sales e uma cotação do Project Operations de forma intercambiável.
 

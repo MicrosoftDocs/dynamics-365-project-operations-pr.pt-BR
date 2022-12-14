@@ -1,19 +1,19 @@
 ---
-title: Gerenciar vários clientes em contratos de projeto
-description: Este artigo fornece informações sobre como gerenciar vários clientes em um contrato de projeto.
+title: Gerenciar vários clientes em contratos baseados em projetos
+description: Este artigo fornece informações sobre como gerenciar vários clientes em um contrato baseado em projeto.
 author: rumant
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 78ee117c1068e7af4674cc3b21e1055fd05bb43a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 1aae178830d7b671c33295ca6d2910ee4be2f8dd
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: pt-BR
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928326"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9825364"
 ---
-# <a name="manage-multiple-customers-on-project-contracts"></a>Gerenciar vários clientes em contratos de projeto
+# <a name="manage-multiple-customers-on-project-based-contracts"></a>Gerenciar vários clientes em contratos baseados em projetos
 
 Este artigo fornece informações sobre como gerenciar vários clientes em um contrato de projeto. Você pode usar um contrato de projeto quando um acordo contratual para vários clientes é necessário para financiar um negócio. Na página **Contrato do Projeto**, a guia **Resumo** inclui informações sobre o cliente principal de um negócio. Outros clientes que participam do negócio podem ser adicionados à guia **Clientes**.
 
