@@ -840,13 +840,13 @@
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: Copiar contratos do projeto
               href: pro/sales/copy-project-contracts-sales.md
-            - name: Confirmar um contrato do projeto
+            - name: Confirmar um contrato de projeto
               href: pro/sales/confirm-contract-sales.md
             - name: Adiantamentos e honorários
               items:
                 - name: Contratos baseados em adiantamentos e honorários
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: Configurar um agendamento de honoráriosConfigurar um agendamento de honorários
+                - name: Configurar uma agenda de honorários
                   href: pro/sales/set-up-schedule-retainers-sales.md
                 - name: Criar um adiantamento ad hoc em um contrato do projeto
                   href: pro/sales/create-ad-hoc-advance-sales.md
@@ -1162,7 +1162,7 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: Configurar automação de fatura do projeto
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-    - name: Atualizar
+    - name: Upgrade
       items:
         - name: Considerações de atualização para aprovações modernas
           href: upgrade/upgrade-considerations-modern-approvals.md
